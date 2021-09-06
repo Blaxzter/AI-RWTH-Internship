@@ -58,3 +58,6 @@ Talks about a method of finding less frequent log patterns using PCA
 
 `Furthermore, system breaches can be more easily identified by using security warning logs.`
 `One popular use for application log analysis is anomaly detection.`  
+
+
+## [Online System Problem Detection by Mining Patterns of Console Logs](https://ieeexplore.ieee.org/abstract/document/5360285?casa_token=9RSaCnMCKasAAAAA:nSTgb22paHWNcd7m7aR2uBiBHsNuzqDK0zK9zrX5QgNYrUJ7PKCqxDhrGJXM1cyWt3FYQqEV)
