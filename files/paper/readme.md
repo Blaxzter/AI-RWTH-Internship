@@ -60,4 +60,27 @@ Talks about a method of finding less frequent log patterns using PCA
 `One popular use for application log analysis is anomaly detection.`  
 
 
+## [Combining K-Means and XGBoost Models for Anomaly Detection Using Log Datasets](https://www.mdpi.com/2079-9292/9/7/1164)
+
+### Quotes
+
+`By definition, an anomaly is an outlying observation that appears to deviate markedly from other members`
+
 ## [Online System Problem Detection by Mining Patterns of Console Logs](https://ieeexplore.ieee.org/abstract/document/5360285?casa_token=9RSaCnMCKasAAAAA:nSTgb22paHWNcd7m7aR2uBiBHsNuzqDK0zK9zrX5QgNYrUJ7PKCqxDhrGJXM1cyWt3FYQqEV)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
