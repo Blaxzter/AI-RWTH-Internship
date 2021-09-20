@@ -47,7 +47,14 @@ COF: Chaning distance (`which can be viewed as the shortest path connecting the 
 Local Correlation Integral (LOCI): Calculate point based distance density (MDEF) and the standard deviation.. If MDEF > 3 * lambda MDEF then outlier... O(n^3) no parameter for k in k-NN  
 Influenced Outlierness (INFLO): The k-RNN is `the set of other instances whose k-nearest neighborhood includes p.` LOF fails to appropriately score the instances on the borders of clusters with significantly different densities. Therfore the k-RNN inclusion   
 LocalOutlier Probability (LoOP): It is assumed that a data point p is at the center of its neighborhood, and the distances to its k-NN follow a half-Gaussian distribution
- 
+
+# [Outlier Detection Using Replicator Neural Networks](https://link.springer.com/chapter/10.1007/3-540-46145-0_17)
+Paper that uses AE or in their terms RNN Replicatior Neural Networks to calculate a outlier score based on the mean square error.   
+Shown with 2 data sets 1999 KDD Cup network and Wisconsin Breast Cancer Dataset.  
+They had do split the log data into respective categories and combine some fields.   
+Their network is relativly small compared to modern aproaches..
+
+
 # [LogMine: Fast Pattern Recognition for Log Analytics](https://dl.acm.org/doi/abs/10.1145/2983323.2983358?casa_token=TUDwpnFeE4kAAAAA%3AtguThY1z7Q1x94ryHZ0p4p0KN03XGetfulfaxbONmr9gBaAK9kPxEz0n3o2bfDikaxJSHTfBJmpx)
 
 A log analyzer must have a `recognize` and a `match` component for patterns to identify events and anomalies.
