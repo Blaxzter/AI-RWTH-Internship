@@ -1,0 +1,1367 @@
+M,AI/src/heuristics/HeuristicEnsemble.java,DennisSoemers,20191216-115147
+M,AI/src/heuristics/LineCompletionHeuristic.java,DennisSoemers,20191216-115147
+M,Common/res/lud/board/space/line/Yavalath.lud,DennisSoemers,20191216-115147
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191216-115810
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191216-115810
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191216-121736
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191216-121736
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191216-122709
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191216-122709
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191216-123956
+M,Core/src/game/Game.java,eric.piette,20191216-124636
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191216-124834
+M,AI/src/heuristics/LineCompletionHeuristic.java,DennisSoemers,20191216-125341
+M,Common/src/main/MathRoutines.java,DennisSoemers,20191216-125341
+M,Player/src/player/Referee.java,DennisSoemers,20191216-133722
+M,Player/src/player/Referee.java,DennisSoemers,20191216-133829
+M,Core/src/util/Trial.java,Matthew.Stephenson,20191216-135343
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191216-135343
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-142428
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191216-142428
+M,Common/src/main/Constants.java,mrrao,20191216-132610
+M,Core/src/util/state/State.java,mrrao,20191216-132610
+M,Core/src/util/zhash/HashedBitSet.java,mrrao,20191216-132610
+M,Player/rulesLudii.txt,mrrao,20191216-132610
+M,Player/test/hashes/HashTests.java,mrrao,20191216-132610
+M,Core/src/game/functions/ints/PlayerTurn.java,DennisSoemers,20191216-150650
+M,Evaluation/src/analysis/Complexity.java,DennisSoemers,20191216-150952
+M,Core/src/util/state/State.java,DennisSoemers,20191216-152911
+M,Evaluation/src/analysis/Complexity.java,DennisSoemers,20191216-154617
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-163502
+M,Evaluation/src/analysis/Complexity.java,Dennis Soemers,20191216-165913
+M,AI/src/heuristics/HeuristicEnsemble.java,eric.piette,20191216-171911
+A,AI/src/heuristics/LineCompletionHeuristic.java,eric.piette,20191216-171911
+M,AI/src/search/flat/FlatMonteCarlo.java,eric.piette,20191216-171911
+M,AI/src/utils/AIFactory.java,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Byeong.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Cha.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Cho.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Han.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Jol.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Ma.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Po.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Sa.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/Janggi/Sang.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/crab-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/crab.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dog-old.svg,eric.piette,20191216-171911
+M,Common/res/img/svg/animals/dog.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dragon-1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dragon-2.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dragon-3.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dragon-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/dragon.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/duck-6.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/hare-1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/hare-2.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/hare-3.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/hare-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/hare.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar-1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar-2.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar-3.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar-4.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/jaguar.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/lamb-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/lamb.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/monkey-2.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/monkey-3.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/monkey-3a.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/monkey-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/monkey.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/puma-1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/puma-2.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/puma-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/puma.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/snake-1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/snake-old.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/animals/snake.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/bad/crab-3.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/amazon.svg,eric.piette,20191216-171911
+M,Common/res/img/svg/fairyChess/boat.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/boat_alt1.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/chariot.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/chatauranga_bishop.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/chatauranga_king.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/commoner.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/knight_queen.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Blt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Cet45.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Flt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Glt45.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Glt45a.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Mlt45.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_Wlt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_alt45.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_clt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_hlt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_nilt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Chess_vlt26.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/Commoner_Transparent.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/todo/janus.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/unicorn.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/fairyChess/zebra.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/misc/octagon.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/0B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/1B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/2B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/3B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/4B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/5B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/6B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/7B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/8B.svg,eric.piette,20191216-171911
+A,Common/res/img/svg/numbers/9B.svg,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/chess/Amazon Chess.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/chess/Horde Chess.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/chess/Loop Chess.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/chess/Los Alamos chess.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/chess/Maharajah Chess.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Awithlaknannai.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Dash-guti.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Egara Guti.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Felli.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Four Field Kono.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Gol-skuish.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Konane.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Lau Kata Kati.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/leaping/other/Pretwa.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/mancala/two_rows/En Gehe.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/mancala/two_rows/Kara.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/mancala/two_rows/Meusueb.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Atari Go.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Castello.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Fanorona.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/L'attaque.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Mehen.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Press Ups.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Seega.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Stratego.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/other/Surakarta.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/shogi/Minishogi.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20191216-171911
+A,Common/res/lud/board/chase/hunt/Merimueng-rimueng-do.lud,eric.piette,20191216-171911
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,eric.piette,20191216-171911
+M,Common/res/lud/board/space/line/Yavalath.lud,eric.piette,20191216-171911
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20191216-171911
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20191216-171911
+A,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20191216-171911
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-171911
+M,Common/src/graphics/svg/SVGop.java,eric.piette,20191216-171911
+M,Common/src/graphics/svg/SVGtoImage.java,eric.piette,20191216-171911
+M,Common/src/main/Constants.java,eric.piette,20191216-171911
+M,Common/src/main/EloCalculations.java,eric.piette,20191216-171911
+M,Common/src/main/FileHandling.java,eric.piette,20191216-171911
+M,Common/src/main/MathRoutines.java,eric.piette,20191216-171911
+M,Core/src/game/Game.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/component/Component.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/component/Piece.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/board/LimpingBoard.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/board/custom/ShogiBoard.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/board/tiling/ShibumiSquare.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,eric.piette,20191216-171911
+M,Core/src/game/equipment/container/tiling/directions/ShibumiDirection.java,eric.piette,20191216-171911
+A,Core/src/game/functions/booleans/Exists.java,eric.piette,20191216-171911
+M,Core/src/game/functions/booleans/IsPending.java,eric.piette,20191216-171911
+M,Core/src/game/functions/booleans/Line.java,eric.piette,20191216-171911
+M,Core/src/game/functions/booleans/Visited.java,eric.piette,20191216-171911
+M,Core/src/game/functions/region/Side.java,eric.piette,20191216-171911
+M,Core/src/graph/Vertex.java,eric.piette,20191216-171911
+M,Core/src/util/AI.java,eric.piette,20191216-171911
+M,Core/src/util/Trial.java,eric.piette,20191216-171911
+M,Core/src/util/state/State.java,eric.piette,20191216-171911
+M,Core/src/util/zhash/HashedBitSet.java,eric.piette,20191216-171911
+M,Grammar/src/compiler/Compiler.java,eric.piette,20191216-171911
+M,Grammar/src/generator/Grammar.java,eric.piette,20191216-171911
+M,Player/src/mainView/MainView.java,eric.piette,20191216-171911
+M,Player/src/mainView/button/ButtonBack.java,eric.piette,20191216-171911
+M,Player/src/mainView/button/ButtonEnd.java,eric.piette,20191216-171911
+M,Player/src/mainView/button/ButtonForward.java,eric.piette,20191216-171911
+M,Player/src/mainView/button/ButtonStart.java,eric.piette,20191216-171911
+M,Player/src/mainView/dialog/PuzzleDialog.java,eric.piette,20191216-171911
+M,Player/src/mainView/dialog/SettingsDialog.java,eric.piette,20191216-171911
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20191216-171911
+M,Player/src/player/MainMenu.java,eric.piette,20191216-171911
+M,Player/src/player/PlayerApp.java,eric.piette,20191216-171911
+M,Player/src/player/Referee.java,eric.piette,20191216-171911
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-172042
+D,Common/res/lud/board/capture/Atari Go.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Castello.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Fanorona.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/L'attaque.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Ludus Latrunculorum.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Mehen.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Ploy.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Press Ups.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Seega.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Stratego.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/Surakarta.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Awithlaknannai.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Dash-guti.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Egara Guti.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Felli.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Four Field Kono.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Gol-skuish.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Konane.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Lau Kata Kati.lud,eric.piette,20191216-172217
+D,Common/res/lud/board/capture/leaping/Pretwa.lud,eric.piette,20191216-172217
+D,"Common/res/lud/board/capture/mancala/two_rows/En Geh\303\251.lud",eric.piette,20191216-172445
+D,"Common/res/lud/board/capture/mancala/two_rows/K\303\242ra.lud",eric.piette,20191216-172445
+D,"Common/res/lud/board/capture/mancala/two_rows/Meusu\303\253b.lud",eric.piette,20191216-172445
+D,"Common/res/lud/board/chase/hunt/Merim\303\274eng-rim\303\274eng-do.lud",eric.piette,20191216-172445
+M,Player/test/games/TestTrialSerialization.java,Dennis Soemers,20191216-175617
+M,Common/src/main/Constants.java,mrrao,20191216-170135
+M,Core/src/util/state/State.java,mrrao,20191216-170135
+M,Core/src/util/zhash/HashedBitSet.java,mrrao,20191216-170135
+M,Player/test/hashes/HashTests.java,mrrao,20191216-170135
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-202407
+M,Player/src/player/Referee.java,eric.piette,20191216-205038
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-210153
+M,Core/src/game/functions/ints/PieceAt.java,eric.piette,20191216-210153
+A,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20191216-213012
+D,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191216-213012
+M,Core/src/game/rules/play/moves/decision/Promotion.java,eric.piette,20191216-213012
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191216-215454
+M,Player/src/player/Referee.java,Dennis Soemers,20191216-215454
+A,Common/res/lud/puzzle/planning/Safe passage.lud,eric.piette,20191216-220124
+D,Common/res/lud/wip/Reversi (score computed at the end).lud,eric.piette,20191216-220124
+D,Common/res/lud/wip/Safe passage.lud,eric.piette,20191216-220124
+D,Common/res/lud/wip/Default game test.lud,eric.piette,20191216-220406
+D,Common/res/lud/wip/Example.lud,eric.piette,20191216-220406
+D,Common/res/lud/wip/No rules test.lud,eric.piette,20191216-220406
+A,Common/res/lud/wip/TestLimping.lud,eric.piette,20191216-220406
+A,Common/res/lud/wip/TestMatch.lud,eric.piette,20191216-220406
+D,Common/res/lud/wip/Tron (Real-time).lud,eric.piette,20191216-220406
+D,Common/res/lud/wip/testLimping.lud,eric.piette,20191216-220406
+D,Common/res/lud/wip/testMatch.lud,eric.piette,20191216-220406
+A,Common/res/lud/board/race/escape/58 Holes.lud,eric.piette,20191216-221849
+D,Common/res/lud/board/race/reach/58 Holes.lud,eric.piette,20191216-221849
+A,Common/res/lud/wip/Janggi.lud,eric.piette,20191216-223048
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191217-053231
+M,Player/src/mainView/MainView.java,Cameron Browne,20191217-055742
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20191217-055742
+M,Common/res/lud/wip/Janggi.lud,Matthew.Stephenson,20191217-085233
+A,Core/src/game/equipment/container/board/custom/JanggiBoard.java,Matthew.Stephenson,20191217-085233
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-085233
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-090441
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-090441
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-092655
+M,AI/src/heuristics/LineCompletionHeuristic.java,DennisSoemers,20191217-092747
+M,Player/src/player/PlayerApp.java,DennisSoemers,20191217-092747
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-094902
+M,AI/src/heuristics/LineCompletionHeuristic.java,DennisSoemers,20191217-095829
+M,Common/src/main/ListUtils.java,DennisSoemers,20191217-095829
+M,Core/src/graph/Edge.java,DennisSoemers,20191217-103944
+M,Core/src/graph/Face.java,DennisSoemers,20191217-103944
+M,Core/src/graph/Graph.java,DennisSoemers,20191217-103944
+M,Core/src/graph/Vertex.java,DennisSoemers,20191217-103944
+M,Core/src/graph/Graph.java,DennisSoemers,20191217-104533
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-104743
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-105610
+A,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-105610
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-105610
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-105907
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-110102
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-110816
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-111324
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-112011
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-112748
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-112938
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-113108
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-120710
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-120710
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-120710
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-120710
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-120710
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-120710
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-121027
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-121027
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-121027
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-121027
+A,Common/src/main/SharedSettings.java,Matthew.Stephenson,20191217-130204
+A,Player/src/mainView/dialog/MaxLengthTextDocument.java,Matthew.Stephenson,20191217-130204
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-130204
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-130204
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-130912
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191217-130944
+M,Core/src/util/state/State.java,DennisSoemers,20191217-130944
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,DennisSoemers,20191217-133723
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-134530
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-134530
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-134530
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-134530
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-134530
+M,Core/src/game/Game.java,DennisSoemers,20191217-134756
+M,Core/src/util/Trial.java,DennisSoemers,20191217-134756
+M,AI/src/utils/AIUtils.java,DennisSoemers,20191217-135848
+M,Common/src/main/Constants.java,Matthew.Stephenson,20191217-142909
+A,Common/src/main/PlayerSettings.java,Matthew.Stephenson,20191217-142909
+D,Common/src/main/SharedSettings.java,Matthew.Stephenson,20191217-142909
+M,Core/src/game/Game.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-142909
+M,Player/src/mainView/panel/TabPage.java,Matthew.Stephenson,20191217-142909
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20191217-142909
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-142909
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-142909
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20191217-142909
+M,Player/src/player/experiments/EvalAIsThread.java,Matthew.Stephenson,20191217-142909
+A,Common/src/main/ColourSettings.java,Matthew.Stephenson,20191217-144634
+M,Common/src/main/Constants.java,Matthew.Stephenson,20191217-144634
+D,Common/src/main/PlayerSettings.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/component/Piece.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/custom/Connect4Board.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/custom/HexBoard.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20191217-144634
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20191217-144634
+A,Features/.settings/org.eclipse.core.resources.prefs,Matthew.Stephenson,20191217-144634
+M,Features/src/features/visualisation/FeatureToEPS.java,Matthew.Stephenson,20191217-144634
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20191217-144634
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-144634
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-144634
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-144634
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-144634
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20191217-144634
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-144634
+M,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20191217-145442
+A,Common/res/img/svg/fairyChess/bishop_noCross.svg,Matthew.Stephenson,20191217-145453
+D,Common/res/img/svg/fairyChess/chatauranga_bishop.svg,Matthew.Stephenson,20191217-145453
+D,Common/res/img/svg/fairyChess/chatauranga_king.svg,Matthew.Stephenson,20191217-145453
+A,Common/res/img/svg/fairyChess/ferz_noCross.svg,Matthew.Stephenson,20191217-145453
+A,Common/res/img/svg/fairyChess/king_noCross.svg,Matthew.Stephenson,20191217-145453
+M,Common/src/main/ColourSettings.java,Matthew.Stephenson,20191217-145453
+M,Common/src/main/Constants.java,Matthew.Stephenson,20191217-145453
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20191217-145453
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20191217-145453
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/PossibleConsequencesDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-145453
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-145453
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-145453
+M,Common/src/main/ColourSettings.java,Matthew.Stephenson,20191217-150142
+M,Common/src/main/Constants.java,Matthew.Stephenson,20191217-150142
+A,Common/src/main/NetworkSettings.java,Matthew.Stephenson,20191217-150142
+M,Core/src/util/model/AlternatingMove.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonRestart.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/MessagePlayersDialog.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-150142
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-150142
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20191217-150142
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20191217-150142
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20191217-150142
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191217-150142
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-150142
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-150142
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191217-150525
+D,Common/src/main/ColourSettings.java,Matthew.Stephenson,20191217-150525
+M,Common/src/main/Constants.java,Matthew.Stephenson,20191217-150525
+D,Common/src/main/NetworkSettings.java,Matthew.Stephenson,20191217-150525
+A,Common/src/main/SettingsColour.java,Matthew.Stephenson,20191217-150525
+A,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20191217-150525
+A,Common/src/main/SettingsNetwork.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/Equipment.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/component/Piece.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/Connect4Board.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/HexBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/equipment/other/Regions.java,Matthew.Stephenson,20191217-150525
+M,Core/src/game/players/Players.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionAdd.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionAddN.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionChangeRotation.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionChangeState.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionHidden.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionMove.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionMoveN.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionMoveRemove.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionMoveRotation.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionMoveState.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionPromote.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionReset.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionSelect.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionSet.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionSetCount.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionState.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/ActionToggle.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/action/Remove.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/model/AlternatingMove.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/state/containerState/BaseContainerState.java,Matthew.Stephenson,20191217-150525
+M,Features/src/features/visualisation/FeatureToEPS.java,Matthew.Stephenson,20191217-150525
+M,Grammar/src/compiler/Compiler.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonInfo.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonRestart.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonSettings.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/EvaluationDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/MessagePlayersDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/PossibleConsequencesDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/panel/ErrorTabPage.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-150525
+M,Player/src/mainView/panel/TabPage.java,Matthew.Stephenson,20191217-150525
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20191217-150525
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20191217-150525
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20191217-150525
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20191217-150525
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191217-150525
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-150525
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-150525
+M,Core/src/util/state/State.java,mrrao,20191217-142806
+M,Player/test/hashes/HashTests.java,mrrao,20191217-142806
+D,Common/res/img/svg/shogi/simple/fuhyo_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/ginsho_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/hisha_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/kakugyo_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/keima_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/kinsho_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/kyosha_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/narigin_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/narikei_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/narikyo_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/osho1_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/osho_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/ryuma_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/ryuo_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/shogi/simple/tokin_simple.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/fuhyo_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/ginsho_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/hisha_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/kakugyo_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/keima_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/kinsho_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/kyosha_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/narigin_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/narikei_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/narikyo_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/osho1_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/osho_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/ryuma_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/ryuo_study.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/shogi/study/tokin_study.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/jiang_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/jiang_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/ju_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/ju_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/ma_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/ma_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/pao_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/pao_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/shi_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/shi_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/xiang_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/xiang_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/zu_black_simple.svg,Matthew.Stephenson,20191217-153035
+D,Common/res/img/svg/xiangqi/simple/zu_simple.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/jiang_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/jiang_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/ju_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/ju_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/ma_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/ma_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/pao_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/pao_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/shi_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/shi_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/xiang_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/xiang_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/zu_black_western.svg,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/xiangqi/western/zu_western.svg,Matthew.Stephenson,20191217-153035
+M,Common/res/lud/board/capture/shogi/Hasami Shogi.lud,Matthew.Stephenson,20191217-153035
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,Matthew.Stephenson,20191217-153035
+M,Common/res/lud/board/capture/shogi/Shogi.lud,Matthew.Stephenson,20191217-153035
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,Matthew.Stephenson,20191217-153035
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,Matthew.Stephenson,20191217-153035
+A,Common/res/img/svg/chess/microsoft/bishop_microsoft.svg,Matthew.Stephenson,20191217-154052
+A,Common/res/img/svg/chess/microsoft/king_microsoft.svg,Matthew.Stephenson,20191217-154052
+A,Common/res/img/svg/chess/microsoft/knight_microsoft.svg,Matthew.Stephenson,20191217-154052
+A,Common/res/img/svg/chess/microsoft/pawn_microsoft.svg,Matthew.Stephenson,20191217-154052
+A,Common/res/img/svg/chess/microsoft/queen_microsoft.svg,Matthew.Stephenson,20191217-154052
+A,Common/res/img/svg/chess/microsoft/rook_microsoft.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/bishop_ms.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/king_ms.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/knight_ms.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/pawn_ms.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/queen_ms.svg,Matthew.Stephenson,20191217-154052
+D,Common/res/img/svg/chess/ms/rook_ms.svg,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chatauranga/Chaturaji.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chatauranga/Shatranj.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Amazon Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Double Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Half Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Loop Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Los Alamos chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,Matthew.Stephenson,20191217-154052
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,Matthew.Stephenson,20191217-154052
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-154052
+M,Core/src/util/state/State.java,mrrao,20191217-144250
+M,Core/src/util/model/AlternatingMove.java,DennisSoemers,20191217-154517
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191217-161113
+M,Common/src/main/SettingsColour.java,Matthew.Stephenson,20191217-161113
+M,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20191217-161113
+M,Common/src/main/SettingsNetwork.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/Equipment.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/component/Piece.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/Connect4Board.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/HexBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/equipment/other/Regions.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/players/Players.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionAdd.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionAddN.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionChangeRotation.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionChangeState.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionHidden.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionMove.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionMoveN.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionMoveRemove.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionMoveRotation.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionMoveState.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionPromote.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionReset.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionSelect.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionSet.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionSetCount.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionState.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/ActionToggle.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/action/Remove.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/model/AlternatingMove.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Matthew.Stephenson,20191217-161113
+M,Core/src/util/state/containerState/BaseContainerState.java,Matthew.Stephenson,20191217-161113
+M,Features/src/features/visualisation/FeatureToEPS.java,Matthew.Stephenson,20191217-161113
+M,Grammar/src/compiler/Compiler.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonRestart.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/EvaluationDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/MessagePlayersDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/PossibleConsequencesDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/panel/ErrorTabPage.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-161113
+M,Player/src/mainView/panel/TabPage.java,Matthew.Stephenson,20191217-161113
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20191217-161113
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20191217-161113
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20191217-161113
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20191217-161113
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191217-161113
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-161113
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-161113
+M,Core/src/game/Game.java,DennisSoemers,20191217-161122
+M,Core/src/util/Trial.java,DennisSoemers,20191217-161122
+M,Core/src/util/state/State.java,DennisSoemers,20191217-161122
+M,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20191217-161252
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20191217-161252
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew.Stephenson,20191217-161252
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20191217-161252
+M,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20191217-161252
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonInfo.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonSettings.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/PossibleConsequencesDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-161252
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191217-161252
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-161252
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191217-161252
+M,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20191217-161419
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-162351
+M,Core/src/util/state/State.java,DennisSoemers,20191217-162700
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191217-164209
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191217-164209
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191217-165225
+M,Core/src/util/state/State.java,Dennis Soemers,20191217-170333
+M,Core/src/util/Owned.java,Dennis Soemers,20191217-180739
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20191217-180739
+M,Core/src/util/state/State.java,Dennis Soemers,20191217-195957
+A,Common/res/img/svg/animals/crab-2.svg,Cameron Browne,20191218-020038
+M,Common/res/img/svg/animals/crab.svg,Cameron Browne,20191218-020038
+D,Common/res/img/svg/animals/tocheck/crab.svg,Cameron Browne,20191218-020038
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191218-020038
+M,Common/res/lud/board/capture/chess/Chess.lud,Matthew Stephenson,20191218-092243
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,Eric Piette,20191218-092742
+D,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,Matthew Stephenson,20191218-093025
+M,Common/res/lud/wip/Janggi.lud,Matthew Stephenson,20191218-093025
+A,Common/res/lud/wip/Xiangqi.lud,Matthew Stephenson,20191218-093025
+M,Core/src/game/equipment/container/board/custom/JanggiBoard.java,Matthew Stephenson,20191218-093025
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,Eric Piette,20191218-093903
+M,Common/res/lud/board/race/reach/Jungle.lud,Matthew Stephenson,20191218-094531
+M,Core/src/game/equipment/container/board/custom/JanggiBoard.java,Matthew Stephenson,20191218-094531
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Eric Piette,20191218-095406
+M,Common/res/lud/board/capture/other/L'attaque.lud,Matthew Stephenson,20191218-095531
+M,Common/res/lud/board/capture/other/Stratego.lud,Matthew Stephenson,20191218-095531
+M,Core/src/game/equipment/component/Component.java,Matthew Stephenson,20191218-095531
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191218-100003
+D,Common/res/img/svg/animals/crab-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/dog test.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/dragon-1.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/dragon-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/duck-6.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/hare-1.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/hare-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/jaguar-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/jaguar-3.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/jaguar-4.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/leopard.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/monkey-1.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/monkey-3.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/monkey-3a.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/puma-1.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/puma-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/puma-old.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/puma.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/sheep.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/crab-2.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/dog test.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/dragon-1.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/dragon-2.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/duck-6.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/hare-2.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/hare.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/jaguar-1.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/jaguar-2.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/jaguar-3.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/jaguar-4.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/jaguar.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/lamb.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/leopard.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/monkey-1.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/monkey-3.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/monkey-3a.svg,Matthew Stephenson,20191218-102526
+M,Common/res/img/svg/animals/tocheck/puma-1.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/puma-2.svg,Matthew Stephenson,20191218-102526
+M,Common/res/img/svg/animals/tocheck/puma-old.svg,Matthew Stephenson,20191218-102526
+M,Common/res/img/svg/animals/tocheck/puma.svg,Matthew Stephenson,20191218-102526
+A,Common/res/img/svg/animals/tocheck/sheep.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/animals/tocheck/snake.svg,Matthew Stephenson,20191218-102526
+D,Common/res/img/svg/Janggi/Ma.svg,Eric Piette,20191218-103149
+A,Common/res/img/svg/Janggi/MaJanggi.svg,Eric Piette,20191218-103149
+M,Common/res/lud/wip/Janggi.lud,Eric Piette,20191218-103149
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191218-104519
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191218-104544
+M,Common/res/lud/board/space/line/Gomoku.lud,Dennis Soemers,20191218-110700
+A,Common/res/img/svg/animals/leopard.svg,Matthew Stephenson,20191218-111422
+D,Common/res/img/svg/animals/tocheck/leopard.svg,Matthew Stephenson,20191218-111422
+A,Common/res/img/svg/animals/tocheck/leopard2.svg,Matthew Stephenson,20191218-111422
+M,Common/res/lud/wip/Janggi.lud,Matthew Stephenson,20191218-111422
+M,Core/src/game/equipment/component/Component.java,Matthew Stephenson,20191218-111422
+M,Core/src/game/equipment/component/Piece.java,Matthew Stephenson,20191218-111422
+M,Core/src/game/equipment/container/board/custom/JanggiBoard.java,Matthew Stephenson,20191218-111422
+M,Core/src/game/types/PieceTileType.java,Matthew Stephenson,20191218-111422
+M,Core/src/util/MetadataFunctions.java,Matthew Stephenson,20191218-111422
+A,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,Matthew Stephenson,20191218-112052
+M,Common/res/lud/wip/Janggi.lud,Matthew Stephenson,20191218-112052
+D,Common/res/lud/wip/Xiangqi.lud,Matthew Stephenson,20191218-112052
+M,Common/res/lud/board/capture/chess/Chess.lud,Cameron Browne,20191218-112128
+M,Player/src/mainView/GameView.java,Dennis Soemers,20191218-112741
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191218-112741
+M,Player/src/player/GraphicsCache.java,Dennis Soemers,20191218-112741
+D,Common/res/img/svg/Janggi/Byeong.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Cha.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Cho.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Han.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Jol.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/MaJanggi.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Po.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Sa.svg,Matthew Stephenson,20191218-113100
+D,Common/res/img/svg/Janggi/Sang.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Byeong.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Cha.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Cho.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Han.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Jol.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/MaJanggi.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Po.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Sa.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/traditional/Sang.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/byeong_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/cha_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/cho_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/han_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/jol_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/maJanggi_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/po_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/sa_western.svg,Matthew Stephenson,20191218-113100
+A,Common/res/img/svg/Janggi/western/sang_western.svg,Matthew Stephenson,20191218-113100
+M,Common/res/lud/wip/Janggi.lud,Matthew Stephenson,20191218-113100
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191218-113315
+M,Common/res/lud/board/capture/chess/Double Chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Half Chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Loop Chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Los Alamos chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,Matthew Stephenson,20191218-113433
+M,Common/res/lud/wip/Janggi.lud,Eric Piette,20191218-113916
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191218-114131
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20191218-114131
+D,Player/src/mainView/dialog/SettingsDialogTEMPORARY.java,Matthew Stephenson,20191218-114131
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-114131
+M,Core/src/game/functions/booleans/Ring.java,Tahmina,20191218-115241
+M,Core/src/util/UnionInfo.java,Tahmina,20191218-115241
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191218-115314
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-120129
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191218-121148
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-121148
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-121614
+M,Player/src/mainView/dialog/FindGameDialog.java,ludeme,20191218-121931
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-125245
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-125452
+M,Common/res/lud/wip/Janggi.lud,Eric Piette,20191218-125611
+M,Core/src/game/rules/play/moves/ForDirn.java,Eric Piette,20191218-125611
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-130023
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191218-130623
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191218-132015
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191218-133048
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-133048
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-133048
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191218-133317
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-133317
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-133557
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-133557
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-133903
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-133903
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191218-135721
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191218-135721
+M,Core/src/game/functions/booleans/Ring.java,Tahmina,20191218-140135
+M,Core/src/util/UnionInfo.java,Tahmina,20191218-140135
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-141540
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-141540
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191218-142511
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191218-142511
+A,Common/res/lud/board/capture/xiangqi/Janggi.lud,Eric Piette,20191218-142634
+D,Common/res/lud/wip/Janggi.lud,Eric Piette,20191218-142634
+M,Core/src/game/functions/region/InDirection.java,Eric Piette,20191218-142634
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191218-142745
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191218-142745
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191218-142745
+A,Common/res/lud/board/space/connection/Chameleon.lud,Eric Piette,20191218-143835
+D,Common/res/lud/wip/Chameleon.lud,Eric Piette,20191218-143835
+M,Core/src/game/functions/booleans/IsConnect.java,Eric Piette,20191218-143835
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191218-145131
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Dennis Soemers,20191218-145131
+M,Common/res/lud/board/space/connection/Chameleon.lud,Eric Piette,20191218-145531
+M,Core/src/game/functions/booleans/IsConnect.java,Eric Piette,20191218-145531
+A,Common/res/lud/board/space/connection/Gonnect.lud,Eric Piette,20191218-150853
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191218-150919
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew Stephenson,20191218-150919
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20191218-150919
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-150919
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-150919
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191218-172726
+A,Common/res/img/svg/animals/puma.svg,Cameron Browne,20191218-173102
+A,Common/res/img/svg/animals/sheep.svg,Cameron Browne,20191218-173102
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191218-173816
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20191218-173816
+M,Core/src/game/Game.java,Dennis Soemers,20191218-173816
+M,Core/src/game/rules/end/End.java,Dennis Soemers,20191218-173816
+M,Core/src/util/state/State.java,Dennis Soemers,20191218-173816
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191218-173816
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191218-173816
+M,Core/src/util/Context.java,Matthew Stephenson,20191218-173954
+A,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191218-173954
+A,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191218-173954
+M,Player/src/mainView/button/ButtonRestart.java,Matthew Stephenson,20191218-173954
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20191218-173954
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-173954
+M,Player/src/player/Referee.java,Matthew Stephenson,20191218-173954
+M,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191218-175749
+M,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191218-175749
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20191218-175749
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191218-175749
+M,Player/src/player/PlayerApp.java,Matthew,20191218-202308
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191218-215532
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20191218-215532
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191218-215532
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Eric Piette,20191219-095958
+M,Common/res/lud/puzzle/planning/Safe passage.lud,Eric Piette,20191219-095958
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Eric Piette,20191219-095958
+M,Common/res/lud/board/space/line/Andantino.lud,Tahmina,20191219-101013
+A,Common/res/lud/wip/Chameleon.lud,Tahmina,20191219-101013
+M,Common/res/lud/wip/Example.lud,Tahmina,20191219-101013
+M,Common/res/lud/wip/Go.lud,Tahmina,20191219-101013
+M,Core/src/game/functions/booleans/IsConnect.java,Tahmina,20191219-101013
+D,Core/src/game/functions/booleans/IsGroupOne.java,Tahmina,20191219-101013
+M,Core/src/game/functions/booleans/IsOneGroup.java,Tahmina,20191219-101013
+D,Core/src/game/functions/booleans/IsOneGroupD.java,Tahmina,20191219-101013
+M,Core/src/game/functions/booleans/IsSingleGroup.java,Tahmina,20191219-101013
+M,Core/src/game/functions/booleans/Ring.java,Tahmina,20191219-101013
+A,Core/src/game/functions/ints/Freedom1.java,Tahmina,20191219-101013
+M,Core/src/game/functions/ints/GroupSizeUF.java,Tahmina,20191219-101013
+M,Core/src/game/rules/play/moves/CheckMove.java,Tahmina,20191219-101013
+M,Core/src/game/rules/play/moves/SurroundedGroup.java,Tahmina,20191219-101013
+A,Core/src/game/rules/play/moves/SurroundedGroup2.java,Tahmina,20191219-101013
+M,Core/src/game/rules/start/Fill.java,Tahmina,20191219-101013
+M,Core/src/util/Trial.java,Tahmina,20191219-101013
+M,Core/src/util/UnionFind.java,Tahmina,20191219-101013
+M,Core/src/util/UnionFindD.java,Tahmina,20191219-101013
+D,Core/src/util/UnionFindD2.java,Tahmina,20191219-101013
+A,Core/src/util/UnionFindDO.java,Tahmina,20191219-101013
+M,Core/src/util/UnionInfo.java,Tahmina,20191219-101013
+A,Core/src/util/UnionInfoD.java,Tahmina,20191219-101013
+M,Core/src/util/action/ActionAdd.java,Tahmina,20191219-101013
+M,Core/src/util/action/ActionAddN.java,Tahmina,20191219-101013
+M,Core/src/util/action/ActionMove.java,Tahmina,20191219-101013
+M,Core/src/util/action/Remove.java,Tahmina,20191219-101013
+M,Core/src/util/state/containerState/BaseContainerState.java,Tahmina,20191219-101013
+M,Core/src/util/state/containerState/ContainerState.java,Tahmina,20191219-101013
+M,Core/src/util/state/puzzleState/PuzzleState.java,Tahmina,20191219-101013
+M,Common/res/lud/puzzle/planning/Safe passage.lud,Eric Piette,20191219-101234
+M,Core/src/game/rules/end/End.java,Eric Piette,20191219-101234
+M,Core/src/game/rules/end/End.java,Matthew Stephenson,20191219-111109
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191219-111109
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191219-111109
+M,Common/res/lud/wip/Example.lud,TahminaBegum,20191219-111307
+M,Core/src/game/functions/booleans/IsSingleGroup.java,TahminaBegum,20191219-111307
+M,Core/src/game/rules/start/Fill.java,TahminaBegum,20191219-111307
+M,Core/src/util/UnionFindD.java,TahminaBegum,20191219-111307
+M,Core/src/util/state/GameType.java,TahminaBegum,20191219-111307
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew Stephenson,20191219-111414
+M,Common/res/lud/puzzle/planning/Safe passage.lud,Matthew Stephenson,20191219-111414
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Matthew Stephenson,20191219-111414
+M,Core/src/util/MetadataFunctions.java,Matthew Stephenson,20191219-111414
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew Stephenson,20191219-112900
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191219-112900
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191219-113259
+M,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191219-114636
+M,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191219-114636
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20191219-114636
+M,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191219-115046
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20191219-115046
+M,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191219-115046
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20191219-115046
+M,Core/src/game/equipment/container/board/custom/JanggiBoard.java,Matthew Stephenson,20191219-115418
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-120105
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-120719
+M,Common/res/lud/board/space/line/Andantino.lud,DennisSoemers,20191219-121244
+A,Common/res/lud/wip/Example.lud,DennisSoemers,20191219-121244
+M,Core/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191219-121244
+D,Core/src/game/functions/booleans/IsGroupOne.java,DennisSoemers,20191219-121244
+D,Core/src/game/functions/booleans/IsOneGroup.java,DennisSoemers,20191219-121244
+D,Core/src/game/functions/booleans/IsOneGroupD.java,DennisSoemers,20191219-121244
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-121244
+M,Core/src/game/functions/booleans/Ring.java,DennisSoemers,20191219-121244
+A,Core/src/game/functions/ints/Freedom1.java,DennisSoemers,20191219-121244
+M,Core/src/game/functions/ints/GroupSizeUF.java,DennisSoemers,20191219-121244
+M,Core/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20191219-121244
+M,Core/src/game/rules/play/moves/SurroundedGroup.java,DennisSoemers,20191219-121244
+A,Core/src/game/rules/play/moves/SurroundedGroup2.java,DennisSoemers,20191219-121244
+M,Core/src/game/rules/start/Fill.java,DennisSoemers,20191219-121244
+M,Core/src/util/Trial.java,DennisSoemers,20191219-121244
+M,Core/src/util/UnionFind.java,DennisSoemers,20191219-121244
+M,Core/src/util/UnionFindD.java,DennisSoemers,20191219-121244
+D,Core/src/util/UnionFindD2.java,DennisSoemers,20191219-121244
+A,Core/src/util/UnionFindDO.java,DennisSoemers,20191219-121244
+M,Core/src/util/UnionInfo.java,DennisSoemers,20191219-121244
+A,Core/src/util/UnionInfoD.java,DennisSoemers,20191219-121244
+M,Core/src/util/action/ActionAdd.java,DennisSoemers,20191219-121244
+M,Core/src/util/action/ActionAddN.java,DennisSoemers,20191219-121244
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-121244
+M,Core/src/util/action/Remove.java,DennisSoemers,20191219-121244
+M,Core/src/util/state/GameType.java,DennisSoemers,20191219-121244
+M,Core/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191219-121244
+M,Core/src/util/state/containerState/ContainerState.java,DennisSoemers,20191219-121244
+M,Core/src/util/state/puzzleState/PuzzleState.java,DennisSoemers,20191219-121244
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-121301
+M,Core/src/util/UnionFindDO.java,DennisSoemers,20191219-121301
+M,Core/src/util/UnionInfo.java,DennisSoemers,20191219-121301
+M,Core/src/util/UnionInfoD.java,DennisSoemers,20191219-121301
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191219-121614
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-121614
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-122157
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-122428
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-122801
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-123200
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-123356
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-123713
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191219-124146
+M,Core/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191219-130206
+M,Core/src/game/functions/booleans/IsLoop.java,DennisSoemers,20191219-130206
+M,Core/src/game/functions/booleans/Ring.java,DennisSoemers,20191219-130206
+M,Core/src/util/UnionFind.java,DennisSoemers,20191219-130206
+M,Player/test/games/TestParallelPlayouts.java,DennisSoemers,20191219-130206
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191219-130719
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-132451
+M,Core/src/game/equipment/component/piece/CardFunctions.java,Matthew Stephenson,20191219-132451
+M,Core/src/util/BaseCardImages.java,Matthew Stephenson,20191219-132451
+M,Player/test/games/TestParallelPlayouts.java,DennisSoemers,20191219-135922
+M,Core/src/game/functions/booleans/IsSingleGroup.java,TahminaBegum,20191219-140738
+M,Core/src/util/UnionFindD.java,TahminaBegum,20191219-140738
+M,Core/src/util/action/Remove.java,TahminaBegum,20191219-140738
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191219-140850
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-141510
+M,Core/src/game/equipment/component/Piece.java,Matthew Stephenson,20191219-141510
+M,Core/src/game/equipment/component/piece/CardFunctions.java,Matthew Stephenson,20191219-141510
+M,Core/src/util/BaseCardImages.java,Matthew Stephenson,20191219-141510
+M,Player/src/mainView/GameView.java,Matthew Stephenson,20191219-141510
+M,Core/src/util/UnionFindD.java,DennisSoemers,20191219-142326
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-142326
+M,Common/src/graphics/ImageProcessing.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/Board.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/custom/JungleBoard.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/custom/XiangqiBoard.java,Matthew Stephenson,20191219-142445
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-142959
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-143058
+M,Core/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/booleans/Ring.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/ints/GroupProduct.java,DennisSoemers,20191219-145908
+M,Core/src/game/rules/play/moves/SurroundedGroup2.java,DennisSoemers,20191219-145908
+M,Core/src/util/UnionFind.java,DennisSoemers,20191219-145908
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/GameType.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/BaseContainerStateStacking.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191219-145908
+M,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191219-152502
+M,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191219-152502
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-152502
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-152502
+M,Core/src/game/rules/start/Fill.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionFindD.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionInfo.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionInfoD.java,DennisSoemers,20191219-152502
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-152502
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191219-153740
+M,Common/res/lud/board/space/line/Connect 4.lud,Matthew Stephenson,20191219-154553
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-155617
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191219-160635
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-161201
+M,Common/res/lud/puzzle/planning/Safe passage.lud,Matthew Stephenson,20191219-170042
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191219-170042
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191219-170645
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191219-180835
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191220-095323
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191220-095323
+M,Common/res/lud/card/War.lud,Matthew.Stephenson,20191220-095539
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Matthew.Stephenson,20191220-095539
+A,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew Stephenson,20191220-105020
+D,Common/res/lud/puzzle/planning/Safe passage.lud,Matthew Stephenson,20191220-105020
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew Stephenson,20191220-105438
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew Stephenson,20191220-105438
+M,Player/src/mainView/dialog/GameLoaderDialog.java,Matthew Stephenson,20191220-105910
+M,Player/src/mainView/dialog/LeaderboardDialog.java,Matthew.Stephenson,20191220-115214
+M,Common/src/main/EloCalculations.java,Matthew.Stephenson,20191220-120727
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191220-120840
+M,Player/src/mainView/dialog/LeaderboardDialog.java,Matthew Stephenson,20191220-123708
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Achi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ako okwe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Backgammon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bagh-Chal.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bao ki arabu (Zanzibar 1).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bao ki arabu (Zanzibar 2).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/BreakThrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bricks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Castello.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chatauranga.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Cross.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dala.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dama.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dash-guti.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/De Cercar La Liebre.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Demala diviyan keliya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dra.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Felli.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fill A Pix.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Five Field Kono.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Four Field Kono.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Futoshiki.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Game of the Goose.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gol-skuish.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Groups.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Halma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hashiwokakero.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hex.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hnefatafl Fetlar.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Horseshoe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Inshi no Heya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Juosan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kakuro.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kara.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Killer Sudoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/KnightThrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Konane.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/L Game.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Leopards and Cows.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Los Alamos chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mehen.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nawabari.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nim.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Odd.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Omega.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Oware.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Picaria.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pon chochotl.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pulijudam.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Safe Passage.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Salta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Seega.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Senet.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sixteen Soldiers.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Slitherlink.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Spline.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Spots.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Squaro.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Squava.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Susan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Takuzu.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tron.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/War.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/categories.csv,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/create_flat_luds_directory.py,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/create_lud_and_categories.py,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/folderStructure.csv,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/folderStructure.py,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/toUpload.csv,Matthew.Stephenson,20191220-134108
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20191220-134450
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191220-134450
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20191220-134450
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Cameron Browne,20191220-134450
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20191220-135610
+M,Common/src/main/UserColour.java,Cameron Browne,20191220-145506
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191220-145506
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191220-145637
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20191220-150955
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191220-150955
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191220-153757
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191220-171339
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20191220-172501
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191220-190939
+M,Common/res/lud/board/capture/leaping/other/Konane.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/four_rows/Muvalavala B.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/two_rows/Dabuda.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/two_rows/English Wari (St. Lucia).lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/L'attaque.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Press Ups.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Seega.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Stratego.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Bagh-Chal.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Demala diviyan keliya.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Leopards and Cows.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Merimueng-rimueng-do.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Halma.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Arimaa.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Pachisi.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Contagion.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Horseshoe.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Achi.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Dala.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Dra.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Picaria.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Eric.Piette,20191220-211310
+M,Core/src/game/rules/Rules.java,Eric.Piette,20191220-211310
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191220-215652
+D,Player/src/player/experiments/game_files/CountLudemes.java,Eric.Piette,20191221-101026
+D,Common/res/img/svg/animals/tocheck/crab-2.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/dog test.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-1.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-2.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-old.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/sheep.svg,Cameron Browne,20191222-101413
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191222-101413
+M,Common/src/main/MathRoutines.java,Dennis Soemers,20191222-123334
+A,Common/res/img/svg/animals/fox-old.svg,Cameron Browne,20191222-131931
+M,Common/res/img/svg/animals/fox.svg,Cameron Browne,20191222-131931
+D,Common/res/img/svg/bad/fox-old.svg,Cameron Browne,20191222-131931
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191222-131931
+M,Common/src/main/StringRoutines.java,Cameron Browne,20191222-131931
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Cameron Browne,20191222-131931
+M,AI/src/heuristics/LineCompletionHeuristic.java,Dennis Soemers,20191222-213449
+M,Player/test/ai/TestHeuristicStateValues.java,Dennis Soemers,20191222-213449
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20191223-124810
+M,AI/src/utils/ExItExperience.java,Dennis Soemers,20191223-124810
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,Dennis Soemers,20191223-124810
+M,AI/src/utils/data_structures/UniformExperienceBuffer.java,Dennis Soemers,20191223-124810
+M,Core/src/util/FeatureSetInterface.java,Dennis Soemers,20191223-124810
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20191223-124810
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191223-124810
+M,Player/test/features/TestAmazonsFeatures.java,Dennis Soemers,20191223-124810
+A,Common/res/lud/wip/Three Men's Morris (test).lud,Cameron Browne,20191223-230613
+D,Common/res/img/svg/animals/chicken-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/crab-old.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/dog-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/dragon-3.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/dragon-old.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/duck-alt1.svg,Cameron Browne,20191224-130828
+A,Common/res/img/svg/animals/duck-old.svg,Cameron Browne,20191224-130828
+M,Common/res/img/svg/animals/duck.svg,Cameron Browne,20191224-130828
+M,Common/res/img/svg/animals/elephant.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/fox-old.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/hare-3.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/horse-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/horse-detailed.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/jaguar-1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/jaguar-old.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/lamb-old.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/rat-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/sheep-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/snake-1.svg,Cameron Browne,20191224-130828
+A,Common/res/img/svg/animals/snake-alt1.svg,Cameron Browne,20191224-130828
+D,Common/res/img/svg/animals/snake-old.svg,Cameron Browne,20191224-130828
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191224-130828

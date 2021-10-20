@@ -1,0 +1,722 @@
+M,Common/src/main/Global.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/Container.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-195423
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190415-195754
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190415-202356
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Matthew Stephenson,20190415-214358
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-214358
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/CompassDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/Direction.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/HexDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/WheelDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/Hand.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/MorrisBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/SenetBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/UrBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/WheelBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Cross.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Rect.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Shape.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/TriangleEquilateral.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Circle.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/component/Die.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-104224
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-105618
+D,Library/src/game/equipment/container/board/IntersectionBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/MorrisBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,Matthew Stephenson,20190416-121701
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-122520
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew Stephenson,20190416-122520
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-132924
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-132924
+M,Library/src/game/equipment/component/Die.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190416-141230
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-141314
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-142240
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-142730
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-143149
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-143149
+M,Library/lud/Yavalath (3 players).lud,Eric Piette,20190416-143346
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190416-153534
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-171724
+D,Library/src/game/equipment/container/board/tiling/HexHex.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/HexMat.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/HexSquare.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/Concentric.java,Eric Piette,20190416-172848
+M,AI/resources/FeatureSets/Yavalath/HandcraftedYavalathPatterns.fs,Dennis Soemers,20190416-175839
+A,AI/resources/FeatureSets/Yavalath/HandcraftedYavalathWeights.txt,Dennis Soemers,20190416-175839
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Eric Piette,20190416-183019
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-183233
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-183233
+A,Library/lud/Reversi.lud,Eric Piette,20190416-183611
+M,Player/src/dbView/GamesList.java,Eric Piette,20190416-183611
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-193049
+A,Common/img/svg/UNUSED/camel2hump_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/UNUSED/horseHead_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/camel1hump_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/horse_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/rabbit_symbola.svg,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Camel.java,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Horse.java,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Rabbit.java,Matthew Stephenson,20190416-194648
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-220459
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-222808
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-223357
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-224523
+M,Library/src/game/Game.java,eric.piette,20190416-233644
+A,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190416-233644
+M,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190416-235123
+M,Player/src/player/PlayerApp.java,eric.piette,20190417-115057
+A,Player/test/games/CompilationTest.java,eric.piette,20190417-115057
+M,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190417-115319
+M,Player/test/games/CompilationTest.java,eric.piette,20190417-115319
+M,Player/test/games/CompilationTest.java,eric.piette,20190417-123657
+A,Player/test/games/EfficiencyTest.java,eric.piette,20190417-123657
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190417-130410
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190417-130410
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190417-130410
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190417-130802
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190417-131507
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190417-131641
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190417-131748
+A,Library/src/game/functions/region/If.java,eric.piette,20190417-140515
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190417-143200
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190417-143200
+A,Library/src/game/functions/booleans/AllPass.java,eric.piette,20190417-143629
+M,Library/src/game/functions/booleans/If.java,eric.piette,20190417-143825
+M,Library/src/game/functions/region/Around.java,eric.piette,20190417-143900
+M,Library/lud/Reversi.lud,eric.piette,20190417-145644
+M,Library/src/game/rules/Rules.java,eric.piette,20190417-145644
+M,Library/src/game/rules/end/End.java,eric.piette,20190417-145644
+A,Library/src/game/rules/end/If.java,eric.piette,20190417-145644
+M,Library/src/game/rules/end/Or.java,eric.piette,20190417-145644
+M,Library/src/util/MoveUtilities.java,eric.piette,20190417-145644
+M,Library/test/Performance.java,eric.piette,20190417-145644
+M,Library/src/game/functions/booleans/Gt.java,eric.piette,20190417-152229
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190417-152229
+M,Library/lud/Reversi.lud,eric.piette,20190417-154409
+M,Library/src/game/functions/booleans/Gt.java,eric.piette,20190417-154409
+M,Library/src/game/rules/end/If.java,eric.piette,20190417-154409
+M,Library/.classpath,eric.piette,20190417-164534
+A,Library/lud/Hex.lud,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/shape/Rect.java,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190417-164534
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190417-165029
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,eric.piette,20190417-165029
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190417-165443
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190417-165443
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190417-170955
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190417-170955
+M,Library/lud/Hex.lud,eric.piette,20190417-172041
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190417-172041
+A,Library/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20190417-172041
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190417-173618
+M,Library/src/game/equipment/container/board/tiling/Circle.java,eric.piette,20190417-173618
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190417-173618
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190417-173618
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20190417-173618
+M,Library/lud/Reversi.lud,Matthew Stephenson,20190417-175213
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190418-093026
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190418-093026
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190418-094739
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190418-095339
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190418-111513
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190418-111513
+M,Library/src/game/rules/play/moves/decision/To.java,Dennis Soemers,20190418-111605
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190418-130315
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190418-130315
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/SenetBoard.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/shape/Rect.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/shape/Shape.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-134350
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190418-134350
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190418-144707
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,eric.piette,20190418-153825
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,eric.piette,20190418-153825
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-153825
+M,Library/lud/Oware.lud,Matthew Stephenson,20190418-154716
+A,Library/src/game/equipment/container/board/MancalaBoard.java,Matthew Stephenson,20190418-154716
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190418-154716
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/MancalaBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190418-164847
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190418-164847
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190418-173157
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190418-173157
+A,Player/src/mainView/dialog/PlayerDialog.java,Matthew Stephenson,20190418-173157
+D,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20190418-173157
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20190418-173157
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190418-173157
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-173827
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190418-211900
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190418-211900
+M,Library/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20190418-211900
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-211900
+D,Library/src/game/equipment/container/board/tiling/HexRect.java,eric.piette,20190418-212025
+D,Library/src/game/equipment/container/board/tiling/HexRhombus.java,eric.piette,20190418-212025
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-215452
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190418-221509
+M,Library/lud/Hex.lud,eric.piette,20190419-005229
+A,Library/src/game/functions/booleans/Connect.java,eric.piette,20190419-005229
+D,Library/src/oldLudeme/functions/booleans/Connect.java,eric.piette,20190419-005229
+M,Library/src/game/functions/booleans/Connect.java,Cameron Browne,20190419-083345
+M,Library/src/util/state/StateType.java,Cameron Browne,20190419-083345
+M,Library/src/game/functions/booleans/Connect.java,Cameron Browne,20190419-083930
+D,Library/lud/Fifty Men's Morris.lud,eric.piette,20190419-090439
+M,Library/lud/Hex.lud,eric.piette,20190419-090439
+M,Library/lud/Konane.lud,eric.piette,20190419-090439
+M,Library/lud/Oware.lud,eric.piette,20190419-090439
+M,Library/lud/Royal Game of Ur (Irvin Finkel video rules) .lud,eric.piette,20190419-090439
+M,Library/lud/Royal Game of Ur (Murray track).lud,eric.piette,20190419-090439
+M,Library/lud/Sudoku.lud,eric.piette,20190419-090439
+D,Library/src/game/functions/region/Customise.java,eric.piette,20190419-090439
+A,Library/src/game/functions/region/Set.java,eric.piette,20190419-090439
+M,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190419-090439
+A,Library/lud/Y.lud,eric.piette,20190419-093450
+A,Library/src/game/equipment/container/board/YBoard.java,eric.piette,20190419-093450
+M,Library/src/game/functions/booleans/Connect.java,eric.piette,20190419-093450
+A,Library/lud/Y (Hex).lud,eric.piette,20190419-094817
+D,Library/lud/Y.lud,eric.piette,20190419-094817
+M,Library/lud/Y (Hex).lud,eric.piette,20190419-104101
+M,Library/src/game/equipment/component/piece/Dot.java,eric.piette,20190419-104101
+A,Library/src/game/equipment/container/board/HexYBoard.java,eric.piette,20190419-104101
+D,Library/src/game/equipment/container/board/YBoard.java,eric.piette,20190419-104101
+M,Library/src/game/types/RoleType.java,Cameron Browne,20190419-104416
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190419-123910
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190419-123910
+A,Grammar/src/compiler/Define.java,Cameron Browne,20190419-123910
+A,Library/lud/Surakarta (define test).lud,Cameron Browne,20190419-123910
+A,Library/lud/Alquerque (define).lud,Cameron Browne,20190419-131335
+A,Library/lud/Breakthrough (define).lud,Cameron Browne,20190419-132529
+M,Library/lud/Amazons.lud,eric.piette,20190419-141808
+M,Library/src/game/equipment/component/piece/Dot.java,eric.piette,20190419-141808
+M,Library/lud/All Queens Chess.lud,eric.piette,20190419-142619
+M,Library/lud/Alquerque (define).lud,eric.piette,20190419-142619
+M,Library/lud/Alquerque.lud,eric.piette,20190419-142619
+M,Library/lud/Amazons.lud,eric.piette,20190419-142619
+M,Library/lud/Baqh Chal.lud,eric.piette,20190419-142619
+M,Library/lud/Brazilian Draughts.lud,eric.piette,20190419-142619
+M,Library/lud/Canadian Draughts.lud,eric.piette,20190419-142619
+M,Library/lud/Chess (Skirmish).lud,eric.piette,20190419-142619
+M,Library/lud/Connect-4.lud,eric.piette,20190419-142619
+M,Library/lud/Connect-6.lud,eric.piette,20190419-142619
+M,Library/lud/Dama (Turkish Draughts).lud,eric.piette,20190419-142619
+M,Library/lud/English Draughts.lud,eric.piette,20190419-142619
+M,Library/lud/Five Men's Morris.lud,eric.piette,20190419-142619
+M,Library/lud/Gomoku.lud,eric.piette,20190419-142619
+M,Library/lud/Halma (2 players).lud,eric.piette,20190419-142619
+M,Library/lud/Halma (4 players).lud,eric.piette,20190419-142619
+M,Library/lud/Hex.lud,eric.piette,20190419-142619
+M,Library/lud/International Draughts.lud,eric.piette,20190419-142619
+M,Library/lud/Konane.lud,eric.piette,20190419-142619
+M,Library/lud/Leopards and Cows.lud,eric.piette,20190419-142619
+M,Library/lud/Mogul putt'han.lud,eric.piette,20190419-142619
+M,Library/lud/Mu-Torere (Wheel).lud,eric.piette,20190419-142619
+M,Library/lud/Mu-Torere.lud,eric.piette,20190419-142619
+M,Library/lud/Nine Holes.lud,eric.piette,20190419-142619
+M,Library/lud/Nine Men's Morris.lud,eric.piette,20190419-142619
+M,Library/lud/Peralikatuma.lud,eric.piette,20190419-142619
+M,Library/lud/Renju.lud,eric.piette,20190419-142619
+M,Library/lud/Reversi.lud,eric.piette,20190419-142619
+M,Library/lud/Round Merels.lud,eric.piette,20190419-142619
+M,Library/lud/Royal Game of Ur (Irvin Finkel video rules) .lud,eric.piette,20190419-142619
+M,Library/lud/Royal Game of Ur (Murray track).lud,eric.piette,20190419-142619
+M,Library/lud/Senet.lud,eric.piette,20190419-142619
+M,Library/lud/Six Men's Morris.lud,eric.piette,20190419-142619
+M,Library/lud/Sixteen Soldiers.lud,eric.piette,20190419-142619
+M,Library/lud/Surakarta (define test).lud,eric.piette,20190419-142619
+M,Library/lud/Surakarta (middle line).lud,eric.piette,20190419-142619
+M,Library/lud/Surakarta.lud,eric.piette,20190419-142619
+M,Library/lud/Three Men's Morris.lud,eric.piette,20190419-142619
+M,Library/lud/Twelve Men's Morris (large board).lud,eric.piette,20190419-142619
+M,Library/lud/Twelve Men's Morris.lud,eric.piette,20190419-142619
+M,Library/lud/Y (Hex).lud,eric.piette,20190419-142619
+M,Library/lud/Yavalath (2 players).lud,eric.piette,20190419-142619
+M,Library/lud/Yavalath (3 players).lud,eric.piette,20190419-142619
+M,Library/lud/Zamma.lud,eric.piette,20190419-142619
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190419-142619
+M,Player/src/player/Referee.java,eric.piette,20190419-142619
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190419-155002
+D,Grammar/src/generator/Package.java,Cameron Browne,20190419-155002
+A,Grammar/src/generator/PackageInfo.java,Cameron Browne,20190419-155002
+M,Grammar/src/generator/Symbol.java,Cameron Browne,20190419-155002
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190419-155002
+M,Library/lud/4 Puzzles.lud,eric.piette,20190419-155417
+M,Library/lud/8 Queens.lud,eric.piette,20190419-155417
+M,Library/lud/Adugo.lud,eric.piette,20190419-155417
+M,Library/lud/Amazons.lud,eric.piette,20190419-155417
+M,Library/lud/ArdRi.lud,eric.piette,20190419-155417
+M,Library/lud/Baqh Chal.lud,eric.piette,20190419-155417
+M,Library/lud/Brazilian Draughts.lud,eric.piette,20190419-155417
+D,Library/lud/Breakthrough (define).lud,eric.piette,20190419-155417
+M,Library/lud/Breakthrough.lud,eric.piette,20190419-155417
+M,Library/lud/Canadian Draughts.lud,eric.piette,20190419-155417
+M,Library/lud/Chess (Skirmish).lud,eric.piette,20190419-155417
+M,Library/lud/Dama (Turkish Draughts).lud,eric.piette,20190419-155417
+M,Library/lud/English Draughts.lud,eric.piette,20190419-155417
+M,Library/lud/Five Men's Morris.lud,eric.piette,20190419-155417
+M,Library/lud/Hnefatafl Fetlar.lud,eric.piette,20190419-155417
+M,Library/lud/Insanity.lud,eric.piette,20190419-155417
+M,Library/lud/International Draughts.lud,eric.piette,20190419-155417
+M,Library/lud/Knight's Tour.lud,eric.piette,20190419-155417
+M,Library/lud/KnightThrough.lud,eric.piette,20190419-155417
+M,Library/lud/Leopards and Cows.lud,eric.piette,20190419-155417
+M,Library/lud/Oware.lud,eric.piette,20190419-155417
+M,Library/lud/Peg Solitaire (English).lud,eric.piette,20190419-155417
+M,Library/lud/Peg Solitaire (European).lud,eric.piette,20190419-155417
+M,Library/lud/Royal Game of Ur (Irvin Finkel video rules) .lud,eric.piette,20190419-155417
+M,Library/lud/Royal Game of Ur (Murray track).lud,eric.piette,20190419-155417
+M,Library/lud/Senet.lud,eric.piette,20190419-155417
+M,Library/lud/Sudoku.lud,eric.piette,20190419-155417
+D,Library/lud/Surakarta (define test).lud,eric.piette,20190419-155417
+M,Library/lud/Surakarta (middle line).lud,eric.piette,20190419-155417
+M,Library/lud/Surakarta.lud,eric.piette,20190419-155417
+M,Library/lud/Tic-Tac-Mo.lud,eric.piette,20190419-155417
+M,Library/lud/Tic-Tac-Toe.lud,eric.piette,20190419-155417
+M,Library/lud/Wolf And Sheep.lud,eric.piette,20190419-155417
+M,Library/lud/Zamma.lud,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/Card.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/Die.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/HalfNumber.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/Letter.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/Number.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Ball.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Cross.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Disc.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Dot.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Hex.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Piece.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/SenetPiece.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/Square.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/UrPiece.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Animal.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Camel.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Cat.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Cow.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Dog.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Goat.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Horse.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Leopard.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Rabbit.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Tiger.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/checkers/Checkers.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/checkers/Dame.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/checkers/Man.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Alfil.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Centaur.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Champion.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Chess.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Commoner.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Empress.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Fool.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Giraffe.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Janus.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/King.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Knight.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Mann.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Queen.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Rook.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Unicorn.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Wizard.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/chess/Zebra.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/tafl/Jarl.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/tafl/Tafl.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/component/piece/tafl/Thrall.java,eric.piette,20190419-155417
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190419-155417
+M,Library/test/Misc.java,eric.piette,20190419-155417
+M,Library/test/Performance.java,eric.piette,20190419-155417
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190419-165251
+M,Library/lud/Insanity.lud,eric.piette,20190419-165359
+M,Library/lud/Reversi.lud,eric.piette,20190419-165359
+A,Grammar/src/generator/ClassEnumerator.java,Cameron Browne,20190419-165741
+A,Grammar/src/generator/ClassEnumeratorFindAll.java,Cameron Browne,20190419-165741
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190419-165839
+D,Library/lud/Royal Game of Ur (Irvin Finkel video rules) .lud,eric.piette,20190419-170452
+A,Library/lud/Royal Game of Ur (Irvin Finkel video rules).lud,eric.piette,20190419-170452
+M,Library/lud/Royal Game of Ur (Murray track).lud,eric.piette,20190419-170452
+M,Library/lud/Senet.lud,eric.piette,20190419-170452
+M,Library/src/game/equipment/component/Letter.java,eric.piette,20190419-170514
+M,Player/test/games/CompilationTest.java,eric.piette,20190419-170514
+M,Player/test/games/EfficiencyTest.java,eric.piette,20190419-170514
+A,Player/test/games/OnePlayoutByGameTest.java,eric.piette,20190419-170514
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190419-182113
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190419-182113
+D,Player/grammar-1.2.txt,eric.piette,20190420-085817
+D,Player/grammar-1.3.txt,eric.piette,20190420-085817
+D,Player/grammar-1.4.txt,eric.piette,20190420-085817
+D,Player/grammar-1.5.txt,eric.piette,20190420-085817
+D,Player/grammar-1.6.txt,eric.piette,20190420-085817
+D,Player/test/experimental/playout/AleaEvangeliiTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/AllQueensChessTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/AmazonsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/ArdRiTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/BrandubTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/BrazilianDraughtsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/BreakthroughTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/CanadianDraughtsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/Connect4Test.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/Connect6Test.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/EnglishDraughtsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/FidchellTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/GomokuTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/HnefataflFetlarTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/InsanityTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/InternationalDraughtsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/KnightThroughTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/MuTorereTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/NPuzzleTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/NQueensTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/NineHolesTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/PapillonTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/PegSolitaireEnglishTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/PegSolitaireEuropeanTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SkirmishTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SuperHnefataflCross37Test.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SuperHnefataflCross49Test.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SuperHnefataflDiamondTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SuperHnefataflParlettTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/SuperHnefataflVikingSiegeTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TawlbwrddBellDiamondTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TawlbwrddLewisCrossTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TawlbwrddLewisDiamondTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TawlbwrddTCrossTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TawlbwrddTDiamondTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/ThreeMenMorrisTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TicTacMoTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TicTacToeTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/TurkishDraughtsTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/WolfAndSheepTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/YavalathLine42PTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/YavalathLine43PTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/YavalathLine52PTest.java,eric.piette,20190420-085817
+D,Player/test/experimental/playout/YavalathLine53PTest.java,eric.piette,20190420-085817
+D,Library/grammar-1.5.txt,eric.piette,20190420-090040
+D,Library/grammar-1.6.txt,eric.piette,20190420-090040
+D,Library/linking-external-code-1.txt,eric.piette,20190420-090040
+D,Library/src/oldLudeme/functions/ints/State.java,eric.piette,20190420-090040
+D,Library/src/oldLudeme/game/rules/moves/ChangeState.java,eric.piette,20190420-090040
+D,Library/src/oldLudeme/game/rules/moves/Copy.java,eric.piette,20190420-090040
+D,Library/src/oldLudeme/game/rules/moves/King.java,eric.piette,20190420-090040
+D,Library/src/oldLudeme/game/rules/moves/Let.java,eric.piette,20190420-090040
+D,Library/src/oldLudeme/game/rules/moves/TurnOver.java,eric.piette,20190420-090040
+M,Player/.classpath,eric.piette,20190420-095333
+A,Player/lib/AbsconAIC.jar,eric.piette,20190420-095333
+A,Player/lib/xcsp3.jar,eric.piette,20190420-095333
+M,Player/src/xcsp/XcspGame.java,eric.piette,20190420-095333
+M,Common/.classpath,Cameron Browne,20190421-075549
+M,Grammar/src/.DS_Store,Cameron Browne,20190421-075549
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190421-075549
+M,Common/src/main/Global.java,Cameron Browne,20190421-080120
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190421-080120
+A,Common/img/ludii-logo-100x100.png,Cameron Browne,20190421-092301
+A,Common/img/ludii-logo-64x64.png,Cameron Browne,20190421-092301
+M,Library/.classpath,Cameron Browne,20190421-092301
+A,Library/lud2/4 Puzzles.lud,Cameron Browne,20190421-092301
+A,Library/lud2/8 Queens.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Adugo.lud,Cameron Browne,20190421-092301
+A,Library/lud2/All Queens Chess.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Alquerque (define).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Alquerque.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Amazons.lud,Cameron Browne,20190421-092301
+A,Library/lud2/ArdRi.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Baqh Chal.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Brazilian Draughts.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Breakthrough.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Canadian Draughts.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Chess (Skirmish).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Connect-4.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Connect-6.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Dama (Turkish Draughts).lud,Cameron Browne,20190421-092301
+A,Library/lud2/English Draughts.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Five Men's Morris.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Gomoku.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Halma (2 players).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Halma (4 players).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Hex.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Hnefatafl Fetlar.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Insanity.lud,Cameron Browne,20190421-092301
+A,Library/lud2/International Draughts.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Knight's Tour.lud,Cameron Browne,20190421-092301
+A,Library/lud2/KnightThrough.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Konane.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Leopards and Cows.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Mogul putt'han.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Mu-Torere (Wheel).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Mu-Torere.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Nine Holes.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Nine Men's Morris.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Oware.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Peg Solitaire (English).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Peg Solitaire (European).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Peralikatuma.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Renju.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Reversi.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Round Merels.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Royal Game of Ur (Irvin Finkel video rules).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Royal Game of Ur (Murray track).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Senet.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Six Men's Morris.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Sixteen Soldiers.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Sudoku.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Surakarta (middle line).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Surakarta.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Three Men's Morris.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Tic-Tac-Mo.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Tic-Tac-Toe.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Twelve Men's Morris (large board).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Twelve Men's Morris.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Wolf And Sheep.lud,Cameron Browne,20190421-092301
+A,Library/lud2/Y (Hex).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Yavalath (2 players).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Yavalath (3 players).lud,Cameron Browne,20190421-092301
+A,Library/lud2/Zamma.lud,Cameron Browne,20190421-092301
+M,Player/src/player/MainMenu.java,Cameron Browne,20190421-092301
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190421-092301
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190421-114053
+M,Grammar/src/compiler/Part.java,Cameron Browne,20190421-114053
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190421-114053
+M,Library/lud/4 Puzzles.lud,eric.piette,20190422-093024
+M,Library/lud/Knight's Tour.lud,eric.piette,20190422-093024
+D,Library/lud2/4 Puzzles.lud,eric.piette,20190422-093024
+D,Library/lud2/8 Queens.lud,eric.piette,20190422-093024
+D,Library/lud2/Adugo.lud,eric.piette,20190422-093024
+D,Library/lud2/All Queens Chess.lud,eric.piette,20190422-093024
+D,Library/lud2/Alquerque (define).lud,eric.piette,20190422-093024
+D,Library/lud2/Alquerque.lud,eric.piette,20190422-093024
+D,Library/lud2/Amazons.lud,eric.piette,20190422-093024
+D,Library/lud2/ArdRi.lud,eric.piette,20190422-093024
+D,Library/lud2/Baqh Chal.lud,eric.piette,20190422-093024
+D,Library/lud2/Brazilian Draughts.lud,eric.piette,20190422-093024
+D,Library/lud2/Breakthrough.lud,eric.piette,20190422-093024
+D,Library/lud2/Canadian Draughts.lud,eric.piette,20190422-093024
+D,Library/lud2/Chess (Skirmish).lud,eric.piette,20190422-093024
+D,Library/lud2/Connect-4.lud,eric.piette,20190422-093024
+D,Library/lud2/Connect-6.lud,eric.piette,20190422-093024
+D,Library/lud2/Dama (Turkish Draughts).lud,eric.piette,20190422-093024
+D,Library/lud2/English Draughts.lud,eric.piette,20190422-093024
+D,Library/lud2/Five Men's Morris.lud,eric.piette,20190422-093024
+D,Library/lud2/Gomoku.lud,eric.piette,20190422-093024
+D,Library/lud2/Halma (2 players).lud,eric.piette,20190422-093024
+D,Library/lud2/Halma (4 players).lud,eric.piette,20190422-093024
+D,Library/lud2/Hex.lud,eric.piette,20190422-093024
+D,Library/lud2/Hnefatafl Fetlar.lud,eric.piette,20190422-093024
+D,Library/lud2/Insanity.lud,eric.piette,20190422-093024
+D,Library/lud2/International Draughts.lud,eric.piette,20190422-093024
+D,Library/lud2/Knight's Tour.lud,eric.piette,20190422-093024
+D,Library/lud2/KnightThrough.lud,eric.piette,20190422-093024
+D,Library/lud2/Konane.lud,eric.piette,20190422-093024
+D,Library/lud2/Leopards and Cows.lud,eric.piette,20190422-093024
+D,Library/lud2/Mogul putt'han.lud,eric.piette,20190422-093024
+D,Library/lud2/Mu-Torere (Wheel).lud,eric.piette,20190422-093024
+D,Library/lud2/Mu-Torere.lud,eric.piette,20190422-093024
+D,Library/lud2/Nine Holes.lud,eric.piette,20190422-093024
+D,Library/lud2/Nine Men's Morris.lud,eric.piette,20190422-093024
+D,Library/lud2/Oware.lud,eric.piette,20190422-093024
+D,Library/lud2/Peg Solitaire (English).lud,eric.piette,20190422-093024
+D,Library/lud2/Peg Solitaire (European).lud,eric.piette,20190422-093024
+D,Library/lud2/Peralikatuma.lud,eric.piette,20190422-093024
+D,Library/lud2/Renju.lud,eric.piette,20190422-093024
+D,Library/lud2/Reversi.lud,eric.piette,20190422-093024
+D,Library/lud2/Round Merels.lud,eric.piette,20190422-093024
+D,Library/lud2/Royal Game of Ur (Irvin Finkel video rules).lud,eric.piette,20190422-093024
+D,Library/lud2/Royal Game of Ur (Murray track).lud,eric.piette,20190422-093024
+D,Library/lud2/Senet.lud,eric.piette,20190422-093024
+D,Library/lud2/Six Men's Morris.lud,eric.piette,20190422-093024
+D,Library/lud2/Sixteen Soldiers.lud,eric.piette,20190422-093024
+D,Library/lud2/Sudoku.lud,eric.piette,20190422-093024
+D,Library/lud2/Surakarta (middle line).lud,eric.piette,20190422-093024
+D,Library/lud2/Surakarta.lud,eric.piette,20190422-093024
+D,Library/lud2/Three Men's Morris.lud,eric.piette,20190422-093024
+D,Library/lud2/Tic-Tac-Mo.lud,eric.piette,20190422-093024
+D,Library/lud2/Tic-Tac-Toe.lud,eric.piette,20190422-093024
+D,Library/lud2/Twelve Men's Morris (large board).lud,eric.piette,20190422-093024
+D,Library/lud2/Twelve Men's Morris.lud,eric.piette,20190422-093024
+D,Library/lud2/Wolf And Sheep.lud,eric.piette,20190422-093024
+D,Library/lud2/Y (Hex).lud,eric.piette,20190422-093024
+D,Library/lud2/Yavalath (2 players).lud,eric.piette,20190422-093024
+D,Library/lud2/Yavalath (3 players).lud,eric.piette,20190422-093024
+D,Library/lud2/Zamma.lud,eric.piette,20190422-093024
+M,Library/src/game/rules/start/PlaceRandomly.java,eric.piette,20190422-093024
+M,Library/lud/4 Puzzles.lud,eric.piette,20190422-093502
+M,Library/lud/8 Queens.lud,eric.piette,20190422-093502
+M,Library/lud/Adugo.lud,eric.piette,20190422-093502
+M,Library/lud/All Queens Chess.lud,eric.piette,20190422-093502
+D,Library/lud/Alquerque (define).lud,eric.piette,20190422-093502
+M,Library/lud/Alquerque.lud,eric.piette,20190422-093502
+M,Library/lud/Amazons.lud,eric.piette,20190422-102140
+M,Library/lud/ArdRi.lud,eric.piette,20190422-102140
+M,Library/lud/Baqh Chal.lud,eric.piette,20190422-102734
+M,Library/lud/Brazilian Draughts.lud,eric.piette,20190422-114144
+M,Library/lud/Brazilian Draughts.lud,eric.piette,20190422-114444
+M,Library/lud/Canadian Draughts.lud,eric.piette,20190422-114444
+M,Library/lud/Dama (Turkish Draughts).lud,eric.piette,20190422-114901
+M,Library/lud/English Draughts.lud,eric.piette,20190422-125442
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Dennis Soemers,20190422-125617
+M,Library/src/game/equipment/container/tiling/directions/Direction.java,Dennis Soemers,20190422-125617
+M,Library/src/game/rules/play/moves/Moves.java,Dennis Soemers,20190422-125617
+M,Library/src/util/ListUtils.java,Dennis Soemers,20190422-125617
+M,Library/src/util/MoveUtilities.java,Dennis Soemers,20190422-125617
+M,Library/lud/Halma (2 players).lud,eric.piette,20190422-130459
+M,Library/lud/Halma (4 players).lud,eric.piette,20190422-130459
+M,Library/lud/ArdRi.lud,eric.piette,20190422-131213
+M,Library/lud/Hex.lud,eric.piette,20190422-131213
+M,Library/lud/Hnefatafl Fetlar.lud,eric.piette,20190422-131213
+M,Library/lud/Insanity.lud,eric.piette,20190422-131518
+M,Library/lud/International Draughts.lud,eric.piette,20190422-131634
+M,Library/lud/KnightThrough.lud,eric.piette,20190422-131941
+M,Library/lud/Konane.lud,eric.piette,20190422-132314
+M,Library/lud/Leopards and Cows.lud,eric.piette,20190422-133056
+M,Library/lud/Leopards and Cows.lud,eric.piette,20190422-133441
+M,Library/lud/Mogul putt'han.lud,eric.piette,20190422-133441
+M,Library/lud/Mu-Torere (Wheel).lud,eric.piette,20190422-133820
+M,Library/lud/Mu-Torere.lud,eric.piette,20190422-133820
+M,Library/lud/Oware.lud,eric.piette,20190422-134725
+M,Library/lud/Peg Solitaire (English).lud,eric.piette,20190422-135029
+M,Library/lud/Peg Solitaire (European).lud,eric.piette,20190422-135029
+M,Library/lud/Peralikatuma.lud,eric.piette,20190422-135029
+M,Library/lud/Reversi.lud,eric.piette,20190422-135223
+M,Library/lud/Sixteen Soldiers.lud,eric.piette,20190422-135223
+M,Library/lud/Surakarta (middle line).lud,eric.piette,20190422-135430
+M,Library/lud/Wolf And Sheep.lud,eric.piette,20190422-142014
+M,Library/lud/Y (Hex).lud,eric.piette,20190422-142014
+M,Library/lud/Zamma.lud,eric.piette,20190422-142014
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190422-161440
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190422-170540
+A,Library/lud/Test - Infinite Define Loop.lud,Cameron Browne,20190422-170540
+M,Library/lud/Oware.lud,eric.piette,20190423-075754
+M,Library/src/game/equipment/container/board/MancalaBoard.java,eric.piette,20190423-075754
+M,Library/lud/Oware.lud,eric.piette,20190423-082959
+A,Library/lud/Oware (nested Define).lud,eric.piette,20190423-083210
+M,Library/lud/Adugo.lud,eric.piette,20190423-091313
+M,Library/src/game/functions/region/Column.java,eric.piette,20190423-091313
+M,Library/src/game/functions/region/Row.java,eric.piette,20190423-091313
+M,Library/src/game/functions/region/Union.java,eric.piette,20190423-091313
+M,Library/src/game/rules/start/Place.java,eric.piette,20190423-091313
+M,Library/lud/Oware (nested Define).lud,eric.piette,20190423-100659
+M,Library/src/game/Game.java,eric.piette,20190423-100659
+M,Library/src/game/rules/start/Place.java,eric.piette,20190423-100659
+M,Library/src/util/Context.java,eric.piette,20190423-100659
+M,Library/src/util/state/containerState/ContainerStateCount.java,eric.piette,20190423-100659
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190423-103453
+M,Library/lud/Breakthrough.lud,eric.piette,20190423-104017
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190423-104751
+A,Library/lud/Dama (Turkish Draughts) (with define).lud,Cameron Browne,20190423-104751
+M,Library/lud/Dama (Turkish Draughts).lud,Cameron Browne,20190423-104751
+M,Library/lud/Test - Infinite Define Loop.lud,Cameron Browne,20190423-104751
+M,Library/lud/Adugo.lud,eric.piette,20190423-104841
+M,Library/lud/Alquerque.lud,eric.piette,20190423-104841
+M,Library/lud/Dama (Turkish Draughts).lud,Cameron Browne,20190423-105254
+M,Grammar/src/compiler/Compiler.java,eric.piette,20190423-111545
+M,Library/lud/Baqh Chal.lud,eric.piette,20190423-112300
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190423-112621
+M,Player/test/games/CompilationTest.java,eric.piette,20190423-113449
+A,Library/src/game/functions/region/Phase.java,eric.piette,20190423-114719
+M,Library/lud/Brazilian Draughts.lud,eric.piette,20190423-115034
+M,Library/lud/Canadian Draughts.lud,eric.piette,20190423-115326
+M,Library/lud/Chess (Skirmish).lud,eric.piette,20190423-115424
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190423-123742
+M,Library/lud/Dama (Turkish Draughts) (with define).lud,eric.piette,20190423-124150
+M,Library/lud/Dama (Turkish Draughts).lud,eric.piette,20190423-124150
+M,Library/lud/English Draughts.lud,eric.piette,20190423-124150
+M,Library/lud/International Draughts.lud,eric.piette,20190423-124150
+M,Library/lud/KnightThrough.lud,eric.piette,20190423-124150
+M,Library/lud/Konane.lud,eric.piette,20190423-124150
+M,Library/lud/Mogul putt'han.lud,eric.piette,20190423-124150
+M,Library/lud/Oware (nested Define).lud,eric.piette,20190423-124150
+M,Library/lud/Peg Solitaire (English).lud,eric.piette,20190423-124150
+M,Library/lud/Peg Solitaire (European).lud,eric.piette,20190423-124150
+M,Library/lud/Surakarta (middle line).lud,eric.piette,20190423-124150
+M,Library/lud/Surakarta.lud,eric.piette,20190423-124150
+M,Library/lud/Zamma.lud,eric.piette,20190423-124150
+M,Player/test/games/CompilationTest.java,eric.piette,20190423-125813
+M,Player/test/games/EfficiencyTest.java,eric.piette,20190423-125813
+M,Player/test/games/OnePlayoutByGameTest.java,eric.piette,20190423-125813
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190423-130754
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190423-130754
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190423-130754
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190423-130754
+A,Player/src/mainView/dialog/LoadGameDialog.java,Matthew Stephenson,20190423-133209
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190423-133209
+M,Library/src/util/Trial.java,DennisSoemers,20190423-134411
+M,Player/src/player/Referee.java,DennisSoemers,20190423-134411
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Matthew Stephenson,20190423-135059
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190423-135606
+M,Library/lud/Breakthrough.lud,DennisSoemers,20190423-142246
+M,Library/src/game/equipment/container/board/HexBoard.java,Matthew Stephenson,20190423-151815
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190423-151815
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190423-152430
+D,Library/lud/Oware (nested Define).lud,eric.piette,20190423-161838
+M,Library/lud/Oware.lud,eric.piette,20190423-161838
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190423-162652
+M,Grammar/src/compiler/Part.java,Cameron Browne,20190423-162652
+M,Library/lud/Chess (Skirmish).lud,eric.piette,20190423-163433
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190423-163433
+A,Common/src/main/StringRoutines.java,Cameron Browne,20190423-164059
+M,Library/lud/Chess (Skirmish).lud,eric.piette,20190423-164757
+M,Library/lud/Royal Game of Ur (Irvin Finkel video rules).lud,eric.piette,20190424-072953
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190424-072953
+A,Library/src/game/equipment/container/HandDice.java,eric.piette,20190424-072953

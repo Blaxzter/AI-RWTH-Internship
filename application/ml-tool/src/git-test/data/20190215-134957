@@ -1,0 +1,632 @@
+M,Library/src/game/rules/moves/Diagonal.java,DennisSoemers,20190207-115116
+M,Library/src/game/rules/moves/Orthogonal.java,DennisSoemers,20190207-115116
+M,AI/src/search/mcts/Node.java,DennisSoemers,20190207-121926
+M,AI/src/optimizers/DeepmindRMSProp.java,DennisSoemers,20190207-122101
+M,AI/src/optimizers/DeepmindRMSProp.java,DennisSoemers,20190207-130313
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190207-130313
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190207-130313
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,DennisSoemers,20190207-130313
+M,AI/src/search/mcts/playout/RandomPlayout.java,DennisSoemers,20190207-130313
+M,Library/src/game/API.java,DennisSoemers,20190207-130313
+M,Library/src/game/Game.java,DennisSoemers,20190207-130313
+M,Library/src/game/play/playout/AddToEmpty.java,DennisSoemers,20190207-130313
+M,Library/src/game/play/playout/Playout.java,DennisSoemers,20190207-130313
+M,Library/test/Performance.java,DennisSoemers,20190207-130313
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190207-130313
+M,Player/src/player/PlayerCli.java,DennisSoemers,20190207-130313
+M,Player/src/player/Referee.java,DennisSoemers,20190207-130313
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190207-131540
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190207-131540
+M,AI/src/search/mcts/playout/RandomPlayout.java,DennisSoemers,20190207-131540
+M,AI/src/optimizers/Optimizer.java,DennisSoemers,20190207-143811
+A,Player/src/player/experiments/PruneAtomicFeatureSet.java,Dennis Soemers,20190208-181016
+M,Player/src/player/experiments/PruneFeatureSet.java,Dennis Soemers,20190208-181016
+M,Library/src/game/Game.java,Dennis Soemers,20190209-212624
+M,Library/src/game/play/playout/AddToEmpty.java,Dennis Soemers,20190209-212624
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/plot_slowdown_scores_aac.py,Dennis Soemers,20190209-212624
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant_per_game_aac.py,Dennis Soemers,20190209-212624
+M,Grammar/grammar-1.6.txt,Cameron Browne,20190210-095257
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20190210-095257
+M,Grammar/src/grammar/Symbol.java,Cameron Browne,20190210-095257
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190210-095257
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190210-095257
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190210-095257
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190210-095257
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190210-095257
+M,Library/src/features/FeatureUtils.java,Cameron Browne,20190210-095257
+M,Library/src/features/features/Feature.java,Cameron Browne,20190210-095257
+M,Library/src/game/Game.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/Card.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/HalfNumber.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/Letter.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/Number.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/Cross.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/Disc.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/Hex.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/Piece.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/Square.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/animal/Animal.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Alfil.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Centaur.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Champion.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Chess.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Commoner.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Empress.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Fool.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Giraffe.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Janus.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/King.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Mann.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Unicorn.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Wizard.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/chess/Zebra.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/object/Bomb.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/object/Object.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/state/LargePiece.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/AlquerqueRect.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/BaseBasis.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/Concentric.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/Cross.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/HexHex.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/HexMat.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/HexRect.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/HexRhombus.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/Rect.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/Rhombus.java,Cameron Browne,20190210-095257
+M,Library/src/game/equipment/container/basis/Square.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/AllDifferent.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Capture.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Check.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Connect.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/MoreItem.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/NoItem.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/NoKindItem.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/NonogramConstraint.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Reached.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/ReachedLimit.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/Square.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/SurroundedCol.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/booleans/SurroundedRow.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/ints/IndexOf.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/ints/MaxIdenticalSuccessors.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/ints/SiteItem.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/Adjacent.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/BishopPosition.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/Diagonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/LastQueenMove.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/Orthogonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/Own.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/QueenPosition.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/RookPosition.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/SpecificSiteRegion.java,Cameron Browne,20190210-095257
+M,Library/src/game/functions/region/TurtlePosition.java,Cameron Browne,20190210-095257
+M,Library/src/game/play/player/Player.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/Rules.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/end/Result.java,Cameron Browne,20190210-095257
+A,Library/src/game/rules/end/ResultType.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Adjacent.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Choose.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Diagonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/FlyingJump.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Forward.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/FromTo.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/FromToNDistance.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Jump.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/King.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Knight.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/NOrthoDiago.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/NOrthogonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Ndiagonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Orthogonal.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/Slide.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/SpecificDirectionDistance.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/TurnOver.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/TurtleMove.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/AdjacentFromLastMove.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/ApplyTurnOver.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/CaptureApproach.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/CaptureSurrounded.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/CaptureWithdrawal.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/ChangeOwner.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/Drop.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/FlyingJumpFromLastMove.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/JumpFromLastMove.java,Cameron Browne,20190210-095257
+M,Library/src/game/rules/moves/postMove/MultiCaptureApproachWithdrawal.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/CaptureType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/CardType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/DirnType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/MarginType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/RegionType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/RoleType.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/SiteCounter.java,Cameron Browne,20190210-095257
+A,Library/src/game/types/StepType.java,Cameron Browne,20190210-095257
+D,Library/src/game/types/Types.java,Cameron Browne,20190210-095257
+M,Library/src/graph/Vertex.java,Cameron Browne,20190210-095257
+M,Library/src/util/Context.java,Cameron Browne,20190210-095257
+M,Library/src/util/action/ActionAddN.java,Cameron Browne,20190210-095257
+M,Library/src/util/action/ActionMove.java,Cameron Browne,20190210-095257
+M,Library/src/util/action/ActionMoveState.java,Cameron Browne,20190210-095257
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerCount.java,Cameron Browne,20190210-095257
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenCount.java,Cameron Browne,20190210-095257
+M,Library/test/Performance.java,Cameron Browne,20190210-095257
+M,Player/src/dbView/GamesList.java,Cameron Browne,20190210-095257
+M,Player/src/dbView/GamesListCBB.java,Cameron Browne,20190210-095257
+M,Player/src/dbView/button/LoadButton.java,Cameron Browne,20190210-095257
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190210-095257
+M,Player/src/player/PlayerCli.java,Cameron Browne,20190210-095257
+M,Player/src/player/Referee.java,Cameron Browne,20190210-095257
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac.py,Dennis Soemers,20190210-140757
+M,Library/src/game/equipment/container/basis/BaseBasis.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/Basis.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/Rect.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/Square.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/directions/DirectionActual.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/directions/DirectionChoice.java,mrrao,20190210-192427
+M,Library/src/game/equipment/container/basis/directions/DirectionType.java,mrrao,20190210-192427
+M,Library/src/game/rules/moves/Moves.java,mrrao,20190210-192427
+M,Library/src/game/rules/moves/Slide.java,mrrao,20190210-192427
+M,Library/src/graph/Edge.java,mrrao,20190210-192427
+M,Library/src/graph/Graph.java,mrrao,20190210-192427
+M,Library/src/graph/Vertex.java,mrrao,20190210-192427
+M,Library/src/util/Context.java,mrrao,20190210-192427
+M,Library/src/util/action/ActionCompound.java,mrrao,20190210-192427
+A,Library/src/game/equipment/container/basis/directions/DirectionUtils.java,mrrao,20190211-102219
+A,Library/src/game/functions/ints/BaseIntFunction.java,mrrao,20190211-102219
+A,Library/src/game/functions/ints/From.java,mrrao,20190211-102219
+A,Library/src/game/functions/ints/To.java,mrrao,20190211-102219
+A,Library/src/game/functions/region/Prune.java,mrrao,20190211-102219
+A,Library/src/game/rules/moves/Sequence.java,mrrao,20190211-102219
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190211-102219
+M,Player/src/player/PlayerApp.java,mrrao,20190211-102219
+M,Player/src/player/Referee.java,mrrao,20190211-102219
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190211-112635
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190211-112635
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190211-112635
+M,AI/src/utils/RandomAI.java,DennisSoemers,20190211-112635
+M,Library/src/util/AI.java,DennisSoemers,20190211-112635
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_aac.py,DennisSoemers,20190211-112635
+M,Player/src/player/experiments/RunTournament.java,DennisSoemers,20190211-112635
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20190211-121048
+M,Player/src/player/MainMenu.java,DennisSoemers,20190211-121048
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190211-121048
+M,Player/src/player/Settings.java,DennisSoemers,20190211-121048
+M,Library/src/game/equipment/component/Component.java,mrrao,20190211-182658
+M,Library/src/game/equipment/component/piece/Disc.java,mrrao,20190211-182658
+M,Library/src/game/equipment/component/piece/Piece.java,mrrao,20190211-182658
+M,Library/src/game/equipment/component/piece/chess/Chess.java,mrrao,20190211-182658
+M,Library/src/game/equipment/component/piece/chess/Mann.java,mrrao,20190211-182658
+M,Library/src/game/equipment/container/basis/BaseBasis.java,mrrao,20190211-182658
+M,Library/src/game/equipment/container/basis/Basis.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/BaseBooleanFunction.java,mrrao,20190211-182658
+M,Library/src/game/functions/booleans/BooleanConstant.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/In.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/IsCheckmate.java,mrrao,20190211-182658
+M,Library/src/game/functions/booleans/IsEmpty.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/IsEnemy.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/IsFriend.java,mrrao,20190211-182658
+M,Library/src/game/functions/booleans/IsMover.java,mrrao,20190211-182658
+A,Library/src/game/functions/booleans/IsPiece.java,mrrao,20190211-182658
+A,Library/src/game/functions/region/BaseRegionFunction.java,mrrao,20190211-182658
+M,Library/src/game/functions/region/Empty.java,mrrao,20190211-182658
+M,Library/src/game/functions/region/Prune.java,mrrao,20190211-182658
+A,Library/src/game/rules/moves/AskThePieces.java,mrrao,20190211-182658
+A,Library/src/game/rules/moves/Checkmate.java,mrrao,20190211-182658
+M,Library/src/game/rules/moves/Remove.java,mrrao,20190211-182658
+A,Library/src/game/rules/moves/RemoveSet.java,mrrao,20190211-182658
+A,Library/src/game/rules/moves/Sandwiched.java,mrrao,20190211-182658
+M,Library/src/game/rules/moves/Slide.java,mrrao,20190211-182658
+A,Library/src/game/rules/moves/Surrounded.java,mrrao,20190211-182658
+M,Library/src/util/Region.java,mrrao,20190211-182658
+M,Library/src/util/action/ActionRemove.java,mrrao,20190211-182658
+A,Library/src/util/action/Checkmate.java,mrrao,20190211-182658
+A,Library/src/util/action/Remove.java,mrrao,20190211-182658
+A,Library/src/util/state/ContainerState.java,mrrao,20190211-182658
+M,Library/src/util/state/ItemStateContainer/ItemStateContainer.java,mrrao,20190211-182658
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndex.java,mrrao,20190211-182658
+M,Library/src/util/state/State.java,mrrao,20190211-182658
+M,Library/src/util/state/StateFormat.java,mrrao,20190211-182658
+M,Player/src/dbView/GamesList.java,mrrao,20190211-182658
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190211-182658
+M,Library/src/game/equipment/Equipment.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/Card.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/Die.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/HalfNumber.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/Letter.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/Number.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/Ball.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/Cross.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/Hex.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/Square.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/animal/Animal.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Alfil.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Centaur.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Champion.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Commoner.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Empress.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Fool.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Giraffe.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Janus.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/King.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Knight.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Queen.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Rook.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Unicorn.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Wizard.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/chess/Zebra.java,mrrao,20190211-200148
+D,Library/src/game/equipment/component/piece/object/Bomb.java,mrrao,20190211-200148
+D,Library/src/game/equipment/component/piece/object/Object.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/state/LargePiece.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/state/PieceState.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,mrrao,20190211-200148
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,mrrao,20190211-200148
+M,Library/src/game/functions/bitset/And.java,mrrao,20190211-200148
+M,Library/src/game/functions/bitset/BitSetConstant.java,mrrao,20190211-200148
+D,Library/src/game/functions/bitset/Empty.java,mrrao,20190211-200148
+M,Library/src/game/functions/bitset/Or.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/AllDifferent.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/And.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/AndN.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Capture.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Check.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/CheckMate.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Configuration.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Connect.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Contains.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/CountOwn.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Encircle.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Equal.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Full.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Ge.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Gt.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Hidden.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/If.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/IsActive.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/IsNext.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/IsPrev.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Le.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Line.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/LinearDistance.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Lt.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/MoreItem.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/MoveToNonEmpty.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/NoItem.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/NoKindItem.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/NoMove.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/NonogramConstraint.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Not.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Occupied.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/On.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Or.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/OrN.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/PreviousPostConditionApplied.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Reached.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/ReachedLimit.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/ReachedRegion.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/SitesConfiguration.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Square.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/StackConfiguration.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/StepsTo.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/SurroundedAdj.java,mrrao,20190211-200148
+D,Library/src/game/functions/booleans/SurroundedCol.java,mrrao,20190211-200148
+D,Library/src/game/functions/booleans/SurroundedDiag.java,mrrao,20190211-200148
+D,Library/src/game/functions/booleans/SurroundedOrtho.java,mrrao,20190211-200148
+D,Library/src/game/functions/booleans/SurroundedRow.java,mrrao,20190211-200148
+M,Library/src/game/functions/booleans/Unequal.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Add.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Count.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/CountHiddenSite.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/CountSameState.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/From.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/HowMany.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/IndexOf.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/IntConstant.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/LastFromMove.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/LastOverMove.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/LastToMove.java,mrrao,20190211-200148
+D,Library/src/game/functions/ints/LinearDistance.java,mrrao,20190211-200148
+D,Library/src/game/functions/ints/MaxIdenticalSuccessors.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/MostState.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/SiteItem.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/State.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/StepsTo.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Sub.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Sum.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/SumDice.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/To.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Turn.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Value.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/What.java,mrrao,20190211-200148
+M,Library/src/game/functions/ints/Who.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Adjacent.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/All.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/And.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/AtleastNbOccupied.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/BishopPosition.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Bottom.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Center.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Column.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Corners.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Customise.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Diagonal.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/DiagonalNESW.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/DiagonalNWSE.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Exteriors.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/ExteriorsNotCorner.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Hand.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Hidden.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/Interiors.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/KnightPosition.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/LastQueenMove.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/Left.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/LocalState.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Or.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/Orthogonal.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Own.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Playable.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/QueenPosition.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/RecursiveAdjacent.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/RegionConstant.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/Right.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/RookPosition.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Row.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/SpecificSiteItem.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/SpecificSiteRegion.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/SubSquare.java,mrrao,20190211-200148
+M,Library/src/game/functions/region/Top.java,mrrao,20190211-200148
+D,Library/src/game/functions/region/TurtlePosition.java,mrrao,20190211-200148
+M,Library/src/game/rules/end/End.java,mrrao,20190211-200148
+D,Library/src/game/rules/moves/TurtleMove.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/Fill.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/Place.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/PlaceNumberAdjacentItem.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/PlaceRandomly.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/RandomizingDecks.java,mrrao,20190211-200148
+M,Library/src/game/rules/start/RollAllDice.java,mrrao,20190211-200148
+M,Library/test/Misc.java,mrrao,20190211-200148
+M,Library/test/Performance.java,mrrao,20190211-200148
+M,Player/src/player/Referee.java,mrrao,20190211-200148
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_aac.py,DennisSoemers,20190212-145247
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,DennisSoemers,20190212-145247
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,DennisSoemers,20190212-151335
+M,Common/src/main/Global.java,mrrao,20190212-174900
+M,Library/src/game/Game.java,mrrao,20190212-174900
+M,Library/src/game/equipment/container/basis/BaseBasis.java,mrrao,20190212-174900
+M,Library/src/game/equipment/container/basis/Square.java,mrrao,20190212-174900
+M,Library/src/game/equipment/container/basis/directions/DirectionActual.java,mrrao,20190212-174900
+M,Library/src/game/equipment/container/basis/directions/DirectionChoice.java,mrrao,20190212-174900
+M,Library/src/game/functions/booleans/IsCheckmate.java,mrrao,20190212-174900
+A,Library/src/game/functions/booleans/IsFriendAtTo.java,mrrao,20190212-174900
+M,Library/src/game/functions/booleans/IsPiece.java,mrrao,20190212-174900
+M,Library/src/game/functions/booleans/Not.java,mrrao,20190212-174900
+M,Library/src/game/functions/booleans/ReachedRegion.java,mrrao,20190212-174900
+M,Library/src/game/functions/ints/To.java,mrrao,20190212-174900
+M,Library/src/game/functions/ints/Who.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Bottom.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Center.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Corners.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Empty.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Exteriors.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Hand.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Hidden.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/LocalState.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Or.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Prune.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/SpecificSiteItem.java,mrrao,20190212-174900
+M,Library/src/game/functions/region/Top.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/AskThePieces.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Checkmate.java,mrrao,20190212-174900
+A,Library/src/game/rules/moves/Collect.java,mrrao,20190212-174900
+A,Library/src/game/rules/moves/MoveUtilities.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Or.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Remove.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Sandwiched.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Slide.java,mrrao,20190212-174900
+M,Library/src/game/rules/moves/Surrounded.java,mrrao,20190212-174900
+M,Library/src/util/Context.java,mrrao,20190212-174900
+M,Library/src/util/action/ActionCompound.java,mrrao,20190212-174900
+M,Library/src/util/action/Remove.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainer.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerCount.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndex.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCount.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCountState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerPlayer.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessIndex.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessIndexState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessPlayer.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenCount.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndex.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCount.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCountState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenPlayer.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerStacking/ItemStateContainerStacking.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerStacking/ItemStateContainerStackingIndex.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerStacking/ItemStateContainerStackingIndexState.java,mrrao,20190212-174900
+M,Library/src/util/state/ItemStateContainerStacking/ItemStateContainerStackingPlayer.java,mrrao,20190212-174900
+M,Library/src/util/state/State.java,mrrao,20190212-174900
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190212-174900
+M,Player/src/player/PlayerApp.java,mrrao,20190212-174900
+M,Player/src/player/Referee.java,mrrao,20190212-174900
+A,Library/src/game/functions/ints/Mover.java,mrrao,20190212-185449
+M,Library/src/game/rules/moves/Sandwiched.java,mrrao,20190212-185449
+M,Library/src/game/rules/moves/Surrounded.java,mrrao,20190212-185449
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190212-185449
+A,Player/src/dbView/GamesListHneftaflChained.java,mrrao,20190212-185449
+M,Common/src/exception/IndexPlayerException.java,mrrao,20190212-210041
+M,Common/src/exception/LimitPlayerException.java,mrrao,20190212-210041
+A,Library/src/game/functions/booleans/Even.java,mrrao,20190212-210041
+A,Library/src/game/functions/booleans/Odd.java,mrrao,20190212-210041
+A,Library/src/game/rules/moves/SetNextPlayer.java,mrrao,20190212-210041
+A,Library/src/game/rules/moves/SetNextPlayerWithoutAction.java,mrrao,20190212-210041
+A,Library/src/game/rules/moves/Shoot.java,mrrao,20190212-210041
+M,Library/src/game/rules/moves/Slide.java,mrrao,20190212-210041
+M,Library/src/game/rules/moves/postMove/Replay.java,mrrao,20190212-210041
+A,Library/src/util/action/SetNextPlayer.java,mrrao,20190212-210041
+A,Player/src/dbView/GamesListAmazons.java,mrrao,20190212-210041
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190212-210041
+M,Player/src/dbView/GamesListHneftaflChained.java,mrrao,20190212-210041
+A,Player/src/dbView/GamesListHneftaflPost.java,mrrao,20190212-210041
+A,Player/src/dbView/GamesListTicTacToe.java,mrrao,20190212-210041
+A,Player/src/game/rules/moves/ForEachPieceType.java,mrrao,20190212-210041
+M,Library/src/util/state/State.java,Cameron Browne,20190213-061751
+M,Library/src/game/Game.java,mrrao,20190213-093412
+M,Library/src/game/functions/booleans/NoMove.java,mrrao,20190213-093412
+A,Library/src/game/functions/booleans/Stalemated.java,mrrao,20190213-093412
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190213-093412
+M,Library/src/game/equipment/container/basis/BaseBasis.java,mrrao,20190213-124809
+M,Library/src/game/equipment/container/basis/Basis.java,mrrao,20190213-124809
+M,Library/src/game/equipment/container/basis/Rect.java,mrrao,20190213-124809
+A,Library/src/game/equipment/container/basis/directions/CompassDirection.java,mrrao,20190213-124809
+A,Library/src/game/equipment/container/basis/directions/Direction.java,mrrao,20190213-124809
+D,Library/src/game/equipment/container/basis/directions/DirectionActual.java,mrrao,20190213-124809
+M,Library/src/game/equipment/container/basis/directions/DirectionChoice.java,mrrao,20190213-124809
+M,Library/src/game/equipment/container/basis/directions/DirectionType.java,mrrao,20190213-124809
+A,Library/src/game/equipment/container/basis/directions/DirectionUniqueName.java,mrrao,20190213-124809
+M,Library/src/game/equipment/container/basis/directions/DirectionUtils.java,mrrao,20190213-124809
+A,Library/src/game/equipment/container/basis/directions/HexDirection.java,mrrao,20190213-124809
+M,Library/src/game/rules/moves/MoveUtilities.java,mrrao,20190213-124809
+M,Library/src/game/rules/moves/Sandwiched.java,mrrao,20190213-124809
+M,Library/src/game/rules/moves/Shoot.java,mrrao,20190213-124809
+M,Library/src/game/rules/moves/Slide.java,mrrao,20190213-124809
+A,Library/src/game/rules/moves/Step.java,mrrao,20190213-124809
+M,Library/src/game/rules/moves/Surrounded.java,mrrao,20190213-124809
+M,Library/src/game/types/DirnType.java,mrrao,20190213-124809
+M,Library/src/util/state/ItemStateContainer/ItemStateContainer.java,mrrao,20190213-124809
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerPlayer.java,mrrao,20190213-124809
+M,Player/src/dbView/GamesListAmazons.java,mrrao,20190213-124809
+M,Player/src/dbView/GamesListCBB.java,mrrao,20190213-124809
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20190213-164301
+M,Library/src/features/Walk.java,Dennis Soemers,20190213-164301
+M,Library/src/features/features/AbsoluteFeature.java,Dennis Soemers,20190213-164301
+M,Library/src/features/features/Feature.java,Dennis Soemers,20190213-164301
+M,Library/src/features/features/RelativeFeature.java,Dennis Soemers,20190213-164301
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20190213-164301
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190213-170310
+M,AI/src/optimizers/AMSGrad.java,Dennis Soemers,20190213-173540
+M,AI/src/optimizers/DeepmindRMSProp.java,Dennis Soemers,20190213-173540
+M,AI/src/optimizers/OptimizerFactory.java,Dennis Soemers,20190213-173540
+M,AI/src/optimizers/SGD.java,Dennis Soemers,20190213-173540
+M,AI/src/utils/AIFactory.java,Dennis Soemers,20190213-173540
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac.py,Dennis Soemers,20190213-173540
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190213-173540
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac.py,Dennis Soemers,20190213-175104
+M,Library/src/features/features/Feature.java,Dennis Soemers,20190213-193252
+A,AI/src/search/flat/FlatMonteCarlo.java,DennisSoemers,20190214-111114
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190214-111114
+D,AI/src/search/mcts/selection/PlayoutSelection.java,DennisSoemers,20190214-111114
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20190214-111114
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190214-111114
+M,Player/src/player/experiments/TestExpertIteration.java,DennisSoemers,20190214-111114
+M,Library/src/game/functions/ints/LastToMove.java,Cameron Browne,20190215-085303
+M,Library/src/game/rules/moves/Step.java,Cameron Browne,20190215-085303
+M,Library/src/util/action/ActionCompound.java,Cameron Browne,20190215-085303
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190215-085303
+M,Library/src/features/FeatureSet.java,Cameron Browne,20190215-134957
+M,Library/src/features/features/Feature.java,Cameron Browne,20190215-134957
+M,Library/src/features/generation/FeatureGenerationUtils.java,Cameron Browne,20190215-134957
+M,Library/src/game/Game.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/AshtapadaBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/Board.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/Boardless.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/ChessBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/FillAPixBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/GoBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/HexBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/IntersectionBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/SudokuBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/equipment/container/board/TaflBoard.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/booleans/Reached.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/booleans/ReachedRegion.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/ints/IndexOf.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/ints/MostState.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/ints/SiteItem.java,Cameron Browne,20190215-134957
+M,Library/src/game/functions/region/SpecificSiteRegion.java,Cameron Browne,20190215-134957
+A,Library/src/game/mode/.DS_Store,Cameron Browne,20190215-134957
+A,Library/src/game/mode/Mode.java,Cameron Browne,20190215-134957
+A,Library/src/game/mode/model/.DS_Store,Cameron Browne,20190215-134957
+A,Library/src/game/mode/model/Model.java,Cameron Browne,20190215-134957
+A,Library/src/game/mode/model/turnBased/TurnBased.java,Cameron Browne,20190215-134957
+A,Library/src/game/mode/player/Player.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/.DS_Store,Cameron Browne,20190215-134957
+D,Library/src/game/play/Play.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/model/.DS_Store,Cameron Browne,20190215-134957
+D,Library/src/game/play/model/Model.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/model/turnBased/TurnBased.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/player/Player.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/playout/AddToEmpty.java,Cameron Browne,20190215-134957
+D,Library/src/game/play/playout/Playout.java,Cameron Browne,20190215-134957
+A,Library/src/game/playout/AddToEmpty.java,Cameron Browne,20190215-134957
+A,Library/src/game/playout/Playout.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/end/End.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/moves/NOrthogonal.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/moves/To.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/moves/postMove/PlayCard.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/moves/postMove/UpdateTopDeck.java,Cameron Browne,20190215-134957
+M,Library/src/game/rules/start/RandomizingDecks.java,Cameron Browne,20190215-134957
+M,Library/src/ui/GameView.java,Cameron Browne,20190215-134957
+M,Library/src/util/Context.java,Cameron Browne,20190215-134957
+M,Library/src/util/Trial.java,Cameron Browne,20190215-134957
+M,Library/src/util/action/ActionRemove.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerCount.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndex.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCount.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCountState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerPlayer.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessIndex.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessIndexState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessPlayer.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHidden.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenCount.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndex.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCount.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCountState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenPlayer.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenState.java,Cameron Browne,20190215-134957
+M,Library/src/util/state/State.java,Cameron Browne,20190215-134957
+M,Library/test/Performance.java,Cameron Browne,20190215-134957
+M,Library/test/game/play/PlayTest.java,Cameron Browne,20190215-134957
+M,Library/test/game/play/player/PlayerTest.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesList.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesListAmazons.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesListCBB.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesListHneftaflChained.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesListHneftaflPost.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/GamesListTicTacToe.java,Cameron Browne,20190215-134957
+M,Player/src/dbView/button/LoadButton.java,Cameron Browne,20190215-134957
+M,Player/src/mainView/MainView.java,Cameron Browne,20190215-134957
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190215-134957
+M,Player/src/player/MainMenu.java,Cameron Browne,20190215-134957
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190215-134957
+M,Player/src/player/PlayerCli.java,Cameron Browne,20190215-134957
+M,Player/src/player/Referee.java,Cameron Browne,20190215-134957
+M,Player/src/player/experiments/RunTournament.java,Cameron Browne,20190215-134957
+M,Player/src/player/experiments/TestExpertIteration.java,Cameron Browne,20190215-134957
+M,Player/src/player/game_logs/ResultsSummary.java,Cameron Browne,20190215-134957

@@ -1,0 +1,318 @@
+A,Common/src/gnu/trove/impl/hash/TIntIntHash.java,DennisSoemers,20190715-091528
+A,Common/src/gnu/trove/map/TIntIntMap.java,DennisSoemers,20190715-091528
+A,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,DennisSoemers,20190715-091528
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,Matthew.Stephenson,20190715-093226
+M,Library/src/graph/Graph.java,Matthew.Stephenson,20190715-093226
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-094341
+M,Common/src/gnu/trove/impl/hash/TIntIntHash.java,DennisSoemers,20190715-095215
+M,Library/src/game/equipment/other/Map.java,eric.piette,20190715-095533
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190715-095533
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190715-095916
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-100629
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-101011
+M,Library/src/game/equipment/component/Die.java,Matthew.Stephenson,20190715-101027
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190715-101027
+M,Library/src/util/state/containerState/BaseContainerState.java,mrrao,20190715-121734
+A,Library/src/util/zhash/HashedBitSet.java,mrrao,20190715-121734
+M,Library/src/util/zhash/HashedChunkSet.java,mrrao,20190715-121734
+M,Common/res/lud/puzzle/deductive puzzle/Futoshiki.lud,Matthew.Stephenson,20190715-133608
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190715-141324
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-141958
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190715-141958
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-142307
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-143220
+M,Library/src/util/state/containerState/ContainerStateIndexCount.java,eric.piette,20190715-143506
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190715-144039
+M,Common/res/lud/dice/Royal Game of Ur.lud,eric.piette,20190715-144145
+M,Library/src/game/rules/play/moves/Or.java,eric.piette,20190715-144145
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-144208
+M,Common/res/lud/Hex.lud,Cameron Browne,20190715-151117
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190715-151117
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20190715-151143
+D,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190715-151957
+A,AI/src/policies/softmax/SoftmaxFromMetadata.java,DennisSoemers,20190715-151957
+A,AI/src/policies/softmax/SoftmaxPolicy.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/nodes/BaseNode.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,DennisSoemers,20190715-151957
+M,AI/src/utils/AIFactory.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/dialog/SettingsDialog.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20190715-151957
+M,Player/src/player/GameLoader.java,DennisSoemers,20190715-151957
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190715-151957
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/dialog/SettingsDialog.java,DennisSoemers,20190715-152104
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-152519
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190715-153544
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190715-154003
+M,Player/src/mainView/MainView.java,eric.piette,20190715-154557
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190715-154836
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,DennisSoemers,20190715-154952
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-154952
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190715-162201
+A,Library/src/game/functions/ints/Max.java,eric.piette,20190715-172858
+A,Library/src/game/functions/ints/Min.java,eric.piette,20190715-172858
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190715-175246
+A,Common/res/img/svg/shogi/bishop.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/gold_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/jeweled_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/king_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/knight.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/lance.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/pawn.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_bishop.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_knight.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_lance.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_pawn.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_rook.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_silver.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/rook.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/shogi_blank.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/silver_general.svg,Matthew.Stephenson,20190715-175812
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190716-125357
+M,AI/src/utils/AIFactory.java,DennisSoemers,20190716-125357
+M,Common/src/main/ArgParse.java,DennisSoemers,20190716-125357
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190716-125357
+A,Player/src/player/experiments/eval/EvalAgents.java,DennisSoemers,20190716-125357
+M,Library/src/util/ChunkStack.java,eric.piette,20190716-133102
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-134641
+M,Library/src/util/ListUtils.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/eval/EvalAgents.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190716-142413
+A,Library/src/game/functions/region/Region.java,eric.piette,20190716-163940
+M,Library/src/game/rules/play/moves/decision/Pass.java,eric.piette,20190716-163940
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-170124
+M,Library/src/game/Game.java,eric.piette,20190716-170124
+M,Library/src/util/action/Remove.java,eric.piette,20190716-170124
+D,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-173536
+A,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190716-173536
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/eval/EvalAgents.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/utils/ResultsSummary.java,Dennis Soemers,20190717-102345
+M,Library/src/util/Status.java,Dennis Soemers,20190717-103016
+M,Library/src/util/state/State.java,Dennis Soemers,20190717-103301
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190717-104532
+M,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190717-110056
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20190717-112552
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20190717-112552
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20190717-112552
+A,AI/src/utils/AIUtils.java,Dennis Soemers,20190717-112552
+M,Library/src/game/API.java,Dennis Soemers,20190717-112552
+M,Library/src/game/Game.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/AddToEmpty.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/Playout.java,Dennis Soemers,20190717-112552
+M,Player/src/mainView/MainView.java,Dennis Soemers,20190717-113727
+D,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190717-114123
+A,Common/res/lud/dice/Backgammon.lud,eric.piette,20190717-114123
+A,Library/src/game/functions/booleans/Double.java,eric.piette,20190717-114123
+A,Library/src/game/functions/ints/Double.java,eric.piette,20190717-114123
+A,Library/src/game/rules/play/moves/SetDouble.java,eric.piette,20190717-114123
+M,Library/src/util/Context.java,eric.piette,20190717-114123
+A,Library/src/util/action/ActionSetDouble.java,eric.piette,20190717-114123
+D,Common/res/lud/Connect-4.lud,eric.piette,20190717-115844
+A,Common/res/lud/stacking/Connect-4.lud,eric.piette,20190717-115844
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,eric.piette,20190717-121057
+A,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-121852
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20190717-123513
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-123513
+M,Player/src/player/experiments/utils/ResultsSummary.java,Dennis Soemers,20190717-123513
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190717-125511
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-125511
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-131845
+A,Library/src/game/rules/play/moves/CaptureByApproach.java,eric.piette,20190717-131845
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-133006
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190717-133006
+A,Library/src/game/rules/play/moves/CaptureByWithdraw.java,eric.piette,20190717-133006
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-135903
+M,Library/src/game/functions/ints/DirectionSite.java,eric.piette,20190717-135903
+M,Library/src/game/rules/play/moves/CaptureByWithdraw.java,eric.piette,20190717-135903
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-140237
+M,Common/src/main/Global.java,mrrao,20190717-130311
+M,Library/src/util/ChunkStack.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionAdd.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionAddN.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMove.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMoveRemove.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMoveState.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionPromote.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndex.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndexState.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingPlayer.java,mrrao,20190717-130311
+A,Library/src/util/zhash/HashedChunkStack.java,mrrao,20190717-130311
+M,Library/src/util/zhash/ZobristHashUtilities.java,mrrao,20190717-130311
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-141041
+M,Library/src/game/rules/play/moves/Priority.java,eric.piette,20190717-141041
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-141214
+M,Common/res/lud/Hex.lud,Dennis Soemers,20190717-141327
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-141327
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-142337
+M,Library/src/game/Game.java,eric.piette,20190717-151700
+A,Library/src/game/functions/booleans/Visited.java,eric.piette,20190717-151700
+M,Library/src/util/Context.java,eric.piette,20190717-151700
+M,Library/src/util/state/StateType.java,eric.piette,20190717-151700
+D,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-152326
+A,Common/res/lud/Fanorona.lud,eric.piette,20190717-152326
+M,Common/res/lud/Fanorona.lud,eric.piette,20190717-154244
+D,Library/src/oldLudeme/game/rules/moves/AddCardToDeck.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/CaptureApproach.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/CaptureWithdrawal.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/MultiCaptureApproachWithdrawal.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/Sequence.java,eric.piette,20190717-154413
+D,Common/res/lud/cards/Test Card.lud,eric.piette,20190717-161838
+A,Common/res/lud/cards/War (in progress).lud,eric.piette,20190717-161838
+M,Library/src/game/equipment/container/board/CardBoard.java,eric.piette,20190717-161838
+M,Common/res/lud/cards/War (in progress).lud,eric.piette,20190717-172342
+M,Library/src/game/Game.java,eric.piette,20190717-172342
+A,Library/src/game/rules/start/Deal.java,eric.piette,20190717-172342
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190717-172342
+M,Library/src/util/state/State.java,eric.piette,20190717-172342
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190717-172955
+M,Library/src/game/rules/end/If.java,Dennis Soemers,20190717-172955
+A,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20190717-172955
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,DennisSoemers,20190718-101128
+M,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20190718-102637
+M,Library/src/game/Game.java,DennisSoemers,20190718-105327
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190718-114406
+M,Library/src/game/Game.java,DennisSoemers,20190718-115852
+M,Player/src/mainView/button/ButtonBack.java,DennisSoemers,20190718-115852
+A,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-124110
+A,Library/src/game/equipment/component/piece/large/LPiece.java,eric.piette,20190718-124512
+A,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-131128
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/hands/Hands.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/large/LPiece.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-131128
+M,Common/src/main/Global.java,mrrao,20190718-122609
+M,Library/src/util/ChunkSet.java,mrrao,20190718-122609
+M,Library/src/util/action/ActionMove.java,mrrao,20190718-122609
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,mrrao,20190718-122609
+M,Library/src/util/zhash/HashedChunkStack.java,mrrao,20190718-122609
+M,Library/src/util/zhash/ZobristHashGenerator.java,mrrao,20190718-122609
+M,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20190718-135055
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,DennisSoemers,20190718-135055
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-135413
+M,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-140628
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-140628
+M,Library/src/game/Game.java,eric.piette,20190718-141839
+M,Library/src/ui/GameView.java,eric.piette,20190718-143245
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190718-150535
+A,Common/res/lud/bad_playout/Test Card Solitaire.lud,eric.piette,20190718-151223
+D,Common/res/lud/cards/Test Card Solitaire.lud,eric.piette,20190718-151223
+M,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-151333
+M,Library/src/game/functions/region/Own.java,eric.piette,20190718-151333
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190718-151333
+M,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-161814
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190718-161814
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190718-161814
+M,Library/src/util/action/ActionMove.java,eric.piette,20190718-161814
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190718-162151
+D,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-164440
+A,Common/res/lud/largePiece/L Game.lud,eric.piette,20190718-164440
+A,Common/res/lud/Ludus Latrunculorum (in progress).lud,eric.piette,20190718-171152
+M,Common/res/lud/Ludus Latrunculorum (in progress).lud,eric.piette,20190718-171540
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190718-175143
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Dennis Soemers,20190718-175143
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20190719-103907
+M,Features/src/features/features/Feature.java,Dennis Soemers,20190719-103907
+M,Library/src/util/Owned.java,Dennis Soemers,20190719-104701
+A,Common/res/lud/Achi.lud,eric.piette,20190719-112135
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20190719-112558
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20190719-120505
+A,Common/res/lud/Dara.lud,eric.piette,20190719-121416
+M,Library/src/game/functions/booleans/Line.java,eric.piette,20190719-121416
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20190719-121754
+A,Common/res/lud/Tant Fant.lud,eric.piette,20190719-122622
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,Dennis Soemers,20190719-123154
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190719-123154
+M,Common/res/lud/Hex.lud,Dennis Soemers,20190719-124159
+M,Common/res/lud/Round Merels.lud,eric.piette,20190719-124436
+A,Common/res/lud/Shisima.lud,eric.piette,20190719-124436
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,Dennis Soemers,20190719-125421
+A,Common/res/lud/Four Field Kono.lud,eric.piette,20190719-131311
+D,Common/res/lud/Tic-Tac-Toe (metadata).lud,eric.piette,20190719-131311
+M,Library/src/util/action/ActionMove.java,eric.piette,20190719-131311
+M,Common/res/lud/Ludus Latrunculorum (in progress).lud,eric.piette,20190719-135140
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190719-135140
+M,Common/res/lud/Ludus Latrunculorum (in progress).lud,eric.piette,20190719-145346
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20190719-165523
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20190719-165523
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190719-165523
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20190719-165523
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20190719-165523
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20190719-165523
+M,Library/src/game/API.java,Dennis Soemers,20190719-165523
+M,Library/src/game/Game.java,Dennis Soemers,20190719-165523
+M,Library/src/game/playout/AddToEmpty.java,Dennis Soemers,20190719-165523
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190719-165523
+M,Library/src/game/playout/Playout.java,Dennis Soemers,20190719-165523
+M,Library/src/util/FeatureSetInterface.java,Dennis Soemers,20190719-165523
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190719-165523
+M,Player/src/player/Referee.java,Dennis Soemers,20190719-165523
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20190719-165523
+M,Player/test/games/EfficiencyTest.java,Dennis Soemers,20190719-165523
+M,Player/test/games/ErrorHandlingTests.java,Dennis Soemers,20190719-165523
+M,Player/test/games/OnePlayoutByGameTest.java,Dennis Soemers,20190719-165523
+M,Player/test/games/SanityChecks.java,Dennis Soemers,20190719-165523
+M,Common/res/lud/Ludus Latrunculorum (in progress).lud,eric.piette,20190719-171729
+M,Library/src/game/functions/region/Own.java,eric.piette,20190719-171729
+M,Library/src/game/rules/play/moves/Or.java,eric.piette,20190719-171729
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Cameron Browne,20190720-083022
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Cameron Browne,20190720-092543
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Cameron Browne,20190720-100825
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20190721-190939
+M,Common/res/lud/Hex.lud,Dennis Soemers,20190721-190939
+M,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190721-211604
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,matthew,20190722-091113
+A,Common/res/img/svg/xiangqi/cannon_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/cannon_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/chariot_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/chariot_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/elephant_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/elephant_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/general_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/general_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/horse_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/horse_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/mandarin_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/mandarin_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/soldier_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/soldier_white.svg,Matthew.Stephenson,20190722-093429
+M,Library/src/game/Game.java,Cameron Browne,20190722-124246
+M,Library/src/game/mode/Mode.java,DennisSoemers,20190722-143752
+A,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190722-143752
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190722-143752
+A,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190722-143752
+D,Library/src/game/mode/model/turnBased/TurnBased.java,DennisSoemers,20190722-143752
+M,Library/src/util/Context.java,DennisSoemers,20190722-143752
+D,Common/res/lud/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-143925
+A,Common/res/lud/wip/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-143925
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190722-144257
+M,Player/test/games/OnePlayoutByGameTest.java,DennisSoemers,20190722-144257
+M,Player/test/games/SanityChecks.java,DennisSoemers,20190722-144257
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Cameron Browne,20190722-144754
+M,Library/src/util/Move.java,DennisSoemers,20190722-155125
+M,Player/src/player/GameLoader.java,DennisSoemers,20190722-155125
+M,Common/res/lud/hidden/Sneakthrough.lud,DennisSoemers,20190722-161355
+M,Library/src/util/action/ActionHidden.java,DennisSoemers,20190722-161355
+M,Player/src/player/GameLoader.java,DennisSoemers,20190722-162105
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190722-170034
+A,Common/res/lud/Ludus Latrunculorum.lud,Eric Piette,20190722-171733
+D,Common/res/lud/wip/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-171733
+M,Library/src/game/rules/play/moves/Flanked.java,Eric Piette,20190722-171733
+M,Library/src/game/rules/play/moves/decision/To.java,Eric Piette,20190722-171733
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20190722-171733
+M,Library/src/util/state/containerState/BaseContainerState.java,Eric Piette,20190722-171733
+A,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190722-173529
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-103129

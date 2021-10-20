@@ -1,0 +1,616 @@
+A,AI/resources/Algorithms/MCTS/UCT.ai,Dennis Soemers,20181125-214639
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181125-214639
+M,AI/src/search/mcts/selection/PlayoutSelection.java,Dennis Soemers,20181125-214639
+M,AI/src/search/mcts/selection/SelectionStrategy.java,Dennis Soemers,20181125-214639
+M,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20181125-214639
+M,AI/src/utils/AIFactory.java,Dennis Soemers,20181125-214639
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/finalmoveselection/FinalMoveSelectionStrategy.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/finalmoveselection/MaxAvgScore.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/finalmoveselection/RobustChild.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/playout/CustomGamePlayout.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,DennisSoemers,20181126-100312
+M,AI/src/search/mcts/playout/RandomPlayout.java,DennisSoemers,20181126-100312
+A,Library/src/game/equipment/container/basis/HexRect.java,Eric.Piette,20181126-101649
+M,Library/src/game/equipment/container/basis/HexRhombus.java,Eric.Piette,20181126-101649
+A,Library/src/game/equipment/container/basis/HexSquare.java,Eric.Piette,20181126-101649
+M,AI/src/search/mcts/playout/CustomGamePlayout.java,DennisSoemers,20181126-101940
+M,Library/src/game/API.java,DennisSoemers,20181126-101940
+M,Library/src/game/Game.java,DennisSoemers,20181126-101940
+M,Library/src/game/play/playout/AddToEmpty.java,DennisSoemers,20181126-101940
+M,Library/src/game/play/playout/Playout.java,DennisSoemers,20181126-101940
+M,Library/test/Performance.java,DennisSoemers,20181126-101940
+M,Player/src/player/PlayerApp.java,DennisSoemers,20181126-101940
+M,Player/src/player/PlayerCli.java,DennisSoemers,20181126-101940
+M,Player/src/player/Referee.java,DennisSoemers,20181126-101940
+M,Library/src/game/equipment/container/basis/HexMat.java,Eric.Piette,20181126-103639
+M,Player/src/dbView/DBView.java,Eric.Piette,20181126-103639
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181126-103639
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181126-103639
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181126-103639
+M,Library/src/game/equipment/component/Die.java,Eric.Piette,20181126-105723
+M,Library/src/game/equipment/component/Die.java,Eric.Piette,20181126-110215
+M,Library/src/game/play/player/Player.java,Eric.Piette,20181126-110215
+M,Library/test/game/play/player/PlayerTest.java,Eric.Piette,20181126-110215
+M,Player/src/mainView/panel/StatePanel.java,Eric.Piette,20181126-111444
+A,Library/src/features/graph_search/GraphSearch.java,DennisSoemers,20181126-121031
+A,Library/src/features/graph_search/Path.java,DennisSoemers,20181126-121031
+M,Library/src/features/graph_search/GraphSearch.java,DennisSoemers,20181126-123746
+M,Library/src/game/play/player/Player.java,Eric.Piette,20181126-124733
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181126-124733
+M,Player/src/mainView/MainView.java,Eric.Piette,20181126-124733
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181126-124733
+M,Player/src/mainView/panel/ViewPanel.java,Eric.Piette,20181126-124733
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181126-124733
+M,Library/src/game/play/playout/AddToEmpty.java,DennisSoemers,20181126-130613
+M,Library/src/game/equipment/component/Die.java,Eric.Piette,20181126-144846
+A,Library/src/game/rules/start/RollAllDice.java,Eric.Piette,20181126-144912
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181126-145919
+M,Library/src/game/equipment/component/Die.java,Eric.Piette,20181126-151005
+M,Library/src/game/equipment/component/Die.java,Eric.Piette,20181126-153019
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181126-153019
+A,Library/src/game/rules/moves/Roll.java,Eric.Piette,20181126-153034
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181126-161410
+M,Library/src/game/equipment/container/board/modify/Cut.java,Eric.Piette,20181126-161434
+A,Library/src/game/equipment/container/board/modify/CutDiago.java,Eric.Piette,20181126-161434
+A,Library/src/game/equipment/container/board/modify/CutOrtho.java,Eric.Piette,20181126-161434
+M,Library/src/game/equipment/container/board/modify/Modify.java,Eric.Piette,20181126-161434
+M,Library/src/util/action/ActionMoveN.java,DennisSoemers,20181126-161721
+M,Library/src/util/action/ActionRemoveN.java,DennisSoemers,20181126-161721
+A,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181126-161721
+M,Player/src/player/game_logs/GameLogs.java,DennisSoemers,20181126-161721
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181126-163544
+A,Library/src/game/equipment/container/board/modify/CutAll.java,Eric.Piette,20181126-163544
+M,Library/src/game/equipment/container/board/modify/CutDiago.java,Eric.Piette,20181126-163544
+M,Library/src/game/equipment/container/board/modify/CutOrtho.java,Eric.Piette,20181126-163544
+M,Library/src/game/equipment/container/board/modify/Modify.java,Eric.Piette,20181126-163544
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181126-164459
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181126-170654
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181126-172237
+M,Player/src/dbView/DBView.java,Eric.Piette,20181126-175227
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181126-175227
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181126-175227
+M,Library/src/util/action/ActionMove.java,Dennis Soemers,20181126-185146
+M,Library/src/util/action/ActionMoveRemove.java,Dennis Soemers,20181126-185146
+M,Player/src/dbView/button/LoadButton.java,Dennis Soemers,20181126-185146
+M,Player/src/player/MainMenu.java,Dennis Soemers,20181126-185146
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181126-185146
+M,Player/src/player/game_logs/TestIntegrityOldGames.java,Dennis Soemers,20181126-185146
+M,Library/src/util/action/ActionAdd.java,DennisSoemers,20181127-100025
+M,Library/src/util/action/ActionAddN.java,DennisSoemers,20181127-100025
+M,Library/src/features/generation/MoveFeatures.java,DennisSoemers,20181127-103400
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-103400
+M,Library/src/game/Game.java,Eric Piette,20181127-113849
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20181127-113849
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181127-113849
+M,Library/src/ui/GameView.java,Eric Piette,20181127-113849
+M,Library/src/util/state/ItemStateContainerCount.java,Eric Piette,20181127-113849
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric Piette,20181127-113849
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric Piette,20181127-113849
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric Piette,20181127-113849
+M,Library/src/util/state/State.java,Eric Piette,20181127-113849
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20181127-113849
+M,Library/src/game/functions/ints/LastToMove.java,Eric Piette,20181127-120658
+A,Library/src/util/action/ActionChoose.java,Eric Piette,20181127-120658
+M,Library/src/util/action/ActionChoose.java,Eric Piette,20181127-120717
+M,Library/src/util/action/ActionChoose.java,Eric Piette,20181127-120733
+M,Library/src/game/functions/ints/LastToMove.java,Eric Piette,20181127-121053
+D,Library/src/util/action/ActionChoose.java,Eric Piette,20181127-121053
+A,Library/src/util/action/ActionSelect.java,Eric Piette,20181127-121053
+M,Library/src/util/action/ActionSelect.java,Eric Piette,20181127-121740
+M,Library/src/features/FeatureInstance.java,DennisSoemers,20181127-122409
+M,Library/src/features/features/Feature.java,DennisSoemers,20181127-122409
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-122409
+M,Library/src/util/Context.java,Eric Piette,20181127-122450
+M,Library/src/util/Region.java,Eric Piette,20181127-122902
+A,Library/src/game/rules/moves/Choose.java,Eric Piette,20181127-131538
+M,Library/src/features/Walk.java,DennisSoemers,20181127-133150
+M,Library/src/features/features/Feature.java,DennisSoemers,20181127-133150
+A,Library/src/game/functions/booleans/SiteIsOnBottom.java,Eric Piette,20181127-134148
+M,Library/src/game/functions/booleans/SiteIsOnBottom.java,Eric Piette,20181127-134424
+A,Library/src/game/functions/booleans/SiteIsOnRight.java,Eric Piette,20181127-134424
+A,Library/src/game/functions/booleans/SiteIsOnExterior.java,Eric Piette,20181127-134530
+A,Library/src/game/functions/booleans/SiteIsOnInterior.java,Eric Piette,20181127-134636
+A,Library/src/game/functions/booleans/SiteIsOnCorner.java,Eric Piette,20181127-134724
+A,Library/src/game/functions/booleans/SiteIsOnLeft.java,Eric Piette,20181127-134805
+A,Library/src/game/functions/booleans/SiteIsOnTop.java,Eric Piette,20181127-134848
+M,Library/src/game/rules/moves/Choose.java,Eric Piette,20181127-135750
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181127-140000
+M,Library/src/features/features/Feature.java,DennisSoemers,20181127-140000
+M,Library/src/features/FeatureInstance.java,DennisSoemers,20181127-142041
+M,Library/src/features/features/Feature.java,DennisSoemers,20181127-142041
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-142041
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20181127-142347
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20181127-142653
+M,Library/src/util/action/ActionRemove.java,Eric Piette,20181127-143820
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181127-144502
+A,Library/src/features/generation/FeatureGenerationUtils.java,DennisSoemers,20181127-144502
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-144502
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181127-145827
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-145827
+M,Library/src/game/functions/booleans/Inequal.java,DennisSoemers,20181127-145910
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181127-150222
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181127-150222
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181127-150456
+M,Library/src/util/action/ActionRemoveN.java,Eric Piette,20181127-150456
+A,Library/src/game/rules/moves/postMove/Sowing.java,Eric Piette,20181127-150859
+M,Library/src/game/Game.java,Eric Piette,20181127-153253
+M,Library/src/util/Trial.java,Eric Piette,20181127-153253
+M,Library/src/game/rules/moves/postMove/Sowing.java,Eric Piette,20181127-154322
+M,Library/src/features/generation/FeatureGenerationUtils.java,DennisSoemers,20181127-154952
+M,Library/src/features/graph_search/GraphSearch.java,DennisSoemers,20181127-154952
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-154952
+D,Library/src/game/functions/booleans/Count.java,Eric Piette,20181127-155524
+A,Library/src/game/functions/booleans/CountOwn.java,Eric Piette,20181127-155524
+M,Player/src/dbView/GamesList.java,Eric Piette,20181127-155524
+A,Library/src/game/functions/ints/CountSite.java,Eric Piette,20181127-160054
+A,Library/src/game/functions/booleans/GreaterThanOrEqual.java,Eric Piette,20181127-160730
+M,Library/src/features/generation/FeatureGenerationUtils.java,DennisSoemers,20181127-162210
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181127-162210
+A,Library/src/game/functions/booleans/Ge.java,Eric Piette,20181127-164253
+D,Library/src/game/functions/booleans/GreaterThanOrEqual.java,Eric Piette,20181127-164253
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,Dennis Soemers,20181127-165414
+A,Library/src/game/rules/moves/postMove/CaptureBySowing.java,Eric Piette,20181127-173135
+M,Library/src/game/rules/moves/postMove/Sowing.java,Eric Piette,20181127-173135
+M,Library/src/util/state/State.java,Eric Piette,20181127-173135
+M,Library/src/game/functions/booleans/AllDifferentColumn.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AllDifferentDiag.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AllDifferentLine.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AllDifferentOrtho.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AllDifferentRow.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AlldifferentSubSquare.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/And.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/AndN.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/BooleanConstant.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/BooleanFunction.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Capture.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Check.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/CheckMate.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Configuration.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Connect.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/CountOwn.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Full.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Ge.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/If.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Inequal.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/IsMover.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/IsNext.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/IsPrev.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/LinearDistance.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/MoreItem.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/MoveToNonEmpty.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/NoItem.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/NoMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Not.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Occupied.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OneInAColumn.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OneInADiag.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OneInALine.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OneInAOrtho.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OneInARow.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Or.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/OrN.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/PreviousPostConditionApplied.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Reached.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/ReachedLimit.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/ReachedRegion.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsEmpty.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnBottom.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnCorner.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnExterior.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnInterior.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnLeft.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnRight.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SiteIsOnTop.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SitesConfiguration.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Square.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/StepsTo.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SurroundedAdj.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SurroundedCol.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SurroundedDiag.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SurroundedOrtho.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/SurroundedRow.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/booleans/Turn.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/Add.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/CountSite.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/IndexOf.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/IntConstant.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/IntFunction.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/LastFromMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/LastOverMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/LastToMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/LinearDistance.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/SiteItem.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/ints/StepsTo.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Adjacent.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/All.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Bottom.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Corners.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Empty.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/EmptyTopColumn.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Except.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Exteriors.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/ExteriorsNotCorner.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Interiors.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/LastKnightMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/LastQueenMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Left.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Or.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Own.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/OwnKind.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/OwnSpecific.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/RegionConstant.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/RegionFunction.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Right.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/SpecificSiteItem.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/SpecificSiteRegion.java,Eric.Piette,20181128-102127
+M,Library/src/game/functions/region/Top.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/ActionListConstant.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/ActionListFunction.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/And.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Choose.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Except.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/ExceptFrom.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/ExceptTo.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/FlyingJump.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/FromTo.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/FromToNDistance.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/If.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/King.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Knight.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Moves.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/NOrthoDiago.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/NOrthogonal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Ndiagonal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Or.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/OrN.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Pass.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Remove.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/Roll.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/To.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/TurnOver.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/AdjacentFromLastMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/CaptureApproach.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/CaptureBySowing.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/CaptureSurrounded.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/CaptureWithdrawal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/FlyingJumpFromLastMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/JumpFromLastMove.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/Let.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/MultiCaptureApproachWithdrawal.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/Promote.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/Replay.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/Sowing.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/moves/postMove/ToOrtho.java,Eric.Piette,20181128-102127
+M,Library/src/game/rules/postCondition/PostCondition.java,Eric.Piette,20181128-102127
+M,Player/src/player/features/generation/GameLogMiner.java,Dennis Soemers,20181128-111933
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,Dennis Soemers,20181128-123745
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181128-123745
+M,Player/src/player/features/generation/GameLogMiner.java,Dennis Soemers,20181128-123745
+M,Library/src/features/graph_search/GraphSearch.java,Dennis Soemers,20181128-124650
+M,Library/src/game/Game.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AllDifferentColumn.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AllDifferentDiag.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AllDifferentLine.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AllDifferentOrtho.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AllDifferentRow.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AlldifferentSubSquare.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/And.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/AndN.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/BooleanConstant.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Capture.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Check.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/CheckMate.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Configuration.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Connect.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/CountOwn.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Full.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Ge.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/If.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Inequal.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/IsMover.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/IsNext.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/IsPrev.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/LinearDistance.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/MoreItem.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/MoveToNonEmpty.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/NoItem.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/NoMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Not.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Occupied.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OneInAColumn.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OneInADiag.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OneInALine.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OneInAOrtho.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OneInARow.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Or.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/OrN.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/PreviousPostConditionApplied.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Reached.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/ReachedLimit.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/ReachedRegion.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsEmpty.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnBottom.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnCorner.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnExterior.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnInterior.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnLeft.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SiteIsOnTop.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SitesConfiguration.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Square.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/StepsTo.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SurroundedAdj.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SurroundedCol.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SurroundedDiag.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SurroundedOrtho.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/SurroundedRow.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/booleans/Turn.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/Add.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/IndexOf.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/IntConstant.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/LastFromMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/LastOverMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/LastToMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/LinearDistance.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/SiteItem.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/ints/StepsTo.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Adjacent.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Bottom.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Corners.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/EmptyTopColumn.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Except.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Exteriors.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/ExteriorsNotCorner.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Interiors.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/LastKnightMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/LastQueenMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Left.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Or.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Own.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/OwnKind.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/OwnSpecific.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Right.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/SpecificSiteItem.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/SpecificSiteRegion.java,Eric.Piette,20181128-133220
+M,Library/src/game/functions/region/Top.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/end/End.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/And.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Choose.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Except.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/ExceptFrom.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/ExceptTo.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/FlyingJump.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/FromTo.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/FromToNDistance.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/If.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/King.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Knight.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Moves.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/NOrthoDiago.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/NOrthogonal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Ndiagonal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Or.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/OrN.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Pass.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Remove.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/Roll.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/To.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/TurnOver.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/AdjacentFromLastMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/CaptureApproach.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/CaptureBySowing.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/CaptureSurrounded.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/CaptureWithdrawal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/FlyingJumpFromLastMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/JumpFromLastMove.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/Let.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/MultiCaptureApproachWithdrawal.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/Promote.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/Replay.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/Sowing.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/moves/postMove/ToOrtho.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/postCondition/PostCondition.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/start/Place.java,Eric.Piette,20181128-133220
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric.Piette,20181128-133220
+M,Library/src/util/action/ActionAddN.java,Eric.Piette,20181128-133220
+M,Library/src/util/state/ItemStateContainerCount.java,Eric.Piette,20181128-133220
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric.Piette,20181128-133220
+M,Library/src/util/state/State.java,Eric.Piette,20181128-133220
+M,Library/src/features/graph_search/GraphSearch.java,Dennis Soemers,20181128-133541
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181128-133541
+M,Library/src/game/rules/Rule.java,Eric.Piette,20181128-143943
+M,Library/src/util/action/ActionAddN.java,Eric.Piette,20181128-143943
+A,Library/src/game/functions/booleans/On.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnBottom.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnCorner.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnExterior.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnInterior.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnLeft.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnRight.java,Eric.Piette,20181128-150104
+D,Library/src/game/functions/booleans/SiteIsOnTop.java,Eric.Piette,20181128-150104
+M,Library/src/game/rules/moves/postMove/CaptureBySowing.java,Eric.Piette,20181128-150104
+M,Library/src/game/rules/moves/postMove/Sowing.java,Eric.Piette,20181128-150104
+M,Library/src/game/functions/booleans/On.java,Eric.Piette,20181128-150126
+M,Library/src/game/functions/booleans/On.java,Eric.Piette,20181128-150258
+A,Library/src/game/functions/ints/Sum.java,Eric.Piette,20181128-150846
+M,Library/src/game/functions/ints/Sum.java,Eric.Piette,20181128-150930
+M,Library/src/game/Game.java,Eric.Piette,20181128-151018
+A,Library/src/game/functions/booleans/Equal.java,Eric.Piette,20181128-152300
+A,Library/src/game/functions/booleans/G.java,Eric.Piette,20181128-152300
+M,Library/src/game/functions/booleans/Inequal.java,Eric.Piette,20181128-152300
+A,Library/src/game/functions/booleans/L.java,Eric.Piette,20181128-152300
+A,Library/src/game/functions/booleans/Le.java,Eric.Piette,20181128-152300
+M,Library/src/game/functions/booleans/Equal.java,Eric.Piette,20181128-153039
+M,Library/src/game/functions/booleans/Inequal.java,Eric.Piette,20181128-153039
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181128-153039
+D,Library/src/game/equipment/container/board/CornerBoard.java,Eric.Piette,20181128-162657
+A,Library/src/game/equipment/container/board/IntersectionBoard.java,Eric.Piette,20181128-162657
+M,Library/src/util/Context.java,Eric.Piette,20181128-162657
+M,Player/src/dbView/DBView.java,Eric.Piette,20181128-162657
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181128-162657
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181128-162657
+M,Player/src/mainView/panel/StatePanel.java,Eric.Piette,20181128-162657
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181128-162657
+A,AI/src/utils/LinAlg.java,Dennis Soemers,20181128-180618
+A,AI/src/utils/Probability.java,Dennis Soemers,20181128-180618
+M,Library/src/game/Game.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/bitset/And.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/bitset/BitSetConstant.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/bitset/BitSetFunction.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/bitset/Empty.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/bitset/Or.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/booleans/BooleanFunction.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/ints/IntFunction.java,Eric.Piette,20181129-095933
+M,Library/src/game/functions/region/RegionFunction.java,Eric.Piette,20181129-095933
+M,Library/src/game/play/Play.java,Eric.Piette,20181129-095933
+M,Library/src/game/rules/Rule.java,Eric.Piette,20181129-095933
+M,Library/src/game/rules/start/Place.java,Eric.Piette,20181129-095933
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric.Piette,20181129-095933
+M,Library/src/game/rules/start/RollAllDice.java,Eric.Piette,20181129-095933
+A,Library/src/util/state/StateOption.java,Eric.Piette,20181129-095933
+M,Player/src/player/Referee.java,Eric.Piette,20181129-105712
+A,AI/src/utils/FVector.java,DennisSoemers,20181129-124950
+D,AI/src/utils/LinAlg.java,DennisSoemers,20181129-124950
+M,Library/src/util/state/ItemStateContainer.java,Eric.Piette,20181129-130627
+M,Library/src/util/state/ItemStateContainerCount.java,Eric.Piette,20181129-130627
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric.Piette,20181129-130627
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric.Piette,20181129-130627
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric.Piette,20181129-130627
+A,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric.Piette,20181129-130805
+M,AI/src/utils/FVector.java,DennisSoemers,20181129-131507
+D,AI/src/utils/Probability.java,DennisSoemers,20181129-131507
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric.Piette,20181129-131600
+A,Library/src/util/state/ItemStateContainerIndexState.java,Eric.Piette,20181129-131600
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric.Piette,20181129-131956
+A,Library/src/util/state/ItemStateContainerState.java,Eric.Piette,20181129-131956
+M,Library/src/util/state/ItemStateContainer.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerCount.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/ItemStateContainerState.java,Eric.Piette,20181129-132920
+M,Library/src/util/state/State.java,Eric.Piette,20181129-132920
+M,AI/src/utils/FVector.java,DennisSoemers,20181129-135632
+A,AI/src/function_approx/LinearFunction.java,DennisSoemers,20181129-150629
+M,AI/src/utils/FVector.java,DennisSoemers,20181129-150629
+M,Library/src/game/equipment/component/piece/chess/Chess.java,Eric.Piette,20181129-150638
+A,Library/src/game/equipment/component/piece/state/PieceState.java,Eric.Piette,20181129-150638
+A,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Eric.Piette,20181129-150638
+A,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric.Piette,20181129-150638
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Eric.Piette,20181129-151554
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric.Piette,20181129-151554
+M,AI/src/function_approx/LinearFunction.java,DennisSoemers,20181129-151639
+M,AI/src/utils/FVector.java,DennisSoemers,20181129-151639
+M,Library/src/game/Game.java,Eric.Piette,20181129-152513
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric.Piette,20181129-152513
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric.Piette,20181129-152513
+M,Library/src/util/state/ItemStateContainerState.java,Eric.Piette,20181129-152513
+M,Library/src/util/state/State.java,Eric.Piette,20181129-152513
+M,Library/src/util/state/State.java,Eric.Piette,20181129-152904
+A,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20181129-162106
+M,AI/src/utils/FVector.java,DennisSoemers,20181129-162106
+M,Library/src/features/FeatureInstance.java,DennisSoemers,20181129-162106
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181129-162106
+A,Library/src/features/FeatureUtils.java,DennisSoemers,20181129-162106
+M,Player/src/mainView/MainView.java,DennisSoemers,20181129-162106
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20181129-162106
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/finalmoveselection/FinalMoveSelectionStrategy.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/finalmoveselection/MaxAvgScore.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/finalmoveselection/RobustChild.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/playout/CustomGamePlayout.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/selection/PlayoutSelection.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/selection/SelectionStrategy.java,Dennis Soemers,20181130-110124
+M,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20181130-110124
+M,AI/src/function_approx/LinearFunction.java,Dennis Soemers,20181130-112600
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20181130-112600
+M,AI/src/utils/FVector.java,Dennis Soemers,20181130-112600
+M,AI/src/function_approx/LinearFunction.java,Dennis Soemers,20181130-114442
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181130-160402
+M,AI/src/search/mcts/Node.java,Dennis Soemers,20181130-160402
+A,AI/src/search/mcts/selection/AG0Selection.java,Dennis Soemers,20181130-160402
+M,AI/src/search/mcts/selection/AG0Selection.java,Dennis Soemers,20181130-161717
+M,AI/src/search/mcts/selection/AG0Selection.java,Dennis Soemers,20181130-164008
+A,AI/src/search/mcts/selection/ExItSelection.java,Dennis Soemers,20181130-164008
+M,Library/src/game/functions/bitset/BitSetFunction.java,Eric Piette,20181203-092135
+M,Library/src/game/functions/booleans/BooleanFunction.java,Eric Piette,20181203-092135
+M,Library/src/game/functions/ints/IntFunction.java,Eric Piette,20181203-092135
+M,Library/src/game/functions/region/RegionFunction.java,Eric Piette,20181203-092135
+M,Library/src/game/rules/Rule.java,Eric Piette,20181203-092135
+A,Library/src/util/state/StateFormat.java,Eric Piette,20181203-092135
+D,Library/src/util/state/StateOption.java,Eric Piette,20181203-092135
+M,Library/src/features/FeatureInstance.java,Eric Piette,20181203-092407
+D,Library/src/util/BitSetS.java,Eric Piette,20181203-092407
+A,Library/src/util/ChunkSet.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainer.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerCount.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerState.java,Eric Piette,20181203-092407
+M,Library/src/game/equipment/component/Component.java,Eric Piette,20181203-093800
+M,Library/src/game/Game.java,Eric Piette,20181203-103215
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-103215
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181203-103215
+M,Library/src/ui/GameView.java,Eric Piette,20181203-103215
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181203-103215
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-103920
+M,Library/src/game/Game.java,Eric Piette,20181203-112408
+M,Library/src/ui/GameView.java,Eric Piette,20181203-112629
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20181203-112629
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-112941
+M,Library/src/ui/GameView.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionMove.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionRemove.java,Eric Piette,20181203-112941
+M,Library/src/util/state/State.java,Eric Piette,20181203-112941
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-112941
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20181203-112941
+M,Library/src/game/Game.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerState.java,Eric Piette,20181203-114546
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-114546
+M,Library/src/game/rules/Rules.java,Eric Piette,20181203-124059
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181203-124059
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-124059
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20181203-124225
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20181203-124721
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20181203-124721
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-124721
+M,Player/src/player/Referee.java,Eric Piette,20181203-125937
+A,Library/src/game/functions/region/RegionLocalState.java,Eric Piette,20181203-132827
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-132827
+A,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20181203-140103
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181203-140103
+M,Library/src/game/Game.java,DennisSoemers,20181203-140103
+M,Library/src/game/Game.java,Eric Piette,20181203-142818
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-142818
+A,Library/src/game/rules/moves/postMove/ApplyTurnOver.java,Eric Piette,20181203-142818
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-142818
+A,Library/src/game/functions/ints/CountSameState.java,Eric Piette,20181203-150837
+A,Library/src/game/functions/ints/MostState.java,Eric Piette,20181203-150837
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-150837
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Eric Piette,20181203-160446
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Eric Piette,20181203-160446
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-160446
+M,Library/src/ui/GameView.java,Eric Piette,20181203-160446
+M,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20181203-161053
+M,Library/src/util/Context.java,Eric Piette,20181204-105813

@@ -1,0 +1,199 @@
+M,Library/src/game/Game.java,eric.piette,20181228-152539
+M,Library/src/game/equipment/Equipment.java,eric.piette,20181228-152850
+M,Library/src/game/equipment/component/Card.java,eric.piette,20181228-153944
+M,Library/src/game/equipment/component/Component.java,eric.piette,20181228-153944
+M,Library/src/game/equipment/component/Die.java,eric.piette,20181228-153944
+M,Library/src/game/equipment/component/Letter.java,eric.piette,20181228-153944
+M,Library/src/game/equipment/component/Number.java,eric.piette,20181228-153944
+D,Library/src/game/equipment/component/Tile.java,eric.piette,20181228-153944
+A,Library/src/game/equipment/component/HalfNumber.java,eric.piette,20181228-165635
+M,Library/src/game/equipment/component/Number.java,eric.piette,20181228-165635
+M,Library/src/game/equipment/component/HalfNumber.java,eric.piette,20181228-173710
+A,Library/src/game/rules/moves/Copy.java,eric.piette,20181228-173710
+A,Library/src/game/functions/region/Customize.java,eric.piette,20181228-174504
+A,Library/src/game/functions/region/Customise.java,eric.piette,20181228-175246
+D,Library/src/game/functions/region/Customize.java,eric.piette,20181228-175246
+M,Player/src/dbView/DBView.java,eric.piette,20181228-182316
+M,Player/src/dbView/GamesList.java,eric.piette,20181228-182316
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20181228-182316
+M,Player/src/player/PlayerCli.java,eric.piette,20181228-182316
+M,Player/src/dbView/DBView.java,eric.piette,20181229-093836
+M,Player/src/dbView/GamesList.java,eric.piette,20181229-093836
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20181229-093836
+M,Player/src/player/PlayerCli.java,eric.piette,20181229-093836
+M,Library/src/game/equipment/container/basis/Concentric.java,Cameron Browne,20181229-145225
+M,Player/src/dbView/GamesList.java,Cameron Browne,20181229-145225
+M,Player/src/player/Referee.java,Cameron Browne,20181229-145225
+M,Library/src/game/equipment/container/board/AshtapadaBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/Board.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/ChessBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/GoBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/HexBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/IntersectionBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/SudokuBoard.java,Cameron Browne,20181229-150333
+M,Library/src/game/equipment/container/board/TaflBoard.java,Cameron Browne,20181229-150333
+M,Player/src/dbView/GamesList.java,Cameron Browne,20181229-150333
+M,Library/src/game/Game.java,Cameron Browne,20181229-152132
+M,Library/test/Performance.java,Cameron Browne,20181229-152132
+M,Player/src/dbView/GamesList.java,Cameron Browne,20181229-152132
+M,Player/src/mainView/panel/TabPage.java,Cameron Browne,20181229-152132
+M,Player/src/player/Referee.java,Cameron Browne,20181229-152132
+M,Player/src/dbView/GamesList.java,Cameron Browne,20181229-152332
+M,Player/src/dbView/GamesList.java,Cameron Browne,20181229-152833
+D,Library/src/game/functions/ints/CountSite.java,eric.piette,20190102-205006
+M,Player/src/dbView/GamesList.java,eric.piette,20190102-205006
+M,Library/src/game/functions/ints/Count.java,eric.piette,20190102-205150
+M,Library/src/game/equipment/container/board/modify/Cut.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/board/modify/CutAll.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/board/modify/CutDiago.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/board/modify/CutOrtho.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/board/modify/Join.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/board/modify/Remove.java,eric.piette,20190102-210629
+M,Library/src/game/functions/ints/Add.java,eric.piette,20190102-210629
+M,Library/src/game/equipment/container/basis/Basis.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/AshtapadaBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/ChessBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/GoBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/IntersectionBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/ReversiBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/SudokuBoard.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190102-215231
+M,Library/src/game/functions/bitset/Empty.java,eric.piette,20190102-215231
+M,Library/src/game/functions/ints/CountHiddenSite.java,eric.piette,20190102-215231
+M,Library/src/graph/Vertex.java,eric.piette,20190102-215231
+M,Player/src/dbView/GamesList.java,eric.piette,20190102-215231
+M,Library/src/game/equipment/component/Card.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/Disc.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/Piece.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/Square.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/animal/Animal.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Alfil.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Centaur.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Champion.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Chess.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Commoner.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Empress.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Fool.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Giraffe.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Janus.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/King.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Knight.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Mann.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Queen.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Rook.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Unicorn.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Wizard.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/chess/Zebra.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/object/Bomb.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/object/Object.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/state/LargePiece.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/state/PieceState.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/Deck.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/basis/Concentric.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/basis/HexSquare.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/basis/deck/DeckStore.java,eric.piette,20190102-221106
+M,Library/src/game/equipment/container/basis/hand/HandStore.java,eric.piette,20190102-221106
+M,Library/src/game/functions/ints/CountSameState.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/IndexOf.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/LastFromMove.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/MostState.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/SiteItem.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/State.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/StepsTo.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/SumDice.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/Who.java,eric.piette,20190102-223247
+M,Library/src/game/functions/ints/Turn.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/AddCardToDeck.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/Adjacent.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/And.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/Copy.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/Diagonal.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/Except.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/ExceptFrom.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/ExceptTo.java,eric.piette,20190102-235714
+M,Player/src/dbView/GamesList.java,eric.piette,20190102-235714
+M,Library/src/game/rules/moves/FlyingJump.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/FromTo.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/FromToNDistance.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/If.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Jump.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/King.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Knight.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/NOrthoDiago.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/NOrthogonal.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Ndiagonal.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Or.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/OrN.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Orthogonal.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/Roll.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/SpecificDirectionDistance.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/TurnOver.java,eric.piette,20190103-001315
+M,Library/src/game/rules/moves/postMove/AdjacentFromLastMove.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/ApplyTurnOver.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/CaptureApproach.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/CaptureBySowing.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/CaptureSurrounded.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/CaptureWithdrawal.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/ChangeOwner.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/FlyingJumpFromLastMove.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/ForwardChoosePiece.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/JumpFromLastMove.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/Let.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/MultiCaptureApproachWithdrawal.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/PlayCard.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/Promote.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/See.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/Sowing.java,eric.piette,20190103-002350
+M,Library/src/game/rules/moves/postMove/UpdateTopDeck.java,eric.piette,20190103-002350
+A,Library/src/game/functions/ints/HowMany.java,eric.piette,20190103-105138
+M,Library/src/game/functions/booleans/Equal.java,eric.piette,20190103-182746
+M,Library/src/game/functions/ints/HowMany.java,eric.piette,20190103-182746
+A,Library/src/game/functions/ints/MaxIdenticalSuccessors.java,eric.piette,20190103-182746
+M,Player/src/dbView/DBView.java,eric.piette,20190103-182746
+M,Player/src/dbView/GamesList.java,eric.piette,20190103-182746
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190103-182746
+M,Player/src/player/PlayerCli.java,eric.piette,20190103-182746
+M,Library/src/game/functions/ints/LastFromMove.java,eric.piette,20190103-201018
+M,Library/src/game/functions/ints/LastToMove.java,eric.piette,20190103-201018
+M,Player/src/dbView/DBView.java,eric.piette,20190103-204431
+M,Player/src/dbView/GamesList.java,eric.piette,20190103-204431
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190103-204431
+M,Player/src/player/PlayerCli.java,eric.piette,20190103-204431
+M,Player/src/dbView/GamesList.java,eric.piette,20190103-210308
+M,Player/src/dbView/GamesList.java,eric.piette,20190103-211208
+A,Library/src/game/functions/booleans/NonogramConstraint.java,eric.piette,20190103-234848
+M,Player/src/dbView/DBView.java,eric.piette,20190104-001603
+M,Player/src/dbView/GamesList.java,eric.piette,20190104-001603
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190104-001603
+M,Player/src/player/PlayerCli.java,eric.piette,20190104-001603
+M,Library/src/game/equipment/component/piece/Square.java,eric.piette,20190104-003955
+M,Player/src/dbView/GamesList.java,eric.piette,20190104-004351
+M,Library/src/game/functions/region/Adjacent.java,eric.piette,20190104-013516
+M,Player/src/dbView/DBView.java,eric.piette,20190104-013516
+M,Player/src/dbView/GamesList.java,eric.piette,20190104-013516
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190104-013516
+M,Player/src/player/PlayerCli.java,eric.piette,20190104-013516
+M,Library/src/game/equipment/component/piece/Square.java,eric.piette,20190104-134934
+A,Library/src/game/equipment/container/board/FillAPixBoard.java,eric.piette,20190104-134934
+M,Player/src/dbView/GamesList.java,eric.piette,20190104-134934
+M,Library/src/game/equipment/container/board/FillAPixBoard.java,eric.piette,20190104-135303
+M,Player/src/dbView/GamesList.java,eric.piette,20190104-143651
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190104-160250
+M,Library/src/graph/Cell.java,eric.piette,20190104-160250
+M,Library/src/graph/Edge.java,eric.piette,20190104-160250
+M,Library/src/graph/Vertex.java,eric.piette,20190104-160250
+M,Library/src/game/equipment/container/basis/Rect.java,eric.piette,20190104-160341
+A,Library/src/game/functions/booleans/Contains.java,eric.piette,20190105-184058
+M,Library/src/game/functions/ints/Sub.java,eric.piette,20190105-184058
