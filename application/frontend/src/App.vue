@@ -1,12 +1,36 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <page-header v-model:menuCollapsed="menuCollapsed" />
+    <div class="layout container-xxl pt-4">
+      <navigation class="navigation" :class="{ mobile: menuCollapsed }" />
+      <main class="container">
+        <router-view />
+      </main>
+    </div>
   </div>
-  <router-view />
 </template>
 
+<script lang="ts">
+import { defineComponent } from "vue";
+import Navigation from "@/components/site-components/navigation.vue";
+import PageHeader from "@/components/site-components/page-header.vue";
+
+export default defineComponent({
+  components: { PageHeader, Navigation },
+
+  data: () => {
+    return {
+      menuCollapsed: false,
+    };
+  },
+});
+</script>
+
 <style lang="scss">
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/_mixins.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,15 +39,32 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+.layout {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 1fr 3fr;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  .navigation {
+    grid-area: sidebar;
+  }
 
-    &.router-link-exact-active {
-      color: #42b983;
+  main {
+    grid-area: main;
+  }
+
+  @include media-breakpoint-down(md) {
+    grid-template-areas: "main";
+    grid-template-columns: 4fr;
+    gap: 0rem;
+
+    .navigation {
+      display: none;
+    }
+
+    .navigation.mobile {
+      display: block;
+      position: fixed;
     }
   }
 }
