@@ -18,10 +18,17 @@ export default createStore({
       state.fileServers.push(fileServer);
     },
   },
+  getters: {
+    getFileServer:
+      ({ fileServers }) =>
+      (id: string) => {
+        console.log(id);
+        return fileServers.find((fileServer) => fileServer._id == id);
+      },
+  },
   actions: {
     getFileServers({ commit }) {
       return fetchFileServers().then((fileServers) => {
-        console.log(fileServers);
         commit("setFileServers", fileServers);
       });
     },
