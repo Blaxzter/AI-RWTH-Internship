@@ -1,0 +1,99 @@
+M,Library/src/features/elements/AbsoluteFeatureElement.java,Dennis Soemers,20181026-141444
+M,Library/src/features/elements/FeatureElement.java,Dennis Soemers,20181026-141444
+M,Library/src/features/elements/RelativeFeatureElement.java,Dennis Soemers,20181026-141444
+M,Library/src/features/patterns/AbsolutePattern.java,Dennis Soemers,20181026-142013
+M,Library/src/game/functions/booleans/Configuration.java,Dennis Soemers,20181026-142013
+M,Library/src/features/Walk.java,Dennis Soemers,20181026-144835
+M,Library/src/features/patterns/RelativePattern.java,Dennis Soemers,20181026-144835
+M,Library/src/game/functions/booleans/If.java,Dennis Soemers,20181026-144835
+M,Library/src/game/functions/booleans/Line.java,Dennis Soemers,20181026-144835
+M,Library/src/game/Game.java,Eric Piette,20181026-151420
+M,Library/src/game/equipment/Equipment.java,Eric Piette,20181026-151420
+M,Library/src/game/equipment/Get.java,Eric Piette,20181026-151420
+D,Library/src/game/equipment/Item.java,Eric Piette,20181026-151420
+M,Library/src/game/equipment/component/Component.java,Eric Piette,20181026-151420
+M,Library/src/game/equipment/container/Container.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/Configuration.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/Connect.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/Line.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/MoreItem.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/NoItem.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/booleans/One.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/ints/IndexOf.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/region/EmptyTopColumn.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/region/LastKnightMove.java,Eric Piette,20181026-151420
+M,Library/src/game/functions/region/Own.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/moves/FromToAdjacent.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/moves/Jump.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/moves/LightOff.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181026-151420
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20181026-151420
+M,Library/src/ui/GameView.java,Eric Piette,20181026-151420
+D,Library/src/util/Loc.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionMove.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionMoveN.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionMoveRemove.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionRemove.java,Eric Piette,20181026-151420
+M,Library/src/util/action/ActionRemoveN.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemState.java,Eric Piette,20181026-151420
+D,Library/src/util/state/ItemStateComponent.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemStateContainer.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemStateContainerCount.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric Piette,20181026-151420
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric Piette,20181026-151420
+M,Library/src/util/state/State.java,Eric Piette,20181026-151420
+M,Library/test/Misc.java,Eric Piette,20181026-151420
+M,Library/test/Performance.java,Eric Piette,20181026-151420
+M,Player/src/dbView/button/LoadButton.java,Eric Piette,20181026-151420
+M,Player/src/player/Referee.java,Eric Piette,20181026-151420
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181026-161240
+A,Library/src/features/patterns/PatternConjunction.java,Dennis Soemers,20181026-161240
+M,Library/src/game/functions/booleans/Not.java,Dennis Soemers,20181026-161240
+M,Library/src/features/elements/AbsoluteFeatureElement.java,Dennis Soemers,20181026-162247
+M,Library/src/game/functions/booleans/Configuration.java,Dennis Soemers,20181026-162247
+M,Library/src/game/functions/booleans/Occupied.java,Dennis Soemers,20181026-162247
+M,Player/src/player/PlayerApp.java,Eric Piette,20181026-165041
+M,Player/src/player/PlayerCli.java,Eric Piette,20181026-165041
+M,Library/src/game/functions/booleans/Or.java,Dennis Soemers,20181026-170120
+M,Library/src/game/functions/booleans/Reached.java,Dennis Soemers,20181026-170120
+M,Player/src/player/PlayerCli.java,Eric Piette,20181026-170631
+M,Library/src/game/Game.java,Eric Piette,20181026-171639
+M,Library/src/game/equipment/Equipment.java,Eric Piette,20181026-171639
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20181026-172325
+A,Common/src/database/ConnectionDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/DeleteInDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/DropDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/InitDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/InsertDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/SelectDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/UpdateDB.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/AI.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/Cultural.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/Executable.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/GUI.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/Game.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/Information.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/LUDII.java,Eric.Piette,20181026-174140
+A,Common/src/database/object/Metadata.java,Eric.Piette,20181026-174140
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181026-174140
+A,Library/src/features/features/AbsoluteFeature.java,Dennis Soemers,20181028-193738
+A,Library/src/features/features/Feature.java,Dennis Soemers,20181028-193738
+A,Library/src/features/features/RelativeFeature.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/ActionListConstant.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/ActionListFunction.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/And.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Backwards.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Forwards.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/FromTo.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/FromToAdjacent.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Jump.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/LightOff.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Moves.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/Or.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/To.java,Dennis Soemers,20181028-193738
+M,Library/src/game/rules/moves/TurnOver.java,Dennis Soemers,20181028-193738

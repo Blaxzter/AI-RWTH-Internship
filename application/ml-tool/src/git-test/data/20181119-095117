@@ -1,0 +1,204 @@
+M,Library/src/game/types/Types.java,Eric.Piette,20181116-095025
+M,Library/src/game/functions/booleans/Configuration.java,Eric.Piette,20181116-095916
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-100349
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-100349
+A,Library/src/game/rules/moves/ExceptFrom.java,Eric.Piette,20181116-102101
+A,Library/src/game/rules/moves/ExceptTo.java,Eric.Piette,20181116-102101
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-102608
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-102608
+M,Library/src/game/rules/moves/If.java,Eric.Piette,20181116-104258
+M,Player/src/dbView/DBView.java,Eric.Piette,20181116-105311
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-105311
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181116-105311
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-105311
+M,Player/src/player/Referee.java,Eric.Piette,20181116-105311
+M,Player/src/player/Referee.java,Eric.Piette,20181116-123840
+M,AI/resources/FeatureSets/Reversi/Handcrafted.fs,DennisSoemers,20181116-124149
+M,Library/src/features/Walk.java,DennisSoemers,20181116-124149
+M,Library/src/features/features/Feature.java,DennisSoemers,20181116-124149
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181116-124149
+M,Library/src/features/patterns/Pattern.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/booleans/Configuration.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/booleans/Line.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/booleans/Reached.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/booleans/ReachedLimit.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/region/EmptyTopColumn.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/region/LastKnightMove.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/Adjacent.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/Diagonal.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/FromToNDistance.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/Jump.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/King.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/Knight.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/Orthogonal.java,DennisSoemers,20181116-124149
+M,Library/src/game/rules/moves/TurnOver.java,DennisSoemers,20181116-124149
+M,Library/src/game/functions/booleans/Check.java,Eric.Piette,20181116-124849
+M,Library/src/game/rules/moves/King.java,Eric.Piette,20181116-124931
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-124931
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-124931
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-125550
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-125550
+M,Library/src/game/Game.java,DennisSoemers,20181116-131328
+M,Library/src/game/functions/booleans/Capture.java,DennisSoemers,20181116-131328
+M,Library/src/game/functions/region/LastQueenMove.java,DennisSoemers,20181116-131328
+M,Library/src/game/rules/moves/Adjacent.java,DennisSoemers,20181116-131328
+M,Library/src/features/elements/RelativeFeatureElement.java,DennisSoemers,20181116-132501
+M,Library/src/game/rules/moves/King.java,DennisSoemers,20181116-132501
+M,Library/src/game/rules/moves/FromToNDistance.java,Eric.Piette,20181116-132632
+M,Library/src/game/Game.java,Eric.Piette,20181116-132909
+A,Library/src/game/functions/ints/LastFromMove.java,Eric.Piette,20181116-133719
+A,Library/src/game/functions/ints/LastToMove.java,Eric.Piette,20181116-133719
+D,Library/src/game/functions/booleans/Promote.java,Eric.Piette,20181116-135806
+M,Library/src/game/functions/booleans/ReachedLimit.java,Eric.Piette,20181116-135806
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181116-135806
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181116-135806
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181116-135806
+A,Library/src/game/rules/moves/postMove/Promote.java,Eric.Piette,20181116-135806
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-135806
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-135806
+M,Library/src/features/features/AbsoluteFeature.java,DennisSoemers,20181116-141509
+M,Library/src/features/features/Feature.java,DennisSoemers,20181116-141509
+M,Library/src/features/features/RelativeFeature.java,DennisSoemers,20181116-141509
+M,Library/src/game/rules/moves/Adjacent.java,DennisSoemers,20181116-141509
+M,Library/src/game/rules/moves/Bishop.java,DennisSoemers,20181116-141509
+M,Library/src/game/rules/moves/Diagonal.java,DennisSoemers,20181116-141509
+M,Library/src/game/rules/moves/FromToNDistance.java,DennisSoemers,20181116-141509
+M,Library/src/util/Context.java,Eric.Piette,20181116-141949
+M,Library/src/game/functions/booleans/Capture.java,Eric.Piette,20181116-143013
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181116-143013
+M,Library/src/game/functions/booleans/NoMove.java,Eric.Piette,20181116-143013
+M,Library/src/game/functions/booleans/Reached.java,Eric.Piette,20181116-143013
+M,Library/src/game/functions/region/Adjacent.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Bishop.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/King.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Knight.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Queen.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/Rook.java,Eric.Piette,20181116-143013
+M,Library/src/game/rules/moves/FromToNDistance.java,DennisSoemers,20181116-143733
+M,Library/src/game/rules/moves/Jump.java,DennisSoemers,20181116-143733
+M,Library/src/util/Context.java,Eric.Piette,20181116-143940
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181116-144214
+M,Library/src/game/rules/moves/Queen.java,Eric.Piette,20181116-144214
+M,Library/src/game/rules/moves/Knight.java,Eric.Piette,20181116-144955
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-144955
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-144955
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181116-145250
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181116-145250
+M,Library/src/game/rules/moves/Jump.java,DennisSoemers,20181116-145353
+M,Library/src/game/equipment/container/basis/Basis.java,Eric.Piette,20181116-150654
+M,Library/src/game/rules/moves/Bishop.java,Eric.Piette,20181116-150654
+M,Library/src/game/rules/moves/Queen.java,Eric.Piette,20181116-150654
+M,Library/src/game/rules/moves/Rook.java,Eric.Piette,20181116-150654
+M,Library/src/game/rules/moves/King.java,DennisSoemers,20181116-151259
+M,Library/src/game/rules/moves/Knight.java,DennisSoemers,20181116-151259
+M,Library/src/game/rules/moves/Rook.java,Eric.Piette,20181116-151601
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-151601
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-151601
+M,Library/src/game/rules/moves/Bishop.java,Eric.Piette,20181116-152257
+M,Library/src/game/rules/moves/Queen.java,Eric.Piette,20181116-152257
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-152257
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-152257
+M,Library/src/game/functions/booleans/ReachedLimit.java,Eric.Piette,20181116-152705
+M,Player/src/dbView/DBView.java,Eric.Piette,20181116-161330
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-161330
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181116-161330
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-161330
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181116-162122
+M,Library/src/features/features/AbsoluteFeature.java,DennisSoemers,20181116-162122
+M,Library/src/features/features/Feature.java,DennisSoemers,20181116-162122
+M,Library/src/features/features/RelativeFeature.java,DennisSoemers,20181116-162122
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181116-162122
+M,Library/src/game/Game.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/Bishop.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/FromTo.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/Queen.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/Rook.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/To.java,DennisSoemers,20181116-162122
+M,Library/src/game/rules/moves/TurnOver.java,DennisSoemers,20181116-162122
+A,Library/src/game/equipment/container/basis/AlquerqueRect.java,Eric.Piette,20181116-165340
+A,Library/src/game/equipment/container/basis/AlquerqueSquare.java,Eric.Piette,20181116-165340
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181116-180546
+M,Library/src/game/Game.java,Dennis Soemers,20181116-180546
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-185544
+A,Common/src/gnu/AUTHORS.txt,Dennis Soemers,20181117-153909
+A,Common/src/gnu/LICENSE.txt,Dennis Soemers,20181117-153909
+A,Common/src/gnu/README-idea-devel.txt,Dennis Soemers,20181117-153909
+A,Common/src/gnu/README-license.txt,Dennis Soemers,20181117-153909
+A,Common/src/gnu/README.txt,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/TByteCollection.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/TDoubleCollection.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/TIntCollection.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/function/TByteFunction.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/function/TDoubleFunction.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/function/TIntFunction.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/Constants.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/HashFunctions.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/PrimeFinder.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/hash/THash.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/hash/THashPrimitiveIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/hash/TIntIntHash.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/impl/hash/TPrimitiveHash.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TAdvancingIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TByteIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TDoubleIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TIntIntIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TIntIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/iterator/TPrimitiveIterator.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/TByteList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/TDoubleList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/TIntList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/array/TByteArrayList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/array/TDoubleArrayList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/list/array/TIntArrayList.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/map/TIntIntMap.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/procedure/TByteProcedure.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/procedure/TDoubleProcedure.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/procedure/TIntIntProcedure.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/procedure/TIntProcedure.java,Dennis Soemers,20181117-153909
+A,Common/src/gnu/trove/set/TIntSet.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AllDifferentColumn.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AllDifferentDiag.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AllDifferentLine.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AllDifferentOrtho.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AllDifferentRow.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/AlldifferentSubSquare.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/Capture.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/Configuration.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/Connect.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/ReachedRegion.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/SurroundedAdj.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/SurroundedCol.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/SurroundedDiag.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/SurroundedOrtho.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/booleans/SurroundedRow.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/ints/SiteItem.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/Adjacent.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/LastKnightMove.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/LastQueenMove.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/Own.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/OwnKind.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/OwnSpecific.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/SpecificSiteItem.java,Dennis Soemers,20181117-153909
+M,Library/src/game/functions/region/SpecificSiteRegion.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Adjacent.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Bishop.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Jump.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/King.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Knight.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Orthogonal.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Queen.java,Dennis Soemers,20181117-153909
+M,Library/src/game/rules/moves/Rook.java,Dennis Soemers,20181117-153909
+M,Library/src/util/Context.java,Dennis Soemers,20181117-153909
+M,Player/src/dbView/button/LoadButton.java,Dennis Soemers,20181117-153909
+M,Player/src/player/PlayerCli.java,Dennis Soemers,20181117-153909
+M,Library/src/game/API.java,Eric.Piette,20181119-095117
+M,Library/src/game/Game.java,Eric.Piette,20181119-095117
+M,Library/src/game/equipment/Drawable.java,Eric.Piette,20181119-095117
+M,Library/src/game/equipment/Equipment.java,Eric.Piette,20181119-095117

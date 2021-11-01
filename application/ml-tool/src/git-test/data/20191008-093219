@@ -1,0 +1,313 @@
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191006-111140
+M,Library/src/game/Game.java,Dennis Soemers,20191006-142221
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191006-142708
+A,Library/src/game/functions/ints/math/Div.java,Eric Piette,20191007-092356
+A,Library/src/game/functions/ints/Dim.java,Eric Piette,20191007-093221
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/GraphBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/AlquerqueBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/BackgammonBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/CardBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/Connect4Board.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/MancalaBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/MorrisBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/PeralikatumaBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/SenetBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/SolitaireBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/StrategoBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/UrBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/custom/WheelBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,Eric Piette,20191007-094227
+M,Library/src/game/equipment/Item.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/Component.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/Die.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/piece/hands/Hands.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/piece/large/Dominoes.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/container/Container.java,Eric Piette,20191007-094857
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191007-094857
+M,Player/test/games/CompilationTest.java,Eric Piette,20191007-095240
+M,Player/src/player/PlayerApp.java,matthew,20191007-095946
+M,Common/res/lud/board/space/line/Achi.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Andantino.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Connect-4.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Connect-6.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Dara.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Gomoku.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Nine Holes.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Renju (incomplete).lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Shisima.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Tant Fant.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric Piette,20191007-100028
+M,Common/res/lud/board/space/line/Yavalath.lud,Eric Piette,20191007-100028
+M,Common/res/lud/puzzle/deduction/Binero.lud,Eric Piette,20191007-100028
+M,Common/res/lud/puzzle/deduction/Juosan.lud,Eric Piette,20191007-100028
+M,Library/src/game/functions/booleans/Line.java,Eric Piette,20191007-100028
+M,Library/src/game/rules/start/Fill.java,Eric Piette,20191007-100218
+M,Library/src/game/rules/start/Place.java,Eric Piette,20191007-100218
+M,Player/src/player/PlayerApp.java,matthew,20191007-100718
+M,Features/src/features/features/Feature.java,DennisSoemers,20191007-102036
+M,Player/test/features/TestFeatureCombinations.java,DennisSoemers,20191007-102036
+M,Library/src/game/API.java,matthew,20191007-102039
+M,Library/src/game/Game.java,matthew,20191007-102039
+D,Library/src/ui/Controller.java,matthew,20191007-102039
+D,Library/src/ui/GameController.java,matthew,20191007-102039
+M,Player/src/mainView/MainView.java,matthew,20191007-102039
+M,Library/src/game/equipment/container/board/custom/ChessBoard.java,matthew,20191007-123929
+M,Library/src/game/equipment/container/board/custom/XiangqiBoard.java,matthew,20191007-125739
+M,Common/res/lud/bad/bad file 1.lud,Eric Piette,20191007-130351
+M,Common/res/lud/bad_playout/Breakthrough (bad).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Baqh Chal.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Coyote  (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/De cercar la liebre (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Ko-app-paw-na (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Leopards and Cows.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Pon chochotl (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Rafaya.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/hunt/Wolf And Sheep.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/tafl/ArdRi.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/chase/tafl/Hnefatafl Fetlar.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Arimaa.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Chess.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Double Chess (Skirmish).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Half Chess.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Skirmish.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/elimination/Fanorona.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/elimination/Surakarta.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Alquerque.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Awithlaknannai.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Brazilian Draughts.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Canadian Draughts.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Dama.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/English Draughts.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Four Field Kono.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Konane.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Lasca.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Ludus Latrunculorum.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Mogul Putt'han.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Peralikatuma.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Sixteen Soldiers.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/leaping/Zamma.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/fill/Halma.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/reach/BreakThrough.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/reach/KnightThrough.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/track/Royal Game of Ur.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/race/track/Senet.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/blocking/Amazons.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/blocking/L Game.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/blocking/Mu-Torere.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/group/Groups.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/group/Lines of Action.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Achi.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Dara.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Nine Holes.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Shisima.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Tant Fant.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/territory/Reversi (Old).lud,Eric Piette,20191007-130351
+M,Common/res/lud/board/space/territory/Reversi.lud,Eric Piette,20191007-130351
+M,Common/res/lud/mathematical/hand/Rock-Paper-Scissors.lud,Eric Piette,20191007-130351
+M,Common/res/lud/puzzle/others/Insanity.lud,Eric Piette,20191007-130351
+M,Common/res/lud/puzzle/others/Peg Solitaire.lud,Eric Piette,20191007-130351
+M,Library/.classpath,Eric Piette,20191007-130351
+M,Library/src/game/Game.java,Eric Piette,20191007-130351
+M,Library/src/game/rules/start/Fill.java,Eric Piette,20191007-130351
+M,Library/src/game/rules/start/Place.java,Eric Piette,20191007-130351
+M,Library/src/game/rules/start/Start.java,Eric Piette,20191007-130351
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,matthew,20191007-131036
+M,Library/src/game/equipment/component/Piece.java,matthew,20191007-131036
+M,Library/src/game/functions/booleans/If.java,Eric Piette,20191007-132029
+M,Library/src/game/equipment/component/Die.java,matthew,20191007-141624
+M,Library/src/game/equipment/component/Piece.java,matthew,20191007-141624
+M,Player/src/mainView/button/ButtonPlayPause.java,matthew,20191007-141624
+M,Player/src/player/PlayerApp.java,matthew,20191007-141624
+M,Player/src/mainView/panel/TabPage.java,matthew,20191007-142113
+M,Library/src/util/ChunkStack.java,matthew,20191007-145132
+M,Library/src/game/equipment/container/board/Board.java,matthew,20191007-145913
+M,Library/src/game/equipment/component/Component.java,matthew,20191007-151911
+A,Common/res/img/svg/animals/chicken.svg,Matthew.Stephenson,20191007-161906
+A,Common/res/img/svg/animals/hare.svg,Matthew.Stephenson,20191007-161906
+A,Common/res/img/svg/animals/lamb.svg,Matthew.Stephenson,20191007-161906
+M,Common/res/lud/bad_playout/Breakthrough (bad).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Baqh Chal.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Coyote  (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/De cercar la liebre (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Ko-app-paw-na (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Leopards and Cows.lud,Eric Piette,20191007-163205
+M,"Common/res/lud/board/chase/hunt/Meurim\303\274eng-rim\303\274eng-do.lud",Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Pon chochotl (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Rafaya.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/hunt/Wolf And Sheep.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/tafl/ArdRi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/chase/tafl/Hnefatafl Fetlar.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Arimaa.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Chess.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Chex (with ChessBoard).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Double Chess (Skirmish).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Half Chess.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Skirmish.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Stratego.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/elimination/Fanorona.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/elimination/Surakarta.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Alquerque.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Awithlaknannai.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Brazilian Draughts.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Canadian Draughts.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Dama.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/English Draughts.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Four Field Kono.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Konane.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Lasca.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Ludus Latrunculorum.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Mogul Putt'han.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Peralikatuma.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Sixteen Soldiers.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/leaping/Zamma.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/mancala/Aw-li On-nam Ot-tjin.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/mancala/Das Bohnenspiel.lud,Eric Piette,20191007-163205
+M,"Common/res/lud/board/displace/mancala/En Geh\303\251.lud",Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/mancala/Hawalis.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/mancala/Kalah.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/displace/mancala/Oware.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/fill/Halma.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/reach/BreakThrough.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/reach/KnightThrough.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/track/Royal Game of Ur.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/track/Senet.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/race/track/Snakes and Ladders.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Amazons.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/L Game.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Mu-Torere.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Spots.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/blocking/Tron.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/connection/Hex.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/connection/Y (Hex).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/group/Groups.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/group/Lines of Action.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Achi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Andantino.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Connect-4.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Connect-6.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Dara.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Gomoku.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Nine Holes.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Renju (incomplete).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Shisima.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Tant Fant.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/line/Yavalath.lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/territory/Reversi (Old).lud,Eric Piette,20191007-163205
+M,Common/res/lud/board/space/territory/Reversi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/cards/War.lud,Eric Piette,20191007-163205
+M,Common/res/lud/mathematical/Nim.lud,Eric Piette,20191007-163205
+M,Common/res/lud/mathematical/graph/Dots and Boxes.lud,Eric Piette,20191007-163205
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Eric Piette,20191007-163205
+M,Common/res/lud/mathematical/hand/Rock-Paper-Scissors.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Binero.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Bricks.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Futoshiki.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Hashi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Inshi no Heya.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Juosan.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Kakuro.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Killer Sudoku.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/N Queens.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Nawabari.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Squaro.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/others/Insanity.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/others/Knight's Tour.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/others/N Puzzles.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/others/Peg Solitaire.lud,Eric Piette,20191007-163205
+M,Common/res/lud/puzzle/others/Tower of Hanoi.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Backgammon.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Chex (with a board and with capture the king).lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Dominos Board with Hand.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Dominos Boardless with Hand.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Havannah.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Test Domino Half.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Test Lot of Hand for Matthew.lud,Eric Piette,20191007-163205
+M,Common/res/lud/wip/Tron (Real-time).lud,Eric Piette,20191007-163205
+M,Library/src/game/functions/booleans/If.java,Eric Piette,20191007-163205
+M,Library/src/game/functions/region/Around.java,Eric Piette,20191007-163205
+M,Library/src/game/rules/Rules.java,Eric Piette,20191007-163205
+M,Library/src/game/rules/end/ByScore.java,Eric Piette,20191007-163205
+M,Library/src/game/rules/end/End.java,Eric Piette,20191007-163205
+D,Library/src/game/rules/end/If.java,Eric Piette,20191007-163205
+D,Library/src/game/rules/end/Or.java,Eric Piette,20191007-163205
+M,Common/res/img/svg/animals/hare.svg,Matthew.Stephenson,20191007-164053
+M,Common/res/img/svg/animals/lamb.svg,Matthew.Stephenson,20191007-164053
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191007-164053
+M,Common/res/lud/board/chase/hunt/De cercar la liebre (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-164139
+M,Common/res/lud/board/chase/hunt/Pon chochotl (without removing the capturing pieces only after a capture move).lud,Eric Piette,20191007-164139
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Eric Piette,20191007-164139
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Eric Piette,20191007-164738
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Eric Piette,20191007-170204
+M,Common/res/lud/board/displace/leaping/Mogul Putt'han.lud,Eric Piette,20191007-170204
+M,Common/res/lud/board/displace/leaping/Peralikatuma.lud,Eric Piette,20191007-170204
+M,Common/res/lud/board/displace/leaping/Sixteen Soldiers.lud,Eric Piette,20191007-170204
+M,Library/src/game/equipment/container/board/custom/PeralikatumaBoard.java,Eric Piette,20191007-170204
+A,Common/res/img/svg/animals/jaguar.svg,matthew,20191007-171619
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Eric Piette,20191007-172020
+A,Common/res/lud/board/space/territory/Reversi (score computed at the end).lud,Eric Piette,20191007-173130
+M,Library/src/game/rules/end/ByScore.java,Eric Piette,20191007-173130
+M,Library/src/game/rules/start/Start.java,Eric Piette,20191007-173130
+D,Common/res/lud/board/space/territory/Reversi (Old).lud,Eric Piette,20191007-173423
+M,Common/res/lud/board/space/territory/Reversi (score computed at the end).lud,Eric Piette,20191007-173441
+M,Common/res/lud/board/space/territory/Reversi.lud,Eric Piette,20191007-173441
+M,Common/res/lud/board/race/track/Senet.lud,matthew,20191007-173828
+M,Common/res/lud/puzzle/others/Insanity.lud,matthew,20191007-175113
+M,Common/res/lud/puzzle/others/Tower of Hanoi.lud,matthew,20191007-175113
+M,Library/src/game/equipment/component/Component.java,matthew,20191007-175113
+M,Library/src/game/equipment/component/Piece.java,matthew,20191007-175113
+A,Library/src/util/action/ActionSwap.java,Eric Piette,20191008-093219

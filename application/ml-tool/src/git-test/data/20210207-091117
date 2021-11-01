@@ -1,0 +1,265 @@
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20210205-091047
+M,Core/src/game/functions/ints/board/where/WhereSite.java,Eric.Piette,20210205-094439
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Eric.Piette,20210205-101049
+M,Core/src/game/functions/graph/generators/basis/square/RectangleOnSquare.java,Cameron Browne,20210205-101628
+M,Core/src/game/functions/graph/generators/basis/square/Square.java,Cameron Browne,20210205-101628
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20210205-101628
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20210205-101628
+M,LudiiDocGen/out/tex/ChapterXOptions.tex,Eric.Piette,20210205-102633
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210205-104647
+M,Core/src/game/equipment/container/board/Track.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/booleans/is/Is.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/graph/generators/basis/brick/Brick.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/graph/generators/basis/morris/Morris.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/graph/generators/shape/Circle.java,Eric.Piette,20210205-104647
+M,Core/src/game/functions/graph/operators/Complete.java,Eric.Piette,20210205-104647
+M,Core/src/game/rules/play/moves/decision/Move.java,Eric.Piette,20210205-104647
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20210205-104647
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20210205-104647
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Eric.Piette,20210205-104647
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/Set.java,Eric.Piette,20210205-104647
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20210205-104647
+M,Core/src/game/equipment/container/board/Track.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/booleans/is/Is.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/generators/basis/morris/Morris.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/generators/basis/quadhex/Quadhex.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/generators/shape/Spiral.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/operators/Add.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/operators/Merge.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/operators/Remove.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/graph/operators/Union.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/board/where/Where.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/board/where/WhereLevel.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/count/Count.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/last/Last.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/last/LastFrom.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/ints/last/LastTo.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/Sites.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/between/SitesBetween.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/loop/SitesLoop.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/occupied/SitesOccupied.java,Eric.Piette,20210205-104802
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/phase/NextPhase.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/decision/Move.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/Set.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/Remember.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/ForEach.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/start/set/Set.java,Eric.Piette,20210205-104802
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/board/Board.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/board/Boolean/BoardCheckered.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/hand/placement/HandPlacement.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/Boolean/NoAnimation.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/Boolean/NoBoard.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/Boolean/NoCurves.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/Boolean/NoDicePips.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/Boolean/NoHandScale.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/no/No.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/puzzle/AdversarialPuzzle.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowCost.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowEdgeDirections.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowPits.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowPlayerHoles.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowPossibleMoves.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Boolean/ShowRegionOwner.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/Show.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/edges/ShowEdges.java,Eric.Piette,20210205-104802
+M,Core/src/metadata/graphics/show/sites/ShowSitesAsHoles.java,Eric.Piette,20210205-104802
+M,LudiiDocGen/out/tex/AppendixCLudiiGrammar.tex,Eric.Piette,20210205-105527
+M,Core/src/metadata/graphics/piece/Piece.java,Matthew Stephenson,20210205-111539
+A,Common/res/lud/test/Test - Circle Faces.lud,Cameron Browne,20210205-111556
+A,Common/res/lud/test/Test.lud,Cameron Browne,20210205-111556
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Eric.Piette,20210205-112317
+A,Common/res/lud/board/space/connection/DuploHex.lud,Eric.Piette,20210205-113538
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210205-113538
+M,MetadataScripts/InputCSV/GameRulesets.csv,Eric.Piette,20210205-113538
+M,MetadataScripts/InputCSV/Games.csv,Eric.Piette,20210205-113538
+M,Common/res/lud/board/war/other/Toono.lud,Eric.Piette,20210205-114845
+M,Common/res/lud/experimental/Hops-a-Daisy Generalized.lud,Eric.Piette,20210205-114845
+M,Common/res/lud/test/knightMoves/Knight Moves 15.lud,Eric.Piette,20210205-114845
+M,Common/res/lud/test/knightMoves/Knight Moves 16.lud,Eric.Piette,20210205-114845
+M,Common/res/lud/test/knightMoves/Knight Moves 17.lud,Eric.Piette,20210205-114845
+M,Core/src/game/functions/region/sites/Sites.java,Eric.Piette,20210205-114845
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210205-114845
+A,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-120519
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-121353
+M,Core/src/game/Game.java,Eric.Piette,20210205-125647
+M,Core/src/game/rules/start/StartRule.java,Eric.Piette,20210205-125647
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Eric.Piette,20210205-125647
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Eric.Piette,20210205-125647
+M,Core/src/game/rules/start/place/stack/PlaceMonotonousStack.java,Eric.Piette,20210205-125647
+M,Core/src/util/state/State.java,Eric.Piette,20210205-125647
+M,Core/src/util/state/containerState/ContainerStateFactory.java,Eric.Piette,20210205-125647
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-125737
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-125903
+M,Core/src/game/equipment/Equipment.java,Eric.Piette,20210205-131102
+M,Core/src/game/functions/range/Range.java,Eric.Piette,20210205-131102
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210205-131102
+M,Core/src/game/rules/play/moves/nonDecision/effect/Note.java,Eric.Piette,20210205-131102
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Eric.Piette,20210205-131102
+M,Core/src/util/state/containerState/ContainerStateFactory.java,Eric.Piette,20210205-131102
+M,Core/src/util/state/puzzleState/ContainerDeductionPuzzleState.java,Eric.Piette,20210205-131102
+M,Core/src/util/state/puzzleState/ContainerDeductionPuzzleStateLarge.java,Eric.Piette,20210205-131102
+M,Manager/src/manager/move/MoveHandler.java,Eric.Piette,20210205-131102
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,Eric.Piette,20210205-131102
+M,ViewController/src/view/container/aspects/designs/board/puzzle/PuzzleDesign.java,Eric.Piette,20210205-131102
+M,Core/src/game/Game.java,Eric.Piette,20210205-132252
+M,Core/src/game/functions/region/sites/Sites.java,Eric.Piette,20210205-132252
+A,Core/src/game/rules/meta/Gravity.java,Eric.Piette,20210205-132252
+A,Core/src/game/types/play/GravityType.java,Eric.Piette,20210205-132252
+A,Common/res/lud/test/eric/TestGravity.lud,Eric.Piette,20210205-132918
+M,Core/src/game/Game.java,Eric.Piette,20210205-132918
+A,Common/res/img/svg/army/base.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/defense.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/fighter.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/forest.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/launcher.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/shooter.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/speeder.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/tank.svg,Matthew Stephenson,20210205-133843
+A,Common/res/img/svg/army/transport.svg,Matthew Stephenson,20210205-133843
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-133843
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210205-134139
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-141541
+M,Core/src/game/Game.java,Eric.Piette,20210205-142430
+A,Common/res/img/svg/army/soldier.svg,Matthew Stephenson,20210205-144651
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-144651
+M,ViewController/src/view/component/BaseComponentStyle.java,Matthew Stephenson,20210205-144651
+M,ViewController/src/view/component/custom/PieceStyle.java,Matthew Stephenson,20210205-144651
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210205-150629
+M,AI/src/expert_iteration/menageries/AgentCheckpoint.java,Dennis Soemers,20210205-150629
+M,AI/src/expert_iteration/menageries/Menagerie.java,Dennis Soemers,20210205-150629
+M,AI/src/expert_iteration/menageries/NaiveSelfPlay.java,Dennis Soemers,20210205-150629
+M,AI/src/expert_iteration/menageries/TournamentMenagerie.java,Dennis Soemers,20210205-150629
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20210205-150629
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20210205-150629
+M,AI/src/search/minimax/BRSPlus.java,Dennis Soemers,20210205-150629
+M,Common/res/lud/board/hunt/Jeu de Renard (Two Foxes).lud,Eric Piette,20210205-151732
+M,Common/res/lud/board/race/escape/Kints.lud,Eric Piette,20210205-151732
+M,Common/res/lud/test/eric/TestGravity.lud,Eric Piette,20210205-151732
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Eric Piette,20210205-151732
+M,MetadataScripts/InputCSV/GameRulesets.csv,Eric Piette,20210205-151732
+M,MetadataScripts/InputCSV/Games.csv,Eric Piette,20210205-151732
+A,Common/res/lud/wip/eric/dlp/Erherhe.lud,Eric Piette,20210205-152015
+A,Common/res/lud/wishlist/needReconstruction/Adjito.lud,Eric Piette,20210205-152102
+A,Common/res/lud/wishlist/needReconstruction/Ouri.lud,Eric Piette,20210205-152125
+A,Common/res/lud/wishlist/needReconstruction/Mandinka Game.lud,Eric Piette,20210205-152150
+A,Common/res/lud/wishlist/needReconstruction/Worra.lud,Eric Piette,20210205-152213
+A,Common/res/lud/wishlist/needReconstruction/Ashanti Draughts.lud,Eric Piette,20210205-152236
+A,Common/res/lud/wishlist/needReconstruction/Ashanti Alignment Game.lud,Eric Piette,20210205-152302
+A,Common/res/lud/wishlist/needReconstruction/Tami.lud,Eric Piette,20210205-152323
+A,Common/res/lud/wishlist/needReconstruction/Benin Mancala Game.lud,Eric Piette,20210205-152347
+A,Common/res/lud/wishlist/needReconstruction/Gabatta.lud,Eric Piette,20210205-152407
+A,Common/res/lud/wishlist/needReconstruction/Matara Game.lud,Eric Piette,20210205-152427
+A,Common/res/lud/wishlist/needReconstruction/Qarqis.lud,Eric Piette,20210205-152448
+A,Common/res/lud/wishlist/needReconstruction/Alea.lud,Eric Piette,20210205-152508
+A,Common/res/lud/wip/eric/dlp/Luuth.lud,Eric Piette,20210205-152539
+A,Common/res/img/svg/army/P1/fighter.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/launcher.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/shooter.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/soldier.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/speeder.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/tank.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/army/P1/transport.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/fighter.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/forest.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/launcher.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/shooter.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/soldier.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/speeder.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/tank.svg,Matthew Stephenson,20210205-153202
+D,Common/res/img/svg/army/transport.svg,Matthew Stephenson,20210205-153202
+A,Common/res/img/svg/misc/forest.svg,Matthew Stephenson,20210205-153202
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210205-153202
+M,ViewController/src/view/component/custom/PieceStyle.java,Matthew Stephenson,20210205-153202
+M,Common/res/lud/board/race/escape/Kints.lud,Eric Piette,20210205-153744
+M,Common/res/lud/board/race/escape/Medio Emperador.lud,Eric Piette,20210205-153744
+M,Common/res/lud/board/race/escape/Pareia de Entrada.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wip/eric/dlp/Erherhe.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wip/eric/dlp/Luuth.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Adjito.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Alea.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Ashanti Alignment Game.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Ashanti Draughts.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Benin Mancala Game.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Gabatta.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Mandinka Game.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Matara Game.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Ouri.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Qarqis.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Tami.lud,Eric Piette,20210205-153744
+M,Common/res/lud/wishlist/needReconstruction/Worra.lud,Eric Piette,20210205-153744
+M,MetadataScripts/InputCSV/Games.csv,Eric Piette,20210205-153744
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric Piette,20210205-154438
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210205-180534
+M,AI/src/expert_iteration/menageries/Menagerie.java,Dennis Soemers,20210205-180534
+M,AI/src/expert_iteration/menageries/NaiveSelfPlay.java,Dennis Soemers,20210205-180534
+M,AI/src/expert_iteration/menageries/TournamentMenagerie.java,Dennis Soemers,20210205-180534
+M,Common/src/main/collections/FVector.java,Dennis Soemers,20210205-180534
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric Piette,20210205-184457
+A,Common/res/img/svg/army/P1/artillery.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/P1/bomber.svg,Matthew Stephenson,20210206-100209
+M,Common/res/img/svg/army/P1/fighter.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/P1/helicopter.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/P1/motorbike.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/factory.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/forest.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/mountain.svg,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/town.svg,Matthew Stephenson,20210206-100209
+D,Common/res/img/svg/misc/forest.svg,Matthew Stephenson,20210206-100209
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-100209
+A,Common/res/img/svg/army/P1/armyGeneral.svg,Matthew Stephenson,20210206-120717
+M,Common/res/img/svg/army/P1/motorbike.svg,Matthew Stephenson,20210206-120717
+M,Common/res/img/svg/army/P1/soldier.svg,Matthew Stephenson,20210206-120717
+M,Common/res/img/svg/army/P1/speeder.svg,Matthew Stephenson,20210206-120717
+D,Common/res/img/svg/army/P1/transport.svg,Matthew Stephenson,20210206-120717
+M,Common/res/img/svg/army/base.svg,Matthew Stephenson,20210206-120717
+A,Common/res/img/svg/army/silo.svg,Matthew Stephenson,20210206-120717
+M,Common/res/img/svg/army/town.svg,Matthew Stephenson,20210206-120717
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-120717
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210206-151003
+M,AI/src/expert_iteration/menageries/Menagerie.java,Dennis Soemers,20210206-151003
+M,AI/src/expert_iteration/menageries/NaiveSelfPlay.java,Dennis Soemers,20210206-151003
+M,AI/src/expert_iteration/menageries/TournamentMenagerie.java,Dennis Soemers,20210206-151003
+M,Core/src/util/state/State.java,Dennis Soemers,20210206-160249
+M,Core/src/util/state/owned/FlatCellOnlyOwned.java,Dennis Soemers,20210206-160249
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20210206-160752
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-182933
+A,Common/res/img/svg/army/P1/antiair.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/battleship.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/boss.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/cruiser.svg,Matthew Stephenson,20210206-191703
+M,Common/res/img/svg/army/P1/fighter.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/fighterOLD.svg,Matthew Stephenson,20210206-191703
+M,Common/res/img/svg/army/P1/helicopter.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/helicopterOLD.svg,Matthew Stephenson,20210206-191703
+A,Common/res/img/svg/army/P1/submarine.svg,Matthew Stephenson,20210206-191703
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-191703
+M,Common/res/img/svg/army/P1/battleship.svg,Matthew Stephenson,20210206-220531
+A,Common/res/img/svg/army/airport.svg,Matthew Stephenson,20210206-220531
+A,Common/res/img/svg/army/dock.svg,Matthew Stephenson,20210206-220531
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-220531
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-225258
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210206-235645
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20210206-235645
+M,Core/src/game/functions/region/sites/Sites.java,Eric.Piette,20210206-235645
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210206-235645
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210206-235845
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210207-002044
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210207-010241
+M,Common/res/lud/wip/matthew/Mini Wars.lud,Matthew Stephenson,20210207-091117

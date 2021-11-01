@@ -1,0 +1,208 @@
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20201021-091131
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-091131
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-091359
+M,Core/src/game/functions/booleans/can/CanMove.java,Eric.Piette,20201021-095955
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Eric.Piette,20201021-095955
+M,Core/src/game/functions/booleans/math/And.java,Eric.Piette,20201021-095955
+M,Core/src/game/functions/booleans/math/Not.java,Eric.Piette,20201021-095955
+M,Core/src/game/functions/ints/count/component/CountPieces.java,Eric.Piette,20201021-095955
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-095955
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-095955
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-095955
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-105334
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-105334
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201021-105334
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Eric.Piette,20201021-115554
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20201021-115554
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Eric.Piette,20201021-115554
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-115554
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-115554
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201021-115554
+M,Core/src/game/rules/play/moves/nonDecision/effect/Bet.java,Eric.Piette,20201021-115845
+M,Core/src/game/rules/play/moves/nonDecision/effect/Vote.java,Eric.Piette,20201021-115845
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-115845
+M,Core/src/game/rules/end/ByScore.java,Eric.Piette,20201021-130238
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-130238
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201021-130238
+A,Common/res/lud/wip/eric/dlp/Dorvolz.lud,Eric.Piette,20201021-140722
+M,Distance/src/common/DistanceMatrix.java,Matthew Stephenson,20201021-143126
+M,Distance/src/common/DistanceUtils.java,Matthew Stephenson,20201021-143126
+D,Distance/src/common/EditCost.java,Matthew Stephenson,20201021-143126
+D,Distance/src/common/GameRuleset.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/DistanceMetric.java,Matthew Stephenson,20201021-143126
+D,Distance/src/metrics/EvaluationDistanceMetric.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/JensenShannonDivergence.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/Levenshtein.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/LudemeNeedlemanWunshAlignment.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/LudemeSmithWatermanAlignment.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/MoveTypeJensonShannon.java,Matthew Stephenson,20201021-143126
+M,Distance/src/metrics/ZhangShasha.java,Matthew Stephenson,20201021-143126
+D,Distance/src/metrics/support/MoveTypeTrialsAssignmentCost.java,Matthew Stephenson,20201021-143126
+M,Distance/test/TestDistancesMarkus.java,Matthew Stephenson,20201021-143126
+M,Manager/src/manager/PlayerInterface.java,Matthew Stephenson,20201021-143126
+D,Manager/src/manager/network/DatabaseFunctions.java,Matthew Stephenson,20201021-143126
+A,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20201021-143126
+A,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201021-143126
+M,Manager/src/manager/referee/Referee.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/BaseApp.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/LeaderboardDialog.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/MessagePlayersDialog.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/display/views/tabs/pages/StatusPage.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/loading/TrialLoading.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201021-143126
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Matthew Stephenson,20201021-143205
+M,Core/src/game/equipment/component/Card.java,Eric.Piette,20201021-145449
+M,Core/src/game/equipment/component/Die.java,Eric.Piette,20201021-145449
+M,Core/src/game/equipment/component/tile/Domino.java,Eric.Piette,20201021-145449
+M,Core/src/game/equipment/container/other/Deck.java,Eric.Piette,20201021-145449
+M,Core/src/game/equipment/container/other/Dice.java,Eric.Piette,20201021-145449
+M,Core/src/game/equipment/other/Dominoes.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/booleans/all/AllDiceEqual.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/booleans/all/AllDiceUsed.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/card/simple/CardTrumpSuit.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/card/site/CardRank.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/card/site/CardSuit.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/card/site/CardTrumpRank.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/card/site/CardTrumpValue.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/count/component/CountPips.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/dice/Face.java,Eric.Piette,20201021-145449
+M,Core/src/game/functions/ints/dice/Pips.java,Eric.Piette,20201021-145449
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Eric.Piette,20201021-145449
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/suit/SetTrumpSuit.java,Eric.Piette,20201021-145449
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Eric.Piette,20201021-145449
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Eric.Piette,20201021-145449
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-145449
+M,Core/src/util/model/SimultaneousMove.java,Cameron Browne,20201021-150609
+M,Core/src/util/model/SimultaneousMove.java,Cameron Browne,20201021-151023
+M,Core/src/util/model/SimultaneousMove.java,Cameron Browne,20201021-151230
+M,Core/src/util/model/AlternatingMove.java,Matthew Stephenson,20201021-152122
+M,Core/src/util/model/SimultaneousMove.java,Matthew Stephenson,20201021-152122
+M,PlayerDesktop/src/app/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20201021-152122
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Matthew Stephenson,20201021-152122
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201021-152122
+A,Common/res/lud/board/space/territory/Dorvolz.lud,Eric.Piette,20201021-152605
+M,Common/res/lud/board/war/other/Toono.lud,Eric.Piette,20201021-152605
+M,Common/res/lud/board/war/other/Xarajlt.lud,Eric.Piette,20201021-152605
+D,Common/res/lud/wip/eric/dlp/Dorvolz.lud,Eric.Piette,20201021-152605
+M,MetadataScripts/InputCSV/GameRulesets.csv,Eric.Piette,20201021-152605
+M,MetadataScripts/InputCSV/Games.csv,Eric.Piette,20201021-152605
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-152605
+M,Core/src/util/model/AlternatingMove.java,Matthew Stephenson,20201021-153023
+M,Core/src/util/model/SimultaneousMove.java,Matthew Stephenson,20201021-153023
+A,Common/res/lud/WishlistDLP/race/Ssang-Ryouk.lud,Eric.Piette,20201021-153752
+M,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20201021-162435
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201021-162435
+M,PlayerDesktop/src/app/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20201021-162435
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201021-162435
+A,Common/res/lud/wip/eric/dlp/Patok.lud,Eric.Piette,20201021-171846
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20201021-171846
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-171846
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201021-171846
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201021-172718
+M,Common/res/lud/WishlistDLP/race/Ssang-Ryouk.lud,Eric.Piette,20201021-174217
+A,Common/res/lud/board/space/territory/Patok.lud,Eric.Piette,20201021-174217
+D,Common/res/lud/wip/eric/dlp/Patok.lud,Eric.Piette,20201021-174217
+M,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20201021-174527
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201021-174527
+M,Core/src/metadata/graphics/Graphics.java,Matthew Stephenson,20201021-175820
+M,Core/src/metadata/graphics/show/Show.java,Matthew Stephenson,20201021-175820
+M,Core/src/metadata/graphics/show/symbol/ShowSymbol.java,Matthew Stephenson,20201021-175820
+M,ViewController/src/view/container/aspects/designs/BoardDesign.java,Matthew Stephenson,20201021-175820
+M,Common/res/lud/board/space/territory/Patok.lud,Eric.Piette,20201021-175827
+M,Common/res/lud/board/space/territory/Patok.lud,Eric.Piette,20201021-182338
+A,Common/res/lud/wishlist/needReconstruction/Gwyddbwyll.lud,Eric.Piette,20201021-182546
+A,Common/res/lud/WishlistDLP/race/Tables Rabbatuees.lud,Eric.Piette,20201021-183706
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201021-191133
+M,Common/res/lud/WishlistDLP/race/Tables Rabbatuees.lud,Eric.Piette,20201021-194500
+A,Common/res/lud/board/space/connection/Crossway.lud,Eric.Piette,20201021-194500
+M,Common/res/lud/board/space/territory/Patok.lud,Eric.Piette,20201021-194500
+M,Common/res/lud/wishlist/needReconstruction/Gwyddbwyll.lud,Eric.Piette,20201021-194500
+M,MetadataScripts/InputCSV/GameRulesets.csv,Eric.Piette,20201021-194500
+M,MetadataScripts/InputCSV/Games.csv,Eric.Piette,20201021-194500
+M,Core/src/game/rules/play/moves/nonDecision/effect/Promote.java,Eric.Piette,20201021-194940
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-194940
+M,Core/src/game/Game.java,Eric.Piette,20201021-200034
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,Eric.Piette,20201021-200034
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-200034
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,Eric.Piette,20201021-200034
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-200034
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/graph/IsUnique.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/simple/IsSolved.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/AllConnected.java,Eric.Piette,20201021-200610
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsProduct.java,Eric.Piette,20201021-200610
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-200610
+M,Core/src/game/equipment/container/board/Boardless.java,Eric.Piette,20201021-200906
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-200906
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Eric.Piette,20201021-201513
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Eric.Piette,20201021-201513
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-201513
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-201513
+M,Core/src/game/functions/ints/size/connection/SizeTerritory.java,Eric.Piette,20201021-202047
+M,Core/src/game/functions/ints/tile/PathExtent.java,Eric.Piette,20201021-202047
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201021-202047
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-202047
+M,Core/src/game/Game.java,Eric.Piette,20201021-204727
+M,Core/src/game/mode/Mode.java,Eric.Piette,20201021-204727
+M,Core/src/game/rules/phase/NextPhase.java,Eric.Piette,20201021-204727
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201021-204727
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201021-204727
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Dennis Soemers,20201021-205856
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Dennis Soemers,20201021-205856
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201022-085736
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20201022-085736
+M,Core/src/game/equipment/component/tile/Domino.java,Eric.Piette,20201022-092221
+M,Core/src/game/equipment/component/tile/Tile.java,Eric.Piette,20201022-092221
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201022-092221
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20201022-092221
+M,Core/src/game/rules/end/ByScore.java,Eric.Piette,20201022-092901
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20201022-092901
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetScore.java,Eric.Piette,20201022-092901
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/AddScore.java,Eric.Piette,20201022-092901
+M,Core/src/game/rules/start/set/player/SetScore.java,Eric.Piette,20201022-092901
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201022-092901
+M,Core/src/game/util/end/Score.java,Eric.Piette,20201022-092901
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201022-092901
+M,PlayerDesktop/src/app/BaseApp.java,Matthew Stephenson,20201022-093211
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20201022-093211
+A,PlayerDesktop/res/help/DLPGames.csv,Matthew Stephenson,20201022-110258
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20201022-124308
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20201022-124308
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201022-124308
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201022-124308
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201022-124308
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201022-124308
+A,Common/res/lud/wishlist/needReconstruction/Pancha Keliya (Complex).lud,Eric.Piette,20201022-130007
+A,Common/res/lud/wishlist/needReconstruction/Pancha (Mahabalipuram).lud,Eric.Piette,20201022-130053
+A,Common/res/lud/wishlist/needReconstruction/Pancha (Mahabalipuram with Loop).lud,Eric.Piette,20201022-130202
+A,Common/res/lud/board/war/leaping/draughts/Main Dam.lud,Eric.Piette,20201022-131808
+A,Common/res/lud/wishlist/needReconstruction/Pancha (Mahabalipuram with Double Loop).lud,Eric.Piette,20201022-131951
+M,Core/src/metadata/graphics/Graphics.java,Matthew Stephenson,20201022-145055
+M,PlayerDesktop/res/help/DLPGames.csv,Matthew Stephenson,20201022-172658
+M,Core/src/metadata/graphics/Graphics.java,Matthew Stephenson,20201022-172739
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Eric.Piette,20201023-084628
+M,Core/src/game/rules/start/deductionPuzzle/Set.java,Eric.Piette,20201023-084628
+M,Core/src/game/types/state/GameType.java,Eric.Piette,20201023-084628
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201023-084628
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20201023-084628
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201023-084628
+M,Core/src/game/Game.java,Eric.Piette,20201023-085604

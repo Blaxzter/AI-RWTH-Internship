@@ -1,0 +1,977 @@
+M,Core/src/language/grammar/Grammar.java,eric.piette,20200713-082225
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200713-082225
+M,Core/src/util/Move.java,eric.piette,20200713-085238
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200713-091305
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200713-091305
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200713-091305
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorActions.java,Cameron Browne,20200713-092621
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200713-092621
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,Cameron Browne,20200713-092621
+M,PlayerDesktop/src/app/display/dialogs/editor/TextPaneUtils.java,Cameron Browne,20200713-092621
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Dennis Soemers,20200713-092852
+M,Manager/src/manager/ai/AIUtil.java,Matthew.Stephenson,20200713-093200
+M,PlayerDesktop/src/app/display/views/tabs/pages/RulesPage.java,Matthew.Stephenson,20200713-094617
+M,Core/src/util/Move.java,eric.piette,20200713-100210
+M,Core/src/game/rules/play/moves/decision/Move.java,eric.piette,20200713-101432
+M,Core/src/game/rules/play/moves/effect/operators/set/Set.java,eric.piette,20200713-101432
+M,Core/src/game/rules/play/moves/effect/operators/set/nextPlayer/SetNextPlayer.java,eric.piette,20200713-101432
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200713-101432
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200713-101701
+M,Core/src/game/functions/booleans/is/line/IsLine.java,eric.piette,20200713-101701
+M,Common/res/lud/board/race/escape/XII Scripta.lud,eric.piette,20200713-102437
+M,Common/res/lud/board/race/reach/Pachisi.lud,eric.piette,20200713-102437
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200713-102437
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200713-102437
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200713-102437
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200713-102437
+M,Common/res/lud/board/war/xiangqi/Banqi.lud,eric.piette,20200713-102437
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200713-102437
+M,Core/src/util/action/hidden/ActionSetInvisible.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/hidden/ActionSetMasked.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/hidden/ActionSetVisible.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionAdd.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionAddN.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionCopy.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionInsert.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionMoveAndSetState.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionMoveN.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionMoveSubStack.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionPromote.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionRemove.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/move/ActionSelect.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/puzzle/ActionReset.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/puzzle/ActionSet.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/puzzle/ActionToggle.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/state/ActionSetCount.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/state/ActionSetRotation.java,Matthew.Stephenson,20200713-103014
+M,Core/src/util/action/state/ActionSetState.java,Matthew.Stephenson,20200713-103014
+M,Common/res/lud/board/race/reach/Pachisi.lud,eric.piette,20200713-103430
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200713-103430
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20200713-103430
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200713-103430
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200713-103430
+M,Common/res/lud/board/war/xiangqi/Banqi.lud,eric.piette,20200713-103430
+M,Common/res/lud/test/tahmina/Farbe.lud,eric.piette,20200713-103430
+M,Common/res/lud/test/tahmina/Onek Rong Imperfect.lud,eric.piette,20200713-103430
+M,Common/res/lud/test/tahmina/Yathalmain2.lud,eric.piette,20200713-103430
+M,Common/res/lud/wip/GtGames/LastEdge.lud,eric.piette,20200713-103430
+M,Common/res/lud/wip/GtGames/Yathalmain.lud,eric.piette,20200713-103430
+M,Common/res/lud/wip/Renju.lud,eric.piette,20200713-103430
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200713-103430
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200713-103430
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200713-112614
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-112614
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-113713
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200713-114315
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-114315
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-115014
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,eric.piette,20200713-115412
+M,Core/src/game/functions/ints/last/LastFrom.java,eric.piette,20200713-115412
+M,Core/src/game/functions/ints/last/LastTo.java,eric.piette,20200713-115412
+M,Core/src/game/functions/region/sites/simple/SitesLastFrom.java,eric.piette,20200713-115412
+M,Core/src/game/functions/region/sites/simple/SitesLastTo.java,eric.piette,20200713-115412
+M,Core/src/util/Move.java,eric.piette,20200713-115412
+M,Core/src/util/MoveUtilities.java,eric.piette,20200713-115412
+M,Core/src/util/action/Action.java,eric.piette,20200713-115412
+M,Core/src/util/action/BaseAction.java,eric.piette,20200713-115412
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200713-115412
+M,Core/src/util/action/die/ActionSetDiceAllEqual.java,eric.piette,20200713-115412
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,eric.piette,20200713-115412
+M,Core/src/util/action/die/ActionUseDie.java,eric.piette,20200713-115412
+M,Core/src/util/action/graph/ActionSetCost.java,eric.piette,20200713-115412
+M,Core/src/util/action/graph/ActionSetPhase.java,eric.piette,20200713-115412
+M,Core/src/util/action/hidden/ActionSetInvisible.java,eric.piette,20200713-115412
+M,Core/src/util/action/hidden/ActionSetMasked.java,eric.piette,20200713-115412
+M,Core/src/util/action/hidden/ActionSetVisible.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionCopy.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionInsert.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionMoveAndSetState.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionMoveN.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionMoveSubStack.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200713-115412
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionNoop.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionPass.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionPropose.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionSetValueOfPlayer.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionSwap.java,eric.piette,20200713-115412
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200713-115412
+M,Core/src/util/action/puzzle/ActionReset.java,eric.piette,20200713-115412
+M,Core/src/util/action/puzzle/ActionSet.java,eric.piette,20200713-115412
+M,Core/src/util/action/puzzle/ActionToggle.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionAddPlayerToTeam.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetCheckmate.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetCounter.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetNextPlayer.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetPending.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetRotation.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetScore.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetState.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionSetTemp.java,eric.piette,20200713-115412
+M,Core/src/util/action/state/ActionStoreStateInContext.java,eric.piette,20200713-115412
+M,Core/src/util/playout/AddToEmpty.java,eric.piette,20200713-115412
+M,Manager/src/manager/referee/MoveUtil.java,eric.piette,20200713-115412
+M,Manager/src/manager/referee/UserMoveHandler.java,eric.piette,20200713-115412
+M,PlayerDesktop/src/app/display/MainWindow.java,eric.piette,20200713-115412
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,eric.piette,20200713-115412
+M,PlayerDesktop/src/app/display/util/GraphicsCache.java,eric.piette,20200713-115412
+M,PlayerDesktop/src/app/display/views/OverlayView.java,eric.piette,20200713-115412
+M,PlayerDesktop/src/app/display/views/tabs/pages/StatusPage.java,eric.piette,20200713-115412
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200713-115412
+M,ViewController/src/controllers/BaseController.java,eric.piette,20200713-115412
+M,ViewController/src/controllers/container/PyramidalController.java,eric.piette,20200713-115412
+M,ViewController/src/view/container/BaseContainerStyle.java,eric.piette,20200713-115412
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,eric.piette,20200713-115412
+M,AI/src/search/mcts/nodes/BaseNode.java,eric.piette,20200713-121711
+M,AI/src/utils/LudiiStateWrapper.java,eric.piette,20200713-121711
+M,Core/src/game/Game.java,eric.piette,20200713-121711
+M,Core/src/game/functions/booleans/can/CanMove.java,eric.piette,20200713-121711
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,eric.piette,20200713-121711
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,eric.piette,20200713-121711
+M,Core/src/game/functions/booleans/is/graph/IsLastFrom.java,eric.piette,20200713-121711
+M,Core/src/game/functions/booleans/is/graph/IsLastTo.java,eric.piette,20200713-121711
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,eric.piette,20200713-121711
+M,Core/src/game/functions/ints/last/LastFrom.java,eric.piette,20200713-121711
+M,Core/src/game/functions/ints/last/LastTo.java,eric.piette,20200713-121711
+M,Core/src/game/functions/region/sites/player/SitesWinning.java,eric.piette,20200713-121711
+M,Core/src/game/functions/region/sites/simple/SitesLastFrom.java,eric.piette,20200713-121711
+M,Core/src/game/functions/region/sites/simple/SitesLastTo.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/Moves.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Add.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Bet.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Claim.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/FromTo.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Hop.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Leap.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Pass.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/PlayCard.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Promote.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Propose.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Satisfy.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Select.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Shoot.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Slide.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Step.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/Vote.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/set/direction/SetDirection.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/set/nextPlayer/SetNextPlayer.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/set/pending/SetPending.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/set/player/SetValue.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/set/suit/SetTrumpSuit.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/operators/take/control/TakeControl.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/requirement/Do.java,eric.piette,20200713-121711
+M,Core/src/game/rules/play/moves/effect/requirement/max/distance/MaxDistance.java,eric.piette,20200713-121711
+M,Core/src/util/AuxilTrialData.java,eric.piette,20200713-121711
+M,Core/src/util/Context.java,eric.piette,20200713-121711
+M,Core/src/util/IsLoopAux.java,eric.piette,20200713-121711
+M,Core/src/util/Move.java,eric.piette,20200713-121711
+M,Core/src/util/MoveUtilities.java,eric.piette,20200713-121711
+M,Core/src/util/UnionFind.java,eric.piette,20200713-121711
+M,Core/src/util/action/Action.java,eric.piette,20200713-121711
+M,Core/src/util/action/BaseAction.java,eric.piette,20200713-121711
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200713-121711
+M,Core/src/util/action/die/ActionSetDiceAllEqual.java,eric.piette,20200713-121711
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,eric.piette,20200713-121711
+M,Core/src/util/action/die/ActionUseDie.java,eric.piette,20200713-121711
+M,Core/src/util/action/graph/ActionSetCost.java,eric.piette,20200713-121711
+M,Core/src/util/action/graph/ActionSetPhase.java,eric.piette,20200713-121711
+M,Core/src/util/action/hidden/ActionSetInvisible.java,eric.piette,20200713-121711
+M,Core/src/util/action/hidden/ActionSetMasked.java,eric.piette,20200713-121711
+M,Core/src/util/action/hidden/ActionSetVisible.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionCopy.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionInsert.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionMoveAndSetState.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionMoveN.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionMoveSubStack.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200713-121711
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionNoop.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionPass.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionPropose.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionSetValueOfPlayer.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionSwap.java,eric.piette,20200713-121711
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200713-121711
+M,Core/src/util/action/puzzle/ActionReset.java,eric.piette,20200713-121711
+M,Core/src/util/action/puzzle/ActionSet.java,eric.piette,20200713-121711
+M,Core/src/util/action/puzzle/ActionToggle.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionAddPlayerToTeam.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetCheckmate.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetCounter.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetNextPlayer.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetPending.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetRotation.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetScore.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetState.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionSetTemp.java,eric.piette,20200713-121711
+M,Core/src/util/action/state/ActionStoreStateInContext.java,eric.piette,20200713-121711
+M,Core/src/util/playout/AddToEmpty.java,eric.piette,20200713-121711
+M,Features/src/features/FeatureUtils.java,eric.piette,20200713-121711
+M,Manager/src/manager/referee/MoveUtil.java,eric.piette,20200713-121711
+M,Manager/src/manager/referee/UserMoveHandler.java,eric.piette,20200713-121711
+M,Manager/src/manager/utils/MoveVisuals.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/MainWindow.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/util/GraphicsCache.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/views/OverlayView.java,eric.piette,20200713-121711
+M,PlayerDesktop/src/app/display/views/tabs/pages/TurnsPage.java,eric.piette,20200713-121711
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200713-121711
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,eric.piette,20200713-121711
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrityPuzzle.java,eric.piette,20200713-121711
+M,ViewController/src/controllers/BaseController.java,eric.piette,20200713-121711
+M,ViewController/src/controllers/container/PyramidalController.java,eric.piette,20200713-121711
+M,ViewController/src/view/container/BaseContainerStyle.java,eric.piette,20200713-121711
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,eric.piette,20200713-121711
+M,ViewController/src/view/container/aspects/components/board/puzzle/LineSegmentComponents.java,eric.piette,20200713-121711
+M,ViewController/src/view/container/aspects/designs/board/puzzle/PuzzleDesign.java,eric.piette,20200713-121711
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200713-122453
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200713-122453
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Dennis Soemers,20200713-122453
+D,Core/src/game/functions/ints/count/lines/CountLines.java,Dennis Soemers,20200713-123527
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-124102
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200713-125156
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200713-125700
+M,Core/src/util/action/move/ActionCopy.java,eric.piette,20200713-125927
+M,Core/src/util/Move.java,eric.piette,20200713-130946
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200713-130946
+D,Core/src/util/action/move/ActionMoveAndSetState.java,eric.piette,20200713-130946
+M,Core/src/util/action/move/ActionMoveN.java,eric.piette,20200713-132254
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200713-132254
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200713-132254
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200713-132635
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200713-132635
+M,AI/src/utils/LudiiGameWrapper.java,Dennis Soemers,20200713-134820
+A,Core/src/util/action/move/add/ActionAddDefault.java,eric.piette,20200713-140113
+M,Core/src/util/action/puzzle/ActionReset.java,eric.piette,20200713-140113
+A,Core/src/util/action/move/add/ActionAddDefaultWithTracksIndices.java,eric.piette,20200713-140419
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200713-140834
+M,Common/build.xml,Dennis Soemers,20200713-142810
+M,Core/build.xml,Dennis Soemers,20200713-142810
+A,LudiiDocGen/build.xml,Dennis Soemers,20200713-142810
+M,PlayerDesktop/build.xml,Dennis Soemers,20200713-142810
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200713-143904
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200713-144020
+M,LudiiDocGen/build.xml,Dennis Soemers,20200713-164349
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200713-164349
+M,LudiiDocGen/src/xml/GenerateLudiiDocXML.java,Dennis Soemers,20200713-164349
+M,PlayerDesktop/build.xml,Dennis Soemers,20200713-164349
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200713-164349
+D,Common/res/lud/board/war/other/Mehen.lud,eric.piette,20200713-180056
+A,Common/res/lud/wip/Mehen.lud,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/Add.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/Claim.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/Shoot.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/Slide.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/operators/Attract.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,eric.piette,20200713-180056
+M,Core/src/game/rules/play/moves/effect/operators/state/swap/sites/SwapPieces.java,eric.piette,20200713-180056
+M,Core/src/util/Move.java,eric.piette,20200713-180056
+M,Core/src/util/action/Action.java,eric.piette,20200713-180056
+A,Core/src/util/action/ActionType.java,eric.piette,20200713-180056
+M,Core/src/util/action/BaseAction.java,eric.piette,20200713-180056
+D,Core/src/util/action/move/ActionAdd.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200713-180056
+M,Core/src/util/action/move/add/ActionAddDefault.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddDefaultWithRotation.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddDefaultWithSiteState.java,eric.piette,20200713-180056
+D,Core/src/util/action/move/add/ActionAddDefaultWithTracksIndices.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddGraphElement.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddGraphElementWithRotation.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddGraphElementWithSiteState.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddStackDefault.java,eric.piette,20200713-180056
+A,Core/src/util/action/move/add/ActionAddStackGraphElement.java,eric.piette,20200713-180056
+M,Core/src/util/playout/AddToEmpty.java,eric.piette,20200713-180056
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,eric.piette,20200713-180056
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,eric.piette,20200713-180056
+M,PlayerDesktop/test/features/TestAmazonsFeatures.java,eric.piette,20200713-180056
+M,PlayerDesktop/test/features/TestGomokuFeatures.java,eric.piette,20200713-180056
+M,PlayerDesktop/test/features/TestHexFeatures.java,eric.piette,20200713-180056
+M,PlayerDesktop/test/games/symmetry/TestCanonicalHashes.java,eric.piette,20200713-180056
+M,ViewController/src/controllers/container/PyramidalController.java,eric.piette,20200713-180056
+M,PlayerDesktop/res/demos/trials/Yavalath-puzzle.trl,Dennis Soemers,20200713-184917
+M,PlayerDesktop/test/features/TestHexFeatures.java,Dennis Soemers,20200713-185747
+M,Core/src/util/action/move/add/ActionAdd.java,Dennis Soemers,20200713-190839
+M,Core/src/util/action/move/add/ActionAddStackGraphElement.java,Dennis Soemers,20200713-191412
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200713-193551
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,Cameron Browne,20200713-193551
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorTokenType.java,Cameron Browne,20200713-193551
+M,AI/src/utils/LudiiGameWrapper.java,Dennis Soemers,20200713-211151
+M,AI/src/utils/LudiiGameWrapper.java,Dennis Soemers,20200713-215901
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200714-011205
+M,Core/src/language/parser/Parser.java,Cameron Browne,20200714-011205
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Cameron Browne,20200714-013954
+M,Core/src/game/util/graph/GraphElement.java,Cameron Browne,20200714-083141
+A,Core/src/game/util/graph/Situation.java,Cameron Browne,20200714-084213
+M,Common/src/main/Constants.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/Add.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/Claim.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/Shoot.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/Slide.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/Attract.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/Deal.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/state/swap/sites/SwapPieces.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/take/control/TakeControl.java,eric.piette,20200714-090522
+M,Core/src/game/rules/play/moves/effect/operators/take/simple/TakeDomino.java,eric.piette,20200714-090522
+M,Core/src/game/rules/start/Start.java,eric.piette,20200714-090522
+M,Core/src/util/Move.java,eric.piette,20200714-090522
+M,Core/src/util/action/Action.java,eric.piette,20200714-090522
+M,Core/src/util/action/BaseAction.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/ActionAddN.java,eric.piette,20200714-090522
+M,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddDefault.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddDefaultWithRotation.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddDefaultWithSiteState.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddGraphElement.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddGraphElementWithRotation.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddGraphElementWithSiteState.java,eric.piette,20200714-090522
+A,Core/src/util/action/move/add/ActionAddN.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddStackDefault.java,eric.piette,20200714-090522
+D,Core/src/util/action/move/add/ActionAddStackGraphElement.java,eric.piette,20200714-090522
+M,Core/src/util/playout/AddToEmpty.java,eric.piette,20200714-090522
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,eric.piette,20200714-090522
+M,PlayerDesktop/test/features/TestAmazonsFeatures.java,eric.piette,20200714-090522
+M,PlayerDesktop/test/features/TestGomokuFeatures.java,eric.piette,20200714-090522
+M,PlayerDesktop/test/features/TestHexFeatures.java,eric.piette,20200714-090522
+M,PlayerDesktop/test/games/symmetry/TestCanonicalHashes.java,eric.piette,20200714-090522
+M,Core/src/util/Move.java,eric.piette,20200714-092643
+M,Core/src/util/action/Action.java,eric.piette,20200714-092643
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200714-092643
+M,Core/src/util/action/die/ActionSetDiceAllEqual.java,eric.piette,20200714-092643
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,eric.piette,20200714-092643
+M,Core/src/util/action/die/ActionUseDie.java,eric.piette,20200714-092643
+M,Core/src/util/action/graph/ActionSetCost.java,eric.piette,20200714-092643
+M,Core/src/util/action/graph/ActionSetPhase.java,eric.piette,20200714-092643
+M,Core/src/util/action/hidden/ActionSetInvisible.java,eric.piette,20200714-092643
+M,Core/src/util/action/hidden/ActionSetMasked.java,eric.piette,20200714-092643
+M,Core/src/util/action/hidden/ActionSetVisible.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionCopy.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionInsert.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionMoveN.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionMoveSubStack.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200714-092643
+M,Core/src/util/action/move/add/ActionAddN.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionNoop.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionPass.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionPropose.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionSetValueOfPlayer.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionSwap.java,eric.piette,20200714-092643
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200714-092643
+M,Core/src/util/action/puzzle/ActionReset.java,eric.piette,20200714-092643
+M,Core/src/util/action/puzzle/ActionSet.java,eric.piette,20200714-092643
+M,Core/src/util/action/puzzle/ActionToggle.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionAddPlayerToTeam.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetCheckmate.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetCounter.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetNextPlayer.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetPending.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetRotation.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetScore.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetState.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionSetTemp.java,eric.piette,20200714-092643
+M,Core/src/util/action/state/ActionStoreStateInContext.java,eric.piette,20200714-092643
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,eric.piette,20200714-092643
+A,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-092643
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-092643
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-093008
+M,PlayerDesktop/build.xml,eric.piette,20200714-093908
+M,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200714-094527
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-094527
+M,Core/src/util/Move.java,eric.piette,20200714-100904
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-100904
+M,Core/src/util/action/BaseAction.java,eric.piette,20200714-100904
+M,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200714-100904
+M,Core/src/util/action/others/ActionPass.java,eric.piette,20200714-100904
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-100904
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-100904
+M,Core/src/util/Move.java,eric.piette,20200714-101546
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-101546
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200714-101546
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-101546
+A,Common/src/main/math/RCLType.java,Cameron Browne,20200714-102945
+A,Core/src/game/util/graph/Bucket.java,Cameron Browne,20200714-102945
+M,Core/src/game/util/graph/Edge.java,Cameron Browne,20200714-102945
+M,Core/src/game/util/graph/Face.java,Cameron Browne,20200714-102945
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-102945
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200714-102945
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-103502
+M,Common/res/lud/wip/GtGames/Hackenbush.lud,TahminaBegum,20200714-105107
+A,Common/res/lud/wip/GtGames/Hackenbush2.lud,TahminaBegum,20200714-105107
+M,Common/res/lud/wip/GtGames/HackenbushR-B.lud,TahminaBegum,20200714-105107
+D,Common/res/lud/wip/GtGames/LastEdge.lud,TahminaBegum,20200714-105107
+A,Common/res/lud/wip/tahmina/LastEdge.lud,TahminaBegum,20200714-105107
+M,Common/res/lud/wip/tahmina/Rongon.lud,TahminaBegum,20200714-105107
+M,Common/res/lud/wip/tahmina/Windir.lud,TahminaBegum,20200714-105107
+M,Core/src/game/functions/region/wip/SitesPath.java,TahminaBegum,20200714-105107
+M,Core/src/util/Move.java,eric.piette,20200714-110024
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200714-110024
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-110024
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-110908
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-111727
+M,Core/src/util/action/move/add/ActionAdd.java,eric.piette,20200714-111727
+M,Core/src/util/action/others/ActionNextInstance.java,eric.piette,20200714-111727
+M,Core/src/util/action/others/ActionNoop.java,eric.piette,20200714-111727
+M,Core/src/util/action/others/ActionPass.java,eric.piette,20200714-111727
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-111727
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-111727
+M,Core/src/util/Move.java,eric.piette,20200714-113517
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-113517
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200714-113517
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-113517
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-113517
+M,Core/src/util/Move.java,eric.piette,20200714-115344
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-115344
+M,Core/src/util/action/others/ActionPropose.java,eric.piette,20200714-115344
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200714-115344
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-115344
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-115344
+M,Core/src/util/Move.java,eric.piette,20200714-120411
+M,Core/src/util/action/others/ActionSwap.java,eric.piette,20200714-120411
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-120411
+M,Core/src/util/Move.java,eric.piette,20200714-120703
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200714-124556
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-124556
+M,Core/src/util/Move.java,eric.piette,20200714-124610
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-124610
+M,Core/src/util/action/others/ActionSetValueOfPlayer.java,eric.piette,20200714-124610
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-124610
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-124610
+M,Core/src/util/Move.java,eric.piette,20200714-125207
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-125207
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200714-125207
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-125207
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200714-130309
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200714-130309
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200714-130403
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200714-130403
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200714-131921
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200714-131921
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200714-131921
+M,Core/src/util/Move.java,eric.piette,20200714-132525
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-132525
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200714-132525
+M,Core/src/util/action/die/ActionSetDiceAllEqual.java,eric.piette,20200714-132525
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,eric.piette,20200714-132525
+M,Core/src/util/action/die/ActionUseDie.java,eric.piette,20200714-132525
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-132525
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-132525
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200714-133407
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-133407
+M,Core/src/util/Move.java,eric.piette,20200714-134227
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-134227
+M,Core/src/util/action/graph/ActionSetCost.java,eric.piette,20200714-134227
+M,Core/src/util/action/graph/ActionSetPhase.java,eric.piette,20200714-134227
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-134227
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-134227
+M,Core/src/game/rules/play/moves/effect/operators/Deal.java,eric.piette,20200714-142149
+M,Core/src/game/rules/play/moves/effect/operators/set/sitePlayer/SetInvisible.java,eric.piette,20200714-142149
+M,Core/src/game/rules/play/moves/effect/operators/set/sitePlayer/SetMasked.java,eric.piette,20200714-142149
+M,Core/src/game/rules/play/moves/effect/operators/set/sitePlayer/SetVisible.java,eric.piette,20200714-142149
+M,Core/src/game/rules/play/moves/effect/operators/take/simple/TakeDomino.java,eric.piette,20200714-142149
+M,Core/src/game/rules/start/Deal.java,eric.piette,20200714-142149
+M,Core/src/game/rules/start/set/simple/AllInvisible.java,eric.piette,20200714-142149
+M,Core/src/util/Move.java,eric.piette,20200714-142149
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-142149
+M,Core/src/util/action/hidden/ActionSetInvisible.java,eric.piette,20200714-142149
+M,Core/src/util/action/hidden/ActionSetMasked.java,eric.piette,20200714-142149
+M,Core/src/util/action/hidden/ActionSetVisible.java,eric.piette,20200714-142149
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-142149
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-142149
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200714-142415
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200714-142415
+M,PlayerDesktop/src/app/display/dialogs/network/LeaderboardDialog.java,Matthew.Stephenson,20200714-142415
+M,PlayerDesktop/src/app/display/dialogs/network/MessagePlayersDialog.java,Matthew.Stephenson,20200714-142415
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200714-142415
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200714-142415
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200714-143116
+M,Core/src/game/equipment/other/Map.java,Dennis Soemers,20200714-145300
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200714-145300
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200714-145521
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-145521
+A,PlayerDesktop/src/app/display/dialogs/network/panels/GameContinuePanel.java,Matthew.Stephenson,20200714-145521
+A,PlayerDesktop/src/app/display/dialogs/network/panels/GamePrivatePanel.java,Matthew.Stephenson,20200714-145521
+A,PlayerDesktop/src/app/display/dialogs/network/panels/GamePublicPanel.java,Matthew.Stephenson,20200714-145521
+M,Core/src/game/rules/play/moves/effect/Select.java,eric.piette,20200714-151156
+M,Core/src/util/Move.java,eric.piette,20200714-151156
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200714-151156
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-151156
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-151156
+M,AI/src/utils/LudiiStateWrapper.java,Dennis Soemers,20200714-153434
+M,Core/src/game/rules/play/moves/effect/Remove.java,eric.piette,20200714-153936
+M,Core/src/game/rules/play/moves/effect/operators/Attract.java,eric.piette,20200714-153936
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,eric.piette,20200714-153936
+M,Core/src/game/rules/play/moves/effect/operators/take/control/TakeControl.java,eric.piette,20200714-153936
+M,Core/src/util/Move.java,eric.piette,20200714-153936
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200714-153936
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,eric.piette,20200714-153936
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,eric.piette,20200714-153936
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-153936
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-153936
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200714-155608
+D,PlayerDesktop/src/app/display/dialogs/network/panels/GameContinuePanel.java,Matthew.Stephenson,20200714-155608
+D,PlayerDesktop/src/app/display/dialogs/network/panels/GamePrivatePanel.java,Matthew.Stephenson,20200714-155608
+D,PlayerDesktop/src/app/display/dialogs/network/panels/GamePublicPanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/games/GamePrivatePanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/games/GamePublicPanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPrivatePanel.java,Matthew.Stephenson,20200714-155608
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPublicPanel.java,Matthew.Stephenson,20200714-155608
+M,Core/src/game/rules/play/moves/effect/Promote.java,eric.piette,20200714-160544
+M,Core/src/util/Move.java,eric.piette,20200714-160544
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-160544
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200714-160544
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200714-160544
+M,Core/src/util/action/move/ActionSelect.java,eric.piette,20200714-160544
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-160544
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-160544
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPrivatePanel.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPublicPanel.java,Matthew.Stephenson,20200714-161500
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200714-162052
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200714-162052
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200714-162052
+M,Core/src/util/Move.java,eric.piette,20200714-162125
+M,Core/src/util/action/state/ActionAddPlayerToTeam.java,eric.piette,20200714-162125
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200714-162125
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-162125
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-162125
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200714-162933
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-162933
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200714-162933
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200714-162933
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200714-162933
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200714-162933
+M,AI/resources/Analysis/BestBaseAgents.csv,Dennis Soemers,20200714-163138
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200714-164442
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200714-164442
+M,PlayerDesktop/src/supplementary/experiments/scripts/InitBestAgentsData.java,Dennis Soemers,20200714-170543
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200714-171901
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200714-172910
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GamePrivatePanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GamePublicPanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPrivatePanel.java,Matthew.Stephenson,20200714-174314
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentPublicPanel.java,Matthew.Stephenson,20200714-174314
+M,Core/src/game/functions/booleans/is/player/IsTriggered.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/FromTo.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/Flip.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/Trigger.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/set/direction/SetDirection.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/set/pending/SetPending.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/set/player/SetScore.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/set/site/SetCount.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/set/site/SetState.java,eric.piette,20200714-174750
+M,Core/src/game/rules/play/moves/effect/operators/state/AddScore.java,eric.piette,20200714-174750
+M,Core/src/game/rules/start/set/player/SetScore.java,eric.piette,20200714-174750
+M,Core/src/game/rules/start/set/sites/SetCount.java,eric.piette,20200714-174750
+M,Core/src/util/Move.java,eric.piette,20200714-174750
+M,Core/src/util/action/ActionType.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionAddPlayerToTeam.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200714-174750
+D,Core/src/util/action/state/ActionSetCheckmate.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetCounter.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetNextPlayer.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetPending.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetRotation.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetScore.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetState.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionSetTemp.java,eric.piette,20200714-174750
+M,Core/src/util/action/state/ActionStoreStateInContext.java,eric.piette,20200714-174750
+A,Core/src/util/action/state/ActionTrigger.java,eric.piette,20200714-174750
+M,Core/src/util/state/State.java,eric.piette,20200714-174750
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,eric.piette,20200714-174750
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-174750
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200714-174750
+M,PlayerDesktop/src/supplementary/experiments/scripts/InitBestAgentsData.java,Dennis Soemers,20200714-174841
+M,Core/src/game/util/graph/ItemScore.java,Cameron Browne,20200714-181339
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-181339
+M,Core/src/game/rules/play/moves/effect/Satisfy.java,eric.piette,20200714-183954
+M,Core/src/game/rules/start/deductionPuzzle/Set.java,eric.piette,20200714-183954
+M,Core/src/game/rules/start/place/item/PlaceItem.java,eric.piette,20200714-183954
+M,Core/src/util/Move.java,eric.piette,20200714-183954
+M,Core/src/util/action/puzzle/ActionReset.java,eric.piette,20200714-183954
+M,Core/src/util/action/puzzle/ActionSet.java,eric.piette,20200714-183954
+M,Core/src/util/action/puzzle/ActionToggle.java,eric.piette,20200714-183954
+M,Manager/src/manager/referee/UserMoveHandler.java,eric.piette,20200714-183954
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,eric.piette,20200714-183954
+M,PlayerDesktop/test/games/MoveFormatTest.java,eric.piette,20200714-183954
+M,ViewController/src/view/container/aspects/components/board/puzzle/LineSegmentComponents.java,eric.piette,20200714-183954
+M,ViewController/src/view/container/aspects/designs/board/puzzle/PuzzleDesign.java,eric.piette,20200714-183954
+M,PlayerDesktop/src/supplementary/experiments/game_files/UpdateAIMetadata.java,Dennis Soemers,20200714-200736
+M,PlayerDesktop/src/supplementary/experiments/game_files/UpdateAIMetadata.java,Dennis Soemers,20200714-201055
+M,AI/resources/Analysis/BestBaseAgents.csv,Dennis Soemers,20200714-204813
+M,LudiiDiagnosticsPy/ai_analysis/evaluate_base_agents.py,Dennis Soemers,20200714-204813
+M,AI/src/utils/analysis/BestBaseAgents.java,Dennis Soemers,20200714-205912
+M,PlayerDesktop/src/supplementary/experiments/scripts/InitBestAgentsData.java,Dennis Soemers,20200714-205912
+M,PlayerDesktop/src/supplementary/experiments/game_files/UpdateAIMetadata.java,Dennis Soemers,20200714-211517
+M,Common/res/def_ai/20 Squares_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/58 Holes_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Abalala'e_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Achi_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Ad elta stelpur_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Adugo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ako Okwe_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Alea Evangelii_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Alitev_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/All Queens Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Alquerque_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Amazon Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Amazons_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Andantino_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/ArdRi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Arimaa_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Arver_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ashtapada_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Atari Go_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ataxx_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Aw-li On-nam Ot-tjin_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Awithlaknannai_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Backgammon_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Bagh Guti_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Baghchal_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Banqi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Bao Ki Arabu (Zanzibar 1)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Bao Ki Arabu (Zanzibar 2)_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Bizingo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Block_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Blue Nile_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Boseog Gonu_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Bosh_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Brandub_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Brazilian Draughts_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Breakthrough_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Camelot_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Canadian Draughts_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Capture the Queen_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Castello_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Centroid_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Cercar La Liebre_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chameleon_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chaturaji_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chaturanga_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chess Puzzle_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chex_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chinese Checkers_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Chomp_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Chopsticks_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Ciri Amber_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Clobber_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Connect Four_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Connect6_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Conspirateurs_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Contagion_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Coyote_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Cram_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/CrossGeo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Cross_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Crossline_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dabuda_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dai Hasami Shogi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dala_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dama_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Das Bohnenspiel_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dash Guti_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Demala Diviyan Keliya_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Dice Shogi_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Dilion_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/DisPath_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Diviyan Keliya_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Domineering_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dots and Boxes_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Double Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Dra_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Egara Guti_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/EinStein Wurfelt Nicht_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Elmalach_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/En Gehe_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/English Draughts_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/English Wari (St. Lucia)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Fanorona_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Feed the Ducks_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Felli_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Fevga_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Five Men's Morris_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Flowers_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Fox and Geese_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/French Military Game_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/French Wari_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Game of Solomon_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Go with the Floe_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Go_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Gol Ekuish_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Gomoku_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Gonnect_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Grasshopper_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Groups_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Gyan Chaupar_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Half Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Halma_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Halusa_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Hamiltonian Maze_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Haretavl_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hasami Shogi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hat Diviyan Keliya_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Havannah_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hawalis_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hewakam Keliya_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/HexDame_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hex_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hnefatafl_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ho-Bag Gonu_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Horde Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Hus (Damara)_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Icosian_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Insanity_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/International Draughts_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ja-Jeon-Geo-Gonu_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Janggi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Jungle_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kalah_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kaooa_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kara_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kensington_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kharbaga_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Knight's Tour_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Knightthrough_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ko-app-paw-na_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Komikan_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Konane_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Kotu Ellima_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/L Game_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/L'attaque_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Lasca_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Lau Kata Kati_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Line and Cross_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Lines of Action_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Loop Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Los Alamos Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Lotus_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ludus Latrunculorum_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Madelinette_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Maharajah Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Manalath_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Mangala (Turkey)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Manzhouqi_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/MaxMatch_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Mbangbi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Mefuvha_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Merimueng-rimueng-do_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Meusueb_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Minishogi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Mogul Putt'han_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Mu Torere_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Muvalavala (Luena)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/N Puzzles_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Nei-Pat-Kono_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Nim_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Nine Men's Morris_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/NoGo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/O-Pat-Kono_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Odd_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Omega_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Onek Rong_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Oware_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Owela (Benguela)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pachisi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Peg Solitaire_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pentalath_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Peralikatuma_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Phantom Go_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Picaria_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Plakoto_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Ploy_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pon Chochotl_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pong Hau K'i_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Portes_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Press Ups_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pretwa_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Pushing Me XO_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Quantum Leap_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Reversi_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Ringo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Rock-Paper-Scissors_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Round Merels_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Royal Game of Ur_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Runil_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Salta_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Santorini_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Saxun_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Score Four_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Seega_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Senet_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Shatranj_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Shisima_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Shogi Puzzle_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Shogi_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Sim_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Six Men's Morris_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Skirmish (GDL)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Sneakthrough_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Snowpaque_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Social Distance Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Spline_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Spots_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Squava_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Sungka_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Surakarta_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Susan_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Symbol S.2_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tablut_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Taikyoku Shogi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tant Fant_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tawlbwrdd_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Terhuchu_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Theseus and the Minotaur_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Three Men's Morris_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Three-Player Hex_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Tic-Tac-Chess_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tic-Tac-Four_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tic-Tac-Mo_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tic-Tac-Toe_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Toguz Kumalak_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tower of Hanoi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Trax_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Triad_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tron_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Tuknanavuhpi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Twelve Men's Morris_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Two-colour_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Ultimate Tic-Tac-Toe_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Um el-Bagara_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Unnee Tugalluulax_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Vai Lung Thlan_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Wagner_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/War_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Waurie_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Wolf and Sheep_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Woli_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Wore_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Wouri_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/XII Scripta_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Xiangqi_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Y (Hex)_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Yavalade_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Yavalanchor_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Yavalath_ai.def,Dennis Soemers,20200714-211810
+A,Common/res/def_ai/Yovodji_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/def_ai/Zamma_ai.def,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/hunt/Bagh Guti.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Backgammon.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Fevga.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Plakoto.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Portes.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/escape/Senet.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/reach/Pachisi.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/race/reach/Santorini.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Alitev.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Waurie.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Woli.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Wore.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/sow/two_rows/Yovodji.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/blocking/Cram.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/blocking/Domineering.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/connection/Y (Hex).lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/line/Ringo.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/line/Score Four.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/line/Spline.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/line/Tic-Tac-Chess.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/line/Ultimate Tic-Tac-Toe.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/chess/Saxun.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/other/Bizingo.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/other/Clobber.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/other/Triad.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/board/war/xiangqi/Banqi.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/experimental/Flowers.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Centroid.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Ciri Amber.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Contagion.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/CrossGeo.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Crossline.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Dilion.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/DisPath.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Dots and Boxes.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Line and Cross.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/MaxMatch.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Onek Rong.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Runil.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Sim.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Two-colour.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/Wagner.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/solo/Arver.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/solo/Elmalach.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/solo/Hamiltonian Maze.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/graph/solo/Icosian.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/math/nim/Chomp.lud,Dennis Soemers,20200714-211810
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,Dennis Soemers,20200714-211810
+M,PlayerDesktop/src/supplementary/experiments/scripts/ExItTrainingScriptsGen.java,Dennis Soemers,20200714-212046
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200714-215235
+M,PlayerDesktop/src/supplementary/experiments/scripts/ExItTrainingScriptsGen.java,Dennis Soemers,20200714-215235
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-233150
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200714-234152
+M,Core/src/game/rules/play/moves/effect/operators/Deal.java,eric.piette,20200715-082906
+M,Core/src/game/rules/play/moves/effect/operators/take/control/TakeControl.java,eric.piette,20200715-082906
+M,Core/src/game/rules/start/Start.java,eric.piette,20200715-082906
+M,Core/src/game/util/graph/Bucket.java,eric.piette,20200715-082906
+M,Core/src/game/util/graph/MeasureGraph.java,eric.piette,20200715-082906
+M,Core/src/game/util/graph/Situation.java,eric.piette,20200715-082906
+M,Core/src/util/action/move/add/ActionAddN.java,eric.piette,20200715-082906
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,eric.piette,20200715-082906

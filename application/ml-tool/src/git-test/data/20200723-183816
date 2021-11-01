@@ -1,0 +1,563 @@
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200721-184703
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200721-202944
+M,Core/src/game/functions/region/math/Expand.java,Cameron Browne,20200722-014052
+M,Core/src/game/rules/end/ForEach.java,Cameron Browne,20200722-014052
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/ForEach.java,Cameron Browne,20200722-014052
+M,PlayerDesktop/src/app/display/dialogs/EvaluationDialog.java,Cameron Browne,20200722-014052
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200722-014052
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Cameron Browne,20200722-014210
+M,Core/src/game/functions/intArray/state/Rotations.java,eric.piette,20200722-081422
+M,Core/src/game/util/directions/AbsoluteDirection.java,eric.piette,20200722-081422
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Matthew.Stephenson,20200722-083701
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Cameron Browne,20200722-091059
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-092843
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/ExtraInformationDialog.java,Matthew.Stephenson,20200722-092843
+D,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200722-092843
+D,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200722-092843
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200722-092843
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200722-092843
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200722-092843
+D,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentCurrentPanel.java,Matthew.Stephenson,20200722-092843
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew.Stephenson,20200722-092843
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200722-092843
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew.Stephenson,20200722-102232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200722-102232
+M,Core/src/util/GameLoader.java,Dennis Soemers,20200722-103244
+M,Manager/src/manager/referee/Referee.java,Dennis Soemers,20200722-103244
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200722-103936
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200722-110459
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew.Stephenson,20200722-110459
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200722-110459
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew.Stephenson,20200722-110459
+M,PlayerDesktop/src/app/display/util/GraphicsCache.java,Matthew.Stephenson,20200722-110459
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200722-110459
+M,PlayerDesktop/test/games/ErrorHandlingTests.java,Matthew.Stephenson,20200722-110459
+M,ViewController/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200722-110459
+M,ViewController/src/view/container/aspects/axes/BoardAxis.java,Matthew.Stephenson,20200722-110459
+M,Core/src/util/state/State.java,Dennis Soemers,20200722-110654
+M,Core/src/game/functions/booleans/all/AllPassed.java,Dennis Soemers,20200722-110857
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew.Stephenson,20200722-111217
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200722-111217
+M,Core/src/game/functions/booleans/is/simple/IsCycle.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/booleans/was/WasPass.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/brick/Brick.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/brick/DiamondOrPrismOnBrick.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/brick/SpiralOnBrick.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/brick/SquareOrRectangleOnBrick.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/celtic/Celtic.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/CustomOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/DiamondOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/HexagonOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/RectangleOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/StarOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/hex/TriangleOnHex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/mesh/CustomOnMesh.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/mesh/Mesh.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/morris/Morris.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/quadhex/Quadhex.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/square/DiamondOnSquare.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/square/RectangleOnSquare.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/square/Square.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/Tiling.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling31212/Tiling31212.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling333333_33434/Tiling333333_33434.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33336/Tiling33336.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/CustomOn33344.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/Tiling33344.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33434/Tiling33434.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/CustomOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/DiamondOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/HexagonOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/ParallelogramOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/RectangleOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/StarOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/TriangleOn3464.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/CustomOn3636.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/Tiling3636.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling4612/Tiling4612.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/SquareOrRectangleOn488.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/Tiling488.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/CustomOnTri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/DiamondOnTri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/HexagonOnTri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/StarOnTri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/Tri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/basis/tri/TriangleOnTri.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/shape/Circle.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/shape/Rectangle.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/shape/Repeat.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/shape/Shape.java,Cameron Browne,20200722-111535
+M,Core/src/game/functions/graph/generators/shape/Wedge.java,Cameron Browne,20200722-111535
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200722-111535
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-112831
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseGamePanel.java,Matthew.Stephenson,20200722-112831
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200722-112831
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200722-112831
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200722-125232
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-130144
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/MessagePlayersDialog.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200722-131742
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200722-131826
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200722-132851
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200722-132851
+M,PlayerDesktop/src/app/display/dialogs/remote/MessagePlayersDialog.java,Matthew.Stephenson,20200722-132851
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-132851
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200722-134616
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Dennis Soemers,20200722-140440
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Dennis Soemers,20200722-141110
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Dennis Soemers,20200722-141110
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Dennis Soemers,20200722-141110
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Dennis Soemers,20200722-141110
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Dennis Soemers,20200722-141110
+M,Core/src/util/Move.java,Dennis Soemers,20200722-141110
+A,Common/res/lud/test/tahmina/COVID_test.lud,TahminaBegum,20200722-141437
+A,Common/res/lud/test/tahmina/COVID_test1.lud,TahminaBegum,20200722-141437
+A,Common/res/lud/test/tahmina/COVID_test2.lud,TahminaBegum,20200722-141437
+D,Common/res/lud/test/tahmina/Nedilmarth_test_new_Graph.lud,TahminaBegum,20200722-141437
+D,Common/res/lud/test/tahmina/Onek_Rong_new_graph_test.lud,TahminaBegum,20200722-141437
+D,Common/res/lud/test/tahmina/Test-Add_remove.lud,TahminaBegum,20200722-141437
+M,Manager/src/manager/PlayerInterface.java,Matthew.Stephenson,20200722-150851
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200722-150851
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200722-150851
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200722-150851
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200722-152526
+A,Common/res/lud/test/tahmina/ HamiltonianCycle.lud,TahminaBegum,20200722-152847
+M,Common/res/lud/test/tahmina/ HamiltonianCycle1.lud,TahminaBegum,20200722-152847
+M,Common/res/lud/test/tahmina/ HamiltonianCycle2.lud,TahminaBegum,20200722-152847
+M,Common/res/lud/test/tahmina/ HamiltonianCycle3.lud,TahminaBegum,20200722-152847
+M,Manager/src/manager/referee/MoveUtil.java,Dennis Soemers,20200722-154817
+M,Core/src/util/Context.java,Dennis Soemers,20200722-160421
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200722-160835
+M,Core/src/util/action/move/ActionMove.java,Dennis Soemers,20200722-162518
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew.Stephenson,20200722-165900
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew.Stephenson,20200722-165900
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200722-165900
+M,PlayerDesktop/src/app/loading/TrialLoading.java,Matthew.Stephenson,20200722-165900
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200722-170131
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200722-180756
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200722-180756
+A,Common/res/lud/wip/Y 2.lud,Cameron Browne,20200722-185128
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200722-185211
+M,Core/src/util/UnionFind.java,Dennis Soemers,20200722-205543
+M,Core/src/util/action/move/ActionAdd.java,Dennis Soemers,20200722-205543
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,Dennis Soemers,20200722-205543
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200722-213940
+M,Core/src/util/action/move/ActionAdd.java,Cameron Browne,20200723-011037
+M,Core/src/util/action/move/ActionAdd.java,Cameron Browne,20200723-011138
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200723-094820
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200723-094820
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew.Stephenson,20200723-094820
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200723-094820
+M,Common/res/lud/board/space/connection/Y.lud,Cameron Browne,20200723-100451
+M,Core/src/util/action/move/ActionAdd.java,Cameron Browne,20200723-100451
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200723-100451
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200723-101436
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200723-101436
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200723-101436
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200723-101436
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200723-101436
+M,Core/src/game/functions/directions/Directions.java,Dennis Soemers,20200723-101545
+M,Core/src/metadata/ai/heuristics/terms/LineCompletionHeuristic.java,Dennis Soemers,20200723-101745
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew.Stephenson,20200723-102712
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200723-113019
+M,PlayerDesktop/build.xml,Dennis Soemers,20200723-113047
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew.Stephenson,20200723-115306
+M,PlayerDesktop/build.xml,Dennis Soemers,20200723-123547
+M,PlayerDesktop/src/app/menu/MainMenu.java,Cameron Browne,20200723-131857
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Cameron Browne,20200723-131857
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200723-131909
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200723-133719
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200723-133719
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200723-133719
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Dennis Soemers,20200723-134539
+M,PlayerDesktop/src/app/menu/MainMenu.java,Matthew.Stephenson,20200723-134942
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200723-134942
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200723-135313
+M,Core/src/util/UnionFind.java,Dennis Soemers,20200723-140956
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200723-141523
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200723-141523
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200723-141543
+D,Common/res/lud/card/War.lud,Dennis Soemers,20200723-145342
+A,Common/res/lud/wip/War.lud,Dennis Soemers,20200723-145342
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew.Stephenson,20200723-150718
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Matthew.Stephenson,20200723-150718
+M,Common/src/main/Constants.java,Dennis Soemers,20200723-151757
+M,Common/res/lud/experimental/graph_theory/Oriath.lud,Cameron Browne,20200723-151945
+A,Common/res/lud/math/graph/AATwo-Colour.lud,Dennis Soemers,20200723-153629
+D,Common/res/lud/math/graph/Two-colour.lud,Dennis Soemers,20200723-153629
+D,Common/res/lud/math/graph/AATwo-Colour.lud,Dennis Soemers,20200723-153731
+A,Common/res/lud/math/graph/Two-Colour.lud,Dennis Soemers,20200723-153731
+A,Common/res/def_ai/AATwo-Colour_ai.def,Dennis Soemers,20200723-154802
+D,Common/res/def_ai/Two-colour_ai.def,Dennis Soemers,20200723-154802
+M,Common/res/lud/math/graph/Two-Colour.lud,Dennis Soemers,20200723-154802
+D,Common/res/def_ai/AATwo-Colour_ai.def,Dennis Soemers,20200723-154820
+A,Common/res/def_ai/Two-Colour_ai.def,Dennis Soemers,20200723-154820
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200723-160026
+A,Common/src/main/Utilities.java,Cameron Browne,20200723-160026
+M,Common/src/main/collections/ChunkSet.java,Cameron Browne,20200723-160026
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Cameron Browne,20200723-160026
+M,Common/res/lud/experimental/graph_theory/Ilpion.lud,Dennis Soemers,20200723-160844
+M,Core/src/game/rules/end/ByScore.java,Dennis Soemers,20200723-163447
+M,Core/src/util/Context.java,Dennis Soemers,20200723-163447
+M,Common/res/def_ai/20 Squares_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/58 Holes_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Abalala'e_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Achi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ad elta stelpur_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Adugo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ako Okwe_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Alea Evangelii_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Alitev_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/All Queens Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Alquerque_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Amazon Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Amazons_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Andantino_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/ArdRi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Arimaa_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ashtapada_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Atari Go_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ataxx_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Aw-li On-nam Ot-tjin_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Awithlaknannai_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Backgammon_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Bagh Guti_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Baghchal_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Banqi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Bao Ki Arabu (Zanzibar 1)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Bao Ki Arabu (Zanzibar 2)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Bizingo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Block_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Blue Nile_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Boseog Gonu_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Bosh_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Brandub_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Brazilian Draughts_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Breakthrough_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Camelot_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Canadian Draughts_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Capture the Queen_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Castello_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Cercar La Liebre_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chameleon_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chaturaji_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chaturanga_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chess Puzzle_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chex_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chinese Checkers_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chomp_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Chopsticks_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ciri Amber_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Clobber_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Connect Four_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Connect6_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Conspirateurs_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Contagion_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Coyote_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Cram_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/CrossGeo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Cross_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Crossline_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dabuda_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dai Hasami Shogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dala_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dama_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Das Bohnenspiel_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dash Guti_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Demala Diviyan Keliya_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dice Shogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dilion_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/DisPath_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Diviyan Keliya_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Domineering_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Double Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Dra_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Egara Guti_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/EinStein Wurfelt Nicht_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/En Gehe_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/English Draughts_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/English Wari (St. Lucia)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Fanorona_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Feed the Ducks_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Felli_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Fevga_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Five Men's Morris_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Flowers_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Fox and Geese_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/French Military Game_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/French Wari_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Game of Solomon_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Go with the Floe_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Go_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Gol Ekuish_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Gomoku_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Gonnect_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Grasshopper_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Groups_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Gyan Chaupar_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Half Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Halma_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Halusa_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hamiltonian Maze_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Haretavl_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hasami Shogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hat Diviyan Keliya_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Havannah_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hawalis_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hewakam Keliya_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/HexDame_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hex_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hnefatafl_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ho-Bag Gonu_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Horde Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Hus (Damara)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Icosian_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Insanity_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/International Draughts_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ja-Jeon-Geo-Gonu_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Janggi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Jungle_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kalah_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kaooa_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kara_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kensington_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kharbaga_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Knight's Tour_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Knightthrough_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ko-app-paw-na_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Komikan_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Konane_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Kotu Ellima_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/L Game_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/L'attaque_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Lasca_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Lau Kata Kati_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Line and Cross_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Lines of Action_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Loop Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Los Alamos Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Lotus_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ludus Latrunculorum_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Madelinette_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Maharajah Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Manalath_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Mangala (Turkey)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Manzhouqi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/MaxMatch_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Mbangbi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Mefuvha_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Merimueng-rimueng-do_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Meusueb_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Minishogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Mogul Putt'han_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Mu Torere_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Muvalavala (Luena)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/N Puzzles_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Nei-Pat-Kono_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Nim_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Nine Men's Morris_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/NoGo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/O-Pat-Kono_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Odd_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Omega_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Onek Rong_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Oware_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Owela (Benguela)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pachisi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Peg Solitaire_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pentalath_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Peralikatuma_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Phantom Go_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Picaria_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Plakoto_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ploy_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pon Chochotl_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pong Hau K'i_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Portes_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Press Ups_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pretwa_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Pushing Me XO_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Quantum Leap_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Reversi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ringo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Rock-Paper-Scissors_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Round Merels_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Royal Game of Ur_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Salta_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Santorini_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Saxun_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Score Four_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Seega_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Senet_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Shatranj_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Shisima_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Shogi Puzzle_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Shogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Sim_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Six Men's Morris_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Skirmish (GDL)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Sneakthrough_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Snowpaque_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Social Distance Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Spline_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Spots_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Squava_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Sungka_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Surakarta_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Susan_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Symbol S.2_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tablut_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Taikyoku Shogi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tant Fant_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tawlbwrdd_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Terhuchu_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Theseus and the Minotaur_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Three Men's Morris_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Three-Player Hex_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tic-Tac-Chess_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tic-Tac-Four_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tic-Tac-Mo_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tic-Tac-Toe_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Toguz Kumalak_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tower of Hanoi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Trax_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Triad_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tron_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Tuknanavuhpi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Twelve Men's Morris_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Two-Colour_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Ultimate Tic-Tac-Toe_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Um el-Bagara_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Unnee Tugalluulax_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Vai Lung Thlan_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Wagner_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/War_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Waurie_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Wolf and Sheep_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Woli_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Wore_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Wouri_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/XII Scripta_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Xiangqi_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Y (Hex)_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Yavalade_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Yavalanchor_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Yavalath_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Yovodji_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/def_ai/Zamma_ai.def,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/board/space/connection/Y.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/Flowers.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Ciri Amber.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/CrossGeo.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Line and Cross.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Nedilmarth.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Nein Ari.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Onek Rong.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Oriath.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/experimental/graph_theory/Windir.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/DisPath.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/Hackenbush.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/MaxMatch.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/Sim.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/Two-Colour.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/Wagner.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/math/graph/solo/Hamiltonian Maze.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/dennis/Tic-Tac-Choose-Chess.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/ HamiltonianCycle.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/ HamiltonianCycle1.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/ HamiltonianCycle2.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/ HamiltonianCycle3.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/COVID_test.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/COVID_test1.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/COVID_test2.lud,Matthew.Stephenson,20200723-170031
+M,Common/res/lud/test/tahmina/test_icosian.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Chase.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Ciri Amber.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Connect Four.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/CrossGeo.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Crossline.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/DisPath.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Flowers.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Hackenbush.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Hamiltonian Maze.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Hex.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Ilpion.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/LastEdge.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Line and Cross.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/MaxMatch.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Nedilmarth.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Nein Ari.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/OddEvenTree.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Onek Rong.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Oriath.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Radran.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Sim.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/SpanRups.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Spline.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Theseus and the Minotaur.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Two-colour.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Wagner.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/FlatLudsDir/Windir.lud,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/FlatLudsDir/Y.lud,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/InputCSV/Evidence.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/InputCSV/GameRulesets.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/InputCSV/Games.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/OutputCSV/Categories.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/OutputCSV/GameCategories.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/OutputCSV/GamePeriods.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200723-170031
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Akimel Oodham.kml,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Akimel_Oodham.geojson,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Azerbaijan.geojson,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Azerbaijan.kml,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Pima County.kml,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Pima_County.geojson,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Tarahumara.geojson,Matthew.Stephenson,20200723-170031
+A,MetadataScripts/Regions/kml/Tarahumara.kml,Matthew.Stephenson,20200723-170031
+M,PlayerDesktop/res/help/Aliases.txt,Dennis Soemers,20200723-171305
+M,Common/res/lud/experimental/graph_theory/Oriath.lud,Dennis Soemers,20200723-172704
+M,PlayerDesktop/src/app/display/util/Thumbnails.java,Matthew.Stephenson,20200723-175957
+M,PlayerDesktop/src/app/display/views/BoardView.java,Matthew.Stephenson,20200723-175957
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Cameron Browne,20200723-182830

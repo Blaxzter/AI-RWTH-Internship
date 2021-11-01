@@ -1,0 +1,251 @@
+M,Grammar/src/compiler/Part.java,Cameron Browne,20190801-144038
+M,Player/src/mainView/MainView.java,Cameron Browne,20190801-144038
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/Letter.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/Number.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/card/Card.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Arrow.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Ball.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Cross.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Disc.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Hex.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Pill.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Square.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/Triangle.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/large/Domino.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,Matthew.Stephenson,20190801-144126
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,Matthew.Stephenson,20190801-144126
+M,Library/src/util/action/ActionMove.java,Matthew.Stephenson,20190801-144126
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190801-144126
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190801-144126
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190801-144126
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190801-144207
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190801-144733
+M,Library/src/game/equipment/component/Component.java,DennisSoemers,20190801-151216
+M,Library/src/game/equipment/component/piece/chess/King.java,DennisSoemers,20190801-151216
+A,Library/src/game/equipment/component/piece/real_time/Bike.java,DennisSoemers,20190801-151216
+A,Library/src/game/equipment/component/piece/real_time/RealTimePiece.java,DennisSoemers,20190801-151216
+M,Library/src/game/mode/Mode.java,DennisSoemers,20190801-151216
+A,Library/src/game/mode/model/RealTime.java,DennisSoemers,20190801-151216
+M,Library/src/util/Context.java,DennisSoemers,20190801-151216
+M,Library/src/util/Position.java,DennisSoemers,20190801-151216
+M,Library/src/util/Trial.java,DennisSoemers,20190801-151216
+M,Library/src/game/rules/end/ByScore.java,Eric Piette,20190801-151541
+M,Library/src/game/rules/end/End.java,Eric Piette,20190801-151541
+M,Library/src/game/rules/end/If.java,Eric Piette,20190801-151541
+M,Library/src/util/state/State.java,Eric Piette,20190801-151541
+M,Player/src/player/PlayerApp.java,Eric Piette,20190801-151541
+M,AI/src/utils/AIUtils.java,Eric Piette,20190801-155332
+M,Library/src/game/rules/end/End.java,Eric Piette,20190801-155332
+M,Library/src/game/rules/end/If.java,Eric Piette,20190801-155332
+M,Library/src/util/state/State.java,Eric Piette,20190801-155332
+M,Player/src/mainView/MainView.java,Eric Piette,20190801-155332
+M,Library/src/game/rules/end/End.java,Eric Piette,20190801-155628
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,DennisSoemers,20190801-155823
+M,Library/src/game/equipment/component/piece/real_time/RealTimePiece.java,DennisSoemers,20190801-155823
+M,Library/src/game/equipment/component/piece/state/PieceState.java,DennisSoemers,20190801-155823
+M,Library/src/game/mode/model/RealTime.java,DennisSoemers,20190801-155823
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190801-155850
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190801-155850
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190801-155850
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190801-155850
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190801-155850
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190801-155850
+M,Library/src/game/rules/end/End.java,Eric Piette,20190801-155901
+M,Common/res/lud/board/displace/chesslike/Chess.lud,Cameron Browne,20190801-160624
+M,Library/src/game/Game.java,Cameron Browne,20190801-160624
+M,Library/src/game/equipment/container/board/Board.java,Cameron Browne,20190801-160624
+M,Library/src/game/equipment/container/board/ChessBoard.java,Cameron Browne,20190801-160624
+M,Player/src/mainView/MainView.java,Cameron Browne,20190801-160624
+M,AI/src/utils/AIUtils.java,DennisSoemers,20190801-161534
+M,Common/res/lud/bad/Yavalath (2 players)_bad_metadata.lud,Cameron Browne,20190801-165619
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190801-165619
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190801-171418
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190801-171418
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190801-171418
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190801-171418
+M,Common/res/lud/board/space/connection/Hex.lud,Dennis Soemers,20190801-174123
+M,Common/res/lud/board/space/line/Gomoku.lud,Dennis Soemers,20190801-174123
+M,Common/res/lud/board/space/line/Yavalath (3 players).lud,Dennis Soemers,20190801-174123
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190801-174445
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190801-174445
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190801-174752
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190801-174752
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190801-175446
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Matthew.Stephenson,20190801-180149
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190801-180149
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190801-180710
+M,Library/src/game/mode/model/AlternatingMove.java,Dennis Soemers,20190801-184851
+M,Library/src/game/mode/model/Model.java,Dennis Soemers,20190801-184851
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190801-184851
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190801-184851
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190801-184851
+M,Player/src/player/Referee.java,Dennis Soemers,20190801-184851
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190801-195807
+A,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190801-220003
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190801-220003
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-100355
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Dennis Soemers,20190802-100636
+M,Common/res/lud/board/race/reach/Breakthrough.lud,Dennis Soemers,20190802-100850
+M,Common/res/lud/puzzle/deduction/Hashi.lud,Dennis Soemers,20190802-100850
+A,Common/res/lud/board/space/count/Reversi.lud,Cameron Browne,20190802-101401
+D,Common/res/lud/board/space/territory/Dots and Boxes.lud,Cameron Browne,20190802-101401
+D,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20190802-101401
+D,Common/res/lud/mathematical/Chopsticks.lud,Cameron Browne,20190802-101401
+D,Common/res/lud/mathematical/Rock-Paper-Scissors.lud,Cameron Browne,20190802-101401
+A,Common/res/lud/mathematical/graph/Dots and Boxes.lud,Cameron Browne,20190802-101401
+A,Common/res/lud/mathematical/hand/Chopsticks.lud,Cameron Browne,20190802-101401
+A,Common/res/lud/mathematical/hand/Rock-Paper-Scissors.lud,Cameron Browne,20190802-101401
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-102419
+D,Common/res/lud/board/space/count/Reversi.lud,Cameron Browne,20190802-102733
+A,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20190802-102733
+M,Library/src/game/equipment/component/piece/stratego/Lieutenant.java,Eric Piette,20190802-111321
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,Matthew.Stephenson,20190802-113134
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-113134
+M,Common/res/lud/board/displace/chesslike/Stratego.lud,Matthew.Stephenson,20190802-121226
+A,Library/src/game/equipment/container/board/StrategoBoard.java,Matthew.Stephenson,20190802-121226
+M,Library/src/game/equipment/container/board/StrategoBoard.java,Matthew.Stephenson,20190802-121518
+A,Common/res/lud/wip/Cards 4P.lud,Eric Piette,20190802-130915
+M,Library/src/game/rules/start/Deal.java,Eric Piette,20190802-130915
+M,Library/src/util/ListStack.java,Eric Piette,20190802-134233
+M,Library/src/util/state/containerState/BaseContainerState.java,Eric Piette,20190802-134233
+M,Library/src/util/state/containerState/ContainerState.java,Eric Piette,20190802-134233
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190802-140051
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,Dennis Soemers,20190802-140051
+M,Library/src/game/equipment/component/piece/real_time/RealTimePiece.java,Dennis Soemers,20190802-140051
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-140051
+M,Library/src/util/ListStack.java,Eric Piette,20190802-140154
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,Eric Piette,20190802-140154
+M,Library/src/game/rules/play/moves/ByPiece.java,Dennis Soemers,20190802-140746
+M,Library/src/game/rules/start/Deal.java,Eric Piette,20190802-141009
+M,Library/src/game/rules/play/moves/ByPiece.java,Dennis Soemers,20190802-141502
+M,Library/src/util/action/ActionRemove.java,Dennis Soemers,20190802-141502
+M,Library/src/util/action/ActionRemoveN.java,Dennis Soemers,20190802-141502
+D,Common/res/lud/bad_playout/Test Card Solitaire.lud,Dennis Soemers,20190802-142222
+A,Common/res/lud/wip/Test Card Solitaire.lud,Dennis Soemers,20190802-142222
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190802-142222
+M,Library/src/game/rules/play/moves/ByPiece.java,Dennis Soemers,20190802-142222
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190802-143650
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Eric Piette,20190802-143650
+M,Library/src/ui/GameView.java,Eric Piette,20190802-143650
+M,Library/src/util/state/State.java,Eric Piette,20190802-143650
+M,Common/src/main/Global.java,Matthew.Stephenson,20190802-143829
+M,Library/src/game/equipment/container/board/StrategoBoard.java,Matthew.Stephenson,20190802-143829
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20190802-143829
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-143829
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-143829
+M,Player/src/network/NetworkMessage.java,Matthew.Stephenson,20190802-143829
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20190802-143829
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-143829
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-144807
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-144807
+M,Player/src/network/NetworkMessage.java,Matthew.Stephenson,20190802-144807
+M,Player/src/player/PlayerApp.java,Eric Piette,20190802-144827
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-144937
+M,Common/src/main/Global.java,Matthew.Stephenson,20190802-151246
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-151246
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-151246
+M,Player/src/network/NetworkMessage.java,Matthew.Stephenson,20190802-151246
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-151540
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-151707
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-151850
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-152137
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-152137
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190802-152234
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190802-152234
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,Dennis Soemers,20190802-152234
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-152234
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190802-152234
+M,Library/src/game/rules/play/moves/ByPiece.java,Dennis Soemers,20190802-152234
+M,Library/src/game/rules/play/moves/decision/Select.java,Dennis Soemers,20190802-152234
+M,Library/src/util/ThinkingThread.java,Dennis Soemers,20190802-152234
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190802-152258
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-152613
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-152911
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-153123
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-153309
+A,Common/res/lud/mathematical/Nim.lud,Eric Piette,20190802-153327
+A,Common/res/lud/wip/Nim.lud,Eric Piette,20190802-153327
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20190802-153327
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20190802-153327
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-153419
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20190802-154549
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-154549
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20190802-155333
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190802-155333
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190802-155633
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-160434
+M,Library/src/util/ThinkingThread.java,Dennis Soemers,20190802-160434
+M,Player/src/player/Referee.java,Dennis Soemers,20190802-160434
+M,Common/res/lud/wip/Test Card Solitaire.lud,Dennis Soemers,20190802-160458
+M,Common/res/lud/mathematical/Nim.lud,Eric Piette,20190802-160528
+M,Library/src/game/rules/start/Place.java,Eric Piette,20190802-160528
+M,Common/res/lud/board/race/track/Backgammon.lud,Eric Piette,20190802-160705
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190802-161044
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190802-161044
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190802-161044
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190802-161154
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190802-161747
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190802-161747
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190802-162042
+M,Library/src/game/equipment/container/board/StrategoBoard.java,Matthew.Stephenson,20190802-162318
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190802-162318
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190802-162940
+M,Library/src/game/functions/booleans/Stalemated.java,Dennis Soemers,20190802-163207
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190802-164052
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-164905
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-165025
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190802-165541
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190802-165541
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190802-170040
+M,Player/src/.DS_Store,Cameron Browne,20190802-170040
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190802-170040
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190802-170123
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,Dennis Soemers,20190802-170123
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Dennis Soemers,20190802-170123
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-170123
+M,Player/src/player/Referee.java,Dennis Soemers,20190802-170123
+M,Player/src/player/Referee.java,Dennis Soemers,20190802-170358
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190802-170422
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,Dennis Soemers,20190802-170739
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190802-171333
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190802-171333
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190802-171333
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190802-171333
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190802-171333
+A,Common/res/lud/wip/Test Domino Half.lud,Cameron Browne,20190802-171949
+A,Library/src/game/equipment/component/piece/DominoHalf.java,Cameron Browne,20190802-171949
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190802-174355
+M,Library/src/game/functions/booleans/Lt.java,Dennis Soemers,20190802-174355
+M,Library/src/game/functions/ints/PosPiece.java,Dennis Soemers,20190802-174355
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-174355
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190802-174355
+M,Library/src/game/equipment/component/card/Card.java,Matthew.Stephenson,20190802-175044
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190802-175044
+M,Library/src/util/ListStack.java,Matthew.Stephenson,20190802-175044
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,Matthew.Stephenson,20190802-175044
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190802-175044
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190802-212841
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190802-212841
+M,Library/src/util/Move.java,Dennis Soemers,20190802-212841
+D,Common/res/lud/wip/Nim.lud,Eric.Piette,20190803-091318
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190803-101019
+M,Library/src/util/ListStack.java,eric.piette,20190803-101019
+M,Library/src/util/action/ActionMove.java,eric.piette,20190803-101019
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,eric.piette,20190803-101019
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,eric.piette,20190803-101019
+M,Library/src/util/state/containerStackingState/NonCard/BaseContainerStateNonCard.java,eric.piette,20190803-101019
+M,Common/res/lud/wip/War (in progress).lud,eric.piette,20190803-102908
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190803-102908
+M,Library/src/util/action/ActionMove.java,eric.piette,20190803-102908
+M,Player/src/mainView/MainView.java,eric.piette,20190803-104322
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190803-105619
+M,Common/res/lud/wip/Tron (Real-time).lud,Dennis Soemers,20190803-105619
+M,Library/src/game/functions/booleans/Ge.java,Dennis Soemers,20190803-105619
+M,Library/src/game/mode/model/RealTime.java,Dennis Soemers,20190803-105619
+M,Library/src/util/action/ActionMove.java,Dennis Soemers,20190803-105619
+M,Library/src/util/action/ActionState.java,Dennis Soemers,20190803-105619
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190803-105853
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190803-105853
+M,Library/src/game/mode/model/AlternatingMove.java,Dennis Soemers,20190803-140837
+M,Player/src/player/Referee.java,Dennis Soemers,20190803-140837

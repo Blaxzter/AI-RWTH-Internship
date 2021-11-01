@@ -1,27 +1,35 @@
-import matplotlib
-import matplotlib.pyplot as plt
-from pyod.utils.data import generate_data, generate_data_clusters
-import numpy as np
+from tqdm.auto import tqdm
+
+from src.loader.DataManager import DataManager
+from src.loader.database.MongoDBConnector import MongoDBConnector, create_example_server
+from src.od.ODModel import OutlierDetectionModel
+from src.od.Preprocessor import parse_feature_data, vectorize
+from src.utils.Constants import test_file_server_name
 
 if __name__ == '__main__':
 
-    # Generate sample data
-    # x_train, x_test, y_train, y_test = generate_data_clusters(n_clusters = 5)
-    x_train, x_test, y_train, y_test = generate_data(behaviour = 'new', offset = 20)
+    db = MongoDBConnector()
+    db.reset_data()
+    create_example_server(db)
 
-    outliers = x_train[y_train == 0]
-    inliers = x_train[y_train == 1]
+    data_manager = DataManager(db)
+    data_manager.load_data_from_file()
 
+    for backup_date, backed_up_files in tqdm(data_manager.getData()):
 
-    subplot = plt.subplot(1, 1, 1)
+        current_file_server = db.get_file_server_by_name(test_file_server_name)
 
-    b = subplot.scatter(outliers[:, 0], outliers[:, 1], c = 'white', s = 20, edgecolor = 'k')
-    c = subplot.scatter(inliers[:, 0], inliers[:, 1], c = 'black', s = 20, edgecolor = 'k')
+        file_database = db.get_file_data_as_list(current_file_server['_id'])
 
-    subplot.axis('tight')
-    subplot.legend(
-        [b, c],
-        ['true inliers', 'true outliers'],
-        prop = matplotlib.font_manager.FontProperties(size = 10),
-        loc = 'lower right')
-    plt.show()
+        file_features, backup_meta_data = parse_feature_data(backed_up_files, file_database)
+        vectorization = vectorize(file_features, backup_meta_data)
+
+        data_manager.store_file_features(file_features, backup_meta_data, current_file_server)
+
+        # Model specific data
+        model = OutlierDetectionModel.load_file_server_model(db = db, file_server = current_file_server)
+        result = model.outlier_detection(vectorization)
+        model.fit_on_new_data(vectorization)
+        model.update_db_model()
+
+        data_manager.report_result(result)

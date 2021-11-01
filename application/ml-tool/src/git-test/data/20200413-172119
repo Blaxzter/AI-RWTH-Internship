@@ -1,0 +1,524 @@
+M,Common/src/graphics/ColourRoutines.java,Cameron Browne,20200411-173555
+M,Core/src/game/functions/booleans/puzzleConstraints/IsCrossing.java,Cameron Browne,20200411-173555
+M,Core/src/game/functions/booleans/space/IsGroupOldVersion.java,Cameron Browne,20200411-173555
+M,Core/src/game/functions/ints/connection/GroupCount.java,Cameron Browne,20200411-173555
+M,Core/src/graph/Cell.java,Cameron Browne,20200411-173555
+M,Features/src/features/visualisation/FeatureToEPS.java,Cameron Browne,20200411-173555
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200411-173555
+M,Player/src/display/dialogs/editor/SuggestionList.java,Cameron Browne,20200411-173555
+M,Player/src/display/dialogs/editor/TextPaneUtils.java,Cameron Browne,20200411-173555
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200411-204949
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200411-213835
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200411-214325
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200411-214413
+M,Graphics/src/view/container/custom/board/metadata/MancalaStyle.java,Matthew.Stephenson,20200411-214920
+M,Common/res/lud/board/space/territory/Ataxx.lud,eric.piette,20200411-215800
+M,Core/src/game/rules/start/InitScore.java,eric.piette,20200411-215800
+M,Common/res/lud/board/space/territory/Ataxx.lud,eric.piette,20200411-221407
+M,Common/res/lud/board/space/territory/Dots and Boxes.lud,eric.piette,20200411-221805
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200411-222415
+M,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200411-222748
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200411-223642
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200411-225712
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200411-231450
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200411-231450
+M,Core/src/game/equipment/component/Component.java,eric.piette,20200411-231450
+M,Core/src/game/equipment/component/Piece.java,eric.piette,20200411-231450
+M,Core/src/game/rules/play/moves/operators/Flip.java,eric.piette,20200411-231450
+A,Core/src/game/util/Flips.java,eric.piette,20200411-231450
+M,Player/src/display/dialogs/SVGLoaderDialog.java,eric.piette,20200411-231450
+M,Player/src/player/utils/LoadingUtil.java,eric.piette,20200411-231450
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200411-231450
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200411-231828
+M,Common/res/lud/board/race/reach/Pachisi.lud,eric.piette,20200411-232145
+M,Common/res/lud/board/sow/two_rows/Mbangbi.lud,eric.piette,20200411-232145
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,eric.piette,20200411-232145
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200411-235048
+M,Core/src/game/rules/play/moves/operators/Effect.java,eric.piette,20200411-235048
+M,Common/src/main/FileHandling.java,ludeme,20200412-083128
+M,Player/src/player/utils/LudiiGameWrapper.java,ludeme,20200412-083128
+M,Player/src/player/utils/LudiiGameWrapper.java,ludeme,20200412-083312
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200412-103711
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200412-105313
+M,Common/res/lud/board/war/tafl/ArdRi.lud,eric.piette,20200412-105313
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200412-110639
+M,Common/res/lud/board/war/tafl/ArdRi.lud,eric.piette,20200412-110639
+M,Common/res/lud/board/war/tafl/Brandub.lud,eric.piette,20200412-110639
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200412-111840
+M,AI/src/expert_iteration/ExItExperience.java,Cameron Browne,20200412-112625
+M,AI/src/expert_iteration/ExpertPolicy.java,Cameron Browne,20200412-112625
+M,AI/src/function_approx/BoostedLinearFunction.java,Cameron Browne,20200412-112625
+M,AI/src/function_approx/LinearFunction.java,Cameron Browne,20200412-112625
+M,AI/src/optimisers/AMSGrad.java,Cameron Browne,20200412-112625
+M,AI/src/optimisers/DeepmindRMSProp.java,Cameron Browne,20200412-112625
+M,AI/src/optimisers/Optimiser.java,Cameron Browne,20200412-112625
+M,AI/src/optimisers/SGD.java,Cameron Browne,20200412-112625
+M,AI/src/policies/GreedyPolicy.java,Cameron Browne,20200412-112625
+M,AI/src/policies/Policy.java,Cameron Browne,20200412-112625
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Cameron Browne,20200412-112625
+M,AI/src/search/flat/FlatMonteCarlo.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/MCTS.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/finalmoveselection/ProportionalExpVisitCount.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/nodes/BaseNode.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/nodes/Node.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/nodes/OpenLoopNode.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/selection/AG0Selection.java,Cameron Browne,20200412-112625
+M,AI/src/search/mcts/selection/ExItSelection.java,Cameron Browne,20200412-112625
+M,AI/src/search/minimax/AlphaBetaSearch.java,Cameron Browne,20200412-112625
+M,AI/src/search/pns/PNSNode.java,Cameron Browne,20200412-112625
+M,AI/src/utils/AIUtils.java,Cameron Browne,20200412-112625
+M,AI/src/utils/RandomAI.java,Cameron Browne,20200412-112625
+M,AI/src/utils/data_structures/experience_buffers/SumTree.java,Cameron Browne,20200412-112625
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20200412-112625
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20200412-112625
+D,Common/src/main/ArrayUtils.java,Cameron Browne,20200412-112625
+D,Common/src/main/BitTwiddling.java,Cameron Browne,20200412-112625
+D,Common/src/main/ChunkSet.java,Cameron Browne,20200412-112625
+D,Common/src/main/ChunkStack.java,Cameron Browne,20200412-112625
+D,Common/src/main/FVector.java,Cameron Browne,20200412-112625
+D,Common/src/main/FastArrayList.java,Cameron Browne,20200412-112625
+D,Common/src/main/GameOptions.java,Cameron Browne,20200412-112625
+D,Common/src/main/ListStack.java,Cameron Browne,20200412-112625
+D,Common/src/main/ListUtils.java,Cameron Browne,20200412-112625
+D,Common/src/main/MathRoutines.java,Cameron Browne,20200412-112625
+D,Common/src/main/Option.java,Cameron Browne,20200412-112625
+D,Common/src/main/OptionArgument.java,Cameron Browne,20200412-112625
+D,Common/src/main/OptionCategory.java,Cameron Browne,20200412-112625
+D,Common/src/main/Stats.java,Cameron Browne,20200412-112625
+D,Common/src/main/StringPair.java,Cameron Browne,20200412-112625
+D,Common/src/main/Vector.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/ArrayUtils.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/ChunkSet.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/ChunkStack.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/FVector.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/FastArrayList.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/ListStack.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/ListUtils.java,Cameron Browne,20200412-112625
+A,Common/src/main/collections/StringPair.java,Cameron Browne,20200412-112625
+A,Common/src/main/math/BitTwiddling.java,Cameron Browne,20200412-112625
+A,Common/src/main/math/MathRoutines.java,Cameron Browne,20200412-112625
+A,Common/src/main/math/Stats.java,Cameron Browne,20200412-112625
+A,Common/src/main/math/Vector.java,Cameron Browne,20200412-112625
+A,Common/src/main/options/GameOptions.java,Cameron Browne,20200412-112625
+A,Common/src/main/options/Option.java,Cameron Browne,20200412-112625
+A,Common/src/main/options/OptionArgument.java,Cameron Browne,20200412-112625
+A,Common/src/main/options/OptionCategory.java,Cameron Browne,20200412-112625
+M,Core/src/game/API.java,Cameron Browne,20200412-112625
+M,Core/src/game/Game.java,Cameron Browne,20200412-112625
+M,Core/src/game/playout/AddToEmpty.java,Cameron Browne,20200412-112625
+M,Core/src/game/playout/ByPiecePlayout.java,Cameron Browne,20200412-112625
+M,Core/src/game/playout/FilterPlayout.java,Cameron Browne,20200412-112625
+M,Core/src/game/playout/NoRepetitionPlayout.java,Cameron Browne,20200412-112625
+M,Core/src/game/playout/Playout.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/Moves.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/generator/BySite.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/generator/Do.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/generator/ForEachDie.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/operators/logical/AllCombinations.java,Cameron Browne,20200412-112625
+M,Core/src/game/rules/play/moves/operators/logical/Append.java,Cameron Browne,20200412-112625
+M,Core/src/game/util/graph/Edge.java,Cameron Browne,20200412-112625
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200412-112625
+M,Core/src/graph/Graph.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/Heuristics.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/CentreProximity.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/CornerProximity.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/CurrentMoverHeuristic.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/HeuristicTerm.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/LineCompletionHeuristic.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/Material.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/MobilitySimple.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/OwnRegionsCount.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/PlayerRegionsProximity.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/PlayerSiteMapCount.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/RegionProximity.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/Score.java,Cameron Browne,20200412-112625
+M,Core/src/metadata/ai/heuristics/terms/SidesProximity.java,Cameron Browne,20200412-112625
+M,Core/src/util/AI.java,Cameron Browne,20200412-112625
+M,Core/src/util/FeatureSetInterface.java,Cameron Browne,20200412-112625
+M,Core/src/util/Move.java,Cameron Browne,20200412-112625
+M,Core/src/util/MoveIntMapper.java,Cameron Browne,20200412-112625
+M,Core/src/util/Region.java,Cameron Browne,20200412-112625
+M,Core/src/util/model/AlternatingMove.java,Cameron Browne,20200412-112625
+M,Core/src/util/model/MatchModel.java,Cameron Browne,20200412-112625
+M,Core/src/util/model/SimultaneousMove.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/State.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerState/ContainerGraphState.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerState/ContainerState.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerState/ContainerStateFactory.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/containerState/FlatContainerState.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Cameron Browne,20200412-112625
+M,Core/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20200412-112625
+M,Core/src/util/zhash/HashedChunkSet.java,Cameron Browne,20200412-112625
+M,Core/src/util/zhash/HashedChunkStack.java,Cameron Browne,20200412-112625
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200412-112625
+M,Features/src/features/ActiveFeaturesCache.java,Cameron Browne,20200412-112625
+M,Features/src/features/FeatureSet.java,Cameron Browne,20200412-112625
+M,Features/src/features/instances/FeatureInstance.java,Cameron Browne,20200412-112625
+M,Features/src/features/instances/Footprint.java,Cameron Browne,20200412-112625
+M,Features/src/features/instances/OneOfMustEmpty.java,Cameron Browne,20200412-112625
+M,Features/src/features/instances/OneOfMustWhat.java,Cameron Browne,20200412-112625
+M,Features/src/features/instances/OneOfMustWho.java,Cameron Browne,20200412-112625
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200412-112625
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/custom/BoardStyle.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/custom/board/metadata/ConnectiveGoalStyle.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/custom/board/metadata/GooseStyle.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/custom/board/metadata/MancalaStyle.java,Cameron Browne,20200412-112625
+M,Graphics/src/view/container/custom/board/metadata/SnakesAndLaddersStyle.java,Cameron Browne,20200412-112625
+M,Player/src/display/dialogs/PossibleConsequencesDialog.java,Cameron Browne,20200412-112625
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Cameron Browne,20200412-112625
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Cameron Browne,20200412-112625
+M,Player/src/display/toolButtons/ButtonOther.java,Cameron Browne,20200412-112625
+M,Player/src/display/views/OverlayView.java,Cameron Browne,20200412-112625
+M,Player/src/player/MainMenu.java,Cameron Browne,20200412-112625
+M,Player/src/player/MainMenuFunctions.java,Cameron Browne,20200412-112625
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200412-112625
+M,Player/src/player/Referee.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/EvalAIsThread.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/EvalGamesSet.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/debugging/FindCrashingTrial.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/debugging/FindSuperLongTrial.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/eval/EvalGate.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/training/ExpertIteration.java,Cameron Browne,20200412-112625
+M,Player/src/player/experiments/utils/ResultsSummary.java,Cameron Browne,20200412-112625
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200412-112625
+M,Player/src/player/utils/LudiiStateWrapper.java,Cameron Browne,20200412-112625
+M,Player/src/player/utils/MoveUtil.java,Cameron Browne,20200412-112625
+M,Player/src/player/utils/UserPreferences.java,Cameron Browne,20200412-112625
+M,Player/test/ai/TestDefaultAIs.java,Cameron Browne,20200412-112625
+M,Player/test/ai/TestHeuristicStateValues.java,Cameron Browne,20200412-112625
+M,Player/test/ai/TestPrioritizedExperienceReplay.java,Cameron Browne,20200412-112625
+M,Player/test/features/TestAmazonsFeatures.java,Cameron Browne,20200412-112625
+M,Player/test/features/TestGomokuFeatures.java,Cameron Browne,20200412-112625
+M,Player/test/features/TestHexFeatures.java,Cameron Browne,20200412-112625
+M,Player/test/features/TestKharbagaFeatures.java,Cameron Browne,20200412-112625
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200412-112625
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20200412-112625
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20200412-112625
+M,Player/test/games/FlagUsed.java,Cameron Browne,20200412-112625
+M,Player/test/games/GameFileNamesTest.java,Cameron Browne,20200412-112625
+M,Player/test/games/GraphSize.java,Cameron Browne,20200412-112625
+M,Player/test/games/ListGamesSorted.java,Cameron Browne,20200412-112625
+M,Player/test/games/MancalaCountConsistency.java,Cameron Browne,20200412-112625
+M,Player/test/games/RulesOfGame.java,Cameron Browne,20200412-112625
+M,Player/test/games/SanityChecks.java,Cameron Browne,20200412-112625
+M,Player/test/games/TestTrialsIntegrity.java,Cameron Browne,20200412-112625
+M,Player/test/games/TestTrialsIntegrityERIC.java,Cameron Browne,20200412-112625
+M,Player/test/games/options/CompilationTestWithOptions.java,Cameron Browne,20200412-112625
+M,Player/test/games/options/OnePlayoutPerGameTestWithOptions.java,Cameron Browne,20200412-112625
+M,Player/test/tensors/TestStateMoveTensors.java,Cameron Browne,20200412-112625
+M,Player/test/utils/FVectorTests.java,Cameron Browne,20200412-112625
+M,Common/res/lud/board/war/tafl/Tablut.lud,eric.piette,20200412-113351
+M,Player/src/player/utils/GUIUtil.java,ludeme,20200412-114133
+M,Common/res/lud/board/war/tafl/Brandub.lud,eric.piette,20200412-114301
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,eric.piette,20200412-114301
+A,Common/res/lud/test/TestRulesets.lud,Cameron Browne,20200412-124404
+A,Common/src/main/options/Ruleset.java,Cameron Browne,20200412-124404
+M,Core/src/game/Game.java,Cameron Browne,20200412-124404
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200412-124404
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-124404
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200412-124404
+M,Common/src/main/FileHandling.java,Matthew.Stephenson,20200412-124648
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200412-125721
+M,Player/src/player/MainMenuFunctions.java,Dennis Soemers,20200412-125721
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/EvalGamesSet.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/EvalGamesThread.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/debugging/FindCrashingTrial.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/debugging/FindSuperLongTrial.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/eval/EvalGate.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/ludemes/ListUsedLudemes.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20200412-125721
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200412-125721
+M,Player/src/player/utils/GameLoader.java,Dennis Soemers,20200412-125721
+M,Player/src/player/utils/LudiiGameWrapper.java,Dennis Soemers,20200412-125721
+M,Player/src/player/utils/UserPreferences.java,Dennis Soemers,20200412-125721
+M,Player/test/games/options/CompilationTestWithOptions.java,Dennis Soemers,20200412-125721
+M,Player/test/games/options/OnePlayoutPerGameTestWithOptions.java,Dennis Soemers,20200412-125721
+M,Common/res/lud/test/TestRulesets.lud,Cameron Browne,20200412-132712
+M,Common/src/main/options/Ruleset.java,Cameron Browne,20200412-132712
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-132712
+M,Common/res/lud/test/TestRulesets.lud,Cameron Browne,20200412-133002
+M,Common/src/main/options/Ruleset.java,Cameron Browne,20200412-133002
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-133002
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-143347
+D,Core/src/game/functions/intArray/Directions.java,eric.piette,20200412-143347
+A,Core/src/game/functions/intArray/directionFunctions/DirectionFunction.java,eric.piette,20200412-143347
+A,Core/src/game/functions/intArray/directionFunctions/Directions.java,eric.piette,20200412-143347
+A,Core/src/game/functions/intArray/directionFunctions/If.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Hop2.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Shoot.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Slide2.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Step2.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/generator/ForDirn.java,eric.piette,20200412-143347
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200412-143347
+M,Core/src/game/rules/play/moves/decision/Hop2.java,eric.piette,20200412-144128
+M,Core/src/game/rules/play/moves/decision/Slide2.java,eric.piette,20200412-144128
+M,Common/src/main/options/GameOptions.java,Cameron Browne,20200412-145447
+M,Common/src/main/options/Option.java,Cameron Browne,20200412-145447
+M,Common/src/main/options/Ruleset.java,Cameron Browne,20200412-145447
+M,Core/src/game/Game.java,Cameron Browne,20200412-145447
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200412-145447
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-145447
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Cameron Browne,20200412-145447
+M,Player/src/player/MainMenu.java,Cameron Browne,20200412-145447
+M,Player/src/player/MainMenuFunctions.java,Cameron Browne,20200412-145447
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200412-145447
+M,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Cameron Browne,20200412-145447
+M,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Cameron Browne,20200412-145447
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200412-145447
+M,Player/src/player/utils/UserPreferences.java,Cameron Browne,20200412-145447
+M,Player/test/games/options/CompilationTestWithOptions.java,Cameron Browne,20200412-145447
+M,Player/test/games/options/OnePlayoutPerGameTestWithOptions.java,Cameron Browne,20200412-145447
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-150113
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200412-153304
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200412-153304
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-153304
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200412-153304
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200412-153304
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200412-153304
+M,Core/src/game/functions/intArray/directionFunctions/DirectionFunction.java,eric.piette,20200412-153304
+M,Core/src/game/functions/intArray/directionFunctions/Directions.java,eric.piette,20200412-153304
+M,Core/src/game/rules/play/moves/decision/Slide2.java,eric.piette,20200412-153304
+M,Core/src/game/rules/play/moves/generator/ForDirn.java,eric.piette,20200412-153304
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200412-153304
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-164151
+M,Core/src/game/rules/play/moves/decision/Hop2.java,eric.piette,20200412-164151
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-165254
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-165433
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,Dennis Soemers,20200412-170730
+M,Core/src/game/functions/booleans/space/IsBlocked.java,Dennis Soemers,20200412-170730
+M,Core/src/game/functions/booleans/space/IsConnected.java,Dennis Soemers,20200412-170730
+M,Core/src/util/Context.java,Dennis Soemers,20200412-170730
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200412-170730
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200412-172553
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200412-172553
+M,Core/src/game/functions/intArray/directionFunctions/If.java,eric.piette,20200412-172553
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200412-173349
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200412-173349
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-180416
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-181640
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200412-183039
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-183329
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200412-190347
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200412-190940
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200412-192802
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200412-192802
+D,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200412-193235
+A,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20200412-193235
+M,Common/res/lud/board/space/blocking/NoGo.lud,eric.piette,20200412-194314
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200412-194314
+M,Common/res/lud/board/war/other/Atari Go.lud,eric.piette,20200412-194314
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,eric.piette,20200412-195530
+M,Core/src/util/state/State.java,Dennis Soemers,20200412-211046
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200412-212219
+M,Core/src/game/Game.java,Dennis Soemers,20200412-213518
+M,Core/src/util/Context.java,Dennis Soemers,20200412-213518
+M,Core/src/util/UnionFind.java,Dennis Soemers,20200412-213518
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200412-213518
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200412-213518
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200412-213518
+M,Core/src/game/rules/end/End.java,Dennis Soemers,20200412-215644
+M,Core/src/util/Context.java,Dennis Soemers,20200412-215644
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200412-215644
+M,Player/src/player/utils/GUIUtil.java,ludeme,20200412-215933
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200412-220905
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200412-220905
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200412-220905
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200412-225101
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Matthew.Stephenson,20200412-225635
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,Cameron Browne,20200413-013504
+M,Core/src/game/functions/ints/connection/Liberties.java,Cameron Browne,20200413-013504
+M,Core/src/game/functions/ints/connection/SizeTerritory.java,Cameron Browne,20200413-013504
+M,Core/src/game/rules/play/moves/operators/Enclosed.java,Cameron Browne,20200413-013504
+M,Core/src/util/IsLoopAux.java,Cameron Browne,20200413-013504
+M,Core/src/util/UnionFindD.java,Cameron Browne,20200413-013504
+M,Core/src/util/UnionInfoD.java,Cameron Browne,20200413-013504
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-013504
+M,Core/src/game/functions/ints/connection/SizeTerritory.java,Cameron Browne,20200413-015648
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200413-015648
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200413-015648
+M,Grammar/src/compiler/Token.java,Cameron Browne,20200413-015648
+M,Grammar/src/generator/GrammarRule.java,Cameron Browne,20200413-015648
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-015648
+M,Common/res/lud/board/war/other/Castello.lud,eric.piette,20200413-084831
+M,Common/res/lud/board/war/other/Castello.lud,eric.piette,20200413-090921
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200413-093553
+M,Core/src/game/rules/play/moves/operators/DirectionCapture.java,eric.piette,20200413-093553
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200413-094845
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200413-100706
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,eric.piette,20200413-101022
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200413-102358
+M,Core/src/game/rules/play/moves/operators/state/SetMasked.java,eric.piette,20200413-102358
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200413-102752
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200413-105514
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200413-105514
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-105643
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200413-105643
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Cameron Browne,20200413-105643
+M,Player/src/network/LudiiClientSocket.java,Cameron Browne,20200413-105643
+M,Player/src/network/LudiiServerSocket.java,Cameron Browne,20200413-105643
+M,Player/src/player/MainMenu.java,Cameron Browne,20200413-105643
+M,Player/src/player/MainMenuFunctions.java,Cameron Browne,20200413-105643
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-105643
+M,Player/src/player/utils/EvalUtil.java,Cameron Browne,20200413-105643
+M,Player/src/player/utils/UserPreferences.java,Cameron Browne,20200413-105643
+A,Player/src/player/utils/UserSelections.java,Cameron Browne,20200413-110534
+M,Player/src/player/MainMenuFunctions.java,ludeme,20200413-111419
+A,Common/res/lud/wishlist/00 - Duplohex.lud,Cameron Browne,20200413-111717
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200413-112613
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200413-112613
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200413-113350
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200413-115205
+M,Player/src/player/utils/UserPreferences.java,Cameron Browne,20200413-120146
+M,Player/src/player/utils/UserSelections.java,Cameron Browne,20200413-120146
+M,Player/src/player/utils/UserSelections.java,Cameron Browne,20200413-120230
+M,Player/src/player/utils/UserSelections.java,Cameron Browne,20200413-120955
+M,Common/res/lud/board/war/other/Ploy.lud,eric.piette,20200413-122543
+M,Core/src/game/rules/play/moves/decision/ChangeDirection.java,eric.piette,20200413-122543
+M,Common/res/lud/board/war/other/Press Ups.lud,eric.piette,20200413-123554
+M,Common/res/lud/board/war/other/Seega.lud,eric.piette,20200413-133147
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200413-133806
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200413-135919
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200413-140710
+M,Common/res/lud/board/war/leaping/other/Dash-guti.lud,eric.piette,20200413-140850
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200413-141034
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200413-141514
+M,Common/res/lud/board/war/leaping/other/Gol-ekuish.lud,eric.piette,20200413-141703
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200413-141926
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200413-142006
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,eric.piette,20200413-142252
+M,Player/src/display/views/BoardView.java,Matthew.Stephenson,20200413-142445
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200413-142445
+M,Player/src/player/MainMenuFunctions.java,ludeme,20200413-143142
+M,Player/src/player/MainMenuFunctions.java,ludeme,20200413-143314
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-143448
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200413-143650
+M,Common/res/lud/test/Example.lud,TahminaBegum,20200413-143935
+M,Core/src/game/Game.java,TahminaBegum,20200413-143935
+M,Core/src/game/functions/booleans/space/IsConnected.java,TahminaBegum,20200413-143935
+M,Core/src/game/functions/booleans/space/IsGroupOldVersion.java,TahminaBegum,20200413-143935
+M,Core/src/game/functions/ints/connection/GroupCount.java,TahminaBegum,20200413-143935
+M,Core/src/game/rules/start/Place.java,TahminaBegum,20200413-143935
+M,Core/src/util/UnionFindD.java,TahminaBegum,20200413-143935
+M,Core/src/util/action/move/ActionAdd.java,TahminaBegum,20200413-143935
+M,Core/src/util/action/move/ActionMove.java,TahminaBegum,20200413-143935
+M,Core/src/util/action/move/ActionRemove.java,TahminaBegum,20200413-143935
+M,Core/src/util/state/containerState/BaseContainerState.java,TahminaBegum,20200413-143935
+M,Common/res/lud/board/war/other/Ploy.lud,eric.piette,20200413-144110
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200413-145659
+M,Common/res/lud/board/war/other/Ploy.lud,eric.piette,20200413-145659
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200413-150347
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200413-150347
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-150347
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200413-150347
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-150347
+M,Player/src/player/utils/EvalUtil.java,Cameron Browne,20200413-150347
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200413-150347
+M,Player/src/player/utils/UserPreferences.java,Cameron Browne,20200413-150347
+M,Player/test/ai/TestDefaultAIs.java,Cameron Browne,20200413-150347
+M,Player/test/ai/TestHeuristicStateValues.java,Cameron Browne,20200413-150347
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200413-150347
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20200413-150347
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20200413-150347
+M,Player/test/games/FlagUsed.java,Cameron Browne,20200413-150347
+M,Player/test/games/GameFileNamesTest.java,Cameron Browne,20200413-150347
+M,Player/test/games/GraphSize.java,Cameron Browne,20200413-150347
+M,Player/test/games/ListGamesSorted.java,Cameron Browne,20200413-150347
+M,Player/test/games/MancalaCountConsistency.java,Cameron Browne,20200413-150347
+M,Player/test/games/RulesOfGame.java,Cameron Browne,20200413-150347
+M,Player/test/games/SanityChecks.java,Cameron Browne,20200413-150347
+M,Player/test/games/TestTrialsIntegrity.java,Cameron Browne,20200413-150347
+M,Player/test/games/TestTrialsIntegrityERIC.java,Cameron Browne,20200413-150347
+M,Player/test/tensors/TestStateMoveTensors.java,Cameron Browne,20200413-150347
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200413-151831
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200413-151831
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200413-151831
+M,Player/test/ai/TestDefaultAIs.java,Cameron Browne,20200413-151831
+M,Player/test/ai/TestHeuristicStateValues.java,Cameron Browne,20200413-151831
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200413-151831
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20200413-151831
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20200413-151831
+M,Player/test/games/FlagUsed.java,Cameron Browne,20200413-151831
+M,Player/test/games/GameFileNamesTest.java,Cameron Browne,20200413-151831
+M,Player/test/games/GraphSize.java,Cameron Browne,20200413-151831
+M,Player/test/games/ListGamesSorted.java,Cameron Browne,20200413-151831
+M,Player/test/games/MancalaCountConsistency.java,Cameron Browne,20200413-151831
+M,Player/test/games/RulesOfGame.java,Cameron Browne,20200413-151831
+M,Player/test/games/SanityChecks.java,Cameron Browne,20200413-151831
+M,Player/test/games/TestTrialsIntegrity.java,Cameron Browne,20200413-151831
+M,Player/test/games/TestTrialsIntegrityERIC.java,Cameron Browne,20200413-151831
+M,Player/test/tensors/TestStateMoveTensors.java,Cameron Browne,20200413-151831
+A,Common/src/main/options/UserSelections.java,Cameron Browne,20200413-151926
+D,Player/src/player/utils/UserSelections.java,Cameron Browne,20200413-151926
+M,Player/build.xml,Dennis Soemers,20200413-152550
+A,Player/test/games/options/TestHexOptions.java,Dennis Soemers,20200413-152550
+M,Player/build.xml,Dennis Soemers,20200413-153046
+M,Core/src/game/functions/ints/connection/GroupCount.java,TahminaBegum,20200413-153751
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200413-153949
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200413-153949
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-153949
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200413-153949
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-153949
+M,Player/src/player/utils/EvalUtil.java,Cameron Browne,20200413-153949
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200413-153949
+A,Common/res/def/rules/play/moves/HopDiagonalSequenceCapture.def,eric.piette,20200413-154010
+A,Common/res/def/rules/play/moves/HopDiagonalSequenceCaptureAgain.def,eric.piette,20200413-154010
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200413-154010
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200413-154010
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200413-160038
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200413-160038
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-160038
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-160038
+M,Player/src/player/utils/EvalUtil.java,Cameron Browne,20200413-160038
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200413-160038
+M,Common/res/def/rules/play/moves/HopDiagonalSequenceCapture.def,eric.piette,20200413-160411
+M,Common/res/def/rules/play/moves/HopDiagonalSequenceCaptureAgain.def,eric.piette,20200413-160411
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200413-160411
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200413-160411
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200413-160411
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200413-161156
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200413-161156
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200413-161156
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200413-161251
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200413-161251
+M,Common/res/def/rules/play/moves/HopSequenceCapture.def,eric.piette,20200413-162927
+M,Common/res/def/rules/play/moves/HopSequenceCaptureAgain.def,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/De Cercar La Liebre.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Kaooa.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/hunt/Pon Chochotl.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Dash-guti.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Gol-ekuish.lud,eric.piette,20200413-162927
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200413-162927
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200413-162927
+M,Common/res/def/rules/play/moves/HopSequenceCapture.def,eric.piette,20200413-165145
+M,Common/res/def/rules/play/moves/HopSequenceCaptureAgain.def,eric.piette,20200413-165145
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,eric.piette,20200413-165145
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200413-170045
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200413-170045
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200413-170045
+A,Common/res/def/rules/play/moves/HopOrthogonalSequenceCapture.def,eric.piette,20200413-170835
+A,Common/res/def/rules/play/moves/HopOrthogonalSequenceCaptureAgain.def,eric.piette,20200413-170835
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200413-170835
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200413-170835
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200413-170835
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200413-170835
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200413-172119

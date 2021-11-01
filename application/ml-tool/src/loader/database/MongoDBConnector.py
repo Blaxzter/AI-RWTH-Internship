@@ -11,13 +11,15 @@ class MongoDBConnector:
         self.col_file_server = self.db_mltool["file_server"]
         self.col_file_server_model = self.db_mltool["file_server_model"]
         self.col_backup_metadata = self.db_mltool["backup_metadata"]
-        self.col_file_data = self.db_mltool["file_data"]
+        self.col_file_feature_history = self.db_mltool["file_feature_history"]
+        self.col_file_features = self.db_mltool["file_features"]
 
         self.collections = [
+            self.col_file_features,
             self.col_file_server,
             self.col_file_server_model,
             self.col_backup_metadata,
-            self.col_file_data
+            self.col_file_feature_history
         ]
 
     def get_file_server_model(self, file_server_id):
@@ -56,7 +58,7 @@ class MongoDBConnector:
 
     def get_file_data(self, file_server_id):
         search_query = dict(file_server = file_server_id)
-        return self.col_file_data.find(search_query)
+        return self.col_file_feature_history.find(search_query)
 
     def get_file_data_as_list(self, file_server_id):
         return list(self.get_file_data(file_server_id))
@@ -65,7 +67,13 @@ class MongoDBConnector:
         for file_data in file_data_list:
             file_data['file_server'] = file_server_id
             file_data['backup_data'] = backup_data_id
-        return self.col_file_data.insert(file_data_list)
+            self.col_file_features.update_one(
+                dict(file_server = file_server_id,
+                     name = file_data['name']),
+                {'$set': file_data},
+                upsert = True
+            )
+        return self.col_file_feature_history.insert(file_data_list)
 
     def add_backup_meta_data(self, file_server_id, meta_data) -> InsertOneResult:
         store_data = dict(meta_data)
@@ -79,7 +87,6 @@ class MongoDBConnector:
 
 
 def create_example_server(db_con):
-
     example_server_data = dict(
         con = "example connection",
         check_schedule = 2,
@@ -101,6 +108,8 @@ def create_example_server(db_con):
             raise Exception('Some thing went wrong with the file server creation')
 
     return file_server
+
+
 
 if __name__ == '__main__':
     mongoDBCon = MongoDBConnector()

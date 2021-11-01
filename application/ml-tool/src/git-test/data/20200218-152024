@@ -1,0 +1,563 @@
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200216-183745
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200216-183745
+M,Grammar/src/compiler/exceptions/CompilerException.java,Cameron Browne,20200216-183745
+A,Grammar/src/compiler/exceptions/ParserException.java,Cameron Browne,20200216-183745
+A,Grammar/src/parser/Parser.java,Cameron Browne,20200216-183745
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200216-183745
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200216-183745
+M,Core/src/game/Game.java,Cameron Browne,20200216-185957
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200216-185957
+D,Grammar/src/compiler/Define.java,Cameron Browne,20200216-185957
+D,Grammar/src/compiler/Import.java,Cameron Browne,20200216-185957
+D,Grammar/src/compiler/PlexLoader.java,Cameron Browne,20200216-185957
+A,Grammar/src/parser/Define.java,Cameron Browne,20200216-185957
+A,Grammar/src/parser/Import.java,Cameron Browne,20200216-185957
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200216-185957
+A,Grammar/src/parser/PlexLoader.java,Cameron Browne,20200216-185957
+M,Player/src/network/LudiiClientSocket.java,Cameron Browne,20200216-185957
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200216-185957
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200216-190214
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200216-190714
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200216-190714
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200216-201031
+M,Player/src/player/experiments/utils/InterruptableExperiment.java,Dennis Soemers,20200216-201031
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200216-201510
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200216-202100
+M,Core/src/game/rules/play/moves/ByPiece.java,eric.piette,20200216-212714
+M,Common/res/lud/wip/Belote.lud,eric.piette,20200216-234351
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200217-083306
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200217-083330
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200217-083330
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200217-083814
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200217-084102
+D,Common/res/lud/dominoes/Blocking Dominoes.lud,eric.piette,20200217-092424
+A,Common/res/lud/wip/Blocking Dominoes.lud,eric.piette,20200217-092424
+M,Core/src/game/rules/start/DealDominoes.java,eric.piette,20200217-092424
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,eric.piette,20200217-093104
+M,Core/src/util/state/puzzleState/PuzzleStateLarge.java,eric.piette,20200217-093104
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200217-101533
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-103216
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-103409
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-103439
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200217-103757
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200217-103757
+M,Core/src/util/ContainerStyles/ContainerStyle.java,Matthew.Stephenson,20200217-103904
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-103904
+M,Player/src/view/GameView.java,Matthew.Stephenson,20200217-103904
+M,Common/res/lud/test/Tic-Tac-Toe Face.lud,eric.piette,20200217-104533
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200217-104533
+M,Core/src/game/equipment/container/board/custom/TaflBoard.java,Matthew.Stephenson,20200217-132158
+M,Core/src/util/ContainerStyles/Board/TaflStyle.java,Matthew.Stephenson,20200217-132158
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200217-132158
+M,Player/src/view/GameView.java,Matthew.Stephenson,20200217-132158
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-132721
+M,Player/src/view/GameView.java,eric.piette,20200217-132721
+M,Common/res/lud/board/chase/tafl/Alea Evangelii.lud,Matthew.Stephenson,20200217-133645
+M,Common/res/lud/board/chase/tafl/ArdRi.lud,Matthew.Stephenson,20200217-133645
+M,Common/res/lud/board/chase/tafl/Brandub.lud,Matthew.Stephenson,20200217-133645
+M,Common/res/lud/board/chase/tafl/Hnefatafl.lud,Matthew.Stephenson,20200217-133645
+M,Common/res/lud/board/chase/tafl/Tablut.lud,Matthew.Stephenson,20200217-133645
+M,Common/res/lud/board/chase/tafl/Tawlbwrdd.lud,Matthew.Stephenson,20200217-133645
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200217-133645
+D,Core/src/game/equipment/container/board/custom/TaflBoard.java,Matthew.Stephenson,20200217-133645
+M,Core/src/util/ContainerStyles/Board/TaflStyle.java,Matthew.Stephenson,20200217-133645
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200217-133645
+M,Core/src/game/equipment/container/Container.java,eric.piette,20200217-133722
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200217-133722
+M,Core/src/game/equipment/container/hand/Hand.java,eric.piette,20200217-133722
+A,Common/res/lud/test/Tic-Tac-Toe (metadata).lud,Matthew.Stephenson,20200217-135645
+A,Core/src/metadata/BaseLudemeMetadata.java,Matthew.Stephenson,20200217-135645
+A,Core/src/metadata/LudemeMetadata.java,Matthew.Stephenson,20200217-135645
+A,Core/src/metadata/Metadata.java,Matthew.Stephenson,20200217-135645
+A,Core/src/metadata/Rules.java,Matthew.Stephenson,20200217-135645
+M,Common/res/lud/board/chase/tafl/Tablut.lud,eric.piette,20200217-135931
+M,Core/src/util/ContainerStyles/Board/DotStyle.java,Matthew.Stephenson,20200217-150729
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-150729
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-151330
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200217-151330
+M,Common/res/lud/board/space/line/Connect 4.lud,Matthew.Stephenson,20200217-151952
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200217-151952
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200217-151952
+M,Core/src/game/equipment/container/board/custom/Connect4Board.java,Matthew.Stephenson,20200217-151952
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20200217-151952
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200217-151952
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-151952
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200217-151952
+M,AI/src/heuristics/LineCompletionHeuristic.java,eric.piette,20200217-152646
+M,AI/src/heuristics/PlayerSiteMapCount.java,eric.piette,20200217-152646
+M,AI/src/policies/softmax/SoftmaxPolicy.java,eric.piette,20200217-152646
+M,Common/src/main/Constants.java,eric.piette,20200217-152646
+M,Common/src/main/SettingsGeneral.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/component/Component.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/Container.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/CustomBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/SpiralBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/custom/GooseBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/custom/HoundsAndJackalsBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/custom/PachisiBoard.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/shape/Shape.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/ShibumiSquare.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/Square.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/Tiling3464.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/other/Map.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/other/Pair.java,eric.piette,20200217-152646
+M,Core/src/game/equipment/other/Track.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/Group.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/IsConnect.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/IsFriendAt.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/IsLoop.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/NotFalling.java,eric.piette,20200217-152646
+M,Core/src/game/functions/booleans/Threatened.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/ColumnOf.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Coord.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Count.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Dim.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Edge.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Face.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/GroupSize.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/GroupSizeUF.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Hand.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/IndexOf.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/LayerOf.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Map.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/NumPlayers.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/NumSites.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/PieceAt.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/RowOf.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Size.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/State.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Value.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/What.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/Who.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Abs.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Add.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Div.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Mod.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Mul.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Pow.java,eric.piette,20200217-152646
+M,Core/src/game/functions/ints/math/Sub.java,eric.piette,20200217-152646
+M,Core/src/game/functions/region/Walk.java,eric.piette,20200217-152646
+M,Core/src/game/players/Players.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/Attract.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/Custodial.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/Flip.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/Push.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/Sow.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/TakeDomino.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/ChangeDirection.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Leap.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Pass.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Shoot.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200217-152646
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/Deal.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/DealDominoes.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/Fill.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/Place.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/PlaceRandomly.java,eric.piette,20200217-152646
+M,Core/src/game/rules/start/SplitDeck.java,eric.piette,20200217-152646
+M,Core/src/util/ContainerStyles/Board/ScriptaStyle.java,eric.piette,20200217-152646
+M,Core/src/util/ContainerStyles/BoardlessStyle.java,eric.piette,20200217-152646
+M,Core/src/util/Context.java,eric.piette,20200217-152646
+M,Core/src/util/Move.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionAdd.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionAddN.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionAddPlayerToTeam.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionMove.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionMoveAndRotate.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionMoveAndSetState.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionMoveN.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionMoveRemove.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionNoop.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionPass.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionPromote.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionRemove.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionReset.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSelect.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSet.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetAmount.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetCheckmate.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetCount.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetCounter.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetHidden.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetNextPlayer.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetPending.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetPhase.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetRotation.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetScore.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetState.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetStateAndUpdateDice.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSetTemp.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionStoreStateInContext.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionSwap.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionToggle.java,eric.piette,20200217-152646
+M,Core/src/util/action/ActionUseDie.java,eric.piette,20200217-152646
+M,Core/src/util/action/BaseAction.java,eric.piette,20200217-152646
+M,Core/src/util/state/State.java,eric.piette,20200217-152646
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,eric.piette,20200217-152646
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200217-152646
+M,Grammar/src/generator/Grammar.java,eric.piette,20200217-152646
+M,Player/src/player/PlayerApp.java,eric.piette,20200217-152646
+M,Player/src/player/utils/LudiiStateWrapper.java,eric.piette,20200217-152646
+M,Player/src/view/MainView.java,eric.piette,20200217-152646
+M,Player/src/view/SVGView.java,eric.piette,20200217-152646
+M,Player/src/view/dialog/DeveloperDialog.java,eric.piette,20200217-152646
+M,Player/src/view/dialog/SettingsDialog.java,eric.piette,20200217-152646
+M,Player/src/view/panel/StatePanel.java,eric.piette,20200217-152646
+M,Player/test/hashes/HashTests.java,eric.piette,20200217-152646
+M,Player/test/other/TestDefaultGameLudPath.java,eric.piette,20200217-152646
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-153855
+M,Common/res/lud/board/chase/hunt/Demala diviyan keliya.lud,eric.piette,20200217-162506
+D,Common/res/lud/board/chase/hunt/Pulijudam.lud,eric.piette,20200217-162506
+M,Core/src/game/functions/booleans/Know.java,eric.piette,20200217-162923
+M,Core/src/util/action/ActionAdd.java,eric.piette,20200217-162923
+M,Core/src/util/action/ActionAddN.java,eric.piette,20200217-162923
+M,Core/src/util/action/ActionMove.java,eric.piette,20200217-162923
+M,Core/src/util/action/ActionSetHidden.java,eric.piette,20200217-162923
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,eric.piette,20200217-162923
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,eric.piette,20200217-162923
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200217-162923
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200217-162923
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,eric.piette,20200217-162923
+M,Core/src/util/state/puzzleState/PuzzleState.java,eric.piette,20200217-162923
+M,Player/src/view/GameView.java,eric.piette,20200217-162923
+M,Player/src/view/MainView.java,eric.piette,20200217-162923
+M,Player/src/view/panel/PlayerPanel.java,eric.piette,20200217-162923
+M,Player/src/view/panel/StatePanel.java,eric.piette,20200217-162923
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200217-171251
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20200217-171251
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/experiments/EvalAIsThread.java,Matthew.Stephenson,20200217-171251
+A,Player/src/player/utils/EvalUtil.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200217-171251
+M,Player/src/player/utils/GraphicsCache.java,Matthew.Stephenson,20200217-171251
+A,Player/src/player/utils/Screenshots.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/GameView.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonBack.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonEnd.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonForward.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonPlayPause.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonRestart.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/button/ButtonStart.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/CreateGameDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/DeveloperDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/EditorDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/EvaluationDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/FindGameDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/SandboxDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/dialog/SettingsDialog.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/panel/PlayerPanel.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/panel/StatePanel.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/panel/TabPage.java,Matthew.Stephenson,20200217-171251
+M,Player/src/view/panel/ToolPanel.java,Matthew.Stephenson,20200217-171251
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Eric Piette,20200217-171450
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Eric Piette,20200217-171450
+M,Core/src/util/state/containerState/ContainerState.java,Eric Piette,20200217-171450
+M,Core/src/util/state/containerState/FlatContainerState.java,Eric Piette,20200217-171450
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Eric Piette,20200217-171450
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200217-173111
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200217-173111
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200217-173111
+D,Player/src/player/utils/Screenshots.java,Matthew.Stephenson,20200217-173111
+A,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200217-173111
+M,Core/src/util/action/ActionAdd.java,Eric Piette,20200217-173123
+M,Core/src/util/action/ActionAddN.java,Eric Piette,20200217-173123
+M,Core/src/util/action/ActionMove.java,Eric Piette,20200217-173123
+M,Core/src/util/action/ActionSetHidden.java,Eric Piette,20200217-173123
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Eric Piette,20200217-173123
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Eric Piette,20200217-173123
+M,Core/src/util/state/containerState/ContainerState.java,Eric Piette,20200217-173123
+M,Core/src/util/state/containerState/FlatContainerState.java,Eric Piette,20200217-173123
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Eric Piette,20200217-173123
+M,Core/src/util/state/puzzleState/PuzzleState.java,Eric Piette,20200217-173123
+M,Player/test/games/TestTrialsIntegrity.java,Eric Piette,20200217-173123
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200217-173232
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200217-173450
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200217-173450
+M,Player/src/player/utils/EvalUtil.java,Matthew.Stephenson,20200217-173450
+D,Core/src/metadata/BaseLudemeMetadata.java,Eric Piette,20200217-174051
+D,Core/src/metadata/LudemeMetadata.java,Eric Piette,20200217-174051
+M,Core/src/metadata/Metadata.java,Eric Piette,20200217-174051
+D,Core/src/metadata/Rules.java,Eric Piette,20200217-174051
+A,Core/src/metadata/functions/MetadataFunction.java,Eric Piette,20200217-174051
+A,Core/src/metadata/functions/Rules.java,Eric Piette,20200217-174051
+A,Core/src/util/BaseLudemeMetadata.java,Eric Piette,20200217-174051
+A,Core/src/util/LudemeMetadata.java,Eric Piette,20200217-174051
+M,Common/res/lud/test/Tic-Tac-Toe (metadata).lud,Eric Piette,20200217-174642
+M,Core/src/util/Move.java,Eric Piette,20200217-175232
+A,Core/src/util/action/ActionSetVisible.java,Eric Piette,20200217-175232
+M,Common/src/main/ChunkStack.java,Eric Piette,20200218-090453
+M,Common/src/main/ListStack.java,Eric Piette,20200218-090453
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Eric Piette,20200218-090453
+M,Core/src/util/zhash/HashedChunkStack.java,Eric Piette,20200218-090453
+M,Player/test/games/TestTrialsIntegrity.java,Eric Piette,20200218-090453
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20200218-091306
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200218-091306
+A,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/utils/EvalUtil.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200218-091306
+M,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200218-091306
+D,Player/src/view/GameView.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/button/ButtonBack.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/button/ButtonEnd.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/button/ButtonForward.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/button/ButtonStart.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/dialog/CreateGameDialog.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/dialog/EditorDialog.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/dialog/SettingsDialog.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/panel/StatePanel.java,Matthew.Stephenson,20200218-091306
+M,Player/src/view/panel/ToolPanel.java,Matthew.Stephenson,20200218-091306
+M,Common/src/main/ChunkStack.java,Eric Piette,20200218-091522
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20200218-093042
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/utils/EvalUtil.java,Matthew.Stephenson,20200218-093042
+M,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/button/ButtonBack.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/button/ButtonEnd.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/button/ButtonForward.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/button/ButtonStart.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/dialog/EditorDialog.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/dialog/SettingsDialog.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/panel/StatePanel.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/panel/ToolPanel.java,Matthew.Stephenson,20200218-093042
+M,Player/src/view/panel/StatePanel.java,Matthew.Stephenson,20200218-093801
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200218-095011
+D,Player/src/view/panel/ErrorTabPage.java,Matthew.Stephenson,20200218-095011
+M,Player/src/view/panel/StatePanel.java,Matthew.Stephenson,20200218-095011
+M,Common/src/main/ChunkStack.java,Eric Piette,20200218-095858
+M,Common/src/main/ListStack.java,Eric Piette,20200218-095858
+M,Core/src/util/action/ActionMove.java,Eric Piette,20200218-095858
+M,Core/src/util/action/ActionSetHidden.java,Eric Piette,20200218-095858
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Eric Piette,20200218-095858
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Eric Piette,20200218-095858
+M,Core/src/util/state/containerState/BaseContainerState.java,Eric Piette,20200218-095858
+M,Core/src/util/state/containerState/ContainerState.java,Eric Piette,20200218-095858
+M,Core/src/util/state/containerState/FlatContainerState.java,Eric Piette,20200218-095858
+M,Core/src/util/state/puzzleState/PuzzleState.java,Eric Piette,20200218-095858
+M,Core/src/util/zhash/HashedChunkStack.java,Eric Piette,20200218-095858
+M,Player/src/view/panel/PlayerPanel.java,Eric Piette,20200218-095858
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-095910
+M,Player/src/view/panel/TabPage.java,Matthew.Stephenson,20200218-095910
+A,Player/src/view/panel/TabPanel.java,Matthew.Stephenson,20200218-095910
+D,Player/src/view/panel/TabSet.java,Matthew.Stephenson,20200218-095910
+M,Core/src/util/Move.java,Eric Piette,20200218-100935
+A,Core/src/util/action/ActionSetMasked.java,Eric Piette,20200218-100935
+M,Core/src/util/action/ActionSetVisible.java,Eric Piette,20200218-100935
+M,AI/src/policies/GreedyPolicy.java,Eric Piette,20200218-101947
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Eric Piette,20200218-101947
+M,AI/src/search/flat/FlatMonteCarlo.java,Eric Piette,20200218-101947
+M,AI/src/search/mcts/nodes/Node.java,Eric Piette,20200218-101947
+M,AI/src/search/mcts/nodes/OpenLoopNode.java,Eric Piette,20200218-101947
+M,AI/src/search/minimax/AlphaBetaSearch.java,Eric Piette,20200218-101947
+M,AI/src/search/pns/PNSNode.java,Eric Piette,20200218-101947
+M,AI/src/utils/RandomAI.java,Eric Piette,20200218-101947
+M,Core/src/game/Game.java,Eric Piette,20200218-101947
+M,Core/src/game/playout/AddToEmpty.java,Eric Piette,20200218-101947
+M,Core/src/game/playout/ByPiecePlayout.java,Eric Piette,20200218-101947
+M,Core/src/game/playout/FilterPlayout.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/AddScore.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Attract.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Checkmate.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Flip.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/ForEachDie.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/MoveAgain.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Observe.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Pending.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Push.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Remove.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Roll.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/SetCount.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/SetCounter.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/SetOwner.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/SetScore.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/SetState.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Sow.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/StoreState.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Swap.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/TakeControl.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/TakeDomino.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/ChangeDirection.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Constraints.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/FromTo.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Hop.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Leap.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Pass.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Promotion.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Select.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Shoot.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Slide.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/Step.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/decision/To.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/Deal.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/Fill.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/FogOfWar.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/InitAmount.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/InitScore.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/Place.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/PlaceRandomly.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/Set.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/SetCount.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/SetPhase.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/SetTeam.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/SplitDeck.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/start/Start.java,Eric Piette,20200218-101947
+M,Core/src/util/ContainerStyles/Puzzle/KakuroStyle.java,Eric Piette,20200218-101947
+M,Core/src/util/ContainerStyles/Puzzle/LineSegmentStyle.java,Eric Piette,20200218-101947
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleStyle.java,Eric Piette,20200218-101947
+M,Core/src/util/ContainerStyles/Puzzle/SudokuStyle.java,Eric Piette,20200218-101947
+M,Core/src/util/Move.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionAdd.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionAddN.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionAddPlayerToTeam.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionMove.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionMoveAndRotate.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionMoveAndSetState.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionMoveN.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionMoveRemove.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionNoop.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionPass.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionPromote.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionRemove.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionReset.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSelect.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSet.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetAmount.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetCheckmate.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetCount.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetCounter.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetHidden.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetMasked.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetNextPlayer.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetPending.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetPhase.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetRotation.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetScore.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetState.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetStateAndUpdateDice.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetTemp.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSetVisible.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionStoreStateInContext.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionSwap.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionToggle.java,Eric Piette,20200218-101947
+D,Core/src/util/action/ActionUseDie.java,Eric Piette,20200218-101947
+A,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,Eric Piette,20200218-101947
+A,Core/src/util/action/die/ActionUseDie.java,Eric Piette,20200218-101947
+A,Core/src/util/action/hidden/ActionSetHidden.java,Eric Piette,20200218-101947
+A,Core/src/util/action/hidden/ActionSetMasked.java,Eric Piette,20200218-101947
+A,Core/src/util/action/hidden/ActionSetVisible.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionAdd.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionAddN.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionMove.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionMoveAndRotate.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionMoveAndSetState.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionMoveN.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionMoveRemove.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionPromote.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionRemove.java,Eric Piette,20200218-101947
+A,Core/src/util/action/move/ActionSelect.java,Eric Piette,20200218-101947
+A,Core/src/util/action/others/ActionNoop.java,Eric Piette,20200218-101947
+A,Core/src/util/action/others/ActionPass.java,Eric Piette,20200218-101947
+A,Core/src/util/action/others/ActionSwap.java,Eric Piette,20200218-101947
+A,Core/src/util/action/puzzle/ActionReset.java,Eric Piette,20200218-101947
+A,Core/src/util/action/puzzle/ActionSet.java,Eric Piette,20200218-101947
+A,Core/src/util/action/puzzle/ActionToggle.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionAddPlayerToTeam.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetAmount.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetCheckmate.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetCount.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetCounter.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetNextPlayer.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetPending.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetPhase.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetRotation.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetScore.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetState.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionSetTemp.java,Eric Piette,20200218-101947
+A,Core/src/util/action/state/ActionStoreStateInContext.java,Eric Piette,20200218-101947
+M,Core/src/util/model/AlternatingMove.java,Eric Piette,20200218-101947
+M,Core/src/util/model/SimultaneousMove.java,Eric Piette,20200218-101947
+M,Player/src/player/MainMenuFunctions.java,Eric Piette,20200218-101947
+M,Player/src/player/Referee.java,Eric Piette,20200218-101947
+M,Player/src/player/experiments/training/ExpertIteration.java,Eric Piette,20200218-101947
+M,Player/src/view/MainView.java,Eric Piette,20200218-101947
+M,Player/src/view/dialog/PossibleMovesDialog.java,Eric Piette,20200218-101947
+M,Player/src/view/dialog/PuzzleDialog.java,Eric Piette,20200218-101947
+M,Player/src/view/dialog/SandboxDialog.java,Eric Piette,20200218-101947
+M,Player/test/features/TestAmazonsFeatures.java,Eric Piette,20200218-101947
+M,Player/test/features/TestHexFeatures.java,Eric Piette,20200218-101947
+M,Player/test/games/MancalaCountConsistency.java,Eric Piette,20200218-101947
+M,Player/test/hashes/HashTests.java,Eric Piette,20200218-101947
+M,Core/src/game/rules/play/moves/Observe.java,Eric Piette,20200218-102905
+M,Core/src/game/rules/start/FogOfWar.java,Eric Piette,20200218-102905
+M,Core/src/util/Move.java,Eric Piette,20200218-102905
+D,Core/src/util/action/hidden/ActionSetHidden.java,Eric Piette,20200218-102905
+A,Core/src/util/action/hidden/ActionSetInvisible.java,Eric Piette,20200218-102905
+M,Player/test/games/TestTrialsIntegrity.java,Eric Piette,20200218-102905
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-103345
+A,Player/src/view/panel/PlayerPage.java,Matthew.Stephenson,20200218-103345
+M,Player/src/view/panel/PlayerPanel.java,Matthew.Stephenson,20200218-103345
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Eric Piette,20200218-103637
+A,Core/src/game/functions/booleans/IsVisible.java,Eric Piette,20200218-103637
+D,Core/src/game/functions/booleans/Know.java,Eric Piette,20200218-103637
+M,Player/test/games/TestTrialsIntegrity.java,Eric Piette,20200218-103739
+A,Core/src/game/functions/booleans/IsInvisible.java,Eric Piette,20200218-103949
+A,Core/src/game/functions/booleans/IsMasked.java,Eric Piette,20200218-104048
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Eric Piette,20200218-104544
+M,Core/src/game/Game.java,Eric Piette,20200218-104544
+A,Core/src/game/rules/start/AllInvisible.java,Eric Piette,20200218-104544
+D,Core/src/game/rules/start/FogOfWar.java,Eric Piette,20200218-104544
+M,Core/src/game/types/GameType.java,Eric Piette,20200218-104544
+M,Player/src/player/utils/GraphicsCache.java,Eric Piette,20200218-104544
+M,Player/test/games/FlagUsed.java,Eric Piette,20200218-104544
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-105101
+A,Player/src/view/panel/NaturePlayerPage.java,Matthew.Stephenson,20200218-105101
+M,Player/src/view/panel/PlayerPage.java,Matthew.Stephenson,20200218-105101
+M,Player/src/view/panel/PlayerPanel.java,Matthew.Stephenson,20200218-105101
+M,Player/src/view/panel/TabPage.java,Matthew.Stephenson,20200218-105101
+M,Player/src/view/panel/TabPanel.java,Matthew.Stephenson,20200218-105101
+A,Core/src/game/rules/play/moves/AllMasked.java,Eric Piette,20200218-110128
+M,Core/src/util/Move.java,Eric Piette,20200218-110128
+M,Common/res/lud/board/capture/other/L'attaque.lud,Eric Piette,20200218-120205
+M,Common/res/lud/proprietary/Stratego.lud,Eric Piette,20200218-120205
+M,Core/src/game/rules/start/Place.java,Eric Piette,20200218-120205
+M,Player/test/games/TestTrialsIntegrity.java,Eric Piette,20200218-120205
+A,Common/res/lud/wishlist/00 - Shobu.lud,Cameron Browne,20200218-120722
+M,Core/src/util/action/move/ActionAddN.java,Eric Piette,20200218-120940
+M,Player/src/player/utils/EvalUtil.java,Matthew.Stephenson,20200218-121604
+M,Player/src/view/MainView.java,Matthew.Stephenson,20200218-121604
+M,Player/src/view/panel/PlayerPanel.java,Matthew.Stephenson,20200218-121604
+M,Player/src/view/panel/TabPage.java,Matthew.Stephenson,20200218-121604
+M,Player/src/view/panel/TabPanel.java,Matthew.Stephenson,20200218-121604
+M,Core/src/game/rules/play/moves/TakeControl.java,Eric Piette,20200218-152024
+M,Core/src/game/rules/start/DealDominoes.java,Eric Piette,20200218-152024
+M,Core/src/game/rules/start/Fill.java,Eric Piette,20200218-152024
+M,Core/src/game/rules/start/Place.java,Eric Piette,20200218-152024
+M,Core/src/game/rules/start/PlaceRandomly.java,Eric Piette,20200218-152024
+M,Core/src/game/rules/start/Start.java,Eric Piette,20200218-152024
+M,Core/src/util/action/move/ActionAddN.java,Eric Piette,20200218-152024

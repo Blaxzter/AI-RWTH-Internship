@@ -1,0 +1,92 @@
+M,Player/src/mainView/dialog/GameLoaderDialog.java,Dennis Soemers,20190714-173610
+A,Library/src/game/equipment/other/Map.java,eric.piette,20190714-202703
+M,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190714-210339
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190714-210339
+M,Library/src/game/equipment/other/Map.java,eric.piette,20190714-210339
+A,Library/src/game/functions/ints/Map.java,eric.piette,20190714-210339
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/NonogramBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Lianne.Hufkens,20190714-224723
+M,Library/src/game/functions/ints/Size.java,Lianne.Hufkens,20190714-224723
+A,Common/src/gnu/trove/impl/hash/TIntIntHash.java,DennisSoemers,20190715-091528
+A,Common/src/gnu/trove/map/TIntIntMap.java,DennisSoemers,20190715-091528
+A,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,DennisSoemers,20190715-091528
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,Matthew.Stephenson,20190715-093226
+M,Library/src/graph/Graph.java,Matthew.Stephenson,20190715-093226
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-094341
+M,Common/src/gnu/trove/impl/hash/TIntIntHash.java,DennisSoemers,20190715-095215
+M,Library/src/game/equipment/other/Map.java,eric.piette,20190715-095533
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190715-095533
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190715-095916
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-100629
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-101011
+M,Library/src/game/equipment/component/Die.java,Matthew.Stephenson,20190715-101027
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190715-101027
+M,Library/src/util/state/containerState/BaseContainerState.java,mrrao,20190715-121734
+A,Library/src/util/zhash/HashedBitSet.java,mrrao,20190715-121734
+M,Library/src/util/zhash/HashedChunkSet.java,mrrao,20190715-121734
+M,Common/res/lud/puzzle/deductive puzzle/Futoshiki.lud,Matthew.Stephenson,20190715-133608
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190715-141324
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-141958
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190715-141958
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-142307
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-143220
+M,Library/src/util/state/containerState/ContainerStateIndexCount.java,eric.piette,20190715-143506
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190715-144039
+M,Common/res/lud/dice/Royal Game of Ur.lud,eric.piette,20190715-144145
+M,Library/src/game/rules/play/moves/Or.java,eric.piette,20190715-144145
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190715-144208
+M,Common/res/lud/Hex.lud,Cameron Browne,20190715-151117
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190715-151117
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20190715-151143
+D,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190715-151957
+A,AI/src/policies/softmax/SoftmaxFromMetadata.java,DennisSoemers,20190715-151957
+A,AI/src/policies/softmax/SoftmaxPolicy.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/nodes/BaseNode.java,DennisSoemers,20190715-151957
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,DennisSoemers,20190715-151957
+M,AI/src/utils/AIFactory.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/dialog/SettingsDialog.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20190715-151957
+M,Player/src/player/GameLoader.java,DennisSoemers,20190715-151957
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190715-151957
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190715-151957
+M,Player/src/mainView/dialog/SettingsDialog.java,DennisSoemers,20190715-152104
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-152519
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190715-153544
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190715-154003
+M,Player/src/mainView/MainView.java,eric.piette,20190715-154557
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190715-154836
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,DennisSoemers,20190715-154952
+M,Common/res/lud/Hex.lud,DennisSoemers,20190715-154952
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190715-162201
+A,Library/src/game/functions/ints/Max.java,eric.piette,20190715-172858
+A,Library/src/game/functions/ints/Min.java,eric.piette,20190715-172858
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190715-175246
+A,Common/res/img/svg/shogi/bishop.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/gold_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/jeweled_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/king_general.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/knight.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/lance.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/pawn.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_bishop.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_knight.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_lance.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_pawn.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_rook.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/promoted_silver.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/rook.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/shogi_blank.svg,Matthew.Stephenson,20190715-175812
+A,Common/res/img/svg/shogi/silver_general.svg,Matthew.Stephenson,20190715-175812
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190716-125357
+M,AI/src/utils/AIFactory.java,DennisSoemers,20190716-125357
+M,Common/src/main/ArgParse.java,DennisSoemers,20190716-125357
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190716-125357
+A,Player/src/player/experiments/eval/EvalAgents.java,DennisSoemers,20190716-125357
+M,Library/src/util/ChunkStack.java,eric.piette,20190716-133102
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-134641

@@ -1,0 +1,879 @@
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200622-140209
+M,PlayerDesktop/src/app/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200622-140209
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20200622-140209
+M,PlayerDesktop/src/app/menu/MainMenu.java,Matthew Stephenson,20200622-140209
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200622-140246
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200622-144738
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200622-144756
+M,PlayerDesktop/src/app/display/views/players/PlayerView.java,Matthew Stephenson,20200622-145058
+M,Core/src/game/functions/ints/count/Count.java,eric.piette,20200622-145153
+M,Core/src/game/functions/ints/count/CountSimpleType.java,eric.piette,20200622-145153
+A,Core/src/game/functions/ints/count/simple/CountActive.java,eric.piette,20200622-145153
+M,Common/res/lud/wip/Dont Connect N.lud,eric.piette,20200622-150414
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200622-151449
+M,Core/src/game/functions/dim/NumPlayers.java,eric.piette,20200622-151449
+A,Core/src/game/functions/dim/math/package-info.java,eric.piette,20200622-151449
+A,Core/src/game/functions/dim/package-info.java,eric.piette,20200622-151449
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200622-151449
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200622-151449
+M,Core/src/game/functions/directions/Directions.java,eric.piette,20200622-151603
+M,Core/src/util/state/onTrack/OnTrackIndices.java,eric.piette,20200622-153632
+M,Core/src/util/state/onTrack/OnTrackIndices.java,eric.piette,20200622-154023
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20200622-154822
+M,Core/src/metadata/graphics/Graphics.java,Matthew Stephenson,20200622-154822
+M,Core/src/metadata/graphics/container/DrawSymbol.java,Matthew Stephenson,20200622-154822
+M,Core/src/metadata/graphics/util/MetadataImageInfo.java,Matthew Stephenson,20200622-154822
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200622-154822
+M,ViewController/src/util/ImageUtil.java,Matthew Stephenson,20200622-154822
+M,ViewController/src/view/container/aspects/designs/BoardDesign.java,Matthew Stephenson,20200622-154822
+M,Common/res/lud/wip/Dont Connect N.lud,eric.piette,20200622-160016
+M,Common/res/lud/wip/Dont Connect N.lud,eric.piette,20200622-160122
+M,Common/res/lud/test/tahmina/CrossGeoG.lud,TahminaBegum,20200622-165313
+M,Common/res/lud/test/tahmina/CrossGeoProblme.lud,TahminaBegum,20200622-165313
+D,Common/res/lud/test/tahmina/Lines&Cross.lud,TahminaBegum,20200622-165313
+A,Common/res/lud/wip/GtGames/Line&Cross.lud,TahminaBegum,20200622-165313
+M,Core/src/game/functions/region/sites/wip/SitesCrossing.java,TahminaBegum,20200622-165313
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200622-171017
+M,Core/src/util/state/onTrack/OnTrackIndices.java,eric.piette,20200622-171017
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200622-171017
+M,Core/src/game/util/graph/Radials.java,Cameron Browne,20200622-172002
+M,Core/src/game/util/graph/Radials.java,Cameron Browne,20200622-172346
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200622-174728
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200622-174728
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200622-174728
+M,Core/src/util/action/move/ActionRemove.java,eric.piette,20200622-174728
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200622-174728
+D,Common/res/lud/test/tahmina/CrossGeo.lud,TahminaBegum,20200622-175226
+D,Common/res/lud/test/tahmina/CrossGeoR-B.lud,TahminaBegum,20200622-175226
+D,Common/res/lud/test/tahmina/CrossGeoR-G-B.lud,TahminaBegum,20200622-175226
+A,Common/res/lud/wip/GtGames/CrossGeo.lud,TahminaBegum,20200622-175226
+A,Common/res/lud/wip/GtGames/CrossGeoR-B.lud,TahminaBegum,20200622-175226
+A,Common/res/lud/wip/GtGames/CrossGeoR-G-B.lud,TahminaBegum,20200622-175226
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20200622-175542
+M,ViewController/src/util/ImageUtil.java,Matthew Stephenson,20200622-175542
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,eric.piette,20200622-182054
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200622-182054
+M,Core/src/util/state/onTrack/OnTrackIndices.java,eric.piette,20200622-182054
+M,Common/res/lud/wip/Dont Connect N.lud,Dennis Soemers,20200622-194021
+M,Core/src/game/rules/play/moves/effect/operators/take/Take.java,Dennis Soemers,20200622-194021
+M,Core/src/game/rules/play/moves/effect/operators/take/control/TakeControl.java,Dennis Soemers,20200622-194021
+M,Common/res/lud/test/tahmina/Centroid.lud,TahminaBegum,20200622-221224
+D,Common/res/lud/test/tahmina/CrossGeoG.lud,TahminaBegum,20200622-221224
+D,Common/res/lud/test/tahmina/CrossGeoProblme.lud,TahminaBegum,20200622-221224
+M,Common/res/lud/wip/GtGames/CrossGeo.lud,TahminaBegum,20200622-221224
+M,Common/res/lud/wip/GtGames/CrossGeoR-B.lud,TahminaBegum,20200622-221224
+M,Common/res/lud/wip/GtGames/CrossGeoR-G-B.lud,TahminaBegum,20200622-221224
+A,Common/res/lud/wip/GtGames/Crossline.lud,TahminaBegum,20200622-221224
+A,Common/res/lud/wip/Score4.lud,Cameron Browne,20200623-020552
+A,Core/src/game/functions/graph/operators/Skew.java,Cameron Browne,20200623-020552
+M,Common/res/img/svg/misc/disc.svg,Cameron Browne,20200623-023136
+A,Common/res/img/svg/misc/discFlat.svg,Cameron Browne,20200623-023136
+M,Common/res/lud/wip/Score4.lud,Cameron Browne,20200623-023136
+M,ViewController/src/util/GraphUtil.java,Matthew.Stephenson,20200623-084037
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,Matthew.Stephenson,20200623-084037
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200623-090358
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200623-090358
+M,Common/res/lud/test/eric/TestLoopTrack.lud,eric.piette,20200623-090339
+M,Core/src/game/equipment/container/board/Track.java,eric.piette,20200623-090339
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,eric.piette,20200623-090339
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200623-090339
+M,Core/src/util/action/move/ActionAddN.java,eric.piette,20200623-090339
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200623-090339
+M,Core/src/util/action/move/ActionMoveN.java,eric.piette,20200623-090339
+M,Core/src/util/state/onTrack/OnTrackIndices.java,eric.piette,20200623-090339
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-090339
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,eric.piette,20200623-092151
+M,Core/src/util/action/move/ActionMove.java,eric.piette,20200623-092151
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-092151
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200623-092926
+A,Common/res/lud/wip/Score Four.lud,Cameron Browne,20200623-093843
+D,Common/res/lud/wip/Score4.lud,Cameron Browne,20200623-093843
+M,Common/res/lud/board/space/line/Pentalath.lud,eric.piette,20200623-101135
+M,Core/src/util/Context.java,Dennis Soemers,20200623-102353
+M,PlayerDesktop/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20200623-102353
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200623-102356
+A,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-102356
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200623-102356
+M,PlayerDesktop/test/games/TestTrialSerialization.java,Dennis Soemers,20200623-102816
+A,Common/res/lud/test/eric/Pentalath2.lud,eric.piette,20200623-103425
+M,Core/src/game/functions/booleans/is/line/IsLine.java,eric.piette,20200623-103425
+A,Core/src/game/functions/booleans/is/line/IsLine2.java,eric.piette,20200623-103425
+M,Core/src/game/util/graph/Trajectories.java,eric.piette,20200623-103425
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-103425
+M,PlayerDesktop/test/games/TestTrialsIntegrity.java,Dennis Soemers,20200623-104247
+M,Core/src/game/util/graph/Trajectories.java,eric.piette,20200623-104719
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-104757
+A,Common/res/lud/board/space/line/Score Four.lud,eric.piette,20200623-105448
+D,Common/res/lud/wip/Score Four.lud,eric.piette,20200623-105448
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/race/reach/Pachisi.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/space/line/Pentalath.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/space/line/Score Four.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200623-105742
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200623-105742
+M,Common/res/lud/mathematical/nim/Nim.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/eric/MoveASubStack.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/eric/OwareWithoutStyle.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-105742
+M,Common/res/lud/test/eric/Pentalath2.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/eric/TestLoopTrack.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464).lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464, 1, Checkered).lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464, Checkered).lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T31212.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T33336.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T33344.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T33434.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T3636.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T4612.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/Graph Test - T488.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/graph/tiling/old/Graph Test - P4_442.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/tahmina/Centroid.lud,eric.piette,20200623-105742
+M,Common/res/lud/test/tahmina/Chess_board_test.lud,eric.piette,20200623-105742
+M,Common/res/lud/wip/Dont Connect N.lud,eric.piette,20200623-105742
+M,Common/res/lud/wip/GtGames/CrossGeo.lud,eric.piette,20200623-105742
+M,Common/res/lud/wip/GtGames/CrossGeoR-B.lud,eric.piette,20200623-105742
+M,Common/res/lud/wip/GtGames/Crossline.lud,eric.piette,20200623-105742
+M,Common/res/lud/wip/GtGames/Line&Cross.lud,eric.piette,20200623-105742
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200623-105742
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200623-105742
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200623-111053
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-111053
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200623-111149
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200623-111424
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200623-111824
+M,Core/src/metadata/graphics/util/MetadataFunctions.java,Dennis Soemers,20200623-112824
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Dennis Soemers,20200623-112824
+M,ViewController/src/view/container/BaseContainerStyle.java,Dennis Soemers,20200623-112824
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,Dennis Soemers,20200623-112824
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200623-113147
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,Dennis Soemers,20200623-113851
+M,Core/src/util/action/move/ActionSelect.java,Dennis Soemers,20200623-113851
+D,Common/res/lud/test/tahmina/Centroid.lud,TahminaBegum,20200623-114626
+D,Common/res/lud/test/tahmina/TCDeg.lud,TahminaBegum,20200623-114626
+A,Common/res/lud/wip/GtGames/TCDeg.lud,TahminaBegum,20200623-114626
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200623-114626
+M,Core/src/game/functions/region/sites/wip/SitesCrossing.java,TahminaBegum,20200623-114626
+D,Common/res/lud/test/tahmina/Centroid.lud,TahminaBegum,20200623-115105
+A,Common/res/lud/wip/GtGames/Centroid.lud,TahminaBegum,20200623-115105
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200623-115105
+D,Common/res/lud/board/space/line/Score Four.lud,eric.piette,20200623-115559
+D,Common/res/lud/test/eric/Pentalath2.lud,eric.piette,20200623-115559
+M,Common/res/lud/wip/Flowers.lud,eric.piette,20200623-115559
+A,Common/res/lud/wip/Score Four.lud,eric.piette,20200623-115559
+M,Core/src/game/functions/booleans/is/line/IsLine.java,eric.piette,20200623-115559
+D,Core/src/game/functions/booleans/is/line/IsLine2.java,eric.piette,20200623-115559
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-115559
+M,PlayerDesktop/src/app/display/MainWindow.java,Dennis Soemers,20200623-121634
+M,Manager/src/manager/referee/Referee.java,Dennis Soemers,20200623-123459
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-131409
+M,Core/src/game/equipment/container/other/Dice.java,eric.piette,20200623-131409
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-131409
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200623-132813
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-132813
+M,Core/src/util/Context.java,Dennis Soemers,20200623-134106
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20200623-134106
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20200623-140220
+M,Manager/src/manager/referee/Referee.java,Dennis Soemers,20200623-140220
+M,PlayerDesktop/src/app/BaseApp.java,Dennis Soemers,20200623-140220
+M,Core/src/util/action/move/ActionAddN.java,Dennis Soemers,20200623-140417
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200623-141239
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-141239
+M,Common/res/lud/wip/GtGames/Centroid.lud,eric.piette,20200623-141239
+M,Common/res/lud/wip/GtGames/TCDeg.lud,eric.piette,20200623-141239
+M,Core/src/game/functions/region/sites/player/SitesHand.java,eric.piette,20200623-141239
+M,Core/src/topology/Topology.java,eric.piette,20200623-141239
+M,Manager/src/manager/referee/Referee.java,Dennis Soemers,20200623-141743
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200623-142543
+M,Core/src/metadata/graphics/container/StackType.java,Matthew.Stephenson,20200623-142543
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200623-142543
+M,ViewController/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200623-142543
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,Matthew.Stephenson,20200623-142543
+M,ViewController/src/view/container/aspects/placement/BoardPlacement.java,Matthew.Stephenson,20200623-142543
+A,Common/res/lud/test/eric/BigPachisi.lud,eric.piette,20200623-144053
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-144053
+D,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Hawalis.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Mefuvha.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Alitev.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Bosh.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Dabuda.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/En Gehe.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/French Wari.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Halusa.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Kalah.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Kara.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Mbangbi.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Meusueb.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Oware.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Sungka.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Waurie.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Woli.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Wore.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Wouri.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/sow/two_rows/Yovodji.lud,Cameron Browne,20200623-144452
+D,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/Taikyoku Shogi.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Bao Ki Arabu (Zanzibar 1).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Bao Ki Arabu (Zanzibar 2).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Hawalis.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Hus (Damara).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Mefuvha.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Muvalavala (Luena).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/four/Owela (Benguela).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/three/Abalala'e.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Ako Okwe.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Alitev.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Aw-li On-nam Ot-tjin.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Bosh.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Dabuda.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Das Bohnenspiel.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/En Gehe.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/English Wari (St. Lucia).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/French Wari.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Halusa.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Kalah.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Kara.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Mangala (Turkey).lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Mbangbi.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Meusueb.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Oware.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Sungka.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Toguz Kumalak.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Um el-Bagara.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Unnee Tugalluulax.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Vai Lung Thlan.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Waurie.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Woli.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Wore.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Wouri.lud,Cameron Browne,20200623-144452
+A,Common/res/lud/wip/sow/two/Yovodji.lud,Cameron Browne,20200623-144452
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200623-144452
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200623-144452
+A,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Hawalis.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Mefuvha.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Alitev.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Bosh.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Dabuda.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/En Gehe.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/French Wari.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Halusa.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Kalah.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Kara.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Mbangbi.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Meusueb.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Oware.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Sungka.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Waurie.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Woli.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Wore.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Wouri.lud,Cameron Browne,20200623-145719
+A,Common/res/lud/board/sow/two_rows/Yovodji.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Bao Ki Arabu (Zanzibar 1).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Bao Ki Arabu (Zanzibar 2).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Hawalis.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Hus (Damara).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Mefuvha.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Muvalavala (Luena).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/four/Owela (Benguela).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/three/Abalala'e.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Ako Okwe.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Alitev.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Aw-li On-nam Ot-tjin.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Bosh.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Dabuda.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Das Bohnenspiel.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/En Gehe.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/English Wari (St. Lucia).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/French Wari.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Halusa.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Kalah.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Kara.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Mangala (Turkey).lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Mbangbi.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Meusueb.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Oware.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Sungka.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Toguz Kumalak.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Um el-Bagara.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Unnee Tugalluulax.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Vai Lung Thlan.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Waurie.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Woli.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Wore.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Wouri.lud,Cameron Browne,20200623-145719
+D,Common/res/lud/wip/sow/two/Yovodji.lud,Cameron Browne,20200623-145719
+M,Core/src/game/util/directions/AbsoluteDirection.java,Cameron Browne,20200623-145719
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200623-145719
+A,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Cameron Browne,20200623-145857
+D,Common/res/lud/wip/Taikyoku Shogi.lud,Cameron Browne,20200623-145857
+A,Common/res/lud/board/space/line/Score Four.lud,eric.piette,20200623-150654
+D,Common/res/lud/wip/Score Four.lud,eric.piette,20200623-150654
+M,Core/src/topology/Topology.java,Dennis Soemers,20200623-151736
+A,Common/res/lud/wip/Tic-Tac-Toe for 3.lud,Cameron Browne,20200623-151814
+M,Core/src/game/equipment/component/Piece.java,Cameron Browne,20200623-151814
+M,Common/res/lud/test/eric/BigPachisi.lud,Matthew.Stephenson,20200623-151938
+M,Core/src/metadata/graphics/container/StackType.java,Matthew.Stephenson,20200623-151938
+M,Core/src/metadata/graphics/util/PieceStackType.java,Matthew.Stephenson,20200623-151938
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200623-151938
+M,ViewController/src/util/ContainerUtil.java,Matthew.Stephenson,20200623-151938
+M,ViewController/src/util/GraphUtil.java,Matthew.Stephenson,20200623-151938
+M,ViewController/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200623-151938
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,Matthew.Stephenson,20200623-151938
+M,ViewController/src/view/container/aspects/placement/ContainerPlacement.java,Matthew.Stephenson,20200623-151938
+M,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-152722
+M,ViewController/src/view/component/custom/DieStyle.java,Matthew.Stephenson,20200623-152753
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-153123
+M,Core/src/util/state/onTrack/OnTrackIndices.java,Dennis Soemers,20200623-153150
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200623-155049
+D,Common/res/lud/test/tahmina/TCenterPuzzle.lud,TahminaBegum,20200623-155215
+A,Common/res/lud/test/tahmina/TCentrePuzzle.lud,TahminaBegum,20200623-155215
+M,Common/res/lud/wip/GtGames/Centroid.lud,TahminaBegum,20200623-155215
+M,Common/res/lud/wip/GtGames/TCDeg.lud,TahminaBegum,20200623-155215
+D,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200623-155215
+A,Core/src/game/functions/booleans/is/wip/IsTreeCentre.java,TahminaBegum,20200623-155215
+M,Core/src/game/util/directions/AbsoluteDirection.java,Cameron Browne,20200623-160602
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200623-160602
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200623-160602
+M,PlayerDesktop/src/supplementary/experiments/debugging/FindCrashingTrial.java,Dennis Soemers,20200623-160630
+M,Core/src/game/functions/booleans/is/line/IsLine.java,eric.piette,20200623-160812
+M,Common/res/lud/mathematical/graph/MaxMatch.lud,TahminaBegum,20200623-162214
+M,Common/res/lud/test/tahmina/Problem.lud,TahminaBegum,20200623-162214
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200623-162253
+M,Core/src/game/util/graph/Radials.java,Cameron Browne,20200623-162253
+M,Core/src/game/rules/play/moves/foreach/die/ForEachDie.java,eric.piette,20200623-170232
+A,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-170547
+M,Common/res/lud/test/eric/BigPachisi.lud,eric.piette,20200623-170547
+D,Common/res/lud/test/eric/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200623-170547
+M,Common/res/lud/test/tahmina/TCentrePuzzle.lud,eric.piette,20200623-170547
+M,Common/res/lud/wip/GtGames/TCDeg.lud,eric.piette,20200623-170547
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200623-170547
+M,Core/src/metadata/graphics/Graphics.java,Cameron Browne,20200623-171340
+M,Core/src/metadata/graphics/component/PieceScale.java,Cameron Browne,20200623-171340
+M,Core/src/util/state/onTrack/OnTrackIndices.java,Cameron Browne,20200623-171340
+M,ViewController/src/view/component/BaseComponentStyle.java,Cameron Browne,20200623-171340
+M,ViewController/src/view/component/custom/CardStyle.java,Cameron Browne,20200623-171340
+M,Core/src/util/state/onTrack/OnTrackIndices.java,Dennis Soemers,20200623-175139
+M,Core/src/util/state/onTrack/OnTrackIndices.java,Dennis Soemers,20200623-175254
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Half Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Saxun.lud,eric.piette,20200623-181100
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200623-181100
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200623-181100
+M,Common/res/lud/test/old/Chess (load AI test).lud,eric.piette,20200623-181100
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200623-181100
+D,Core/src/metadata/graphics/component/ShowCheck.java,eric.piette,20200623-181100
+A,Core/src/metadata/graphics/show/Show.java,eric.piette,20200623-181100
+A,Core/src/metadata/graphics/show/ShowCheckType.java,eric.piette,20200623-181100
+A,Core/src/metadata/graphics/show/check/ShowCheck.java,eric.piette,20200623-181100
+A,Core/src/metadata/graphics/show/package-info.java,eric.piette,20200623-181247
+M,Core/src/game/util/graph/Radial.java,Cameron Browne,20200624-021435
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200624-021435
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200624-022617
+A,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edge).lud,Cameron Browne,20200624-025546
+A,Common/res/lud/test/graph/operator/Graph Test - Add (Edge).lud,Cameron Browne,20200624-025546
+D,Common/res/lud/test/graph/operator/Graph Test - Add (Edges).lud,Cameron Browne,20200624-025546
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200624-025546
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200624-030246
+D,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200624-075635
+A,Common/res/lud/wip/Awithlaknannai.lud,eric.piette,20200624-075635
+D,Core/src/game/equipment/container/board/custom/SpiralBoard.java,eric.piette,20200624-080400
+A,Common/res/lud/board/space/blocking/Mu Torere.lud,eric.piette,20200624-080502
+D,Common/res/lud/wip/Mu Torere.lud,eric.piette,20200624-080502
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200624-081810
+M,PlayerDesktop/src/app/menu/MainMenu.java,Cameron Browne,20200624-081810
+D,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edge).lud,Cameron Browne,20200624-082214
+A,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges).lud,Cameron Browne,20200624-082214
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200624-082214
+A,Common/res/def/rules/play/moves/HopRotationalSequenceCapture.def,eric.piette,20200624-082913
+A,Common/res/def/rules/play/moves/HopRotationalSequenceCaptureAgain.def,eric.piette,20200624-082913
+A,Common/res/def/rules/play/moves/StepRotationalToEmpty.def,eric.piette,20200624-082913
+M,Common/res/lud/wip/Pretwa.lud,eric.piette,20200624-082913
+M,Core/src/game/util/directions/AbsoluteDirection.java,eric.piette,20200624-082913
+M,Core/src/game/util/directions/Direction.java,eric.piette,20200624-082913
+M,Core/src/game/util/directions/DirectionUniqueName.java,eric.piette,20200624-082913
+M,Core/src/game/util/directions/RotationalDirection.java,eric.piette,20200624-082913
+M,Core/src/game/util/graph/Trajectories.java,eric.piette,20200624-082913
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200624-082913
+M,ViewController/src/view/container/aspects/designs/board/WheelDesign.java,eric.piette,20200624-082913
+A,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges, Rotated).lud,Cameron Browne,20200624-083104
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200624-083104
+M,Core/src/game/functions/graph/operators/Rotate.java,Cameron Browne,20200624-083324
+A,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200624-083923
+D,Common/res/lud/wip/Awithlaknannai.lud,eric.piette,20200624-083923
+M,Core/src/metadata/graphics/util/BoardGraphicsType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/ComponentStyleType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/EdgeInfoGUI.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/EdgeType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/LineStyle.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/MetadataFunctions.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/PieceStackType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/ShowScoreType.java,Matthew.Stephenson,20200624-084521
+M,Core/src/metadata/graphics/util/ValueLocationType.java,Matthew.Stephenson,20200624-084521
+M,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200624-085129
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200624-085129
+M,Common/res/lud/test/Taikyoku Surakarta.lud,eric.piette,20200624-085129
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-085129
+D,Core/src/metadata/graphics/game/ShowScore.java,eric.piette,20200624-085129
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-085129
+A,Core/src/metadata/graphics/show/ShowScoreType.java,eric.piette,20200624-085129
+A,Core/src/metadata/graphics/show/score/ShowScore.java,eric.piette,20200624-085129
+D,Core/src/metadata/graphics/util/ShowScoreType.java,eric.piette,20200624-085129
+A,Core/src/metadata/graphics/util/WhenScoreType.java,eric.piette,20200624-085129
+M,PlayerDesktop/src/app/display/views/players/PlayerViewUser.java,eric.piette,20200624-085129
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200624-085129
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-085738
+D,Core/src/metadata/graphics/container/mancala/ShowPits.java,eric.piette,20200624-085738
+A,Core/src/metadata/graphics/show/Boolean/ShowPits.java,eric.piette,20200624-085738
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-085738
+A,Core/src/metadata/graphics/show/ShowBooleanType.java,eric.piette,20200624-085738
+M,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-090114
+D,Core/src/metadata/graphics/container/mancala/ShowPlayerHoles.java,eric.piette,20200624-090114
+A,Core/src/metadata/graphics/show/Boolean/ShowPlayerHoles.java,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/show/ShowBooleanType.java,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/show/ShowCheckType.java,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/show/ShowScoreType.java,eric.piette,20200624-090114
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200624-090114
+M,Core/src/metadata/graphics/util/EdgeType.java,Matthew.Stephenson,20200624-090252
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,eric.piette,20200624-090420
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,eric.piette,20200624-090420
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-090420
+D,Core/src/metadata/graphics/container/ShowRegionOwner.java,eric.piette,20200624-090420
+A,Core/src/metadata/graphics/show/Boolean/ShowRegionOwner.java,eric.piette,20200624-090420
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-090420
+M,Core/src/metadata/graphics/show/ShowBooleanType.java,eric.piette,20200624-090420
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200624-090420
+M,Common/src/main/math/Vector.java,Cameron Browne,20200624-092444
+M,Core/src/game/functions/graph/operators/Rotate.java,Cameron Browne,20200624-092444
+M,Core/src/game/functions/graph/operators/Scale.java,Cameron Browne,20200624-092444
+M,Core/src/game/functions/graph/operators/Shift.java,Cameron Browne,20200624-092444
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200624-092444
+M,Core/src/game/util/graph/Properties.java,Cameron Browne,20200624-092444
+M,Core/src/topology/Topology.java,Cameron Browne,20200624-092444
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,eric.piette,20200624-092618
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200624-092618
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-092618
+D,Core/src/metadata/graphics/component/ShowPieceState.java,eric.piette,20200624-092618
+D,Core/src/metadata/graphics/component/ShowPieceValue.java,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/show/Boolean/ShowPits.java,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/show/Boolean/ShowPlayerHoles.java,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/show/Boolean/ShowRegionOwner.java,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-092618
+A,Core/src/metadata/graphics/show/ShowComponentType.java,eric.piette,20200624-092618
+A,Core/src/metadata/graphics/show/component/ShowPieceState.java,eric.piette,20200624-092618
+A,Core/src/metadata/graphics/show/component/ShowPieceValue.java,eric.piette,20200624-092618
+M,Core/src/metadata/graphics/show/score/ShowScore.java,eric.piette,20200624-092618
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/sow/two_rows/Kara.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/space/blocking/Amazons.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/space/line/Ultimate Tic-Tac-Toe.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Half Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Saxun.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200624-094005
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-094005
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200624-094005
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200624-094005
+M,Common/res/lud/test/old/Chess (load AI test).lud,eric.piette,20200624-094005
+M,Common/res/lud/wip/Connect Four (x5).lud,eric.piette,20200624-094005
+M,Common/res/lud/wip/Game of the Goose.lud,eric.piette,20200624-094005
+M,Common/res/lud/wip/Spline.lud,eric.piette,20200624-094005
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-094005
+D,Core/src/metadata/graphics/component/PieceScale.java,eric.piette,20200624-094005
+A,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-094005
+A,Core/src/metadata/graphics/piece/PieceScaleType.java,eric.piette,20200624-094005
+A,Core/src/metadata/graphics/piece/scale/PieceScale.java,eric.piette,20200624-094005
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-094005
+M,.travis.yml,Dennis Soemers,20200624-094551
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200624-094803
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200624-094803
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200624-094803
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200624-094803
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200624-094803
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,eric.piette,20200624-094803
+M,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200624-094803
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200624-094803
+M,Core/src/metadata/graphics/component/PieceReflect.java,eric.piette,20200624-094803
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-094803
+A,Core/src/metadata/graphics/piece/PieceReflectType.java,eric.piette,20200624-094803
+M,Core/src/metadata/graphics/piece/scale/PieceScale.java,eric.piette,20200624-094803
+M,ViewController/src/view/container/aspects/designs/BoardDesign.java,Matthew.Stephenson,20200624-095257
+D,Common/res/lud/test/tahmina/MaxMatchG.lud,TahminaBegum,20200624-095529
+D,Common/res/lud/test/tahmina/MaxMatch_NIM.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/test/tahmina/NIMMatchR+B.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/test/tahmina/NIMMatchR-G-B.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/test/tahmina/TDepth.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/test/tahmina/TDepthNIM.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/test/tahmina/TDepthPuzzle.lud,TahminaBegum,20200624-095529
+A,Common/res/lud/wip/GtGames/NIMMatch.lud,TahminaBegum,20200624-095529
+M,Core/src/game/functions/ints/count/wip/CountTreeDepth.java,TahminaBegum,20200624-095529
+M,Common/res/lud/board/race/reach/Jungle.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200624-095732
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-095732
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200624-095732
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,eric.piette,20200624-095732
+M,Common/res/lud/puzzle/deduction/N Queens.lud,eric.piette,20200624-095732
+M,Common/res/lud/puzzle/planning/Insanity.lud,eric.piette,20200624-095732
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200624-095732
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200624-095732
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-095732
+D,Core/src/metadata/graphics/component/PieceColour.java,eric.piette,20200624-095732
+D,Core/src/metadata/graphics/component/PieceReflect.java,eric.piette,20200624-095732
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-095732
+A,Core/src/metadata/graphics/piece/PieceColourType.java,eric.piette,20200624-095732
+A,Core/src/metadata/graphics/piece/colour/PieceColour.java,eric.piette,20200624-095732
+A,Core/src/metadata/graphics/piece/reflect/PieceReflect.java,eric.piette,20200624-095732
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200624-100251
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-100251
+D,Core/src/metadata/graphics/component/PieceColourFromState.java,eric.piette,20200624-100251
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-100251
+A,Core/src/metadata/graphics/piece/PieceColourFromStateType.java,eric.piette,20200624-100251
+A,Core/src/metadata/graphics/piece/colourFromState/PieceColourFromState.java,eric.piette,20200624-100251
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200624-100450
+M,Core/src/game/util/directions/AbsoluteDirection.java,eric.piette,20200624-100614
+M,Core/src/game/util/directions/Direction.java,eric.piette,20200624-100614
+M,Core/src/game/util/directions/DirectionUniqueName.java,eric.piette,20200624-100614
+M,Core/src/game/util/directions/RotationalDirection.java,eric.piette,20200624-100614
+M,Core/src/game/util/graph/Trajectories.java,eric.piette,20200624-100614
+M,ViewController/src/view/container/aspects/designs/board/WheelDesign.java,eric.piette,20200624-100614
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200624-101039
+D,Core/src/metadata/graphics/container/DrawAsCurve.java,Matthew.Stephenson,20200624-101039
+M,ViewController/src/view/container/aspects/designs/BoardDesign.java,Matthew.Stephenson,20200624-101039
+M,ViewController/src/view/container/aspects/designs/board/graph/GraphDesign.java,Matthew.Stephenson,20200624-101039
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges).lud,Cameron Browne,20200624-102050
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges, Rotated).lud,Cameron Browne,20200624-102050
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200624-102050
+M,Core/src/game/functions/graph/operators/Rotate.java,Cameron Browne,20200624-102050
+M,Core/src/game/functions/graph/operators/Scale.java,Cameron Browne,20200624-102050
+M,Core/src/game/functions/graph/operators/Shift.java,Cameron Browne,20200624-102050
+M,Core/src/game/functions/graph/operators/Skew.java,Cameron Browne,20200624-102050
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200624-102050
+M,Core/src/game/util/graph/Trajectories.java,Cameron Browne,20200624-102050
+M,Core/src/game/functions/region/sites/simple/SitesPending.java,Dennis Soemers,20200624-102619
+M,Common/res/lud/board/hunt/Haretavl.lud,eric.piette,20200624-103506
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,eric.piette,20200624-103506
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200624-103506
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-103506
+D,Core/src/metadata/graphics/component/PieceForeground.java,eric.piette,20200624-103506
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-103506
+A,Core/src/metadata/graphics/piece/PieceForegroundType.java,eric.piette,20200624-103506
+A,Core/src/metadata/graphics/piece/foreground/PieceForeground.java,eric.piette,20200624-103506
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200624-103506
+M,Common/res/lud/board/race/reach/Jungle.lud,eric.piette,20200624-105346
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200624-105346
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200624-105346
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-105346
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200624-105346
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-105346
+D,Core/src/metadata/graphics/component/PieceBackground.java,eric.piette,20200624-105346
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-105346
+D,Core/src/metadata/graphics/piece/PieceForegroundType.java,eric.piette,20200624-105346
+A,Core/src/metadata/graphics/piece/PieceGroundType.java,eric.piette,20200624-105346
+D,Core/src/metadata/graphics/piece/foreground/PieceForeground.java,eric.piette,20200624-105346
+A,Core/src/metadata/graphics/piece/ground/PieceBackground.java,eric.piette,20200624-105346
+A,Core/src/metadata/graphics/piece/ground/PieceForeground.java,eric.piette,20200624-105346
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200624-105644
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200624-105644
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200624-105644
+M,Common/res/lud/board/hunt/Adugo.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Bagh Guti.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Baghchal.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Haretavl.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Half Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Saxun.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200624-111643
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200624-111643
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200624-111643
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200624-111643
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,eric.piette,20200624-111643
+M,Common/res/lud/test/eric/MoveASubStack.lud,eric.piette,20200624-111643
+M,Common/res/lud/test/old/Chess (load AI test).lud,eric.piette,20200624-111643
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-111643
+D,Core/src/metadata/graphics/component/PieceFamilies.java,eric.piette,20200624-111643
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-111643
+A,Core/src/metadata/graphics/piece/PieceFamiliesType.java,eric.piette,20200624-111643
+A,Core/src/metadata/graphics/piece/families/PieceFamilies.java,eric.piette,20200624-111643
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200624-112542
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200624-112542
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,eric.piette,20200624-112542
+M,Common/res/lud/puzzle/deduction/N Queens.lud,eric.piette,20200624-112542
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200624-112542
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-112542
+D,Core/src/metadata/graphics/component/PieceNameExtension.java,eric.piette,20200624-112542
+D,Core/src/metadata/graphics/component/PieceNameReplacement.java,eric.piette,20200624-112542
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-112542
+A,Core/src/metadata/graphics/piece/PieceNameType.java,eric.piette,20200624-112542
+A,Core/src/metadata/graphics/piece/name/PieceNameExtension.java,eric.piette,20200624-112542
+A,Core/src/metadata/graphics/piece/name/PieceNameReplacement.java,eric.piette,20200624-112542
+M,Core/src/game/equipment/Equipment.java,Dennis Soemers,20200624-112827
+A,Common/res/lud/test/tahmina/MultipleEdgesTest.lud,TahminaBegum,20200624-114912
+M,Core/src/game/functions/booleans/is/path/IsPath.java,TahminaBegum,20200624-114912
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200624-122556
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-122556
+D,Core/src/metadata/graphics/component/ComponentStyle.java,eric.piette,20200624-122556
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-122556
+A,Core/src/metadata/graphics/piece/PieceStyleType.java,eric.piette,20200624-122556
+A,Core/src/metadata/graphics/piece/style/PieceStyle.java,eric.piette,20200624-122556
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,eric.piette,20200624-123457
+M,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200624-123457
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-123457
+D,Core/src/metadata/graphics/component/AddStateToName.java,eric.piette,20200624-123457
+D,Core/src/metadata/graphics/component/package-info.java,eric.piette,20200624-123457
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-123457
+M,Core/src/metadata/graphics/piece/PieceNameType.java,eric.piette,20200624-123457
+A,Core/src/metadata/graphics/piece/name/PieceNameStateAdded.java,eric.piette,20200624-123457
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,eric.piette,20200624-124420
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200624-124420
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200624-124420
+M,Core/src/metadata/graphics/show/Show.java,eric.piette,20200624-124420
+A,Core/src/metadata/graphics/show/ShowComponentDataType.java,eric.piette,20200624-124420
+M,Core/src/metadata/graphics/show/ShowComponentType.java,eric.piette,20200624-124420
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200624-125527
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200624-125527
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,eric.piette,20200624-125527
+M,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200624-125527
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,eric.piette,20200624-125527
+M,Common/res/lud/puzzle/deduction/N Queens.lud,eric.piette,20200624-125527
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200624-125527
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-125527
+M,Core/src/metadata/graphics/piece/Piece.java,eric.piette,20200624-125527
+M,Core/src/metadata/graphics/piece/PieceNameType.java,eric.piette,20200624-125527
+A,Core/src/metadata/graphics/piece/name/PieceAddStateToName.java,eric.piette,20200624-125527
+A,Core/src/metadata/graphics/piece/name/PieceExtendName.java,eric.piette,20200624-125527
+D,Core/src/metadata/graphics/piece/name/PieceNameExtension.java,eric.piette,20200624-125527
+D,Core/src/metadata/graphics/piece/name/PieceNameReplacement.java,eric.piette,20200624-125527
+D,Core/src/metadata/graphics/piece/name/PieceNameStateAdded.java,eric.piette,20200624-125527
+A,Core/src/metadata/graphics/piece/name/PieceRename.java,eric.piette,20200624-125527
+M,Common/res/lud/board/hunt/Adugo.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Bagh Guti.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Kaooa.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/space/line/Picaria.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/space/line/Symbol S.2.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200624-130339
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/DisPath.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/MaxMatch.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/Sim.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/Two-colour.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/Wagner.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/puzzle/Hamiltonian Maze.lud,eric.piette,20200624-130339
+M,Common/res/lud/mathematical/graph/puzzle/Icosian.lud,eric.piette,20200624-130339
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/TestBugGame.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/graph/Graph Test - Alquerque (6).lud,eric.piette,20200624-130339
+M,Common/res/lud/test/old/Example.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/old/Example2.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/parser/TestParserGraphOkay.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Apex.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Apex2.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/CaterpillerTwoplayers.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Icosian2.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Icosian3.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Icosian4.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/MultipleEdgesTest.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/NIMMatchR+B.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/NIMMatchR-G-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Problem.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/Sim Test Floats.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/SpanningTree.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/TCentrePuzzle.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/TDepth.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/TDepthNIM.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/TDepthPuzzle.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/rupsG.lud,eric.piette,20200624-130339
+M,Common/res/lud/test/tahmina/rupsG2.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/Centroid.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/CrossGeo.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/CrossGeoR-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/CrossGeoR-G-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/Crossline.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/DegEqualA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/DegEqualD.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/ForkTree.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/Hackenbush.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/HackenbushR-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/HackenbushR-G-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/K-DegreeA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/LastEdge.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/LastEdgeR-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/LastEdgeR-G-B.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/Line&Cross.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/Mint.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/NIMMatch.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/NoRegA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/NoRegD.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/PathOrTree.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/RegoeA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/RegoeD.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/RupsA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/RupsD.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/SpanTreeA.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/SpanTreeD.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/TCDeg.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/TOmega.lud,eric.piette,20200624-130339
+M,Common/res/lud/wip/GtGames/k-DegreeD.lud,eric.piette,20200624-130339
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-130339
+D,Core/src/metadata/graphics/container/DrawEdges.java,eric.piette,20200624-130339
+A,Core/src/metadata/graphics/draw/Draw.java,eric.piette,20200624-130339
+A,Core/src/metadata/graphics/draw/DrawEdgeType.java,eric.piette,20200624-130339
+A,Core/src/metadata/graphics/draw/edges/DrawEdges.java,eric.piette,20200624-130339
+M,Common/res/lud/board/race/escape/20 Squares.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/reach/Ashtapada.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/reach/Jungle.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200624-131305
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/tafl/Brandub.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200624-131305
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,eric.piette,20200624-131305
+M,Common/res/lud/test/eric/BigPachisi.lud,eric.piette,20200624-131305
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-131305
+D,Core/src/metadata/graphics/container/DrawSymbol.java,eric.piette,20200624-131305
+M,Core/src/metadata/graphics/draw/Draw.java,eric.piette,20200624-131305
+A,Core/src/metadata/graphics/draw/DrawSymbolType.java,eric.piette,20200624-131305
+A,Core/src/metadata/graphics/draw/symbol/DrawSymbol.java,eric.piette,20200624-131305
+A,Common/res/lud/test/tahmina/CostTest.lud,TahminaBegum,20200624-131744
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew.Stephenson,20200624-131802
+M,ViewController/src/bridge/ViewControllerFactory.java,Matthew.Stephenson,20200624-131802
+A,ViewController/src/view/container/aspects/designs/board/IsometricDesign.java,Matthew.Stephenson,20200624-131802
+A,ViewController/src/view/container/styles/board/IsometricStyle.java,Matthew.Stephenson,20200624-131802
+M,Common/res/lud/test/tahmina/CostTest.lud,eric.piette,20200624-132159
+M,Core/src/util/action/graph/ActionSetCost.java,eric.piette,20200624-132159
+M,Core/src/game/functions/ints/board/Cost.java,eric.piette,20200624-132723
+M,Core/src/metadata/graphics/Graphics.java,eric.piette,20200624-133216
+A,Core/src/metadata/graphics/board/Board.java,eric.piette,20200624-133216
+A,Core/src/metadata/graphics/board/BoardShapeType.java,eric.piette,20200624-133216
+A,Core/src/metadata/graphics/board/shape/BoardShape.java,eric.piette,20200624-133216
+D,Core/src/metadata/graphics/container/mancala/BoardShape.java,eric.piette,20200624-133216

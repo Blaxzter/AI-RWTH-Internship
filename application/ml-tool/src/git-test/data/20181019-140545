@@ -1,0 +1,107 @@
+A,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/Node.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/finalmoveselection/FinalMoveSelectionStrategy.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/finalmoveselection/RobustChild.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/selection/SelectionStrategy.java,Dennis Soemers,20181017-142154
+A,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20181017-142154
+M,Library/src/game/Game.java,Dennis Soemers,20181017-142154
+M,Library/src/util/AI.java,Dennis Soemers,20181017-142154
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/DBView.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/ManagePane.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/button/DeleteButton.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/button/UpdateButton.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/renderer/ManageEditor.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/renderer/ManageRenderer.java,Eric.Piette,20181017-144506
+M,Player/src/mainView/MainView.java,Eric.Piette,20181017-144506
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181017-144506
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181017-144704
+M,Player/src/dbView/ManagePane.java,Eric.Piette,20181017-150418
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181017-150418
+M,Player/src/dbView/renderer/ManageEditor.java,Eric.Piette,20181017-150418
+M,Player/src/dbView/renderer/ManageRenderer.java,Eric.Piette,20181017-150418
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181017-151559
+M,Library/src/util/Context.java,Dennis Soemers,20181017-151559
+M,Library/src/util/state/State.java,Dennis Soemers,20181017-151559
+A,Library/src/game/functions/booleans/MaxTurn.java,Eric.Piette,20181017-154425
+M,Player/src/mainView/MainView.java,Eric.Piette,20181017-154425
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181017-155626
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181017-155626
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181017-161720
+M,Library/src/game/functions/booleans/MaxTurn.java,Eric.Piette,20181017-164051
+M,Player/src/mainView/MainView.java,Eric.Piette,20181017-165604
+A,Library/src/game/functions/booleans/One.java,eric.piette,20181017-172041
+M,Player/src/mainView/MainView.java,eric.piette,20181017-172041
+M,Player/src/dbView/DBTableModel.java,eric.piette,20181017-172327
+M,Player/src/dbView/button/LoadButton.java,eric.piette,20181017-172327
+M,Player/src/dbView/button/LoadButton.java,eric.piette,20181017-174653
+M,Player/src/mainView/MainView.java,eric.piette,20181017-174653
+M,Player/src/player/Referee.java,eric.piette,20181017-175823
+M,AI/src/search/mcts/Node.java,Dennis Soemers,20181017-205747
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181017-220156
+M,AI/src/search/mcts/Node.java,Dennis Soemers,20181017-220156
+M,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20181017-220156
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/ManagePane.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/button/DeleteButton.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/button/UpdateButton.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/renderer/ManageEditor.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/renderer/ManageRenderer.java,Eric.Piette,20181018-094354
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181018-102850
+M,Player/src/dbView/DBView.java,Eric.Piette,20181018-102850
+M,Player/src/dbView/ManagePane.java,Eric.Piette,20181018-102850
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181018-102850
+M,Player/src/dbView/renderer/DatabaseTableCellRenderer.java,Eric.Piette,20181018-102850
+M,Player/src/player/MainMenu.java,Eric.Piette,20181018-102850
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181018-102850
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181018-132346
+M,Player/src/dbView/DBView.java,Eric.Piette,20181018-132346
+A,Player/src/dbView/Game.java,Eric.Piette,20181018-132346
+A,Player/src/dbView/Size.java,Eric.Piette,20181018-132346
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181018-132346
+M,Player/src/dbView/renderer/DatabaseTableCellRenderer.java,Eric.Piette,20181018-132346
+A,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181018-132346
+A,Player/src/dbView/renderer/SizeCellRenderer.java,Eric.Piette,20181018-132346
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181018-144623
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181018-145141
+M,Player/src/player/MainMenu.java,Dennis Soemers,20181018-152846
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181018-152846
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181018-155448
+D,Library/src/util/action/ActionJumpingCapture.java,Eric.Piette,20181018-155448
+A,Library/src/util/action/ActionMoveRemove.java,Eric.Piette,20181018-155448
+M,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20181018-161218
+M,Library/src/game/rules/start/Place.java,cambolbro,20181018-164211
+M,Library/src/game/rules/start/PlaceRandomly.java,cambolbro,20181018-164211
+M,Library/src/util/action/ActionAdd.java,cambolbro,20181018-164211
+M,Library/src/util/action/ActionMove.java,cambolbro,20181018-164211
+M,Library/src/util/action/ActionRemove.java,cambolbro,20181018-164211
+A,Library/src/util/action/ActionAddN.java,cambolbro,20181018-165915
+A,Library/src/util/action/ActionMoveN.java,cambolbro,20181018-165915
+A,Library/src/util/action/ActionRemoveN.java,cambolbro,20181018-165915
+M,Player/src/dbView/DBView.java,Eric.Piette,20181018-171414
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181018-171740
+A,AI/src/search/mcts/finalmoveselection/MaxAvgScore.java,Dennis Soemers,20181018-171740
+A,AI/src/search/mcts/selection/PlayoutSelection.java,Dennis Soemers,20181018-171740
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181018-171740
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181018-174747
+M,AI/src/search/mcts/Node.java,Dennis Soemers,20181018-174747
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20181018-174747
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20181018-174747
+M,AI/src/search/mcts/selection/PlayoutSelection.java,Dennis Soemers,20181018-174747
+M,Library/src/game/functions/sites/Adjacent.java,Eric.Piette,20181018-180122
+M,Library/src/game/functions/sites/Own.java,Eric.Piette,20181018-180122
+M,Player/src/dbView/DBView.java,eric.piette,20181019-095339
+M,Player/src/dbView/button/LoadButton.java,eric.piette,20181019-095339
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20181019-095339
+M,Player/src/mainView/MainView.java,eric.piette,20181019-095601
+A,Library/src/game/functions/booleans/Configuration.java,eric.piette,20181019-101224
+M,Library/src/util/state/State.java,Dennis Soemers,20181019-105444
+M,Library/src/game/rules/moves/Jump.java,eric.piette,20181019-115241
+A,Library/src/game/functions/booleans/If.java,eric.piette,20181019-115617
+A,Library/src/game/functions/booleans/Region.java,eric.piette,20181019-121520
+M,Player/src/dbView/button/LoadButton.java,eric.piette,20181019-140545

@@ -1,0 +1,63 @@
+M,Library/src/game/equipment/container/basis/Rect.java,Eric.Piette,20181016-103042
+M,Library/src/game/equipment/container/basis/Rect.java,Eric.Piette,20181016-103623
+M,Library/src/game/equipment/container/basis/Rect.java,Eric.Piette,20181016-104417
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181016-104417
+A,Library/src/game/rules/moves/And.java,Eric.Piette,20181016-104717
+A,Library/src/game/rules/moves/Forwards.java,Eric.Piette,20181016-104733
+A,Library/src/game/rules/moves/Backwards.java,Eric.Piette,20181016-104755
+A,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181016-104806
+M,Library/src/util/action/ActionAdd.java,Eric.Piette,20181016-104846
+M,Library/src/util/action/ActionAtomic.java,Eric.Piette,20181016-104846
+M,Library/src/util/action/ActionJumpingCapture.java,Eric.Piette,20181016-104846
+M,Library/src/util/action/ActionMove.java,Eric.Piette,20181016-104846
+M,Library/src/util/action/ActionPass.java,Eric.Piette,20181016-104846
+M,Library/src/util/action/ActionRemove.java,Eric.Piette,20181016-104846
+M,Library/src/game/rules/moves/FromTo.java,Eric.Piette,20181016-105007
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181016-105007
+M,Library/src/game/equipment/container/basis/Basis.java,Eric.Piette,20181016-123159
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181016-123159
+A,Library/src/game/functions/sites/EmptyTopColumn.java,Eric.Piette,20181016-123159
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181016-142100
+M,Library/src/game/types/Types.java,Eric.Piette,20181016-142100
+M,AI/.classpath,Dennis Soemers,20181016-160030
+M,AI/src/main/AI.java,Dennis Soemers,20181016-160030
+M,Library/src/game/Game.java,Dennis Soemers,20181016-160030
+M,Library/src/util/Context.java,Dennis Soemers,20181016-160030
+M,Library/src/util/Trial.java,Dennis Soemers,20181016-160030
+M,Library/src/util/Context.java,Dennis Soemers,20181016-160159
+M,Library/src/util/Trial.java,Dennis Soemers,20181016-160159
+M,Library/src/util/state/State.java,Eric.Piette,20181016-164026
+M,Library/src/util/state/State.java,Eric.Piette,20181016-164347
+M,AI/.classpath,Eric.Piette,20181016-172526
+M,AI/src/main/AI.java,Eric.Piette,20181016-172526
+M,Library/src/game/Game.java,Eric.Piette,20181016-172526
+M,Library/src/util/action/ActionAdd.java,Eric.Piette,20181016-172526
+M,Library/src/util/action/ActionCompound.java,Eric.Piette,20181016-172526
+M,Common/.classpath,Eric.Piette,20181016-173538
+A,Common/lib/mysql-connector-java-5.0.5-bin.jar,Eric.Piette,20181016-173538
+M,Library/src/game/play/Play.java,Eric.Piette,20181016-174215
+M,Common/.classpath,Eric.Piette,20181016-180011
+M,Library/src/util/action/ActionCompound.java,Eric.Piette,20181016-182716
+A,Library/src/game/functions/sites/Or.java,Eric.Piette,20181016-182729
+A,Library/src/game/rules/moves/LightOff.java,Eric.Piette,20181016-182802
+M,AI/.classpath,Eric.Piette,20181016-222949
+M,Library/.classpath,Eric.Piette,20181016-222949
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181016-222949
+A,Library/src/game/rules/start/PlaceRandomly.java,Eric.Piette,20181016-234634
+M,AI/.classpath,Dennis Soemers,20181017-093112
+D,AI/src/main/AI.java,Dennis Soemers,20181017-093112
+M,Library/.classpath,Dennis Soemers,20181017-093112
+M,Library/src/game/API.java,Dennis Soemers,20181017-093112
+M,Library/src/game/Game.java,Dennis Soemers,20181017-093112
+A,Library/src/util/AI.java,Dennis Soemers,20181017-093112
+M,Player/src/dbView/DBTableModel.java,Eric.Piette,20181017-094927
+M,Player/src/dbView/DBView.java,Eric.Piette,20181017-094927
+M,Player/src/dbView/ManagePane.java,Eric.Piette,20181017-094927
+A,Player/src/dbView/button/DeleteButton.java,Eric.Piette,20181017-094927
+A,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181017-094927
+A,Player/src/dbView/button/UpdateButton.java,Eric.Piette,20181017-094927
+M,Player/src/dbView/renderer/ManageEditor.java,Eric.Piette,20181017-094927
+M,Player/src/dbView/renderer/ManageRenderer.java,Eric.Piette,20181017-094927
+M,Player/src/mainView/MainView.java,Eric.Piette,20181017-094927
+A,Grammar/src/compiler/Compiler.java,cambolbro,20181017-130651
+A,Grammar/src/parser/Parser.java,cambolbro,20181017-130651

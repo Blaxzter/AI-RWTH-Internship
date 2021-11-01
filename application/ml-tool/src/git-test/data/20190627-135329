@@ -1,0 +1,421 @@
+M,Player/src/mainView/MainView.java,matthew,20190625-134319
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190625-134319
+M,Library/src/util/action/ActionPromote.java,eric.piette,20190625-135238
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190625-135910
+A,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-135910
+M,Library/src/game/rules/play/moves/decision/Step.java,eric.piette,20190625-135910
+M,Library/src/util/action/ActionPromote.java,matthew,20190625-144051
+M,Player/src/mainView/MainView.java,matthew,20190625-144051
+M,Common/img/svg/hands/hand-2-0.svg,Cameron Browne,20190625-145001
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190625-145001
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190625-145001
+M,Player/src/mainView/MainView.java,Cameron Browne,20190625-145001
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190625-145001
+M,Player/src/player/GameLoader.java,Cameron Browne,20190625-145001
+M,Player/src/player/MainMenu.java,Cameron Browne,20190625-145001
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190625-145001
+M,Player/src/player/experiments/old/EvalSideBias.java,Cameron Browne,20190625-145001
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190625-145001
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20190625-145001
+M,Player/test/games/OnePlayoutByGameTest.java,Cameron Browne,20190625-145001
+M,AI/src/function_approx/BoostedLinearFunction.java,DennisSoemers,20190625-150343
+M,AI/src/function_approx/LinearFunction.java,DennisSoemers,20190625-150343
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190625-150343
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190625-152318
+M,Features/src/features/FeatureSet.java,Cameron Browne,20190625-152824
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190625-152824
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190625-152824
+M,Library/src/game/Game.java,Cameron Browne,20190625-152824
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20190625-152824
+M,Library/src/game/rules/start/SetCount.java,Cameron Browne,20190625-152824
+M,Library/src/util/Context.java,Cameron Browne,20190625-152824
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190625-152824
+M,Player/src/player/Referee.java,Cameron Browne,20190625-152824
+M,Player/src/player/experiments/Match.java,Cameron Browne,20190625-152824
+M,Player/src/player/experiments/old/EvalSideBias.java,Cameron Browne,20190625-152824
+M,Player/src/player/experiments/old/PruneAtomicFeatureSet.java,Cameron Browne,20190625-152824
+M,Player/src/player/experiments/old/RunTournament.java,Cameron Browne,20190625-152824
+M,Player/src/player/experiments/old/TestExpertIteration.java,Cameron Browne,20190625-152824
+M,Player/src/player/game_logs/MatchRecord.java,Cameron Browne,20190625-152824
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20190625-152824
+M,Player/test/games/OnePlayoutByGameTest.java,Cameron Browne,20190625-152824
+A,Player/src/Network/LudiiClientSocket.java,matthew,20190625-153027
+A,Player/src/Network/LudiiServerSocket.java,matthew,20190625-153027
+A,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-153027
+M,Player/src/player/MainMenu.java,matthew,20190625-153027
+M,Player/src/player/PlayerApp.java,matthew,20190625-153027
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190625-153302
+D,Player/src/player/experiments/old/PruneAtomicFeatureSet.java,DennisSoemers,20190625-153510
+M,Player/src/mainView/MainView.java,Cameron Browne,20190625-155023
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190625-155023
+M,Player/src/player/experiments/training/ExpertIteration.java,Cameron Browne,20190625-155023
+M,Player/src/mainView/MainView.java,Cameron Browne,20190625-155152
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190625-155451
+M,Library/src/game/functions/booleans/And.java,eric.piette,20190625-155451
+M,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-155451
+M,Library/src/game/functions/ints/IndexOf.java,eric.piette,20190625-155451
+A,Library/src/game/functions/ints/PosPiece.java,eric.piette,20190625-155451
+M,Library/src/game/rules/end/Or.java,eric.piette,20190625-155451
+A,Library/src/game/rules/play/moves/Radial.java,eric.piette,20190625-155451
+M,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-160923
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190625-161055
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-161055
+M,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-161105
+D,Library/src/game/rules/play/moves/Radial.java,eric.piette,20190625-161105
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190625-162954
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-162954
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190625-163228
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190625-163802
+A,Library/src/game/rules/play/moves/CheckMove.java,eric.piette,20190625-163802
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-165051
+M,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-170156
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-170345
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190625-171107
+M,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190625-171107
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-171256
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-171544
+M,Library/src/util/Context.java,eric.piette,20190625-172227
+M,Library/src/util/Context.java,eric.piette,20190625-172422
+A,Library/src/game/functions/ints/Counter.java,eric.piette,20190625-172545
+A,Library/src/game/rules/play/moves/SetCounter.java,eric.piette,20190625-172912
+M,Library/src/game/Game.java,eric.piette,20190625-173007
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190625-173349
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190625-173349
+M,Player/src/mainView/panel/TabPage.java,Cameron Browne,20190625-173349
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190625-173349
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190625-173349
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20190625-173349
+M,Player/test/games/OnePlayoutByGameTest.java,Cameron Browne,20190625-173349
+M,Player/test/games/TokensTest.java,Cameron Browne,20190625-173349
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190625-173904
+A,Common/src/main/FileHandling.java,Cameron Browne,20190625-174142
+M,Player/src/mainView/panel/TabPage.java,Cameron Browne,20190625-174142
+A,AI/src/optimisers/AMSGrad.java,Dennis Soemers,20190625-215224
+A,AI/src/optimisers/DeepmindRMSProp.java,Dennis Soemers,20190625-215224
+A,AI/src/optimisers/Optimiser.java,Dennis Soemers,20190625-215224
+A,AI/src/optimisers/OptimiserFactory.java,Dennis Soemers,20190625-215224
+A,AI/src/optimisers/SGD.java,Dennis Soemers,20190625-215224
+D,AI/src/optimizers/AMSGrad.java,Dennis Soemers,20190625-215224
+D,AI/src/optimizers/DeepmindRMSProp.java,Dennis Soemers,20190625-215224
+D,AI/src/optimizers/Optimizer.java,Dennis Soemers,20190625-215224
+D,AI/src/optimizers/OptimizerFactory.java,Dennis Soemers,20190625-215224
+D,AI/src/optimizers/SGD.java,Dennis Soemers,20190625-215224
+M,Player/src/player/experiments/old/TestExpertIteration.java,Dennis Soemers,20190625-215224
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190625-215224
+A,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190626-093354
+D,Library/src/game/functions/booleans/UnderThreat.java,eric.piette,20190626-093354
+M,Common/src/main/Global.java,matthew,20190626-095451
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190626-095451
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-095451
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-095451
+M,Player/src/player/Referee.java,matthew,20190626-095451
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-095644
+M,Library/src/game/Game.java,eric.piette,20190626-095644
+M,Library/src/game/functions/ints/Counter.java,eric.piette,20190626-095644
+M,Library/src/game/rules/play/moves/If.java,eric.piette,20190626-095644
+M,Library/src/game/rules/play/moves/SetCounter.java,eric.piette,20190626-095644
+M,Library/src/ui/GameView.java,eric.piette,20190626-095644
+M,Library/src/util/Context.java,eric.piette,20190626-095644
+M,Library/src/util/state/State.java,eric.piette,20190626-095644
+M,Library/src/game/rules/play/moves/SetCounter.java,eric.piette,20190626-100145
+M,Library/src/ui/GameView.java,eric.piette,20190626-100145
+M,Common/src/main/Global.java,matthew,20190626-101018
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-101018
+M,Player/src/player/Referee.java,matthew,20190626-101018
+M,Common/src/main/Global.java,matthew,20190626-101058
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-101521
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-102411
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-102411
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-103014
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-103014
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190626-103635
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-103825
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-104252
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-104950
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-105133
+M,Player/src/player/PlayerApp.java,matthew,20190626-105614
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-105625
+M,Common/lud/hidden/Sneakthrough.lud,eric.piette,20190626-105625
+M,Library/src/game/rules/play/moves/Remove.java,eric.piette,20190626-105625
+M,Player/src/mainView/MainView.java,matthew,20190626-105815
+M,Player/src/mainView/MainView.java,matthew,20190626-105941
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-111307
+M,Player/src/player/Referee.java,matthew,20190626-111307
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-112216
+M,Player/src/player/Referee.java,matthew,20190626-112216
+M,Library/src/game/rules/play/moves/And.java,eric.piette,20190626-113258
+M,Library/src/game/rules/play/moves/SetCounter.java,eric.piette,20190626-115839
+A,Library/src/util/action/ActionSetCounter.java,eric.piette,20190626-115839
+M,Player/src/mainView/MainView.java,matthew,20190626-115943
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190626-115943
+M,Player/src/player/Referee.java,matthew,20190626-115943
+M,Common/lud/Arimaa.lud,Cameron Browne,20190626-121708
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190626-121708
+M,Common/src/graphics/svg/SVGop.java,Cameron Browne,20190626-121708
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190626-121708
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190626-121708
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190626-121708
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190626-121708
+A,Grammar/src/compiler/exceptions/BadKeywordException.java,Cameron Browne,20190626-121708
+A,Grammar/src/compiler/exceptions/CompilerException.java,Cameron Browne,20190626-121708
+M,Library/src/game/Game.java,Cameron Browne,20190626-121708
+M,Library/src/game/metadata/Metadata.java,Cameron Browne,20190626-121708
+A,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190626-121708
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-132356
+M,Player/src/mainView/MainView.java,matthew,20190626-132356
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190626-132356
+M,Player/src/player/Referee.java,matthew,20190626-132356
+M,AI/src/function_approx/LinearFunction.java,Dennis Soemers,20190626-134531
+M,AI/src/optimisers/AMSGrad.java,Dennis Soemers,20190626-134531
+M,AI/src/optimisers/DeepmindRMSProp.java,Dennis Soemers,20190626-134531
+M,AI/src/optimisers/Optimiser.java,Dennis Soemers,20190626-134531
+M,AI/src/optimisers/SGD.java,Dennis Soemers,20190626-134531
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190626-134531
+M,AI/src/utils/ExItExperience.java,Dennis Soemers,20190626-134531
+M,AI/src/utils/ExperienceBuffer.java,Dennis Soemers,20190626-134531
+M,Player/src/player/experiments/old/TestExpertIteration.java,Dennis Soemers,20190626-134531
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-134531
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190626-134538
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-134538
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190626-134538
+M,Player/src/player/Referee.java,matthew,20190626-134538
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-135249
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-135418
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-135535
+M,Player/src/player/Referee.java,matthew,20190626-135535
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-140324
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-140407
+M,Common/lud/hidden/Sneakthrough.lud,eric.piette,20190626-140407
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20190626-140407
+M,Library/src/game/functions/booleans/In.java,eric.piette,20190626-140407
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190626-140407
+M,Library/src/game/rules/play/moves/Or.java,eric.piette,20190626-140407
+A,Library/src/game/rules/start/InitLocalState.java,eric.piette,20190626-140407
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-140845
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-140929
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-141624
+M,Player/src/player/Referee.java,matthew,20190626-141624
+M,Player/src/player/Referee.java,matthew,20190626-141858
+M,Common/src/main/ArgParse.java,Dennis Soemers,20190626-142351
+M,Player/src/player/Referee.java,matthew,20190626-142618
+M,Common/src/main/StringRoutines.java,Cameron Browne,20190626-142913
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190626-142913
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20190626-142913
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190626-142913
+A,Grammar/src/compiler/exceptions/ArrayTypeNotFoundException.java,Cameron Browne,20190626-142913
+A,Grammar/src/compiler/exceptions/BadArrayElementException.java,Cameron Browne,20190626-142913
+M,Grammar/src/compiler/exceptions/BadKeywordException.java,Cameron Browne,20190626-142913
+A,Grammar/src/compiler/exceptions/CantDecomposeException.java,Cameron Browne,20190626-142913
+M,Grammar/src/compiler/exceptions/CompilerException.java,Cameron Browne,20190626-142913
+A,Grammar/src/compiler/exceptions/TerminalNotFoundException.java,Cameron Browne,20190626-142913
+A,Grammar/src/compiler/exceptions/UnknownArrayErrorException.java,Cameron Browne,20190626-142913
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190626-142913
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-143025
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-143451
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190626-144038
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-144038
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190626-144357
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-144357
+M,Player/src/player/Referee.java,matthew,20190626-144436
+M,Player/src/player/Referee.java,matthew,20190626-144617
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190626-145133
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-145711
+M,Player/src/player/Referee.java,matthew,20190626-145711
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-145832
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-150548
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-150644
+M,Player/src/player/Referee.java,matthew,20190626-150644
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-151108
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190626-151643
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-151643
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190626-151901
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-151901
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-152358
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190626-152825
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-152825
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-153354
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-153525
+M,Library/src/game/rules/play/moves/And.java,eric.piette,20190626-153525
+A,Library/src/game/rules/play/moves/SetState.java,eric.piette,20190626-153525
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190626-153525
+D,Library/src/game/rules/start/InitLocalState.java,eric.piette,20190626-153525
+M,Library/src/util/action/ActionState.java,eric.piette,20190626-153525
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,eric.piette,20190626-153525
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190626-154136
+A,Player/test/games/SanityChecks.java,Stephen,20190626-145611
+D,Player/src/player/experiments/old/TestExpertIteration.java,Dennis Soemers,20190626-163438
+M,AI/src/optimisers/DeepmindRMSProp.java,Dennis Soemers,20190626-175234
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190626-175234
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-175234
+M,Player/src/player/experiments/utils/InterruptableExperiment.java,Dennis Soemers,20190626-175234
+M,Grammar/src/compiler/ArgClass.java,Stephen,20190626-174957
+M,Grammar/src/compiler/Compiler.java,Stephen,20190626-174957
+M,Grammar/src/compiler/PlexLoader.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/BadImportException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/BadSymbolException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/BadSyntaxException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/DefineExpansionException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/InvalidOptionException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/ListNotSupportedException.java,Stephen,20190626-174957
+A,Grammar/src/compiler/exceptions/UnexpectedArrayException.java,Stephen,20190626-174957
+M,Player/test/games/ErrorHandlingTests.java,Stephen,20190626-174957
+M,Common/lud/Arimaa.lud,Cameron Browne,20190626-185501
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190626-185501
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190626-185501
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190626-190451
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-195132
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190626-210824
+M,Library/src/util/Context.java,eric.piette,20190626-211252
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,eric.piette,20190626-211252
+M,Player/test/games/CompilationTest.java,eric.piette,20190626-211252
+M,Player/test/games/EfficiencyTest.java,eric.piette,20190626-211252
+M,Player/test/games/ErrorHandlingTests.java,eric.piette,20190626-211252
+M,Player/test/games/Node.java,eric.piette,20190626-211252
+M,Player/test/games/OnePlayoutByGameTest.java,eric.piette,20190626-211252
+M,Player/test/games/SanityChecks.java,eric.piette,20190626-211252
+M,Player/test/games/TokensTest.java,eric.piette,20190626-211252
+M,Player/test/games/UCBCacheTest.java,eric.piette,20190626-211252
+M,Player/test/games/SanityChecks.java,Cameron Browne,20190626-212911
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190626-213003
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190626-213003
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190626-214551
+M,Common/src/main/Global.java,Cameron Browne,20190626-224110
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190626-224110
+M,Player/src/player/GameLoader.java,Cameron Browne,20190626-224110
+M,Player/src/player/MainMenu.java,Cameron Browne,20190626-224110
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190626-224110
+M,Player/src/player/Referee.java,Cameron Browne,20190626-224110
+M,Player/src/player/experiments/old/EvalSideBias.java,Cameron Browne,20190626-224110
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190626-224110
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20190626-224110
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190626-224110
+M,Player/test/games/OnePlayoutByGameTest.java,Cameron Browne,20190626-224110
+M,Player/test/games/SanityChecks.java,Cameron Browne,20190626-224110
+M,Common/src/main/Global.java,Cameron Browne,20190626-224240
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190626-224240
+A,Common/src/main/GameOptions.java,Cameron Browne,20190626-224338
+A,Common/src/main/Option.java,Cameron Browne,20190626-224338
+D,Grammar/src/compiler/Option.java,Cameron Browne,20190626-224338
+A,Common/lud/Chess.lud,eric.piette,20190626-233418
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20190626-233418
+M,Library/src/game/Game.java,eric.piette,20190626-233418
+M,Library/src/game/functions/booleans/And.java,eric.piette,20190626-233418
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20190626-233418
+M,Library/src/game/rules/play/moves/CheckMove.java,eric.piette,20190626-233418
+M,Player/src/Network/LudiiClientSocket.java,eric.piette,20190626-233418
+M,Player/src/Network/LudiiServerSocket.java,eric.piette,20190626-233418
+M,Player/src/mainView/MainView.java,eric.piette,20190626-233418
+M,Player/src/mainView/button/ButtonRestart.java,eric.piette,20190626-233418
+M,Player/src/mainView/dialog/NetworkDialog.java,eric.piette,20190626-233418
+M,Player/src/mainView/dialog/PromotionDialog.java,eric.piette,20190626-233418
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190626-233418
+M,Player/src/mainView/panel/ToolPanel.java,eric.piette,20190626-233418
+M,Player/src/player/GameLoader.java,eric.piette,20190626-233418
+M,Player/src/player/MainMenu.java,eric.piette,20190626-233418
+M,Player/src/player/PlayerApp.java,eric.piette,20190626-233418
+M,Player/src/player/experiments/old/EvalSideBias.java,eric.piette,20190626-233418
+M,Player/src/player/experiments/old/RunTournament.java,eric.piette,20190626-233418
+M,Library/src/game/Game.java,eric.piette,20190626-235309
+A,Library/src/game/functions/booleans/IsPending.java,eric.piette,20190626-235309
+A,Library/src/game/rules/play/moves/Pending.java,eric.piette,20190626-235309
+A,Library/src/util/action/ActionPending.java,eric.piette,20190626-235309
+M,Library/src/util/state/State.java,eric.piette,20190626-235309
+D,Common/lud/Chess (Skirmish).lud,eric.piette,20190626-235809
+A,Common/lud/Skirmish.lud,eric.piette,20190626-235809
+M,Common/lud/Chess.lud,eric.piette,20190627-014132
+A,Library/src/game/functions/ints/DirectionSite.java,eric.piette,20190627-014132
+M,Library/src/game/rules/play/moves/Pending.java,eric.piette,20190627-014132
+M,Common/lud/Chess.lud,eric.piette,20190627-014405
+M,Library/src/game/rules/play/moves/And.java,eric.piette,20190627-014405
+M,Library/src/game/rules/play/moves/Pending.java,eric.piette,20190627-014405
+M,Common/lud/Chess.lud,eric.piette,20190627-020333
+M,Library/src/game/Game.java,eric.piette,20190627-020333
+M,Library/src/util/state/State.java,eric.piette,20190627-020333
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190627-093409
+M,Player/src/Network/LudiiServerSocket.java,DennisSoemers,20190627-101647
+M,Player/src/mainView/dialog/NetworkDialog.java,DennisSoemers,20190627-101647
+M,Player/src/player/Referee.java,DennisSoemers,20190627-101647
+M,Player/src/mainView/MainView.java,matthew,20190627-102825
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,Lianne.Hufkens,20190627-104144
+M,Library/src/game/equipment/other/Regions.java,Lianne.Hufkens,20190627-104206
+M,Library/src/game/rules/start/Hints.java,Lianne.Hufkens,20190627-104206
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,Lianne.Hufkens,20190627-104349
+A,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,Lianne.Hufkens,20190627-104349
+M,Library/src/graph/Edge.java,Lianne.Hufkens,20190627-104409
+A,Library/src/game/functions/booleans/Contains.java,Lianne.Hufkens,20190627-104437
+A,Library/src/game/functions/region/BorderRegion.java,Lianne.Hufkens,20190627-104611
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190627-115225
+M,Player/src/player/Settings.java,matthew,20190627-115225
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190627-115317
+M,Library/src/game/Game.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/Fill.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/FogOfWar.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/InitScore.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/Place.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/PlaceRandomly.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/Set.java,DennisSoemers,20190627-115317
+M,Library/src/game/rules/start/SetCount.java,DennisSoemers,20190627-115317
+M,Library/src/util/Context.java,DennisSoemers,20190627-115317
+M,Library/src/util/Trial.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/MainView.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonBack.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonEnd.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonForward.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonPlayPause.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonRestart.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonStart.java,DennisSoemers,20190627-115317
+M,Player/src/mainView/button/ButtonUndo.java,DennisSoemers,20190627-115317
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190627-115317
+M,Player/src/player/Referee.java,DennisSoemers,20190627-115317
+M,Player/src/player/experiments/EvalAIsThread.java,DennisSoemers,20190627-115317
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190627-115317
+M,Player/src/player/experiments/old/EvalSideBias.java,DennisSoemers,20190627-115317
+M,Player/src/player/experiments/old/RunTournament.java,DennisSoemers,20190627-115317
+M,Player/src/player/game_logs/MatchRecord.java,DennisSoemers,20190627-115317
+M,Library/src/game/functions/booleans/Threatened.java,DennisSoemers,20190627-121145
+M,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20190627-121145
+A,Common/lud/Tic-Tac-Toe (infinite define).lud,Cameron Browne,20190627-123331
+A,Common/lud/bad file 1.lud,Cameron Browne,20190627-123331
+A,Common/lud/puzzle/deductive puzzle/Bricks2.lud,Cameron Browne,20190627-123331
+M,Common/src/main/Option.java,Cameron Browne,20190627-123331
+M,Common/src/main/StringRoutines.java,Cameron Browne,20190627-123331
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190627-123331
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190627-123331
+A,Grammar/src/compiler/exceptions/BadRangeException.java,Cameron Browne,20190627-123331
+A,Grammar/src/compiler/exceptions/BadRootException.java,Cameron Browne,20190627-123331
+A,Grammar/src/compiler/exceptions/CompilerErrorWithMessageException.java,Cameron Browne,20190627-123331
+A,Grammar/src/compiler/exceptions/NullGameException.java,Cameron Browne,20190627-123331
+A,Grammar/src/compiler/exceptions/UnclosedClauseException.java,Cameron Browne,20190627-123331
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190627-123331
+M,Player/src/player/GameLoader.java,Cameron Browne,20190627-123331
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190627-123331
+M,Player/src/player/experiments/Match.java,Cameron Browne,20190627-123331
+M,Player/src/player/experiments/old/EvalSideBias.java,Cameron Browne,20190627-123331
+M,Player/src/player/experiments/training/ExpertIteration.java,Cameron Browne,20190627-123331
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190627-123331
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20190627-123331
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190627-123331
+M,Player/test/games/OnePlayoutByGameTest.java,Cameron Browne,20190627-123331
+M,Player/test/games/SanityChecks.java,Cameron Browne,20190627-123331
+M,Common/src/gnu/trove/list/array/TIntArrayList.java,DennisSoemers,20190627-124044
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190627-124902
+M,Common/src/main/Global.java,matthew,20190627-125702
+M,Library/src/game/Game.java,matthew,20190627-125702
+M,Player/src/mainView/MainView.java,matthew,20190627-125702
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190627-125702
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190627-125702
+M,Player/src/player/PlayerApp.java,matthew,20190627-125702
+M,Player/src/player/Referee.java,matthew,20190627-125702
+M,Player/src/player/Settings.java,matthew,20190627-125702
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190627-130327
+A,Player/src/Network/LudiiSocket.java,matthew,20190627-133033
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190627-133033
+M,Player/src/player/Referee.java,matthew,20190627-133033
+M,Player/src/Network/LudiiClientSocket.java,matthew,20190627-133731
+M,Player/src/Network/LudiiServerSocket.java,matthew,20190627-133731
+M,Player/src/Network/LudiiSocket.java,matthew,20190627-133731
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190627-133731
+M,Player/src/player/Referee.java,matthew,20190627-133731
+M,Player/src/Network/LudiiSocket.java,matthew,20190627-135329
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190627-135329

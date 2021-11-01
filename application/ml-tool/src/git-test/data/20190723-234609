@@ -1,0 +1,215 @@
+M,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190721-211604
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,matthew,20190722-091113
+A,Common/res/img/svg/xiangqi/cannon_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/cannon_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/chariot_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/chariot_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/elephant_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/elephant_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/general_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/general_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/horse_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/horse_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/mandarin_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/mandarin_white.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/soldier_black.svg,Matthew.Stephenson,20190722-093429
+A,Common/res/img/svg/xiangqi/soldier_white.svg,Matthew.Stephenson,20190722-093429
+M,Library/src/game/Game.java,Cameron Browne,20190722-124246
+M,Library/src/game/mode/Mode.java,DennisSoemers,20190722-143752
+A,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190722-143752
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190722-143752
+A,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190722-143752
+D,Library/src/game/mode/model/turnBased/TurnBased.java,DennisSoemers,20190722-143752
+M,Library/src/util/Context.java,DennisSoemers,20190722-143752
+D,Common/res/lud/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-143925
+A,Common/res/lud/wip/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-143925
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190722-144257
+M,Player/test/games/OnePlayoutByGameTest.java,DennisSoemers,20190722-144257
+M,Player/test/games/SanityChecks.java,DennisSoemers,20190722-144257
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,Cameron Browne,20190722-144754
+M,Library/src/util/Move.java,DennisSoemers,20190722-155125
+M,Player/src/player/GameLoader.java,DennisSoemers,20190722-155125
+M,Common/res/lud/hidden/Sneakthrough.lud,DennisSoemers,20190722-161355
+M,Library/src/util/action/ActionHidden.java,DennisSoemers,20190722-161355
+M,Player/src/player/GameLoader.java,DennisSoemers,20190722-162105
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190722-170034
+A,Common/res/lud/Ludus Latrunculorum.lud,Eric Piette,20190722-171733
+D,Common/res/lud/wip/Ludus Latrunculorum (in progress).lud,Eric Piette,20190722-171733
+M,Library/src/game/rules/play/moves/Flanked.java,Eric Piette,20190722-171733
+M,Library/src/game/rules/play/moves/decision/To.java,Eric Piette,20190722-171733
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20190722-171733
+M,Library/src/util/state/containerState/BaseContainerState.java,Eric Piette,20190722-171733
+A,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190722-173529
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-103129
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-103532
+A,Library/src/game/equipment/component/piece/shogi/Bishop.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/GoldGeneral.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/JeweledGeneral.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/KingGeneral.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/Knight.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/Lance.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/Pawn.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedBishop.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedKnight.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedLance.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedPawn.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedRook.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/PromotedSilver.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/Rook.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/Shogi.java,Matthew.Stephenson,20190723-103837
+A,Library/src/game/equipment/component/piece/shogi/SilverGeneral.java,Matthew.Stephenson,20190723-103837
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190723-104507
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190723-104507
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190723-104507
+D,Library/src/game/equipment/component/piece/shogi/JeweledGeneral.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/shogi/King.java,Matthew.Stephenson,20190723-105219
+D,Library/src/game/equipment/component/piece/shogi/KingGeneral.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Advisor.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Cannon.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Chariot.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Elephant.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/General.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Horse.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Soldier.java,Matthew.Stephenson,20190723-105219
+A,Library/src/game/equipment/component/piece/xiangqi/Xiangqi.java,Matthew.Stephenson,20190723-105219
+D,AI/src/utils/ThinkingThread.java,DennisSoemers,20190723-105804
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190723-105804
+A,Library/src/util/ThinkingThread.java,DennisSoemers,20190723-105804
+M,Player/src/player/Referee.java,DennisSoemers,20190723-105804
+A,Library/src/game/equipment/container/board/ShogiBoard.java,Matthew.Stephenson,20190723-110323
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-110423
+M,Library/src/game/functions/region/Region.java,Eric Piette,20190723-110423
+M,Common/res/lud/Gomoku.lud,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Advisor.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Cannon.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Chariot.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Elephant.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/General.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Horse.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Jiang.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Ju.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Ma.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Pao.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Shi.java,Matthew.Stephenson,20190723-111230
+D,Library/src/game/equipment/component/piece/xiangqi/Soldier.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Xiang.java,Matthew.Stephenson,20190723-111230
+A,Library/src/game/equipment/component/piece/xiangqi/Zu.java,Matthew.Stephenson,20190723-111230
+M,Library/src/game/equipment/container/board/ShogiBoard.java,Matthew.Stephenson,20190723-111230
+M,Common/res/lud/Gomoku.lud,Matthew.Stephenson,20190723-111848
+M,Library/src/game/equipment/container/board/ShogiBoard.java,Matthew.Stephenson,20190723-111848
+M,Library/src/game/equipment/Equipment.java,Eric Piette,20190723-112459
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-113247
+M,Library/src/game/equipment/component/piece/xiangqi/Jiang.java,Eric Piette,20190723-113247
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-113425
+M,Library/src/game/functions/region/Region.java,Eric Piette,20190723-115027
+M,Library/src/game/equipment/component/Component.java,matthew,20190723-115529
+A,Player/test/hashes/HashTests.java,mrrao,20190723-111533
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190723-123855
+M,Library/src/util/ThinkingThread.java,DennisSoemers,20190723-123855
+M,Player/src/player/Referee.java,DennisSoemers,20190723-123855
+M,Library/src/game/functions/region/Around.java,Eric Piette,20190723-125002
+M,Library/src/game/functions/booleans/Threatened.java,DennisSoemers,20190723-125402
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-130154
+M,Library/src/game/rules/play/moves/decision/Slide.java,Eric Piette,20190723-130154
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-131218
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Matthew.Stephenson,20190723-131745
+A,Library/src/game/equipment/container/board/XiangqiBoard.java,Matthew.Stephenson,20190723-131745
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-131807
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-134858
+M,Library/src/game/rules/play/moves/decision/Hop.java,Eric Piette,20190723-134858
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190723-141508
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190723-141508
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190723-141508
+M,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-141624
+M,Library/src/game/types/StepType.java,Eric Piette,20190723-141624
+A,Common/res/lud/Xiangqi.lud,Eric Piette,20190723-144948
+D,Common/res/lud/wip/Xiangqi (in progress).lud,Eric Piette,20190723-144948
+A,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-150850
+M,Library/src/game/equipment/container/board/ShogiBoard.java,Eric Piette,20190723-150850
+M,Library/src/game/equipment/container/board/XiangqiBoard.java,Eric Piette,20190723-150850
+M,Library/src/game/equipment/component/piece/xiangqi/Ju.java,Eric Piette,20190723-152102
+M,Library/src/game/equipment/component/piece/xiangqi/Zu.java,Eric Piette,20190723-152102
+M,Library/src/game/equipment/component/piece/xiangqi/Jiang.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Ju.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Ma.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Pao.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Shi.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Xiang.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Xiangqi.java,Eric Piette,20190723-152235
+M,Library/src/game/equipment/component/piece/xiangqi/Zu.java,Eric Piette,20190723-152235
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190723-152515
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,DennisSoemers,20190723-152515
+M,AI/src/policies/softmax/SoftmaxPolicy.java,DennisSoemers,20190723-152515
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190723-152515
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190723-152515
+M,Library/src/util/AI.java,DennisSoemers,20190723-152515
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190723-152515
+M,Player/src/player/Referee.java,DennisSoemers,20190723-152515
+M,Player/src/player/experiments/EvalAIsThread.java,DennisSoemers,20190723-152515
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190723-152515
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,DennisSoemers,20190723-152515
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190723-152515
+D,Library/src/game/equipment/component/piece/shogi/Bishop.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Fuhyo.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Ginsho.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/GoldGeneral.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Hisha.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Kakygyo.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Keima.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/King.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Kinsho.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/Knight.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Kyosha.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/Lance.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Narigin.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Narikei.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Narikyo.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Osho.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/Pawn.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedBishop.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedKnight.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedLance.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedPawn.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedRook.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/PromotedSilver.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/Rook.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Ryuma.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Ryuo.java,Eric Piette,20190723-153330
+D,Library/src/game/equipment/component/piece/shogi/SilverGeneral.java,Eric Piette,20190723-153330
+A,Library/src/game/equipment/component/piece/shogi/Tokin.java,Eric Piette,20190723-153330
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-154716
+A,Library/src/game/equipment/component/piece/shogi/Kakugyo.java,Eric Piette,20190723-154716
+D,Library/src/game/equipment/component/piece/shogi/Kakygyo.java,Eric Piette,20190723-154716
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-155143
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-155618
+M,Library/src/game/equipment/component/piece/shogi/Osho.java,Eric Piette,20190723-155618
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-160537
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-161350
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190723-161422
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190723-161422
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190723-161422
+M,Common/res/lud/wip/Shogi (in progress).lud,Eric Piette,20190723-161516
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190723-162538
+A,Common/res/img/svg/xiangqi/xiangqi_symbol.svg,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Fuhyo.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Ginsho.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Hisha.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Kakugyo.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Keima.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Kinsho.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Kyosha.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Narigin.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Narikei.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Narikyo.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Osho.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Ryuma.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Ryuo.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/component/piece/shogi/Tokin.java,Matthew.Stephenson,20190723-163225
+M,Library/src/game/equipment/container/board/XiangqiBoard.java,Matthew.Stephenson,20190723-163225
+D,Player/src/mainView/button/ButtonPass.java,Matthew.Stephenson,20190723-175054
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190723-175054
+M,Library/src/game/equipment/component/piece/hands/Paper.java,Cameron Browne,20190723-234609
+M,Library/src/game/equipment/component/piece/hands/Rock.java,Cameron Browne,20190723-234609
+M,Library/src/game/equipment/component/piece/hands/Scissors.java,Cameron Browne,20190723-234609
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,Cameron Browne,20190723-234609

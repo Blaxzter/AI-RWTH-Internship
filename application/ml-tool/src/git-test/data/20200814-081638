@@ -1,0 +1,353 @@
+M,Common/res/def/conditions/IsInCheck.def,eric.piette,20200812-093621
+A,Common/res/lud/test/eric/Dice Shogi v2.lud,eric.piette,20200812-093621
+M,Common/res/lud/test/eric/Test.lud,eric.piette,20200812-093621
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200812-093621
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,eric.piette,20200812-093621
+M,PlayerDesktop/src/app/display/views/tabs/pages/OldStatusPage.java,eric.piette,20200812-093621
+M,PlayerDesktop/src/app/display/views/tabs/pages/StatusPage.java,eric.piette,20200812-093621
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200812-093621
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200812-095151
+D,Common/res/lud/wishlist/dlp/At-tamma.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Atarakua.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Byzantine Chess.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Chhoeu trang.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Gabata (Oromo).lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Gabata (Shoa II).lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Gabata (Shoa III).lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Gabata (Shoa IX).lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Gabata (Shoa and Adegrat).lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Ghingskoot.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Great Chess.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Jen Nai-Ch'iang.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Kechukawe.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Kolitza.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/L'ibat Iblis.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Lahemay Waladat.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Lahemay Waledat.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Lam Waladach (II).lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Lamlameta.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Li'b al-ghashim.lud,eric.piette,20200812-101009
+A,"Common/res/lud/wishlist/dlp/Li\342\200\231b al-Ghashim.lud",eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Maak Yek.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Mak Ruk.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Mak-ruk.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Mak-yek.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Moruba.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Mweso (Uganda).lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Oblong Chess.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Ouk Chatrang.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Pancha Keliya.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Pancha.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Patolli (Aztec).lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Patolli.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Puhulmuti.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Puhulmutu.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Quadruple Alquerque.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Quechucague.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Quince.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Ratti-Chitti-Bakri.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Romaya.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Santaraj.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Setereng.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Shap luk kon tseung kwan.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shatranj al-Kabir.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shatranj al-Mustatila.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shatranj ar-Rumiya.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shatranj at-Tamma.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shi Liu Kan Tsiang Kun.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Shui Yen Ho-Shang.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Sijat El Tab.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/Sitbuyin.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Sittuyin.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Tapata.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/Tshuba.lud,eric.piette,20200812-101009
+D,Common/res/lud/wishlist/dlp/noRule/Tammam.lud,eric.piette,20200812-101009
+A,Common/res/lud/wishlist/dlp/noRule/Tamman.lud,eric.piette,20200812-101009
+M,Common/res/lud/board/sow/two_rows/Woli.lud,eric.piette,20200812-102004
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,eric.piette,20200812-102943
+M,Common/res/lud/board/sow/two_rows/Yovodji.lud,eric.piette,20200812-103529
+M,Common/src/main/Constants.java,Matthew.Stephenson,20200812-111241
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200812-111241
+M,Manager/src/manager/utils/SettingsManager.java,Matthew.Stephenson,20200812-111241
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200812-111241
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200812-111241
+M,Manager/src/manager/ai/AIUtil.java,Matthew.Stephenson,20200812-115145
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200812-120546
+M,Core/src/util/model/SimulationMove.java,eric.piette,20200812-130615
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,eric.piette,20200812-130615
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,eric.piette,20200812-131743
+M,PlayerDesktop/src/app/display/views/tabs/pages/TurnsPage.java,eric.piette,20200812-132028
+M,Core/src/game/Game.java,eric.piette,20200812-133605
+M,Core/src/util/model/SimulationMove.java,eric.piette,20200812-133605
+M,PlayerDesktop/src/app/display/views/tabs/pages/TurnsPage.java,eric.piette,20200812-133605
+M,Core/src/util/model/SimulationMove.java,eric.piette,20200812-135356
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,eric.piette,20200812-135937
+M,Common/res/def/conditions/IsInCheck.def,eric.piette,20200812-145033
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200812-145033
+D,Common/res/lud/test/eric/Dice Shogi v2.lud,eric.piette,20200812-145033
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200812-145033
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200812-145904
+M,Core/.classpath,eric.piette,20200812-152550
+M,Core/src/game/functions/dim/DimConstant.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/DimFunction.java,eric.piette,20200812-162908
+D,Core/src/game/functions/dim/NumPlayers.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Abs.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Add.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Div.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Max.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Min.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Mul.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Pow.java,eric.piette,20200812-162908
+M,Core/src/game/functions/dim/math/Sub.java,eric.piette,20200812-162908
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200812-162909
+M,Manager/src/manager/referee/MoveUtil.java,Matthew.Stephenson,20200812-163845
+M,Manager/src/manager/referee/UserMoveHandler.java,Matthew.Stephenson,20200812-163845
+M,Manager/src/manager/utils/MoveVisuals.java,Matthew.Stephenson,20200812-163845
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200812-163845
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200812-163845
+M,ViewController/src/controllers/BaseController.java,Matthew.Stephenson,20200812-163845
+M,ViewController/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200812-163845
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200812-164649
+M,Common/src/main/Constants.java,Matthew.Stephenson,20200812-165145
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200812-165145
+M,Common/src/main/Constants.java,Matthew.Stephenson,20200812-165226
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200812-165226
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200812-172750
+D,PlayerDesktop/src/app/display/views/tabs/pages/OldStatusPage.java,Matthew.Stephenson,20200812-173610
+M,PlayerDesktop/src/app/display/views/tabs/pages/StatusPage.java,Matthew.Stephenson,20200812-173610
+M,Common/res/lud/test/graph/Graph Test - Quadhex.lud,Cameron Browne,20200812-174726
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20200812-174726
+M,Core/src/language/compiler/ArgTerminal.java,Cameron Browne,20200812-174726
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200812-174726
+M,Common/res/lud/test/Poly Test.lud,eric.piette,20200812-175138
+M,Common/res/lud/test/eric/Test.lud,eric.piette,20200812-175138
+M,Common/src/main/math/Polygon.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/container/board/Boardless.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/container/board/puzzle/HashiBoard.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/container/other/Deck.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/container/other/Dice.java,eric.piette,20200812-175138
+M,Core/src/game/equipment/container/other/Hand.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/BaseDimFunction.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/DimConstant.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/DimFunction.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/math/Add.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/math/Div.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/math/Max.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/math/Mul.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/math/Sub.java,eric.piette,20200812-175138
+M,Core/src/game/functions/dim/package-info.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/brick/Brick.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/brick/DiamondOrPrismOnBrick.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/brick/SpiralOnBrick.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/brick/SquareOrRectangleOnBrick.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/celtic/Celtic.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/CustomOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/DiamondOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/Hex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/HexagonOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/RectangleOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/StarOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/hex/TriangleOnHex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/mesh/CustomOnMesh.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/mesh/Mesh.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/morris/Morris.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/quadhex/Quadhex.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/square/CustomOnSquare.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/square/DiamondOnSquare.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/square/RectangleOnSquare.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/square/Square.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/Tiling.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling31212/Tiling31212.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling333333_33434/Tiling333333_33434.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33336/Tiling33336.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/CustomOn33344.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/Tiling33344.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33434/Tiling33434.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/CustomOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/DiamondOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/HexagonOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/ParallelogramOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/RectangleOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/StarOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/Tiling3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/TriangleOn3464.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/CustomOn3636.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/Tiling3636.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling4612/Tiling4612.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/CustomOn488.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/SquareOrRectangleOn488.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/CustomOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/DiamondOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/HexagonOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/RectangleOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/StarOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/Tri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/basis/tri/TriangleOnTri.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Circle.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Rectangle.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Repeat.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Shape.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Spiral.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/generators/shape/Wedge.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/operators/Add.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/operators/Layers.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/operators/Remove.java,eric.piette,20200812-175138
+M,Core/src/game/functions/graph/operators/Subdivide.java,eric.piette,20200812-175138
+M,Core/src/game/util/graph/Poly.java,eric.piette,20200812-175138
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200812-175138
+M,PlayerDesktop/test/games/symmetry/TestHexSymmetries.java,eric.piette,20200812-175138
+M,PlayerDesktop/test/games/symmetry/TestSquareSymmetries.java,eric.piette,20200812-175138
+M,PlayerDesktop/test/travis/quickTests/TestPregenGraphFunction.java,eric.piette,20200812-175138
+M,ViewController/src/view/component/custom/LargePieceStyle.java,eric.piette,20200812-175138
+M,ViewController/src/view/component/custom/TileStyle.java,eric.piette,20200812-175138
+M,Common/res/lud/test/graph/Graph Test - Quadhex.lud,Cameron Browne,20200812-183514
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20200812-183514
+M,Core/src/game/functions/dim/BaseDimFunction.java,Cameron Browne,20200812-183514
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200812-183514
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200813-102944
+M,Core/src/game/rules/play/moves/nonDecision/effect/Note.java,eric.piette,20200813-102944
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200813-111533
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200813-111533
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200813-111533
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200813-111533
+M,Core/src/game/functions/ints/trackSite/TrackSite.java,eric.piette,20200813-111533
+M,Core/src/game/functions/ints/trackSite/position/TrackSiteEndTrack.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200813-111533
+A,Core/src/game/functions/region/sites/SitesPieceType.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/SitesPlayerType.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,eric.piette,20200813-111533
+A,Core/src/game/functions/region/sites/piece/SitesStart.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesEquipmentRegion.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesHand.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesInvisible.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesMasked.java,eric.piette,20200813-111533
+D,Core/src/game/functions/region/sites/player/SitesStart.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesTrack.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesVisible.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/player/SitesWinning.java,eric.piette,20200813-111533
+M,Core/src/game/functions/region/sites/side/SitesSide.java,eric.piette,20200813-111533
+M,Core/src/game/functions/dim/math/Abs.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Add.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Div.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Max.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Min.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Mul.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Pow.java,eric.piette,20200813-111918
+M,Core/src/game/functions/dim/math/Sub.java,eric.piette,20200813-111918
+M,Core/src/game/util/graph/Poly.java,eric.piette,20200813-111918
+M,PlayerDesktop/src/app/display/util/Thumbnails.java,Matthew.Stephenson,20200813-113807
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200813-113807
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200813-114154
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200813-114154
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200813-114154
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200813-114154
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200813-114154
+A,Common/res/lud/simulation/Game of Life.lud,eric.piette,20200813-114154
+M,Common/res/lud/test/Poly Test.lud,eric.piette,20200813-114154
+D,Common/res/lud/test/eric/Game of Life.lud,eric.piette,20200813-114154
+M,Common/res/lud/test/eric/Test.lud,eric.piette,20200813-114154
+D,Common/res/lud/wip/Game of Life.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Atarakua.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Gabata (Oromo).lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Gabata (Shoa and Adegrat).lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Ghingskoot.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Lahemay Waladat.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Lamlameta.lud,eric.piette,20200813-114154
+M,"Common/res/lud/wishlist/dlp/Li\342\200\231b al-Ghashim.lud",eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Maak Yek.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Mak Ruk.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Ouk Chatrang.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Pancha Keliya.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Patolli (Aztec).lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Puhulmutu.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Quechucague.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Ratti-Chitti-Bakri.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Romaya.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Santaraj.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Shatranj al-Kabir.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Shatranj al-Mustatila.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Shatranj at-Tamma.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Shi Liu Kan Tsiang Kun.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Shui Yen Ho-Shang.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Sijat El Tab.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Sittuyin.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Tapata.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/Tshuba.lud,eric.piette,20200813-114154
+M,Common/res/lud/wishlist/dlp/noRule/Tamman.lud,eric.piette,20200813-114154
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200813-114154
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200813-114154
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200813-114154
+M,PlayerDesktop/test/travis/TravisTest.java,eric.piette,20200813-114154
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,eric.piette,20200813-114154
+A,Common/res/lud/wishlist/dlp/noRule/Tobi Shogi.lud,eric.piette,20200813-114855
+D,Common/res/lud/wishlist/dlp/noRule/Tobi-shogi.lud,eric.piette,20200813-114855
+D,Common/res/lud/wishlist/dlp/noRule/Totolospi (Arizona).lud,eric.piette,20200813-115103
+A,Common/res/lud/wishlist/dlp/noRule/Totolospi (Race).lud,eric.piette,20200813-115103
+A,Common/res/lud/wishlist/dlp/noRule/Totolospi (War).lud,eric.piette,20200813-115103
+D,Common/res/lud/wishlist/dlp/noRule/Totolospi.lud,eric.piette,20200813-115103
+D,Common/res/lud/wishlist/dlp/Arb'ata 'ashara.lud,eric.piette,20200813-115841
+A,Common/res/lud/wishlist/needReconstruction/Arb'ata 'Ashara.lud,eric.piette,20200813-115841
+M,PlayerDesktop/src/app/display/util/DesktopGraphics.java,Matthew.Stephenson,20200813-120809
+M,PlayerDesktop/test/travis/TravisTest.java,eric.piette,20200813-122742
+M,PlayerDesktop/src/app/display/dialogs/EvaluationDialog.java,Matthew.Stephenson,20200813-123133
+D,Common/res/lud/wishlist/dlp/Aringari.lud,eric.piette,20200813-130548
+A,Common/res/lud/wishlist/needReconstruction/Aringari.lud,eric.piette,20200813-130548
+D,Common/res/lud/wishlist/dlp/Ashta-kashte.lud,eric.piette,20200813-130958
+A,Common/res/lud/wishlist/dlp/noRule/Ashta-kashte.lud,eric.piette,20200813-130958
+D,Common/res/lud/wishlist/dlp/Atarakua.lud,eric.piette,20200813-131144
+A,Common/res/lud/wishlist/dlp/Kolica Atarakua.lud,eric.piette,20200813-131144
+A,Common/res/lud/wip/Awangdu.lud,eric.piette,20200813-160000
+D,Common/res/lud/wishlist/dlp/Awangdu.lud,eric.piette,20200813-160000
+M,Common/res/lud/wip/Awangdu.lud,eric.piette,20200813-164827
+A,Common/res/lud/board/war/other/Awangdu.lud,eric.piette,20200813-171011
+D,Common/res/lud/wip/Awangdu.lud,eric.piette,20200813-171011
+M,Common/res/lud/wishlist/needReconstruction/Arb'ata 'Ashara.lud,eric.piette,20200813-171011
+M,Common/res/lud/wishlist/needReconstruction/Aringari.lud,eric.piette,20200813-171011
+M,Common/res/lud/wishlist/dlp/noRule/Ashta-kashte.lud,eric.piette,20200813-171023
+M,Common/res/lud/wishlist/dlp/noRule/Tobi Shogi.lud,eric.piette,20200813-171023
+M,Common/res/lud/wishlist/dlp/noRule/Totolospi (Race).lud,eric.piette,20200813-171023
+M,Common/res/lud/wishlist/dlp/noRule/Totolospi (War).lud,eric.piette,20200813-171023
+D,Common/res/lud/wip/Kharbaga 2.lud,eric.piette,20200813-173358
+A,Common/res/lud/wip/Nim2.lud,eric.piette,20200813-173358
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200813-173358
+M,Common/res/lud/board/race/escape/XII Scripta.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/race/reach/Jungle.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200813-175249
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200813-175249
+M,Common/res/lud/math/hand/Chopsticks.lud,eric.piette,20200813-175249
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200813-175249
+M,Common/res/lud/wip/Nim2.lud,eric.piette,20200813-175249
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/Set.java,eric.piette,20200813-175249
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200813-175249
+M,Common/res/lud/math/nim/Nim.lud,eric.piette,20200813-181746
+A,Common/res/lud/test/eric/Nim (stack version).lud,eric.piette,20200813-181746
+D,Common/res/lud/wip/Nim2.lud,eric.piette,20200813-181746
+M,Core/src/util/action/state/ActionSetCount.java,eric.piette,20200813-181746
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200813-181746
+M,Common/res/lud/board/war/other/Awangdu.lud,eric.piette,20200813-224821
+M,Common/res/lud/board/war/other/Awangdu.lud,eric.piette,20200813-232304
+A,Common/res/lud/wip/Awithlaknakwe.lud,eric.piette,20200813-232304
+D,Common/res/lud/wishlist/dlp/Awithlaknakwe.lud,eric.piette,20200813-232304
+M,Core/src/game/util/graph/Graph.java,eric.piette,20200813-232304
+M,Core/src/game/util/graph/Vertex.java,eric.piette,20200813-232304
+M,Common/res/lud/wip/Awithlaknakwe.lud,eric.piette,20200813-233730
+M,Common/res/lud/wip/Awithlaknakwe.lud,eric.piette,20200814-081638

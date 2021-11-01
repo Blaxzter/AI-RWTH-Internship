@@ -1,0 +1,1665 @@
+M,Core/src/game/rules/play/moves/operators/Deal.java,eric.piette,20200423-181519
+M,Core/src/game/rules/start/Deal.java,eric.piette,20200423-181519
+M,Player/build.xml,Dennis Soemers,20200423-185007
+M,Player/res/demos/Yavalath - Puzzle.json,Dennis Soemers,20200423-185007
+D,Player/res/demos/Ludus Latrunculorum - Schaedler Reconstruction.broken_json,Dennis Soemers,20200423-203421
+A,Player/res/demos/Ludus Latrunculorum - Schaedler Reconstruction.json,Dennis Soemers,20200423-203421
+M,Player/res/demos/trials/LudusLatrunculorumSetup.trl,Dennis Soemers,20200423-203421
+M,AI/resources/Analysis/BestStartingHeuristics.csv,Dennis Soemers,20200423-211754
+M,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200423-211754
+A,Common/res/lud/bad/Gomoku_bad_metadata.lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Hex_bad_metadata.lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Tic-Tac-Toe (bad board).lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Tic-Tac-Toe (infinite define).lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Yavalath (2 players)_bad_metadata.lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Yavalath (2 players)_bad_metadata_2.lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/Yavalath (3 players)_bad_metadata.lud,Dennis Soemers,20200423-211956
+A,Common/res/lud/bad/bad file 1.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Gomoku_bad_metadata.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Hex_bad_metadata.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Tic-Tac-Toe (bad board).lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Tic-Tac-Toe (infinite define).lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Yavalath (2 players)_bad_metadata.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Yavalath (2 players)_bad_metadata_2.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/Yavalath (3 players)_bad_metadata.lud,Dennis Soemers,20200423-211956
+D,Common/res/lud/wip/bad/bad file 1.lud,Dennis Soemers,20200423-211956
+M,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200423-212357
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20200423-213130
+M,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200423-214037
+M,Player/build.xml,Dennis Soemers,20200423-215024
+M,Core/src/game/rules/play/moves/operators/logical/AllCombinations.java,Cameron Browne,20200423-234417
+A,Evaluation/src/distance/DistanceMetric.java,Cameron Browne,20200423-234417
+A,Evaluation/src/distance/Result.java,Cameron Browne,20200423-234417
+A,Evaluation/src/distance/SameName.java,Cameron Browne,20200423-234417
+M,Graphics/src/view/container/custom/board/metadata/SurakartaStyle.java,Cameron Browne,20200423-234417
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200424-000615
+M,Evaluation/src/distance/DistanceMetric.java,Cameron Browne,20200424-000615
+A,Evaluation/src/distance/Levenshtein.java,Cameron Browne,20200424-000615
+D,Evaluation/src/distance/Result.java,Cameron Browne,20200424-000615
+M,Evaluation/src/distance/SameName.java,Cameron Browne,20200424-000615
+A,Evaluation/src/distance/Score.java,Cameron Browne,20200424-000615
+M,Evaluation/src/distance/DistanceMetric.java,Cameron Browne,20200424-003510
+M,Evaluation/src/distance/Levenshtein.java,Cameron Browne,20200424-003510
+M,Evaluation/src/distance/SameName.java,Cameron Browne,20200424-003510
+M,Evaluation/src/distance/Score.java,Cameron Browne,20200424-003510
+A,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200424-003510
+D,Evaluation/src/distance/SameName.java,Cameron Browne,20200424-003615
+M,Core/src/game/Game.java,Cameron Browne,20200424-005658
+M,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200424-005658
+M,Core/src/game/types/SuitType.java,Matthew.Stephenson,20200424-075644
+M,Graphics/src/view/component/custom/CardStyle.java,Matthew.Stephenson,20200424-075644
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-084526
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,eric.piette,20200424-090103
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,eric.piette,20200424-090636
+M,Core/src/game/types/CardType.java,Cameron Browne,20200424-090828
+M,Graphics/src/view/component/custom/CardStyle.java,Cameron Browne,20200424-090828
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200424-092728
+M,Player/src/display/dialogs/PossibleConsequencesDialog.java,Matthew.Stephenson,20200424-093500
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200424-093500
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200424-093500
+M,Core/src/graph/Graph.java,mrraow,20200424-091254
+M,Core/src/util/zhash/HashedBitSet.java,mrraow,20200424-091254
+M,Core/src/util/zhash/HashedChunkSet.java,mrraow,20200424-091254
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-101545
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-101555
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-102302
+M,Common/res/lud/board/race/escape/58 Holes.lud,eric.piette,20200424-102302
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,eric.piette,20200424-102302
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,eric.piette,20200424-102302
+M,Common/res/lud/board/space/line/Dra.lud,eric.piette,20200424-102302
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200424-102302
+M,Common/res/lud/dominoes/Block.lud,eric.piette,20200424-102302
+M,Common/res/lud/test/Example.lud,eric.piette,20200424-102302
+M,Common/res/lud/test/Example2.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/Belote.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/Sim.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/SpanningTree.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/Tim.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/TimPuzzle.lud,eric.piette,20200424-102302
+M,Common/res/lud/wip/Wagner.lud,eric.piette,20200424-102302
+M,MetadataScripts/InputCSV/gamerulesets.csv,eric.piette,20200424-102302
+M,MetadataScripts/InputCSV/games.csv,eric.piette,20200424-102302
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200424-102302
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,mrraow,20200424-092353
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,mrraow,20200424-092353
+M,Core/src/util/state/containerState/BaseContainerState.java,mrraow,20200424-092353
+M,Core/src/util/state/containerState/FlatContainerState.java,mrraow,20200424-092353
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Atari Go.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Castello.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Ploy.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Press Ups.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Seega.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/ArdRi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/Brandub.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/Tablut.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200424-102612
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200424-102612
+M,MetadataScripts/InputCSV/gamerulesets.csv,eric.piette,20200424-102612
+M,MetadataScripts/InputCSV/games.csv,eric.piette,20200424-102612
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-103154
+M,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew.Stephenson,20200424-103348
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200424-103940
+M,Common/src/main/Token.java,Cameron Browne,20200424-103940
+A,Evaluation/src/distance/ZhangShasha.java,Cameron Browne,20200424-103940
+A,Evaluation/src/distance/zhang_shasha/Main.java,Cameron Browne,20200424-103940
+A,Evaluation/src/distance/zhang_shasha/Node.java,Cameron Browne,20200424-103940
+A,Evaluation/src/distance/zhang_shasha/Tree.java,Cameron Browne,20200424-103940
+M,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200424-103940
+A,Common/res/img/svg/animals/mountainlion.svg,eric.piette,20200424-104038
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-104038
+D,Player/res/demos/Ludus Latrunculorum - Schaedler Reconstruction.json,Dennis Soemers,20200424-104241
+D,Player/res/demos/trials/LudusLatrunculorumSetup.trl,Dennis Soemers,20200424-104241
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200424-105847
+M,Player/build.xml,Dennis Soemers,20200424-110940
+M,Core/src/util/state/State.java,mrraow,20200424-101352
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,mrraow,20200424-101352
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,mrraow,20200424-101352
+M,Core/src/util/state/containerState/ContainerState.java,mrraow,20200424-101352
+M,Core/src/util/state/containerState/FlatContainerState.java,mrraow,20200424-101352
+M,Core/src/util/state/puzzleState/PuzzleState.java,mrraow,20200424-101352
+M,Common/res/lud/board/hunt/Adugo.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Double Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Half Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/shogi/Minishogi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/shogi/Shogi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Matthew.Stephenson,20200424-111452
+M,Common/res/lud/test/Chess (load AI test).lud,Matthew.Stephenson,20200424-111452
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200424-111452
+D,Core/src/metadata/graphics/component/AddPieceFamily.java,Matthew.Stephenson,20200424-111452
+A,Core/src/metadata/graphics/component/PieceFamilies.java,Matthew.Stephenson,20200424-111452
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200424-111452
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200424-111452
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200424-111730
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-112322
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200424-113202
+M,Common/res/lud/board/hunt/Adugo.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Atari Go.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Castello.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Ploy.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Press Ups.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Seega.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/ArdRi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/Brandub.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/Tablut.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200424-114439
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200424-114439
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200424-114439
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-115544
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200424-115603
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-115603
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200424-115650
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200424-120130
+M,Common/src/main/Token.java,Cameron Browne,20200424-122109
+M,Evaluation/src/distance/ZhangShasha.java,Cameron Browne,20200424-122109
+M,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200424-122109
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200424-124400
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-124400
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200424-131527
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200424-131527
+M,Graphics/src/util/SettingsVC.java,Matthew.Stephenson,20200424-132324
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/BoardView.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/PlayerViewShared.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-132324
+M,Player/src/display/views/ToolView.java,Matthew.Stephenson,20200424-132324
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/utils/AIUtil.java,Matthew.Stephenson,20200424-132324
+A,Player/src/player/utils/ContextHandler.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/utils/DesktopGraphics.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/utils/GraphicsCache.java,Matthew.Stephenson,20200424-132324
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200424-132324
+M,Common/res/lud/board/hunt/Baghchal.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Haretavl.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Kaooa.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200424-132755
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,eric.piette,20200424-132755
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200424-132755
+M,Core/src/game/types/CardType.java,Cameron Browne,20200424-133357
+M,Player/build.xml,Dennis Soemers,20200424-133551
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200424-133551
+M,Graphics/src/view/component/custom/CardStyle.java,Cameron Browne,20200424-133939
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200424-135843
+M,Graphics/src/util/SettingsVC.java,Matthew.Stephenson,20200424-140012
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200424-140012
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200424-140012
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200424-140012
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200424-140012
+M,Player/src/player/utils/ContextHandler.java,Matthew.Stephenson,20200424-140012
+M,Player/src/player/utils/SettingsPlayer.java,Matthew.Stephenson,20200424-140012
+M,Common/res/lud/wip/Mehen.lud,eric.piette,20200424-140940
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200424-142555
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200424-143135
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200424-143135
+M,Core/src/util/state/containerState/BaseContainerState.java,mrraow,20200424-133359
+M,Core/src/util/state/containerState/FlatContainerState.java,mrraow,20200424-133359
+A,Core/src/util/symmetry/SymmetryUtils.java,mrraow,20200424-133359
+M,Core/src/util/symmetry/SymmetryValidator.java,mrraow,20200424-133359
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-144206
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200424-144534
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200424-145604
+M,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200424-145604
+M,Player/src/player/Referee.java,Dennis Soemers,20200424-145932
+M,Player/src/player/utils/ContextHandler.java,Dennis Soemers,20200424-145932
+D,Core/src/metadata/rules/Rules.java,Dennis Soemers,20200424-153005
+D,Core/src/metadata/rules/RulesItem.java,Dennis Soemers,20200424-153005
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Cameron Browne,20200424-154025
+M,Common/src/main/options/Option.java,Cameron Browne,20200424-154025
+M,Common/src/main/options/Ruleset.java,Cameron Browne,20200424-154025
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200424-154025
+M,Core/src/metadata/info/Info.java,Matthew.Stephenson,20200424-154809
+M,MetadataScripts/GetGamePeriods.py,Matthew.Stephenson,20200424-154809
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-154809
+M,Common/res/lud/test/TestBetAndSetPhase.lud,eric.piette,20200424-154849
+M,Core/src/game/rules/start/InitAmount.java,eric.piette,20200424-154849
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200424-154849
+M,Core/src/util/Move.java,eric.piette,20200424-155226
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200424-155226
+M,Core/src/util/state/State.java,eric.piette,20200424-155510
+M,AI/resources/Analysis/BestStartingHeuristics.csv,Dennis Soemers,20200424-155514
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-160945
+M,Core/src/util/state/State.java,eric.piette,20200424-161223
+D,Common/res/lud/board/race/reach/Game of the Goose.lud,eric.piette,20200424-161652
+A,Common/res/lud/wip/Game of the Goose.lud,eric.piette,20200424-161652
+M,Common/src/main/options/GameOptions.java,Dennis Soemers,20200424-161804
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200424-161951
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-161951
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200424-164248
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200424-164248
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200424-170354
+M,Player/src/display/views/PlayerViewShared.java,Matthew.Stephenson,20200424-170354
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200424-170354
+M,Core/src/util/Move.java,eric.piette,20200424-170826
+A,Core/src/util/action/state/ActionBet.java,eric.piette,20200424-170826
+M,Common/res/lud/wip/Game of the Goose.lud,eric.piette,20200424-171750
+A,Common/res/lud/wip/Morra.lud,eric.piette,20200424-171750
+A,Core/src/game/rules/play/moves/decision/Bet.java,eric.piette,20200424-171750
+M,Common/src/main/GameDescription.java,Dennis Soemers,20200424-171934
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200424-171934
+M,Player/src/player/MainMenuFunctions.java,Dennis Soemers,20200424-171934
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200424-171934
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200424-172013
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200424-173056
+M,Core/src/util/action/state/ActionBet.java,eric.piette,20200424-173056
+M,Core/src/util/action/state/ActionSetAmount.java,eric.piette,20200424-173056
+M,Core/src/game/rules/play/moves/decision/Bet.java,eric.piette,20200424-173408
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200424-173731
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200424-173949
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200424-174306
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200424-174311
+M,Player/src/display/views/PlayerViewShared.java,Matthew.Stephenson,20200424-175639
+A,Core/src/game/functions/ints/state/Amount.java,eric.piette,20200424-180821
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200424-190455
+M,Core/src/util/state/containerState/ContainerStateFactory.java,eric.piette,20200424-190455
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200424-201011
+M,Common/res/lud/board/hunt/Baghchal.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Haretavl.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Komikan.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,eric.piette,20200424-202221
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200424-202221
+M,Common/res/lud/wip/Game of the Goose.lud,eric.piette,20200424-202221
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200424-202221
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200424-204247
+M,Core/src/game/util/Consequence.java,eric.piette,20200424-204247
+M,Core/src/game/rules/play/moves/Moves.java,eric.piette,20200424-205329
+M,Core/src/game/util/Consequence.java,eric.piette,20200424-205329
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200424-210329
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200424-210447
+M,MetadataScripts/AddMetadata.py,Dennis Soemers,20200424-211939
+M,Common/src/main/options/Option.java,Cameron Browne,20200424-213037
+M,Graphics/src/view/container/custom/board/SpiralStyle.java,Cameron Browne,20200424-213037
+M,Common/res/lud/board/hunt/Adugo.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/escape/20 Squares.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/escape/Senet.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/fill/Salta.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/race/reach/Jungle.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/two_rows/Kara.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/sow/two_rows/Oware.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/blocking/Quantum Leap.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/blocking/Spots.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/connection/Gonnect.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/group/Manalath.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/group/Omega.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Gomoku.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Round Merels.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Spline.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Squava.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Symbol S.2.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Yavalade.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/space/line/Yavalanchor.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/chess/Chess.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Castello.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Fanorona.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Press Ups.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/other/Seega.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/mathematical/graph/Dots and Boxes.lud,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Matthew.Stephenson,20200424-225031
+M,MetadataScripts/InputCSV/Evidence.csv,Matthew.Stephenson,20200424-225031
+A,MetadataScripts/InputCSV/GameRulesets.csv,Matthew.Stephenson,20200424-225031
+A,MetadataScripts/InputCSV/Games.csv,Matthew.Stephenson,20200424-225031
+M,MetadataScripts/InputCSV/Regions.csv,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/InputCSV/gamerulesets.csv,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/InputCSV/games.csv,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/15_c_France.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Aceh.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Acholi.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Acre.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Afar.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Alfonso_X.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Anatolia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ancient_Egypt.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ancient_Nubia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Arabia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Araucania.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ashanti.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Atonga.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ba-ila.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bagara.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Baltic_Provinces.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Barbados.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bas-Congo.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bavenda.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bemba.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bende.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bengal.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Benguela.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Benin.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bihar.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Borneo.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Buganda.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Bundelkhand.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Cayman_Islands.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Chokwe.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Darod_Somaliland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Deccan.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Didinga.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Dogon.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Dra.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/East_Cape.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/England.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Eritrean_Highlands.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Fayyum_Oasis.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Gabata_Tigray.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ghana.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Grande_Comore.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Gujarat.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Haiti.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Harsha_Empire.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Hawaii.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Hoyito.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Hydra.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Iceland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Igboland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ijaw.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ikibuguzo.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Iloko.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ireland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Japan.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Jinga.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Kababish.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Kashmir.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Khasi.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Kikuyu.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Korea.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Kubuguza.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Kukuba.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Lango.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Lapland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Late_Sasanian.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Late_Tang_China.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Lembata.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Luba.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Luristan.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Maasai_Tanzania.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Macassar.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Madagascar.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Malawi.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Malaya.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Manchuria.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Marianas.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mato_Grosso.geojson,Matthew.Stephenson,20200424-225031
+A,MetadataScripts/Regions/kml/Mauritania.kml,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mba.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mesopotamia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mexico.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mizo.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Modern_Egypt.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Mongolia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Moudjeria.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Moxico.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Nagaland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Namibia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Ndyuka.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Nepal.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Northern_Iran.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Northern_Zhou.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Nsumbi.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Nsungli.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Orissa.geojson,Matthew.Stephenson,20200424-225031
+A,MetadataScripts/Regions/kml/Philip II.kml,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Rajasthan.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/SW_Africa.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sahara.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sakalava.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Samburu.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Saramacca.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Senegal_Valley.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Seychelles.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Shoa_Gojam_Begemder.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sinai.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Somaliland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/South_India.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Southeast_Indiana.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Southern_Levant.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sri_Lanka.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/St_Lucia.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sudan.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Sukuma.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Tana_River_and_Lamu.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Teesta_Valley.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Tibet.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Tiriki.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Turkey.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Umon.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Vai.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Vietnam.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Viking_Greenland.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Wales.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Western_Chalukya.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Zanzibar.geojson,Matthew.Stephenson,20200424-225031
+D,MetadataScripts/Regions/kml/Zuni.geojson,Matthew.Stephenson,20200424-225031
+M,Common/res/lud/card/War.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/mathematical/graph/Contagion.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/mathematical/graph/Dots and Boxes.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Matthew.Stephenson,20200424-230706
+M,Common/res/lud/puzzle/deduction/N Queens.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Achi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ako Okwe.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Baghchal.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Block.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Boseog Gonu.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Breakthrough.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Capture the Queen.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Castello.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Cercar La Liebre.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chaturanga.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chex.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Cross.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dala.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dama.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Dash Guti.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Demala Diviyan Keliya.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Diviyan Keliya.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Dra.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Felli.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Four-Player Hex.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Go.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Gol Ekuish.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Groups.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Halma.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Haretavl.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hewakam Keliya.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hex.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hnefatafl.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ho-Bag Gonu.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kaooa.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kara.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kensington.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Knightthrough.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Konane.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/L Game.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Los Alamos Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Nei-Pat-Kono.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Nim.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/NoGo.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/O-Pat-Kono.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Odd.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Omega.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Oware.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Picaria.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pon Chochotl.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pong Hau K'i.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Pushing Me XO.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Salta.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Seega.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Senet.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Social Distance Chess.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Spline.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Spots.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Squava.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Susan.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Symbol S.2.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Three-Player Hex.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Trax.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Triad.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tron.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/FlatLudsDir/War.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/Categories.csv,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/GameCategories.csv,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/GamePeriods.csv,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/RulesetPeriods.csv,Matthew.Stephenson,20200424-230706
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/15_c_France.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Aceh.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Acholi.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Acre.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Afar.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Alfonso_X.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Anatolia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ancient_Egypt.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ancient_Nubia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Arabia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Araucania.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ashanti.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Atonga.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ba-ila.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bagara.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Baltic_Provinces.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Barbados.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bas-Congo.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bavenda.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bemba.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bende.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bengal.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Benguela.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Benin.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bihar.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Borneo.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Buganda.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Bundelkhand.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Cayman_Islands.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Chokwe.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Darod_Somaliland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Deccan.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Didinga.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Dogon.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Dra.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/East_Cape.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/England.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Eritrean_Highlands.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Fayyum_Oasis.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Gabata_Tigray.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ghana.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Grande_Comore.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Gujarat.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Haiti.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Harsha_Empire.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Hawaii.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Hoyito.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Hydra.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Iceland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Igboland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ijaw.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ikibuguzo.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Iloko.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ireland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Japan.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Jinga.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Kababish.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Kashmir.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Khasi.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Kikuyu.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Korea.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Kubuguza.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Kukuba.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Lango.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Lapland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Late_Sasanian.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Late_Tang_China.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Lembata.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Luba.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Luristan.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Maasai_Tanzania.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Macassar.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Madagascar.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Malawi.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Malaya.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Manchuria.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Marianas.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mato_Grosso.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mauritania.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mba.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mesopotamia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mexico.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mizo.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Modern_Egypt.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Mongolia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Moudjeria.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Moxico.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Nagaland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Namibia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Ndyuka.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Nepal.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Northern_Iran.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Northern_Zhou.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Nsumbi.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Nsungli.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Orissa.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Philip_II.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Rajasthan.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/SW_Africa.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sahara.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sakalava.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Samburu.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Saramacca.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Senegal_Valley.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Seychelles.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Shoa_Gojam_Begemder.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sinai.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Somaliland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/South_India.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Southeast_Indiana.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Southern_Levant.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sri_Lanka.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/St_Lucia.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sudan.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Sukuma.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Tana_River_and_Lamu.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Teesta_Valley.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Tibet.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Tiriki.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Turkey.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Umon.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Vai.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Vietnam.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Viking_Greenland.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Wales.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Western_Chalukya.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Zanzibar.geojson,Matthew.Stephenson,20200424-230706
+A,MetadataScripts/Regions/kml/Zuni.geojson,Matthew.Stephenson,20200424-230706
+A,Common/res/lud/wip/Solomon's Game.lud,Cameron Browne,20200425-021045
+M,Core/src/game/functions/ints/state/PieceCount.java,Cameron Browne,20200425-021045
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200425-021045
+M,Graphics/src/view/container/custom/board/metadata/DotStyle.java,Cameron Browne,20200425-021045
+M,Graphics/src/view/container/custom/board/metadata/GraphStyle.java,Cameron Browne,20200425-021045
+M,Player/src/display/toolButtons/ToolButton.java,Cameron Browne,20200425-090036
+M,Player/src/display/toolButtons/ToolButton.java,Matthew Stephenson,20200425-091045
+A,Common/src/main/Description.java,Cameron Browne,20200425-093615
+D,Common/src/main/GameDescription.java,Cameron Browne,20200425-093615
+M,Common/src/main/math/Vector.java,Cameron Browne,20200425-093615
+M,Core/src/game/Game.java,Cameron Browne,20200425-093615
+M,Core/src/util/UnionFind.java,Cameron Browne,20200425-093615
+M,Evaluation/src/analysis/Complexity.java,Cameron Browne,20200425-093615
+M,Evaluation/src/distance/Levenshtein.java,Cameron Browne,20200425-093615
+M,Evaluation/src/distance/ZhangShasha.java,Cameron Browne,20200425-093615
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200425-093615
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200425-093615
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200425-093615
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200425-093615
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Cameron Browne,20200425-093615
+M,Player/src/display/views/TabView.java,Cameron Browne,20200425-093615
+M,Player/src/player/MainMenu.java,Cameron Browne,20200425-093615
+M,Player/src/player/MainMenuFunctions.java,Cameron Browne,20200425-093615
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200425-093615
+M,Player/src/player/Referee.java,Cameron Browne,20200425-093615
+M,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Cameron Browne,20200425-093615
+M,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Cameron Browne,20200425-093615
+M,Player/src/player/utils/GameLoader.java,Cameron Browne,20200425-093615
+M,Player/test/ai/TestDefaultAIs.java,Cameron Browne,20200425-093615
+M,Player/test/ai/TestHeuristicStateValues.java,Cameron Browne,20200425-093615
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200425-093615
+M,Player/test/games/EfficiencyTest.java,Cameron Browne,20200425-093615
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20200425-093615
+M,Player/test/games/FlagUsed.java,Cameron Browne,20200425-093615
+M,Player/test/games/GameFileNamesTest.java,Cameron Browne,20200425-093615
+M,Player/test/games/GraphSize.java,Cameron Browne,20200425-093615
+M,Player/test/games/ListGamesSorted.java,Cameron Browne,20200425-093615
+M,Player/test/games/MancalaCountConsistency.java,Cameron Browne,20200425-093615
+M,Player/test/games/RulesOfGame.java,Cameron Browne,20200425-093615
+M,Player/test/games/SanityChecks.java,Cameron Browne,20200425-093615
+M,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200425-093615
+M,Player/test/games/TestTrialsIntegrity.java,Cameron Browne,20200425-093615
+M,Player/test/games/TestTrialsIntegrityERIC.java,Cameron Browne,20200425-093615
+M,Player/test/games/TestTrialsIntegrityPuzzle.java,Cameron Browne,20200425-093615
+M,Player/test/games/options/CompilationTestWithOptions.java,Cameron Browne,20200425-093615
+M,Player/test/games/options/OnePlayoutPerGameTestWithOptions.java,Cameron Browne,20200425-093615
+M,Player/test/tensors/TestStateMoveTensors.java,Cameron Browne,20200425-093615
+M,Common/src/main/Token.java,Cameron Browne,20200425-100449
+M,Grammar/src/compiler/Arg.java,Cameron Browne,20200425-100449
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200425-100449
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Cameron Browne,20200425-101424
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Cameron Browne,20200425-101424
+M,Common/res/lud/wip/Game of the Goose.lud,Cameron Browne,20200425-101424
+M,Common/res/lud/wip/Solomon's Game.lud,Cameron Browne,20200425-101424
+M,Common/res/lud/wip/Wagner.lud,Cameron Browne,20200425-101424
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200425-101424
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200425-104219
+M,Player/src/display/views/ToolView.java,Cameron Browne,20200425-104219
+M,Common/res/lud/wip/Morra.lud,eric.piette,20200425-104253
+A,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200425-110110
+D,Common/res/lud/wip/Morra.lud,eric.piette,20200425-110110
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200425-110110
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,eric.piette,20200425-110550
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200425-110550
+M,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200425-110550
+M,Common/res/lud/board/space/connection/Four-Player Hex.lud,eric.piette,20200425-111910
+M,Common/res/lud/mathematical/hand/Morra.lud,eric.piette,20200425-111910
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200425-111910
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200425-111910
+A,Common/res/lud/board/war/other/Mehen.lud,eric.piette,20200425-115838
+D,Common/res/lud/wip/Mehen.lud,eric.piette,20200425-115838
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200425-120111
+M,Common/src/main/Token.java,Cameron Browne,20200425-120111
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-120111
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-120111
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200425-120111
+M,Common/src/main/Token.java,Cameron Browne,20200425-120410
+M,Grammar/src/compiler/Arg.java,Cameron Browne,20200425-120410
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-120410
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200425-120410
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200425-120552
+M,Core/src/game/functions/region/state/OccupiedBy.java,eric.piette,20200425-121236
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200425-121713
+M,Common/res/lud/board/war/other/Seega.lud,eric.piette,20200425-123115
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200425-124853
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200425-131054
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,mrraow,20200425-121615
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,mrraow,20200425-121615
+M,Core/src/util/state/containerState/BaseContainerState.java,mrraow,20200425-121615
+M,Core/src/util/state/containerState/ContainerGraphState.java,mrraow,20200425-121615
+M,Core/src/util/state/containerState/FlatContainerState.java,mrraow,20200425-121615
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200425-131719
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-131719
+D,Grammar/src/grammar/.DS_Store,Cameron Browne,20200425-131719
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-131719
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200425-131719
+D,Grammar/src/parser/SymbolInstance.java,Cameron Browne,20200425-131719
+M,Core/src/game/functions/ints/state/Move.java,Cameron Browne,20200425-133402
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-133402
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200425-134459
+M,Core/src/game/Game.java,Dennis Soemers,20200425-134608
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20200425-134608
+M,Core/src/game/functions/ints/state/Next.java,Cameron Browne,20200425-135134
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200425-135134
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200425-135134
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-135134
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-135134
+M,Player/test/games/TestTrialSerialization.java,Dennis Soemers,20200425-135500
+M,Player/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200425-135515
+M,Core/src/game/util/graph/Edge.java,GitHub,20200425-141410
+M,Core/src/game/util/graph/Face.java,GitHub,20200425-141454
+M,Core/src/game/util/graph/Graph.java,GitHub,20200425-141613
+M,Core/src/game/util/graph/Vertex.java,GitHub,20200425-141758
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20200425-142015
+M,Core/src/game/util/Between.java,GitHub,20200425-142408
+M,Common/res/lud/bad/bad file 1.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/race/reach/Pachisi.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/blocking/Amazons.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/group/Omega.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/line/Achi.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/line/Andantino.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/line/Connect6.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/line/Dala.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/war/chess/Chex.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Cameron Browne,20200425-142858
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/test/AmazonsCrashTest1.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/test/AmazonsCrashTest2.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/test/ChexUFTest.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/test/RPS5Turn.lud,Cameron Browne,20200425-142858
+M,Common/res/lud/wip/Pachisi (PachisiStyle).lud,Cameron Browne,20200425-142858
+M,Common/res/lud/wip/Santorini.lud,Cameron Browne,20200425-142858
+D,Core/src/game/functions/ints/state/Move.java,Cameron Browne,20200425-142858
+A,Core/src/game/functions/ints/state/TurnCount.java,Cameron Browne,20200425-142858
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200425-143109
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200425-143109
+M,Core/src/game/util/Card.java,GitHub,20200425-143216
+M,Common/res/lud/board/race/reach/Jungle.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Double Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/mathematical/hand/Morra.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Cameron Browne,20200425-143439
+M,Common/res/lud/test/Chess (load AI test).lud,Cameron Browne,20200425-143439
+M,Common/res/lud/wip/Safe Passage.lud,Cameron Browne,20200425-143439
+D,Core/src/game/functions/ints/state/State.java,Cameron Browne,20200425-143439
+A,Core/src/game/functions/ints/state/StateAt.java,Cameron Browne,20200425-143439
+M,Common/res/lud/bad/bad file 1.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/race/reach/Pachisi.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/blocking/Amazons.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/group/Omega.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/line/Achi.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/line/Andantino.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/line/Connect6.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/line/Dala.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/war/chess/Chex.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Cameron Browne,20200425-144053
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/test/AmazonsCrashTest1.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/test/AmazonsCrashTest2.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/test/ChexUFTest.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/test/RPS5Turn.lud,Cameron Browne,20200425-144053
+M,Common/res/lud/wip/Pachisi (PachisiStyle).lud,Cameron Browne,20200425-144053
+M,Common/res/lud/wip/Santorini.lud,Cameron Browne,20200425-144053
+M,Core/src/game/Game.java,Cameron Browne,20200425-144053
+M,Core/src/game/functions/booleans/dominoes/PipsMatch.java,Cameron Browne,20200425-144053
+M,Core/src/game/functions/booleans/state/AllPassed.java,Cameron Browne,20200425-144053
+A,Core/src/game/functions/ints/state/MoveNumber.java,Cameron Browne,20200425-144053
+D,Core/src/game/functions/ints/state/TurnCount.java,Cameron Browne,20200425-144053
+M,Core/src/game/functions/region/boardless/LineOfPlay.java,Cameron Browne,20200425-144053
+M,Core/src/game/functions/region/boardless/PlayableSites.java,Cameron Browne,20200425-144053
+M,Core/src/game/rules/play/moves/decision/FromTo.java,Cameron Browne,20200425-144053
+M,Core/src/util/Trial.java,Cameron Browne,20200425-144053
+M,Core/src/util/playout/AddToEmpty.java,Cameron Browne,20200425-144053
+M,Core/src/util/playout/FilterPlayout.java,Cameron Browne,20200425-144053
+M,Core/src/util/playout/NoRepetitionPlayout.java,Cameron Browne,20200425-144053
+M,Core/src/game/functions/booleans/dominoes/PipsMatch.java,Cameron Browne,20200425-144449
+M,Core/src/game/functions/booleans/state/AllPassed.java,Cameron Browne,20200425-144449
+A,Core/src/game/functions/ints/state/MoveCount.java,Cameron Browne,20200425-144449
+D,Core/src/game/functions/ints/state/MoveNumber.java,Cameron Browne,20200425-144449
+M,Core/src/game/functions/ints/state/StateAt.java,Cameron Browne,20200425-144449
+M,Core/src/game/functions/ints/state/Turn.java,Cameron Browne,20200425-144449
+M,Core/src/game/functions/region/boardless/LineOfPlay.java,Cameron Browne,20200425-144449
+M,Core/src/game/functions/region/boardless/PlayableSites.java,Cameron Browne,20200425-144449
+M,Core/src/game/rules/play/moves/decision/FromTo.java,Cameron Browne,20200425-144449
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,mrraow,20200425-134831
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,mrraow,20200425-134831
+M,Core/src/util/zhash/HashedChunkStack.java,mrraow,20200425-134831
+M,Core/src/game/util/Condition.java,GitHub,20200425-145207
+M,Common/res/lud/bad/bad file 1.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/race/reach/Pachisi.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/blocking/Amazons.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/group/Omega.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/line/Achi.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/line/Andantino.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/line/Connect6.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/line/Dala.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/space/territory/Reversi.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/war/chess/Chex.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Cameron Browne,20200425-145423
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/test/AmazonsCrashTest1.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/test/AmazonsCrashTest2.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/test/ChexUFTest.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/test/RPS5Turn.lud,Cameron Browne,20200425-145423
+M,Common/res/lud/wip/Pachisi (PachisiStyle).lud,Cameron Browne,20200425-145423
+M,Common/res/lud/wip/Santorini.lud,Cameron Browne,20200425-145423
+M,Core/src/game/util/Flips.java,GitHub,20200425-145556
+M,Core/src/game/util/From.java,GitHub,20200425-145935
+M,Core/src/game/util/Pair.java,GitHub,20200425-150255
+M,Core/src/game/util/Range.java,GitHub,20200425-150453
+M,Core/src/game/util/To.java,GitHub,20200425-150642
+M,Core/src/game/util/Track.java,GitHub,20200425-150905
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,Cameron Browne,20200425-150954
+M,Core/src/util/state/containerState/FlatContainerState.java,Cameron Browne,20200425-150954
+M,Grammar/src/compiler/Arg.java,Cameron Browne,20200425-150954
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20200425-150954
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200425-150954
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200425-150954
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200425-150954
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-150954
+M,Core/src/game/util/Card.java,Cameron Browne,20200425-153721
+M,Core/src/game/util/From.java,Cameron Browne,20200425-153721
+M,Core/src/game/util/To.java,Cameron Browne,20200425-153721
+M,Grammar/src/compiler/Arg.java,Cameron Browne,20200425-153721
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200425-153721
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200425-153721
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-153721
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200425-153721
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Dennis Soemers,20200425-153837
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Dennis Soemers,20200425-153837
+M,Common/res/lud/board/war/other/Mehen.lud,Dennis Soemers,20200425-153837
+M,Common/res/lud/board/war/other/Seega.lud,Dennis Soemers,20200425-153837
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Dennis Soemers,20200425-153837
+M,MetadataScripts/AddMetadata.py,Dennis Soemers,20200425-153932
+M,Player/src/player/utils/AutoIndenter.java,Dennis Soemers,20200425-154706
+M,Common/src/main/Token.java,Cameron Browne,20200425-163523
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200425-163523
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200425-163523
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-163523
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20200425-163523
+M,Grammar/src/grammar/Symbol.java,Cameron Browne,20200425-163523
+M,Common/res/lud/board/space/connection/Four-Player Hex.lud,Matthew.Stephenson,20200425-165748
+M,Common/res/lud/board/war/other/Mehen.lud,Matthew.Stephenson,20200425-165748
+M,Common/res/lud/mathematical/hand/Morra.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Achi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ako Okwe.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Baghchal.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Block.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Boseog Gonu.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Breakthrough.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Capture the Queen.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Castello.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Cercar La Liebre.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chaturanga.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chex.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Cross.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dala.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dama.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dash Guti.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Demala Diviyan Keliya.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Diviyan Keliya.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Dra.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Felli.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Four-Player Hex.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Go.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Gol Ekuish.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Groups.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Halma.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Haretavl.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hewakam Keliya.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hex.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hnefatafl.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ho-Bag Gonu.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kaooa.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kara.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kensington.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Knightthrough.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Konane.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/L Game.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Los Alamos Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mehen.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20200425-165748
+A,MetadataScripts/FlatLudsDir/Morra.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Nei-Pat-Kono.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Nim.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/NoGo.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/O-Pat-Kono.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Odd.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Omega.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Oware.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pon Chochotl.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pong Hau K'i.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Pushing Me XO.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Salta.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Seega.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Senet.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Social Distance Chess.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Spline.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Spots.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Squava.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Susan.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Symbol S.2.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Three-Player Hex.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Trax.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Triad.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tron.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/War.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/GetCategories.py,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/GetGameCategories.py,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/GetGamePeriods.py,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/GetGameRegions.py,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/OutputCSV/GameCategories.csv,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/OutputCSV/GamePeriods.csv,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/OutputCSV/RulesetPeriods.csv,Matthew.Stephenson,20200425-165748
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200425-165748
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200425-170004
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200425-170004
+M,Grammar/src/compiler/Instance.java,Cameron Browne,20200425-170004
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20200425-170004
+M,Grammar/src/grammar/Symbol.java,Cameron Browne,20200425-170004
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20200425-170624
+M,MetadataScripts/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Achi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ako Okwe.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Baghchal.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Block.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Boseog Gonu.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Breakthrough.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Capture the Queen.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Castello.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Cercar La Liebre.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chaturanga.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chex.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Cross.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dala.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dama.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dash Guti.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Demala Diviyan Keliya.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Diviyan Keliya.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Dra.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Felli.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Four-Player Hex.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Go.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Gol Ekuish.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Groups.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Halma.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Haretavl.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hewakam Keliya.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hex.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hnefatafl.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ho-Bag Gonu.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kaooa.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kara.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kensington.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Knightthrough.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Konane.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/L Game.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Los Alamos Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mehen.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Morra.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Nei-Pat-Kono.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Nim.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/NoGo.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/O-Pat-Kono.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Odd.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Omega.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Oware.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pon Chochotl.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pong Hau K'i.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Pushing Me XO.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Salta.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Seega.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Senet.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Social Distance Chess.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Spline.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Spots.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Squava.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Susan.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Symbol S.2.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Three-Player Hex.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Trax.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Triad.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tron.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/War.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/NEW RELEASE PROCESS.txt,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200425-170657
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200425-170657
+M,Player/src/player/Referee.java,Dennis Soemers,20200425-171048
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200425-180258
+M,Core/src/game/functions/booleans/space/IsBlocked.java,Dennis Soemers,20200425-215407

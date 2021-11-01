@@ -1,0 +1,116 @@
+M,Common/res/lud/wip/Tron (Real-time).lud,Matthew.Stephenson,20190803-162348
+M,Player/src/player/JFrameList.java,Matthew.Stephenson,20190803-162348
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190803-162348
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190803-191804
+A,AI/src/search/flat/FlatMonteCarloRT.java,Dennis Soemers,20190803-191804
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20190803-191804
+M,AI/src/utils/RandomAI.java,Dennis Soemers,20190803-191804
+M,Library/src/game/Game.java,Dennis Soemers,20190803-191804
+M,Library/src/util/state/StateType.java,Dennis Soemers,20190803-191804
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190803-195525
+M,Library/src/util/ListStack.java,eric.piette,20190803-195525
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,eric.piette,20190803-195525
+M,Common/res/lud/wip/War (in progress).lud,eric.piette,20190803-200348
+M,Library/src/ui/Controller.java,Matthew.Stephenson,20190803-200727
+M,Library/src/ui/GameController.java,Matthew.Stephenson,20190803-200727
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190803-200727
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190803-200951
+M,Library/src/util/action/ActionMove.java,eric.piette,20190803-201441
+M,Library/src/game/equipment/component/card/Card.java,Matthew.Stephenson,20190803-205221
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190803-205221
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190803-210911
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20190803-210911
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew.Stephenson,20190803-210911
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190803-210911
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190803-210911
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190803-210911
+A,Common/res/lud/cards/War.lud,eric.piette,20190803-211215
+D,Common/res/lud/wip/Cards 4P.lud,eric.piette,20190803-211215
+D,Common/res/lud/wip/Test Card Solitaire.lud,eric.piette,20190803-211215
+D,Common/res/lud/wip/War (in progress).lud,eric.piette,20190803-211215
+M,Library/src/game/Game.java,eric.piette,20190803-211215
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190803-211215
+M,Library/src/util/ListStack.java,eric.piette,20190803-211215
+M,Library/src/util/action/ActionMove.java,eric.piette,20190803-211215
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,eric.piette,20190803-211215
+M,Common/res/lud/cards/War.lud,eric.piette,20190803-211543
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190803-213212
+M,Common/res/lud/board/race/track/Snakes and Ladders.lud,eric.piette,20190803-213853
+M,Common/res/lud/board/race/track/Backgammon.lud,eric.piette,20190803-214508
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190803-214508
+M,Library/src/game/rules/start/Deal.java,eric.piette,20190803-214853
+M,Library/src/game/equipment/component/piece/real_time/Bike.java,Matthew.Stephenson,20190803-223655
+M,Player/src/player/JFrameList.java,Matthew.Stephenson,20190803-225307
+M,Library/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20190803-232334
+M,Library/src/game/equipment/component/piece/Ball.java,Cameron Browne,20190804-091745
+M,Library/src/game/equipment/component/piece/DominoHalf.java,Cameron Browne,20190804-091745
+M,Library/src/game/equipment/component/piece/Pill.java,Cameron Browne,20190804-091745
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190804-095901
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190804-100319
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190804-121703
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20190804-121703
+M,AI/src/search/mcts/nodes/Node.java,Dennis Soemers,20190804-121703
+M,AI/src/search/mcts/selection/McGRAVE.java,Dennis Soemers,20190804-121703
+M,Library/src/game/rules/play/moves/SetCounter.java,Dennis Soemers,20190804-121703
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20190804-123347
+M,AI/src/search/mcts/selection/UCB1.java,Dennis Soemers,20190804-123347
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20190804-123347
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190804-123347
+M,Player/src/player/JFrameList.java,Dennis Soemers,20190804-123347
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190804-161118
+M,Player/src/player/game_logs/GameLogs.java,Dennis Soemers,20190804-161118
+A,Common/src/main/GamePreference.java,Matthew.Stephenson,20190804-170458
+M,Common/src/main/Global.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/HexYBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/MorrisBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20190804-170458
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190804-170458
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190804-170458
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190804-170458
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190804-173159
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190804-175720
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20190804-175720
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20190804-175720
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190804-175720
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190804-180039
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190804-181647
+M,Common/src/main/GamePreference.java,Matthew.Stephenson,20190804-192849
+M,Common/src/main/Global.java,Matthew.Stephenson,20190804-192849
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190804-192849
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190804-192849
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190804-204722
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190804-205415
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190804-205415
+A,Common/res/lud/wip/Contagion (in progress).lud,eric.piette,20190804-222418
+M,Player/src/mainView/panel/TabSet.java,Cameron Browne,20190805-000845
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190805-083238
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Captain.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Colonel.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/General.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Lieutenant.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Major.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Marshal.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Miner.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Scout.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/component/piece/stratego/Sergeant.java,Matthew.Stephenson,20190805-090330
+M,Library/src/game/equipment/container/board/StrategoBoard.java,Matthew.Stephenson,20190805-090330
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190805-090330
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190805-091303
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190805-091603
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190805-093712
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190805-093712
+M,Library/src/util/Move.java,eric.piette,20190805-093959
+M,Player/src/network/NetworkMove.java,DennisSoemers,20190805-121505
+M,Player/src/player/Referee.java,DennisSoemers,20190805-121505
+M,AI/src/search/mcts/nodes/BaseNode.java,DennisSoemers,20190805-141556
+M,AI/src/search/mcts/nodes/Node.java,DennisSoemers,20190805-141556
+M,AI/src/search/mcts/nodes/OpenLoopNode.java,DennisSoemers,20190805-141556
+M,AI/src/search/mcts/selection/McGRAVE.java,DennisSoemers,20190805-141556
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190805-141556

@@ -1,0 +1,320 @@
+M,Player/test/ai/TestHeuristicStateValues.java,DennisSoemers,20200114-150008
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200114-150054
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200114-150054
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20200114-150054
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200114-150054
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200114-150252
+M,Core/src/game/functions/booleans/TerminusMatch.java,eric.piette,20200114-150252
+M,Core/src/game/rules/play/moves/CheckMove.java,eric.piette,20200114-150252
+M,Core/src/util/Trial.java,eric.piette,20200114-150252
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200114-151028
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200114-152732
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200114-152732
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200114-152732
+M,Common/res/lud/wip/Trax (boardless).lud,eric.piette,20200114-153213
+M,Core/src/game/equipment/component/Card.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/component/Die.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/component/Tile/Tile.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/CustomBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/ChessBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/HexYBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/LascaBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/PloyBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/ScriptaBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200114-155721
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200114-155721
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200114-155721
+M,Player/src/mainView/dialog/GameLoaderDialog.java,Matthew.Stephenson,20200114-155721
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20200114-155721
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20200114-155721
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20200114-155721
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20200114-155758
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20200114-155833
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,eric.piette,20200114-155858
+M,Core/src/game/Game.java,DennisSoemers,20200114-160110
+M,Core/src/game/playout/CheckMovePlayout.java,DennisSoemers,20200114-160110
+M,Core/src/game/rules/play/Play.java,DennisSoemers,20200114-160110
+M,Core/src/util/Trial.java,DennisSoemers,20200114-160110
+M,Core/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20200114-161204
+M,Player/src/mainView/button/ButtonEnd.java,Dennis Soemers,20200114-171031
+M,Core/src/game/Game.java,Dennis Soemers,20200114-171326
+M,Core/src/game/Game.java,Dennis Soemers,20200114-194107
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200115-092947
+M,Core/src/game/functions/booleans/IsLoop.java,eric.piette,20200115-092947
+M,Core/src/game/functions/booleans/Path.java,eric.piette,20200115-092947
+A,Core/src/game/functions/region/RegionLastToMove.java,eric.piette,20200115-092947
+M,Core/src/util/UnionFind.java,eric.piette,20200115-092947
+M,Player/src/mainView/dialog/GameLoaderDialog.java,eric.piette,20200115-092947
+D,Common/res/lud/wip/Trax (boardless).lud,eric.piette,20200115-093610
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200115-093610
+M,Core/src/game/functions/region/RegionLastToMove.java,eric.piette,20200115-093610
+M,Common/res/lud/wip/Pushing me XO.lud,eric.piette,20200115-103535
+M,Core/src/game/functions/booleans/Line.java,eric.piette,20200115-103535
+M,Core/src/game/functions/region/RegionLastToMove.java,eric.piette,20200115-103535
+A,Common/res/lud/board/space/line/Pushing me XO.lud,eric.piette,20200115-103909
+D,Common/res/lud/wip/Pushing me XO.lud,eric.piette,20200115-103909
+M,Common/res/lud/board/race/escape/58 Holes.lud,eric.piette,20200115-104753
+D,Common/res/lud/wip/58 holes - custom.lud,eric.piette,20200115-104753
+D,Common/res/lud/wip/58 holes - improved.lud,eric.piette,20200115-104753
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200115-105056
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200115-105423
+M,Common/res/lud/board/race/escape/58 Holes.lud,eric.piette,20200115-105527
+D,Common/res/lud/board/chase/tafl/Hnefatafl Fetlar.lud,eric.piette,20200115-105802
+A,Common/res/lud/board/chase/tafl/Hnefatafl.lud,eric.piette,20200115-105802
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200115-110402
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200115-110402
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20200115-110402
+A,Common/res/lud/board/space/connection/Trax.lud,eric.piette,20200115-110406
+D,Common/res/lud/wip/Trax.lud,eric.piette,20200115-110406
+M,Common/res/lud/board/capture/other/Atari Go.lud,eric.piette,20200115-110854
+M,Common/res/lud/board/space/connection/Gonnect.lud,eric.piette,20200115-110854
+M,Common/res/lud/board/space/line/Pentalath.lud,eric.piette,20200115-110854
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200115-110854
+M,Common/res/lud/wip/Go (bug).lud,eric.piette,20200115-110854
+A,Core/src/game/rules/play/moves/Enclosed.java,eric.piette,20200115-110854
+D,Core/src/game/rules/play/moves/SurroundedGroup.java,eric.piette,20200115-110854
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200115-110944
+M,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,eric.piette,20200115-120535
+M,Core/src/game/types/ShapeType.java,eric.piette,20200115-121203
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200115-124046
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/SpiralBoard.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Cross.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Hexagon.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Rect.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Shape.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/shape/Square.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/tiling/ShibumiSquare.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/tiling/Square.java,eric.piette,20200115-131443
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200115-131443
+M,Core/src/game/types/ShapeType.java,eric.piette,20200115-131443
+A,Common/res/lud/wip/TriangleTilingtest.lud,eric.piette,20200115-133034
+A,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200115-133034
+M,Core/src/game/playout/CheckMovePlayout.java,Dennis Soemers,20200115-140413
+M,Core/src/util/Trial.java,Dennis Soemers,20200115-140413
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200115-140413
+A,Core/src/game/equipment/container/board/shape/Triangle.java,eric.piette,20200115-141901
+M,AI/.classpath,Dennis Soemers,20200115-142032
+M,AI/build.xml,Dennis Soemers,20200115-142032
+M,Common/.classpath,Dennis Soemers,20200115-142032
+M,Common/build.xml,Dennis Soemers,20200115-142032
+A,Common/lib/Trove4j_ApacheCommonsRNG-sources.jar,Dennis Soemers,20200115-142032
+A,Common/lib/Trove4j_ApacheCommonsRNG.jar,Dennis Soemers,20200115-142032
+A,Common/lib/gnu/AUTHORS.txt,Dennis Soemers,20200115-142032
+A,Common/lib/gnu/LICENSE.txt,Dennis Soemers,20200115-142032
+A,Common/lib/gnu/README-idea-devel.txt,Dennis Soemers,20200115-142032
+A,Common/lib/gnu/README-license.txt,Dennis Soemers,20200115-142032
+A,Common/lib/gnu/README.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/AUTHORS.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/LICENSE.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/README-idea-devel.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/README-license.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/README.txt,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/TDoubleCollection.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/TFloatCollection.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/TIntCollection.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/TLongCollection.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/function/TDoubleFunction.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/function/TFloatFunction.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/function/TIntFunction.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/function/TLongFunction.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/function/TObjectFunction.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/Constants.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/HashFunctions.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/PrimeFinder.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/THash.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/THashIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/THashPrimitiveIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/TIntHash.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/TIntIntHash.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/TObjectHash.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/impl/hash/TPrimitiveHash.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TAdvancingIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TDoubleIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TFloatIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TIntIntIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TIntIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TIntObjectIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TLongIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TObjectDoubleIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TObjectIntIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/TPrimitiveIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/iterator/hash/TObjectHashIterator.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/TDoubleList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/TFloatList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/TIntList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/TLongList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/array/TDoubleArrayList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/array/TFloatArrayList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/array/TIntArrayList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/list/array/TLongArrayList.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/TIntIntMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/TIntObjectMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/TObjectDoubleMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/TObjectIntMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/hash/TIntObjectHashMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/hash/TObjectDoubleHashMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/map/hash/TObjectIntHashMap.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TDoubleProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TFloatProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TIntIntProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TIntObjectProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TIntProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TLongProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TObjectDoubleProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TObjectIntProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/procedure/TObjectProcedure.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/set/TIntSet.java,Dennis Soemers,20200115-142032
+D,Common/src/gnu/trove/set/hash/TIntHashSet.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/RandomProviderState.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/RestorableUniformRandomProvider.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/UniformRandomProvider.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/BaseProvider.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/RandomProviderDefaultState.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source32/AbstractWell.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source32/IntProvider.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source32/RandomIntSource.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source32/Well44497a.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source32/Well44497b.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source64/LongProvider.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source64/RandomLongSource.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/source64/SplitMix64.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/core/util/NumberFactory.java,Dennis Soemers,20200115-142032
+D,Common/src/org/apache/commons/rng/simple/internal/SeedFactory.java,Dennis Soemers,20200115-142032
+M,Core/.classpath,Dennis Soemers,20200115-142032
+M,Core/build.xml,Dennis Soemers,20200115-142032
+M,Evaluation/.classpath,Dennis Soemers,20200115-142032
+M,Evaluation/build.xml,Dennis Soemers,20200115-142032
+M,Features/.classpath,Dennis Soemers,20200115-142032
+M,Features/build.xml,Dennis Soemers,20200115-142032
+M,Player/.classpath,Dennis Soemers,20200115-142032
+M,Player/build.xml,Dennis Soemers,20200115-142032
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20200115-143719
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20200115-143719
+M,Common/build.xml,Dennis Soemers,20200115-143833
+M,Core/src/game/equipment/container/board/shape/Triangle.java,eric.piette,20200115-150233
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20200115-151636
+M,AI/src/policies/Policy.java,Dennis Soemers,20200115-151636
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20200115-151636
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20200115-151636
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20200115-151636
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20200115-151636
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20200115-151636
+M,Common/res/lud/wip/TriangleTilingtest.lud,eric.piette,20200115-155518
+M,Core/src/game/equipment/container/board/shape/Rect.java,eric.piette,20200115-155518
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200115-155518
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200115-155518
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20200115-170143
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20200115-170143
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20200115-170143
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20200115-170143
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20200115-170143
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20200115-170143
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200115-170621
+M,Core/src/graph/Vertex.java,eric.piette,20200115-170621
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200115-172618
+A,Core/src/game/rules/start/SetPhase.java,eric.piette,20200115-172618
+D,Common/res/lud/wip/DominoShapeTest.lud,eric.piette,20200115-174951
+D,Common/res/lud/wip/TestBet.lud,eric.piette,20200115-174951
+A,Common/res/lud/wip/TestBetAndSetPhase.lud,eric.piette,20200115-174951
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200115-174951
+M,Core/src/game/rules/start/SetPhase.java,eric.piette,20200115-174951
+M,Core/src/graph/Vertex.java,eric.piette,20200115-174951
+M,Core/src/util/Move.java,eric.piette,20200115-174951
+M,Core/src/util/action/ActionScore.java,eric.piette,20200115-174951
+A,Core/src/util/action/ActionSetPhase.java,eric.piette,20200115-174951
+M,Common/res/lud/wip/TestBetAndSetPhase.lud,eric.piette,20200115-175104
+M,Core/src/game/rules/start/SetPhase.java,eric.piette,20200115-175104
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200115-175631
+M,Core/src/game/equipment/container/board/tiling/Square.java,eric.piette,20200115-175631
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200115-175631
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200115-175708
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200115-175708
+M,Core/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20200115-175708
+M,Core/src/game/playout/CheckMovePlayout.java,Dennis Soemers,20200115-175708
+M,Core/src/game/playout/Playout.java,Dennis Soemers,20200115-175708
+M,Evaluation/src/analysis/Complexity.java,Dennis Soemers,20200115-175708
+A,Common/res/lud/wip/Kensington.lud,eric.piette,20200115-180306
+A,Core/src/game/equipment/container/board/tiling/Tiling3464.java,eric.piette,20200115-180306
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200115-184318
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20200115-184318
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200115-184318
+M,AI/src/search/mcts/selection/ExItSelection.java,Dennis Soemers,20200115-215948
+M,Common/src/main/Constants.java,Dennis Soemers,20200115-215948
+M,Common/src/main/FastArrayList.java,Dennis Soemers,20200115-215948
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20200116-094513
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200116-095123
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200116-095202
+M,Core/src/game/equipment/container/board/shape/Triangle.java,eric.piette,20200116-100531
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200116-100531
+M,Core/src/graph/Vertex.java,eric.piette,20200116-100531
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200116-100935
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,Matthew.Stephenson,20200116-100935
+M,Common/res/lud/wip/Kensington.lud,eric.piette,20200116-101928
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200116-101928
+M,Core/src/game/equipment/container/board/tiling/Tiling3464.java,eric.piette,20200116-101928
+M,Core/src/util/UnionInfo.java,Dennis Soemers,20200116-102615
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200116-102615
+M,Core/src/game/equipment/container/board/tiling/Tiling3464.java,eric.piette,20200116-102712
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200116-104408
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,Matthew.Stephenson,20200116-104408
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200116-105010
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,Matthew.Stephenson,20200116-105010
+M,Core/src/game/Game.java,Dennis Soemers,20200116-112846
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200116-112846
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200116-120340
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200116-120830
+M,Core/src/game/Game.java,Dennis Soemers,20200116-123500
+M,Core/src/game/functions/booleans/BooleanFunction.java,Dennis Soemers,20200116-123500
+M,Core/src/game/functions/ints/Freedom.java,Dennis Soemers,20200116-123500
+M,Core/src/game/playout/CheckMovePlayout.java,Dennis Soemers,20200116-123500
+M,Core/src/game/rules/play/moves/Or.java,Dennis Soemers,20200116-123500
+M,Core/src/game/rules/play/moves/decision/Pass.java,Dennis Soemers,20200116-123500
+M,Core/src/util/Trial.java,Dennis Soemers,20200116-123500
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200116-134850
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200116-134910
+M,Player/.classpath,Coen,20200116-152229
+D,Player/lib/batik-anim-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-awt-util-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-bridge-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-constants-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-css-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-dom-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-ext-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-gvt-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-i18n-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-parser-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-rasterizer-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-script-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-svg-dom-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-svggen-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-transcoder-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-util-1.11.jar,Coen,20200116-152229
+D,Player/lib/batik-xml-1.11.jar,Coen,20200116-152229
+A,Player/lib/svgSalamander-1.1.2.jar,Coen,20200116-152229
+D,Player/lib/xml-apis-ext-1.3.04.jar,Coen,20200116-152229
+D,Player/lib/xmlgraphics-commons-2.3.jar,Coen,20200116-152229
+M,Player/src/player/GraphicsCache.java,Coen,20200116-152229
+M,Player/src/player/utils/SVGUtil.java,Coen,20200116-152229

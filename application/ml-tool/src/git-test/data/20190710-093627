@@ -1,0 +1,304 @@
+A,Common/res/img/svg/misc/pass.svg,Matthew.Stephenson,20190708-091750
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190708-091750
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190708-093447
+M,Library/src/game/rules/play/moves/CheckMove.java,eric.piette,20190708-094438
+D,Player/src/mainView/button/ButtonUndo.java,eric.piette,20190708-094438
+A,Common/res/lud/Breakthrough (bad).lud,Cameron Browne,20190708-095303
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190708-095303
+A,Grammar/src/compiler/exceptions/BadComponentException.java,Cameron Browne,20190708-095303
+M,Library/.classpath,Cameron Browne,20190708-095303
+M,Library/src/game/Game.java,Cameron Browne,20190708-095303
+M,Library/src/game/functions/booleans/In.java,Cameron Browne,20190708-095303
+M,Library/src/game/rules/play/moves/decision/Promotion.java,Cameron Browne,20190708-095303
+M,Library/src/game/rules/play/moves/decision/Shoot.java,Cameron Browne,20190708-095303
+M,Library/src/game/rules/start/Fill.java,Cameron Browne,20190708-095303
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20190708-095303
+M,Library/src/game/rules/start/PlaceRandomly.java,Cameron Browne,20190708-095303
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190708-095303
+M,Library/src/game/functions/region/Centre.java,DennisSoemers,20190708-131030
+M,Player/src/mainView/panel/PlayerPanel.java,DennisSoemers,20190708-131030
+D,Player/src/Network/LudiiClientSocket.java,Matthew.Stephenson,20190708-133939
+D,Player/src/Network/LudiiServerSocket.java,Matthew.Stephenson,20190708-133939
+D,Player/src/Network/LudiiSocket.java,Matthew.Stephenson,20190708-133939
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20190708-133939
+A,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20190708-133939
+A,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20190708-133939
+A,Player/src/network/LudiiSocket.java,Matthew.Stephenson,20190708-133939
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190708-133939
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190708-135334
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190708-135708
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190708-141409
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190708-142245
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190708-142245
+M,Library/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20190708-150011
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190708-150011
+M,AI/resources/FeatureSets/Hex/HandcraftedHexPatterns.fs,DennisSoemers,20190708-150054
+A,AI/resources/FeatureSets/Hex/HandcraftedHexWeights.txt,DennisSoemers,20190708-150054
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190708-150054
+M,Features/src/features/features/Feature.java,DennisSoemers,20190708-150054
+M,Library/src/util/Move.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/Action.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionAdd.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionAddN.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionChangeState.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionCopy.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionHidden.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionMove.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionMoveN.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionMoveRemove.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionMoveState.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionPass.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionPending.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionPromote.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionRemove.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionRemoveN.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionReset.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionScore.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionSelect.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionSet.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionSetCount.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionSetCounter.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionState.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/ActionToggle.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/BaseAction.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/Checkmate.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/Remove.java,DennisSoemers,20190708-150054
+M,Library/src/util/action/SetNextPlayer.java,DennisSoemers,20190708-150054
+M,Player/src/player/GameLoader.java,DennisSoemers,20190708-150054
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190708-150054
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190708-150054
+A,Player/test/features/TestHexFeatures.java,DennisSoemers,20190708-150054
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190708-151049
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190708-151421
+M,Features/src/features/FeatureUtils.java,DennisSoemers,20190708-151421
+M,Library/src/util/Move.java,DennisSoemers,20190708-151421
+M,Player/test/features/TestHexFeatures.java,DennisSoemers,20190708-151421
+A,Common/res/img/svg/hands/paper.svg,Matthew.Stephenson,20190708-151717
+A,Common/res/img/svg/hands/rock.svg,Matthew.Stephenson,20190708-151717
+A,Common/res/img/svg/hands/scissors.svg,Matthew.Stephenson,20190708-151717
+A,Library/src/game/equipment/component/piece/hands/Hands.java,Matthew.Stephenson,20190708-151717
+A,Library/src/game/equipment/component/piece/hands/Paper.java,Matthew.Stephenson,20190708-151717
+A,Library/src/game/equipment/component/piece/hands/Rock.java,Matthew.Stephenson,20190708-151717
+A,Library/src/game/equipment/component/piece/hands/Scissors.java,Matthew.Stephenson,20190708-151717
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190708-162545
+M,Features/src/features/Walk.java,DennisSoemers,20190708-162545
+M,Features/src/features/features/Feature.java,DennisSoemers,20190708-162545
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,DennisSoemers,20190708-162545
+M,Library/src/game/equipment/container/board/tiling/Hex.java,DennisSoemers,20190708-162545
+M,Library/src/game/equipment/container/tiling/directions/DirectionType.java,DennisSoemers,20190708-162545
+A,Player/.settings/.gitignore,Matthew.Stephenson,20190708-164011
+M,Player/src/mainView/panel/ToolPanel.java,Matthew.Stephenson,20190708-164011
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20190708-164011
+M,Player/src/mainView/panel/ToolPanel.java,Matthew.Stephenson,20190708-165625
+A,Player/src/player/JFrameList.java,Matthew.Stephenson,20190708-165625
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190708-165625
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190708-171918
+M,Player/src/player/JFrameList.java,Matthew.Stephenson,20190708-171918
+M,Player/src/mainView/panel/TabPage.java,Matthew.Stephenson,20190708-180753
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,matthew,20190708-211022
+M,Player/src/mainView/panel/TabPage.java,matthew,20190708-211022
+M,Player/src/player/Referee.java,matthew,20190708-212853
+M,Player/test/features/TestHexFeatures.java,Dennis Soemers,20190708-215518
+M,Common/src/main/Global.java,matthew,20190708-220725
+M,Player/src/mainView/MainView.java,matthew,20190708-220725
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190709-014513
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190709-014513
+M,Grammar/src/compiler/Part.java,Cameron Browne,20190709-014513
+M,Library/src/game/mode/Mode.java,Cameron Browne,20190709-014513
+M,Common/src/main/ArgParse.java,Cameron Browne,20190709-070906
+M,Library/src/game/functions/booleans/If.java,Cameron Browne,20190709-070906
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20190709-073028
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190709-073028
+M,Grammar/src/compiler/exceptions/CompilerException.java,Cameron Browne,20190709-073028
+M,Library/src/game/equipment/component/Die.java,Cameron Browne,20190709-073028
+M,Library/src/game/equipment/container/board/HexBoard.java,Cameron Browne,20190709-073028
+M,Library/src/game/equipment/container/board/HexYBoard.java,Cameron Browne,20190709-073028
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Cameron Browne,20190709-073028
+M,Library/src/game/functions/booleans/Threatened.java,Cameron Browne,20190709-073028
+M,Library/src/game/functions/ints/BaseIntFunction.java,Cameron Browne,20190709-073028
+M,Library/src/game/functions/region/Column.java,Cameron Browne,20190709-073028
+M,Library/src/game/functions/region/Row.java,Cameron Browne,20190709-073028
+M,Player/src/mainView/MainView.java,Cameron Browne,20190709-073028
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190709-073028
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190709-073028
+M,Player/src/player/experiments/Match.java,Cameron Browne,20190709-073028
+M,Library/src/game/equipment/component/Die.java,Cameron Browne,20190709-074400
+M,Library/src/game/equipment/component/Letter.java,Cameron Browne,20190709-074400
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,Cameron Browne,20190709-074400
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Cameron Browne,20190709-074400
+M,Library/src/graph/Edge.java,Cameron Browne,20190709-074400
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190709-074400
+M,Library/src/util/state/State.java,Cameron Browne,20190709-074400
+M,Player/src/player/JFrameList.java,Cameron Browne,20190709-074400
+M,Player/src/player/MainMenu.java,Cameron Browne,20190709-074400
+M,Player/src/player/Referee.java,Cameron Browne,20190709-074400
+M,Player/test/features/TestHexFeatures.java,Cameron Browne,20190709-074400
+M,Player/test/games/ErrorHandlingTests.java,Cameron Browne,20190709-074400
+M,Player/test/games/UCBCacheTest.java,Cameron Browne,20190709-074400
+M,Library/src/game/equipment/container/board/ChineseCheckersBoard.java,Cameron Browne,20190709-081231
+M,Library/src/game/equipment/container/hand/Hand.java,Cameron Browne,20190709-081231
+M,Library/src/game/equipment/other/Track.java,Cameron Browne,20190709-081231
+M,Library/src/util/Trial.java,Cameron Browne,20190709-081231
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190709-081231
+M,Player/src/player/MainMenu.java,Cameron Browne,20190709-081231
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190709-093234
+M,Library/src/game/functions/region/Phase.java,Cameron Browne,20190709-093234
+A,Common/res/lud/Rock-Paper-Scissors.lud,eric.piette,20190709-094517
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20190709-094517
+M,Library/src/game/equipment/container/board/ArimaaBoard.java,eric.piette,20190709-094517
+M,Library/src/game/functions/booleans/Or.java,eric.piette,20190709-094517
+M,Library/src/game/equipment/container/board/BackgammonBoard.java,eric.piette,20190709-094811
+M,Library/src/game/equipment/container/board/CardBoard.java,eric.piette,20190709-094811
+M,Library/src/game/equipment/container/board/ChineseCheckersBoard.java,eric.piette,20190709-094811
+M,Library/.classpath,Cameron Browne,20190709-095007
+M,Library/src/game/types/StepType.java,Cameron Browne,20190709-095007
+D,Library/src/util/state/ItemState.java,Cameron Browne,20190709-095007
+M,Library/src/game/equipment/container/board/HalmaBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/MancalaBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/SenetBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/SolitaireBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190709-095542
+M,Library/src/game/equipment/container/board/UrBoard.java,eric.piette,20190709-095542
+M,Player/.settings/org.eclipse.jdt.core.prefs,Matthew.Stephenson,20190709-100302
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190709-100302
+M,Player/src/player/Referee.java,DennisSoemers,20190709-100449
+A,Player/test/features/TestAmazonsFeatures.java,DennisSoemers,20190709-100449
+M,Player/test/features/TestHexFeatures.java,DennisSoemers,20190709-100449
+M,Library/src/game/equipment/component/card/BaseCardImages.java,Cameron Browne,20190709-100751
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190709-100751
+M,Library/src/game/equipment/component/piece/Hex.java,Cameron Browne,20190709-100751
+M,Library/src/game/equipment/container/board/tiling/Circle.java,Cameron Browne,20190709-100751
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Cameron Browne,20190709-100751
+M,Library/src/game/equipment/container/board/tiling/Square.java,Cameron Browne,20190709-100751
+M,Library/src/game/Game.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/component/Die.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/component/Letter.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/component/card/Deck.java,eric.piette,20190709-100822
+M,Library/src/game/equipment/container/board/ChineseCheckersBoard.java,DennisSoemers,20190709-101137
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190709-104114
+M,Library/src/game/equipment/component/piece/Dot.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/shape/Cross.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/shape/Rect.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/shape/TriangleEquilateral.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/tiling/Circle.java,eric.piette,20190709-105531
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,DennisSoemers,20190709-105923
+M,Player/test/features/TestAmazonsFeatures.java,DennisSoemers,20190709-105923
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190709-110212
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20190709-110212
+M,Library/src/game/functions/booleans/Connect.java,eric.piette,20190709-110212
+M,Library/src/game/functions/booleans/Contains.java,eric.piette,20190709-110212
+M,Library/src/game/equipment/container/board/tiling/Hex.java,DennisSoemers,20190709-115257
+M,Library/src/game/equipment/container/board/tiling/Square.java,DennisSoemers,20190709-120129
+M,Library/src/game/equipment/container/board/HalmaBoard.java,DennisSoemers,20190709-120514
+A,Common/src/gnu/trove/function/TObjectFunction.java,DennisSoemers,20190709-121150
+A,Common/src/gnu/trove/iterator/TIntObjectIterator.java,DennisSoemers,20190709-121150
+A,Common/src/gnu/trove/map/TIntObjectMap.java,DennisSoemers,20190709-121150
+A,Common/src/gnu/trove/map/hash/TIntObjectHashMap.java,DennisSoemers,20190709-121150
+A,Common/src/gnu/trove/procedure/TIntObjectProcedure.java,DennisSoemers,20190709-121150
+A,Common/src/gnu/trove/procedure/TObjectProcedure.java,DennisSoemers,20190709-121150
+M,Library/src/game/equipment/other/Regions.java,eric.piette,20190709-121316
+M,Library/src/game/equipment/other/Track.java,eric.piette,20190709-121316
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/NonogramBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190709-122605
+M,Library/src/game/equipment/container/hand/Hand.java,eric.piette,20190709-123650
+M,Library/src/game/equipment/container/hand/HandDice.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20190709-123650
+M,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,eric.piette,20190709-123650
+M,Library/src/game/rules/play/moves/decisionPuzzle/Constraints.java,eric.piette,20190709-123650
+M,Library/src/game/rules/start/Place.java,eric.piette,20190709-123650
+M,Library/src/game/rules/start/Set.java,eric.piette,20190709-123650
+M,Library/src/game/rules/start/SetCount.java,eric.piette,20190709-123650
+M,Library/src/graph/Graph.java,eric.piette,20190709-123650
+M,Library/src/graph/Graph.java,eric.piette,20190709-124542
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,eric.piette,20190709-125012
+M,Library/src/graph/Graph.java,eric.piette,20190709-125012
+M,Library/src/util/state/State.java,eric.piette,20190709-125246
+M,Library/src/util/state/puzzleState/PuzzleState.java,eric.piette,20190709-125246
+M,Library/src/util/state/puzzleState/PuzzleStateLarge.java,eric.piette,20190709-125246
+D,Library/src/test/Test.class,eric.piette,20190709-125630
+D,Library/src/test/Test.java,eric.piette,20190709-125630
+D,Library/src/oldLudeme/functions/booleans/Check.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/functions/booleans/CheckMate.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/functions/ints/CountSameState.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/functions/ints/MostState.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/functions/region/AtleastNbOccupied.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/functions/region/RecursiveAdjacent.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/game/rules/moves/PlayCard.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/game/rules/moves/UpdateTopDeck.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/game/rules/start/PlaceNumberAdjacentItem.java,eric.piette,20190709-125813
+D,Library/src/oldLudeme/game/rules/start/RandomizingDecks.java,eric.piette,20190709-125813
+M,Common/res/lud/Rock-Paper-Scissors.lud,eric.piette,20190709-130532
+M,Library/src/game/mode/Mode.java,eric.piette,20190709-130532
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190709-130532
+M,Common/res/lud/Rock-Paper-Scissors.lud,eric.piette,20190709-131312
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190709-131312
+M,Player/test/features/TestAmazonsFeatures.java,DennisSoemers,20190709-135053
+M,Common/res/lud/Rock-Paper-Scissors.lud,eric.piette,20190709-135944
+M,Features/src/features/FeatureSet.java,DennisSoemers,20190709-141209
+M,Player/test/features/TestAmazonsFeatures.java,DennisSoemers,20190709-141209
+M,Player/test/features/TestAmazonsFeatures.java,DennisSoemers,20190709-141300
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190709-150432
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190709-150432
+M,AI/src/search/flat/FlatMonteCarlo.java,DennisSoemers,20190709-150432
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190709-150432
+M,AI/src/utils/RandomAI.java,DennisSoemers,20190709-150432
+M,AI/src/utils/ThinkingThread.java,DennisSoemers,20190709-150432
+M,Library/src/game/Game.java,DennisSoemers,20190709-150432
+M,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20190709-150432
+M,Library/src/game/playout/ByPiecePlayout.java,DennisSoemers,20190709-150432
+M,Library/src/util/AI.java,DennisSoemers,20190709-150432
+M,Player/src/player/Referee.java,DennisSoemers,20190709-150432
+M,Player/src/player/experiments/EvalAIsThread.java,DennisSoemers,20190709-150432
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190709-150432
+D,Player/src/player/experiments/old/EvalSideBias.java,DennisSoemers,20190709-150432
+D,Player/src/player/experiments/old/RunTournament.java,DennisSoemers,20190709-150432
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190709-150432
+A,Common/src/gnu/trove/impl/hash/THashIterator.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/impl/hash/TObjectHash.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/iterator/TObjectIntIterator.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/iterator/hash/TObjectHashIterator.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/map/TObjectIntMap.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/map/hash/TObjectIntHashMap.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/procedure/TObjectIntProcedure.java,DennisSoemers,20190709-151432
+A,Common/src/gnu/trove/iterator/TObjectDoubleIterator.java,DennisSoemers,20190709-152844
+A,Common/src/gnu/trove/map/TObjectDoubleMap.java,DennisSoemers,20190709-152844
+A,Common/src/gnu/trove/map/hash/TObjectDoubleHashMap.java,DennisSoemers,20190709-152844
+M,Common/src/gnu/trove/map/hash/TObjectIntHashMap.java,DennisSoemers,20190709-152844
+A,Common/src/gnu/trove/procedure/TObjectDoubleProcedure.java,DennisSoemers,20190709-152844
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190709-152844
+M,Library/src/game/Game.java,Cameron Browne,20190709-153052
+M,Library/src/util/state/State.java,Cameron Browne,20190709-153052
+M,Library/src/game/Game.java,eric.piette,20190709-162100
+M,Library/src/game/mode/Mode.java,eric.piette,20190709-162100
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190709-162100
+M,Library/src/util/state/State.java,eric.piette,20190709-162100
+M,Player/src/player/Referee.java,eric.piette,20190709-162100
+M,Library/src/util/state/State.java,eric.piette,20190709-163618
+M,Player/src/player/PlayerApp.java,eric.piette,20190709-165550
+M,Player/src/player/Referee.java,eric.piette,20190709-165550
+M,Player/src/player/Referee.java,eric.piette,20190709-171505
+M,Player/src/player/PlayerApp.java,eric.piette,20190709-171614
+M,Player/src/player/Referee.java,eric.piette,20190709-171614
+M,Library/src/game/equipment/component/Die.java,eric.piette,20190709-172232
+M,Library/src/util/state/State.java,eric.piette,20190710-093627

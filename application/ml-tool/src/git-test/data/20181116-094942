@@ -1,0 +1,146 @@
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-193324
+A,Library/src/game/functions/region/Exteriors.java,Eric.Piette,20181113-200835
+A,Library/src/game/functions/region/Interiors.java,Eric.Piette,20181113-200959
+A,Library/src/game/functions/region/Top.java,Eric.Piette,20181113-201122
+A,Library/src/game/functions/region/Bottom.java,Eric.Piette,20181113-201220
+A,Library/src/game/functions/region/Left.java,Eric.Piette,20181113-201305
+A,Library/src/game/functions/region/Right.java,Eric.Piette,20181113-201356
+A,Library/src/game/functions/region/ExteriorsNotCorner.java,Eric.Piette,20181113-201609
+A,Library/src/game/functions/booleans/IsMover.java,Eric.Piette,20181113-202501
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181113-205144
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-205144
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-205144
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-205144
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-210041
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-211106
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-211106
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-211106
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-212401
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-212401
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-212401
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-212401
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-212702
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-214458
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-214458
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-214458
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-214458
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-214526
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181113-221005
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-221005
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-221005
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-221005
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-221500
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-221500
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181113-230014
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-230014
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-230014
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181113-232236
+M,Player/src/dbView/DBView.java,Eric.Piette,20181113-232236
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181113-232236
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181113-232236
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181113-232236
+M,Library/src/game/Game.java,Eric.Piette,20181114-104040
+M,Library/src/game/rules/Rules.java,Eric.Piette,20181114-104040
+A,Library/src/game/rules/postCondition/PostCondition.java,Eric.Piette,20181114-104040
+D,Library/src/util/action/PossibleAction.java,Eric.Piette,20181114-104040
+M,Library/test/Performance.java,Eric.Piette,20181114-104040
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-104040
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-104040
+M,Player/src/player/Referee.java,Eric.Piette,20181114-104040
+M,Library/src/game/Game.java,Eric.Piette,20181114-104834
+M,Player/src/player/MainMenu.java,Eric.Piette,20181114-104834
+M,Library/src/game/Game.java,Eric.Piette,20181114-130820
+M,Library/src/game/Game.java,Eric.Piette,20181114-131948
+M,Player/src/player/MainMenu.java,Dennis Soemers,20181114-132750
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181114-132750
+M,Library/src/util/action/ActionRemove.java,Eric.Piette,20181114-143348
+A,Library/src/game/rules/moves/Remove.java,Eric.Piette,20181114-143405
+M,Library/src/game/equipment/container/basis/Square.java,Eric.Piette,20181114-143415
+A,Library/src/game/rules/moves/postMove/ToOrtho.java,Eric.Piette,20181114-143433
+M,Library/src/game/rules/moves/To.java,Eric.Piette,20181114-143500
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-143528
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-143854
+M,Library/src/game/equipment/container/basis/Square.java,Eric.Piette,20181114-144802
+D,Library/src/game/rules/moves/AddOrRemoveCompomentOrtho.java,Eric.Piette,20181114-144802
+A,AI/resources/FeatureSets/Reversi/Handcrafted.fs,Dennis Soemers,20181114-161356
+A,AI/resources/FeatureSets/Reversi/Handcrafted.metadata,Dennis Soemers,20181114-161356
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181114-161356
+M,Library/src/game/rules/moves/Except.java,Eric.Piette,20181114-163256
+A,Library/src/game/rules/moves/postMove/CaptureSurrounded2.java,Eric.Piette,20181114-163256
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-163256
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-163256
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-164159
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-164159
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-170603
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-170603
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-171719
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-171719
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-172708
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-172708
+D,Library/src/game/rules/moves/CaptureSurrounded.java,Eric.Piette,20181114-172922
+A,Library/src/game/rules/moves/postMove/CaptureSurrounded.java,Eric.Piette,20181114-172958
+D,Library/src/game/rules/moves/postMove/CaptureSurrounded2.java,Eric.Piette,20181114-172958
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181114-172958
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181114-172958
+M,AI/resources/FeatureSets/Reversi/Handcrafted.fs,Dennis Soemers,20181114-194121
+M,Library/src/features/Walk.java,Dennis Soemers,20181114-194121
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181114-194121
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181115-000518
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181115-000759
+M,Player/src/mainView/panel/StatePanel.java,Eric.Piette,20181115-000759
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181115-101917
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181115-102021
+M,Library/src/game/functions/region/Own.java,Eric.Piette,20181115-104142
+M,Library/src/game/functions/region/Adjacent.java,Eric.Piette,20181115-104222
+M,AI/resources/FeatureSets/Reversi/Handcrafted.fs,Dennis Soemers,20181115-105809
+M,Library/src/features/Walk.java,Dennis Soemers,20181115-105809
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181115-105809
+M,AI/.classpath,Dennis Soemers,20181115-113125
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181115-113125
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181115-113804
+M,Player/src/dbView/DBView.java,Eric.Piette,20181115-121648
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181115-121648
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181115-121648
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181115-121648
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181115-125016
+D,Library/src/features/FeatureUtils.java,Dennis Soemers,20181115-125016
+M,Library/src/features/Walk.java,Dennis Soemers,20181115-125016
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181115-125016
+M,Player/src/mainView/MainView.java,Dennis Soemers,20181115-125016
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20181115-125016
+A,Library/src/game/functions/booleans/IsNext.java,Eric.Piette,20181115-125813
+A,Library/src/game/functions/booleans/IsPrev.java,Eric.Piette,20181115-125813
+M,Library/src/game/functions/region/Adjacent.java,Eric.Piette,20181115-125813
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181115-130859
+M,Library/src/game/Game.java,Eric.Piette,20181115-131937
+A,Library/src/game/rules/moves/postMove/Replay.java,Eric.Piette,20181115-131937
+M,Library/src/util/state/State.java,Eric.Piette,20181115-131937
+M,Library/src/game/functions/booleans/Turn.java,Eric.Piette,20181115-132638
+M,Player/src/dbView/DBView.java,Eric.Piette,20181115-133902
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181115-133902
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181115-133902
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181115-140400
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181115-144216
+A,Library/src/game/functions/booleans/Square.java,Eric.Piette,20181115-144216
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181115-144259
+M,Player/src/mainView/panel/StatePanel.java,Eric.Piette,20181115-144259
+M,Player/src/dbView/DBView.java,Eric.Piette,20181115-144752
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181115-144752
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181115-144752
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181115-144752
+A,Library/src/game/functions/region/LastQueenMove.java,Eric.Piette,20181115-170406
+M,Library/src/game/functions/booleans/NoMove.java,Eric.Piette,20181115-170538
+M,Player/src/dbView/DBView.java,Eric.Piette,20181115-170538
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181115-170538
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181115-170538
+M,Player/src/player/PlayerApp.java,Eric.Piette,20181115-170538
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181115-170538
+A,Library/src/game/rules/moves/postMove/Let.java,Eric.Piette,20181115-172540
+M,Library/src/features/Walk.java,Dennis Soemers,20181115-173854
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181115-173854
+M,Library/src/game/functions/booleans/MoveToNonEmpty.java,Eric.Piette,20181116-094942
+D,Library/src/game/rules/moves/MoveAndLetAdjacency.java,Eric.Piette,20181116-094942
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181116-094942
+M,Library/src/game/rules/moves/postMove/Let.java,Eric.Piette,20181116-094942
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181116-094942
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181116-094942

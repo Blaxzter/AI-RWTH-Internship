@@ -1,0 +1,238 @@
+M,Library/src/game/Game.java,eric.piette,20190915-162024
+M,Library/src/util/state/containerState/FlatContainerState.java,eric.piette,20190915-162024
+M,Library/src/game/rules/play/moves/SetOwner.java,Dennis Soemers,20190915-170938
+M,Library/src/util/Move.java,Dennis Soemers,20190915-170938
+M,Library/src/util/Trial.java,Dennis Soemers,20190915-170938
+M,Library/src/util/action/ActionAddN.java,Dennis Soemers,20190915-170938
+M,Player/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20190915-170938
+M,Library/src/game/Game.java,Dennis Soemers,20190915-214937
+M,Library/src/util/Trial.java,Dennis Soemers,20190915-214937
+M,Player/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20190915-214937
+M,Player/src/mainView/dialog/LoginDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/PuzzleDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190916-091645
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,matthew,20190916-091903
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190916-091903
+M,Player/src/mainView/dialog/PuzzleDialog.java,matthew,20190916-091903
+M,Player/src/network/DatabaseFunctions.java,matthew,20190916-093353
+M,Common/src/main/Global.java,matthew,20190916-094135
+M,Player/src/mainView/dialog/LoginDialog.java,matthew,20190916-094135
+M,Player/src/mainView/dialog/LoginDialog.java,matthew,20190916-094934
+M,Player/src/network/DatabaseFunctions.java,matthew,20190916-094934
+M,Player/src/mainView/dialog/LoginDialog.java,matthew,20190916-141226
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-141226
+M,Player/src/network/DatabaseFunctions.java,matthew,20190916-141226
+M,Player/src/network/LudiiClientSocket.java,matthew,20190916-141226
+M,Player/src/network/LudiiServerSocket.java,matthew,20190916-141226
+M,Player/src/player/PlayerApp.java,matthew,20190916-141226
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190916-141245
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-144826
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190916-144826
+M,Player/src/network/DatabaseFunctions.java,matthew,20190916-144826
+M,Player/src/player/MainMenu.java,matthew,20190916-144826
+M,Grammar/src/generator/Grammar.java,Matthew.Stephenson,20190916-152844
+M,Grammar/src/generator/PackageInfo.java,Matthew.Stephenson,20190916-152844
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20190916-152844
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190916-152844
+M,Library/src/util/action/ActionAdd.java,DennisSoemers,20190916-154133
+M,Library/src/util/action/ActionAddN.java,DennisSoemers,20190916-154133
+M,Player/src/player/game_logs/MatchRecord.java,DennisSoemers,20190916-154133
+M,Player/test/games/GenerateRandomTestTrials.java,DennisSoemers,20190916-154133
+A,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20190916-154133
+M,Library/src/game/equipment/Equipment.java,Cameron Browne,20190916-154825
+M,Library/src/graph/Vertex.java,Cameron Browne,20190916-154825
+M,Library/src/game/equipment/component/piece/checkers/Man.java,Matthew.Stephenson,20190916-155138
+M,Library/src/util/Move.java,DennisSoemers,20190916-155705
+M,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20190916-155705
+M,Common/res/lud/board/race/reach/BreakThrough.lud,Matthew.Stephenson,20190916-155948
+D,Player/src/mainView/dialog/LoginDialog.java,matthew,20190916-160703
+M,Library/src/util/action/ActionAdd.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionAddN.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionChangeState.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionHidden.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionMove.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionMoveN.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionMoveRemove.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionMoveState.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionPass.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionPending.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionPromote.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionReset.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionScore.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionSelect.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionSet.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionSetCount.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionSetCounter.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionSetDouble.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionState.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/ActionToggle.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/Checkmate.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/Remove.java,DennisSoemers,20190916-161803
+M,Library/src/util/action/SetNextPlayer.java,DennisSoemers,20190916-161803
+M,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20190916-161803
+M,Grammar/src/generator/Grammar.java,matthew,20190916-164609
+M,Grammar/src/generator/PackageInfo.java,matthew,20190916-164609
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-164609
+M,Player/src/player/PlayerApp.java,matthew,20190916-164609
+M,Player/src/player/MainMenu.java,matthew,20190916-164750
+M,Player/src/player/PlayerApp.java,matthew,20190916-164750
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190916-165314
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190916-165314
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190916-165314
+M,Library/src/game/equipment/container/hand/Hand.java,eric.piette,20190916-165314
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190916-171011
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190916-171011
+M,Library/src/game/equipment/container/board/tiling/Circle.java,eric.piette,20190916-171011
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190916-171011
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190916-171011
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20190916-171011
+M,Player/src/mainView/dialog/GameLoaderDialog.java,matthew,20190916-171721
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-171721
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190916-171721
+M,Player/src/network/DatabaseFunctions.java,matthew,20190916-171721
+M,Player/src/player/MainMenu.java,matthew,20190916-171721
+M,Player/src/player/PlayerApp.java,matthew,20190916-171721
+M,Library/src/util/action/ActionAdd.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionAddN.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionChangeState.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionHidden.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionMove.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionMoveN.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionMoveRemove.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionMoveState.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionPass.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionPending.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionPromote.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionReset.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionScore.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionSelect.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionSet.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionSetCount.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionSetCounter.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionSetDouble.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionState.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/ActionToggle.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/Checkmate.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/Remove.java,Dennis Soemers,20190916-172950
+M,Library/src/util/action/SetNextPlayer.java,Dennis Soemers,20190916-172950
+M,Library/src/util/Move.java,Dennis Soemers,20190916-174022
+M,Library/src/util/action/ActionAdd.java,Dennis Soemers,20190916-174022
+M,Library/src/util/action/ActionAddN.java,Dennis Soemers,20190916-174022
+A,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190916-175441
+A,Player/src/mainView/dialog/FindGameDialog.java,matthew,20190916-175441
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190916-175441
+M,Library/src/util/Move.java,Dennis Soemers,20190916-183812
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20190916-183812
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20190916-201039
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20190916-214101
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190917-091139
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190917-093923
+M,Player/src/mainView/dialog/FindGameDialog.java,matthew,20190917-093923
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190917-093923
+M,Player/src/mainView/dialog/SettingsDialog.java,matthew,20190917-093923
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190917-101455
+M,Player/src/mainView/dialog/FindGameDialog.java,matthew,20190917-101455
+M,Player/src/mainView/dialog/GameLoaderDialog.java,matthew,20190917-101455
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190917-101455
+M,Library/src/game/equipment/component/Die.java,DennisSoemers,20190917-105410
+M,Library/src/game/rules/play/moves/Roll.java,DennisSoemers,20190917-105410
+M,Library/src/util/Move.java,DennisSoemers,20190917-105410
+M,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20190917-105410
+M,Common/src/main/Global.java,eric.piette,20190917-112130
+M,Library/src/game/Game.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/component/piece/large/Domino.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/BackgammonBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/Boardless.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/CardBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/ChessBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/ChineseCheckersBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/Connect4Board.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/GoBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/GraphBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/HalmaBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/HexBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/MancalaBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/ReversiBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/SenetBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/ShogiBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/SnakesAndLaddersBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/SolitaireBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/StrategoBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/UrBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/WheelBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/XiangqiBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/Cross.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/Rect.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/Shape.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/shape/TriangleEquilateral.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/tiling/Circle.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/hand/Hand.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/hand/HandDice.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190917-112130
+M,Library/src/game/equipment/other/Regions.java,eric.piette,20190917-112130
+M,Library/src/game/functions/booleans/Encircle.java,eric.piette,20190917-112130
+M,Library/src/graph/Face.java,eric.piette,20190917-112130
+M,Library/src/graph/Graph.java,eric.piette,20190917-112130
+M,Library/src/graph/Vertex.java,eric.piette,20190917-112130
+M,Library/src/ui/GameView.java,eric.piette,20190917-112130
+M,Library/src/util/Region.java,eric.piette,20190917-112130
+M,Player/src/mainView/MainView.java,eric.piette,20190917-112130
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190917-112130
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190917-112130
+M,Player/src/player/PlayerApp.java,eric.piette,20190917-112130
+D,Player/tournamentExample.json,eric.piette,20190917-112130
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190917-112422
+M,Player/src/mainView/dialog/FindGameDialog.java,matthew,20190917-112422
+M,Player/src/player/PlayerApp.java,matthew,20190917-112422
+M,Library/src/util/action/ActionMove.java,DennisSoemers,20190917-113319
+M,Player/test/games/TestTrialsIntegrity.java,DennisSoemers,20190917-113319
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190917-115141
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190917-115141
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-115141
+M,Library/src/ui/GameView.java,eric.piette,20190917-115141
+M,Common/src/main/Global.java,eric.piette,20190917-115517
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-115517
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190917-120650
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190917-121646
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190917-122540
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190917-122540
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-122540
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-123828
+M,Library/src/graph/Edge.java,eric.piette,20190917-123828
+M,Library/src/graph/Vertex.java,eric.piette,20190917-123828
+M,Player/src/mainView/MainView.java,eric.piette,20190917-125900
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-131434
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190917-131434
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190917-133552
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,eric.piette,20190917-133552
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-133552
+M,Player/src/mainView/dialog/GameLoaderDialog.java,DennisSoemers,20190917-140558
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-142709
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190917-145201
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190917-145201
+M,Library/src/graph/Edge.java,eric.piette,20190917-145201
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20190917-155237

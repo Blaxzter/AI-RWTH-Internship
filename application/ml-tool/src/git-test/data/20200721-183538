@@ -1,0 +1,350 @@
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200719-185741
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,Cameron Browne,20200719-185741
+M,PlayerDesktop/src/app/menu/MainMenu.java,Cameron Browne,20200719-191135
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Cameron Browne,20200719-191135
+M,Core/src/game/util/math/Count.java,Cameron Browne,20200719-191858
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200720-020241
+M,Core/src/language/parser/Parser.java,Cameron Browne,20200720-020241
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200720-020241
+M,Core/src/game/rules/end/EndRule.java,Cameron Browne,20200720-025745
+M,Core/src/game/types/board/LandmarkType.java,Cameron Browne,20200720-025745
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200720-025745
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Cameron Browne,20200720-025745
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200720-025745
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,Cameron Browne,20200720-025745
+M,ViewController/src/util/StringUtil.java,Matthew.Stephenson,20200720-084839
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200720-091312
+M,PlayerDesktop/src/app/display/dialogs/util/DialogUtil.java,Matthew.Stephenson,20200720-091312
+M,Manager/src/manager/PlayerInterface.java,Matthew.Stephenson,20200720-093304
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/MessagePlayersDialog.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200720-093304
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-093434
+M,PlayerDesktop/src/app/display/util/Thumbnails.java,Matthew.Stephenson,20200720-105231
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-110358
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-110358
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-111535
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-111535
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200720-103048
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200720-103048
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,mrraow,20200720-103048
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,mrraow,20200720-103048
+M,Common/res/def_ai/58 Holes_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Abalala'e_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Achi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Ako Okwe_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Alquerque_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Amazons_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/ArdRi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Atari Go_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Ataxx_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Aw-li On-nam Ot-tjin_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Awithlaknannai_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Banqi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Bao Ki Arabu (Zanzibar 2)_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Block_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Blue Nile_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Brazilian Draughts_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Breakthrough_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Camelot_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Chaturaji_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Chaturanga_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Chess Puzzle_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Clobber_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Connect6_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Cram_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Dabuda_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Dama_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Dash Guti_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Dice Shogi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Diviyan Keliya_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Domineering_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Double Chess_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/En Gehe_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/English Draughts_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Fanorona_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Felli_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Five Men's Morris_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Flowers_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/French Military Game_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/French Wari_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Game of Solomon_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Gomoku_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Grasshopper_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/HexDame_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Hus (Damara)_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/International Draughts_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Kalah_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Kaooa_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Kara_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Kharbaga_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Konane_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Kotu Ellima_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/L'attaque_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Lotus_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Ludus Latrunculorum_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Mangala (Turkey)_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/MaxMatch_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Mbangbi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Meusueb_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Nei-Pat-Kono_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Nine Men's Morris_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/O-Pat-Kono_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Omega_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Onek Rong_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Oware_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Owela (Benguela)_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Pentalath_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Phantom Go_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Press Ups_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Quantum Leap_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Reversi_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Shatranj_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Sim_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Six Men's Morris_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Skirmish (GDL)_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Sneakthrough_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Spots_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Squava_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Sungka_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Surakarta_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Tic-Tac-Four_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Triad_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Tron_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Ultimate Tic-Tac-Toe_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Um el-Bagara_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Vai Lung Thlan_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Waurie_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Wore_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/XII Scripta_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Yavalade_ai.def,Dennis Soemers,20200720-113611
+M,Common/res/def_ai/Zamma_ai.def,Dennis Soemers,20200720-113611
+M,Core/src/game/equipment/Equipment.java,Dennis Soemers,20200720-120417
+M,Core/src/topology/Topology.java,Dennis Soemers,20200720-120417
+M,PlayerDesktop/test/ai/TestDefaultAIs.java,Dennis Soemers,20200720-120417
+M,Core/src/game/equipment/Equipment.java,Dennis Soemers,20200720-123852
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Dennis Soemers,20200720-123852
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Dennis Soemers,20200720-123852
+M,Core/src/game/equipment/Equipment.java,Dennis Soemers,20200720-124147
+M,Common/res/lud/puzzle/planning/Chase.lud,Cameron Browne,20200720-124416
+M,Core/src/game/rules/end/If.java,Cameron Browne,20200720-124416
+M,Common/res/lud/board/war/other/Surakarta.lud,Cameron Browne,20200720-131146
+M,Core/src/game/rules/start/set/sites/SetSite.java,Cameron Browne,20200720-131146
+M,Core/src/game/util/equipment/Region.java,Cameron Browne,20200720-131146
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-135750
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-135750
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200720-141228
+M,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200720-143011
+M,PlayerDesktop/src/app/display/views/players/PlayerViewUser.java,Matthew.Stephenson,20200720-143011
+D,Common/res/lud/test/tahmina/Icosian2.lud,TahminaBegum,20200720-144706
+D,Common/res/lud/test/tahmina/Icosian3.lud,TahminaBegum,20200720-144706
+D,Common/res/lud/test/tahmina/Icosian4.lud,TahminaBegum,20200720-144706
+A,Common/res/lud/test/tahmina/Nedilmarth_test_new_Graph.lud,TahminaBegum,20200720-144706
+A,Common/res/lud/test/tahmina/Onek_Rong_new_graph_test.lud,TahminaBegum,20200720-144706
+A,Common/res/lud/test/tahmina/test_icosian.lud,TahminaBegum,20200720-144706
+M,Common/res/lud/experimental/graph_theory/Nedilmarth.lud,Dennis Soemers,20200720-150109
+M,Common/res/lud/experimental/graph_theory/Onek Rong.lud,Dennis Soemers,20200720-150109
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200720-151932
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200720-152842
+A,Core/src/metadata/graphics/show/Boolean/ShowEdgeDirections.java,Matthew.Stephenson,20200720-152842
+M,Core/src/metadata/graphics/show/Show.java,Matthew.Stephenson,20200720-152842
+M,Core/src/metadata/graphics/show/ShowBooleanType.java,Matthew.Stephenson,20200720-152842
+M,ViewController/src/view/container/aspects/designs/board/graph/GraphDesign.java,Matthew.Stephenson,20200720-152842
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200720-150302
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,mrraow,20200720-150302
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,mrraow,20200720-150302
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-162722
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200720-162722
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200720-162722
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200720-162722
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200720-162722
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200720-162722
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-170857
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-170857
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Dennis Soemers,20200720-170857
+M,Core/build.xml,Dennis Soemers,20200720-172913
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-172913
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200720-173128
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200720-172223
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20200720-190403
+M,Core/src/game/util/graph/Graph.java,Dennis Soemers,20200720-194157
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-195055
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-195055
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200720-200515
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200720-200515
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-203144
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200720-203144
+M,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200720-203144
+A,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200720-203144
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200720-203144
+M,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200720-203144
+A,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentOtherPanel.java,Matthew.Stephenson,20200720-203144
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200720-205544
+M,Core/src/game/rules/play/moves/nonDecision/NonDecision.java,Cameron Browne,20200721-031745
+M,Core/src/game/util/directions/CompassDirection.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/CreateGameDialog.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/LeaderboardDialog.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/MessagePlayersDialog.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/BaseFindPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/games/BaseFindGamePanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameContinuePanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameCurrentPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/games/GameOtherPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/BaseFindTournamentPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentCurrentPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentHostPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentJoinedPanel.java,Cameron Browne,20200721-031745
+D,PlayerDesktop/src/app/display/dialogs/network/panels/tournaments/TournamentOtherPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/CreateTournamentDialog.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/LeaderboardDialog.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/MessagePlayersDialog.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentCurrentPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Cameron Browne,20200721-031745
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentOtherPanel.java,Cameron Browne,20200721-031745
+M,PlayerDesktop/src/app/menu/MainMenu.java,Cameron Browne,20200721-031745
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Cameron Browne,20200721-031745
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-082708
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-084858
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-090640
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-091051
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-093543
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-093814
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-094721
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-094958
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20200721-095233
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-095414
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,ludeme,20200721-095748
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Cameron Browne,20200721-101455
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Cameron Browne,20200721-101858
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Cameron Browne,20200721-101930
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentCurrentPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200721-102028
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentOtherPanel.java,Matthew.Stephenson,20200721-102028
+A,Common/res/lud/test/dennis/Tic-Tac-Choose-Chess.lud,Dennis Soemers,20200721-114504
+M,Common/res/lud/test/dennis/Tic-Tac-Choose-Chess.lud,Cameron Browne,20200721-120732
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200721-120732
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-123459
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/ButtonColumn.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200721-123459
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-131231
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200721-131231
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-131231
+M,Common/res/lud/test/dennis/Tic-Tac-Choose-Chess.lud,Matthew.Stephenson,20200721-132055
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200721-132055
+A,Core/src/metadata/graphics/show/Boolean/ShowPossibleMoves.java,Matthew.Stephenson,20200721-132055
+M,Core/src/metadata/graphics/show/Show.java,Matthew.Stephenson,20200721-132055
+M,Core/src/metadata/graphics/show/ShowBooleanType.java,Matthew.Stephenson,20200721-132055
+M,ViewController/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200721-132055
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200721-122218
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,mrraow,20200721-122218
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,mrraow,20200721-122218
+M,Common/res/lud/test/dennis/Tic-Tac-Choose-Chess.lud,Cameron Browne,20200721-132333
+M,Core/src/util/state/State.java,Cameron Browne,20200721-132655
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-134602
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/ButtonColumn.java,Matthew.Stephenson,20200721-134602
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/ExtraInformationDialog.java,Matthew.Stephenson,20200721-134602
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200721-134602
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200721-134602
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-135303
+M,LudiiDocGen/out/tex/AppendixAImageList.tex,Dennis Soemers,20200721-142207
+M,LudiiDocGen/out/tex/LudiiLanguageReference.tex,Dennis Soemers,20200721-142207
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200721-142207
+D,LudiiDocGen/out/tex/AppendixAImageList.tex,Dennis Soemers,20200721-142233
+M,LudiiDocGen/out/tex/.gitignore,Dennis Soemers,20200721-142313
+M,LudiiDocGen/out/tex/LudiiLanguageReference.tex,Dennis Soemers,20200721-142721
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200721-142721
+M,Core/src/util/state/State.java,Dennis Soemers,20200721-143738
+M,Core/src/util/state/State.java,Cameron Browne,20200721-150801
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-161845
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/OnlineGameInfo.java,Matthew.Stephenson,20200721-161845
+D,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseFindGamePanel.java,Matthew.Stephenson,20200721-161845
+A,PlayerDesktop/src/app/display/dialogs/remote/panels/games/BaseGamePanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentCurrentPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentOtherPanel.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200721-161845
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/ExtraInformationDialog.java,Matthew.Stephenson,20200721-163451
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-163451
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200721-170310
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-170310
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-170310
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/ExtraInformationDialog.java,Matthew.Stephenson,20200721-170310
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200721-170310
+M,PlayerDesktop/src/app/display/views/tabs/pages/TurnsPage.java,Cameron Browne,20200721-172352
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Dennis Soemers,20200721-173052
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/BaseFindPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/ExtraInformationDialog.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/BaseFindTournamentPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew.Stephenson,20200721-174725
+D,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentOtherPanel.java,Matthew.Stephenson,20200721-174725
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200721-165347
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200721-165347
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew.Stephenson,20200721-175540
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew.Stephenson,20200721-175540
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-175540
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200721-175540
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-180126
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,mrraow,20200721-171845
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorLookAndFeel.java,mrraow,20200721-171845
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew.Stephenson,20200721-183538
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameContinuePanel.java,Matthew.Stephenson,20200721-183538
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameCurrentPanel.java,Matthew.Stephenson,20200721-183538
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200721-183538

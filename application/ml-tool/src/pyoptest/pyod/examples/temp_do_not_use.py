@@ -69,13 +69,13 @@ num_epochs = 20
 batch_size = 256
 learning_rate = 1e-3
 
-train_loader = torch.utils.data.DataLoader(train_set,
+train_loader = torch.utils.data.DataManager(train_set,
+                                            batch_size=batch_size,
+                                            shuffle=True)
+
+test_loader = torch.utils.data.DataManager(test_set,
                                            batch_size=batch_size,
                                            shuffle=True)
-
-test_loader = torch.utils.data.DataLoader(test_set,
-                                          batch_size=batch_size,
-                                          shuffle=True)
 
 # for idx, batch in enumerate(train_loader):
 #     print(idx, batch.shape)
@@ -272,9 +272,9 @@ class AutoEncoder(BaseDetector):
                                                                 axis=0)
 
         train_set = PyODDataset(X=X_train, mean=self.mean, std=self.std)
-        train_loader = torch.utils.data.DataLoader(train_set,
-                                                   batch_size=batch_size,
-                                                   shuffle=True)
+        train_loader = torch.utils.data.DataManager(train_set,
+                                                    batch_size=batch_size,
+                                                    shuffle=True)
 
         # initialize the model
         self.model = inner_autoencoder(
@@ -343,9 +343,9 @@ class AutoEncoder(BaseDetector):
         self.model.eval()
 
         dataset = PyODDataset(X=X, mean=self.mean, std=self.std)
-        dataloader = torch.utils.data.DataLoader(dataset,
-                                                 batch_size=self.batch_size,
-                                                 shuffle=False)
+        dataloader = torch.utils.data.DataManager(dataset,
+                                                  batch_size=self.batch_size,
+                                                  shuffle=False)
 
         X_reconst = np.zeros([X.shape[0], ])
         with torch.no_grad():

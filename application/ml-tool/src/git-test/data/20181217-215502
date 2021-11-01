@@ -1,0 +1,76 @@
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181215-201948
+M,Library/src/util/Region.java,Dennis Soemers,20181215-201948
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181215-205058
+A,Common/src/gnu/trove/impl/hash/TIntHash.java,Dennis Soemers,20181215-210552
+D,Common/src/gnu/trove/impl/hash/TIntIntHash.java,Dennis Soemers,20181215-210552
+D,Common/src/gnu/trove/map/TIntIntMap.java,Dennis Soemers,20181215-210552
+D,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,Dennis Soemers,20181215-210552
+A,Common/src/gnu/trove/set/hash/TIntHashSet.java,Dennis Soemers,20181215-210552
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181215-213133
+M,Library/src/game/Game.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerCount.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndex.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCount.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCountState.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexState.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerPlayer.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerState.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenCount.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndex.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCount.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCountState.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexState.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenPlayer.java,Eric.Piette,20181215-220117
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenState.java,Eric.Piette,20181215-220117
+M,Player/src/dbView/DBView.java,Eric.Piette,20181215-220117
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181215-220117
+M,Library/src/game/equipment/component/piece/object/Object.java,Eric.Piette,20181216-083520
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181216-204951
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181216-204951
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181216-204951
+M,Player/src/player/experiments/RunTournament.java,Dennis Soemers,20181216-204951
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181216-213828
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181217-100402
+A,Library/src/game/equipment/component/piece/Hex.java,Eric.Piette,20181217-105540
+M,Library/src/features/FeatureInstance.java,DennisSoemers,20181217-111145
+M,Library/src/util/ChunkSet.java,DennisSoemers,20181217-111145
+M,Library/src/game/equipment/component/piece/Hex.java,Eric.Piette,20181217-112506
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181217-112524
+M,Library/src/game/equipment/component/piece/Hex.java,Eric.Piette,20181217-113007
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric.Piette,20181217-113007
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181217-113156
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181217-113504
+M,Library/src/game/equipment/component/Number.java,Eric.Piette,20181217-113936
+M,Library/src/game/equipment/component/piece/object/Bomb.java,Eric.Piette,20181217-113936
+M,Player/src/dbView/DBView.java,Eric.Piette,20181217-114616
+M,Player/src/dbView/GamesList.java,Eric.Piette,20181217-114616
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric.Piette,20181217-114616
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181217-114616
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181217-114915
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181217-123619
+M,Library/src/util/ChunkSet.java,DennisSoemers,20181217-123619
+M,Library/src/features/FeatureInstance.java,DennisSoemers,20181217-134022
+M,Player/src/player/experiments/RunTournament.java,DennisSoemers,20181217-134022
+M,Library/src/game/Game.java,Eric Piette,20181217-134726
+M,Player/src/dbView/GamesList.java,Eric Piette,20181217-134726
+M,Library/src/game/play/playout/AddToEmpty.java,DennisSoemers,20181217-140112
+M,Library/src/game/rules/end/End.java,Eric Piette,20181217-140959
+M,Library/src/game/Game.java,Eric Piette,20181217-142122
+A,Library/src/game/equipment/container/board/BoardLess.java,Eric Piette,20181217-144231
+D,Library/src/game/equipment/container/board/BoardLess.java,Eric Piette,20181217-144648
+A,Library/src/game/equipment/container/board/Boardless.java,Eric Piette,20181217-144648
+A,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardless.java,Eric Piette,20181217-144834
+A,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardlessPlayer.java,Eric Piette,20181217-144857
+M,Library/src/game/Game.java,Eric Piette,20181217-150529
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20181217-150529
+M,Library/src/game/equipment/container/board/Boardless.java,Eric Piette,20181217-150529
+M,Library/src/game/Game.java,Eric Piette,20181217-151030
+M,Library/src/util/state/State.java,Eric Piette,20181217-151030
+M,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardless.java,Eric Piette,20181217-151913
+M,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardless.java,Eric Piette,20181217-153256
+M,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardless.java,Eric Piette,20181217-154059
+M,Library/src/util/state/ItemStateContainerBoardLess/ItemStateContainerBoardlessPlayer.java,Eric Piette,20181217-154059
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181217-161837
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181217-190310
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181217-215502
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20181217-215502

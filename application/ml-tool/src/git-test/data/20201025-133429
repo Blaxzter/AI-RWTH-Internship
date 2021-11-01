@@ -1,0 +1,48 @@
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20201023-090717
+M,Core/src/game/functions/booleans/is/indexPlayer/IsInvisible.java,Eric.Piette,20201023-094553
+M,Core/src/game/functions/booleans/is/indexPlayer/IsMasked.java,Eric.Piette,20201023-094553
+M,Core/src/game/functions/booleans/is/indexPlayer/IsVisible.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetInvisible.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetMasked.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetVisible.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/place/stack/PlaceMonotonousStack.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/player/SetAmount.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/players/SetTeam.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/simple/SetAllInvisible.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/sites/SetCost.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/sites/SetCount.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/sites/SetPhase.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/set/sites/SetSite.java,Eric.Piette,20201023-094553
+M,Core/src/game/rules/start/split/Split.java,Eric.Piette,20201023-094553
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201023-094553
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201023-094553
+A,Common/res/lud/test/eric/HiddenInfo.lud,Eric.Piette,20201023-151551
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Eric.Piette,20201023-152719
+M,PlayerDesktop/src/app/display/util/DesktopGraphics.java,Matthew Stephenson,20201023-154704
+M,ViewController/src/view/container/aspects/components/ContainerComponents.java,Matthew Stephenson,20201023-154704
+M,Common/res/lud/test/eric/HiddenInfo.lud,Eric.Piette,20201023-163016
+M,Core/src/game/Game.java,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/decision/Move.java,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/nonDecision/effect/Attract.java,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetValue.java,Eric.Piette,20201023-163016
+D,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/players/ShiftPlayers.java,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Eric.Piette,20201023-163016
+M,Core/src/game/util/concept/GameConcept.java,Eric.Piette,20201023-163016
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201023-163016
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Eric.Piette,20201023-174111
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20201023-174111
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Eric.Piette,20201023-174111
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20201023-174111
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20201023-174111
+M,PlayerDesktop/LudiiGameConcepts.csv,Eric.Piette,20201023-174111
+M,PlayerDesktop/src/app/utils/ExportGameConcepts.java,Eric.Piette,20201023-174111
+A,MetadataScripts/Clustering/Convert DMS to DD.csv,Matthew Stephenson,20201024-150457
+A,MetadataScripts/Clustering/EM.csv,Matthew Stephenson,20201024-150457
+A,MetadataScripts/Clustering/GEO.csv,Matthew Stephenson,20201024-150457
+A,MetadataScripts/Clustering/clusterIndex.py,Matthew Stephenson,20201024-150457
+M,PlayerDesktop/res/help/DLPGames.csv,Matthew Stephenson,20201025-133429

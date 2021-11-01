@@ -1,0 +1,152 @@
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew Stephenson,20190310-160007
+A,Library/src/game/equipment/component/piece/chess/ChessGraphics.java,Matthew Stephenson,20190310-160007
+A,Library/src/game/equipment/component/piece/chess/Filters.java,Matthew Stephenson,20190310-160007
+A,Library/src/game/equipment/component/piece/chess/ImageProcessing.java,Matthew Stephenson,20190310-160007
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew Stephenson,20190310-160007
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew Stephenson,20190310-160007
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190310-160007
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew Stephenson,20190310-160007
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew Stephenson,20190310-160007
+A,Library/src/game/equipment/component/piece/chess/ShadowImage.java,Matthew Stephenson,20190310-160007
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190310-165635
+M,Common/src/database/ConnectionDB.java,Matthew Stephenson,20190310-200656
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190310-201143
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190310-201143
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac.py,Dennis Soemers,20190310-201644
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac.py,Dennis Soemers,20190310-215533
+M,Library/src/game/equipment/container/basis/Square.java,eric.piette,20190310-232950
+M,Library/test/Performance.java,eric.piette,20190310-232950
+D,Library/src/game/equipment/component/piece/chess/ChessGraphics.java,Matthew Stephenson,20190311-121231
+D,Library/src/game/equipment/component/piece/chess/Filters.java,Matthew Stephenson,20190311-121231
+D,Library/src/game/equipment/component/piece/chess/ImageProcessing.java,Matthew Stephenson,20190311-121231
+D,Library/src/game/equipment/component/piece/chess/ShadowImage.java,Matthew Stephenson,20190311-121231
+A,Library/src/game/equipment/graphics/Filters.java,Matthew Stephenson,20190311-121231
+A,Library/src/game/equipment/graphics/ImageProcessing.java,Matthew Stephenson,20190311-121231
+A,Library/src/game/equipment/graphics/ShadowImage.java,Matthew Stephenson,20190311-121231
+A,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190311-121231
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/graphics/Filters.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/graphics/ImageProcessing.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/graphics/ShadowImage.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190311-121826
+M,Library/src/game/Game.java,Matthew Stephenson,20190311-122936
+M,Library/src/game/rules/move/Move.java,Matthew Stephenson,20190311-122936
+M,Library/src/game/rules/move/MoveUtilities.java,Matthew Stephenson,20190311-122936
+M,Library/src/game/rules/start/Fill.java,Matthew Stephenson,20190311-122936
+M,Library/src/game/rules/start/Place.java,Matthew Stephenson,20190311-122936
+M,Library/src/oldLudeme/game/rules/start/PlaceRandomly.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/Action.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionAdd.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionAddN.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionChangeState.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionCombined.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionCopy.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionMove.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionMoveN.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionMoveRemove.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionMoveState.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionPass.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionRemove.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionRemoveN.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/ActionSelect.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/Checkmate.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/Remove.java,Matthew Stephenson,20190311-122936
+M,Library/src/util/action/SetNextPlayer.java,Matthew Stephenson,20190311-122936
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190311-122936
+M,Player/src/mainView/button/ButtonStart.java,Matthew Stephenson,20190311-125036
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190311-125036
+M,Player/.settings/org.eclipse.jdt.core.prefs,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonBack.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonEnd.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonForward.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonInfo.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonRestart.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonSettings.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonStart.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ButtonUndo.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/button/ToolButton.java,Matthew Stephenson,20190311-125615
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20190311-125615
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190311-125615
+M,Player/src/player/PlayerCli.java,Matthew Stephenson,20190311-125615
+M,Player/src/player/Referee.java,Matthew Stephenson,20190311-125615
+M,Player/src/player/Settings.java,Matthew Stephenson,20190311-125615
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonBack.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonEnd.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonForward.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonUndo.java,Matthew Stephenson,20190311-142633
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190311-142633
+M,Player/src/player/Referee.java,Matthew Stephenson,20190311-142633
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190311-150056
+M,Library/src/game/equipment/container/basis/BaseBasis.java,eric.piette,20190311-150134
+M,Library/src/game/equipment/container/basis/Square.java,eric.piette,20190311-150134
+M,Library/src/game/equipment/container/shape/BaseShape.java,eric.piette,20190311-150134
+M,Library/src/game/equipment/container/shape/Shape.java,eric.piette,20190311-150134
+M,Library/src/game/equipment/container/shape/TriangleEquilateral.java,eric.piette,20190311-150134
+M,Player/src/dbView/games/TicTacToe.java,eric.piette,20190311-150134
+M,Library/src/game/equipment/container/basis/Square.java,eric.piette,20190311-151236
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190311-151236
+M,Library/src/game/equipment/container/board/ChessBoard.java,eric.piette,20190311-151236
+M,Player/src/dbView/games/Amazons.java,eric.piette,20190311-151236
+M,Player/src/dbView/games/Breakthrough.java,eric.piette,20190311-151236
+M,Library/src/game/equipment/container/basis/Square.java,eric.piette,20190311-152332
+M,Library/src/game/equipment/component/piece/Ball.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/Cross.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/Disc.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/Hex.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/Piece.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/Square.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/animal/Animal.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Alfil.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Centaur.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Champion.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Chess.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Commoner.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Empress.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Fool.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Giraffe.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Janus.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/King.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Knight.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Mann.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Queen.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Rook.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Unicorn.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Wizard.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/piece/chess/Zebra.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/container/board/ChessBoard.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/Amazons.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/Breakthrough.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/Connect4.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/Gomoku.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/Hnefatafl11.java,eric.piette,20190311-153247
+M,Player/src/dbView/games/TicTacToe.java,eric.piette,20190311-153247
+M,Player/src/player/Referee.java,eric.piette,20190311-153247
+M,Library/src/game/equipment/component/Card.java,Matthew Stephenson,20190311-154632
+M,Library/src/game/types/CardType.java,Matthew Stephenson,20190311-154632
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190311-160855
+M,Library/src/game/equipment/container/basis/BaseBasis.java,eric.piette,20190311-161000
+M,Library/src/game/equipment/container/basis/Square.java,eric.piette,20190311-161000
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190311-161000
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190311-161000
+M,Library/src/game/equipment/container/shape/Shape.java,eric.piette,20190311-161000
+M,Library/src/graph/Graph.java,eric.piette,20190311-161000
+M,Library/src/game/equipment/container/board/ChessBoard.java,eric.piette,20190311-161625
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190311-161625
+M,Player/src/dbView/games/Amazons.java,eric.piette,20190311-161625
+M,Player/src/dbView/games/Breakthrough.java,eric.piette,20190311-161625
+M,Player/src/dbView/games/Hnefatafl11.java,eric.piette,20190311-161625

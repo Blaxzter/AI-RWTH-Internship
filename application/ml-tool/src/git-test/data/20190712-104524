@@ -1,0 +1,174 @@
+A,Common/res/lud/dice/Snake and Ladders.lud,eric.piette,20190710-101048
+M,Library/src/game/equipment/container/hand/HandDice.java,eric.piette,20190710-101048
+M,Library/src/game/equipment/other/Track.java,eric.piette,20190710-101048
+M,Library/src/game/rules/play/moves/Roll.java,eric.piette,20190710-101048
+M,Library/src/game/rules/start/Place.java,eric.piette,20190710-101048
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190710-101048
+M,Library/src/util/state/State.java,eric.piette,20190710-101048
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndexState.java,eric.piette,20190710-101048
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,eric.piette,20190710-101048
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190710-101048
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,eric.piette,20190710-103011
+M,Common/res/lud/dice/Snake and Ladders.lud,eric.piette,20190710-104156
+M,Library/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20190710-104156
+M,Library/src/graph/Graph.java,Dennis Soemers,20190710-104400
+M,Common/res/lud/dice/Snake and Ladders.lud,eric.piette,20190710-115716
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190710-115716
+M,Common/res/lud/dice/Royal Game of Ur.lud,eric.piette,20190710-122537
+M,Common/res/lud/dice/Senet.lud,eric.piette,20190710-122537
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190710-122537
+M,Library/src/game/equipment/component/Die.java,eric.piette,20190710-122537
+M,Library/src/game/equipment/container/hand/HandDice.java,eric.piette,20190710-122537
+M,Library/src/game/rules/play/moves/Roll.java,eric.piette,20190710-122537
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Cameron Browne,20190710-122608
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190710-122608
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190710-123052
+M,Library/src/game/rules/play/moves/Roll.java,Cameron Browne,20190710-123052
+D,Common/res/lud/Tic-Tac-Toe (bad board).lud,Dennis Soemers,20190710-124911
+D,Common/res/lud/Tic-Tac-Toe (infinite define).lud,Dennis Soemers,20190710-124911
+A,Common/res/lud/bad/Tic-Tac-Toe (bad board).lud,Dennis Soemers,20190710-124911
+A,Common/res/lud/bad/Tic-Tac-Toe (infinite define).lud,Dennis Soemers,20190710-124911
+A,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,Dennis Soemers,20190710-124911
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190710-124911
+D,Common/res/lud/dice/Snake and Ladders.lud,eric.piette,20190710-124919
+A,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190710-124919
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190710-125119
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190710-130826
+M,Library/src/util/Context.java,eric.piette,20190710-130953
+A,Library/src/game/functions/ints/Level.java,eric.piette,20190710-131152
+M,Library/src/util/action/ActionMove.java,eric.piette,20190710-132828
+M,Common/src/main/Global.java,mrrao,20190710-132433
+M,Library/src/util/state/State.java,mrrao,20190710-132433
+A,Library/src/util/zhash/ZobristHashGenerator.java,mrrao,20190710-132433
+A,Library/src/util/zhash/ZobristHashUtilities.java,mrrao,20190710-132433
+M,Library/src/game/functions/booleans/Threatened.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionAdd.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionAddN.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionChangeState.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionCopy.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionHidden.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionMove.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionMoveN.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionMoveRemove.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionMoveState.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionPromote.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionRemove.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionRemoveN.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionSetCount.java,mrrao,20190710-150207
+M,Library/src/util/action/ActionState.java,mrrao,20190710-150207
+M,Library/src/util/action/Remove.java,mrrao,20190710-150207
+M,Library/src/util/state/State.java,mrrao,20190710-150207
+M,Library/src/util/state/containerGraphState/ContainerGraphState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,mrrao,20190710-150207
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndex.java,mrrao,20190710-150207
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndexState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerStackingState/ContainerStateStackingPlayer.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/BaseContainerState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateCount.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateIndex.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateIndexCount.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateIndexCountState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStatePlayer.java,mrrao,20190710-150207
+M,Library/src/util/state/containerState/ContainerStateState.java,mrrao,20190710-150207
+M,Library/src/util/state/puzzleState/PuzzleState.java,mrrao,20190710-150207
+M,Library/src/util/state/puzzleState/PuzzleStateLarge.java,mrrao,20190710-150207
+M,Library/src/util/state/State.java,eric.piette,20190710-164440
+M,Library/src/game/rules/end/End.java,eric.piette,20190710-171050
+M,Library/src/util/Status.java,eric.piette,20190710-171050
+M,Library/src/util/state/State.java,eric.piette,20190710-171050
+M,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,Dennis Soemers,20190710-185213
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190710-185213
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190710-185213
+M,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,Dennis Soemers,20190710-213813
+M,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190710-222428
+M,Library/src/game/rules/end/End.java,eric.piette,20190710-222428
+M,Library/src/util/state/State.java,mrrao,20190710-213041
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190710-223435
+A,Library/src/util/Position.java,eric.piette,20190711-111613
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190711-112701
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190711-112701
+M,Common/.classpath,DennisSoemers,20190711-130624
+M,Player/src/player/GameLoader.java,DennisSoemers,20190711-130624
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190711-130624
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190711-130624
+D,Common/res/lud/Breakthrough (bad).lud,DennisSoemers,20190711-134346
+A,Common/res/lud/bad_playout/Breakthrough (bad).lud,DennisSoemers,20190711-134346
+M,Player/src/player/GameLoader.java,DennisSoemers,20190711-134346
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190711-134346
+M,Player/test/games/EfficiencyTest.java,DennisSoemers,20190711-134346
+M,Player/test/games/OnePlayoutByGameTest.java,DennisSoemers,20190711-134346
+M,Player/src/player/GameLoader.java,DennisSoemers,20190711-143834
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190711-144359
+M,Player/src/player/GameLoader.java,eric.piette,20190711-150948
+M,Player/src/player/PlayerApp.java,eric.piette,20190711-150948
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190711-151334
+M,Player/src/player/GameLoader.java,DennisSoemers,20190711-151716
+M,Player/src/player/GameLoader.java,DennisSoemers,20190711-152803
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190711-153509
+M,Library/src/util/state/State.java,eric.piette,20190711-154201
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20190711-154536
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190711-154536
+M,Library/src/game/functions/region/Own.java,eric.piette,20190711-154536
+M,Library/src/game/playout/ByPiecePlayout.java,eric.piette,20190711-154536
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20190711-154536
+M,Library/src/game/rules/play/moves/ByPieceType.java,eric.piette,20190711-154536
+M,Library/src/game/rules/play/moves/CheckMove.java,eric.piette,20190711-154536
+M,Library/src/util/Context.java,eric.piette,20190711-154536
+A,Library/src/util/Owned.java,eric.piette,20190711-154536
+M,Library/src/util/Position.java,eric.piette,20190711-154536
+M,Library/src/util/Trial.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190711-154536
+D,Library/src/util/action/ActionCopy.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionMove.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionMoveN.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionMoveRemove.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionMoveState.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionPromote.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionRemove.java,eric.piette,20190711-154536
+M,Library/src/util/action/ActionRemoveN.java,eric.piette,20190711-154536
+M,Library/src/util/action/Remove.java,eric.piette,20190711-154536
+M,Player/test/games/OnePlayoutByGameTest.java,DennisSoemers,20190711-155327
+M,Library/src/util/Owned.java,DennisSoemers,20190711-160058
+M,Library/src/util/Position.java,DennisSoemers,20190711-160058
+M,Library/src/game/functions/booleans/Threatened.java,DennisSoemers,20190711-161410
+M,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20190711-161410
+M,Library/src/util/Context.java,DennisSoemers,20190711-161410
+M,Library/src/util/Owned.java,DennisSoemers,20190711-161410
+M,Library/src/util/Trial.java,DennisSoemers,20190711-161410
+M,Player/src/player/PlayerApp.java,eric.piette,20190711-161629
+M,Player/src/player/PlayerApp.java,eric.piette,20190711-161805
+M,Library/src/game/functions/ints/Level.java,eric.piette,20190711-164858
+M,Library/src/game/functions/region/Own.java,eric.piette,20190711-164858
+M,Library/src/util/Owned.java,eric.piette,20190711-164858
+M,Common/src/main/Global.java,Dennis Soemers,20190711-171009
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190711-171009
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190711-171009
+M,Library/src/util/Owned.java,eric.piette,20190711-173331
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190711-173331
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190711-173331
+M,Library/src/util/action/ActionMove.java,eric.piette,20190711-173331
+M,Common/res/lud/puzzle/others/Towers of Hanoi.lud,eric.piette,20190711-181019
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20190711-181019
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20190711-181019
+M,Library/src/game/rules/end/End.java,eric.piette,20190711-181019
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190711-185932
+M,Player/test/games/SanityChecks.java,Dennis Soemers,20190711-191539
+M,Common/res/lud/puzzle/deductive puzzle/Binero.lud,Lianne.Hufkens,20190711-212651
+M,Common/res/lud/puzzle/deductive puzzle/Futoshiki.lud,Lianne.Hufkens,20190711-212651
+M,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190712-001251
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20190712-001251
+M,Library/src/game/functions/region/Set.java,eric.piette,20190712-001251
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190712-001251
+M,Library/src/util/Owned.java,eric.piette,20190712-001251
+M,Library/src/util/Position.java,eric.piette,20190712-001251
+M,Library/src/util/action/ActionMove.java,eric.piette,20190712-001251
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndex.java,eric.piette,20190712-001251
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190712-104524
+M,Library/src/game/Game.java,Dennis Soemers,20190712-104524
+M,Library/src/util/AI.java,Dennis Soemers,20190712-104524
+M,Library/src/util/Trial.java,Dennis Soemers,20190712-104524
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190712-104524
+M,Player/src/player/Referee.java,Dennis Soemers,20190712-104524

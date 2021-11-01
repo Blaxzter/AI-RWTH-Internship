@@ -1,0 +1,133 @@
+M,Library/src/game/equipment/container/Deck.java,eric.piette,20190105-231934
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190105-231934
+M,Player/src/mainView/MainView.java,eric.piette,20190105-231934
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190105-231934
+M,Player/src/player/PlayerApp.java,eric.piette,20190105-231934
+M,Player/src/dbView/DBView.java,eric.piette,20190105-233325
+M,Player/src/dbView/GamesList.java,eric.piette,20190105-233325
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190105-233325
+M,Player/src/player/PlayerCli.java,eric.piette,20190105-233325
+M,Grammar/src/grammar/Arg.java,Cameron Browne,20190106-100340
+M,Grammar/src/parser/ListArg.java,Cameron Browne,20190106-100340
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190106-100340
+M,Grammar/src/.DS_Store,Cameron Browne,20190106-101054
+M,Library/src/game/functions/booleans/If.java,Cameron Browne,20190106-101054
+D,Library/src/game/functions/booleans/G.java,Cameron Browne,20190106-101417
+M,Library/src/game/functions/booleans/Ge.java,Cameron Browne,20190106-101417
+A,Library/src/game/functions/booleans/Gt.java,Cameron Browne,20190106-101417
+D,Library/src/game/functions/booleans/L.java,Cameron Browne,20190106-101417
+M,Library/src/game/functions/booleans/Le.java,Cameron Browne,20190106-101417
+A,Library/src/game/functions/booleans/Lt.java,Cameron Browne,20190106-101417
+M,Library/src/game/functions/booleans/Lt.java,Cameron Browne,20190106-101454
+A,Grammar/src/parser/ArgClass.java,Cameron Browne,20190106-114830
+A,Grammar/src/parser/ArgList.java,Cameron Browne,20190106-114830
+A,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190106-114830
+D,Grammar/src/parser/ListArg.java,Cameron Browne,20190106-114830
+D,Grammar/src/parser/NamedArg.java,Cameron Browne,20190106-114830
+D,Grammar/src/parser/TokenArg.java,Cameron Browne,20190106-114830
+M,Player/src/dbView/GamesList.java,Cameron Browne,20190106-114830
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190106-114830
+A,AI/resources/FeatureSets/Hex/HandcraftedHexPatterns.fs,Dennis Soemers,20190106-121658
+A,AI/resources/FeatureSets/Yavalath/HandcraftedYavalathPatterns.fs,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/__init__.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/__init__.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/generate_training_scripts.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/plot_kl_divergences.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/plot_kl_divergences_boxplots.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/expert_iteration/plot_scores_per_variant.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/plotting_utils.py,Dennis Soemers,20190106-121658
+D,DiagnosticsPy/experiments/script_generation.py,Dennis Soemers,20190106-121658
+M,Library/src/features/FeatureSet.java,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_handcrafted_evaluation_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_handcrafted_training_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_pruned_evaluation_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_pruned_training_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/kl_divergence_plots/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/kl_divergence_plots/plot_kl_divergences.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/mcts_slowdowns.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/mcts_slowdowns_pruned.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/plot_slowdown_scores.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_slowdown_plots/plot_slowdown_scores_pruned.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_game.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant_per_game.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant_per_game_handcrafted.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant_per_game_pruned.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_scores_per_variant_pruned.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/scores.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/weight_plots/__init__.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/expert_iteration/weight_plots/plot_final_weights.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/plotting_utils.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/experiments/script_generation.py,Dennis Soemers,20190106-121658
+A,LudiiDiagnosticsPy/setup.py,Dennis Soemers,20190106-121658
+A,Player/src/player/experiments/PruneFeatureSet.java,Dennis Soemers,20190106-121658
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190106-121658
+M,Player/src/player/game_logs/ResultsSummary.java,Dennis Soemers,20190106-121658
+M,Grammar/grammar-1.6.txt,Cameron Browne,20190106-143335
+M,Grammar/src/.DS_Store,Cameron Browne,20190106-143335
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20190106-143335
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190106-143335
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190106-143335
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190106-143335
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190106-143335
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190106-143335
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190106-222500
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190106-235214
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190106-235214
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190106-235214
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190106-235214
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190106-235214
+M,Library/src/game/rules/Rules.java,Cameron Browne,20190107-061459
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190107-062721
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190107-062721
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190107-062721
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190107-062721
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190107-062721
+M,Library/src/game/play/Play.java,Cameron Browne,20190107-064058
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190107-080435
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190107-080435
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190107-080435
+M,Library/src/game/functions/booleans/NoItem.java,eric.piette,20190107-095853
+M,Library/src/game/functions/region/Own.java,eric.piette,20190107-095853
+M,Library/src/game/rules/moves/FromTo.java,eric.piette,20190107-100802
+M,Library/src/game/rules/moves/FromTo.java,eric.piette,20190107-100850
+M,AI/resources/FeatureSets/Hex/HandcraftedHexPatterns.fs,DennisSoemers,20190107-103046
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190107-103046
+M,AI/src/policies/Policy.java,DennisSoemers,20190107-103046
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/Node.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/playout/CustomGamePlayout.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/playout/RandomPlayout.java,DennisSoemers,20190107-103046
+M,AI/src/search/mcts/selection/PlayoutSelection.java,DennisSoemers,20190107-103046
+M,AI/src/utils/ExItExperience.java,DennisSoemers,20190107-103046
+M,AI/src/utils/ExperienceBuffer.java,DennisSoemers,20190107-103046
+M,Library/src/features/FeatureSet.java,DennisSoemers,20190107-103046
+M,Player/src/mainView/MainView.java,DennisSoemers,20190107-103046
+M,Player/src/player/experiments/TestExpertIteration.java,DennisSoemers,20190107-103046
+M,AI/resources/FeatureSets/Hex/HandcraftedHexPatterns.fs,DennisSoemers,20190107-125841
+M,Library/src/features/features/Feature.java,DennisSoemers,20190107-125841
+M,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20190107-125841
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20190107-125841
+M,Library/src/features/generation/MoveFeatures.java,DennisSoemers,20190107-125841
+M,Library/src/features/patterns/Pattern.java,DennisSoemers,20190107-125841
+M,Library/src/game/Game.java,DennisSoemers,20190107-125841
+M,Player/src/player/features/generation/GameLogMiner.java,DennisSoemers,20190107-125841
+M,Common/src/database/ConnectionDB.java,eric.piette,20190107-134946
+M,Common/src/database/ConnectionDB.java,eric.piette,20190107-135028
+M,Library/src/game/functions/ints/LastFromMove.java,eric.piette,20190107-143855
+M,Library/src/game/rules/postCondition/PostCondition.java,eric.piette,20190107-145101
+M,Library/src/game/Game.java,Cameron Browne,20190107-154414
+M,Library/src/game/rules/Rules.java,Cameron Browne,20190107-154414
+M,Library/src/game/rules/moves/ExceptFrom.java,Cameron Browne,20190107-154414
+M,Library/src/game/rules/moves/ExceptTo.java,Cameron Browne,20190107-154414
+M,Library/src/game/rules/Rules.java,Cameron Browne,20190107-154528
+M,Library/src/game/rules/moves/FromTo.java,Cameron Browne,20190107-233026

@@ -1,0 +1,650 @@
+M,Core/src/game/functions/directions/If.java,Cameron Browne,20200419-182807
+M,Common/src/main/Token.java,Cameron Browne,20200419-182826
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200419-182826
+M,Grammar/src/grammar/Clause.java,Cameron Browne,20200419-182826
+A,Grammar/src/grammar/ClauseArg.java,Cameron Browne,20200419-182826
+M,Grammar/src/grammar/Grammar.java,Cameron Browne,20200419-182826
+M,Grammar/src/grammar/Symbol.java,Cameron Browne,20200419-182826
+D,Grammar/src/grammar/SymbolArg.java,Cameron Browne,20200419-182826
+A,Grammar/src/parser/ParseItem.java,Cameron Browne,20200419-182826
+A,Grammar/src/parser/SymbolClauses.java,Cameron Browne,20200419-182826
+M,Grammar/src/grammar/ClauseArg.java,Cameron Browne,20200419-183704
+M,Grammar/src/parser/ParseItem.java,Cameron Browne,20200419-183704
+D,Grammar/src/parser/SymbolClauses.java,Cameron Browne,20200419-183704
+A,Grammar/src/parser/SymbolInstance.java,Cameron Browne,20200419-183704
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200420-082208
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200420-082935
+M,Common/res/lud/wip/puzzle/deduction/Takuzu.lud,eric.piette,20200420-090146
+M,Core/src/game/functions/booleans/space/IsLine.java,eric.piette,20200420-090146
+M,Core/src/game/rules/play/moves/decision/Constraints.java,eric.piette,20200420-090146
+M,Core/src/util/state/puzzleState/PuzzleState.java,eric.piette,20200420-090146
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200420-090239
+M,Player/src/display/views/PlayerViewShared.java,Matthew.Stephenson,20200420-090239
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200420-090239
+A,Common/res/lud/puzzle/deduction/N Queens.lud,eric.piette,20200420-092124
+D,Common/res/lud/wip/puzzle/deduction/N Queens.lud,eric.piette,20200420-092124
+D,Common/res/lud/wip/puzzle/deduction/Takuzu.lud,eric.piette,20200420-092124
+A,Common/res/lud/wip/puzzle/deduction/guibugs/Takuzu.lud,eric.piette,20200420-092124
+M,Core/src/game/functions/booleans/puzzleConstraints/IsCount.java,eric.piette,20200420-092124
+M,Core/src/util/state/puzzleState/PuzzleState.java,eric.piette,20200420-092124
+M,Common/res/lud/wip/puzzle/deduction/Fill A Pix.lud,eric.piette,20200420-092751
+M,Core/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20200420-092751
+M,Core/src/util/model/SimultaneousMove.java,Matthew.Stephenson,20200420-092927
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200420-092927
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200420-092927
+D,Common/res/lud/wip/puzzle/deduction/Fill A Pix.lud,eric.piette,20200420-093517
+D,Common/res/lud/wip/puzzle/deduction/Squaro.lud,eric.piette,20200420-093517
+A,Common/res/lud/wip/puzzle/deduction/guibugs/Fill A Pix.lud,eric.piette,20200420-093517
+A,Common/res/lud/wip/puzzle/deduction/guibugs/Squaro.lud,eric.piette,20200420-093517
+M,Core/src/game/functions/booleans/puzzleConstraints/SameParity.java,eric.piette,20200420-093517
+M,Core/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20200420-094119
+M,Core/src/game/functions/booleans/puzzleConstraints/IsProduct.java,eric.piette,20200420-094119
+M,Core/src/game/functions/booleans/puzzleConstraints/IsShape.java,eric.piette,20200420-094119
+M,Core/src/game/functions/booleans/puzzleConstraints/IsSum.java,eric.piette,20200420-094119
+M,Core/src/game/functions/booleans/puzzleConstraints/IsUnique.java,eric.piette,20200420-094119
+M,Core/src/game/functions/booleans/puzzleConstraints/SameParity.java,eric.piette,20200420-094119
+M,Graphics/src/view/container/custom/board/WheelStyle.java,Matthew.Stephenson,20200420-095039
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200420-100744
+M,Player/src/player/utils/GUIUtil.java,Matthew.Stephenson,20200420-100744
+A,Core/src/game/Match.java,eric.piette,20200420-102219
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/PuzzleStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/PyramidalStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/AgonStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/BackgammonStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/Connect4Style.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/GoStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/GooseStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/HexStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/HexYStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/HoundsAndJackalsStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/JanggiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/LascaStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/MancalaStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/PachisiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/PloyStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/ScriptaStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/ShogiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/SurakartaStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/TaflStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/XiangqiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/GraphPuzzleStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/HashiStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/KakuroStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/PuzzleDotStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/SudokuStyle.java,Matthew.Stephenson,20200420-102523
+M,Graphics/src/view/container/custom/board/metadata/puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200420-102605
+M,Graphics/src/view/container/custom/board/metadata/JanggiStyle.java,Matthew.Stephenson,20200420-103304
+M,Graphics/src/view/container/custom/board/metadata/XiangqiStyle.java,Matthew.Stephenson,20200420-103304
+M,Core/src/util/Trial.java,Dennis Soemers,20200420-105707
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200420-105707
+M,Common/res/def_ai/Hex_ai.def,eric.piette,20200420-110938
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,eric.piette,20200420-110938
+M,Common/res/lud/puzzle/deduction/N Queens.lud,eric.piette,20200420-110938
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,eric.piette,20200420-110938
+M,Common/res/lud/puzzle/planning/Insanity.lud,eric.piette,20200420-110938
+A,Common/res/lud/test/HexSwapOpening.lud,eric.piette,20200420-110938
+A,Core/src/game/rules/play/moves/operators/SwapPlayer.java,eric.piette,20200420-110938
+D,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Matthew.Stephenson,20200420-111444
+M,Common/res/lud/dominoes/Block.lud,Matthew.Stephenson,20200420-111444
+A,Common/res/lud/wip/Taikyoku Shogi.lud,Matthew.Stephenson,20200420-111444
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Matthew.Stephenson,20200420-111444
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Matthew.Stephenson,20200420-111444
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Matthew.Stephenson,20200420-111444
+M,Graphics/src/view/component/custom/DominoStyle.java,Matthew.Stephenson,20200420-111444
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Cameron Browne,20200420-111556
+A,Core/src/metadata/info/database/Classification.java,Cameron Browne,20200420-111556
+A,Core/src/metadata/info/database/Origin.java,Cameron Browne,20200420-111556
+M,Core/src/metadata/info/database/Rules.java,Cameron Browne,20200420-111556
+A,Core/src/metadata/info/database/Version.java,Cameron Browne,20200420-111556
+M,Common/res/lud/dominoes/Block.lud,Matthew.Stephenson,20200420-111622
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-111732
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Matthew.Stephenson,20200420-112010
+M,Common/res/lud/test/HexSwapOpening.lud,eric.piette,20200420-112144
+D,Core/src/game/rules/play/moves/operators/SwapPlayer.java,eric.piette,20200420-112144
+A,Core/src/game/rules/play/moves/operators/state/SwapPlayers.java,eric.piette,20200420-112144
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200420-113631
+D,Common/src/database/ConnectionDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/DeleteInDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/DropDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/InitDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/InsertDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/SelectDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/UpdateDB.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/AI.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/Cultural.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/Executable.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/GUI.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/Game.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/Information.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/LUDII.java,Dennis Soemers,20200420-114020
+D,Common/src/database/object/Metadata.java,Dennis Soemers,20200420-114020
+M,Common/res/lud/board/race/reach/Breakthrough.lud,Dennis Soemers,20200420-114213
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-125118
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200420-125118
+M,Common/res/lud/wip/Four-Player Hex (Iterator).lud,eric.piette,20200420-125201
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200420-125201
+M,Core/src/game/functions/booleans/space/IsBlocked.java,eric.piette,20200420-125201
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-125450
+D,Common/res/lud/wip/Four-Player Hex (Iterator).lud,eric.piette,20200420-125923
+M,Common/res/lud/wip/Four-Player Hex.lud,eric.piette,20200420-125923
+M,Core/src/game/functions/booleans/space/IsBlocked.java,eric.piette,20200420-125923
+M,Core/src/game/functions/booleans/space/IsBlocked.java,eric.piette,20200420-130059
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200420-130449
+M,Common/res/lud/test/HexSwapOpening.lud,eric.piette,20200420-131851
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200420-131851
+M,Core/src/game/rules/play/moves/operators/state/SwapPlayers.java,eric.piette,20200420-131851
+M,AI/build.xml,Dennis Soemers,20200420-132239
+M,Common/.classpath,Dennis Soemers,20200420-132239
+M,Common/build.xml,Dennis Soemers,20200420-132239
+D,Common/lib/mysql-connector-java-5.0.5-bin.jar,Dennis Soemers,20200420-132239
+M,Core/build.xml,Dennis Soemers,20200420-132239
+M,Evaluation/build.xml,Dennis Soemers,20200420-132239
+M,Features/build.xml,Dennis Soemers,20200420-132239
+M,Grammar/build.xml,Dennis Soemers,20200420-132239
+M,Graphics/build.xml,Dennis Soemers,20200420-132239
+M,Player/build.xml,Dennis Soemers,20200420-132239
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200420-132253
+M,Graphics/src/util/SettingsVC.java,Matthew.Stephenson,20200420-132337
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-132337
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200420-132337
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200420-132337
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200420-132337
+M,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200420-132337
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,eric.piette,20200420-132648
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200420-132648
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200420-132648
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200420-132648
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200420-132804
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-133812
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonInfo.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200420-134347
+D,Player/src/display/toolButtons/ButtonRestart.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonSettings.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200420-134347
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200420-134347
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200420-134430
+M,Core/src/game/functions/booleans/space/IsBlocked.java,TahminaBegum,20200420-134430
+M,Core/src/game/functions/booleans/space/IsConnected.java,TahminaBegum,20200420-134430
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200420-134535
+M,Common/res/def_ai/Alquerque_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Awithlaknannai_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Brazilian Draughts_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Canadian Draughts_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Dama_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Dash Guti_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/De Cercar La Liebre_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Egara Guti_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/English Draughts_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Felli_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Gol Ekuish_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Grasshopper_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Halma_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/HexDame_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/International Draughts_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Kharbaga_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Ko-app-paw-na_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Lasca_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Lau Kata Kati_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Ludus Latrunculorum_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Madelinette_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Pretwa_ai.def,eric.piette,20200420-134559
+M,Common/res/def_ai/Tuknanavuhpi_ai.def,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/isometric/counter_isometric.svg,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/isometric/counterstar_isometric.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/isometric/dame_isometric.svg,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/isometric/doublecounter_isometric.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/isometric/man_isometric.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/isometric/manstar_isometric.svg,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/plain/counter.svg,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/plain/counterstar.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/plain/dame.svg,eric.piette,20200420-134559
+A,Common/res/img/svg/checkers/plain/doublecounter.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/plain/man.svg,eric.piette,20200420-134559
+D,Common/res/img/svg/checkers/plain/manstar.svg,eric.piette,20200420-134559
+M,Common/res/lud/board/hunt/De Cercar La Liebre.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/space/blocking/Madelinette.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/space/group/Manalath.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Felli.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200420-134559
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200420-134559
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,eric.piette,20200420-134559
+M,Common/res/lud/wishlist/dlp/Manddiare.lud,eric.piette,20200420-134559
+M,Common/res/lud/wishlist/dlp/Mandoli.lud,eric.piette,20200420-134559
+M,Common/res/lud/wishlist/dlp/Mangala (Suez).lud,eric.piette,20200420-134559
+M,Common/res/lud/wishlist/dlp/Mangala (bedouin).lud,eric.piette,20200420-134559
+M,Common/res/lud/wishlist/dlp/Mangola.lud,eric.piette,20200420-134559
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200420-134559
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-134907
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200420-134907
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200420-135738
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200420-135738
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200420-135738
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200420-140453
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200420-140453
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200420-140900
+M,Core/src/util/state/State.java,mrraow,20200420-131210
+M,Core/src/util/state/containerState/BaseContainerState.java,mrraow,20200420-131210
+M,Core/src/util/state/containerState/ContainerState.java,mrraow,20200420-131210
+M,Core/src/util/state/containerState/FlatContainerState.java,mrraow,20200420-131210
+M,Core/src/util/state/puzzleState/PuzzleState.java,mrraow,20200420-131210
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200420-141556
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200420-141556
+M,Common/res/lud/test/Example2.lud,eric.piette,20200420-141616
+M,Common/res/lud/wip/Four-Player Hex.lud,eric.piette,20200420-141616
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200420-141954
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200420-141954
+M,Common/res/lud/board/war/other/Surakarta.lud,eric.piette,20200420-144034
+M,Graphics/src/util/SettingsVC.java,Matthew.Stephenson,20200420-145655
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200420-145655
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200420-145655
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200420-145655
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200420-145655
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200420-145655
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200420-145655
+A,Common/res/lud/board/space/connection/Four-Player Hex.lud,eric.piette,20200420-145700
+D,Common/res/lud/wip/Four-Player Hex.lud,eric.piette,20200420-145700
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200420-145741
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200420-150551
+M,Player/src/player/utils/GraphicsCache.java,Matthew.Stephenson,20200420-150551
+M,Core/src/util/Location.java,Matthew.Stephenson,20200420-151036
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200420-151741
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Matthew.Stephenson,20200420-151741
+M,Core/src/game/functions/booleans/puzzleConstraints/AllConnected.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsCount.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsCrossing.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsProduct.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsSolved.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsSum.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/IsUnique.java,eric.piette,20200420-152515
+M,Core/src/game/functions/booleans/puzzleConstraints/SameParity.java,eric.piette,20200420-152515
+M,Core/src/util/state/containerState/BaseContainerState.java,eric.piette,20200420-152515
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200420-152515
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200420-152515
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,eric.piette,20200420-152515
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200420-152515
+M,Core/src/util/state/State.java,eric.piette,20200420-160902
+M,Common/res/lud/board/space/connection/Four-Player Hex.lud,Cameron Browne,20200420-161515
+M,Common/res/lud/board/race/reach/Arimaa.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Double Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Cameron Browne,20200420-161547
+M,Common/res/lud/test/Chess (load AI test).lud,Cameron Browne,20200420-161547
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200420-161547
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200420-162702
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200420-162702
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200420-162702
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200420-162702
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200420-162702
+M,Core/src/game/Game.java,eric.piette,20200420-163047
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200420-163047
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200420-163624
+M,Player/src/display/views/TabView.java,Cameron Browne,20200420-163624
+M,Player/src/display/views/TabView.java,Cameron Browne,20200420-163806
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200420-164731
+M,AI/src/search/minimax/AlphaBetaSearch.java,eric.piette,20200420-165935
+M,AI/src/utils/AIUtils.java,eric.piette,20200420-165935
+M,Core/src/game/Game.java,eric.piette,20200420-165935
+M,Core/src/game/playout/AddToEmpty.java,eric.piette,20200420-165935
+M,Core/src/game/playout/FilterPlayout.java,eric.piette,20200420-165935
+M,Core/src/game/playout/NoRepetitionPlayout.java,eric.piette,20200420-165935
+M,Core/src/game/rules/play/moves/operators/state/SwapPlayers.java,eric.piette,20200420-165935
+M,Core/src/util/action/others/ActionSwap.java,eric.piette,20200420-165935
+M,Core/src/util/state/State.java,eric.piette,20200420-165935
+M,Player/test/hashes/HashTests.java,eric.piette,20200420-165935
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200420-170130
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200420-170425
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200420-171655
+M,Core/src/util/state/State.java,Dennis Soemers,20200420-171655
+M,Core/src/util/state/State.java,Dennis Soemers,20200420-172001
+M,Player/src/display/views/PlayerViewUser.java,Dennis Soemers,20200420-172001
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonInfo.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonSettings.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200420-172801
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200420-172801
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200420-172801
+M,Core/src/game/Game.java,eric.piette,20200420-173408
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200420-173502
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200420-174241
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200420-174950
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200420-174950
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200420-174950
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200420-175438
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200420-183357
+M,Player/src/display/MainWindow.java,Cameron Browne,20200420-183357
+M,Core/src/util/state/State.java,Dennis Soemers,20200420-200646
+M,Player/test/hashes/HashTests.java,Dennis Soemers,20200420-200646
+M,Core/src/game/rules/play/moves/decision/Add.java,TahminaBegum,20200420-201416
+M,Core/src/game/rules/play/moves/operators/Enclosed.java,TahminaBegum,20200420-201416
+M,Core/src/util/UnionFindD.java,TahminaBegum,20200420-201416
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200420-212728
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200420-212728
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200420-212851
+M,Player/src/player/Referee.java,Dennis Soemers,20200420-213600
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200420-214726
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200420-223554
+M,Player/src/display/views/TabViewPage.java,Matthew.Stephenson,20200420-232814
+A,Common/res/audio/341871__edsward__ping.wav,Cameron Browne,20200421-015632
+M,Common/res/def_ai/De Cercar La Liebre_ai.def,Cameron Browne,20200421-015632
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200421-015632
+M,Player/src/display/views/TabView.java,Cameron Browne,20200421-015632
+M,Player/src/player/Referee.java,Cameron Browne,20200421-015632
+A,Common/res/audio/263133__pan14__tone-beep.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/341871__edsward__ping.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/Bike Horn-SoundBible.com-602544869.mp3,Cameron Browne,20200421-021535
+D,Common/res/audio/Bike Horn-SoundBible.com-602544869.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/Pling-KevanGC-1485374730.mp3,Cameron Browne,20200421-021535
+D,Common/res/audio/Pling-KevanGC-1485374730.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/Robot_blip-Marianne_Gagnon-120342607.mp3,Cameron Browne,20200421-021535
+D,Common/res/audio/Robot_blip-Marianne_Gagnon-120342607.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/beep.wav,Cameron Browne,20200421-021535
+D,Common/res/audio/glass_ping-Go445-1207030150.mp3,Cameron Browne,20200421-021535
+D,Common/res/audio/glass_ping-Go445-1207030150.wav,Cameron Browne,20200421-021535
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200421-021535
+M,Player/src/player/Referee.java,Cameron Browne,20200421-021535
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200421-073830
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-075603
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-075955
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-083828
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200421-083828
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200421-083828
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-083828
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200421-083828
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200421-083828
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-083828
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200421-083828
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-084114
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-084114
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200421-084454
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-084454
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-084454
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-084741
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-085019
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200421-085952
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-085952
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-085952
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-090327
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200421-090512
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200421-090709
+M,Core/src/game/rules/play/moves/operators/state/SwapPlayers.java,eric.piette,20200421-090716
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200421-090923
+M,Common/src/main/math/Vector.java,Cameron Browne,20200421-090923
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,Cameron Browne,20200421-090923
+M,Core/src/game/rules/play/moves/operators/Enclosed.java,Cameron Browne,20200421-090923
+M,Core/src/util/state/containerState/BaseContainerState.java,Cameron Browne,20200421-090923
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200421-091621
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-091621
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200421-091622
+M,Core/src/game/Game.java,eric.piette,20200421-092416
+M,Player/src/player/MainMenu.java,Cameron Browne,20200421-093147
+M,Player/src/player/MainMenuFunctions.java,Cameron Browne,20200421-093147
+M,Core/src/game/Game.java,eric.piette,20200421-093253
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-095242
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-100815
+M,Core/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20200421-101439
+M,Core/src/game/rules/play/moves/generator/ByPiece.java,eric.piette,20200421-102514
+M,Core/src/util/state/State.java,Cameron Browne,20200421-102804
+M,Core/src/util/state/State.java,Cameron Browne,20200421-103043
+M,Core/src/util/state/State.java,Cameron Browne,20200421-103541
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200421-105637
+M,Core/src/game/rules/play/moves/generator/ByPiece.java,eric.piette,20200421-105637
+M,Core/src/util/action/move/ActionPromote.java,eric.piette,20200421-105637
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200421-105828
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-105828
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200421-105828
+D,Common/res/audio/263133__pan14__tone-beep.wav,Cameron Browne,20200421-110811
+A,Common/res/audio/Pling-KevanGC-1485374730.wav,Cameron Browne,20200421-110811
+M,Core/src/util/state/State.java,Cameron Browne,20200421-110811
+M,Player/src/player/Referee.java,Cameron Browne,20200421-110811
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,eric.piette,20200421-110913
+A,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200421-110913
+D,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20200421-110913
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-110928
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-110928
+M,Player/test/games/TestCustomPlayouts.java,Dennis Soemers,20200421-110928
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200421-110941
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200421-110941
+M,Player/test/games/TestCustomPlayouts.java,Dennis Soemers,20200421-112017
+M,Player/test/games/TestCustomPlayouts.java,Dennis Soemers,20200421-112105
+A,Common/res/lud/test/UseForBug.lud,eric.piette,20200421-112544
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,eric.piette,20200421-113902
+M,Graphics/src/view/container/custom/BoardStyle.java,Cameron Browne,20200421-114209
+M,Core/src/game/rules/play/moves/operators/state/SwapPlayers.java,Dennis Soemers,20200421-114524
+A,Core/src/metadata/UseFor.java,Cameron Browne,20200421-115444
+M,Core/src/util/state/State.java,Dennis Soemers,20200421-115552
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200421-115551
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200421-115551
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200421-115551
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,eric.piette,20200421-115551
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200421-115551
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200421-115551
+M,Core/src/metadata/UseFor.java,Cameron Browne,20200421-122334
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200421-122454
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-122454
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200421-122454
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200421-122454
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-122454
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200421-122454
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-122454
+M,Player/src/player/utils/DesktopGraphics.java,Matthew.Stephenson,20200421-122454
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200421-122454
+M,Core/src/metadata/UseFor.java,Cameron Browne,20200421-123924
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200421-124712
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-124712
+A,Common/res/def_ai/Cercar La Liebre_ai.def,eric.piette,20200421-125633
+D,Common/res/def_ai/De Cercar La Liebre_ai.def,eric.piette,20200421-125633
+A,Common/res/lud/board/hunt/Cercar La Liebre.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/hunt/Coyote.lud,eric.piette,20200421-125633
+D,Common/res/lud/board/hunt/De Cercar La Liebre.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/hunt/Pon Chochotl.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,eric.piette,20200421-125633
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,eric.piette,20200421-125633
+M,Common/res/lud/test/UseForBug.lud,eric.piette,20200421-125633
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200421-125633
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200421-125723
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-125723
+A,Common/res/lud/test/UseForBugList.lud,Cameron Browne,20200421-130435
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200421-130518
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-131033
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,eric.piette,20200421-133501
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200421-133501
+D,Core/src/metadata/UseFor.java,Cameron Browne,20200421-134018
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200421-134049
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200421-134203
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-134203
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-134203
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-135308
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200421-135308
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-135823
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-135823
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-135823
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-135823
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-135823
+M,Common/res/def_ai/ArdRi_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Ashtapada_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Aw-li On-nam Ot-tjin_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Awithlaknannai_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Backgammon_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Breakthrough_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Chameleon_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Chaturanga_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Chess Puzzle_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Dai Hasami Shogi_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Four-Player Hex_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Fox and Geese_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/French Military Game_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Gomoku_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Halma_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Hex_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Hnefatafl_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Lasca_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Ludus Latrunculorum_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Mbangbi_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Mu Torere_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Omega_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Peg Solitaire_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Ploy_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Reversi_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Royal Game of Ur_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Shogi Puzzle_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Spline_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Surakarta_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Three Men's Morris_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/def_ai/Yavalath_ai.def,Dennis Soemers,20200421-140901
+M,Common/res/lud/board/race/escape/20 Squares.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/race/escape/58 Holes.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/race/escape/Senet.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/race/reach/Pachisi.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/sow/two_rows/Dabuda.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Achi.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Connect 4.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/leaping/other/Felli.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/other/Seega.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/board/war/tafl/Tablut.lud,Dennis Soemers,20200421-142457
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Dennis Soemers,20200421-142457
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-142726
+M,Common/res/lud/test/UseForBugList.lud,eric.piette,20200421-145046
+M,Core/src/game/functions/booleans/state/IsPending.java,eric.piette,20200421-145046
+M,Core/src/game/functions/ints/state/PendingValue.java,eric.piette,20200421-145046
+M,Core/src/util/state/State.java,eric.piette,20200421-145046
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200421-145822
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-145822
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-145822
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-145822
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-145822
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-145822
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-150412
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-151826
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-151826
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-151826
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200421-151826
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-151826
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200421-151826
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-152624
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-152624
+M,Player/src/player/utils/DesktopGraphics.java,Matthew.Stephenson,20200421-152624
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200421-153901
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200421-153901
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200421-154215
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200421-155203
+M,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew.Stephenson,20200421-155203
+M,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew.Stephenson,20200421-155203
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200421-162142
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200421-162142
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200421-162142
+M,Core/src/util/action/Action.java,eric.piette,20200421-162706
+M,Core/src/util/action/BaseAction.java,eric.piette,20200421-162706
+M,Core/src/util/action/others/ActionPropose.java,eric.piette,20200421-162706
+M,Core/src/util/action/others/ActionVote.java,eric.piette,20200421-162706
+M,Core/src/util/action/state/ActionSetNextPlayer.java,eric.piette,20200421-162706
+M,Core/src/util/action/state/ActionSetRotation.java,eric.piette,20200421-162706
+M,Core/src/util/action/Action.java,eric.piette,20200421-162932
+M,Core/src/util/action/BaseAction.java,eric.piette,20200421-162932
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,eric.piette,20200421-162932
+M,Common/src/graphics/svg/SVGLoader.java,Dennis Soemers,20200421-163112
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-163112
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-163112
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200421-163112
+M,Common/src/main/Constants.java,Dennis Soemers,20200421-164224
+M,Player/build.xml,Dennis Soemers,20200421-164224
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200421-164224
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-165312
+M,Grammar/src/compiler/Compiler.java,Dennis Soemers,20200421-165805
+M,Grammar/src/compiler/Compiler.java,Dennis Soemers,20200421-165946
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-170139
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-170532
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-170750
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-170925
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-171337
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-171337
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-171626
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200421-173727
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200421-173727
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200421-174223
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200421-174223
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200421-174326
+M,Grammar/src/parser/Expander.java,Dennis Soemers,20200421-174326
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200421-180010
+A,Core/src/game/functions/region/state/SitesInPending.java,eric.piette,20200421-180010
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200421-180010
+D,Core/src/game/rules/play/moves/operators/SetValue.java,eric.piette,20200421-180010
+M,Core/src/game/rules/play/moves/operators/state/SetPending.java,eric.piette,20200421-180010
+A,Core/src/game/rules/play/moves/operators/state/SetValue.java,eric.piette,20200421-180010
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200421-180010

@@ -1,0 +1,758 @@
+M,Common/res/lud/board/space/line/Andantino.lud,Eric.Piette,20210318-171712
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20210318-171712
+M,Core/src/game/rules/end/If.java,Eric.Piette,20210318-171712
+M,Core/src/game/rules/end/Result.java,Eric.Piette,20210318-171712
+M,Core/src/util/EndConcepts.java,Eric.Piette,20210318-171712
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210318-171712
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210318-171712
+M,Features/src/features/feature_sets/BaseFeatureSet.java,Dennis Soemers,20210318-171912
+M,Features/src/features/feature_sets/FeatureSet.java,Dennis Soemers,20210318-171912
+M,Features/src/features/feature_sets/prop/PropFeatureSet.java,Dennis Soemers,20210318-171912
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20210318-173158
+M,Core/src/util/EndConcepts.java,Eric.Piette,20210318-173158
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210318-173158
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210318-173158
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210318-173506
+M,Common/src/main/Constants.java,Eric.Piette,20210318-175939
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20210318-175939
+M,Core/src/util/EndConcepts.java,Eric.Piette,20210318-175939
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210318-175939
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210318-175939
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210318-180706
+M,Features/src/features/feature_sets/prop/BipartiteGraphFeatureInstanceSet.java,Dennis Soemers,20210318-205718
+M,Features/src/features/feature_sets/prop/PropFeatureSet.java,Dennis Soemers,20210318-205718
+M,Features/src/features/feature_sets/prop/PropFeatureSet.java,Dennis Soemers,20210318-205904
+M,Player/test/features/TestAmazonsFeatures.java,Dennis Soemers,20210318-212204
+M,Core/src/util/Move.java,Dennis Soemers,20210318-212215
+M,Features/src/features/feature_sets/BaseFeatureSet.java,Dennis Soemers,20210318-212826
+M,Player/test/features/TestGomokuFeatures.java,Dennis Soemers,20210318-212826
+M,Player/test/features/TestHexFeatures.java,Dennis Soemers,20210318-212826
+M,Player/test/features/TestAmazonsFeatures.java,Dennis Soemers,20210318-213244
+M,Mining/scripts/Other/GetDBData/Output/rulesetCategories.csv,Matthew Stephenson,20210319-082705
+M,Mining/scripts/Other/GetDBData/getDBData.php,Matthew Stephenson,20210319-082705
+M,Mining/scripts/Sklearn/Input/rulesetCategories.csv,Matthew Stephenson,20210319-082705
+M,Mining/scripts/Sklearn/Output/PredictionResults.csv,Matthew Stephenson,20210319-082705
+M,Mining/scripts/Sklearn/Utils/Merged.csv,Matthew Stephenson,20210319-082705
+M,Mining/scripts/Sklearn/Utils/ModelTraining.py,Matthew Stephenson,20210319-082705
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210319-084128
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20210319-084128
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210319-084128
+M,Core/src/game/rules/end/Result.java,Eric.Piette,20210319-084128
+M,Common/res/lud/reconstruction/board/war/other/Cerne Abbey Game.lud,Eric.Piette,20210319-084141
+M,Common/res/lud/wishlist/needReconstructionNoBoardInfo/Cumi.lud,Eric.Piette,20210319-084141
+M,Common/res/lud/wishlist/needReconstructionNoBoardInfo/Komina.lud,Eric.Piette,20210319-084141
+M,Common/res/lud/wishlist/needReconstructionNoBoardInfo/Puma.lud,Eric.Piette,20210319-084141
+A,Common/res/lud/reconstruction/board/war/other/Sahmatloudi.lud,Eric.Piette,20210319-084517
+A,Common/res/lud/WishlistDLP/race/Ashere.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/WishlistDLP/sow/two_rows/Raja Pasu Mandiri.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/board/war/other/Kriegsspiel.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/experimental/Breakback.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/puzzle/planning/LuckyStar.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/chaturanga/Main Chator (Batak).lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/chaturanga/Main Chator (Java).lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/chaturanga/Main Chator (Selangor).lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/chaturanga/Tepong.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/leaping/draughts/Andarraya.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/other/Cerne Abbey Game.lud,Eric.Piette,20210319-085241
+M,Common/res/lud/reconstruction/board/war/other/Sahmatloudi.lud,Eric.Piette,20210319-085241
+M,MetadataScripts/InputCSV/GameRulesets.csv,Eric.Piette,20210319-085241
+M,MetadataScripts/InputCSV/Games.csv,Eric.Piette,20210319-085241
+A,Common/res/lud/wip/eric/dlp/Aime.lud,Eric.Piette,20210319-085827
+M,PlayerDesktop/src/app/display/dialogs/remote/LeaderboardDialog.java,Matthew Stephenson,20210319-085831
+M,PlayerDesktop/src/app/display/dialogs/remote/MessagePlayersDialog.java,Matthew Stephenson,20210319-085831
+M,Manager/src/manager/PlayerInterface.java,Matthew Stephenson,20210319-092330
+A,Player/src/app/game/GameRestart.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/BaseApp.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-092330
+A,PlayerDesktop/src/app/GameSetupDesktop.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/display/views/tools/ToolView.java,Matthew Stephenson,20210319-092330
+D,PlayerDesktop/src/app/game/GameRestart.java,Matthew Stephenson,20210319-092330
+D,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/loading/GameLoading.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/loading/MiscLoading.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/loading/TrialLoading.java,Matthew Stephenson,20210319-092330
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20210319-092330
+D,Player/src/app/utils/SettingsDesktop.java,Matthew Stephenson,20210319-092914
+A,Player/src/app/utils/SettingsPlayer.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/GameSetupDesktop.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/dialogs/TestLudemeDialog.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/util/DevTooltip.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/util/ZoomBox.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/views/tabs/TabView.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonStart.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/loading/FileLoading.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/menu/MainMenu.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20210319-092914
+A,PlayerDesktop/src/app/util/SettingsDesktop.java,Matthew Stephenson,20210319-092914
+M,PlayerDesktop/src/app/util/UserPreferences.java,Matthew Stephenson,20210319-092914
+M,Common/res/lud/test/eric/Test3.lud,Eric.Piette,20210319-094813
+M,Core/src/game/Game.java,Eric.Piette,20210319-094813
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-094813
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-094813
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew Stephenson,20210319-095748
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-095748
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew Stephenson,20210319-095748
+M,Core/src/util/Move.java,Eric.Piette,20210319-113454
+M,Core/src/util/action/move/ActionRemove.java,Eric.Piette,20210319-113454
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-113454
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210319-113454
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Eric.Piette,20210319-113454
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-115215
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210319-115215
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-115215
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-115810
+M,Core/src/util/action/move/ActionRemove.java,Eric.Piette,20210319-115810
+M,Features/src/features/instances/SingleMustEmptyCell.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhatCell.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhatEdge.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhatVertex.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhoCell.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhoEdge.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustNotWhoVertex.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhatCell.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhatEdge.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhatVertex.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhoCell.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhoEdge.java,Dennis Soemers,20210319-121820
+M,Features/src/features/instances/SingleMustWhoVertex.java,Dennis Soemers,20210319-121820
+M,Player/test/features/TestAmazonsFeatures.java,Dennis Soemers,20210319-121820
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20210319-130648
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20210319-130648
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-130648
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210319-130648
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-130648
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Priority.java,Eric.Piette,20210319-135003
+M,Core/src/util/Move.java,Eric.Piette,20210319-135003
+M,Core/src/util/action/move/ActionRemove.java,Eric.Piette,20210319-135003
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-135003
+A,Common/res/lud/reconstruction/board/war/chaturanga/Kridapariccheda.lud,Eric.Piette,20210319-140017
+A,Common/res/lud/reconstruction/board/war/leaping/draughts/Bashni.lud,Eric.Piette,20210319-140649
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-142007
+M,Core/src/util/Move.java,Eric.Piette,20210319-143930
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-143930
+M,Core/src/util/action/move/ActionAdd.java,Eric.Piette,20210319-144613
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-144613
+M,MetadataScripts/AddMetadata.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Other/GetDBData/Output/rulesetMainCategories.csv,Matthew Stephenson,20210319-144938
+M,Mining/scripts/Other/GetDBData/getDBData.php,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Input/Merged.csv,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Input/rulesetMainCategories.csv,Matthew Stephenson,20210319-144938
+M,Mining/scripts/Sklearn/Main.py,Matthew Stephenson,20210319-144938
+M,Mining/scripts/Sklearn/Output/DistanceMatrix.csv,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Supervised/Classification.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Supervised/ModelTraining.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Supervised/Regression.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Unsupervised/Clustering/ClusterData.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Unsupervised/Clustering/ClusterIndices.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Unsupervised/Clustering/ClusterTendency.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Unsupervised/CorrelationAnalysis.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/ClusterData.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/ClusterIndices.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/ClusterTendency.py,Matthew Stephenson,20210319-144938
+A,Mining/scripts/Sklearn/Utils/DataVisualisation.py,Matthew Stephenson,20210319-144938
+M,Mining/scripts/Sklearn/Utils/FeatureSelection.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/Merged.csv,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/ModelPredictions.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/ModelTraining.py,Matthew Stephenson,20210319-144938
+D,Mining/scripts/Sklearn/Utils/PlotData.py,Matthew Stephenson,20210319-144938
+M,Mining/scripts/Sklearn/Utils/Preprocessing.py,Matthew Stephenson,20210319-144938
+A,Mining/res/heuristics/Heuristics.csv,Dennis Soemers,20210319-150700
+A,Mining/res/heuristics/RulesetHeuristics.csv,Dennis Soemers,20210319-150700
+A,Mining/src/utils/heuristics/GenerateBaseHeuristicScoresDatabaseCSVs.java,Dennis Soemers,20210319-150700
+M,Mining/scripts/Sklearn/Main.py,Matthew Stephenson,20210319-151133
+M,Mining/scripts/Sklearn/Unsupervised/Clustering/ClusterData.py,Matthew Stephenson,20210319-151133
+M,Mining/scripts/Sklearn/Utils/DataVisualisation.py,Matthew Stephenson,20210319-151133
+M,Mining/scripts/Sklearn/Utils/FeatureSelection.py,Matthew Stephenson,20210319-151133
+M,Mining/scripts/Sklearn/Utils/Preprocessing.py,Matthew Stephenson,20210319-151133
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Append.java,Eric.Piette,20210319-151916
+M,Core/src/util/action/move/ActionAdd.java,Eric.Piette,20210319-151916
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-151916
+M,Core/src/util/action/others/ActionSwap.java,Eric.Piette,20210319-151916
+M,Core/src/util/action/state/ActionSetState.java,Eric.Piette,20210319-151916
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-151916
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20210319-152415
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20210319-152415
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20210319-152415
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-152415
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20210319-153332
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20210319-153332
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20210319-153332
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210319-153332
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20210319-153400
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20210319-153400
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20210319-153400
+D,Mining/scripts/Other/GetDBData/Output/rulesetCategories.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Other/GetDBData/Output/rulesetConcepts.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Other/GetDBData/Output/rulesetLudemes.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Other/GetDBData/Output/rulesetMainCategories.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Other/GetDBData/Output/rulesetOrigins.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Other/GetDBData/Output/rulesetPeriods.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Other/GetDBData/getDBData.php,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Sklearn/Input/BaseHeuristicScores.csv,Matthew Stephenson,20210319-154154
+D,Mining/scripts/Sklearn/Input/BaseHeuristicScoresMerged.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/Merged.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetCategories.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetConcepts.csv,Matthew Stephenson,20210319-154154
+A,Mining/scripts/Sklearn/Input/rulesetHeuristics.csv,Matthew Stephenson,20210319-154154
+A,Mining/scripts/Sklearn/Input/rulesetHeuristicsMerged.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetLudemes.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetMainCategories.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetOrigins.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Input/rulesetPeriods.csv,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Main.py,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Unsupervised/CorrelationAnalysis.py,Matthew Stephenson,20210319-154154
+M,Mining/scripts/Sklearn/Utils/Preprocessing.py,Matthew Stephenson,20210319-154154
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-154806
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-155051
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210319-160308
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Eric.Piette,20210319-161440
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetValue.java,Eric.Piette,20210319-161440
+M,Core/src/util/action/move/ActionMove.java,Eric.Piette,20210319-161440
+M,Core/src/util/action/state/ActionSetCount.java,Eric.Piette,20210319-161440
+M,Core/src/util/action/state/ActionSetValue.java,Eric.Piette,20210319-161440
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210319-161440
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-161440
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Dennis Soemers,20210319-161606
+M,Core/src/game/rules/play/moves/nonDecision/effect/Trigger.java,Eric.Piette,20210319-163742
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/suit/SetTrumpSuit.java,Eric.Piette,20210319-163742
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetCounter.java,Eric.Piette,20210319-163742
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/MoveAgain.java,Eric.Piette,20210319-163742
+M,Core/src/util/action/cards/ActionSetTrumpSuit.java,Eric.Piette,20210319-163742
+M,Core/src/util/action/state/ActionSetCounter.java,Eric.Piette,20210319-163742
+M,Core/src/util/action/state/ActionSetNextPlayer.java,Eric.Piette,20210319-163742
+M,Core/src/util/action/state/ActionTrigger.java,Eric.Piette,20210319-163742
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210319-163742
+M,PlayerDesktop/src/app/display/views/tools/ToolView.java,Eric.Piette,20210319-163742
+M,Core/src/util/action/move/ActionCopy.java,Eric.Piette,20210319-163917
+M,Core/src/util/action/move/ActionMoveN.java,Eric.Piette,20210319-163917
+M,Core/src/util/action/move/ActionStackMove.java,Eric.Piette,20210319-163935
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-165044
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210319-165044
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210319-170049
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210319-170049
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210319-170357
+M,Mining/scripts/Sklearn/Main.py,Matthew Stephenson,20210319-172407
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20210320-132129
+M,Core/src/game/functions/graph/generators/shape/concentric/Concentric.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonBack.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonEnd.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonForward.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonInfo.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonOther.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonPass.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonPlayPause.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonSettings.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonStart.java,Cameron Browne,20210320-132129
+M,PlayerDesktop/src/app/loading/MiscLoading.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/component/BaseComponentStyle.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/component/custom/CardStyle.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/component/custom/PieceStyle.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/component/custom/large/LargePieceStyle.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/container/aspects/designs/BoardDesign.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/container/aspects/designs/board/ScriptaDesign.java,Cameron Browne,20210320-132129
+M,ViewController/src/view/container/aspects/designs/board/XiangqiDesign.java,Cameron Browne,20210320-132129
+M,Core/src/game/Game.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/Item.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/Card.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/Component.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/Die.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/Piece.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/tile/Domino.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/component/tile/Tile.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/board/Board.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/board/Boardless.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/other/Deck.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/other/Dice.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/container/other/Hand.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/other/Dominoes.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/other/Hints.java,Dennis Soemers,20210320-144444
+M,Core/src/game/equipment/other/Map.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/BooleanFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/all/simple/AllDiceEqual.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/all/simple/AllDiceUsed.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/all/simple/AllPassed.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/all/sites/AllSites.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/can/CanMove.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/is/graph/IsUnique.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/deductionPuzzle/is/simple/IsSolved.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHidden.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenCount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenRotation.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWhat.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWho.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/component/IsWithin.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/edge/IsCrossing.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/graph/IsLastFrom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/graph/IsLastTo.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/in/IsIn.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsEven.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsFlat.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsOdd.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/integer/IsVisited.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/path/IsPath.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsActive.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsEnemy.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsFriend.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsMover.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsNext.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/player/IsPrev.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/regularGraph/IsRegularGraph.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/repeat/IsRepeat.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/simple/IsCycle.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/simple/IsFull.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/simple/IsPending.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/site/IsEmpty.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/site/IsOccupied.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/string/IsDecided.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/string/IsProposed.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/target/IsTarget.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/tree/IsCaterpillarTree.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/tree/IsSpanningTree.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/tree/IsTree.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/tree/IsTreeCentre.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/is/triggered/IsTriggered.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/And.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Equals.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Ge.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Gt.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/If.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Le.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Lt.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Not.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/NotEqual.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Or.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/math/Xor.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/no/NoMoves.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/booleans/was/WasPass.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/graph/GraphFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/IntArrayFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/array/Array.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/iteraror/Team.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/math/Difference.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/math/Intersection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/math/Results.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/math/Union.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/players/many/PlayersMany.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/players/team/PlayersTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/state/Rotations.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/state/wip/Degrees.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/intArray/values/ValuesRemembered.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/IntFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Ahead.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/CentrePoint.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Column.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Coord.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Cost.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/HandSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Id.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Layer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/MapEntry.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Phase.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/RegionSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/Row.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/where/WhereLevel.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/board/where/WhereSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/card/simple/CardTrumpSuit.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/card/site/CardRank.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/card/site/CardSuit.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/card/site/CardTrumpRank.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/card/site/CardTrumpValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/component/CountPieces.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/component/CountPips.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountActive.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountCells.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountColumns.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountEdges.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountMoves.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountMovesThisTurn.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountPhases.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountPlayers.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountRows.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountTrials.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountTurns.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/simple/CountVertices.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountOff.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/site/CountSites.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/count/stepsOnTrack/CountStepsOnTrack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/dice/Face.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Between.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Edge.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/From.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Hint.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Level.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Pips.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Player.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Site.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/To.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/iterator/Track.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/last/LastFrom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/last/LastTo.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/match/MatchScore.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Abs.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Add.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Div.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/If.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Max.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Min.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Mod.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Mul.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Pow.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/math/Sub.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/size/array/SizeArray.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/size/connection/SizeGroup.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/size/connection/SizeTerritory.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/size/largePiece/SizeLargePiece.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/size/site/SizeStack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/stacking/TopLevel.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Amount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Counter.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Mover.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Next.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Pot.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Prev.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Rotation.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Score.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/State.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Var.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/What.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/state/Who.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/tile/PathExtent.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/trackSite/position/TrackSiteEndTrack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/value/iterated/ValueIterated.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/value/piece/ValuePiece.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/value/player/ValuePlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/value/random/ValueRandom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/ints/value/simple/ValuePending.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/range/RangeFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/range/math/Exact.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/range/math/Max.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/range/math/Min.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/RegionFunction.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/foreach/player/ForEachPlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/foreach/sites/ForEachSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/foreach/team/ForEachTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/last/LastBetween.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/math/Difference.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/math/Expand.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/math/If.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/math/Intersection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/math/Union.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/between/SitesBetween.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/context/SitesContext.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/coords/SitesCoords.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/crossing/SitesCrossing.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/custom/SitesCustom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesAngled.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesAxial.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesHorizontal.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesSlash.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesSlosh.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/edges/SitesVertical.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHidden.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenCount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenRotation.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenWhat.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenWho.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesCell.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesEdge.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesEmpty.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesLayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesRow.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/index/SitesState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/largePiece/SitesLargePiece.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/loop/SitesLoop.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/moves/SitesBetween.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/moves/SitesFrom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/moves/SitesTo.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/occupied/SitesOccupied.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/pattern/SitesPattern.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/piece/SitesStart.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/player/SitesEquipmentRegion.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/player/SitesHand.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/player/SitesWinning.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/side/SitesSide.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesBoard.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesBottom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesCentre.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesConcaveCorners.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesConvexCorners.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesHint.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesInner.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesLastFrom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesLastTo.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesLeft.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesLineOfPlay.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesMajor.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesMinor.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesPending.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesPerimeter.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesPlayable.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesRight.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesToClear.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/simple/SitesTop.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/track/SitesTrack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Dennis Soemers,20210320-144444
+M,Core/src/game/match/Match.java,Dennis Soemers,20210320-144444
+M,Core/src/game/match/Subgame.java,Dennis Soemers,20210320-144444
+M,Core/src/game/players/Player.java,Dennis Soemers,20210320-144444
+M,Core/src/game/players/Players.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/end/ByScore.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/end/End.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/end/ForEach.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/end/If.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/phase/NextPhase.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/phase/Phase.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Apply.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Attract.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Bet.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Flip.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Note.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Pass.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/PlayCard.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Promote.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Propose.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Push.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Roll.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Then.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Trigger.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/Vote.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/AvoidStoredState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/FirstMoveOnTrack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Priority.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/While.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetRotation.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/nextPlayer/SetNextPlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/pending/SetPending.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetScore.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetValuePlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/suit/SetTrumpSuit.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/team/SetTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetCounter.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetPot.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/var/SetVar.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/AddScore.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/MoveAgain.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/forget/value/ForgetValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/forget/value/ForgetValueAll.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/state/RememberState.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/value/RememberValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/players/SwapPlayers.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/sites/SwapPieces.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/player/ForEachPlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/site/ForEachSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/team/ForEachTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/value/ForEachValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/AllCombinations.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Append.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/If.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Or.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/Deal.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/deductionPuzzle/Set.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/forEach/player/ForEachPlayer.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/forEach/site/ForEachSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/forEach/team/ForEachTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/forEach/value/ForEachValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/place/stack/PlaceMonotonousStack.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/player/SetAmount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/player/SetScore.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/players/SetTeam.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/remember/SetRememberValue.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/sites/SetCost.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/sites/SetCount.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/sites/SetPhase.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/set/sites/SetSite.java,Dennis Soemers,20210320-144444
+M,Core/src/game/rules/start/split/Split.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/directions/CompassDirection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/directions/RotationalDirection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/directions/SpatialDirection.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/end/Score.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/math/Pair.java,Dennis Soemers,20210320-144444
+M,Core/src/util/BaseLudeme.java,Dennis Soemers,20210320-144444
+M,Core/src/util/IntArrayFromRegion.java,Dennis Soemers,20210320-144444
+M,Core/src/util/Ludeme.java,Dennis Soemers,20210320-144444
+M,Core/src/game/util/directions/CompassDirection.java,Dennis Soemers,20210320-145333
+M,Core/src/game/util/directions/RotationalDirection.java,Dennis Soemers,20210320-145333
+M,Core/src/game/util/directions/SpatialDirection.java,Dennis Soemers,20210320-145333
+M,Core/src/util/BaseLudeme.java,Dennis Soemers,20210320-145333
+M,Core/src/util/Ludeme.java,Dennis Soemers,20210320-145333
+M,Core/src/game/functions/ints/iterator/Between.java,Dennis Soemers,20210320-150311
+M,Core/src/game/functions/region/sites/between/SitesBetween.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Dennis Soemers,20210320-150311
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Dennis Soemers,20210320-150311
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Dennis Soemers,20210320-150611
+M,Core/src/game/functions/ints/iterator/Edge.java,Dennis Soemers,20210320-150611
+M,Core/src/game/functions/intArray/math/Results.java,Dennis Soemers,20210320-151603
+M,Core/src/game/functions/ints/iterator/From.java,Dennis Soemers,20210320-151603
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/booleans/is/component/IsWithin.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/intArray/math/Results.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/board/Cost.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountOff.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/site/CountSites.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/size/largePiece/SizeLargePiece.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/ints/size/site/SizeStack.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/region/math/Expand.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/start/set/remember/SetRememberValue.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/start/set/sites/SetCost.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/start/set/sites/SetCount.java,Dennis Soemers,20210320-151726
+M,Core/src/game/rules/start/set/sites/SetPhase.java,Dennis Soemers,20210320-151726
+M,Core/src/util/IntArrayFromRegion.java,Dennis Soemers,20210320-151726
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Dennis Soemers,20210320-152519
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Dennis Soemers,20210320-152519
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Dennis Soemers,20210320-152519
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Dennis Soemers,20210320-152519
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Dennis Soemers,20210320-152519
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Dennis Soemers,20210320-152519
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Dennis Soemers,20210320-163909
+M,Core/src/game/functions/ints/iterator/Hint.java,Dennis Soemers,20210320-163909
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Dennis Soemers,20210320-165139
+M,Core/src/game/functions/ints/iterator/Level.java,Dennis Soemers,20210320-165139
+M,Core/src/game/functions/ints/iterator/Pips.java,Dennis Soemers,20210320-165241
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Dennis Soemers,20210320-165241
+M,Core/src/game/functions/intArray/iteraror/Team.java,Dennis Soemers,20210320-165604
+M,Core/src/game/functions/intArray/players/many/PlayersMany.java,Dennis Soemers,20210320-165604
+M,Core/src/game/functions/intArray/players/team/PlayersTeam.java,Dennis Soemers,20210320-165604
+M,Core/src/game/functions/ints/iterator/Player.java,Dennis Soemers,20210320-165604
+M,Core/src/game/functions/region/foreach/player/ForEachPlayer.java,Dennis Soemers,20210320-165604
+M,Core/src/game/rules/end/ForEach.java,Dennis Soemers,20210320-165604
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/player/ForEachPlayer.java,Dennis Soemers,20210320-165604
+M,Core/src/game/rules/start/forEach/player/ForEachPlayer.java,Dennis Soemers,20210320-165604
+M,Core/src/game/functions/region/sites/context/SitesContext.java,Dennis Soemers,20210320-165902
+M,Core/src/game/functions/booleans/all/sites/AllSites.java,Dennis Soemers,20210320-170135
+M,Core/src/game/functions/ints/iterator/Site.java,Dennis Soemers,20210320-170135
+M,Core/src/game/functions/region/foreach/sites/ForEachSite.java,Dennis Soemers,20210320-170135
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/FirstMoveOnTrack.java,Dennis Soemers,20210320-170135
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/site/ForEachSite.java,Dennis Soemers,20210320-170135
+M,Core/src/game/rules/start/forEach/site/ForEachSite.java,Dennis Soemers,20210320-170135
+M,Core/src/game/functions/region/foreach/team/ForEachTeam.java,Dennis Soemers,20210320-170257
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/team/ForEachTeam.java,Dennis Soemers,20210320-170257
+M,Core/src/game/rules/start/forEach/team/ForEachTeam.java,Dennis Soemers,20210320-170257
+M,Core/src/game/functions/ints/iterator/To.java,Dennis Soemers,20210320-170415
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Dennis Soemers,20210320-170415
+M,Core/src/game/functions/ints/iterator/Track.java,Dennis Soemers,20210320-170446
+M,Core/src/game/functions/ints/value/iterated/ValueIterated.java,Dennis Soemers,20210320-170607
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/value/ForEachValue.java,Dennis Soemers,20210320-170607
+M,Core/src/game/rules/start/forEach/value/ForEachValue.java,Dennis Soemers,20210320-170607
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210322-083615
+M,Mining/src/utils/concepts/ComputeStateConcepts.java,Eric.Piette,20210322-083615
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210322-083615

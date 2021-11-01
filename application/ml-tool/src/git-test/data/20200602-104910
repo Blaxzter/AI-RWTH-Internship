@@ -1,0 +1,565 @@
+M,Common/res/lud/test/graph/Graph Test - Add (Edges).lud,Cameron Browne,20200531-105319
+M,Common/res/lud/test/graph/Graph Test - Add (Face).lud,Cameron Browne,20200531-105319
+M,Common/res/lud/test/graph/Graph Test - Remove (Edges).lud,Cameron Browne,20200531-105319
+M,Common/res/lud/test/graph/Graph Test - Remove (Faces).lud,Cameron Browne,20200531-105319
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200531-105319
+M,Core/src/game/functions/graph/operators/Remove.java,Cameron Browne,20200531-105319
+M,Common/res/lud/test/graph/Graph Test - Alquerque (2 Arms).lud,Cameron Browne,20200531-114623
+M,Common/res/lud/test/graph/Graph Test - Alquerque (4 Arms).lud,Cameron Browne,20200531-114623
+A,Common/res/lud/test/graph/Graph Test - Renumber.lud,Cameron Browne,20200531-114623
+M,Core/src/game/functions/graph/operators/Remove.java,Cameron Browne,20200531-114623
+A,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200531-114623
+M,Core/src/game/functions/graph/operators/Shift.java,Cameron Browne,20200531-114623
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200531-114623
+M,Graphics/src/util/SettingsVC.java,Cameron Browne,20200531-114623
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200531-114623
+A,Common/res/lud/test/graph/Graph Test - Scale (Terhuchu).lud,Cameron Browne,20200531-123912
+M,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200531-123912
+M,Core/src/game/functions/graph/operators/Scale.java,Cameron Browne,20200531-123912
+A,Common/res/lud/test/graph/Graph Test - Square (Pyramidal).lud,Cameron Browne,20200531-132441
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200531-132441
+M,Core/src/game/functions/graph/tiling/square/DiamondOnSquare.java,Cameron Browne,20200531-132441
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200531-132441
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200531-132441
+A,Common/res/lud/test/graph/Graph Test - Cells (Alquerque 4).lud,Cameron Browne,20200531-134540
+A,Common/res/lud/test/graph/Graph Test - Renumber (Alquerque 4).lud,Cameron Browne,20200531-134540
+M,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200531-134540
+M,Core/src/game/util/graph/Face.java,Cameron Browne,20200531-134540
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200531-134540
+A,Common/res/lud/test/graph/Graph Test - Renumber (Edges).lud,Cameron Browne,20200531-135805
+A,Common/res/lud/test/graph/Graph Test - Renumber (Vertices and Cells).lud,Cameron Browne,20200531-135805
+M,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200531-135805
+A,Common/res/lud/test/If Hang.lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Add (Edges).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Add (Face).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Add (Vertex).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Alquerque (1 Arm).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Alquerque (2 Arms).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Alquerque (4 Arms).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Alquerque (5x5).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Board.lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Cells (Alquerque 4).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Clip (Poly in Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Float).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Int).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Mixed Int Float).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Default (Cell).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Default (Vertex).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Dual (Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Hole (Poly in Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Intersect (3 Rectangles).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Keep (Poly in Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Merge (3 Rectangles).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Merge (Cross).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Merge (Rectangles).lud,Cameron Browne,20200531-163530
+A,Common/res/lud/test/graph/Graph Test - Phases (Terhuchu).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Remove (Edges).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Remove (Faces).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Remove (Vertex Missing).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Remove (Vertex).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Renumber (Alquerque 4).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Renumber (Edges).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Renumber (Vertices and Cells).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Renumber.lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Rotate (45, Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Rotate (45.0, Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Rotate (90, Square).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Scale (Pair).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Scale (Terhuchu).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Shift (Float).lud,Cameron Browne,20200531-163530
+A,Common/res/lud/test/graph/Graph Test - Square (Custom A).lud,Cameron Browne,20200531-163530
+A,Common/res/lud/test/graph/Graph Test - Square (Custom B).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Square (Diamond).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Square (Pyramidal).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Union (Many).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Union (Pair).lud,Cameron Browne,20200531-163530
+M,Common/res/lud/test/graph/Graph Test - Wedge.lud,Cameron Browne,20200531-163530
+M,Core/src/game/functions/graph/operators/Clip.java,Cameron Browne,20200531-163530
+M,Core/src/game/functions/graph/operators/Hole.java,Cameron Browne,20200531-163530
+M,Core/src/game/functions/graph/operators/Keep.java,Cameron Browne,20200531-163530
+A,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200531-163530
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200531-163530
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200531-163530
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200531-163530
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200531-163551
+A,Common/res/lud/test/graph/Graph Test - Square (Custom Sides).lud,Cameron Browne,20200531-185413
+A,Common/res/lud/test/graph/Graph Test - Square (Custom Sides, Cell).lud,Cameron Browne,20200531-185413
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200531-185413
+M,Common/src/main/math/Vector.java,Cameron Browne,20200531-185413
+M,Core/src/game/functions/graph/operators/Clip.java,Cameron Browne,20200531-185413
+M,Core/src/game/functions/graph/operators/Hole.java,Cameron Browne,20200531-185413
+M,Core/src/game/functions/graph/operators/Keep.java,Cameron Browne,20200531-185413
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200531-185413
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200531-185413
+M,Common/res/lud/test/TCenter.lud,TahminaBegum,20200531-225358
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200531-225358
+M,Core/src/game/functions/ints/count/wip/CountNonLeaves.java,TahminaBegum,20200531-225358
+A,Common/res/lud/test/graph/Graph Test - Hex (3, Cell).lud,Cameron Browne,20200601-082507
+A,Common/res/lud/test/graph/Graph Test - Hex (3, Vertex).lud,Cameron Browne,20200601-082507
+A,Common/res/lud/test/graph/Graph Test - Hex (4, Cell).lud,Cameron Browne,20200601-082507
+A,Common/res/lud/test/graph/Graph Test - Hex (5, Cell).lud,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/HexShapeType.java,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-082507
+A,Core/src/game/functions/graph/tiling/hex/package-info.java,Cameron Browne,20200601-082507
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200601-082507
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200601-082507
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-082507
+M,Core/src/game/functions/region/filter/ForEach.java,Cameron Browne,20200601-082507
+A,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 4, Cell).lud,Cameron Browne,20200601-084530
+A,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 5, Cell).lud,Cameron Browne,20200601-084530
+A,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 5, Vertex).lud,Cameron Browne,20200601-084530
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-084530
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-084530
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-084530
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-084530
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Haretavl.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Kaooa.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Komikan.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/escape/Backgammon.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/escape/Fevga.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/escape/Plakoto.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/escape/Portes.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/escape/XII Scripta.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/blocking/Madelinette.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/blocking/NoGo.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/connection/Gonnect.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Connect6.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Gomoku.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Picaria.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Symbol S.2.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/line/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/pattern/Kensington.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/territory/Go.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/territory/Lotus.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Felli.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/other/Atari Go.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/other/Ploy.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/mathematical/graph/Sim.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/mathematical/graph/Two-colour.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/mathematical/graph/Wagner.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/mathematical/graph/puzzle/Icosian.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/eric/NoteTest.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Add (Edges).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Add (Face).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Add (Vertex).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Alquerque (1 Arm).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Alquerque (2 Arms).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Alquerque (4 Arms).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Alquerque (5x5).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Board.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Cells (Alquerque 4).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Clip (Poly in Square).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Float).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Int).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Clip (Square Mixed Int Float).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Default (Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Default (Vertex).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (3, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (3, Vertex).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (4, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (5, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 4, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 5, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hex (Diamond, 5, Vertex).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Hole (Poly in Square).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Intersect (3 Rectangles).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Keep (Poly in Square).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Merge (3 Rectangles).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Merge (Cross).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Merge (Rectangles).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Phases (Terhuchu).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Remove (Edges).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Remove (Faces).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Remove (Vertex Missing).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Remove (Vertex).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Renumber (Alquerque 4).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Renumber (Edges).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Renumber (Vertices and Cells).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Renumber.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Rotate (45, Square).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Rotate (45.0, Square).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Scale (Pair).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Scale (Terhuchu).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Shift (Float).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Custom A).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Custom B).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Custom Sides).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Custom Sides, Cell).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Diamond).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Square (Pyramidal).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Union (Many).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Union (Pair).lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/graph/Graph Test - Wedge.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/test/old/MetadataShouldBreak.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/wip/BackgammonHand.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/wip/DisPath.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/wip/Hamiltonian Maze.lud,Cameron Browne,20200601-085230
+M,Common/res/lud/wip/MaxMatch.lud,Cameron Browne,20200601-085230
+M,Core/src/game/equipment/container/board/Board.java,Cameron Browne,20200601-085230
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200601-085230
+A,Common/res/lud/test/graph/Graph Test - Hex (Triangle, 5, Cell).lud,Cameron Browne,20200601-085853
+A,Common/res/lud/test/graph/Graph Test - Hex (Triangle, 6, Vertex).lud,Cameron Browne,20200601-085853
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-085853
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-085853
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-085853
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-085853
+A,Core/src/game/functions/graph/tiling/hex/TriangleOnHex.java,Cameron Browne,20200601-085853
+M,Common/res/def/board/HoundsAndJackalsBoard.def,Cameron Browne,20200601-091322
+M,Common/res/def/board/LascaBoard.def,Cameron Browne,20200601-091322
+A,Common/res/lud/test/graph/Graph Test - Hex (Chinese Checkers).lud,Cameron Browne,20200601-091322
+A,Common/res/lud/test/graph/Graph Test - Hex (Star, 2).lud,Cameron Browne,20200601-094233
+A,Common/res/lud/test/graph/Graph Test - Hex (Star, 4).lud,Cameron Browne,20200601-094233
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-094233
+M,Core/src/game/functions/graph/tiling/hex/HexShapeType.java,Cameron Browne,20200601-094233
+A,Core/src/game/functions/graph/tiling/hex/StarOnHex.java,Cameron Browne,20200601-094233
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200601-094233
+A,Common/res/lud/test/graph/Graph Test - Square (Limping).lud,Cameron Browne,20200601-094852
+M,Core/src/game/functions/graph/tiling/hex/HexShapeType.java,Cameron Browne,20200601-094852
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200601-094852
+M,Core/src/game/functions/graph/tiling/square/SquareShapeType.java,Cameron Browne,20200601-094852
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200601-094852
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom, 4).lud,Cameron Browne,20200601-104426
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom, 4, Vertex).lud,Cameron Browne,20200601-104426
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom, 4,5).lud,Cameron Browne,20200601-104426
+A,Common/src/main/math/RCL.java,Cameron Browne,20200601-104426
+M,Common/src/main/math/Vector.java,Cameron Browne,20200601-104426
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-104426
+M,Core/src/topology/GraphElement.java,Cameron Browne,20200601-104426
+D,Core/src/topology/RCL.java,Cameron Browne,20200601-104426
+A,Common/res/lud/test/graph/Graph Test - Hex (Limping 4).lud,Cameron Browne,20200601-104741
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-104741
+M,Core/src/game/functions/graph/tiling/hex/HexShapeType.java,Cameron Browne,20200601-104741
+A,Common/res/lud/test/graph/Graph Test - Hex (Rectangle, 4,7).lud,Cameron Browne,20200601-112549
+A,Common/res/lud/test/graph/Graph Test - Hex (Square, 5).lud,Cameron Browne,20200601-112549
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-112549
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-112549
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-112549
+A,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200601-112549
+A,Common/res/lud/test/graph/Graph Test - Hex (Truncated Star).lud,Cameron Browne,20200601-113117
+M,Core/src/game/functions/graph/BaseGraphFunction.java,Cameron Browne,20200601-113638
+M,Common/res/lud/test/tahmina/TCenter.lud,TahminaBegum,20200601-114101
+A,Common/res/lud/test/graph/Graph Test - Hex (Prism, 4,2).lud,Cameron Browne,20200601-115645
+A,Common/res/lud/test/graph/Graph Test - Hex (Prism, 4,4).lud,Cameron Browne,20200601-115645
+A,Common/res/lud/test/graph/Graph Test - Hex (Prism, 4,7).lud,Cameron Browne,20200601-115645
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-115645
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-115645
+M,Core/src/game/functions/graph/tiling/hex/HexShapeType.java,Cameron Browne,20200601-115645
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200601-115645
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom Diamond).lud,Cameron Browne,20200601-121914
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom Prism).lud,Cameron Browne,20200601-121914
+A,Common/res/lud/test/graph/Graph Test - Hex (Custom Triangle).lud,Cameron Browne,20200601-121914
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-121914
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-121914
+A,Common/res/lud/test/graph/Graph Test - Square (Diamond 4, Cell).lud,Cameron Browne,20200601-125618
+A,Common/res/lud/test/graph/Graph Test - Square (Diamond 4, Vertex).lud,Cameron Browne,20200601-125618
+A,Common/res/lud/test/graph/Graph Test - Square (Diamond 5, Vertex).lud,Cameron Browne,20200601-125618
+D,Common/res/lud/test/graph/Graph Test - Square (Diamond).lud,Cameron Browne,20200601-125618
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200601-125618
+M,Core/src/game/functions/graph/tiling/square/DiamondOnSquare.java,Cameron Browne,20200601-125618
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200601-125618
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-125618
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/shape/wedge/Wedge.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/alquerque/Alquerque.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/StarOnHex.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/hex/TriangleOnHex.java,Cameron Browne,20200601-131845
+A,Core/src/game/functions/graph/tiling/spiral/Spiral.java,Cameron Browne,20200601-131845
+A,Core/src/game/functions/graph/tiling/spiral/package-info.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/square/DiamondOnSquare.java,Cameron Browne,20200601-131845
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-131845
+A,Common/res/lud/test/graph/Graph Test - Spiral (5, 88).lud,Cameron Browne,20200601-140605
+A,Common/res/lud/test/graph/Graph Test - Spiral (5, 88, CCW).lud,Cameron Browne,20200601-140605
+M,Core/src/game/functions/graph/tiling/alquerque/Alquerque.java,Cameron Browne,20200601-140605
+M,Core/src/game/functions/graph/tiling/spiral/Spiral.java,Cameron Browne,20200601-140605
+M,Core/src/game/util/graph/Edge.java,Cameron Browne,20200601-140605
+M,Core/src/game/util/graph/Face.java,Cameron Browne,20200601-140605
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200601-140605
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200601-140605
+A,Common/res/lud/test/graph/Graph Test - Remove (Vertices by Index A).lud,Cameron Browne,20200601-144118
+A,Common/res/lud/test/graph/Graph Test - Remove (Vertices by Index B).lud,Cameron Browne,20200601-144118
+M,Core/src/game/functions/graph/operators/Remove.java,Cameron Browne,20200601-144118
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-144118
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200601-144118
+A,Common/res/lud/test/graph/Graph Test - Add (Edges by Index).lud,Cameron Browne,20200601-150657
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200601-150657
+M,Core/src/game/functions/graph/operators/Remove.java,Cameron Browne,20200601-150657
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200601-151910
+M,Core/src/game/functions/graph/operators/Remove.java,Cameron Browne,20200601-151910
+A,Common/res/lud/test/graph/Graph Test - Union (UTTT).lud,Cameron Browne,20200601-152638
+A,Common/res/lud/test/parser/Parser Test - Both Edges Used.lud,Cameron Browne,20200601-154045
+A,Common/res/lud/test/graph/Graph Test - Tri (4).lud,Cameron Browne,20200601-165746
+A,Common/res/lud/test/graph/Graph Test - Tri (4, Vertex).lud,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/StarOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/hex/TriangleOnHex.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200601-165746
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/CustomOnTri.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/DiamondOnHex.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/HexagonOnHex.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/RectangleOnHex.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/StarOnHex.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/TriShapeType.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200601-165746
+A,Core/src/game/functions/graph/tiling/tri/package-info.java,Cameron Browne,20200601-165746
+A,Core/src/game/util/graph/ElementScore.java,Cameron Browne,20200601-165746
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200601-165746
+A,Common/res/lud/test/graph/Graph Test - Tri (Diamond, 3).lud,Cameron Browne,20200601-171539
+A,Common/res/lud/test/graph/Graph Test - Tri (Diamond, 3, Cell).lud,Cameron Browne,20200601-171539
+A,Common/res/lud/test/graph/Graph Test - Tri (Prism, 3, 3).lud,Cameron Browne,20200601-171539
+A,Common/res/lud/test/graph/Graph Test - Tri (Prism, 4, 6, Vertex).lud,Cameron Browne,20200601-171539
+D,Core/src/game/functions/graph/tiling/tri/DiamondOnHex.java,Cameron Browne,20200601-171539
+A,Core/src/game/functions/graph/tiling/tri/DiamondOnTri.java,Cameron Browne,20200601-171539
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-171539
+M,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200601-171539
+A,Common/res/lud/test/graph/Graph Test - Tri (Hexagon, 5).lud,Cameron Browne,20200601-172447
+A,Common/res/lud/test/graph/Graph Test - Tri (Hexagon, 5, Vertex).lud,Cameron Browne,20200601-172447
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-172447
+M,Core/src/game/functions/graph/tiling/tri/DiamondOnTri.java,Cameron Browne,20200601-172447
+D,Core/src/game/functions/graph/tiling/tri/HexagonOnHex.java,Cameron Browne,20200601-172447
+A,Core/src/game/functions/graph/tiling/tri/HexagonOnTri.java,Cameron Browne,20200601-172447
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-172447
+A,Common/res/lud/test/graph/Graph Test - Tri (Rectangle, 4,7).lud,Cameron Browne,20200601-182007
+A,Common/res/lud/test/graph/Graph Test - Tri (Rectangle, 4,7, Vertex).lud,Cameron Browne,20200601-182007
+A,Common/res/lud/test/graph/Graph Test - Tri (Square, 5).lud,Cameron Browne,20200601-182007
+A,Common/res/lud/test/graph/Graph Test - Tri (Square, 5, Vertex).lud,Cameron Browne,20200601-182007
+M,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200601-182007
+M,Core/src/game/functions/graph/tiling/tri/HexagonOnTri.java,Cameron Browne,20200601-182007
+D,Core/src/game/functions/graph/tiling/tri/RectangleOnHex.java,Cameron Browne,20200601-182007
+A,Core/src/game/functions/graph/tiling/tri/RectangleOnTri.java,Cameron Browne,20200601-182007
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-182007
+M,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200601-182007
+A,Common/res/lud/test/graph/Graph Test - Tri (Star, 2).lud,Cameron Browne,20200601-182706
+A,Common/res/lud/test/graph/Graph Test - Tri (Star, 3, Vertex).lud,Cameron Browne,20200601-182706
+M,Core/src/game/functions/graph/tiling/tri/RectangleOnTri.java,Cameron Browne,20200601-182706
+D,Core/src/game/functions/graph/tiling/tri/StarOnHex.java,Cameron Browne,20200601-182706
+A,Core/src/game/functions/graph/tiling/tri/StarOnTri.java,Cameron Browne,20200601-182706
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-182706
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom Diamond).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom Diamond, Truncated).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom Prism).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom Triangle).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom, 4).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom, 4, Vertex).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Custom, 4,5).lud,Cameron Browne,20200601-185240
+D,Common/res/lud/test/graph/Graph Test - Tri (Diamond, 3, Cell).lud,Cameron Browne,20200601-185240
+A,Common/res/lud/test/graph/Graph Test - Tri (Diamond, 3, Vertex).lud,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/CustomOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/DiamondOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/HexagonOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/RectangleOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/StarOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200601-185240
+M,Core/src/game/functions/graph/BaseGraphFunction.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/StarOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/hex/TriangleOnHex.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/square/DiamondOnSquare.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/CustomOnTri.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/DiamondOnTri.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/HexagonOnTri.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/RectangleOnTri.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/StarOnTri.java,Cameron Browne,20200601-193334
+M,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200601-193334
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (2).lud,Cameron Browne,20200601-224632
+A,Core/src/game/functions/graph/tiling/tiling3464/HexagonOn3464.java,Cameron Browne,20200601-224632
+A,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-224632
+A,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-224632
+A,Core/src/game/functions/graph/tiling/tiling3464/package-info.java,Cameron Browne,20200601-224632
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Diamond, 2).lud,Cameron Browne,20200601-230734
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Prism, 2,3).lud,Cameron Browne,20200601-230734
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200601-230734
+M,Core/src/game/functions/graph/BaseGraphFunction.java,Cameron Browne,20200601-230734
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200601-230734
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200601-230734
+A,Core/src/game/functions/graph/tiling/tiling3464/DiamondOn3464.java,Cameron Browne,20200601-230734
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-230734
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-230734
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200601-230734
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Triangle, 3).lud,Cameron Browne,20200601-231633
+M,Core/src/game/functions/graph/tiling/tiling3464/DiamondOn3464.java,Cameron Browne,20200601-231633
+M,Core/src/game/functions/graph/tiling/tiling3464/HexagonOn3464.java,Cameron Browne,20200601-231633
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-231633
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-231633
+A,Core/src/game/functions/graph/tiling/tiling3464/TriangleOn3464.java,Cameron Browne,20200601-231633
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200601-231633
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Rectangle, 3,4).lud,Cameron Browne,20200601-232849
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Square, 3).lud,Cameron Browne,20200601-232849
+A,Core/src/game/functions/graph/tiling/tiling3464/RectangleOn3464.java,Cameron Browne,20200601-232849
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-232849
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-232849
+M,Core/src/game/functions/graph/tiling/tiling3464/TriangleOn3464.java,Cameron Browne,20200601-232849
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Star, 2).lud,Cameron Browne,20200601-233323
+A,Core/src/game/functions/graph/tiling/tiling3464/StarOn3464.java,Cameron Browne,20200601-233323
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-233323
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-233323
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom Diamond).lud,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom Prism).lud,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom Triangle).lud,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom, 4).lud,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom, 4, Vertex).lud,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Custom, 4,5).lud,Cameron Browne,20200601-234746
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200601-234746
+A,Core/src/game/functions/graph/tiling/tiling3464/CustomOn3464.java,Cameron Browne,20200601-234746
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200601-234746
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464ShapeType.java,Cameron Browne,20200601-234746
+M,Core/src/game/functions/graph/tiling/tri/CustomOnTri.java,Cameron Browne,20200601-234746
+M,Core/src/game/types/board/ShapeType.java,Cameron Browne,20200601-234746
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 10).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 11).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 2).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 3).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 4).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 5).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 6).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 7).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 8).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual x 9).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/graph/Graph Test - Tiling3464 (Dual).lud,Cameron Browne,20200602-000204
+A,Common/res/lud/test/tahmina/Centroid.lud,TahminaBegum,20200602-004805
+A,Common/res/lud/test/tahmina/TCDeg.lud,TahminaBegum,20200602-004805
+D,Common/res/lud/test/tahmina/TCenter.lud,TahminaBegum,20200602-004805
+A,Common/res/lud/test/tahmina/TCenterPuzzle.lud,TahminaBegum,20200602-004805
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200602-004805
+A,Common/res/lud/test/graph/Graph Test - Alquerque (Small Merels).lud,Cameron Browne,20200602-011729
+A,Common/res/lud/test/graph/Graph Test - Morris (2).lud,Cameron Browne,20200602-011729
+A,Common/res/lud/test/graph/Graph Test - Morris (3, Join Corners).lud,Cameron Browne,20200602-011729
+A,Core/src/game/functions/graph/tiling/morris/Morris.java,Cameron Browne,20200602-011729
+A,Core/src/game/functions/graph/tiling/morris/package-info.java,Cameron Browne,20200602-011729
+M,Core/src/game/types/board/TilingType.java,Cameron Browne,20200602-011729
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200602-011729
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200602-081933
+M,Core/src/game/functions/graph/tiling/morris/Morris.java,Cameron Browne,20200602-081933
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200602-081933
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-082446
+M,Core/src/game/equipment/other/Regions.java,eric.piette,20200602-082446
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,eric.piette,20200602-082446
+M,Core/src/topology/Topology.java,eric.piette,20200602-082446
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-082446
+M,Player/test/games/pregeneration/TestHexTiling.java,eric.piette,20200602-082446
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-082446
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200602-082617
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200602-082620
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200602-082702
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200602-085743
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-085743
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-085743
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-085743
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-085743
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-085743
+M,Core/src/game/functions/region/sites/side/SitesSide.java,eric.piette,20200602-085743
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,eric.piette,20200602-085743
+M,Core/src/topology/Topology.java,eric.piette,20200602-085743
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-085743
+M,Player/test/games/pregeneration/TestHexTiling.java,eric.piette,20200602-085743
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-085743
+M,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Matthew.Stephenson,20200602-090324
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-091522
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-091522
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-091522
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-091522
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-091522
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,eric.piette,20200602-091522
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,eric.piette,20200602-091522
+M,Core/src/game/functions/region/sites/simple/SitesOuterNotCorner.java,eric.piette,20200602-091522
+M,Core/src/topology/Topology.java,eric.piette,20200602-091522
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-091522
+M,Player/test/games/pregeneration/TestHexTiling.java,eric.piette,20200602-091522
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-091522
+M,Core/src/util/Trial.java,Dennis Soemers,20200602-095804
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200602-095813
+M,Player/src/display/views/playerViews/PlayerViewUser.java,Matthew.Stephenson,20200602-095813
+M,Player/src/player/utils/graphics/DesktopGraphics.java,Matthew.Stephenson,20200602-095813
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-100212
+M,Core/src/game/equipment/other/Map.java,eric.piette,20200602-100212
+M,Core/src/game/functions/ints/board/CentrePoint.java,eric.piette,20200602-100212
+M,Core/src/game/functions/region/sites/simple/SitesBottom.java,eric.piette,20200602-100212
+M,Core/src/game/functions/region/sites/simple/SitesCentre.java,eric.piette,20200602-100212
+M,Core/src/game/functions/region/sites/simple/SitesLeft.java,eric.piette,20200602-100212
+M,Core/src/game/functions/region/sites/simple/SitesRight.java,eric.piette,20200602-100212
+M,Core/src/game/functions/region/sites/simple/SitesTop.java,eric.piette,20200602-100212
+M,Core/src/topology/Topology.java,eric.piette,20200602-100212
+M,Core/src/util/state/State.java,eric.piette,20200602-100212
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-100212
+M,Graphics/src/view/container/custom/board/specific/TaflStyle.java,eric.piette,20200602-100212
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-100212
+M,Player/src/display/views/playerViews/PlayerViewUser.java,Matthew.Stephenson,20200602-100342
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200602-101350
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200602-101350
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200602-101350
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200602-101350
+M,Player/src/display/views/tabViews/TabView.java,Matthew.Stephenson,20200602-101350
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200602-101350
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200602-101350
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200602-101350
+M,Player/src/player/utils/gameplay/MoveUtil.java,Matthew.Stephenson,20200602-101350
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200602-102957
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-102957
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-102957
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-102957
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-102957
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-102957
+M,Core/src/game/functions/region/sites/simple/SitesInner.java,eric.piette,20200602-102957
+M,Core/src/topology/Topology.java,eric.piette,20200602-102957
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-102957
+M,Player/test/games/pregeneration/TestHexTiling.java,eric.piette,20200602-102957
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-102957
+M,Player/src/player/utils/supplementary/LudiiGameWrapper.java,Dennis Soemers,20200602-104910

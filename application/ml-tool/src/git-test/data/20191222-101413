@@ -1,0 +1,342 @@
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191219-130719
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-132451
+M,Core/src/game/equipment/component/piece/CardFunctions.java,Matthew Stephenson,20191219-132451
+M,Core/src/util/BaseCardImages.java,Matthew Stephenson,20191219-132451
+M,Player/test/games/TestParallelPlayouts.java,DennisSoemers,20191219-135922
+M,Core/src/game/functions/booleans/IsSingleGroup.java,TahminaBegum,20191219-140738
+M,Core/src/util/UnionFindD.java,TahminaBegum,20191219-140738
+M,Core/src/util/action/Remove.java,TahminaBegum,20191219-140738
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191219-140850
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-141510
+M,Core/src/game/equipment/component/Piece.java,Matthew Stephenson,20191219-141510
+M,Core/src/game/equipment/component/piece/CardFunctions.java,Matthew Stephenson,20191219-141510
+M,Core/src/util/BaseCardImages.java,Matthew Stephenson,20191219-141510
+M,Player/src/mainView/GameView.java,Matthew Stephenson,20191219-141510
+M,Core/src/util/UnionFindD.java,DennisSoemers,20191219-142326
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-142326
+M,Common/src/graphics/ImageProcessing.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/Board.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/DotBoard.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/custom/JungleBoard.java,Matthew Stephenson,20191219-142445
+M,Core/src/game/equipment/container/board/custom/XiangqiBoard.java,Matthew Stephenson,20191219-142445
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-142959
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-143058
+M,Core/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/booleans/Ring.java,DennisSoemers,20191219-145908
+M,Core/src/game/functions/ints/GroupProduct.java,DennisSoemers,20191219-145908
+M,Core/src/game/rules/play/moves/SurroundedGroup2.java,DennisSoemers,20191219-145908
+M,Core/src/util/UnionFind.java,DennisSoemers,20191219-145908
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/GameType.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/BaseContainerStateStacking.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191219-145908
+M,Core/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191219-145908
+M,Player/src/mainView/button/ButtonNextGame.java,Matthew Stephenson,20191219-152502
+M,Player/src/mainView/button/ButtonPrevGame.java,Matthew Stephenson,20191219-152502
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-152502
+M,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191219-152502
+M,Core/src/game/rules/start/Fill.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionFindD.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionInfo.java,DennisSoemers,20191219-152502
+M,Core/src/util/UnionInfoD.java,DennisSoemers,20191219-152502
+M,Core/src/util/action/ActionMove.java,DennisSoemers,20191219-152502
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191219-153740
+M,Common/res/lud/board/space/line/Connect 4.lud,Matthew Stephenson,20191219-154553
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20191219-155617
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191219-160635
+M,Player/src/player/Referee.java,Matthew Stephenson,20191219-161201
+M,Common/res/lud/puzzle/planning/Safe passage.lud,Matthew Stephenson,20191219-170042
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191219-170042
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191219-170645
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191219-180835
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191220-095323
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191220-095323
+M,Common/res/lud/card/War.lud,Matthew.Stephenson,20191220-095539
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Matthew.Stephenson,20191220-095539
+A,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew Stephenson,20191220-105020
+D,Common/res/lud/puzzle/planning/Safe passage.lud,Matthew Stephenson,20191220-105020
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew Stephenson,20191220-105438
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew Stephenson,20191220-105438
+M,Player/src/mainView/dialog/GameLoaderDialog.java,Matthew Stephenson,20191220-105910
+M,Player/src/mainView/dialog/LeaderboardDialog.java,Matthew.Stephenson,20191220-115214
+M,Common/src/main/EloCalculations.java,Matthew.Stephenson,20191220-120727
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20191220-120840
+M,Player/src/mainView/dialog/LeaderboardDialog.java,Matthew Stephenson,20191220-123708
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Achi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ako okwe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Backgammon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bagh-Chal.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bao ki arabu (Zanzibar 1).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bao ki arabu (Zanzibar 2).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/BreakThrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Bricks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Castello.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chatauranga.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Cross.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dala.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dama.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dash-guti.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/De Cercar La Liebre.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Demala diviyan keliya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Dra.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Felli.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fill A Pix.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Five Field Kono.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Four Field Kono.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Futoshiki.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Game of the Goose.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gol-skuish.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Groups.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Halma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hashiwokakero.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hex.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hnefatafl Fetlar.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Horseshoe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Inshi no Heya.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Juosan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kakuro.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kara.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Killer Sudoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/KnightThrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Konane.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/L Game.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Leopards and Cows.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Los Alamos chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mehen.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nawabari.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nim.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Odd.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Omega.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Oware.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Picaria.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pon chochotl.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Pulijudam.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Safe Passage.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Salta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Seega.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Senet.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sixteen Soldiers.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Slitherlink.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Spline.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Spots.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Squaro.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Squava.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Susan.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Takuzu.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tron.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/War.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/categories.csv,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/create_flat_luds_directory.py,Matthew.Stephenson,20191220-134108
+A,LudiiDiagnosticsPy/ludii_utils/create_lud_and_categories.py,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/folderStructure.csv,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/folderStructure.py,Matthew.Stephenson,20191220-134108
+D,LudiiDiagnosticsPy/ludii_utils/toUpload.csv,Matthew.Stephenson,20191220-134108
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20191220-134450
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191220-134450
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20191220-134450
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Cameron Browne,20191220-134450
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20191220-135610
+M,Common/src/main/UserColour.java,Cameron Browne,20191220-145506
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191220-145506
+M,Core/src/util/MetadataFunctions.java,Cameron Browne,20191220-145637
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20191220-150955
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191220-150955
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191220-153757
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191220-171339
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20191220-172501
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191220-190939
+M,Common/res/lud/board/capture/leaping/other/Konane.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/four_rows/Muvalavala B.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/two_rows/Dabuda.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/mancala/two_rows/English Wari (St. Lucia).lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/L'attaque.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Press Ups.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Seega.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/capture/other/Stratego.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Bagh-Chal.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Demala diviyan keliya.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Leopards and Cows.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Merimueng-rimueng-do.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/fill/Halma.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Arimaa.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/race/reach/Pachisi.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Contagion.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Horseshoe.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Achi.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Dala.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Dra.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Picaria.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric.Piette,20191220-211310
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Eric.Piette,20191220-211310
+M,Core/src/game/rules/Rules.java,Eric.Piette,20191220-211310
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191220-215652
+D,Player/src/player/experiments/game_files/CountLudemes.java,Eric.Piette,20191221-101026
+D,Common/res/img/svg/animals/tocheck/crab-2.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/dog test.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-1.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-2.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma-old.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/puma.svg,Cameron Browne,20191222-101413
+D,Common/res/img/svg/animals/tocheck/sheep.svg,Cameron Browne,20191222-101413
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191222-101413

@@ -1,0 +1,178 @@
+M,Library/src/game/functions/region/Sites.java,Eric Piette,20190430-124944
+M,Library/lud/Connect-4 (stack).lud,Matthew Stephenson,20190430-135810
+M,Library/src/game/equipment/component/Number.java,Matthew Stephenson,20190430-135810
+M,Library/src/ui/GameView.java,Matthew Stephenson,20190430-135810
+M,Player/.classpath,Matthew Stephenson,20190430-135810
+D,Player/jgoodies-forms-1.8.0-sources.jar,Matthew Stephenson,20190430-135810
+D,Player/jgoodies-forms-1.8.0.jar,Matthew Stephenson,20190430-135810
+D,Player/miglayout-src.zip,Matthew Stephenson,20190430-135810
+D,Player/miglayout15-swing.jar,Matthew Stephenson,20190430-135810
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190430-135810
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190430-135810
+M,Library/src/game/Game.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/bitset/And.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/bitset/BitSetConstant.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/bitset/Or.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Adjacent.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/AllDifferent.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/AllPass.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/And.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/BooleanConstant.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Configuration.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Connect.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Equal.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Even.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Full.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Ge.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Gt.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/If.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/In.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsCheckmate.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsEnemy.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsFriend.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsFriendAt.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsMover.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsNext.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsPiece.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/IsPrev.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Le.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Line.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Lt.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/MovesNonEmpty.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Not.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Odd.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Or.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/ReachedRegion.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/booleans/Stalemated.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Add.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Count.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/ForwardOnTrack.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/From.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Hand.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Height.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/IndexOf.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/IntConstant.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/LastFromMove.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/LastToMove.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Mover.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Next.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Previous.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/ReplayCount.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Size.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/State.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Sub.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Sum.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/To.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Turn.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Value.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/What.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/ints/Who.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Around.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Bottom.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Centre.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Column.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Corners.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/DirectionRegion.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Empty.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Exteriors.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Hand.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/If.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Own.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Phase.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Prune.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/RegionConstant.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Row.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Set.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Sites.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Top.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Union.java,DennisSoemers,20190430-141359
+M,Library/src/game/functions/region/Walk.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/end/End.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/end/If.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/end/Or.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/And.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/BaseMoves.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/ByPieceType.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Checkmate.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Drop.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Flanked.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/If.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Or.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Priority.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Promotion.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Remove.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Replay.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Roll.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Sow.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Surrounded.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Hop.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Pass.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Shoot.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/decision/To.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/start/Fill.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/start/Place.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/start/PlaceRandomly.java,DennisSoemers,20190430-141359
+M,Library/src/util/state/StateType.java,DennisSoemers,20190430-141359
+M,Library/src/game/rules/play/moves/Or.java,DennisSoemers,20190430-141935
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20190430-142608
+M,Library/src/game/rules/play/moves/ByPieceType.java,DennisSoemers,20190430-142608
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190430-145651
+M,Library/lud/Breakthrough.lud,Cameron Browne,20190430-160807
+M,Common/src/main/Global.java,Matthew Stephenson,20190430-162611
+M,Library/src/ui/GameView.java,Matthew Stephenson,20190430-162611
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190430-162611
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190430-162611
+M,Player/src/player/Referee.java,Matthew Stephenson,20190430-162611
+M,Library/src/ui/GameView.java,Matthew Stephenson,20190430-162855
+D,Library/lud/Connect-4 (stack).lud,Eric Piette,20190501-085620
+M,Library/lud/Connect-4.lud,Eric Piette,20190501-085620
+D,Library/src/game/rules/play/moves/Drop.java,Eric Piette,20190501-085641
+A,Library/lud/Double Chess (skirmish).lud,Eric Piette,20190501-105128
+M,Library/src/game/equipment/container/board/ChessBoard.java,Eric Piette,20190501-105128
+A,Library/lud/Breakthrough (ByPiece).lud,Dennis Soemers,20190501-114848
+A,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190501-114848
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190501-132220
+M,Library/src/game/rules/play/moves/Moves.java,Dennis Soemers,20190501-132220
+M,Library/src/game/rules/play/moves/Then.java,Dennis Soemers,20190501-132220
+M,Library/src/util/Move.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionAdd.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionAddN.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionChangeState.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionCopy.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionMove.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionMoveN.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionMoveRemove.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionMoveState.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionPass.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionRemove.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionRemoveN.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/ActionSelect.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/Checkmate.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/Remove.java,Dennis Soemers,20190501-132220
+M,Library/src/util/action/SetNextPlayer.java,Dennis Soemers,20190501-132220
+M,Library/src/game/playout/AddToEmpty.java,Dennis Soemers,20190501-134201
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190501-134201
+M,Library/src/game/rules/play/moves/Roll.java,Dennis Soemers,20190501-143654
+M,Library/src/game/rules/start/Place.java,Dennis Soemers,20190501-143654
+M,Library/src/game/rules/start/PlaceRandomly.java,Dennis Soemers,20190501-143654
+M,Library/src/game/rules/start/Place.java,Dennis Soemers,20190501-144357
+M,Library/src/util/Move.java,Dennis Soemers,20190501-150243
+A,Player/test/games/TokensTest.java,Eric Piette,20190501-155811
+M,Player/test/games/TokensTest.java,Eric Piette,20190501-161638
+M,Common/.classpath,DennisSoemers,20190502-100007
+A,Common/lib/json-20180813.jar,DennisSoemers,20190502-100007
+M,Library/src/game/Game.java,DennisSoemers,20190502-101052
+M,Library/src/game/rules/start/Place.java,DennisSoemers,20190502-101052
+M,Library/src/game/functions/region/Union.java,DennisSoemers,20190502-111637
+M,Library/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20190502-111637
+M,Library/src/util/Region.java,DennisSoemers,20190502-111637
+M,Library/src/game/functions/region/Union.java,DennisSoemers,20190502-112747
+M,Library/lud/Breakthrough (ByPiece).lud,Eric Piette,20190502-121231
+M,Library/lud/Double Chess (skirmish).lud,Eric Piette,20190502-121231
+M,Library/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20190502-130446

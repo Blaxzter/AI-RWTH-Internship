@@ -1,0 +1,787 @@
+M,AI/src/expert_iteration/ExpertPolicy.java,Dennis Soemers,20200205-202727
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20200205-202727
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200205-202727
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200205-212822
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200205-212822
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200205-212822
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200205-213853
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200205-214946
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200205-214946
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200205-214956
+M,Common/res/lud/test/Wheel test - 3.lud,eric.piette,20200206-085859
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-085859
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-085859
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200206-085859
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200206-085859
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-085859
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-090847
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200206-091105
+M,Core/src/game/rules/play/moves/decision/Shoot.java,eric.piette,20200206-091105
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200206-091105
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-091105
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-091149
+M,Core/src/game/rules/play/moves/decision/Shoot.java,eric.piette,20200206-091432
+M,Core/src/game/equipment/container/tiling/directions/DirectionType.java,eric.piette,20200206-093507
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-093507
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-093507
+M,Core/src/game/equipment/Equipment.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/component/Tile/Tile.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graph/ChineseCheckersBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graph/LascaBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graph/MancalaBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graph/SolitaireBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/AgonBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/BackgammonBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/ChessBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/Connect4Board.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/DotBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/GoBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/GooseBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/HexBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/HexYBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/HoundsAndJackalsBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/JanggiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/PachisiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/PloyBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/ScriptaBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/ShogiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/SnakesAndLaddersBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/SurakartaBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/TaflBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/board/custom/graphics/XiangqiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleDotBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Matthew.Stephenson,20200206-095418
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/AgonStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/BackgammonStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/BoardlessStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ChessStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ChineseCheckersStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/Connect4Style.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ContainerStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/DotStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/FutoshikiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/GoStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/GooseStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/GraphPuzzleStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/GraphStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/HandStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/HashiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/HexStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/HexYStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/HoundsAndJackalsStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/JanggiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/KakuroStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/LascaStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/LineSegmentStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/MancalaStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/PachisiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/PloyStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/PuzzleDotStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/PuzzleStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/RegionPuzzleStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ScriptaStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ShibumiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/ShogiStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/SolitaireStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/SpiralStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/SudokuStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/SurakartaStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/TaflStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/WheelStyle.java,Matthew.Stephenson,20200206-095418
+A,Core/src/util/ContainerStyles/XiangqiStyle.java,Matthew.Stephenson,20200206-095418
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200206-095418
+M,Core/src/util/Region.java,Matthew.Stephenson,20200206-095418
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200206-095418
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200206-095418
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20200206-095418
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20200206-095418
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20200206-095418
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20200206-095418
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200206-095418
+M,Common/res/lud/bad_playout/Breakthrough (bad).lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chatauranga/Chaturaji.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chatauranga/Shatranj.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Amazon Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Double Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Loop Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Los Alamos chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/shogi/Shogi.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/race/reach/BreakThrough.lud,eric.piette,20200206-100021
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200206-100021
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200206-100021
+M,Common/res/lud/puzzle/planning/Insanity.lud,eric.piette,20200206-100021
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,eric.piette,20200206-100021
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200206-100021
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-100021
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-100021
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-100021
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graph/ChineseCheckersBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graph/LascaBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graph/MancalaBoard.java,Matthew.Stephenson,20200206-103019
+D,Core/src/game/equipment/container/board/custom/graph/SolitaireBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/AgonBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/BackgammonBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/ChessBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/Connect4Board.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/DotBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/GoBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/GooseBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/HexBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/HexYBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/HoundsAndJackalsBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/JanggiBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/PachisiBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/PloyBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/ScriptaBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/ShogiBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/SnakesAndLaddersBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/SurakartaBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/TaflBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/board/custom/graphics/XiangqiBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Matthew.Stephenson,20200206-103019
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/AgonStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/BackgammonStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/AgonStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/BackgammonStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/ChessStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/ChineseCheckersStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/Connect4Style.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/DotStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/GoStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/GooseStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/HexStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/HexYStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/HoundsAndJackalsStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/JanggiStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/LascaStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/MancalaStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/PachisiStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/PloyStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/ScriptaStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/ShogiStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/SurakartaStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/TaflStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Board/XiangqiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/ChessStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/ChineseCheckersStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/Connect4Style.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/DotStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/FutoshikiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/GoStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/GooseStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/GraphPuzzleStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/HashiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/HexStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/HexYStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/HoundsAndJackalsStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/JanggiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/KakuroStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/LascaStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/LineSegmentStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/MancalaStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/PachisiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/PloyStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/GraphPuzzleStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/HashiStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/KakuroStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/PuzzleDotStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/PuzzleStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200206-103019
+A,Core/src/util/ContainerStyles/Puzzle/SudokuStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/PuzzleDotStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/PuzzleStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/RegionPuzzleStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/ScriptaStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/ShogiStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/SolitaireStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/SudokuStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/SurakartaStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/TaflStyle.java,Matthew.Stephenson,20200206-103019
+D,Core/src/util/ContainerStyles/XiangqiStyle.java,Matthew.Stephenson,20200206-103019
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200206-103019
+M,Core/src/util/ContainerStyles/Board/BackgammonStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Board/Connect4Style.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Board/DotStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Board/MancalaStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Board/ScriptaStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Board/SurakartaStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/ContainerStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Puzzle/HashiStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Puzzle/KakuroStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleDotStyle.java,Matthew.Stephenson,20200206-110010
+M,Core/src/util/ContainerStyles/Puzzle/SudokuStyle.java,Matthew.Stephenson,20200206-110010
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200206-110010
+M,Core/src/game/equipment/container/board/CustomBoard.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/board/SpiralBoard.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/board/custom/graphics/GooseBoard.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/tiling/directions/Direction.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/tiling/directions/DirectionUtils.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-110023
+M,Core/src/game/functions/region/Walk.java,eric.piette,20200206-110023
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-110243
+M,Common/res/lud/board/capture/leaping/alquerque/Kharbaga.lud,eric.piette,20200206-110744
+M,Common/res/lud/board/capture/leaping/alquerque/Zamma.lud,eric.piette,20200206-110744
+M,Common/res/lud/board/capture/leaping/draughts/HexDame.lud,eric.piette,20200206-110744
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200206-110744
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-110744
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-110744
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-110744
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Matthew.Stephenson,20200206-110900
+M,Core/src/util/ContainerStyles/SpiralStyle.java,Matthew.Stephenson,20200206-110900
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20200206-111439
+M,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-111439
+M,Core/src/util/ContainerStyles/ContainerStyle.java,Matthew.Stephenson,20200206-111439
+M,Core/src/util/ContainerStyles/HandStyle.java,Matthew.Stephenson,20200206-111439
+M,Core/src/graph/Face.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/BackgammonStyle.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/Connect4Style.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/MancalaStyle.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/ScriptaStyle.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200206-113439
+M,Core/src/util/ContainerStyles/Board/SurakartaStyle.java,Matthew.Stephenson,20200206-113439
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleDotBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/GraphPuzzleStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/HashiStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/KakuroStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleDotStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Puzzle/SudokuStyle.java,Matthew.Stephenson,20200206-114744
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200206-114744
+M,Core/src/util/ContainerStyles/Board/DotStyle.java,Matthew.Stephenson,20200206-114939
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200206-115746
+M,Common/res/lud/board/race/reach/Jungle.lud,Cameron Browne,20200206-125711
+M,Player/src/player/PlayerApp.java,eric.piette,20200206-134233
+M,AI/src/heuristics/CentreProximity.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/CornerProximity.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/OpponentPieceProximity.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/OwnRegionsCount.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/PlayerRegionsProximity.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/RegionProximity.java,DennisSoemers,20200206-134434
+M,AI/src/heuristics/SidesProximity.java,DennisSoemers,20200206-134434
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20200206-134434
+M,Features/src/features/features/Feature.java,DennisSoemers,20200206-134434
+M,Features/src/features/graph_search/GraphSearch.java,DennisSoemers,20200206-134434
+M,Common/res/lud/wip/Agon.lud,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/Equipment.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/Container.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graph/ChineseCheckersBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graph/LascaBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graph/MancalaBoard.java,Matthew.Stephenson,20200206-135719
+D,Core/src/game/equipment/container/board/custom/graphics/AgonBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/BackgammonBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/ChessBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/Connect4Board.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/DotBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/GoBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/GooseBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/HexBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/HexYBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/HoundsAndJackalsBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/JanggiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/PachisiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/PloyBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/ScriptaBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/ShogiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/SnakesAndLaddersBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/SurakartaBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/TaflBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/board/custom/graphics/XiangqiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/hand/Hand.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleDotBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20200206-135719
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200206-135719
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200206-135719
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,eric.piette,20200206-141147
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-141147
+M,Player/test/games/TestTrialsIntegrity.java,eric.piette,20200206-141147
+M,Common/res/lud/wip/Agon.lud,Matthew.Stephenson,20200206-141821
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200206-141821
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200206-141821
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20200206-141834
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-145047
+M,Player/test/games/options/CompilationTestWithOptions.java,eric.piette,20200206-145047
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-145249
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-145249
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-145249
+M,Player/src/player/GameLoader.java,DennisSoemers,20200206-145405
+M,Core/src/game/equipment/component/Component.java,eric.piette,20200206-145428
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-145428
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-145428
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-150022
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-150022
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-150022
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-150208
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-150208
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-150208
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200206-150331
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20200206-150331
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200206-150331
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20200206-150503
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20200206-150503
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20200206-150503
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20200206-150503
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,DennisSoemers,20200206-151516
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-151837
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-154409
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-154409
+M,Player/test/games/TestParallelPlayouts.java,eric.piette,20200206-154409
+M,Player/test/games/TestParallelPlayouts.java,eric.piette,20200206-155041
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-155747
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-160057
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20200206-161222
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-161309
+M,Core/src/game/rules/play/moves/ForDirn.java,DennisSoemers,20200206-161355
+M,Core/src/util/model/AlternatingMove.java,DennisSoemers,20200206-161355
+M,Player/src/player/Referee.java,DennisSoemers,20200206-161355
+M,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-161702
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-161702
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200206-161702
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200206-161702
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-161702
+D,Core/src/game/functions/ints/intArray/DirectionChoice.java,eric.piette,20200206-161804
+A,Core/src/game/functions/ints/intArray/Directions.java,eric.piette,20200206-161804
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-161804
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200206-161804
+M,Core/src/game/rules/play/moves/decision/Shoot.java,eric.piette,20200206-161804
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200206-161804
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-161804
+M,Common/src/main/ClickInfo.java,Matthew.Stephenson,20200206-164413
+M,Core/src/game/types/GraphElementType.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/ContainerStyles/Board/BackgammonStyle.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/ContainerStyles/Board/DotStyle.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleDotStyle.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/ContainerStyles/Puzzle/PuzzleStyle.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/Move.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/state/puzzleState/PuzzleState.java,Matthew.Stephenson,20200206-164413
+M,Core/src/util/state/puzzleState/PuzzleStateLarge.java,Matthew.Stephenson,20200206-164413
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20200206-164413
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200206-164413
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20200206-164413
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20200206-164413
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20200206-164413
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200206-164413
+M,Player/src/player/Settings.java,Matthew.Stephenson,20200206-164413
+M,Core/src/game/types/GraphElementType.java,Matthew.Stephenson,20200206-170605
+M,Core/src/util/ContainerStyles/BoardStyle.java,Matthew.Stephenson,20200206-170605
+M,Core/src/util/MetadataFunctions.java,Matthew.Stephenson,20200206-170605
+M,Core/src/util/Move.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/Action.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionAdd.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionAddN.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionAddPlayerToTeam.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionMove.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionMoveAndRotate.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionMoveAndSetState.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionMoveN.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionMoveRemove.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionNoop.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionPass.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionPromote.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionRemove.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionReset.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSelect.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSet.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetAmount.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetCheckmate.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetCount.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetCounter.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetHidden.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetNextPlayer.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetPending.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetPhase.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetRotation.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetScore.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetState.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetStateAndUpdateDice.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSetTemp.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionStoreStateInContext.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionSwap.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionToggle.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/ActionUseDie.java,Matthew.Stephenson,20200206-174854
+M,Core/src/util/action/BaseAction.java,Matthew.Stephenson,20200206-174854
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200206-174854
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200206-174854
+M,Core/src/game/functions/ints/intArray/Directions.java,eric.piette,20200206-175720
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-175720
+M,Common/res/lud/bad_playout/Breakthrough (bad).lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chatauranga/Chaturaji.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chatauranga/Shatranj.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Amazon Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Double Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Loop Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Los Alamos chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/leaping/draughts/Brazilian Draughts.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/leaping/draughts/Canadian Draughts.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/leaping/draughts/English Draughts.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/leaping/draughts/International Draughts.lud,eric.piette,20200206-183650
+D,Common/res/lud/board/capture/leaping/draughts/Lasca.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/shogi/Shogi.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/xiangqi/Janggi.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/chase/hunt/Wolf and Sheep.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/race/reach/BreakThrough.lud,eric.piette,20200206-183650
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200206-183650
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200206-183650
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,eric.piette,20200206-183650
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200206-183650
+A,Common/res/lud/wip/Lasca.lud,eric.piette,20200206-183650
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-183650
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200206-183650
+M,Core/src/game/rules/play/moves/ForDirn.java,eric.piette,20200206-183650
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200206-183650
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200206-183650
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200206-183650
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200206-183729
+M,AI/src/expert_iteration/ExItExperience.java,Dennis Soemers,20200206-213100
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200206-213100
+M,Player/src/player/experiments/game_files/InitBestAgentsMetadata.java,Dennis Soemers,20200206-220110
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200207-102608
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200207-110816
+D,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200207-112658
+A,Common/res/lud/wip/Sneakthrough.lud,eric.piette,20200207-112658
+M,Core/src/game/functions/booleans/Threatened.java,eric.piette,20200207-112658
+M,Core/src/game/functions/ints/LastFromMove.java,eric.piette,20200207-112658
+M,Core/src/game/functions/ints/LastToMove.java,eric.piette,20200207-112658
+M,Core/src/game/playout/AddToEmpty.java,eric.piette,20200207-112658
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200207-112658
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200207-112658
+M,Core/src/util/Move.java,eric.piette,20200207-112658
+M,Core/src/util/MoveUtilities.java,eric.piette,20200207-112658
+M,Core/src/util/action/Action.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionAdd.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionAddN.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionAddPlayerToTeam.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionMove.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionMoveAndRotate.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionMoveAndSetState.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionMoveN.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionMoveRemove.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionNoop.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionPass.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionPromote.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionRemove.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionReset.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSelect.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSet.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetAmount.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetCheckmate.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetCount.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetCounter.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetHidden.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetNextPlayer.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetPending.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetPhase.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetRotation.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetScore.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetState.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetStateAndUpdateDice.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSetTemp.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionStoreStateInContext.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionSwap.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionToggle.java,eric.piette,20200207-112658
+M,Core/src/util/action/ActionUseDie.java,eric.piette,20200207-112658
+M,Core/src/util/action/BaseAction.java,eric.piette,20200207-112658
+M,Player/src/mainView/MainView.java,eric.piette,20200207-112658
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,eric.piette,20200207-112658
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20200207-112658
+M,Player/src/player/GraphicsCache.java,eric.piette,20200207-112658
+M,Player/src/player/Referee.java,eric.piette,20200207-112658
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200207-112803
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20200207-112803
+M,Core/src/game/rules/play/moves/decision/Step.java,eric.piette,20200207-115032
+A,Common/res/lud/wishlist/Gwangsanghui.lud,eric.piette,20200207-115220
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-122242
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-122331
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-122331
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200207-122445
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-122556
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-122556
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-122556
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-122725
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-122725
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-123026
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-123026
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-123026
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200207-123251
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-123251
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-123251
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-123251
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200207-123455
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-131306
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-131306
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-131306
+M,Common/res/lud/board/capture/leaping/draughts/Dama.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/capture/xiangqi/Janggi.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/race/reach/Arimaa.lud,eric.piette,20200207-132121
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20200207-132121
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-132121
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-132121
+D,Common/res/lud/board/race/reach/Arimaa.lud,eric.piette,20200207-132516
+A,Common/res/lud/wip/Arimaa.lud,eric.piette,20200207-132516
+M,Core/src/game/rules/play/moves/decision/FromTo.java,Matthew.Stephenson,20200207-133708
+M,Core/src/game/rules/play/moves/decision/Promotion.java,Matthew.Stephenson,20200207-133708
+M,Core/src/util/Move.java,Matthew.Stephenson,20200207-133708
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200207-133708
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200207-133708
+M,Core/src/game/rules/play/moves/decision/Promotion.java,Matthew.Stephenson,20200207-134306
+M,Core/src/util/Move.java,Matthew.Stephenson,20200207-134306
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200207-134623
+A,Common/res/lud/board/capture/leaping/draughts/Lasca.lud,eric.piette,20200207-140235
+A,Common/res/lud/board/race/reach/Arimaa.lud,eric.piette,20200207-140235
+D,Common/res/lud/wip/Arimaa.lud,eric.piette,20200207-140235
+D,Common/res/lud/wip/Lasca.lud,eric.piette,20200207-140235
+M,Core/src/util/Move.java,eric.piette,20200207-140235
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200207-140726
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200207-141053
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-141053
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-141053
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-141053
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-142158
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-142158
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-142158
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,eric.piette,20200207-143413
+M,Common/res/lud/board/capture/shogi/Shogi.lud,eric.piette,20200207-143413
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-143413
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200207-143413
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-143413
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-143413
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-143739
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20200207-143739
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-143739
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-143739
+M,Player/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20200207-143936
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,eric.piette,20200207-144115
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,eric.piette,20200207-144115
+M,Common/res/lud/board/capture/shogi/Shogi.lud,eric.piette,20200207-144115
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-144115
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200207-144115
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-144115
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-144115
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200207-144558
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-144558
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-144558
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-144558
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-144740
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-144740
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-144740
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-145122
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-145122
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-145122
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-145620
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-145620
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-145620
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-145953
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-145953
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-145953
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-150801
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-150801
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-150801
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-151330
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-151330
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-151330
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-151754
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-151754
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-151754
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-151847
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-151847
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200207-152032
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-152032
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-152032
+M,Common/res/lud/board/capture/other/Ploy.lud,eric.piette,20200207-152152
+M,Core/src/game/equipment/container/tiling/directions/RelativeDirection.java,eric.piette,20200207-152152
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-152152
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200207-152633
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200207-155707
+M,Core/src/game/Game.java,eric.piette,20200207-155707
+M,Core/src/game/functions/ints/Ahead.java,eric.piette,20200207-155707
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200207-171812
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/chatauranga/Chaturaji.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/chatauranga/Shatranj.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/chess/Amazon Chess.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Alquerque.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Kotu Ellima.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Mogul Putt'han.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Peralikatuma.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Sixteen Soldiers.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Terhuchu.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Tuknanavuhpi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/alquerque/Zamma.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/draughts/Dama.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/draughts/HexDame.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/other/Awithlaknannai.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/other/Four Field Kono.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/other/Gol-skuish.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/leaping/other/Lau Kata Kati.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/four_rows/Bao ki arabu (Zanzibar 1).lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/four_rows/Bao ki arabu (Zanzibar 2).lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/four_rows/Hawalis.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/four_rows/Mefuvha.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/four_rows/Muvalavala B.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Ako okwe.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Dabuda.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Das Bohnenspiel.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/En Gehe.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/English Wari (St. Lucia).lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/French Wari.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Kalah.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Mbangbi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Meusueb.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/mancala/two_rows/Toguz Kumalak.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Atari Go.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Castello.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Fanorona.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Ploy.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Seega.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/other/Surakarta.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/shogi/Hasami Shogi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/shogi/Shogi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/xiangqi/Janggi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Adugo.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Bagh-Chal.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Coyote.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/De Cercar La Liebre.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Demala diviyan keliya.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Fox and Geese.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Ko-app-paw-na.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Komikan.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Leopards and Cows.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Merimueng-rimueng-do.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Pon chochotl.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/Alea Evangelii.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/ArdRi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/Brandub.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/Hnefatafl.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/Tablut.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/chase/tafl/Tawlbwrdd.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/escape/20 Squares.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/escape/Senet.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/fill/Camelot.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/fill/Halma.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/fill/Salta.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/reach/Arimaa.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/reach/Ashtapada.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/reach/BreakThrough.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/reach/Jungle.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/race/reach/KnightThrough.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/blocking/L Game.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/blocking/Susan.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/group/Groups.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/group/Lines of Action.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/group/Manalath.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Achi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Connect6.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Dala.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Dra.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Picaria.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Pushing me XO.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/pattern/Kensington.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/territory/Ataxx.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/territory/Lotus.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/board/space/territory/Reversi.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/mathematical/nim/Nim.lud,Dennis Soemers,20200207-194202
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Dennis Soemers,20200207-194202

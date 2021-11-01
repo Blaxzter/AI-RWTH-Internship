@@ -1,0 +1,954 @@
+A,Common/res/img/svg/misc/pawn3d.svg,Cameron Browne,20200526-213331
+M,Core/src/game/rules/play/moves/decision/Step.java,Cameron Browne,20200526-213331
+M,Common/res/lud/board/race/reach/Santorini.lud,Cameron Browne,20200526-213701
+D,Common/res/lud/test/HamiltonianPath.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/test/SpanningTree.lud,TahminaBegum,20200526-223110
+D,Common/res/lud/test/k-RegularGraphTwoPlayer1.lud,TahminaBegum,20200526-223110
+D,Common/res/lud/wip/OppositeSim.lud,TahminaBegum,20200526-223110
+A,Common/res/lud/wip/PathOrTree.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/RegularGraph1.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/RegularGraph2.lud,TahminaBegum,20200526-223110
+A,Common/res/lud/wip/RegularGraphTwoPlayer1.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/RegularGraphTwoPlayer2.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/k-RegularGraph1.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/k-RegularGraph2.lud,TahminaBegum,20200526-223110
+A,Common/res/lud/wip/k-RegularGraphTwoPlayer1.lud,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer2.lud,TahminaBegum,20200526-223110
+M,Core/src/game/functions/booleans/is/wip/IsGraph.java,TahminaBegum,20200526-223110
+M,Core/src/game/functions/booleans/is/wip/IsRegularGraph.java,TahminaBegum,20200526-223110
+M,Common/res/lud/wip/RegularGraph1.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/RegularGraph2.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/RegularGraphTwoPlayer1.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/RegularGraphTwoPlayer2.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/k-RegularGraph1.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/k-RegularGraph2.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer1.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer2.lud,TahminaBegum,20200526-232351
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200527-084733
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200527-084733
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-084733
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/PathOrTree.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/RegularGraph1.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/RegularGraphTwoPlayer1.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/RegularGraphTwoPlayer2.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/k-RegularGraph2.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer1.lud,eric.piette,20200527-084843
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer2.lud,eric.piette,20200527-084843
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-084843
+M,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200527-090640
+M,Common/res/lud/wip/Senett.lud,eric.piette,20200527-091725
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200527-091725
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200527-091725
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-091725
+M,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200527-095822
+M,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200527-100006
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200527-101528
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200527-101528
+M,Core/src/util/action/move/ActionAdd.java,eric.piette,20200527-101528
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200527-101725
+M,Core/src/metadata/graphics/util/PieceStackType.java,Matthew Stephenson,20200527-102819
+M,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200527-102819
+M,Core/src/metadata/graphics/util/PieceStackType.java,Matthew Stephenson,20200527-103301
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew Stephenson,20200527-103301
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew Stephenson,20200527-115136
+M,Player/src/display/views/PlayerViewUser.java,Matthew Stephenson,20200527-115136
+M,Common/res/lud/wip/Senett.lud,eric.piette,20200527-115220
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200527-115220
+M,Core/src/game/equipment/container/Container.java,eric.piette,20200527-115220
+M,Core/src/game/equipment/container/hand/Deck.java,eric.piette,20200527-115220
+M,Core/src/game/equipment/container/hand/Dice.java,eric.piette,20200527-115220
+M,Core/src/game/equipment/container/hand/Hand.java,eric.piette,20200527-115220
+M,Core/src/game/Game.java,Cameron Browne,20200527-115843
+M,Core/src/game/equipment/Equipment.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/FutoshikiBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/GraphPuzzleBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/HashiBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/LineSegmentBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/PuzzleBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/PuzzleDotBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/RegionPuzzleBoard.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/board/puzzle/package-info.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/hand/Deck.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/hand/Dice.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/hand/Hand.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/hand/package-info.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/other/Deck.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/other/Dice.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/other/Hand.java,Cameron Browne,20200527-115843
+A,Core/src/game/equipment/container/other/package-info.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/PuzzleDotBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Cameron Browne,20200527-115843
+D,Core/src/game/equipment/container/puzzleBoard/package-info.java,Cameron Browne,20200527-115843
+M,Core/src/game/functions/booleans/deductionPuzzle/simple/IsSolved.java,Cameron Browne,20200527-115843
+M,Core/src/game/functions/ints/board/HandSite.java,Cameron Browne,20200527-115843
+M,Core/src/game/functions/ints/count/component/CountPips.java,Cameron Browne,20200527-115843
+M,Core/src/game/functions/region/sites/player/SitesHand.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/decision/Satisfy.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/effect/operators/Deal.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/effect/operators/Roll.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/effect/operators/take/simple/TakeDomino.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/effect/requirement/Do.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/play/moves/foreach/die/ForEachDie.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/start/Deal.java,Cameron Browne,20200527-115843
+M,Core/src/game/rules/start/split/Split.java,Cameron Browne,20200527-115843
+M,Core/src/metadata/ai/heuristics/terms/Material.java,Cameron Browne,20200527-115843
+M,Core/src/util/ContainerId.java,Cameron Browne,20200527-115843
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,Cameron Browne,20200527-115843
+M,Core/src/util/state/State.java,Cameron Browne,20200527-115843
+M,Core/src/util/state/containerState/ContainerStateFactory.java,Cameron Browne,20200527-115843
+M,Core/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20200527-115843
+M,Core/src/util/state/puzzleState/PuzzleStateLarge.java,Cameron Browne,20200527-115843
+M,Graphics/src/view/container/custom/BoardStyle.java,Cameron Browne,20200527-115843
+M,Graphics/src/view/container/custom/board/puzzle/GraphPuzzleStyle.java,Cameron Browne,20200527-115843
+M,Player/src/display/dialogs/PuzzleDialog.java,Cameron Browne,20200527-115843
+M,Player/src/player/utils/gameplay/MoveUtil.java,Cameron Browne,20200527-115843
+M,Player/src/player/utils/graphics/GraphicsCache.java,Cameron Browne,20200527-115843
+M,Core/src/game/equipment/Item.java,Matthew Stephenson,20200527-121724
+M,Core/src/game/equipment/container/other/Deck.java,Matthew Stephenson,20200527-121724
+M,Core/src/game/equipment/container/other/Dice.java,Matthew Stephenson,20200527-121724
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew Stephenson,20200527-121724
+M,Graphics/src/bridge/ViewControllerFactory.java,Matthew Stephenson,20200527-121724
+A,Graphics/src/view/container/custom/DeckStyle.java,Matthew Stephenson,20200527-121724
+A,Graphics/src/view/container/custom/DiceStyle.java,Matthew Stephenson,20200527-121724
+M,Player/src/display/views/PlayerViewUser.java,Matthew Stephenson,20200527-121724
+M,Core/src/game/equipment/container/other/Hand.java,eric.piette,20200527-122915
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200527-123901
+M,Core/src/game/equipment/container/other/Deck.java,eric.piette,20200527-123901
+M,Core/src/game/equipment/container/other/Dice.java,eric.piette,20200527-123901
+M,Player/src/display/dialogs/util/MaxLengthTextDocument.java,Matthew Stephenson,20200527-124003
+M,Player/src/display/dialogs/util/SandboxValueType.java,Matthew Stephenson,20200527-124003
+M,Core/src/game/match/Match.java,Cameron Browne,20200527-124836
+M,Core/src/game/equipment/container/other/Deck.java,eric.piette,20200527-124837
+M,Core/src/game/functions/ints/board/HandSite.java,eric.piette,20200527-125242
+M,Core/src/game/functions/region/sites/player/SitesHand.java,eric.piette,20200527-125242
+M,Common/res/lud/wip/Senett.lud,eric.piette,20200527-131821
+M,Core/src/game/rules/play/moves/effect/operators/Remove.java,eric.piette,20200527-131821
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200527-132146
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200527-132705
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200527-134946
+M,Common/res/lud/wip/Senett.lud,eric.piette,20200527-135057
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200527-135729
+D,Common/res/lud/wip/Senett.lud,eric.piette,20200527-135729
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-135729
+M,Common/res/lud/board/race/reach/Santorini.lud,eric.piette,20200527-135738
+D,Common/res/def_ai/Senet_ai.def,eric.piette,20200527-135857
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200527-135857
+M,Common/res/lud/wip/Lotus.lud,eric.piette,20200527-142620
+A,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200527-143254
+D,Common/res/lud/wip/Lotus.lud,eric.piette,20200527-143254
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-143254
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200527-144154
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-144154
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200527-144647
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200527-145042
+M,Common/src/main/grammar/Description.java,Cameron Browne,20200527-145432
+M,Core/src/language/parser/Expander.java,Cameron Browne,20200527-145432
+M,Core/src/language/parser/Parser.java,Cameron Browne,20200527-145432
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Cameron Browne,20200527-145432
+M,Player/src/display/views/TabView.java,Cameron Browne,20200527-145432
+M,Common/src/main/grammar/Description.java,Cameron Browne,20200527-152159
+A,Common/src/main/grammar/TokenForest.java,Cameron Browne,20200527-152159
+M,Core/src/language/parser/Expander.java,Cameron Browne,20200527-152159
+M,Core/src/language/parser/Parser.java,Cameron Browne,20200527-152159
+M,Evaluation/src/distance/ZhangShasha.java,Cameron Browne,20200527-152159
+M,Player/test/games/TestDistanceMetrics.java,Cameron Browne,20200527-152159
+M,Core/src/language/parser/Expander.java,Cameron Browne,20200527-152410
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200527-153931
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200527-153931
+M,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew Stephenson,20200527-153931
+M,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew Stephenson,20200527-153931
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200527-153931
+A,Player/src/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200527-153931
+M,Common/src/main/grammar/Description.java,Cameron Browne,20200527-154109
+M,Core/src/language/parser/Expander.java,Cameron Browne,20200527-154109
+M,Player/src/display/views/TabView.java,Cameron Browne,20200527-154109
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200527-160140
+M,Player/src/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200527-160140
+M,Core/src/game/Game.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/component/Component.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/Container.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/Board.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/Track.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/modify/Join.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/modify/Remove.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/flat/FlatTiling.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/other/Deck.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/other/Dice.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/container/other/Hand.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/other/Map.java,Cameron Browne,20200527-165509
+M,Core/src/game/equipment/other/Regions.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/all/wip/AllClaimed.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/deductionPuzzle/ForEach.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/AllConnected.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsCrossing.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/integer/IsOnGround.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/path/IsPath.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/target/IsTarget.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsCaterpillerTree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsGraph.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsRegularGraph.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsSpanningTree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/directions/Directions.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/board/Ahead.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/board/CentrePoint.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/board/Coord.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/board/Cost.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/board/Phase.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/connection/Tree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/context/Edge.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/space/CountGroups.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/space/CountLiberties.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/wip/CountDegreeProduct.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/wip/CountLeaves.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/wip/CountNonLeaves.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/count/wip/CountNonLeavesDegree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/size/connection/SizeGroup.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/size/connection/SizeTerritory.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/tile/PathExtent.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/wip/Tree.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/ints/wip/TriangleGroupCount.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/math/Expand.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/coords/SitesCoords.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/index/SitesCell.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/index/SitesEdge.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/index/SitesRow.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/side/SitesSide.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesBoard.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesBottom.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesCentre.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesInner.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesLeft.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesOuterNotCorner.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesRight.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/simple/SitesTop.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Cameron Browne,20200527-165509
+M,Core/src/game/functions/region/wip/BorderSites.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Hop.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Leap.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Satisfy.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Shoot.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Slide.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/decision/Step.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/Attract.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/Custodial.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/DirectionCapture.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/effect/operators/Surrounded.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/play/moves/foreach/direction/ForEachDirection.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Cameron Browne,20200527-165509
+M,Core/src/game/rules/start/set/sites/SetSite.java,Cameron Browne,20200527-165509
+M,Core/src/game/util/equipment/Region.java,Cameron Browne,20200527-165509
+D,Core/src/graph/AxisLabel.java,Cameron Browne,20200527-165509
+D,Core/src/graph/Cell.java,Cameron Browne,20200527-165509
+D,Core/src/graph/Edge.java,Cameron Browne,20200527-165509
+D,Core/src/graph/Graph.java,Cameron Browne,20200527-165509
+D,Core/src/graph/GraphElement.java,Cameron Browne,20200527-165509
+D,Core/src/graph/RCL.java,Cameron Browne,20200527-165509
+D,Core/src/graph/SiteFinder.java,Cameron Browne,20200527-165509
+D,Core/src/graph/Vertex.java,Cameron Browne,20200527-165509
+M,Core/src/metadata/ai/heuristics/terms/LineCompletionHeuristic.java,Cameron Browne,20200527-165509
+A,Core/src/topology/AxisLabel.java,Cameron Browne,20200527-165509
+A,Core/src/topology/Cell.java,Cameron Browne,20200527-165509
+A,Core/src/topology/Edge.java,Cameron Browne,20200527-165509
+A,Core/src/topology/GraphElement.java,Cameron Browne,20200527-165509
+A,Core/src/topology/RCL.java,Cameron Browne,20200527-165509
+A,Core/src/topology/SiteFinder.java,Cameron Browne,20200527-165509
+A,Core/src/topology/Topology.java,Cameron Browne,20200527-165509
+A,Core/src/topology/Vertex.java,Cameron Browne,20200527-165509
+M,Core/src/util/Context.java,Cameron Browne,20200527-165509
+M,Core/src/util/IsLoopAux.java,Cameron Browne,20200527-165509
+M,Core/src/util/UnionFind.java,Cameron Browne,20200527-165509
+M,Core/src/util/UnionFindD.java,Cameron Browne,20200527-165509
+M,Core/src/util/action/BaseAction.java,Cameron Browne,20200527-165509
+M,Core/src/util/state/containerStackingState/ContainerGraphStateStacks.java,Cameron Browne,20200527-165509
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Cameron Browne,20200527-165509
+M,Core/src/util/state/containerState/FlatContainerState.java,Cameron Browne,20200527-165509
+M,Features/src/features/Walk.java,Cameron Browne,20200527-165509
+M,Features/src/features/features/Feature.java,Cameron Browne,20200527-165509
+M,Features/src/features/graph_search/GraphSearch.java,Cameron Browne,20200527-165509
+M,Features/src/features/graph_search/Path.java,Cameron Browne,20200527-165509
+M,Graphics/src/controllers/BaseController.java,Cameron Browne,20200527-165509
+M,Graphics/src/controllers/container/PyramidalController.java,Cameron Browne,20200527-165509
+M,Graphics/src/util/ContainerUtil.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/ContainerStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/BoardStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/HandStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/BoardlessStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/PyramidalStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/SpiralStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/WheelStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/FutoshikiStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/GraphPuzzleStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/PuzzlePenAndPaperStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/AgonStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/BackgammonStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/ChineseCheckersStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/ConnectiveGoalStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/GooseStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/HexStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/HexYStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/HoundsAndJackalsStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/JanggiStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/LascaStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/MancalaStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/PachisiStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/PenAndPaperStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/ScriptaStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/SnakesAndLaddersStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/SurakartaStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/TaflStyle.java,Cameron Browne,20200527-165509
+M,Graphics/src/view/container/custom/board/specific/XiangqiStyle.java,Cameron Browne,20200527-165509
+M,Player/src/display/MainWindow.java,Cameron Browne,20200527-165509
+M,Player/src/display/dialogs/DeveloperDialog.java,Cameron Browne,20200527-165509
+M,Player/src/display/views/OverlayView.java,Cameron Browne,20200527-165509
+M,Player/src/display/views/TabView.java,Cameron Browne,20200527-165509
+M,Player/src/player/Referee.java,Cameron Browne,20200527-165509
+M,Player/src/player/utils/LudiiGameWrapper.java,Cameron Browne,20200527-165509
+M,Player/src/player/utils/gameplay/MoveUtil.java,Cameron Browne,20200527-165509
+M,Player/test/games/pregeneration/TestHexTiling.java,Cameron Browne,20200527-165509
+M,Player/test/games/pregeneration/TestSquareTiling.java,Cameron Browne,20200527-165509
+M,Player/test/games/pregeneration/TestTiling3464.java,Cameron Browne,20200527-165509
+M,Player/test/games/pregeneration/TestTriangleTiling.java,Cameron Browne,20200527-165509
+M,Player/test/games/pregeneration/TestWheelBoard.java,Cameron Browne,20200527-165509
+M,Player/test/games/symmetry/TestCanonicalHashes.java,Cameron Browne,20200527-165509
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200527-165631
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20200527-170547
+M,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew Stephenson,20200527-170547
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200527-170547
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew Stephenson,20200527-170547
+M,Common/res/lud/board/sow/two_rows/Kalah.lud,eric.piette,20200527-171329
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200527-171329
+M,Core/src/game/rules/play/moves/effect/operators/Sow.java,eric.piette,20200527-171329
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-171329
+A,Common/res/lud/wip/Waurie.lud,eric.piette,20200527-175613
+D,Common/res/lud/wishlist/dlp/Waurie.lud,eric.piette,20200527-175613
+D,Common/res/lud/wishlist/dlp/Whyo.lud,eric.piette,20200527-175613
+A,Common/res/lud/wishlist/dlp/mancala/Whyo.lud,eric.piette,20200527-175613
+M,Core/src/game/rules/play/moves/effect/operators/Sow.java,eric.piette,20200527-175613
+M,Core/src/game/rules/play/moves/foreach/player/ForEachPlayer.java,eric.piette,20200527-175613
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200527-180440
+A,Common/res/lud/board/sow/two_rows/Waurie.lud,eric.piette,20200527-180440
+D,Common/res/lud/wip/Waurie.lud,eric.piette,20200527-180440
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200527-180440
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200527-180440
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200527-180440
+M,Common/res/lud/wip/Caterpiller1.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/Caterpiller2.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/PathOrTree.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/SpanningTree1.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/SpanningTree2.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/TOmega.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/TreeWithInternalDegreeSum.lud,TahminaBegum,20200527-194652
+M,Common/res/lud/wip/TreeWithLeaves.lud,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/all/wip/AllClaimed.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/is/wip/IsCaterpillerTree.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/is/wip/IsRegularGraph.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/is/wip/IsSpanningTree.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,TahminaBegum,20200527-194652
+A,Core/src/game/functions/intArray/state/Degrees.java,TahminaBegum,20200527-194652
+A,Core/src/game/functions/intArray/state/GroupSizes.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/ints/count/wip/CountDegreeProduct.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/ints/count/wip/CountLeaves.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/ints/count/wip/CountNonLeaves.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/ints/count/wip/CountNonLeavesDegree.java,TahminaBegum,20200527-194652
+M,Core/src/game/functions/booleans/is/wip/IsCaterpillerTree.java,TahminaBegum,20200527-214507
+M,Core/src/game/functions/intArray/state/Degrees.java,TahminaBegum,20200527-214507
+M,Common/res/lud/wip/RegularGraph1.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/RegularGraph2.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/RegularGraphTwoPlayer1.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/RegularGraphTwoPlayer2.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/k-RegularGraph1.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/k-RegularGraph2.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer1.lud,TahminaBegum,20200527-224337
+M,Common/res/lud/wip/k-RegularGraphTwoPlayer2.lud,TahminaBegum,20200527-224337
+M,Core/src/game/functions/booleans/all/wip/AllClaimed.java,TahminaBegum,20200527-224337
+M,Core/src/game/functions/booleans/is/wip/IsRegularGraph.java,TahminaBegum,20200527-224337
+M,Core/src/game/functions/booleans/is/wip/IsSpanningTree.java,TahminaBegum,20200527-224337
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,TahminaBegum,20200527-224337
+M,Common/res/lud/board/space/line/Spline.lud,eric.piette,20200528-082930
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200528-082930
+M,Core/src/game/functions/booleans/is/IsIntegerType.java,eric.piette,20200528-082930
+A,Core/src/game/functions/booleans/is/integer/IsFlat.java,eric.piette,20200528-082930
+D,Core/src/game/functions/booleans/is/integer/IsOnGround.java,eric.piette,20200528-082930
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-082930
+M,Core/src/game/functions/booleans/all/wip/AllClaimed.java,eric.piette,20200528-083025
+M,Player/src/display/MainWindow.java,Matthew Stephenson,20200528-084924
+A,Common/res/lud/board/sow/two_rows/Vai lung thlan.lud,eric.piette,20200528-085027
+M,Common/res/lud/wip/Caterpiller2.lud,eric.piette,20200528-085027
+D,Common/res/lud/wishlist/dlp/Vai lung thlan.lud,eric.piette,20200528-085027
+D,Common/res/lud/wishlist/dlp/Wa'ache Waledat.lud,eric.piette,20200528-085027
+D,Common/res/lud/wishlist/dlp/Walak-Pussa.lud,eric.piette,20200528-085027
+A,Common/res/lud/wishlist/dlp/mancala/Walak-Pussa.lud,eric.piette,20200528-085027
+A,Common/res/lud/wishlist/dlp/noRule/Wa'ache Waledat.lud,eric.piette,20200528-085027
+M,Core/src/game/rules/play/moves/effect/operators/Sow.java,eric.piette,20200528-085027
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200528-085027
+A,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,eric.piette,20200528-085225
+D,Common/res/lud/board/sow/two_rows/Vai lung thlan.lud,eric.piette,20200528-085225
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-085225
+A,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,eric.piette,20200528-090829
+D,Common/res/lud/wishlist/dlp/Unnee Tugalluulax.lud,eric.piette,20200528-090829
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200528-090920
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200528-090920
+M,Player/src/display/MainWindow.java,Matthew Stephenson,20200528-091056
+M,Core/src/game/Game.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/Equipment.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/Container.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/Board.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/Boardless.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/PyramidalBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/Track.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/modify/Join.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/modify/Remove.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/puzzle/GraphPuzzleBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/puzzle/HashiBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/other/Deck.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/other/Dice.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/container/other/Hand.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/other/Map.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/other/Regions.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/all/wip/AllClaimed.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/deductionPuzzle/ForEach.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/AllConnected.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsCrossing.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsShape.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/deductionPuzzle/simple/IsSolved.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/integer/IsFlat.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/path/IsPath.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/target/IsTarget.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsCaterpillerTree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsGraph.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsRegularGraph.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsSpanningTree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/directions/Directions.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/intArray/state/Degrees.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Ahead.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/CentrePoint.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Column.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Cost.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Layer.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Phase.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/board/Row.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/connection/Tree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/context/Edge.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/simple/CountCells.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/simple/CountColumns.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/simple/CountEdges.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/simple/CountRows.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/simple/CountVertices.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/site/CountOff.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/space/CountGroups.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/wip/CountDegreeProduct.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/wip/CountLeaves.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/wip/CountNonLeaves.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/count/wip/CountNonLeavesDegree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/size/connection/SizeGroup.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/tile/PathExtent.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/wip/Tree.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/ints/wip/TriangleGroupCount.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/math/Expand.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/index/SitesCell.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/index/SitesEdge.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/index/SitesRow.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/side/SitesSide.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesBoard.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesBottom.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesCentre.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesInner.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesLeft.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesOuterNotCorner.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesRight.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/simple/SitesTop.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Cameron Browne,20200528-091337
+M,Core/src/game/functions/region/wip/BorderSites.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Add.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Claim.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/FromTo.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Hop.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Leap.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Satisfy.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Shoot.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Slide.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/decision/Step.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/effect/operators/Attract.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/effect/operators/Custodial.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/effect/operators/DirectionCapture.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/effect/operators/Surrounded.java,Cameron Browne,20200528-091337
+M,Core/src/game/rules/play/moves/foreach/direction/ForEachDirection.java,Cameron Browne,20200528-091337
+M,Core/src/game/util/equipment/Region.java,Cameron Browne,20200528-091337
+M,Core/src/metadata/ai/heuristics/terms/LineCompletionHeuristic.java,Cameron Browne,20200528-091337
+M,Core/src/topology/SiteFinder.java,Cameron Browne,20200528-091337
+M,Core/src/util/Context.java,Cameron Browne,20200528-091337
+M,Core/src/util/IsLoopAux.java,Cameron Browne,20200528-091337
+M,Core/src/util/UnionFind.java,Cameron Browne,20200528-091337
+M,Core/src/util/UnionFindD.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/BaseAction.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/die/ActionSetStateAndUpdateDice.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/graph/ActionSetCost.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/graph/ActionSetPhase.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/hidden/ActionSetInvisible.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/hidden/ActionSetMasked.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/hidden/ActionSetVisible.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionAdd.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionAddN.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionCopy.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionMove.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionMoveAndSetState.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionMoveN.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionPromote.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionRemove.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/move/ActionSelect.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/puzzle/ActionReset.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/puzzle/ActionSet.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/puzzle/ActionToggle.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/state/ActionSetCount.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/state/ActionSetRotation.java,Cameron Browne,20200528-091337
+M,Core/src/util/action/state/ActionSetState.java,Cameron Browne,20200528-091337
+M,Core/src/util/playout/AddToEmpty.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/State.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/containerStackingState/ContainerGraphStateStacks.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/containerState/BaseContainerState.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/containerState/ContainerGraphState.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/containerState/FlatContainerState.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20200528-091337
+M,Core/src/util/state/puzzleState/PuzzleStateLarge.java,Cameron Browne,20200528-091337
+M,Features/src/features/Walk.java,Cameron Browne,20200528-091337
+M,Features/src/features/generation/AtomicFeatureGenerator.java,Cameron Browne,20200528-091337
+M,Features/src/features/generation/FeatureGenerationUtils.java,Cameron Browne,20200528-091337
+M,Graphics/src/controllers/BaseController.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/component/custom/DominoStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/ContainerStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/BoardStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/HandStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/BoardlessStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/PyramidalStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/SpiralStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/WheelStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/FutoshikiStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/GraphPuzzleStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/HashiStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/PuzzlePenAndPaperStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/AgonStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/BackgammonStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/ChineseCheckersStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/ConnectiveGoalStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/GooseStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/HexStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/HexYStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/HoundsAndJackalsStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/JanggiStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/LascaStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/MancalaStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/PachisiStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/PenAndPaperStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/ScriptaStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/ShogiStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/SnakesAndLaddersStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/SurakartaStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/TaflStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/UltimateTicTacToeStyle.java,Cameron Browne,20200528-091337
+M,Graphics/src/view/container/custom/board/specific/XiangqiStyle.java,Cameron Browne,20200528-091337
+M,Player/src/display/MainWindow.java,Cameron Browne,20200528-091337
+M,Player/src/display/dialogs/DeveloperDialog.java,Cameron Browne,20200528-091337
+M,Player/src/display/dialogs/PuzzleDialog.java,Cameron Browne,20200528-091337
+M,Player/src/display/views/OverlayView.java,Cameron Browne,20200528-091337
+M,Player/src/display/views/TabView.java,Cameron Browne,20200528-091337
+M,Player/src/player/Referee.java,Cameron Browne,20200528-091337
+M,Player/src/player/utils/gameplay/MoveUtil.java,Cameron Browne,20200528-091337
+M,Player/src/player/utils/graphics/GUIUtil.java,Cameron Browne,20200528-091337
+M,Player/src/player/utils/graphics/GraphicsCache.java,Cameron Browne,20200528-091337
+M,Player/test/games/GraphSize.java,Cameron Browne,20200528-091337
+M,Player/test/games/pregeneration/TestHexTiling.java,Cameron Browne,20200528-091337
+M,Player/test/games/pregeneration/TestSquareTiling.java,Cameron Browne,20200528-091337
+M,Player/test/games/pregeneration/TestTiling3464.java,Cameron Browne,20200528-091337
+M,Player/test/games/pregeneration/TestTriangleTiling.java,Cameron Browne,20200528-091337
+M,Player/test/games/symmetry/TestCanonicalHashes.java,Cameron Browne,20200528-091337
+M,Player/test/games/symmetry/TestHexSymmetries.java,Cameron Browne,20200528-091337
+M,Player/test/games/symmetry/TestSquareSymmetries.java,Cameron Browne,20200528-091337
+M,Core/src/game/equipment/Equipment.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/Container.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/Board.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/Boardless.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/PyramidalBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/puzzle/GraphPuzzleBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/puzzle/HashiBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/puzzle/PuzzleDotBoard.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/other/Deck.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/other/Dice.java,Cameron Browne,20200528-091851
+M,Core/src/game/equipment/container/other/Hand.java,Cameron Browne,20200528-091851
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Cameron Browne,20200528-091851
+M,Player/test/games/pregeneration/TestHexTiling.java,Cameron Browne,20200528-091851
+M,Player/test/games/pregeneration/TestSquareTiling.java,Cameron Browne,20200528-091851
+M,Player/test/games/pregeneration/TestTiling3464.java,Cameron Browne,20200528-091851
+M,Player/test/games/pregeneration/TestTriangleTiling.java,Cameron Browne,20200528-091851
+M,Player/test/games/pregeneration/TestWheelBoard.java,Cameron Browne,20200528-091851
+M,Player/test/games/symmetry/TestHexSymmetries.java,Cameron Browne,20200528-091851
+M,Player/test/games/symmetry/TestSquareSymmetries.java,Cameron Browne,20200528-091851
+M,Player/src/display/MainWindow.java,Matthew Stephenson,20200528-092705
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200528-094358
+A,Core/src/game/equipment/container/board/graph/Edge.java,Cameron Browne,20200528-094358
+A,Core/src/game/equipment/container/board/graph/Face.java,Cameron Browne,20200528-094358
+A,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-094358
+A,Core/src/game/equipment/container/board/graph/Vertex.java,Cameron Browne,20200528-094358
+A,Core/src/game/equipment/container/board/graph/package-info.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200528-094358
+M,Core/src/game/functions/graph/GraphConstant.java,Cameron Browne,20200528-094358
+M,Core/src/game/functions/graph/GraphFunction.java,Cameron Browne,20200528-094358
+D,Core/src/game/util/graph/Edge.java,Cameron Browne,20200528-094358
+D,Core/src/game/util/graph/Face.java,Cameron Browne,20200528-094358
+D,Core/src/game/util/graph/Graph.java,Cameron Browne,20200528-094358
+D,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200528-094358
+D,Core/src/game/util/graph/package-info.java,Cameron Browne,20200528-094358
+M,Graphics/src/view/component/custom/TileStyle.java,Cameron Browne,20200528-094358
+M,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-094740
+A,Player/src/display/dialogs/AboutDialog.java,Matthew.Stephenson,20200528-103642
+M,Player/src/display/toolButtons/ButtonInfo.java,Matthew.Stephenson,20200528-103642
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200528-103642
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200528-103642
+M,Player/src/display/dialogs/AboutDialog.java,Matthew.Stephenson,20200528-103736
+A,Common/res/lud/board/sow/two_rows/Sungka.lud,eric.piette,20200528-110405
+M,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Sungka.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/T'shu P'u.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tab.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tammam.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Taptana.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tawula.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tchela.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/The concentration game.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tiyang keui.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tobi-shogi.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Totolospi (Arizona).lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Totolospi.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tourne-case.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Trictrac.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tsun k'i.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tugi-epfe.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Tuz.lud,eric.piette,20200528-110405
+D,Common/res/lud/wishlist/dlp/Um el banat.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/mancala/Tchela.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/mancala/The concentration game.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/mancala/Um el banat.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/T'shu P'u.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tab.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tammam.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Taptana.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tawula.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tiyang keui.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tobi-shogi.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Totolospi (Arizona).lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Totolospi.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tourne-case.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Trictrac.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tsun k'i.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tugi-epfe.lud,eric.piette,20200528-110405
+A,Common/res/lud/wishlist/dlp/noRule/Tuz.lud,eric.piette,20200528-110405
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-110405
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200528-110415
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200528-110415
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Matthew.Stephenson,20200528-110810
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200528-110810
+M,Core/src/game/equipment/component/Die.java,Matthew.Stephenson,20200528-110810
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200528-110810
+M,Graphics/src/view/component/custom/DieStyle.java,Matthew.Stephenson,20200528-110810
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200528-111255
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,eric.piette,20200528-111325
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-111325
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200528-111645
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200528-112253
+M,Common/res/lud/test/eric/Vote.lud,eric.piette,20200528-112437
+M,Common/res/lud/test/eric/Vote.lud,Matthew.Stephenson,20200528-114037
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200528-114037
+M,Player/src/display/dialogs/util/DialogUtil.java,Matthew.Stephenson,20200528-114037
+A,Common/res/img/svg/misc/oldMan.svg,Matthew.Stephenson,20200528-114400
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200528-114400
+A,Common/res/img/svg/misc/boy.svg,Matthew.Stephenson,20200528-114856
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200528-114856
+A,Common/res/img/svg/misc/nativeAmerican.svg,Matthew.Stephenson,20200528-115102
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200528-115102
+D,Common/res/img/svg/misc/nativeAmerican.svg,Matthew.Stephenson,20200528-115214
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200528-115227
+M,Core/src/game/equipment/container/board/graph/Edge.java,Cameron Browne,20200528-120325
+M,Core/src/game/equipment/container/board/graph/Face.java,Cameron Browne,20200528-120325
+M,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-120325
+M,Core/src/game/equipment/container/board/graph/Vertex.java,Cameron Browne,20200528-120325
+M,Core/src/language/compiler/ArgTerminal.java,Cameron Browne,20200528-120325
+M,Graphics/src/view/component/BaseComponentStyle.java,Cameron Browne,20200528-120325
+M,Player/src/player/utils/loading/LoadingUtil.java,Matthew.Stephenson,20200528-121519
+D,Player/src/player/utils/LudiiGameWrapper.java,Dennis Soemers,20200528-122354
+D,Player/src/player/utils/LudiiStateWrapper.java,Dennis Soemers,20200528-122354
+A,Player/src/player/utils/supplementary/LudiiGameWrapper.java,Dennis Soemers,20200528-122354
+A,Player/src/player/utils/supplementary/LudiiStateWrapper.java,Dennis Soemers,20200528-122354
+M,Player/test/tensors/TestStateMoveTensors.java,Dennis Soemers,20200528-122354
+M,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-122616
+M,Core/src/game/functions/graph/GraphFunction.java,Cameron Browne,20200528-122616
+M,Core/src/topology/Edge.java,Cameron Browne,20200528-124054
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,eric.piette,20200528-124352
+M,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,eric.piette,20200528-124352
+A,Common/res/lud/board/war/chess/Saxun.lud,eric.piette,20200528-124352
+D,Common/res/lud/wishlist/dlp/Aleut Chess.lud,eric.piette,20200528-124352
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200528-124352
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-124352
+M,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-124859
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200528-125632
+M,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Matthew.Stephenson,20200528-130149
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200528-130351
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200528-131012
+A,Common/res/lud/test/TCenter.lud,TahminaBegum,20200528-131057
+D,Common/res/lud/test/k-RegularGraphTwoPlayer1.lud,TahminaBegum,20200528-131057
+M,Core/src/game/functions/booleans/is/wip/IsSpanningTree.java,TahminaBegum,20200528-131057
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200528-131057
+M,Core/src/game/functions/booleans/is/wip/IsTreeCenter.java,TahminaBegum,20200528-131449
+M,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew.Stephenson,20200528-132021
+D,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew.Stephenson,20200528-132040
+A,Player/src/display/dialogs/SVGViewerDialog.java,Matthew.Stephenson,20200528-132040
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200528-132040
+A,Common/res/lud/board/sow/two_rows/Alitev.lud,eric.piette,20200528-132056
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,eric.piette,20200528-132056
+M,Common/res/lud/board/sow/two_rows/Waurie.lud,eric.piette,20200528-132056
+M,Common/res/lud/test/TCenter.lud,eric.piette,20200528-132056
+D,Common/res/lud/wishlist/dlp/Alitev.lud,eric.piette,20200528-132056
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-132056
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200528-132109
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200528-132337
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20200528-132337
+M,Player/src/display/dialogs/SVGViewerDialog.java,Matthew.Stephenson,20200528-132337
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200528-132337
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200528-132337
+M,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-132603
+M,Player/src/display/dialogs/SVGViewerDialog.java,Matthew.Stephenson,20200528-133824
+A,Common/res/lud/wip/Ad elta stelpur.lud,eric.piette,20200528-140316
+D,Common/res/lud/wishlist/dlp/Andada.lud,eric.piette,20200528-140316
+D,Common/res/lud/wishlist/dlp/Ao elta stelpur.lud,eric.piette,20200528-140316
+A,Common/res/lud/wishlist/dlp/mancala/Andada.lud,eric.piette,20200528-140316
+M,Common/res/lud/board/race/escape/Backgammon.lud,eric.piette,20200528-141148
+M,Common/res/lud/wip/Ad elta stelpur.lud,eric.piette,20200528-141148
+M,Player/src/display/dialogs/SVGViewerDialog.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonInfo.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonSettings.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200528-141755
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200528-142428
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200528-143859
+M,Player/src/display/views/BoardView.java,Matthew.Stephenson,20200528-143859
+M,Player/src/display/views/View.java,Matthew.Stephenson,20200528-143859
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200528-144244
+M,Common/res/lud/wip/Ad elta stelpur.lud,eric.piette,20200528-144413
+M,Core/src/game/functions/booleans/all/AllDiceUsed.java,eric.piette,20200528-144413
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200528-145813
+M,Player/src/display/views/TabViewPage.java,Matthew.Stephenson,20200528-145813
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200528-151739
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200528-151804
+M,Common/res/lud/wip/Ad elta stelpur.lud,eric.piette,20200528-151844
+M,Core/src/game/functions/ints/trackSite/TrackSite.java,eric.piette,20200528-151844
+D,Core/src/game/functions/ints/trackSite/move/TrackMoveTo.java,eric.piette,20200528-151844
+A,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,eric.piette,20200528-151844
+D,Core/src/game/functions/ints/trackSite/position/EndOfTrack.java,eric.piette,20200528-151844
+A,Core/src/game/functions/ints/trackSite/position/TrackSiteEndTrack.java,eric.piette,20200528-151844
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200528-151844
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200528-152519
+D,Core/src/game/equipment/container/board/graph/Edge.java,Cameron Browne,20200528-152519
+D,Core/src/game/equipment/container/board/graph/Face.java,Cameron Browne,20200528-152519
+D,Core/src/game/equipment/container/board/graph/Graph.java,Cameron Browne,20200528-152519
+D,Core/src/game/equipment/container/board/graph/Vertex.java,Cameron Browne,20200528-152519
+D,Core/src/game/equipment/container/board/graph/package-info.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200528-152519
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200528-152519
+M,Core/src/game/functions/graph/BaseGraphFunction.java,Cameron Browne,20200528-152519
+M,Core/src/game/functions/graph/GraphConstant.java,Cameron Browne,20200528-152519
+M,Core/src/game/functions/graph/GraphFunction.java,Cameron Browne,20200528-152519
+A,Core/src/game/functions/graph/shape/Rectangle.java,Cameron Browne,20200528-152519
+A,Core/src/game/functions/graph/shape/Shape.java,Cameron Browne,20200528-152519
+A,Core/src/game/functions/graph/shape/package-info.java,Cameron Browne,20200528-152519
+A,Core/src/game/types/board/TilingType.java,Cameron Browne,20200528-152519
+A,Core/src/game/util/graph/Edge.java,Cameron Browne,20200528-152519
+A,Core/src/game/util/graph/Face.java,Cameron Browne,20200528-152519
+A,Core/src/game/util/graph/Graph.java,Cameron Browne,20200528-152519
+A,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200528-152519
+A,Core/src/game/util/graph/package-info.java,Cameron Browne,20200528-152519
+M,Graphics/src/view/component/custom/TileStyle.java,Cameron Browne,20200528-152519
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200528-152631
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200528-160638
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200528-160638
+M,Player/src/display/views/PlayerViewShared.java,Matthew.Stephenson,20200528-160638
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200528-160638
+M,Player/src/display/views/View.java,Matthew.Stephenson,20200528-160638
+M,Player/src/display/views/View.java,Matthew.Stephenson,20200528-160710
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200528-161858
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200528-162134
+A,Common/res/lud/wip/Connect Four (new).lud,Cameron Browne,20200528-163020
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20200528-163020
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-163020
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-163020
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200528-163020
+M,Core/src/game/functions/graph/BaseGraphFunction.java,Cameron Browne,20200528-163020
+M,Core/src/game/functions/graph/GraphConstant.java,Cameron Browne,20200528-163020
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200528-163020
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200528-164528
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200528-164528
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200528-164528
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200528-164528
+M,Common/res/lud/wip/Ad elta stelpur.lud,eric.piette,20200528-165359
+M,Core/src/game/rules/play/moves/effect/operators/Roll.java,eric.piette,20200528-165359
+M,Core/src/game/rules/play/moves/foreach/ForEach.java,eric.piette,20200528-165359
+M,Core/src/game/rules/play/moves/foreach/die/ForEachDie.java,eric.piette,20200528-165359
+A,Common/res/lud/test/Graph Test A.lud,Cameron Browne,20200528-165707
+D,Common/res/lud/wip/Connect Four (new).lud,Cameron Browne,20200528-165707
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-165707
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-165707
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200528-165707
+M,Core/src/game/functions/graph/shape/Rectangle.java,Cameron Browne,20200528-165707
+M,Graphics/src/view/container/BaseContainerStyle.java,Cameron Browne,20200528-165707
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,Cameron Browne,20200528-165707
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200528-165755
+M,Common/res/lud/test/Graph Test A.lud,Cameron Browne,20200528-171652
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200528-171652
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-171652
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200528-171652
+A,Common/res/lud/test/16 Players.lud,eric.piette,20200528-173226
+M,Player/src/display/views/PlayerView.java,Matthew.Stephenson,20200528-175900
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200528-175900
+M,Player/src/display/views/View.java,Matthew.Stephenson,20200528-175900
+M,Core/src/game/functions/booleans/is/Is.java,Cameron Browne,20200528-180347
+D,Core/src/game/functions/graph/shape/Rectangle.java,Cameron Browne,20200528-180347
+M,Core/src/game/functions/graph/shape/Shape.java,Cameron Browne,20200528-180347
+A,Core/src/game/functions/graph/shape/rectangle/Rectangle.java,Cameron Browne,20200528-180347
+A,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200528-180347
+A,Core/src/game/functions/graph/shape/rectangle/package-info.java,Cameron Browne,20200528-180347
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200528-180625
+A,Common/res/lud/test/Graph Test B.lud,Cameron Browne,20200528-192742
+A,Common/res/lud/test/Sim Test Floats.lud,Cameron Browne,20200528-192742
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200528-200729
+A,Core/src/game/functions/graph/operators/Rotate.java,Cameron Browne,20200528-200729
+M,Core/src/game/functions/graph/shape/rectangle/Rectangle.java,Cameron Browne,20200528-200729
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200528-200729
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200528-200729
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200528-200729

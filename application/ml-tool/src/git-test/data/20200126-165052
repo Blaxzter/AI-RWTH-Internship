@@ -1,0 +1,80 @@
+M,Core/src/game/equipment/container/board/ShibumiBoard.java,Matthew.Stephenson,20200124-161728
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200124-164806
+M,Player/test/games/TestTrialSerialization.java,Dennis Soemers,20200124-164806
+D,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,Matthew.Stephenson,20200124-165038
+A,Core/src/game/equipment/container/puzzleBoard/PuzzleDotBoard.java,Matthew.Stephenson,20200124-165038
+M,Core/src/game/Game.java,Dennis Soemers,20200124-171551
+M,Core/src/game/playout/CheckMovePlayout.java,Dennis Soemers,20200124-171551
+M,Core/src/util/Trial.java,Dennis Soemers,20200124-171551
+M,Core/src/game/Game.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/play/moves/CheckMove.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/play/moves/NotSameState.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/Deal.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/Fill.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/FogOfWar.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/InitAmount.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/InitScore.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/Place.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/PlaceRandomly.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/Set.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/SetCount.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/SetPhase.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/SetTeam.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/SplitDeck.java,Dennis Soemers,20200124-174730
+M,Core/src/game/rules/start/Start.java,Dennis Soemers,20200124-174730
+M,Core/src/util/Move.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/Action.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionAdd.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionAddN.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionAmount.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionChangeRotation.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionChangeState.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionHidden.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionMove.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionMoveN.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionMoveRemove.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionMoveRotation.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionMoveState.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionNoop.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionPass.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionPending.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionPromote.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionReset.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionScore.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSelect.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSet.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSetCount.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSetCounter.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSetPhase.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSetTemp.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionState.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionStoreState.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionSwap.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionTeam.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionToggle.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/ActionUseDie.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/Checkmate.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/Remove.java,Dennis Soemers,20200124-174730
+M,Core/src/util/action/SetNextPlayer.java,Dennis Soemers,20200124-174730
+M,Common/res/lud/puzzle/deduction/Nawabari.lud,Dennis Soemers,20200124-175708
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,Dennis Soemers,20200124-175708
+M,Common/res/lud/puzzle/deduction/Nawabari.lud,eric.piette,20200124-180022
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,eric.piette,20200124-180022
+M,Core/src/game/functions/booleans/CanMove.java,Dennis Soemers,20200124-201909
+M,Core/src/game/rules/play/moves/Or.java,Dennis Soemers,20200124-201909
+M,Core/src/game/rules/play/moves/CheckMove.java,Dennis Soemers,20200125-145945
+M,Core/src/game/rules/play/moves/If.java,Dennis Soemers,20200125-145945
+M,Core/src/game/rules/play/moves/Or.java,Dennis Soemers,20200125-145945
+M,Core/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20200125-161133
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200125-164616
+M,Player/src/player/Referee.java,eric.piette,20200126-113858
+M,Player/src/player/Referee.java,eric.piette,20200126-114631
+M,AI/src/utils/AIFactory.java,Dennis Soemers,20200126-130033
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200126-130033
+M,Core/src/graph/Vertex.java,Cameron Browne,20200126-151305
+M,Common/res/lud/wip/Example.lud,TahminaBegum,20200126-165052
+M,Core/src/game/functions/booleans/IsLoop.java,TahminaBegum,20200126-165052
+M,Core/src/game/functions/ints/Freedom.java,TahminaBegum,20200126-165052
+M,Core/src/game/rules/play/moves/Enclosed.java,TahminaBegum,20200126-165052
+M,Core/src/util/UnionInfo.java,TahminaBegum,20200126-165052
+M,Core/src/util/UnionInfoD.java,TahminaBegum,20200126-165052

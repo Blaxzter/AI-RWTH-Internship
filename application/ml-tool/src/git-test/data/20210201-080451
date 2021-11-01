@@ -1,0 +1,207 @@
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_expdeltavalweighting.py,Dennis Soemers,20210129-095213
+M,Manager/src/manager/Referee.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/BaseApp.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/views/tabs/TabView.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonOther.java,Matthew Stephenson,20210129-095928
+M,PlayerDesktop/src/app/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20210129-101251
+M,Manager/src/manager/Referee.java,Matthew Stephenson,20210129-102309
+A,Common/res/lud/board/space/connection/Unlur.lud,Eric.Piette,20210129-104808
+D,Common/res/lud/wip/Unlur.lud,Eric.Piette,20210129-104808
+M,Core/src/game/functions/booleans/all/simple/AllDiceEqual.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/all/simple/AllDiceUsed.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/all/simple/AllPassed.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/all/sites/AllSites.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/can/CanMove.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/is/graph/IsUnique.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/deductionPuzzle/is/simple/IsSolved.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHidden.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenCount.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenRotation.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenState.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenValue.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWhat.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWho.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/component/IsWithin.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/edge/IsCrossing.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/graph/IsLastFrom.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/graph/IsLastTo.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/in/IsIn.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsEven.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsFlat.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsOdd.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/integer/IsVisited.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/path/IsPath.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/intArray/IntArrayFunction.java,Eric.Piette,20210129-121358
+M,Core/src/game/functions/region/RegionFunction.java,Eric.Piette,20210129-121358
+M,PlayerDesktop/src/app/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20210129-122655
+M,Core/src/game/functions/booleans/is/player/IsActive.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/player/IsEnemy.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/player/IsFriend.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/player/IsMover.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/player/IsNext.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/player/IsPrev.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/regularGraph/IsRegularGraph.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/repeat/IsRepeat.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/simple/IsCycle.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/simple/IsFull.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/simple/IsPending.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/site/IsEmpty.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/site/IsOccupied.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/string/IsDecided.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/string/IsProposed.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/target/IsTarget.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/tree/IsCaterpillarTree.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/tree/IsSpanningTree.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/tree/IsTree.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/tree/IsTreeCentre.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/triggered/IsTriggered.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/wip/IsPlanarGraph.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/is/wip/IsPlanarGraph2.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/And.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Ge.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Gt.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/If.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Le.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Lt.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Not.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/NotEqual.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Or.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/math/Xor.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/no/NoMoves.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/booleans/was/WasPass.java,Eric.Piette,20210129-125924
+M,Core/src/game/functions/intArray/math/Difference.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/intArray/math/Results.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/intArray/state/Rotations.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/intArray/state/wip/Degrees.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/intArray/values/ValuesRemembered.java,Eric.Piette,20210129-131033
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Dennis Soemers,20210129-133439
+M,Core/src/game/functions/ints/board/Ahead.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/CentrePoint.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Column.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Coord.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Cost.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/HandSite.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Id.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Layer.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/MapEntry.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Phase.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/RegionSite.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/Row.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/where/WhereLevel.java,Eric.Piette,20210129-133628
+M,Core/src/game/functions/ints/board/where/WhereSite.java,Eric.Piette,20210129-133628
+M,Evaluation/src/metrics/Evaluation.java,Matthew Stephenson,20210129-135747
+A,Evaluation/src/metrics/quality/ScoreDifference.java,Matthew Stephenson,20210129-135747
+A,Evaluation/src/metrics/quality/StateRepetition.java,Matthew Stephenson,20210129-135747
+M,Evaluation/src/metrics/Evaluation.java,Matthew Stephenson,20210129-141427
+A,Evaluation/src/metrics/quality/MoveDistance.java,Matthew Stephenson,20210129-141427
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/card/simple/CardTrumpSuit.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/card/site/CardRank.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/card/site/CardSuit.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/card/site/CardTrumpRank.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/card/site/CardTrumpValue.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/component/CountPieces.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/component/CountPips.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountActive.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountCells.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountColumns.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountEdges.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountMoves.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountMovesThisTurn.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountPhases.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountPlayers.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountRows.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountTrials.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountTurns.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/simple/CountVertices.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountOff.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/site/CountSites.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Eric.Piette,20210129-141443
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20210129-141443
+M,Core/src/util/state/State.java,Dennis Soemers,20210129-142315
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20210129-153631
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20210129-153631
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20210129-153631
+A,AI/src/search/mcts/playout/MAST.java,Dennis Soemers,20210129-153631
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20210129-153631
+M,AI/src/utils/LudiiStateWrapper.java,Dennis Soemers,20210129-153631
+M,Core/src/game/API.java,Dennis Soemers,20210129-153631
+M,Core/src/game/Game.java,Dennis Soemers,20210129-153631
+M,Core/src/game/match/Match.java,Dennis Soemers,20210129-153631
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20210129-153631
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20210129-153631
+M,Core/src/util/model/SimulationMove.java,Dennis Soemers,20210129-153631
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20210129-153631
+M,Core/src/util/playout/AddToEmpty.java,Dennis Soemers,20210129-153631
+M,Core/src/util/playout/FilterPlayout.java,Dennis Soemers,20210129-153631
+M,Core/src/util/playout/NoRepetitionPlayout.java,Dennis Soemers,20210129-153631
+M,Core/src/util/playout/Playout.java,Dennis Soemers,20210129-153631
+M,Distance/src/common/DistanceUtils.java,Dennis Soemers,20210129-153631
+M,Evaluation/src/analysis/Complexity.java,Dennis Soemers,20210129-153631
+M,Generation/src/approaches/random/Generator.java,Dennis Soemers,20210129-153631
+M,Manager/src/manager/Referee.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/src/app/display/util/Thumbnails.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesSet.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/src/supplementary/experiments/eval/EvalGate.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/src/supplementary/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/EfficiencyTest.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/ErrorHandlingTests.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/OnePlayoutByGameTest.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/SanityChecks.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/TestCustomPlayouts.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/TestParallelPlayouts.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/TestTrialSerialization.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/options/OnePlayoutPerGameTestWithOptions.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/games/options/TestParallelPlayoutsWithOptions.java,Dennis Soemers,20210129-153631
+M,PlayerDesktop/test/travis/TravisTest.java,Dennis Soemers,20210129-153631
+M,Evaluation/src/metrics/quality/BoardCoverage.java,Matthew Stephenson,20210129-222616
+M,Manager/src/manager/PlayerInterface.java,Matthew Stephenson,20210129-222616
+M,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20210129-222616
+M,PlayerDesktop/src/app/DesktopApp.java,Matthew Stephenson,20210129-222616
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Matthew Stephenson,20210129-222616
+M,PlayerDesktop/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20210129-222616
+M,Evaluation/src/metrics/quality/PieceNumberChange.java,Matthew Stephenson,20210129-224240
+M,PlayerDesktop/src/app/utils/AIDesktop.java,Matthew Stephenson,20210129-224240
+A,Mining/scripts/Sklearn/DataVisualisation/SQL to get ludemeId list for each ruleset,Matthew Stephenson,20210130-141222
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210130-141222
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210130-141222
+M,Mining/src/utils/ExportGameCategories.java,Matthew Stephenson,20210130-141222
+M,Mining/res/concepts/output/LudiiGameCategories.csv,Matthew Stephenson,20210130-141233
+A,Mining/res/ludemeplexDetection/output/rulesetLudemesMining.csv,Matthew Stephenson,20210130-141233
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210130-141233
+D,Mining/scripts/Sklearn/DataVisualisation/test.csv,Matthew Stephenson,20210130-141233
+D,Mining/scripts/Sklearn/DataVisualisation/test2.csv,Matthew Stephenson,20210130-141233
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemes.csv,Matthew Stephenson,20210201-080451
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210201-080451
+M,Mining/res/ludemeplexDetection/output/rulesetLudemeplexes.csv,Matthew Stephenson,20210201-080451
+A,Mining/res/ludemeplexDetection/output/rulesetLudemeplexesMining.csv,Matthew Stephenson,20210201-080451
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210201-080451
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210201-080451
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210201-080451

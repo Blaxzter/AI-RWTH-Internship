@@ -1,0 +1,560 @@
+M,Library/src/game/functions/ints/Edge.java,eric.piette,20191003-103214
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,Cameron Browne,20191003-110231
+M,Common/res/lud/board/displace/chesslike/Stratego.lud,Cameron Browne,20191003-110231
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Around.java,Cameron Browne,20191003-110231
+D,Library/src/game/functions/region/Belong.java,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Column.java,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Corners.java,Cameron Browne,20191003-110231
+A,Library/src/game/functions/region/Has.java,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Left.java,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Outer.java,Cameron Browne,20191003-110231
+D,Library/src/game/functions/region/OwnBy.java,Cameron Browne,20191003-110231
+A,Library/src/game/functions/region/OwnedBy.java,Cameron Browne,20191003-110231
+M,Library/src/game/functions/region/Row.java,Cameron Browne,20191003-110231
+M,Library/src/graph/Vertex.java,Cameron Browne,20191003-110231
+M,Library/src/util/Region.java,Cameron Browne,20191003-110231
+M,Common/res/lud/mathematical/graph/Dots and Boxes.lud,eric.piette,20191003-115244
+M,Library/src/game/functions/ints/Edge.java,eric.piette,20191003-122105
+M,Common/res/lud/puzzle/deduction/Nawabari.lud,eric.piette,20191003-122122
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,eric.piette,20191003-122308
+D,Library/src/game/functions/region/EdgesOfFace.java,eric.piette,20191003-122308
+M,Common/res/lud/puzzle/deduction/Squaro.lud,eric.piette,20191003-122508
+D,Library/src/game/functions/region/VerticesOfFace.java,eric.piette,20191003-122508
+D,Library/src/game/functions/region/FacesOfEdge.java,eric.piette,20191003-122548
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,eric.piette,20191003-122715
+D,Library/src/game/functions/region/EdgesOfVertex.java,eric.piette,20191003-122715
+M,Common/res/lud/board/race/reach/BreakThrough.lud,eric.piette,20191003-124844
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20191003-131713
+M,Library/src/graph/Graph.java,eric.piette,20191003-131713
+M,Common/res/lud/board/displace/leaping/Brazilian Draughts.lud,eric.piette,20191003-134133
+M,Common/res/lud/board/displace/leaping/Canadian Draughts.lud,eric.piette,20191003-134133
+M,Common/res/lud/board/displace/leaping/English Draughts.lud,eric.piette,20191003-134133
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,eric.piette,20191003-134133
+M,Common/res/lud/board/displace/leaping/Konane.lud,eric.piette,20191003-134133
+M,Common/res/lud/board/displace/leaping/Lasca.lud,eric.piette,20191003-134133
+M,Library/src/game/functions/region/Bottom.java,eric.piette,20191003-134133
+M,Library/src/game/functions/region/Phase.java,eric.piette,20191003-134133
+M,Library/src/game/functions/region/Top.java,eric.piette,20191003-134133
+M,Library/src/game/functions/region/Phase.java,eric.piette,20191003-134200
+M,Library/src/ui/Controller.java,eric.piette,20191003-134536
+M,Library/src/ui/GameController.java,eric.piette,20191003-134536
+M,Library/src/game/functions/region/Around.java,eric.piette,20191003-135440
+M,Library/src/util/Region.java,eric.piette,20191003-135440
+M,Library/src/game/functions/region/Around.java,eric.piette,20191003-135519
+M,Common/res/lud/board/race/reach/BreakThrough.lud,eric.piette,20191003-142411
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20191003-142411
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20191003-142411
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20191003-142411
+M,Library/src/game/functions/region/Expand.java,eric.piette,20191003-142411
+M,Library/src/game/functions/region/Set.java,eric.piette,20191003-142411
+M,Library/src/util/Region.java,eric.piette,20191003-142411
+M,Common/res/lud/puzzle/deduction/Bricks.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Futoshiki.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Hashi.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Inshi no Heya.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Juosan.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Kakuro.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Killer Sudoku.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Nawabari.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Squaro.lud,Cameron Browne,20191003-142747
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/other/Hint.java,Cameron Browne,20191003-142747
+A,Library/src/game/functions/other/Range.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/other/SetVar.java,Cameron Browne,20191003-142747
+D,Library/src/game/functions/other/Values.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/AllSites.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Around.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/BaseRegionFunction.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Corners.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Empty.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Expand.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Left.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/OccupiedBy.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Phase.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/RegionConstant.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Right.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Set.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Top.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Used.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/WinningSites.java,Cameron Browne,20191003-142747
+M,Library/src/game/functions/region/Phase.java,eric.piette,20191003-143516
+M,Library/src/game/functions/region/Set.java,eric.piette,20191003-143516
+M,Common/res/lud/board/displace/mancala/Aw-li On-nam Ot-tjin.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/displace/mancala/Das Bohnenspiel.lud,Cameron Browne,20191003-160225
+M,"Common/res/lud/board/displace/mancala/En Geh\303\251.lud",Cameron Browne,20191003-160225
+M,Common/res/lud/board/displace/mancala/Hawalis.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/displace/mancala/Kalah.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/displace/mancala/Oware.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/race/track/Royal Game of Ur.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/race/track/Senet.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/board/race/track/Snakes and Ladders.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Cameron Browne,20191003-160225
+M,Common/res/lud/puzzle/others/Tower of Hanoi.lud,Cameron Browne,20191003-160225
+M,Library/.classpath,Cameron Browne,20191003-160225
+M,Library/src/game/Game.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Abs.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Add.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/Edge.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/ForwardOnTrack.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/From.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/Hand.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/Height.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/If.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Max.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Min.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Mod.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Mult.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/Score.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/SetVar.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Sub.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Sum.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/SumDice.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/To.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/ints/Top.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/TopLevel.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/Var.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/ints/What.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Abs.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Add.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/If.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Max.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Min.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Mod.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Mul.java,Cameron Browne,20191003-160225
+A,Library/src/game/functions/ints/maths/Sub.java,Cameron Browne,20191003-160225
+D,Library/src/game/functions/other/SetVar.java,Cameron Browne,20191003-160225
+M,Library/src/game/functions/region/OccupiedBy.java,Cameron Browne,20191003-160225
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Cameron Browne,20191003-160225
+M,Library/src/ui/GameView.java,Cameron Browne,20191003-160225
+M,Library/src/util/action/ActionAdd.java,Cameron Browne,20191003-160225
+M,Library/src/util/action/ActionAddN.java,Cameron Browne,20191003-160225
+M,Library/src/util/action/ActionMove.java,Cameron Browne,20191003-160225
+M,Library/src/util/action/Remove.java,Cameron Browne,20191003-160225
+M,Library/src/util/state/containerState/ContainerStateFactory.java,Cameron Browne,20191003-160225
+M,Player/src/mainView/MainView.java,Cameron Browne,20191003-160225
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20191003-160225
+M,Common/res/lud/board/chase/hunt/Coyote  (without removing the capturing pieces only after a capture move).lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/chase/hunt/De cercar la liebre (without removing the capturing pieces only after a capture move).lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/chase/hunt/Ko-app-paw-na (without removing the capturing pieces only after a capture move).lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/chase/hunt/Pon chochotl (without removing the capturing pieces only after a capture move).lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/chesslike/Chess.lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/chesslike/Chex (with ChessBoard).lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/chesslike/Half Chess.lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Cameron Browne,20191003-172507
+M,Common/res/lud/board/displace/elimination/Fanorona.lud,Cameron Browne,20191003-172507
+M,Common/res/lud/wip/Tron (Real-time).lud,Cameron Browne,20191003-172507
+M,Library/.classpath,Cameron Browne,20191003-172507
+A,Library/src/game/functions/ints/Ahead.java,Cameron Browne,20191003-172507
+D,Library/src/game/functions/ints/Center.java,Cameron Browne,20191003-172507
+A,Library/src/game/functions/ints/Centre.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/ColumnOf.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Count.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Counter.java,Cameron Browne,20191003-172507
+D,Library/src/game/functions/ints/DirectionSite.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Height.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Hint.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/IndexOf.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Level.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Map.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Mover.java,Cameron Browne,20191003-172507
+A,Library/src/game/functions/ints/PieceAt.java,Cameron Browne,20191003-172507
+D,Library/src/game/functions/ints/PosPiece.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Previous.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/ReplayCount.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/RowOf.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Size.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/State.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/Value.java,Cameron Browne,20191003-172507
+M,Library/src/game/functions/ints/maths/Mod.java,Cameron Browne,20191003-172507
+M,Player/src/mainView/MainView.java,Cameron Browne,20191003-172507
+A,Library/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/ArimaaBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/BackgammonBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/CardBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/ChessBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/Connect4Board.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/HalmaBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/HexBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/HexYBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/MorrisBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/PeralikatumaBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/ReversiBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/SenetBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/ShogiBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/SnakesAndLaddersBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/SolitaireBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/StrategoBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/SurakartaBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/TaflBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/UrBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/WheelBoard.java,Cameron Browne,20191003-172642
+A,Library/src/game/equipment/container/board/custom/XiangqiBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/AlquerqueBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/ArimaaBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/BackgammonBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/CardBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/ChessBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/ChineseCheckersBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/Connect4Board.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/HalmaBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/HexBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/HexYBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/MancalaBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/MorrisBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/PeralikatumaBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/ReversiBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/SenetBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/ShogiBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/SnakesAndLaddersBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/SolitaireBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/StrategoBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/SurakartaBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/TaflBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/UrBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/WheelBoard.java,Cameron Browne,20191003-172642
+D,Library/src/game/equipment/container/board/gui/XiangqiBoard.java,Cameron Browne,20191003-172642
+M,Player/src/mainView/MainView.java,Cameron Browne,20191003-172642
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20191003-172642
+D,Library/src/game/functions/ints/Centre.java,Cameron Browne,20191003-172658
+D,Library/src/game/functions/ints/Double.java,Cameron Browne,20191003-172658
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20191004-001737
+M,Grammar/src/generator/PackageInfo.java,Cameron Browne,20191004-001737
+M,Common/res/lud/wip/Havannah.lud,Tahmina,20191004-100058
+M,Library/src/game/functions/booleans/IsConnect.java,Tahmina,20191004-100058
+M,Library/src/game/functions/booleans/Ring.java,Tahmina,20191004-100058
+M,Library/src/util/UnionInfo.java,Tahmina,20191004-100058
+M,Library/src/util/state/containerState/BaseContainerState.java,Tahmina,20191004-100058
+M,Library/src/game/functions/region/Expand.java,eric.piette,20191004-102725
+M,Library/src/util/Region.java,eric.piette,20191004-102725
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20191004-103609
+M,Library/src/game/functions/region/Around.java,eric.piette,20191004-103631
+M,Library/src/game/functions/ints/State.java,eric.piette,20191004-103653
+M,Library/src/game/functions/booleans/Le.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/BaseIntFunction.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Edge.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Hand.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Height.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/IndexOf.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/IntConstant.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/LastEdgeMove.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/LastFromMove.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/LastToMove.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Score.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/TopLevel.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Value.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Var.java,eric.piette,20191004-104042
+M,Library/src/game/functions/ints/Who.java,eric.piette,20191004-104042
+M,Library/src/game/functions/region/AllSites.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Around.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/BorderRegion.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Bottom.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Centre.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Column.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Corners.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Difference.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Empty.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Expand.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Hand.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Has.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/HintRegion.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/If.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/InDirection.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Inner.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Left.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/OccupiedBy.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Outer.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/OwnedBy.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Phase.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Playable.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/RegionConstant.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Right.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Row.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Set.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Side.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/SitesOfState.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Top.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Union.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Used.java,eric.piette,20191004-104511
+M,Library/src/game/functions/region/Walk.java,eric.piette,20191004-104511
+M,Library/src/game/functions/booleans/Ring.java,eric.piette,20191004-104622
+M,AI/src/search/flat/FlatMonteCarlo.java,eric.piette,20191004-104810
+M,AI/src/search/flat/FlatMonteCarloRT.java,eric.piette,20191004-104810
+M,AI/src/search/mcts/MCTS.java,eric.piette,20191004-104810
+M,AI/src/utils/AIUtils.java,eric.piette,20191004-104810
+M,Library/src/game/Game.java,eric.piette,20191004-104810
+M,Library/src/game/equipment/container/board/Boardless.java,eric.piette,20191004-104810
+M,Library/src/game/equipment/container/board/custom/SnakesAndLaddersBoard.java,eric.piette,20191004-104810
+M,Library/src/game/equipment/container/board/custom/StrategoBoard.java,eric.piette,20191004-104810
+M,Library/src/game/functions/booleans/Ge.java,eric.piette,20191004-104810
+M,Library/src/game/functions/booleans/Gt.java,eric.piette,20191004-104810
+M,Library/src/game/functions/booleans/Le.java,eric.piette,20191004-104810
+M,Library/src/game/functions/booleans/Lt.java,eric.piette,20191004-104810
+M,Library/src/game/rules/start/Place.java,eric.piette,20191004-104810
+M,Library/src/ui/GameView.java,eric.piette,20191004-104810
+M,Library/src/util/Context.java,eric.piette,20191004-104810
+M,Library/src/util/state/containerState/ContainerStateFactory.java,eric.piette,20191004-104810
+M,Player/src/mainView/MainView.java,eric.piette,20191004-104810
+M,Player/src/player/PlayerApp.java,eric.piette,20191004-104810
+M,Library/src/game/functions/booleans/Le.java,eric.piette,20191004-105305
+M,Library/src/game/functions/booleans/And.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/BooleanConstant.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/CanMove.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Connect.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Contains.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Encircle.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Equal.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Even.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Full.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Ge.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Group.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Gt.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/If.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/In.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsCheckmate.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsConnect.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsEnemy.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsFriend.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsFriendAt.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsMover.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsNext.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsPiece.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsPrev.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/IsState.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Know.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Line.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Lt.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Not.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Odd.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Or.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Ring.java,eric.piette,20191004-105857
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20191004-105857
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/And.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Equal.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Even.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Ge.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Gt.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Le.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Lt.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Not.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Odd.java,eric.piette,20191004-110123
+D,Library/src/game/functions/booleans/Or.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/And.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Equal.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Even.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Ge.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Gt.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Le.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Lt.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Not.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Odd.java,eric.piette,20191004-110123
+A,Library/src/game/functions/booleans/math/Or.java,eric.piette,20191004-110123
+M,Library/src/game/functions/booleans/math/And.java,eric.piette,20191004-110314
+M,Library/src/game/functions/booleans/math/Le.java,eric.piette,20191004-110314
+M,Library/src/game/functions/booleans/math/Equal.java,eric.piette,20191004-110516
+M,Library/src/game/functions/booleans/math/Even.java,eric.piette,20191004-112222
+M,Library/src/game/functions/booleans/math/Ge.java,eric.piette,20191004-112347
+M,Library/src/game/functions/booleans/math/Ge.java,eric.piette,20191004-112517
+M,Library/src/game/functions/booleans/math/Gt.java,eric.piette,20191004-112517
+M,Library/src/game/functions/booleans/math/Ge.java,eric.piette,20191004-112726
+M,Library/src/game/functions/booleans/math/Gt.java,eric.piette,20191004-112726
+M,Library/src/game/functions/booleans/math/Lt.java,eric.piette,20191004-112726
+M,Library/src/game/functions/booleans/math/Not.java,eric.piette,20191004-112846
+M,Library/src/game/functions/booleans/math/Odd.java,eric.piette,20191004-112938
+M,Library/src/game/functions/booleans/math/And.java,eric.piette,20191004-113154
+M,Library/src/game/functions/booleans/math/Or.java,eric.piette,20191004-113154
+D,Library/src/game/functions/booleans/Contains.java,eric.piette,20191004-113411
+M,Library/src/game/functions/booleans/Full.java,eric.piette,20191004-113641
+M,Library/src/game/functions/booleans/If.java,eric.piette,20191004-114013
+M,Library/src/game/functions/booleans/IsFriend.java,eric.piette,20191004-115825
+M,Library/src/game/rules/play/moves/Flanked.java,eric.piette,20191004-115825
+M,Library/src/game/rules/play/moves/Surrounded.java,eric.piette,20191004-115825
+M,Library/src/game/functions/booleans/IsFriendAt.java,eric.piette,20191004-120037
+M,Library/src/game/functions/booleans/IsState.java,eric.piette,20191004-120336
+M,Library/src/game/functions/booleans/IsEnemy.java,eric.piette,20191004-120506
+M,Library/src/game/functions/booleans/Know.java,eric.piette,20191004-120903
+M,Library/src/game/rules/play/moves/CaptureByApproach.java,eric.piette,20191004-120903
+M,Library/src/game/rules/play/moves/CaptureByWithdraw.java,eric.piette,20191004-120903
+M,Library/src/game/rules/play/moves/Flanked.java,eric.piette,20191004-120903
+M,Library/src/game/rules/play/moves/Surrounded.java,eric.piette,20191004-120903
+M,Library/src/game/functions/booleans/IsPiece.java,eric.piette,20191004-121426
+M,Library/src/game/functions/booleans/Know.java,eric.piette,20191004-121426
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191004-131142
+M,Library/src/game/functions/booleans/Adjacent.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/AllPass.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/BaseBooleanFunction.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/CanMove.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/Group.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/If.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/In.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsCheckmate.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsEnemy.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsFriend.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsFriendAt.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsMover.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsNext.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsPending.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsPiece.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsPrev.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/IsState.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/Visited.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/And.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Equal.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Even.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Ge.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Gt.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Le.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Lt.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Not.java,Cameron Browne,20191004-132107
+M,Library/src/game/functions/booleans/math/Odd.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Abs.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Add.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/If.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Max.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Min.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Mod.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Mul.java,Cameron Browne,20191004-132107
+A,Library/src/game/functions/ints/math/Sub.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Abs.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Add.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/If.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Max.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Min.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Mod.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Mul.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/ints/maths/Sub.java,Cameron Browne,20191004-132107
+D,Library/src/game/functions/booleans/Double.java,Cameron Browne,20191004-132122
+M,Common/res/lud/board/displace/chesslike/Arimaa.lud,eric.piette,20191004-133809
+M,Library/src/game/functions/ints/PieceAt.java,eric.piette,20191004-133809
+M,Player/src/mainView/MainView.java,eric.piette,20191004-133809
+M,Library/src/game/functions/booleans/Group.java,eric.piette,20191004-134025
+M,Library/src/game/functions/booleans/In.java,eric.piette,20191004-134025
+M,Library/src/game/functions/booleans/In.java,eric.piette,20191004-134657
+M,Library/src/game/functions/booleans/Stalemated.java,eric.piette,20191004-134847
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20191004-135649
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20191004-140142
+M,Player/src/mainView/MainView.java,eric.piette,20191004-140142
+M,Library/src/game/functions/booleans/Line.java,eric.piette,20191004-140458
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20191004-141402
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/Count.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20191004-141546
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20191004-142311
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20191004-142615
+M,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,eric.piette,20191004-142615
+M,Library/src/game/functions/booleans/puzzleConstraints/Count.java,eric.piette,20191004-142954
+M,Library/src/game/functions/booleans/puzzleConstraints/Crossing.java,eric.piette,20191004-143219
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,eric.piette,20191004-143652
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20191004-143832
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,eric.piette,20191004-144331
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,eric.piette,20191004-144748
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20191004-144828
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20191004-145140
+M,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,eric.piette,20191004-145235
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Cameron Browne,20191004-154346
+M,Common/res/lud/board/race/fill/Halma.lud,Cameron Browne,20191004-154346
+M,Common/res/lud/puzzle/others/Insanity.lud,Cameron Browne,20191004-154346
+M,Common/res/lud/puzzle/others/N Puzzles.lud,Cameron Browne,20191004-154346
+M,Common/res/lud/puzzle/others/Tower of Hanoi.lud,Cameron Browne,20191004-154346
+D,Library/src/game/functions/booleans/Configuration.java,Cameron Browne,20191004-154346
+A,Library/src/game/functions/booleans/Goal.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/In.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/IsPiece.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/IsState.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/Know.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/ReachedRegion.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/Stalemated.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/Threatened.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,Cameron Browne,20191004-154346
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,Cameron Browne,20191004-154403
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,Cameron Browne,20191004-154403
+M,Library/.classpath,Cameron Browne,20191004-174311
+M,Library/src/game/Game.java,Cameron Browne,20191004-174311
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Cameron Browne,20191004-174311
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/booleans/puzzleConstraints/Count.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/ints/Hand.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/region/Around.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/region/Empty.java,Cameron Browne,20191004-174311
+M,Library/src/game/functions/region/OccupiedBy.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/Rule.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/Rules.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/end/ByScore.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/end/End.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/end/Result.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/play/moves/SetOwner.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/play/moves/decision/Constraints.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/play/moves/decision/To.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Deal.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Fill.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/FogOfWar.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Hints.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/InitScore.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/PlaceRandomly.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Set.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/SetCount.java,Cameron Browne,20191004-174311
+M,Library/src/game/rules/start/Start.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/CaptureType.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/EdgeType.java,Cameron Browne,20191004-174311
+D,Library/src/game/types/KnownRegionSetType.java,Cameron Browne,20191004-174311
+D,Library/src/game/types/MarginType.java,Cameron Browne,20191004-174311
+A,Library/src/game/types/PuzzleVariableType.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/RegionTypeDynamic.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/RoleType.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/ShapeType.java,Cameron Browne,20191004-174311
+D,Library/src/game/types/SiteCounter.java,Cameron Browne,20191004-174311
+M,Library/src/game/types/StepType.java,Cameron Browne,20191004-174311
+D,Library/src/game/types/VariableType.java,Cameron Browne,20191004-174311
+M,Library/src/graph/Graph.java,Cameron Browne,20191004-174311
+M,Library/src/util/Context.java,Cameron Browne,20191004-174311
+M,Library/src/util/Move.java,Cameron Browne,20191004-174311
+M,Library/src/util/action/ActionAdd.java,Cameron Browne,20191004-174311
+M,Library/src/util/action/ActionReset.java,Cameron Browne,20191004-174311
+M,Library/src/util/action/ActionSet.java,Cameron Browne,20191004-174311
+M,Library/src/util/action/ActionToggle.java,Cameron Browne,20191004-174311
+M,Library/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Cameron Browne,20191004-174311
+M,Library/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20191004-174311
+M,Library/src/util/state/puzzleState/PuzzleStateLarge.java,Cameron Browne,20191004-174311
+M,Player/src/mainView/MainView.java,Cameron Browne,20191004-174311
+M,Player/src/mainView/dialog/PuzzleDialog.java,Cameron Browne,20191004-174311
+M,Player/src/player/Referee.java,Cameron Browne,20191004-174311
+M,AI/src/utils/ExItExperience.java,Dennis Soemers,20191005-215633
+A,AI/src/utils/ExponentialMovingAverage.java,Dennis Soemers,20191005-215633
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191005-215633

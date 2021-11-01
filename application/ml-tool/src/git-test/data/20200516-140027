@@ -1,0 +1,778 @@
+M,Player/src/player/utils/AIMenuName.java,Dennis Soemers,20200514-125808
+M,Player/src/player/utils/GUIUtil.java,Dennis Soemers,20200514-125808
+M,Core/src/game/Game.java,eric.piette,20200514-130718
+M,Core/src/game/types/state/GameType.java,eric.piette,20200514-130718
+A,Core/src/game/rules/play/moves/effect/Note.java,eric.piette,20200514-132330
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200514-134045
+M,Core/src/util/state/State.java,eric.piette,20200514-134045
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-134550
+M,Core/src/game/rules/play/moves/effect/Note.java,eric.piette,20200514-134550
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200514-134550
+M,Core/src/util/Move.java,eric.piette,20200514-134711
+M,Core/src/util/action/others/ActionNote.java,eric.piette,20200514-134913
+M,Player/src/player/utils/GUIUtil.java,Dennis Soemers,20200514-135807
+M,Core/src/game/Game.java,eric.piette,20200514-135932
+M,Core/src/util/state/State.java,eric.piette,20200514-135932
+A,Common/res/lud/test/TreeWithLeaves.lud,TahminaBegum,20200514-141945
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,TahminaBegum,20200514-141945
+M,Core/src/game/functions/ints/connection/Tree.java,TahminaBegum,20200514-141945
+M,Core/src/game/functions/booleans/is/wip/IsGraph.java,TahminaBegum,20200514-142041
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-143030
+M,Core/src/game/rules/play/moves/effect/Note.java,eric.piette,20200514-143030
+M,Core/src/util/state/State.java,eric.piette,20200514-143030
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-152915
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200514-152915
+M,Core/src/game/functions/region/sites/SitesPlayerType.java,eric.piette,20200514-152915
+M,Core/src/game/functions/region/sites/player/SitesHand.java,eric.piette,20200514-152915
+A,Core/src/game/functions/region/sites/player/SitesInvisible.java,eric.piette,20200514-152915
+A,Core/src/game/functions/region/sites/player/SitesMasked.java,eric.piette,20200514-152915
+A,Core/src/game/functions/region/sites/player/SitesVisible.java,eric.piette,20200514-152915
+M,Core/src/game/rules/play/moves/effect/Note.java,eric.piette,20200514-152915
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-154456
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,eric.piette,20200514-154456
+M,Common/res/lud/test/NeutralGT.lud,eric.piette,20200514-160200
+A,Common/res/lud/test/NoteTest.lud,eric.piette,20200514-160200
+M,Common/res/lud/test/TreeWithLeaves.lud,eric.piette,20200514-160200
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-160200
+M,Grammar/src/grammar/Grammar.java,Dennis Soemers,20200514-162033
+M,LudiiDocGen/out/tex/LudiiLanguageReference.tex,Dennis Soemers,20200514-162033
+A,Player/src/player/utils/PrintLudiiLstDefineLanguage.java,Dennis Soemers,20200514-162033
+A,Common/res/lud/test/parser/TestParserBadQuotes.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserMissingBracesPairA.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserMissingBracesPairB.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserMissingBracesPairC.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserMissingBracketsPairA.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserMissingBracketsPairB.lud,Cameron Browne,20200514-162337
+A,Common/res/lud/test/parser/TestParserWrongArgs.lud,Cameron Browne,20200514-162337
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200514-162337
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200514-162337
+A,Player/test/games/TestParser.java,Cameron Browne,20200514-162337
+D,Common/res/lud/test/parser/TestParserBadBracketsA.lud,Cameron Browne,20200514-162938
+D,Common/res/lud/test/parser/TestParserBadBracketsB.lud,Cameron Browne,20200514-162938
+D,Common/res/lud/test/parser/TestParserBadBracketsC.lud,Cameron Browne,20200514-162938
+D,Common/res/lud/test/parser/TestParserBadBracketsD.lud,Cameron Browne,20200514-162938
+D,Common/res/lud/test/parser/TestParserBadBracketsE.lud,Cameron Browne,20200514-162938
+D,Common/res/lud/test/parser/TestParserTooWrongArgs.lud,Cameron Browne,20200514-162938
+M,Player/test/games/TestParser.java,Cameron Browne,20200514-162938
+M,Core/src/game/Game.java,eric.piette,20200514-163455
+M,Core/src/game/equipment/container/board/Boardless.java,eric.piette,20200514-163455
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200514-163455
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,eric.piette,20200514-163455
+M,Core/src/game/equipment/container/board/modify/Remove.java,eric.piette,20200514-163455
+M,Core/src/game/equipment/container/board/shape/Cross.java,eric.piette,20200514-163455
+M,Core/src/game/rules/phase/NextPhase.java,eric.piette,20200514-163455
+M,Core/src/game/rules/phase/Phase.java,eric.piette,20200514-163455
+M,Core/src/game/rules/start/Place.java,eric.piette,20200514-163455
+M,Core/src/game/rules/start/PlaceRandom.java,eric.piette,20200514-163455
+M,Core/src/game/rules/start/set/SetStartPlayerType.java,eric.piette,20200514-163455
+M,Core/src/game/rules/start/set/package-info.java,eric.piette,20200514-163455
+M,LudiiDocGen/out/tex/LudiiLanguageReference.tex,Dennis Soemers,20200514-164646
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200514-165333
+M,Common/res/lud/test/NoteTest.lud,eric.piette,20200514-170716
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200514-170716
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,eric.piette,20200514-170716
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200514-170716
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200514-172329
+M,Core/src/game/functions/booleans/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/directions/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/floats/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/graph/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/intArray/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/ints/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/range/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/functions/region/package-info.java,Cameron Browne,20200514-173143
+M,Core/src/game/rules/play/moves/decision/Add.java,eric.piette,20200514-173323
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200514-173323
+M,Player/src/player/utils/PrintLudiiLstDefineLanguage.java,Dennis Soemers,20200514-175358
+M,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200514-175616
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20200514-180444
+D,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Cameron Browne,20200514-180557
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Cameron Browne,20200514-180557
+M,Common/res/lud/board/space/blocking/L Game.lud,Cameron Browne,20200514-180557
+M,Common/res/lud/mathematical/graph/Wagner.lud,Cameron Browne,20200514-180557
+A,Common/res/lud/wip/English Wari (St. Lucia).lud,Cameron Browne,20200514-180557
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200514-180557
+M,Player/test/games/CompilationTest.java,Cameron Browne,20200514-180557
+M,Core/src/util/action/others/ActionNote.java,Dennis Soemers,20200514-181048
+M,Core/src/util/action/others/ActionPropose.java,Dennis Soemers,20200514-181155
+M,Core/src/util/action/others/ActionVote.java,Dennis Soemers,20200514-181155
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20200514-181627
+M,Common/res/lud/wip/English Wari (St. Lucia).lud,eric.piette,20200514-181824
+A,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,eric.piette,20200514-182232
+D,Common/res/lud/wip/English Wari (St. Lucia).lud,eric.piette,20200514-182232
+A,Common/res/lud/test/parser/TestParserBadBracketInComment.lud,Cameron Browne,20200514-183922
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200514-183922
+M,Grammar/src/parser/Expander.java,Cameron Browne,20200514-183922
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200514-183922
+M,Core/src/game/functions/ints/connection/Tree.java,Cameron Browne,20200514-191622
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200514-191622
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200514-191622
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Cameron Browne,20200514-191622
+M,Player/src/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200514-191622
+M,Player/src/display/dialogs/editor/SuggestionList.java,Cameron Browne,20200514-191622
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200514-191622
+M,Player/test/games/TestParser.java,Cameron Browne,20200514-191622
+D,Common/res/lud/test/Caterpiller1.lud,TahminaBegum,20200514-203329
+A,Common/res/lud/test/CaterpillerTwoplayers.lud,TahminaBegum,20200514-203329
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200514-203329
+D,Common/res/lud/test/TreeWithLeaves.lud,TahminaBegum,20200514-203329
+D,Common/res/lud/test/caterpiller.lud,TahminaBegum,20200514-203329
+A,Common/res/lud/wip/TreeWithDegreeProduct.lud,TahminaBegum,20200514-203329
+A,Common/res/lud/wip/TreeWithInternalDegreeSum.lud,TahminaBegum,20200514-203329
+A,Common/res/lud/wip/TreeWithLeaves.lud,TahminaBegum,20200514-203329
+M,Core/src/game/functions/ints/connection/Tree.java,TahminaBegum,20200514-203329
+M,Core/src/game/functions/ints/connection/Tree.java,TahminaBegum,20200514-203523
+M,Core/src/game/rules/play/moves/decision/Leap.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/decision/Slide.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/effect/operators/Sow.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/effect/requirement/AvoidStoredState.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/effect/requirement/Priority.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/generator/ByPiece.java,eric.piette,20200515-082833
+M,Core/src/game/rules/play/moves/generator/ForEachDie.java,eric.piette,20200515-082833
+M,Core/src/game/functions/booleans/all/AllType.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/deductionPuzzle/is/IsPuzzleSimpleType.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/is/IsIntegerType.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/is/IsRelationType.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/is/wip/IsTree.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/And.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/Equals.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/Ge.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/Gt.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/If.java,eric.piette,20200515-083636
+M,Core/src/game/functions/booleans/math/Or.java,eric.piette,20200515-083636
+M,Common/res/lud/test/Tic-Tac-Thirty-Two.lud,eric.piette,20200515-084749
+M,Core/src/game/functions/booleans/no/No.java,eric.piette,20200515-090250
+M,Core/src/game/functions/intArray/math/Difference.java,eric.piette,20200515-090250
+M,Core/src/game/functions/intArray/state/Rotations.java,eric.piette,20200515-090250
+M,Core/src/game/functions/intArray/state/package-info.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/board/Id.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/board/PhaseOf.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/cards/Rank.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/cards/Suit.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/cards/TrumpRank.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/cards/TrumpValue.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/connection/GroupProduct.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/Between.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/Edge.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/From.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/Hint.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/Level.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/To.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/context/Var.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/count/Count.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/state/PendingValue.java,eric.piette,20200515-090250
+M,Core/src/game/functions/ints/state/Value.java,eric.piette,20200515-090250
+M,Core/src/game/functions/directions/Directions.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/board/Around.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/board/OccupiedBy.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/board/SitesInDirection.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/filter/ForEach.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/math/Difference.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/math/If.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/math/Intersection.java,eric.piette,20200515-091029
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200515-091029
+M,Core/src/game/types/board/EdgeType.java,eric.piette,20200515-091429
+M,Core/src/game/types/board/PuzzleElementType.java,eric.piette,20200515-091429
+M,Core/src/game/util/directions/AbsoluteDirection.java,eric.piette,20200515-091429
+M,Core/src/game/util/directions/RelativeDirection.java,eric.piette,20200515-091429
+M,Core/src/game/util/graph/package-info.java,eric.piette,20200515-091429
+M,Core/src/game/util/moves/From.java,eric.piette,20200515-091429
+M,Core/src/game/util/moves/To.java,eric.piette,20200515-091429
+M,Graphics/src/util/ContainerUtil.java,Matthew.Stephenson,20200515-092246
+M,Core/src/metadata/graphics/component/ComponentStyle.java,eric.piette,20200515-092629
+M,Core/src/metadata/graphics/component/PieceColour.java,eric.piette,20200515-092629
+M,Core/src/metadata/graphics/container/DrawSymbol.java,eric.piette,20200515-092629
+M,Core/src/metadata/graphics/game/ShowCheck.java,eric.piette,20200515-092629
+M,Core/src/metadata/graphics/util/EdgeType.java,eric.piette,20200515-092629
+M,Core/src/metadata/graphics/util/colour/UserColourType.java,eric.piette,20200515-092629
+M,Core/src/metadata/info/Info.java,eric.piette,20200515-092629
+M,Core/src/metadata/info/database/Date.java,eric.piette,20200515-092629
+M,Graphics/src/view/container/custom/board/specific/MancalaStyle.java,Matthew.Stephenson,20200515-093106
+M,Player/src/player/Referee.java,Dennis Soemers,20200515-110603
+M,Core/src/game/rules/meta/NoRepeat.java,Dennis Soemers,20200515-112817
+M,Evaluation/src/analysis/Complexity.java,Dennis Soemers,20200515-112817
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200515-112817
+M,Player/src/player/MainMenuFunctions.java,Dennis Soemers,20200515-112817
+M,Player/src/player/utils/EvalUtil.java,Dennis Soemers,20200515-112817
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200515-113337
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200515-113337
+M,Core/src/metadata/ai/package-info.java,Dennis Soemers,20200515-114435
+M,Core/src/metadata/ai/features/Features.java,Dennis Soemers,20200515-114600
+A,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200515-115032
+D,Common/res/lud/wip/Phantom Go.lud,eric.piette,20200515-115032
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200515-115032
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200515-115049
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200515-115049
+M,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200515-120009
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200515-131647
+M,Core/src/game/functions/booleans/is/Is.java,eric.piette,20200515-131933
+A,Core/src/game/functions/booleans/is/IsSiteType.java,eric.piette,20200515-131933
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,eric.piette,20200515-131933
+A,Core/src/game/functions/booleans/is/site/IsEmpty.java,eric.piette,20200515-131933
+A,Core/src/game/functions/booleans/is/site/IsOccupied.java,eric.piette,20200515-131933
+M,Player/src/display/views/TabView.java,eric.piette,20200515-132754
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200515-133809
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200515-133809
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200515-133809
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200515-133809
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200515-133809
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew.Stephenson,20200515-135034
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200515-135034
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200515-135034
+M,Core/src/game/functions/ints/count/space/CountLiberties.java,eric.piette,20200515-140244
+M,Common/res/lud/test/parser/TestParserBadPieceNameC.lud,Cameron Browne,20200515-144647
+A,Common/res/lud/test/parser/TestParserPhaseOkay.lud,Cameron Browne,20200515-144647
+A,Common/res/lud/test/parser/TestParserWrongToken.lud,Cameron Browne,20200515-144647
+M,Common/src/main/StringRoutines.java,Cameron Browne,20200515-144647
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200515-144647
+A,Player/test/games/ParseAllLud.java,Cameron Browne,20200515-144647
+M,Player/test/games/TestParser.java,Cameron Browne,20200515-144647
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew.Stephenson,20200515-144936
+M,Common/res/lud/board/war/other/Surakarta.lud,Matthew.Stephenson,20200515-144936
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200515-144936
+D,Core/src/metadata/graphics/game/HideScore.java,Matthew.Stephenson,20200515-144936
+A,Core/src/metadata/graphics/game/ShowScore.java,Matthew.Stephenson,20200515-144936
+A,Core/src/metadata/graphics/util/ShowScoreType.java,Matthew.Stephenson,20200515-144936
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200515-144936
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew.Stephenson,20200515-145102
+M,Core/src/metadata/graphics/util/ShowScoreType.java,Matthew.Stephenson,20200515-145102
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200515-145102
+M,Graphics/src/view/container/custom/board/specific/PenAndPaperStyle.java,Matthew.Stephenson,20200515-145755
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200515-150632
+M,Core/src/metadata/info/Info.java,eric.piette,20200515-154122
+A,Player/test/games/TestEmptyInfo.java,eric.piette,20200515-154122
+M,Player/test/games/TestEmptyInfo.java,eric.piette,20200515-154739
+M,Common/res/lud/board/hunt/Adugo.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Baghchal.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Coyote.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Go with the Floe.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Haretavl.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Kaooa.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Komikan.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Pon Chochotl.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/20 Squares.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/58 Holes.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/Backgammon.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/Fevga.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/Plakoto.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/Senet.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/escape/XII Scripta.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/Camelot.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/Halma.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/fill/Salta.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Arimaa.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Ashtapada.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Breakthrough.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Jungle.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Knightthrough.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Pachisi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Hawalis.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Mefuvha.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Muvalavala B.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Bosh.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Dabuda.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/French Wari.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Kalah.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Kara.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Mbangbi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Oware.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Woli.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Wore.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/sow/two_rows/Yovodji.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Amazons.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/L Game.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Madelinette.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/NoGo.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Pong Hau K'i.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Quantum Leap.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Susan.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/blocking/Tron.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Chameleon.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Cross.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Four-Player Hex.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Gonnect.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Havannah.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Hex.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Trax.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/connection/Y (Hex).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Groups.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Lines of Action.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Manalath.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Odd.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/group/Omega.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Achi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Andantino.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Connect 4.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Connect6.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Dala.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Dra.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Gomoku.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Pentalath.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Round Merels.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Shisima.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Spline.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Squava.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Symbol S.2.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Tant Fant.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Tic-Tac-Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Tic-Tac-Four.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Yavalade.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Yavalanchor.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/line/Yavalath.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/pattern/Kensington.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/territory/Ataxx.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/territory/Go.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/space/territory/Reversi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Chex.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Double Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Half Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Awithlaknannai.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Felli.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Konane.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Atari Go.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Castello.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Clobber.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Fanorona.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/L'attaque.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Mehen.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Ploy.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Press Ups.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Seega.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Surakarta.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/other/Triad.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/shogi/Minishogi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/shogi/Shogi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/ArdRi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/Brandub.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/Tablut.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/card/War.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/Contagion.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/DisPath.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/Dots and Boxes.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/MaxMatch.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/Sim.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/Two-colour.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/Wagner.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/puzzle/Hamiltonian Maze.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/graph/puzzle/Icosian.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/hand/Morra.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/hand/Rock-Paper-Scissors.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/mathematical/nim/Nim.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/proprietary/Stratego.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/deduction/N Queens.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Insanity.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/N Puzzles.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/CaterpillerTwoplayers.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/NoteTest.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/Tic-Tac-Thirty-Two.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserBadBracketInComment.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserBadQuotes.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserMissingBracesPairA.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserMissingBracesPairB.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserMissingBracesPairC.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserMissingBracketsPairA.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserMissingBracketsPairB.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/test/parser/TestParserWrongArgs.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/wip/TreeWithDegreeProduct.lud,Matthew.Stephenson,20200515-155247
+M,Common/res/lud/wip/TreeWithInternalDegreeSum.lud,Matthew.Stephenson,20200515-155247
+M,MetadataScripts/AddMetadata.py,Matthew.Stephenson,20200515-155247
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200515-160225
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200515-161525
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew.Stephenson,20200515-161525
+M,Graphics/src/bridge/ViewControllerFactory.java,Matthew.Stephenson,20200515-161525
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200515-164010
+M,AI/src/utils/AIFactory.java,Dennis Soemers,20200515-170950
+M,Player/src/player/utils/AIMenuName.java,Dennis Soemers,20200515-170950
+M,Common/src/main/Constants.java,Dennis Soemers,20200515-171136
+A,Common/res/def_ai/Muvalavala (Luena)_ai.def,eric.piette,20200515-172846
+D,Common/res/def_ai/Muvalavala B_ai.def,eric.piette,20200515-172846
+A,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,eric.piette,20200515-172846
+D,Common/res/lud/board/sow/four_rows/Muvalavala B.lud,eric.piette,20200515-172846
+D,Common/res/lud/test/BugCountDim.lud,eric.piette,20200515-172846
+D,Common/res/lud/test/NeutralGT.lud,eric.piette,20200515-172846
+D,Common/res/lud/test/Tic-Tac-Chess Bug.lud,eric.piette,20200515-172846
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200515-172846
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/board/war/other/Clobber.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/DisPath.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/MaxMatch.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/Sim.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/Two-colour.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/Wagner.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/puzzle/Hamiltonian Maze.lud,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/mathematical/graph/puzzle/Icosian.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/20 Squares.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/58 Holes.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Abalala'e.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Achi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Adugo.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ako Okwe.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Alea Evangelii.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/All Queens Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Alquerque.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Amazon Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Amazons.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Andantino.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/ArdRi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Arimaa.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ashtapada.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Atari Go.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ataxx.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Aw-li On-nam Ot-tjin.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Awithlaknannai.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Backgammon.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Baghchal.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Block.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Blue Nile.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Boseog Gonu.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Bosh.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Brandub.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Brazilian Draughts.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Breakthrough.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Camelot.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Canadian Draughts.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Capture the Queen.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Castello.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Cercar La Liebre.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chameleon.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chaturaji.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chaturanga.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chess Puzzle.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chex.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chinese Checkers.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Chopsticks.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Clobber.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Connect 4.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Connect6.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Conspirateurs.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Contagion.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Coyote.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Cross.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dabuda.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dai Hasami Shogi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dala.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dama.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Das Bohnenspiel.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dash Guti.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Demala Diviyan Keliya.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dice Shogi.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/DisPath.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Diviyan Keliya.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dots and Boxes.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Double Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Dra.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Egara Guti.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/EinStein Wurfelt Nicht.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/En Gehe.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/English Draughts.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/English Wari (St. Lucia).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Fanorona.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Feed the Ducks.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Felli.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Fevga.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Five Men's Morris.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Four-Player Hex.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Fox and Geese.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/French Military Game.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/French Wari.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Game of Solomon.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Go with the Floe.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Go.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Gol Ekuish.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Gomoku.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Gonnect.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Grasshopper.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Groups.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Gyan Chaupar.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Half Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Halma.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Halusa.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Hamiltonian Maze.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Haretavl.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hasami Shogi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hat Diviyan Keliya.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Havannah.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hawalis.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hewakam Keliya.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hex.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/HexDame.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hnefatafl.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ho-Bag Gonu.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Horde Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Icosian.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Insanity.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/International Draughts.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ja-Jeon-Geo-Gonu.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Janggi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Jungle.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kalah.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kaooa.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kara.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kensington.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kharbaga.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Knight's Tour.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Knightthrough.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ko-app-paw-na.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Komikan.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Konane.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Kotu Ellima.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/L Game.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/L'attaque.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Lasca.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Latin Square.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Lau Kata Kati.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Lines of Action.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Loop Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Los Alamos Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ludus Latrunculorum.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Madelinette.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Magic Hexagon.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Magic Square.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Maharajah Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Manalath.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mangala (Turkey).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Manzhouqi.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/MaxMatch.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mbangbi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mefuvha.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mehen.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Merimueng-rimueng-do.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Meusueb.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Minishogi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mogul Putt'han.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Morra.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Mu Torere.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Muvalavala B.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/N Puzzles.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/N Queens.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Nei-Pat-Kono.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Nim.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Nine Men's Morris.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/NoGo.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/O-Pat-Kono.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Odd.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Omega.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Oware.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Owela (Benguela).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pachisi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Peg Solitaire.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pentalath.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Peralikatuma.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Phantom Go.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Picaria.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Plakoto.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Ploy.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pon Chochotl.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pong Hau K'i.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Portes.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Press Ups.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pretwa.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Pushing Me XO.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Quantum Leap.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Reversi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Rock-Paper-Scissors.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Round Merels.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Royal Game of Ur.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Salta.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Seega.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Senet.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Shatranj.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Shisima.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Shogi Puzzle.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Shogi.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Sim.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Six Men's Morris.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Skirmish (GDL).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Sneakthrough.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Snowpaque.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Social Distance Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Spline.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Spots.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Squava.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Stratego.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Sudoku.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Surakarta.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Susan.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Symbol S.2.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tablut.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Taikyoku Shogi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tant Fant.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tawlbwrdd.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Terhuchu.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Three Men's Morris.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Three-Player Hex.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Chess.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Four.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Mo.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tic-Tac-Toe.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Toguz Kumalak.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tower of Hanoi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Trax.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Triad.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tron.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Tuknanavuhpi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Twelve Men's Morris.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Two-colour.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Um el-Bagara.lud,Matthew.Stephenson,20200515-173144
+A,MetadataScripts/FlatLudsDir/Wagner.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/War.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Wolf and Sheep.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Woli.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Wore.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Wouri.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/XII Scripta.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Xiangqi.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Y (Hex).lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Yavalade.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Yavalanchor.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Yavalath.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Yovodji.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/FlatLudsDir/Zamma.lud,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/OutputCSV/Categories.csv,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/OutputCSV/GameCategories.csv,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200515-173144
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200515-173144
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,Matthew.Stephenson,20200515-181018
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200515-181018
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200515-181018
+M,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Matthew.Stephenson,20200515-181018
+M,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 1).lud,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/FlatLudsDir/Bao Ki Arabu (Zanzibar 2).lud,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/FlatLudsDir/EinStein Wurfelt Nicht.lud,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/FlatLudsDir/Hus (Damara).lud,Matthew.Stephenson,20200515-181018
+A,MetadataScripts/FlatLudsDir/Muvalavala (Luena).lud,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/InputCSV/Evidence.csv,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/InputCSV/GameRulesets.csv,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/InputCSV/Games.csv,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/OutputCSV/GameRegions.csv,Matthew.Stephenson,20200515-181018
+M,MetadataScripts/OutputCSV/RulesetRegions.csv,Matthew.Stephenson,20200515-181018
+A,Common/res/img/svg/misc/crossB.svg,Cameron Browne,20200516-093953
+A,Common/res/img/svg/misc/discB.svg,Cameron Browne,20200516-093953
+A,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-093953
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200516-093953
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-104821
+M,Player/src/display/views/TabView.java,Dennis Soemers,20200516-105357
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-111404
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-112757
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-113941
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,Cameron Browne,20200516-114659
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-114659
+M,Core/src/game/functions/booleans/is/Is.java,Cameron Browne,20200516-114659
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Cameron Browne,20200516-114659
+M,LudiiDocGen/out/tex/AppendixBLudiiGrammar.tex,Cameron Browne,20200516-114659
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-120741
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-121401
+M,Common/res/lud/wip/Ultimate Tic-Tac-Toe.lud,Cameron Browne,20200516-140027
+M,Core/src/game/functions/booleans/is/Is.java,Cameron Browne,20200516-140027

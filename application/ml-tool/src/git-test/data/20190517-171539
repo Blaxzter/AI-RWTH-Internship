@@ -1,0 +1,176 @@
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190515-171208
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190515-171208
+D,Library/lud/Hex (bug).lud,Eric.Piette,20190515-172247
+M,Library/src/game/rules/play/moves/decision/Assign.java,Eric.Piette,20190515-172842
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190515-172909
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190515-172909
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-092451
+M,Library/src/game/functions/booleans/AllInstantiated.java,Eric.Piette,20190516-092756
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-092756
+A,Library/src/game/equipment/container/board/GraphBoard.java,Eric.Piette,20190516-092820
+A,Library/src/util/action/ActionAddEdge.java,Eric.Piette,20190516-092844
+A,Library/src/game/rules/play/moves/decision/ToEdge.java,Eric.Piette,20190516-092926
+A,Library/lud/TestGraphPuzzle.lud,Eric.Piette,20190516-092948
+A,AI/XCSP/Latin-Square-5.xml,Eric.Piette,20190516-093237
+D,AI/XCSP/Sudoku-sol.xml,Eric.Piette,20190516-093237
+A,AI/XCSP/Sudoku.xml,Eric.Piette,20190516-093237
+A,Library/lud/Latin Square (5x5).lud,Eric.Piette,20190516-093237
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-095714
+M,Common/src/main/Global.java,Matthew.Stephenson,20190516-101818
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-101818
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-104240
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190516-104240
+M,Library/src/game/Game.java,DennisSoemers,20190516-104456
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190516-104456
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190516-104456
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-104801
+A,Library/lud/Magic Square (DS Version).lud,Eric.Piette,20190516-111055
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-111055
+M,Library/src/game/functions/booleans/AllDifferent.java,Eric.Piette,20190516-111055
+M,Library/src/game/rules/play/moves/decision/Assign.java,Eric.Piette,20190516-111055
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190516-111344
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-111344
+D,Library/src/game/rules/play/moves/decision/Assign.java,Eric.Piette,20190516-112103
+A,Library/src/game/rules/play/moves/decision/Exclude.java,Eric.Piette,20190516-112103
+M,Library/src/game/rules/start/Place.java,Eric.Piette,20190516-112103
+D,Library/src/util/action/ActionAssign.java,Eric.Piette,20190516-112103
+A,Library/src/util/action/ActionExclude.java,Eric.Piette,20190516-112103
+M,Player/src/mainView/dialog/PuzzleDialog.java,Eric.Piette,20190516-112103
+M,Player/src/player/Referee.java,Eric.Piette,20190516-112103
+M,Library/src/game/Game.java,DennisSoemers,20190516-112217
+A,Player/src/player/GameLoader.java,DennisSoemers,20190516-112217
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190516-112217
+M,Player/test/games/CompilationTest.java,DennisSoemers,20190516-112217
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-112315
+M,Library/lud/Magic Square (DS Version).lud,Eric.Piette,20190516-112333
+M,Library/lud/Magic Square (DS Version).lud,Eric.Piette,20190516-112738
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-112738
+A,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-112738
+M,Library/src/util/action/ActionExclude.java,Eric.Piette,20190516-112738
+A,Library/src/util/action/ActionSet.java,Eric.Piette,20190516-112738
+M,Library/src/game/equipment/component/Number.java,Matthew.Stephenson,20190516-113328
+M,Library/lud/Magic Square (DS Version).lud,Eric.Piette,20190516-113618
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-113618
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-113618
+M,Library/src/util/action/ActionExclude.java,Eric.Piette,20190516-113618
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-113618
+M,Library/src/game/equipment/component/Number.java,Matthew.Stephenson,20190516-120909
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-120909
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190516-120909
+M,Library/lud/Magic Square (DS Version).lud,Eric.Piette,20190516-121655
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-121655
+M,Library/src/game/rules/play/moves/decision/Exclude.java,Eric.Piette,20190516-121655
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-121655
+M,Library/src/game/rules/start/Place.java,Eric.Piette,20190516-121655
+D,Library/src/util/action/ActionExclude.java,Eric.Piette,20190516-121655
+A,Library/src/util/action/ActionToggle.java,Eric.Piette,20190516-121655
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-121655
+M,Player/src/mainView/dialog/PuzzleDialog.java,Eric.Piette,20190516-121655
+M,Player/src/player/Referee.java,Eric.Piette,20190516-121655
+M,Library/src/game/equipment/component/Number.java,Matthew.Stephenson,20190516-121742
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-121742
+D,Library/src/game/rules/play/moves/decision/Exclude.java,Eric.Piette,20190516-122001
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-122001
+M,Player/src/player/GameLoader.java,DennisSoemers,20190516-122130
+M,Player/src/player/GameLoader.java,DennisSoemers,20190516-122840
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-124255
+M,Library/src/game/rules/start/Place.java,DennisSoemers,20190516-131718
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-131958
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-131958
+M,Library/src/util/Context.java,Eric.Piette,20190516-131958
+M,Library/src/util/state/State.java,Eric.Piette,20190516-134715
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-134715
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-144648
+M,Library/src/game/functions/booleans/AllDifferent.java,Eric.Piette,20190516-144648
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-144648
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-144648
+M,Library/lud/Sudoku (DS version).lud,Eric.Piette,20190516-145907
+M,Library/src/game/equipment/container/board/HexYBoard.java,Matthew.Stephenson,20190516-153920
+M,Library/src/util/Move.java,Matthew.Stephenson,20190516-153920
+M,Library/src/util/action/ActionSet.java,Matthew.Stephenson,20190516-153920
+M,Library/src/util/action/ActionToggle.java,Matthew.Stephenson,20190516-153920
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-153920
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190516-153920
+M,Library/src/game/rules/start/Place.java,Matthew.Stephenson,20190516-155141
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-155141
+A,Library/lud/Sudoku Easy (DS).lud,Eric.Piette,20190516-155311
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-155518
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190516-155631
+M,Library/lud/Sudoku Easy (DS).lud,Eric.Piette,20190516-155733
+M,Library/lud/Chess (Skirmish).lud,Eric.Piette,20190516-160224
+M,Library/lud/Double Chess (skirmish).lud,Eric.Piette,20190516-160224
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,Eric.Piette,20190516-160224
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190516-160922
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190516-160922
+M,Library/src/game/functions/booleans/Connect.java,Cameron Browne,20190516-160922
+M,Library/src/game/functions/ints/To.java,Cameron Browne,20190516-160922
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20190516-163856
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190516-163856
+M,Library/src/game/equipment/container/board/HexYBoard.java,Matthew.Stephenson,20190516-164104
+M,Library/lud/Tic-Tac-Mo.lud,Matthew.Stephenson,20190516-164454
+M,Library/src/game/equipment/component/Letter.java,Matthew.Stephenson,20190516-164454
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190516-170719
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190516-170719
+M,Library/src/util/action/ActionToggle.java,Matthew.Stephenson,20190516-171901
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190516-171901
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190516-172513
+D,Grammar/src/.DS_Store,Dennis Soemers,20190516-172613
+A,Grammar/src/.gitignore,Dennis Soemers,20190516-172705
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190516-172931
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190517-103750
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190517-103750
+A,Library/lud/Hashi.lud,Eric.Piette,20190517-104835
+D,Library/lud/TestGraphPuzzle.lud,Eric.Piette,20190517-104835
+M,Library/src/game/equipment/container/board/GraphBoard.java,Eric.Piette,20190517-104835
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190517-104835
+D,Library/src/game/rules/play/moves/decision/ToEdge.java,Eric.Piette,20190517-104835
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190517-104835
+M,Library/src/game/equipment/container/board/HexBoard.java,Matthew.Stephenson,20190517-105029
+M,Library/src/game/equipment/container/board/HexYBoard.java,Matthew.Stephenson,20190517-105029
+M,Library/src/game/equipment/container/tiling/directions/HexDirection.java,Matthew.Stephenson,20190517-105029
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190517-105029
+M,Library/src/game/functions/booleans/AllInstantiated.java,Eric.Piette,20190517-105730
+M,Library/src/util/action/ActionSet.java,Eric.Piette,20190517-110302
+M,Library/src/util/action/ActionToggle.java,Eric.Piette,20190517-110302
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190517-111101
+M,Library/lud/Hashi.lud,Eric.Piette,20190517-112256
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190517-112256
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190517-112256
+M,Library/src/game/Game.java,Dennis Soemers,20190517-115721
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190517-135454
+M,Library/src/util/ChunkSet.java,Eric.Piette,20190517-135454
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190517-135454
+M,Library/src/game/equipment/component/Number.java,Matthew.Stephenson,20190517-141538
+M,Library/src/game/equipment/container/board/GraphBoard.java,Matthew.Stephenson,20190517-141538
+M,Library/src/game/rules/play/moves/decision/Set.java,Matthew.Stephenson,20190517-141538
+M,Library/src/util/Move.java,Matthew.Stephenson,20190517-141538
+M,Library/src/util/action/ActionSet.java,Matthew.Stephenson,20190517-141538
+M,Library/src/util/action/ActionToggle.java,Matthew.Stephenson,20190517-141538
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190517-141538
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-141538
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190517-141538
+M,Library/src/util/Move.java,Matthew.Stephenson,20190517-145711
+M,Library/src/util/action/ActionSet.java,Matthew.Stephenson,20190517-145711
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-145711
+M,Library/src/util/Move.java,Matthew.Stephenson,20190517-152755
+M,Library/src/util/action/ActionSet.java,Matthew.Stephenson,20190517-152755
+M,Library/src/util/state/puzzleState/PuzzleState.java,Matthew.Stephenson,20190517-152755
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-152755
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190517-152755
+M,Library/src/util/ChunkSet.java,Cameron Browne,20190517-154408
+M,Library/src/util/action/ActionSet.java,Matthew.Stephenson,20190517-155202
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-155202
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190517-155202
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-160735
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190517-160735
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190517-160735
+M,Player/src/player/Referee.java,Matthew.Stephenson,20190517-161616
+M,Library/src/game/functions/booleans/AllInstantiated.java,Eric.Piette,20190517-170859
+M,Library/src/game/rules/play/moves/decision/Set.java,Eric.Piette,20190517-170859
+M,Library/src/util/ChunkSet.java,Eric.Piette,20190517-170859
+M,Library/src/util/action/ActionSet.java,Eric.Piette,20190517-170859
+M,Library/src/util/action/ActionToggle.java,Eric.Piette,20190517-170859
+M,Library/src/util/state/puzzleState/PuzzleState.java,Eric.Piette,20190517-170859
+M,Player/src/mainView/dialog/PuzzleDialog.java,Eric.Piette,20190517-170859
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190517-171539
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190517-171539

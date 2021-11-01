@@ -1,0 +1,122 @@
+A,Common/res/lud/board/displace/leaping/Egara Guti.lud,eric.piette,20191029-105628
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20191029-105628
+A,Common/res/lud/board/displace/leaping/Felli.lud,eric.piette,20191029-111804
+M,AI/src/utils/ExItExperience.java,DennisSoemers,20191029-112610
+M,AI/src/utils/data_structures/ExperienceBuffer.java,DennisSoemers,20191029-112610
+A,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191029-112610
+M,AI/src/utils/data_structures/SumTree.java,DennisSoemers,20191029-112610
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20191029-112732
+A,Common/res/lud/board/displace/leaping/Lau Kata Kati.lud,eric.piette,20191029-113506
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/BySite.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/DirectionCapture.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/Flanked.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/ForDirn.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/Moves.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/Sow.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/Surrounded.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Constraints.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Hop.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Promotion.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Shoot.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20191029-114630
+M,Library/src/game/rules/play/moves/decision/To.java,DennisSoemers,20191029-114630
+A,Common/res/lud/board/displace/leaping/Pretwa.lud,eric.piette,20191029-123743
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191029-123932
+M,Player/build.xml,DennisSoemers,20191029-123932
+A,Player/test/ai/TestPrioritizedExperienceReplay.java,DennisSoemers,20191029-123932
+M,AI/src/utils/ExItExperience.java,DennisSoemers,20191029-143238
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191029-143238
+M,AI/src/utils/data_structures/SumTree.java,DennisSoemers,20191029-143238
+M,Features/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20191029-143238
+M,AI/src/utils/ExItExperience.java,DennisSoemers,20191029-144138
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191029-144138
+M,Player/test/ai/TestPrioritizedExperienceReplay.java,DennisSoemers,20191029-144138
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,DennisSoemers,20191029-145011
+M,AI/src/utils/AIFactory.java,DennisSoemers,20191029-145011
+M,AI/src/utils/ExperimentFileUtils.java,DennisSoemers,20191029-145011
+M,Features/src/features/elements/AbsoluteFeatureElement.java,DennisSoemers,20191029-145011
+M,AI/src/utils/data_structures/ExperienceBuffer.java,DennisSoemers,20191029-151844
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191029-151844
+A,AI/src/utils/data_structures/UniformExperienceBuffer.java,DennisSoemers,20191029-151844
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20191029-151844
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20191029-153153
+M,Library/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20191029-153153
+M,Library/src/game/equipment/container/board/tiling/Square.java,eric.piette,20191029-153153
+M,AI/src/utils/data_structures/UniformExperienceBuffer.java,DennisSoemers,20191029-154340
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20191029-154340
+A,Common/res/lud/wip/French Military Game.lud,eric.piette,20191029-155454
+A,Common/res/lud/board/chase/hunt/French Military Game.lud,eric.piette,20191029-160448
+A,Common/res/lud/board/race/fill/GrassHopper.lud,eric.piette,20191029-160448
+D,Common/res/lud/wip/French Military Game.lud,eric.piette,20191029-160448
+D,Common/res/lud/wip/GrassHopper.lud,eric.piette,20191029-160448
+A,Common/res/lud/board/space/blocking/HorseShoe.lud,eric.piette,20191029-163344
+M,Library/src/game/equipment/container/Container.java,eric.piette,20191029-163344
+A,Common/res/lud/board/space/blocking/Madelinette.lud,eric.piette,20191029-165548
+M,Library/src/game/equipment/container/Container.java,eric.piette,20191029-170504
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20191029-194137
+A,Common/res/img/svg/animals/fox.svg,Matthew,20191029-202350
+M,Player/src/mainView/panel/StatePanel.java,Coen,20191030-094747
+M,Player/src/player/PlayerApp.java,Coen,20191030-094747
+M,Player/src/player/utils/SVGUtil.java,Coen,20191030-094747
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191030-102723
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20191030-102723
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191030-102723
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20191030-102723
+M,Player/src/network/LudiiServerSocket.java,Matthew Stephenson,20191030-105129
+M,Common/res/lud/wip/Jungle.lud,Matthew Stephenson,20191030-110146
+M,Library/src/game/equipment/component/Component.java,Matthew Stephenson,20191030-110146
+M,Library/src/game/equipment/component/Piece.java,Matthew Stephenson,20191030-110146
+M,Library/src/util/MetadataFunctions.java,Matthew Stephenson,20191030-110146
+M,Player/src/mainView/MainView.java,ludeme,20191030-120826
+M,Player/src/mainView/MainView.java,ludeme,20191030-121031
+M,Player/src/mainView/MainView.java,ludeme,20191030-121321
+M,Common/src/main/Global.java,Matthew.Stephenson,20191030-131518
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191030-131518
+M,Player/src/mainView/dialog/NetworkDialog.java,Matthew.Stephenson,20191030-131518
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191030-131518
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191030-131518
+A,Player/tournamentExample.json,Matthew.Stephenson,20191030-131518
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20191030-134633
+M,AI/src/utils/ExItExperience.java,Dennis Soemers,20191030-134633
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,Dennis Soemers,20191030-134633
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20191030-134633
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191030-134633
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191030-143328
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191030-143911
+M,Player/src/player/Referee.java,Matthew Stephenson,20191030-143911
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_ecai.py,Dennis Soemers,20191030-150336
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_ecai.py,Dennis Soemers,20191030-150336
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191030-153229
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191030-153229
+M,Common/src/graphics/svg/SVGtoImage.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/Board.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/GoBoard.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/SenetBoard.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/ShogiBoard.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/TaflBoard.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/UrBoard.java,Coen,20191030-154715
+M,Library/src/game/equipment/container/board/custom/XiangqiBoard.java,Coen,20191030-154715
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20191030-155428
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191030-155428
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191030-160829
+A,Common/res/lud/board/race/track/58 holes.lud,eric.piette,20191030-160911
+D,Common/res/lud/board/race/track/Hounds and Jackals.lud,eric.piette,20191030-160911
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20191030-162324
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191030-163335
+M,Player/src/mainView/dialog/CreateGameDialog.java,Matthew Stephenson,20191030-170639
+M,Player/src/mainView/dialog/FindGameDialog.java,Matthew Stephenson,20191030-170639
+A,Common/res/lud/board/race/track/20 Squares.lud,eric.piette,20191031-093515
+A,Library/src/game/equipment/container/board/custom/TwentySquaresBoard.java,eric.piette,20191031-093515
+M,AI/src/utils/data_structures/PrioritizedReplayBuffer.java,DennisSoemers,20191031-094644
+M,AI/src/utils/data_structures/UniformExperienceBuffer.java,DennisSoemers,20191031-094644
+M,Common/res/lud/board/displace/mancala/Oware.lud,eric.piette,20191031-100638
+M,Library/src/game/rules/play/moves/Sow.java,eric.piette,20191031-100638
+M,Library/src/util/Context.java,eric.piette,20191031-100638
+M,Library/src/util/Move.java,eric.piette,20191031-100638
+D,Library/src/util/action/ActionSetDouble.java,eric.piette,20191031-100638
+A,Common/res/lud/wip/Shatranj.lud,eric.piette,20191031-115403

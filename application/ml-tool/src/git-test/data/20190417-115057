@@ -1,0 +1,183 @@
+M,Player/src/mainView/ColourDialog.java,Matthew Stephenson,20190415-103527
+D,Player/src/mainView/TestDialog.java,Matthew Stephenson,20190415-103527
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190415-103527
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Matthew Stephenson,20190415-105549
+M,Library/src/util/Move.java,Matthew Stephenson,20190415-105549
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190415-105549
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190415-105549
+M,Library/lud/Yavalath (2 players).lud,eric.piette,20190415-105916
+M,Library/lud/Yavalath (3 players).lud,eric.piette,20190415-105916
+A,Library/src/game/equipment/container/board/tiling/Hex.java,eric.piette,20190415-105916
+M,Player/src/mainView/button/ButtonBlank.java,Matthew Stephenson,20190415-105926
+M,Player/src/mainView/button/ButtonPass.java,Matthew Stephenson,20190415-105926
+M,AI/src/utils/ExperienceBuffer.java,DennisSoemers,20190415-113325
+M,Library/src/game/functions/booleans/ReachedRegion.java,DennisSoemers,20190415-113325
+M,Library/src/game/functions/region/Own.java,DennisSoemers,20190415-113325
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20190415-113325
+M,Library/src/game/rules/play/moves/ByPieceType.java,DennisSoemers,20190415-113325
+M,Library/src/util/Trial.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionAdd.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionAddN.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionCopy.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionMove.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionMoveN.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionMoveRemove.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionMoveState.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionRemove.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/ActionRemoveN.java,DennisSoemers,20190415-113325
+M,Library/src/util/action/Remove.java,DennisSoemers,20190415-113325
+M,Player/src/player/game_logs/GameLogs.java,DennisSoemers,20190415-113325
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20190415-144925
+M,Library/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20190415-144925
+D,Player/src/mainView/ColourDialog.java,Matthew Stephenson,20190415-145107
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190415-145107
+D,Player/src/mainView/SettingsDialog.java,Matthew Stephenson,20190415-145107
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190415-145107
+A,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190415-145107
+A,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20190415-145107
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190415-145107
+M,Library/src/game/rules/end/End.java,DennisSoemers,20190415-145837
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190415-150842
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Matthew.Stephenson,20190415-161540
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/Die.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/Dot.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/SenetPiece.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/UrPiece.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Cat.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Cow.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Dog.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Goat.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Leopard.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Tiger.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/checkers/Dame.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/checkers/Man.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Mann.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/tafl/Jarl.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/component/piece/tafl/Thrall.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew.Stephenson,20190415-181758
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew.Stephenson,20190415-181758
+M,Common/src/main/Global.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/Container.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-195216
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-195423
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190415-195754
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190415-202356
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Matthew Stephenson,20190415-214358
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190415-214358
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/CompassDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/Direction.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/HexDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/tiling/directions/WheelDirection.java,Dennis Soemers,20190415-215247
+M,Library/src/game/equipment/container/Hand.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/MorrisBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/SenetBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/UrBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/WheelBoard.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Cross.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Rect.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/Shape.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/shape/TriangleEquilateral.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Circle.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/container/board/tiling/Tiling.java,Eric Piette,20190416-092032
+M,Library/src/game/equipment/component/Die.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-102127
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-104224
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-105618
+D,Library/src/game/equipment/container/board/IntersectionBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/MorrisBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/PeralikatumaBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-110250
+M,Library/src/game/equipment/container/board/SurakartaBoard.java,Matthew Stephenson,20190416-121701
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-122520
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew Stephenson,20190416-122520
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-132924
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-132924
+M,Library/src/game/equipment/component/Die.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190416-141230
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190416-141230
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-141314
+M,Library/src/game/equipment/container/board/shape/Hexagonal.java,Eric Piette,20190416-142240
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-142730
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190416-143149
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190416-143149
+M,Library/lud/Yavalath (3 players).lud,Eric Piette,20190416-143346
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/dialog/ColourDialog.java,Matthew Stephenson,20190416-153534
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190416-153534
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-153534
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-170659
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/HalmaBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew Stephenson,20190416-171724
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew Stephenson,20190416-171724
+D,Library/src/game/equipment/container/board/tiling/HexHex.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/HexMat.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/HexSquare.java,Eric Piette,20190416-172828
+D,Library/src/game/equipment/container/board/tiling/Concentric.java,Eric Piette,20190416-172848
+M,AI/resources/FeatureSets/Yavalath/HandcraftedYavalathPatterns.fs,Dennis Soemers,20190416-175839
+A,AI/resources/FeatureSets/Yavalath/HandcraftedYavalathWeights.txt,Dennis Soemers,20190416-175839
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Eric Piette,20190416-183019
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-183233
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-183233
+A,Library/lud/Reversi.lud,Eric Piette,20190416-183611
+M,Player/src/dbView/GamesList.java,Eric Piette,20190416-183611
+M,Library/src/game/equipment/container/board/Board.java,Matthew Stephenson,20190416-193049
+A,Common/img/svg/UNUSED/camel2hump_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/UNUSED/horseHead_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/camel1hump_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/horse_symbola.svg,Matthew Stephenson,20190416-194648
+A,Common/img/svg/animals/rabbit_symbola.svg,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Camel.java,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Horse.java,Matthew Stephenson,20190416-194648
+A,Library/src/game/equipment/component/piece/animal/Rabbit.java,Matthew Stephenson,20190416-194648
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-220459
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-222808
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-223357
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190416-224523
+M,Library/src/game/Game.java,eric.piette,20190416-233644
+A,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190416-233644
+M,Library/test/game/play/moves/decision/FromToTest.java,eric.piette,20190416-235123
+M,Player/src/player/PlayerApp.java,eric.piette,20190417-115057
+A,Player/test/games/CompilationTest.java,eric.piette,20190417-115057

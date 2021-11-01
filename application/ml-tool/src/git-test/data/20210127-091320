@@ -1,0 +1,243 @@
+M,Mining/res/concepts/output/LudiiGameCategories.csv,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Other/DatasetMerge/MergeDatasets.py,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/AgentPrediction/Merged.csv,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/AgentPrediction/PredictAgentFromConcepts.py,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/AgentPrediction/Results.csv,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/Clustering/ClusterData.py,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/Clustering/Results.csv,Matthew Stephenson,20210125-113706
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210125-113706
+M,Mining/scripts/README.txt,Matthew Stephenson,20210125-114316
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210125-120555
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210125-120930
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_expdeltavalweighting.py,Dennis Soemers,20210125-121852
+M,Mining/res/concepts/output/LudiiGameCategoriesDLP.csv,Matthew Stephenson,20210125-143027
+M,Mining/scripts/Other/GetGeoData/geoData.csv,Matthew Stephenson,20210125-143027
+M,Mining/scripts/Other/GetGeoData/getGeoData.php,Matthew Stephenson,20210125-143027
+M,Mining/scripts/Sklearn/Clustering/ClusterData.py,Matthew Stephenson,20210125-143027
+M,Mining/scripts/Sklearn/Clustering/Results.csv,Matthew Stephenson,20210125-143027
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210125-143027
+A,Mining/scripts/Sklearn/DataVisualisation/geoData.csv,Matthew Stephenson,20210125-143027
+M,Mining/src/utils/ExportGameCategories.java,Matthew Stephenson,20210125-143027
+M,.gitignore,Matthew Stephenson,20210125-161119
+A,Common/res/recommender/Games.csv,Matthew Stephenson,20210125-161119
+D,Common/res/recommender/gameNames.txt,Matthew Stephenson,20210125-161119
+D,Common/res/recommender/validBGGId.txt,Matthew Stephenson,20210125-161119
+M,Mining/scripts/Other/GetGeoData/geoData.csv,Matthew Stephenson,20210125-161119
+M,Mining/scripts/Other/GetGeoData/getGeoData.php,Matthew Stephenson,20210125-161119
+A,Mining/scripts/Sklearn/DataVisualisation/BGG.csv,Matthew Stephenson,20210125-161119
+D,Mining/scripts/Sklearn/DataVisualisation/geoData.csv,Matthew Stephenson,20210125-161119
+M,PlayerDesktop/src/supplementary/bgg/BggData.java,Matthew Stephenson,20210125-161119
+M,PlayerDesktop/src/supplementary/bgg/BggGame.java,Matthew Stephenson,20210125-161119
+M,PlayerDesktop/src/supplementary/bgg/Database.java,Matthew Stephenson,20210125-161119
+A,Common/res/help/Aliases.txt,Dennis Soemers,20210125-162911
+A,Common/src/main/AliasesData.java,Dennis Soemers,20210125-162911
+D,PlayerDesktop/res/help/Aliases.txt,Dennis Soemers,20210125-162911
+M,PlayerDesktop/src/app/display/dialogs/GameLoaderDialog.java,Dennis Soemers,20210125-162911
+D,PlayerDesktop/src/app/loading/aliases/AliasesData.java,Dennis Soemers,20210125-162911
+M,PlayerDesktop/src/app/loading/aliases/GenerateAliasesFile.java,Dennis Soemers,20210125-162911
+M,PlayerDesktop/src/supplementary/bgg/Database.java,Dennis Soemers,20210125-162911
+M,Common/res/help/Aliases.txt,Dennis Soemers,20210125-162927
+D,Common/res/recommender/BGG_dataset.csv,Matthew Stephenson,20210125-163547
+D,Common/res/recommender/Games.csv,Matthew Stephenson,20210125-163547
+M,Mining/.classpath,Matthew Stephenson,20210125-163547
+A,Mining/res/bgg/BGG_dataset.csv,Matthew Stephenson,20210125-163547
+A,Mining/res/bgg/Games.csv,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/BggData.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/BggGame.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/Database.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/Matches.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/Rating.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/Recommender.java,Matthew Stephenson,20210125-163547
+A,Mining/src/utils/bgg/User.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/BggData.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/BggGame.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/Database.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/Matches.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/Rating.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/Recommender.java,Matthew Stephenson,20210125-163547
+D,PlayerDesktop/src/supplementary/bgg/User.java,Matthew Stephenson,20210125-163547
+M,.gitignore,Matthew Stephenson,20210125-163612
+M,Mining/src/utils/bgg/Database.java,Matthew Stephenson,20210125-164640
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210125-174159
+M,Core/src/language/compiler/ArgClass.java,Cameron Browne,20210125-184728
+M,Core/src/language/compiler/Compiler.java,Cameron Browne,20210125-184728
+A,Core/src/language/compiler/exceptions/CreationErrorWithMessageException.java,Cameron Browne,20210125-184728
+M,Core/src/language/compiler/Compiler.java,Cameron Browne,20210125-184951
+A,Common/res/lud/test/Huge Board.lud,Cameron Browne,20210125-190628
+A,Common/res/lud/test/Recursive Stack Overflow.lud,Cameron Browne,20210125-190628
+M,Common/res/lud/board/war/other/Atari Go.lud,Eric.Piette,20210126-082703
+M,Distance/src/common/DistanceMatrix.java,Eric.Piette,20210126-082703
+M,LudiiDocGen/out/tex/LudiiLanguageReference.blg,Eric.Piette,20210126-082703
+M,Mining/src/utils/ExportGameCategories.java,Eric.Piette,20210126-082703
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20210126-082703
+M,.gitignore,Matthew Stephenson,20210126-091757
+D,Mining/res/bgg/BGG_dataset.csv,Matthew Stephenson,20210126-091757
+D,Mining/res/bgg/Games.csv,Matthew Stephenson,20210126-091757
+A,Mining/res/bgg/input/BGG_dataset.csv,Matthew Stephenson,20210126-091757
+A,Mining/res/bgg/input/Games.csv,Matthew Stephenson,20210126-091757
+A,Mining/res/bgg/output/Results.csv,Matthew Stephenson,20210126-091757
+D,Mining/scripts/Sklearn/DataVisualisation/BGG.csv,Matthew Stephenson,20210126-091757
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210126-091757
+M,Mining/src/utils/bgg/BggData.java,Matthew Stephenson,20210126-091757
+M,Mining/src/utils/bgg/Database.java,Matthew Stephenson,20210126-091757
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew Stephenson,20210126-091757
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew Stephenson,20210126-091835
+A,Common/res/lud/board/war/leaping/draughts/Armenian Draughts.lud,Eric.Piette,20210126-091954
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew Stephenson,20210126-093907
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Eric.Piette,20210126-095317
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Eric.Piette,20210126-095333
+M,PlayerDesktop/src/app/display/dialogs/TestLudemeDialog.java,Matthew Stephenson,20210126-095744
+A,Common/res/lud/wishlist/needReconstruction/Dimraw.lud,Eric.Piette,20210126-100852
+A,Common/res/lud/wishlist/needReconstruction/Piaf.lud,Eric.Piette,20210126-101037
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210126-102435
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20210126-102435
+M,Common/res/def_ai/Block_ai.def,Dennis Soemers,20210126-102521
+M,Common/res/lud/WishlistDLP/race/El Mundo.lud,Eric.Piette,20210126-111031
+D,Common/res/lud/WishlistDLP/sow/two_rows/Intotoi.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/race/reach/Kawasukuts.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/race/reach/Patol.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/race/reach/Tsaydithl.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/sow/two_rows/Andada.lud,Eric.Piette,20210126-111031
+A,Common/res/lud/board/sow/two_rows/Intotoi.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/war/leaping/draughts/Armenian Draughts.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/board/war/other/Atari Go.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/test/Recursive Stack Overflow.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/wishlist/needReconstruction/Dimraw.lud,Eric.Piette,20210126-111031
+M,Common/res/lud/wishlist/needReconstruction/Piaf.lud,Eric.Piette,20210126-111031
+A,Common/res/lud/board/sow/two_rows/Boukerourou.lud,Eric.Piette,20210126-114124
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20210126-114816
+A,Common/res/lud/experimental/Omnidirectional Draughts.lud,Eric.Piette,20210126-115104
+M,Mining/res/concepts/output/LudiiGameCategories.csv,Matthew Stephenson,20210126-124011
+M,Mining/scripts/Sklearn/Clustering/ClusterData.py,Matthew Stephenson,20210126-124011
+M,Mining/scripts/Sklearn/Clustering/Results.csv,Matthew Stephenson,20210126-124011
+M,Mining/scripts/Sklearn/DataVisualisation/DataVisualisation.py,Matthew Stephenson,20210126-124011
+A,Common/res/lud/wip/eric/dlp/Paradis.lud,Eric.Piette,20210126-125056
+M,Common/src/main/grammar/Clause.java,Cameron Browne,20210126-132157
+M,Common/src/main/grammar/PackageInfo.java,Cameron Browne,20210126-132157
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20210126-132157
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210126-132157
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Cameron Browne,20210126-132157
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Cameron Browne,20210126-132157
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Cameron Browne,20210126-132157
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,Eric.Piette,20210126-135111
+A,Common/res/lud/board/race/escape/Uturu Uturu Kaida.lud,Eric.Piette,20210126-135655
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210126-135655
+M,Common/res/lud/wip/eric/dlp/Paradis.lud,Eric.Piette,20210126-135655
+M,Common/src/main/FileHandling.java,Cameron Browne,20210126-141016
+M,Common/src/main/grammar/PackageInfo.java,Cameron Browne,20210126-141016
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20210126-141016
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210126-141016
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Cameron Browne,20210126-141016
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Cameron Browne,20210126-141016
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Cameron Browne,20210126-141016
+M,Core/src/util/action/move/ActionRemove.java,Eric.Piette,20210126-142326
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20210126-143638
+A,Common/res/img/svg/animals/hyena.svg,Eric.Piette,20210126-144440
+M,Core/src/game/equipment/component/Component.java,Eric.Piette,20210126-144440
+A,Common/src/main/grammar/LudemeInfo.java,Cameron Browne,20210126-151142
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210126-151142
+A,Common/res/lud/wishlist/needReconstruction/Alkarhat.lud,Eric.Piette,20210126-152023
+A,Common/res/lud/wishlist/needReconstruction/Shanzdahu-Kattaru.lud,Eric.Piette,20210126-152054
+A,Common/res/lud/wishlist/needReconstruction/Dam Blas.lud,Eric.Piette,20210126-152124
+A,Common/res/lud/wip/eric/dlp/Nama.lud,Eric.Piette,20210126-152337
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20210126-154358
+M,LudiiDocGen/out/tex/.gitignore,Dennis Soemers,20210126-154358
+M,LudiiDocGen/out/tex/LudiiLanguageReference.tex,Dennis Soemers,20210126-154358
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20210126-154358
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20210126-154623
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20210126-155016
+M,Mining/scripts/Sklearn/Clustering/ClusterData.py,Matthew Stephenson,20210126-155446
+M,Mining/scripts/Sklearn/Clustering/Results.csv,Matthew Stephenson,20210126-155446
+A,Mining/scripts/Sklearn/Clustering/clusterUtils.py,Matthew Stephenson,20210126-155446
+M,Common/res/lud/wip/eric/dlp/Nama.lud,Eric.Piette,20210126-161031
+A,Common/res/lud/wip/eric/dlp/Uril.lud,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/decision/Move.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Attract.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Push.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Eric.Piette,20210126-161031
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20210126-161031
+M,Core/src/util/Move.java,Eric.Piette,20210126-161031
+M,Core/src/util/action/move/ActionRemove.java,Eric.Piette,20210126-161031
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,Eric.Piette,20210126-161031
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20210126-161031
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Cameron Browne,20210126-161146
+A,PlayerDesktop/test/other/GetLudemeInfo.java,Cameron Browne,20210126-161146
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210126-161442
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Cameron Browne,20210126-161442
+M,Mining/res/concepts/output/LudiiGameCategoriesDLP.csv,Matthew Stephenson,20210126-162218
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210126-162218
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210126-162218
+M,Mining/res/ludemeplexDetection/output/ludemes.csv,Matthew Stephenson,20210126-162218
+M,Mining/res/ludemeplexDetection/output/rulesetLudemeplexPairs.csv,Matthew Stephenson,20210126-162218
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210126-162218
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210126-162218
+A,Common/src/main/EditorHelpData.java,Matthew Stephenson,20210126-162744
+A,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Matthew Stephenson,20210126-162744
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20210126-162744
+D,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Matthew Stephenson,20210126-162744
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpDataHelper.java,Matthew Stephenson,20210126-162744
+D,PlayerDesktop/test/other/GetLudemeInfo.java,Matthew Stephenson,20210126-162744
+M,Core/src/util/state/owned/FullOwned.java,Eric.Piette,20210126-163454
+M,Common/res/lud/board/race/escape/Uturu Uturu Kaida.lud,Eric.Piette,20210126-163714
+A,Common/res/lud/wishlist/needReconstruction/Siga (Senegal).lud,Eric.Piette,20210126-163824
+A,Common/res/lud/wishlist/needReconstruction/Ludus Rebellionis.lud,Eric.Piette,20210126-163858
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210126-165548
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Matthew Stephenson,20210126-165548
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210126-165548
+M,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Matthew Stephenson,20210126-165548
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210126-165548
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210126-165548
+A,Common/res/help/EditorHelp.txt,Matthew Stephenson,20210126-165559
+D,PlayerDesktop/res/help/EditorHelp.txt,Matthew Stephenson,20210126-165559
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210126-172521
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210126-172521
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210126-172521
+M,Mining/res/ludemeplexDetection/output/rulesetLudemeplexPairs.csv,Matthew Stephenson,20210126-172521
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210126-172521
+M,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Matthew Stephenson,20210126-172521
+A,Common/res/lud/board/race/escape/Nama.lud,Eric.Piette,20210126-173822
+D,Common/res/lud/wip/eric/dlp/Nama.lud,Eric.Piette,20210126-173822
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20210126-173822
+A,Common/res/lud/board/sow/two_rows/Uril.lud,Eric.Piette,20210126-175913
+D,Common/res/lud/wip/eric/dlp/Uril.lud,Eric.Piette,20210126-175913
+M,Common/src/main/grammar/LudemeInfo.java,Matthew Stephenson,20210126-180135
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210126-180135
+M,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Matthew Stephenson,20210126-180135
+D,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210126-180135
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210126-180135
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210126-180149
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210126-180149
+M,Mining/res/ludemeplexDetection/output/ludemes.csv,Matthew Stephenson,20210126-180149
+M,Mining/res/ludemeplexDetection/output/rulesetLudemeplexPairs.csv,Matthew Stephenson,20210126-180149
+A,Common/res/lud/wishlist/dlp/needGui/Sik.lud,Eric.Piette,20210126-180242
+M,Common/src/main/grammar/Call.java,Cameron Browne,20210126-183710
+M,Core/src/language/compiler/ArgClass.java,Cameron Browne,20210126-183710
+M,Core/src/language/compiler/ArgTerminal.java,Cameron Browne,20210126-183710
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Cameron Browne,20210126-183710
+M,Common/src/main/grammar/Call.java,Matthew.Stephenson,20210126-195450
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew.Stephenson,20210126-195450
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew.Stephenson,20210126-195450
+M,Common/res/help/EditorHelp.txt,Dennis Soemers,20210126-202047
+M,PlayerDesktop/build.xml,Dennis Soemers,20210126-202047
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210126-202804
+M,Common/res/lud/board/race/escape/Nama.lud,Eric.Piette,20210126-214006
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210127-080011
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210127-080011
+M,Common/src/main/grammar/Call.java,Cameron Browne,20210127-080851
+M,Common/src/main/grammar/Instance.java,Cameron Browne,20210127-080851
+M,Core/src/game/players/Player.java,Cameron Browne,20210127-080851
+M,Core/src/game/players/Players.java,Cameron Browne,20210127-080851
+M,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Cameron Browne,20210127-081518
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20210127-082836
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Eric.Piette,20210127-084802
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Eric.Piette,20210127-084802
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210127-090941
+M,Common/src/main/grammar/LudemeInfo.java,Matthew Stephenson,20210127-090941
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210127-090941
+M,Mining/src/ludemeplexDetection/GetLudemeInfo.java,Matthew Stephenson,20210127-091320

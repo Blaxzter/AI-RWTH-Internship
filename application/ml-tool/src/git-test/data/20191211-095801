@@ -1,0 +1,1176 @@
+M,Player/res/demos/Yavalath - Puzzle.json,Cameron Browne,20191209-091024
+M,Player/src/mainView/dialog/SettingsDialog.java,Cameron Browne,20191209-091024
+M,Common/res/lud/board/space/line/Spline.lud,Matthew.Stephenson,20191209-115848
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191209-115848
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191209-115848
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191209-115848
+M,AI/.classpath,DennisSoemers,20191209-150913
+M,Common/.classpath,DennisSoemers,20191209-150913
+A,Core/.classpath,DennisSoemers,20191209-150913
+A,Core/.gitignore,DennisSoemers,20191209-150913
+A,Core/.project,DennisSoemers,20191209-150913
+A,Core/.settings/.gitignore,DennisSoemers,20191209-150913
+A,Core/.settings/org.eclipse.core.resources.prefs,DennisSoemers,20191209-150913
+A,Core/.settings/org.eclipse.jdt.core.prefs,DennisSoemers,20191209-150913
+A,Core/build.xml,DennisSoemers,20191209-150913
+A,Core/lib/jfreesvg-3.4.jar,DennisSoemers,20191209-150913
+A,Core/src/.gitgnore,DennisSoemers,20191209-150913
+A,Core/src/game/.gitignore,DennisSoemers,20191209-150913
+A,Core/src/game/API.java,DennisSoemers,20191209-150913
+A,Core/src/game/Game.java,DennisSoemers,20191209-150913
+A,Core/src/game/Instance.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/.gitignore,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/Equipment.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/Item.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/component/Component.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/component/Piece.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/component/piece/CardFunctions.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/Container.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/Board.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/Boardless.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/CustomBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/DotBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/GraphBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/LimpingBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/ShibumiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/SpiraleBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/WheelBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/AgonBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ArimaaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/AshtapadaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/CamelotBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/CardBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/CastelloBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ChessBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/Connect4Board.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ConspirateursBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/GoBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/HalmaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/HexBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/HexYBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/HoundsAndJackalsBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/JungleBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/LascaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/LattaqueBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/MancalaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/MorrisBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/PachisiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/PeralikatumaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/PloyBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ReversiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ScriptaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/SenetBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/ShogiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/SnakesAndLaddersBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/SolitaireBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/StrategoBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/TaflBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/TwentySquaresBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/UrBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/custom/XiangqiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/Cut.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/CutAll.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/CutDiago.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/CutOrtho.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/JoinDiagonal.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/JoinOrthogonal.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/Modify.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/modify/Remove.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Cross.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Hexagon.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Rect.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Rhombus.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Shape.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/shape/Square.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/FlatTiling.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/Hexagonal.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/ShibumiSquare.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/ShibumiTiling.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/Square.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/board/tiling/Tiling.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/hand/Deck.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/hand/Deck32.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/hand/Deck52.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/hand/Dice.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/hand/Hand.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/DotBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/HashiBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/CompassDirection.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/Direction.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionCategory.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionChains.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionChoice.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionType.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionUniqueName.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/DirectionUtils.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/ShibumiDirection.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/Walk.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/container/tiling/directions/WheelDirection.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/other/Map.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/other/Regions.java,DennisSoemers,20191209-150913
+A,Core/src/game/equipment/other/Track.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/bitset/And.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/bitset/BitSetConstant.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/bitset/BitSetFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/bitset/Or.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Adjacent.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/AllDiceUsed.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/AllPass.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/BaseBooleanFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/BoolSurround.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/BooleanConstant.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/BooleanFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/CanMove.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Encircle.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Full.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Goal.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Group.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/If.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/In.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsCheckmate.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsEmpty.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsEnemy.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsFriend.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsFriendAt.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsGroupOne.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsLoop.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsMover.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsNext.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsOneGroup.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsOneGroupD.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsPending.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsPiece.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsPrev.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsState.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/IsZero.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Know.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Line.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/NotFalling.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/ReachedRegion.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Ring.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Stalemated.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Threatened.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/Visited.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/And.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Equal.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Even.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Ge.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Gt.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Le.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Lt.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Not.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/NotEqual.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Odd.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Or.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/math/Xor.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Connected.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Count.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Crossing.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/EqualParities.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/ForEach.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Mult.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Shape.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Solved.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Sum.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/booleans/puzzleConstraints/Unique.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/.gitignore,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Ahead.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/BaseIntFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/ColumnOf.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Count.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Counter.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/DieValue.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Dim.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Edge.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Face.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/ForwardOnTrack.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Freedom.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/From.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/GroupCount.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/GroupProduct.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/GroupSize.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Hand.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Height.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Hint.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/If.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/IndexOf.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/IntConstant.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/IntFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/LastEdgeMove.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/LastFromMove.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/LastToMove.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/LayerOf.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Level.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Map.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Middle.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Mover.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/NbMatch.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Next.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/NumPlayers.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/NumSites.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/PieceAt.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/PlayerTurn.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Previous.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/ReplayCount.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/RowOf.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Score.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/ScoreMatch.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/SetVar.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Size.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/State.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Step.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/SumDice.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Surrounded1.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/To.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/TopLevel.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Turn.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Value.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Var.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/What.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/Who.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/intArray/BaseIntArrayFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/intArray/IntArrayConstant.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/intArray/IntArrayFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Abs.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Add.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Div.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/If.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Max.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Min.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Mod.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Mul.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Pow.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/ints/math/Sub.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/other/Hint.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/other/Range.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/AllSites.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Around.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/BaseRegionFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/BorderRegion.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Bottom.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/CaptureSequence.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Centre.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Column.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/ConstraintRegion.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Corners.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Difference.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Empty.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Expand.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Hand.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Has.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/HintRegion.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/If.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/InDirection.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Inner.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Left.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/OccupiedBy.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Outer.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/OwnedBy.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Phase.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Playable.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Region.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/RegionConstant.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/RegionFunction.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Right.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Row.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Set.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Side.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/SitesOfState.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Top.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Union.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Used.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/Walk.java,DennisSoemers,20191209-150913
+A,Core/src/game/functions/region/WinningSites.java,DennisSoemers,20191209-150913
+A,Core/src/game/mode/.gitignore,DennisSoemers,20191209-150913
+A,Core/src/game/mode/Mode.java,DennisSoemers,20191209-150913
+A,Core/src/game/players/Player.java,DennisSoemers,20191209-150913
+A,Core/src/game/players/Players.java,DennisSoemers,20191209-150913
+A,Core/src/game/playout/AddToEmpty.java,DennisSoemers,20191209-150913
+A,Core/src/game/playout/ByPiecePlayout.java,DennisSoemers,20191209-150913
+A,Core/src/game/playout/CheckMovePlayout.java,DennisSoemers,20191209-150913
+A,Core/src/game/playout/Playout.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/Goto.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/Phase.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/Rule.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/Rules.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/end/ByScore.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/end/End.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/end/Result.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/end/ResultType.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/Play.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/And.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Attract.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/BaseMoves.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/BySite.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Checkmate.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Concatenate.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/CrossProduct.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Custodial.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/DirectionCapture.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Flip.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/ForDirn.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/ForEachDie.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/If.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/MaxDistance.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/MaxMoves.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/MoveAgain.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Moves.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/NotSameState.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Observe.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Or.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Pending.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Priority.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Remove.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Roll.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SetCount.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SetCounter.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SetOwner.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SetScore.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SetState.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Sow.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/StoreState.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Surrounded.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/SurroundedGroup.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/TakeControl.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/Then.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/ChangeDirection.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Constraints.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Hop.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Pass.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Promotion.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Shoot.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/play/moves/decision/To.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/Fill.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/FogOfWar.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/Hints.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/InitAmount.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/InitScore.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/Place.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/PlaceRandomly.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/Set.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/SetCount.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/SetTeam.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/SplitDeck.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/Start.java,DennisSoemers,20191209-150913
+A,Core/src/game/rules/start/StartRule.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/CaptureType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/CardType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/DiceType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/EdgeType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/GraphType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/PieceTileType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/PuzzleVariableType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/RegionTypeDynamic.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/RegionTypeStatic.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/RoleType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/ShapeType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/ShogiType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/StepType.java,DennisSoemers,20191209-150913
+A,Core/src/game/types/WalkType.java,DennisSoemers,20191209-150913
+A,Core/src/graph/AxisLabel.java,DennisSoemers,20191209-150913
+A,Core/src/graph/Edge.java,DennisSoemers,20191209-150913
+A,Core/src/graph/Face.java,DennisSoemers,20191209-150913
+A,Core/src/graph/Graph.java,DennisSoemers,20191209-150913
+A,Core/src/graph/RCL.java,DennisSoemers,20191209-150913
+A,Core/src/graph/SiteFinder.java,DennisSoemers,20191209-150913
+A,Core/src/graph/Vertex.java,DennisSoemers,20191209-150913
+A,Core/src/util/AI.java,DennisSoemers,20191209-150913
+A,Core/src/util/BaseCardImages.java,DennisSoemers,20191209-150913
+A,Core/src/util/BaseLudeme.java,DennisSoemers,20191209-150913
+A,Core/src/util/ContainerId.java,DennisSoemers,20191209-150913
+A,Core/src/util/Context.java,DennisSoemers,20191209-150913
+A,Core/src/util/FeatureSetInterface.java,DennisSoemers,20191209-150913
+A,Core/src/util/Ludeme.java,DennisSoemers,20191209-150913
+A,Core/src/util/Match.java,DennisSoemers,20191209-150913
+A,Core/src/util/MetadataFunctions.java,DennisSoemers,20191209-150913
+A,Core/src/util/Move.java,DennisSoemers,20191209-150913
+A,Core/src/util/MoveIntMapper.java,DennisSoemers,20191209-150913
+A,Core/src/util/MoveUtilities.java,DennisSoemers,20191209-150913
+A,Core/src/util/Owned.java,DennisSoemers,20191209-150913
+A,Core/src/util/Position.java,DennisSoemers,20191209-150913
+A,Core/src/util/Region.java,DennisSoemers,20191209-150913
+A,Core/src/util/Sites.java,DennisSoemers,20191209-150913
+A,Core/src/util/ThinkingThread.java,DennisSoemers,20191209-150913
+A,Core/src/util/Trial.java,DennisSoemers,20191209-150913
+A,Core/src/util/UnionFind.java,DennisSoemers,20191209-150913
+A,Core/src/util/UnionFindD.java,DennisSoemers,20191209-150913
+A,Core/src/util/UnionFindD2.java,DennisSoemers,20191209-150913
+A,Core/src/util/UnionInfo.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/Action.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionAdd.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionAddN.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionAmount.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionChangeRotation.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionChangeState.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionHidden.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionMove.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionMoveN.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionMoveRemove.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionMoveRotation.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionMoveState.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionPass.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionPending.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionPromote.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionReset.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionScore.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSelect.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSet.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSetCount.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSetCounter.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSetTemp.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionState.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionStoreState.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionSwap.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionTeam.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionToggle.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/ActionUseDie.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/BaseAction.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/Checkmate.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/Remove.java,DennisSoemers,20191209-150913
+A,Core/src/util/action/SetNextPlayer.java,DennisSoemers,20191209-150913
+A,Core/src/util/model/.gitignore,DennisSoemers,20191209-150913
+A,Core/src/util/model/AlternatingMove.java,DennisSoemers,20191209-150913
+A,Core/src/util/model/Model.java,DennisSoemers,20191209-150913
+A,Core/src/util/model/SimultaneousMove.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/GameType.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/State.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerStackingState/BaseContainerStateStacking.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerState/ContainerGraphState.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerState/ContainerState.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerState/ContainerStateFactory.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/puzzleState/PuzzleState.java,DennisSoemers,20191209-150913
+A,Core/src/util/state/puzzleState/PuzzleStateLarge.java,DennisSoemers,20191209-150913
+A,Core/src/util/zhash/HashedBitSet.java,DennisSoemers,20191209-150913
+A,Core/src/util/zhash/HashedChunkSet.java,DennisSoemers,20191209-150913
+A,Core/src/util/zhash/HashedChunkStack.java,DennisSoemers,20191209-150913
+A,Core/src/util/zhash/ZobristHashGenerator.java,DennisSoemers,20191209-150913
+A,Core/src/util/zhash/ZobristHashUtilities.java,DennisSoemers,20191209-150913
+M,Evaluation/.classpath,DennisSoemers,20191209-150913
+M,Features/.classpath,DennisSoemers,20191209-150913
+M,Grammar/.classpath,DennisSoemers,20191209-150913
+D,Library/.classpath,DennisSoemers,20191209-150913
+D,Library/.gitignore,DennisSoemers,20191209-150913
+D,Library/.project,DennisSoemers,20191209-150913
+D,Library/.settings/.gitignore,DennisSoemers,20191209-150913
+D,Library/.settings/org.eclipse.core.resources.prefs,DennisSoemers,20191209-150913
+D,Library/.settings/org.eclipse.jdt.core.prefs,DennisSoemers,20191209-150913
+D,Library/build.xml,DennisSoemers,20191209-150913
+D,Library/lib/jfreesvg-3.4.jar,DennisSoemers,20191209-150913
+D,Library/src/.gitgnore,DennisSoemers,20191209-150913
+D,Library/src/game/.gitignore,DennisSoemers,20191209-150913
+D,Library/src/game/API.java,DennisSoemers,20191209-150913
+D,Library/src/game/Game.java,DennisSoemers,20191209-150913
+D,Library/src/game/Instance.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/.gitignore,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/Equipment.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/Item.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/component/Component.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/component/Piece.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/component/piece/CardFunctions.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/Container.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/Board.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/Boardless.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/CustomBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/DotBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/GraphBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/LimpingBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/ShibumiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/SpiraleBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/WheelBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/AgonBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/AlquerqueBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ArimaaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/AshtapadaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/BackgammonBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/CamelotBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/CardBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/CastelloBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ChessBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/Connect4Board.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ConspirateursBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/GoBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/HalmaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/HexBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/HexYBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/HoundsAndJackalsBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/JungleBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/LascaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/LattaqueBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/MancalaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/MorrisBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/PachisiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/PeralikatumaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/PloyBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ReversiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ScriptaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/SenetBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/ShogiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/SnakesAndLaddersBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/SolitaireBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/StrategoBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/SurakartaBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/TaflBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/TwentySquaresBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/UrBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/custom/XiangqiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/Cut.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/CutAll.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/CutDiago.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/CutOrtho.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/JoinDiagonal.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/JoinOrthogonal.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/Modify.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/modify/Remove.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Cross.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Hexagon.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Rect.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Rhombus.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Shape.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/shape/Square.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/FlatTiling.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/Hexagonal.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/ShibumiSquare.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/ShibumiTiling.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/Square.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/board/tiling/Tiling.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/hand/Deck.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/hand/Deck32.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/hand/Deck52.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/hand/Dice.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/hand/Hand.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/CompassDirection.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/Direction.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionCategory.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionChains.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionType.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionUniqueName.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/DirectionUtils.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/ShibumiDirection.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/Walk.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/container/tiling/directions/WheelDirection.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/other/Map.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/other/Regions.java,DennisSoemers,20191209-150913
+D,Library/src/game/equipment/other/Track.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/bitset/And.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/bitset/BitSetConstant.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/bitset/BitSetFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/bitset/Or.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Adjacent.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/AllDiceUsed.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/AllPass.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/BaseBooleanFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/BoolSurround.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/BooleanConstant.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/BooleanFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/CanMove.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Encircle.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Full.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Goal.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Group.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/If.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/In.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsCheckmate.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsConnect.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsEmpty.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsEnemy.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsFriend.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsFriendAt.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsGroupOne.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsLoop.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsMover.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsNext.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsOneGroup.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsOneGroupD.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsPending.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsPiece.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsPrev.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsSingleGroup.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsState.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/IsZero.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Know.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Line.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/NotFalling.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/ReachedRegion.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Ring.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Stalemated.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Threatened.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/Visited.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/And.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Equal.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Even.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Ge.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Gt.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Le.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Lt.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Not.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/NotEqual.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Odd.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Or.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/math/Xor.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Count.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Crossing.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/.gitignore,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Ahead.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/BaseIntFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/ColumnOf.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Count.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Counter.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/DieValue.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Dim.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Edge.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Face.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/ForwardOnTrack.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Freedom.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/From.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/GroupCount.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/GroupProduct.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/GroupSize.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Hand.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Height.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Hint.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/If.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/IndexOf.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/IntConstant.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/IntFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/LastEdgeMove.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/LastFromMove.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/LastToMove.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/LayerOf.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Level.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Map.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Middle.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Mover.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/NbMatch.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Next.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/NumPlayers.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/NumSites.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/PieceAt.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/PlayerTurn.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Previous.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/ReplayCount.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/RowOf.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Score.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/ScoreMatch.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/SetVar.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Size.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/State.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Step.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/SumDice.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Surrounded1.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/To.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/TopLevel.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Turn.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Value.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Var.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/What.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/Who.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/intArray/BaseIntArrayFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/intArray/IntArrayConstant.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/intArray/IntArrayFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Abs.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Add.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Div.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/If.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Max.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Min.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Mod.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Mul.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Pow.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/ints/math/Sub.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/other/Hint.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/other/Range.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/AllSites.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Around.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/BaseRegionFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/BorderRegion.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Bottom.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/CaptureSequence.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Centre.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Column.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/ConstraintRegion.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Corners.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Difference.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Empty.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Expand.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Hand.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Has.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/HintRegion.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/If.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/InDirection.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Inner.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Left.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/OccupiedBy.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Outer.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/OwnedBy.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Phase.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Playable.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Region.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/RegionConstant.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/RegionFunction.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Right.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Row.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Set.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Side.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/SitesOfState.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Top.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Union.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Used.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/Walk.java,DennisSoemers,20191209-150913
+D,Library/src/game/functions/region/WinningSites.java,DennisSoemers,20191209-150913
+D,Library/src/game/mode/.gitignore,DennisSoemers,20191209-150913
+D,Library/src/game/mode/Mode.java,DennisSoemers,20191209-150913
+D,Library/src/game/players/Player.java,DennisSoemers,20191209-150913
+D,Library/src/game/players/Players.java,DennisSoemers,20191209-150913
+D,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20191209-150913
+D,Library/src/game/playout/ByPiecePlayout.java,DennisSoemers,20191209-150913
+D,Library/src/game/playout/CheckMovePlayout.java,DennisSoemers,20191209-150913
+D,Library/src/game/playout/Playout.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/Goto.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/Phase.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/Rule.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/Rules.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/end/ByScore.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/end/End.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/end/Result.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/end/ResultType.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/Play.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/And.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Attract.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/BaseMoves.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/BySite.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Checkmate.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Concatenate.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/CrossProduct.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Custodial.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/DirectionCapture.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Flip.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/ForDirn.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/ForEachDie.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/If.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/MaxDistance.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/MaxMoves.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/MoveAgain.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Moves.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/NotSameState.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Observe.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Or.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Pending.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Priority.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Remove.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Roll.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SetCount.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SetCounter.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SetOwner.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SetScore.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SetState.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Sow.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/StoreState.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Surrounded.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/SurroundedGroup.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/TakeControl.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/Then.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/ChangeDirection.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Constraints.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Hop.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Pass.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Promotion.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Shoot.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/play/moves/decision/To.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/Fill.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/FogOfWar.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/Hints.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/InitAmount.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/InitScore.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/Place.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/PlaceRandomly.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/Set.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/SetCount.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/SetTeam.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/SplitDeck.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/Start.java,DennisSoemers,20191209-150913
+D,Library/src/game/rules/start/StartRule.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/CaptureType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/CardType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/DiceType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/EdgeType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/GraphType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/PieceTileType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/PuzzleVariableType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/RegionTypeDynamic.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/RegionTypeStatic.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/RoleType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/ShapeType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/ShogiType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/StepType.java,DennisSoemers,20191209-150913
+D,Library/src/game/types/WalkType.java,DennisSoemers,20191209-150913
+D,Library/src/graph/AxisLabel.java,DennisSoemers,20191209-150913
+D,Library/src/graph/Edge.java,DennisSoemers,20191209-150913
+D,Library/src/graph/Face.java,DennisSoemers,20191209-150913
+D,Library/src/graph/Graph.java,DennisSoemers,20191209-150913
+D,Library/src/graph/RCL.java,DennisSoemers,20191209-150913
+D,Library/src/graph/SiteFinder.java,DennisSoemers,20191209-150913
+D,Library/src/graph/Vertex.java,DennisSoemers,20191209-150913
+D,Library/src/util/.DS_Store,DennisSoemers,20191209-150913
+D,Library/src/util/AI.java,DennisSoemers,20191209-150913
+D,Library/src/util/BaseCardImages.java,DennisSoemers,20191209-150913
+D,Library/src/util/BaseLudeme.java,DennisSoemers,20191209-150913
+D,Library/src/util/ContainerId.java,DennisSoemers,20191209-150913
+D,Library/src/util/Context.java,DennisSoemers,20191209-150913
+D,Library/src/util/FeatureSetInterface.java,DennisSoemers,20191209-150913
+D,Library/src/util/Ludeme.java,DennisSoemers,20191209-150913
+D,Library/src/util/Match.java,DennisSoemers,20191209-150913
+D,Library/src/util/MetadataFunctions.java,DennisSoemers,20191209-150913
+D,Library/src/util/Move.java,DennisSoemers,20191209-150913
+D,Library/src/util/MoveIntMapper.java,DennisSoemers,20191209-150913
+D,Library/src/util/MoveUtilities.java,DennisSoemers,20191209-150913
+D,Library/src/util/Owned.java,DennisSoemers,20191209-150913
+D,Library/src/util/Position.java,DennisSoemers,20191209-150913
+D,Library/src/util/Region.java,DennisSoemers,20191209-150913
+D,Library/src/util/Sites.java,DennisSoemers,20191209-150913
+D,Library/src/util/ThinkingThread.java,DennisSoemers,20191209-150913
+D,Library/src/util/Trial.java,DennisSoemers,20191209-150913
+D,Library/src/util/UnionFind.java,DennisSoemers,20191209-150913
+D,Library/src/util/UnionFindD.java,DennisSoemers,20191209-150913
+D,Library/src/util/UnionFindD2.java,DennisSoemers,20191209-150913
+D,Library/src/util/UnionInfo.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/Action.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionAdd.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionAddN.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionAmount.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionChangeRotation.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionChangeState.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionHidden.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionMove.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionMoveN.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionMoveRemove.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionMoveRotation.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionMoveState.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionPass.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionPending.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionPromote.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionReset.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionScore.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSelect.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSet.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSetCount.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSetCounter.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSetTemp.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionState.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionStoreState.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionSwap.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionTeam.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionToggle.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/ActionUseDie.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/BaseAction.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/Checkmate.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/Remove.java,DennisSoemers,20191209-150913
+D,Library/src/util/action/SetNextPlayer.java,DennisSoemers,20191209-150913
+D,Library/src/util/model/.gitignore,DennisSoemers,20191209-150913
+D,Library/src/util/model/AlternatingMove.java,DennisSoemers,20191209-150913
+D,Library/src/util/model/Model.java,DennisSoemers,20191209-150913
+D,Library/src/util/model/SimultaneousMove.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/GameType.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/State.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerState/ContainerGraphState.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerState/ContainerState.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerState/ContainerStateFactory.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/puzzleState/BaseContainerStatePuzzles.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/puzzleState/PuzzleState.java,DennisSoemers,20191209-150913
+D,Library/src/util/state/puzzleState/PuzzleStateLarge.java,DennisSoemers,20191209-150913
+D,Library/src/util/zhash/HashedBitSet.java,DennisSoemers,20191209-150913
+D,Library/src/util/zhash/HashedChunkSet.java,DennisSoemers,20191209-150913
+D,Library/src/util/zhash/HashedChunkStack.java,DennisSoemers,20191209-150913
+D,Library/src/util/zhash/ZobristHashGenerator.java,DennisSoemers,20191209-150913
+D,Library/src/util/zhash/ZobristHashUtilities.java,DennisSoemers,20191209-150913
+M,Player/.classpath,DennisSoemers,20191209-150913
+M,Common/.classpath,eric.piette,20191209-151548
+M,Player/.classpath,eric.piette,20191209-151548
+M,Common/.classpath,DennisSoemers,20191209-151907
+M,Player/.classpath,DennisSoemers,20191209-151907
+M,AI/build.xml,DennisSoemers,20191209-152529
+M,Common/build.xml,DennisSoemers,20191209-152529
+M,Core/build.xml,DennisSoemers,20191209-152529
+M,Evaluation/build.xml,DennisSoemers,20191209-152529
+M,Features/build.xml,DennisSoemers,20191209-152529
+M,Grammar/build.xml,DennisSoemers,20191209-152529
+M,Player/build.xml,DennisSoemers,20191209-152529
+M,Player/src/player/PlayerApp.java,DennisSoemers,20191209-153236
+M,Grammar/src/generator/Grammar.java,DennisSoemers,20191209-154316
+M,Core/src/game/equipment/container/board/tiling/ShibumiSquare.java,eric.piette,20191209-154351
+M,Core/src/game/equipment/container/tiling/directions/DirectionUniqueName.java,eric.piette,20191209-154351
+M,Core/src/game/equipment/container/tiling/directions/ShibumiDirection.java,eric.piette,20191209-154351
+M,Core/src/game/functions/booleans/NotFalling.java,eric.piette,20191209-154351
+M,Library/src/util/UnionFindD.java,Tahmina,20191209-154921
+M,Player/src/player/PlayerApp.java,Tahmina,20191209-154921
+M,Grammar/.classpath,eric.piette,20191209-155745
+M,Grammar/.settings/org.eclipse.jdt.core.prefs,eric.piette,20191209-155745
+M,Grammar/src/generator/Grammar.java,eric.piette,20191209-155745
+M,Core/src/game/Game.java,eric.piette,20191209-163347
+M,Core/src/game/rules/start/Place.java,eric.piette,20191209-163347
+M,Core/src/game/rules/start/Start.java,eric.piette,20191209-163347
+M,Core/src/util/action/ActionAddN.java,eric.piette,20191209-163347
+M,Core/src/util/state/containerStackingState/BaseContainerStateStacking.java,eric.piette,20191209-163347
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,eric.piette,20191209-163347
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,eric.piette,20191209-163347
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191209-174641
+A,Common/res/img/svg/animals/chicken-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/fish-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/fox-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/goose-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/jaguar-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/monkey-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/mouse-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/prawn-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/puma-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/rat-1.svg,Cameron Browne,20191210-003707
+A,Common/res/img/svg/animals/snake-1.svg,Cameron Browne,20191210-003707
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-091255
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-091715
+M,Common/res/lud/wip/War.lud,eric.piette,20191210-091942
+M,Common/src/main/ListStack.java,eric.piette,20191210-091942
+M,Core/src/game/rules/start/SplitDeck.java,eric.piette,20191210-091942
+M,Core/src/util/action/ActionMove.java,eric.piette,20191210-091942
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,eric.piette,20191210-091942
+A,Common/res/img/svg/checkers/checkers-test.svg,Cameron Browne,20191210-094120
+A,Common/res/img/svg/checkers/dame-old.svg,Cameron Browne,20191210-094120
+M,Common/res/img/svg/checkers/dame.svg,Cameron Browne,20191210-094120
+A,Common/res/img/svg/checkers/man-old.svg,Cameron Browne,20191210-094120
+M,Common/res/img/svg/checkers/man.svg,Cameron Browne,20191210-094120
+A,Common/res/img/svg/misc/pawn-nice.svg,Cameron Browne,20191210-094120
+M,Common/res/lud/wip/War.lud,eric.piette,20191210-094209
+M,Common/src/main/ListStack.java,eric.piette,20191210-094209
+A,Common/res/img/svg/checkers/manstar-old.svg,Cameron Browne,20191210-095204
+M,Common/res/img/svg/checkers/manstar.svg,Cameron Browne,20191210-095204
+M,Player/src/player/PlayerApp.java,Cameron Browne,20191210-095313
+M,Player/src/player/PlayerApp.java,Cameron Browne,20191210-095354
+M,Core/src/game/rules/play/moves/Observe.java,eric.piette,20191210-101358
+M,Core/src/util/action/ActionHidden.java,eric.piette,20191210-101358
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191210-101902
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-101902
+M,Player/src/player/GraphicsCache.java,Matthew.Stephenson,20191210-101902
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191210-101902
+A,AI/src/heuristics/OwnRegionsCount.java,Dennis Soemers,20191210-104412
+M,Core/src/game/functions/ints/Map.java,Dennis Soemers,20191210-104412
+M,Common/res/lud/wip/War.lud,eric.piette,20191210-104754
+M,Core/src/game/rules/play/moves/Observe.java,eric.piette,20191210-104754
+M,Core/src/util/action/ActionHidden.java,eric.piette,20191210-104754
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,eric.piette,20191210-104754
+M,Core/src/util/action/ActionHidden.java,eric.piette,20191210-105330
+M,Core/src/util/action/ActionHidden.java,eric.piette,20191210-105856
+M,Common/res/lud/wip/War.lud,eric.piette,20191210-110301
+M,Core/src/game/functions/ints/Value.java,eric.piette,20191210-110301
+M,AI/src/heuristics/OwnRegionsCount.java,Dennis Soemers,20191210-111218
+A,AI/src/heuristics/PlayerSiteMapCount.java,Dennis Soemers,20191210-111218
+M,Core/src/game/equipment/other/Map.java,Dennis Soemers,20191210-111218
+M,Core/src/game/functions/ints/Map.java,Dennis Soemers,20191210-111218
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20191210-112141
+M,Player/src/mainView/GameView.java,Cameron Browne,20191210-112141
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20191210-113251
+A,Common/res/img/svg/checkers/manstar-old-but-not-as-old.svg,Cameron Browne,20191210-114020
+M,Common/res/img/svg/checkers/manstar.svg,Cameron Browne,20191210-114020
+A,Core/src/game/functions/ints/GroupSizeUF.java,Tahmina,20191210-115036
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-115057
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-115057
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191210-115057
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191210-115057
+M,Player/src/player/Settings.java,Matthew.Stephenson,20191210-115057
+A,AI/src/heuristics/CentreProximity.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/CurrentMoverHeuristic.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/Material.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/MobilitySimple.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/OwnRegionsCount.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/PlayerRegionsProximity.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/PlayerSiteMapCount.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20191210-123313
+M,AI/src/heuristics/Score.java,Dennis Soemers,20191210-123313
+A,AI/src/heuristics/SidesProximity.java,Dennis Soemers,20191210-123313
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Dennis Soemers,20191210-123313
+M,Player/src/mainView/GameView.java,Matthew.Stephenson,20191210-125559
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-125559
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-125559
+A,Common/res/lud/card/War.lud,eric.piette,20191210-151606
+D,Common/res/lud/wip/War.lud,eric.piette,20191210-151606
+M,Common/res/lud/wip/Go.lud,eric.piette,20191210-152741
+M,Core/src/game/Game.java,Cameron Browne,20191210-154804
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20191210-154804
+M,Core/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Cameron Browne,20191210-154804
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Cameron Browne,20191210-154804
+M,Core/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20191210-154804
+M,Core/src/game/functions/booleans/puzzleConstraints/Count.java,Cameron Browne,20191210-154804
+M,Core/src/game/functions/booleans/puzzleConstraints/ForEach.java,Cameron Browne,20191210-154804
+M,Core/src/game/functions/booleans/puzzleConstraints/Shape.java,Cameron Browne,20191210-154804
+M,Core/src/game/functions/region/Empty.java,Cameron Browne,20191210-154804
+M,Core/src/game/functions/region/OccupiedBy.java,Cameron Browne,20191210-154804
+M,Core/src/game/rules/play/moves/SetOwner.java,Cameron Browne,20191210-154804
+M,Core/src/game/rules/play/moves/decision/Constraints.java,Cameron Browne,20191210-154804
+M,Core/src/game/rules/play/moves/decision/To.java,Cameron Browne,20191210-154804
+M,Core/src/game/rules/start/Hints.java,Cameron Browne,20191210-154804
+M,Core/src/game/rules/start/Set.java,Cameron Browne,20191210-154804
+A,Core/src/game/types/PuzzleElementType.java,Cameron Browne,20191210-154804
+D,Core/src/game/types/PuzzleVariableType.java,Cameron Browne,20191210-154804
+M,Core/src/util/Move.java,Cameron Browne,20191210-154804
+M,Core/src/util/action/ActionAdd.java,Cameron Browne,20191210-154804
+M,Core/src/util/action/ActionReset.java,Cameron Browne,20191210-154804
+M,Core/src/util/action/ActionSet.java,Cameron Browne,20191210-154804
+M,Core/src/util/action/ActionToggle.java,Cameron Browne,20191210-154804
+M,Core/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Cameron Browne,20191210-154804
+M,Core/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20191210-154804
+M,Core/src/util/state/puzzleState/PuzzleStateLarge.java,Cameron Browne,20191210-154804
+M,Player/src/mainView/MainView.java,Cameron Browne,20191210-154804
+M,Player/src/mainView/dialog/PuzzleDialog.java,Cameron Browne,20191210-154804
+M,Player/src/player/Referee.java,Cameron Browne,20191210-154804
+A,Common/res/lud/wip/Belote.lud,eric.piette,20191210-160318
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20191210-161315
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-161315
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-161315
+M,Player/src/player/JFrameList.java,Matthew.Stephenson,20191210-161315
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191210-161315
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191210-161315
+M,Core/src/game/rules/start/SplitDeck.java,eric.piette,20191210-161401
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-164026
+A,Common/res/lud/wip/LargePieceHandBUG.lud,eric.piette,20191210-164823
+A,Common/res/img/svg/animals/elephant-1.svg,Cameron Browne,20191210-165453
+A,Common/res/img/svg/animals/fox-2.svg,Cameron Browne,20191210-165453
+M,Core/src/util/action/ActionMove.java,eric.piette,20191210-165604
+A,Common/res/img/svg/animals/elephant-old.svg,Cameron Browne,20191210-170259
+M,Common/res/img/svg/animals/elephant.svg,Cameron Browne,20191210-170259
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-172927
+M,Common/res/lud/wip/Belote.lud,eric.piette,20191210-173041
+A,Core/src/game/rules/start/Deal.java,eric.piette,20191210-173041
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191210-173649
+M,Common/res/lud/wip/TestDeck.lud,eric.piette,20191210-174145
+M,Core/src/game/equipment/Equipment.java,eric.piette,20191210-174145
+M,Core/src/game/rules/start/Deal.java,eric.piette,20191210-174145
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-174932
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191210-174932
+M,Core/src/game/functions/ints/Freedom.java,Tahmina,20191210-175735
+M,Core/src/game/rules/play/moves/SurroundedGroup.java,Tahmina,20191210-175735
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-191500
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191210-203024
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191210-211552
+M,AI/src/heuristics/CentreProximity.java,Dennis Soemers,20191210-211653
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20191210-211653
+M,AI/src/heuristics/SidesProximity.java,Dennis Soemers,20191210-211653
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20191210-211653
+A,Player/test/ai/TestHeuristicStateValues.java,Dennis Soemers,20191210-211653
+M,AI/src/heuristics/CentreProximity.java,Dennis Soemers,20191210-212629
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20191210-212629
+M,AI/src/heuristics/PlayerRegionsProximity.java,Dennis Soemers,20191210-212629
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20191210-212629
+M,AI/src/heuristics/SidesProximity.java,Dennis Soemers,20191210-212629
+A,Common/res/img/svg/animals/fox-3.svg,Cameron Browne,20191211-000307
+A,Common/res/img/svg/animals/cat-old.svg,Cameron Browne,20191211-005719
+M,Common/res/img/svg/animals/cat.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/dog-2.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/dog-old.svg,Cameron Browne,20191211-005719
+M,Common/res/img/svg/animals/dog.svg,Cameron Browne,20191211-005719
+D,Common/res/img/svg/animals/fox-3.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/fox-old.svg,Cameron Browne,20191211-005719
+M,Common/res/img/svg/animals/fox.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/goat-1.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/rabbit-4.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/cat-1.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/dog-1.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/goat-2.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/goose-2.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/rabbit-3a.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/bad/wolf-1.svg,Cameron Browne,20191211-005719
+A,Common/res/img/svg/animals/camel-2.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/animals/dog-1.svg,Cameron Browne,20191211-021138
+D,Common/res/img/svg/animals/dog-2.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/animals/dog.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/animals/leopard-old.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/animals/leopard.svg,Cameron Browne,20191211-021138
+D,Common/res/img/svg/animals/rabbit-4.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/animals/rabbit-old.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/animals/rabbit.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/animals/rat-old.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/animals/rat.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/animals/tiger-old.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/animals/tiger.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/bad/lion-1.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/bad/lion-2.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/bad/tiger-1.svg,Cameron Browne,20191211-021138
+M,Common/res/img/svg/checkers/manstar.svg,Cameron Browne,20191211-021138
+A,Common/res/img/svg/checkers/manstarStacking.svg,Cameron Browne,20191211-021138
+M,Common/res/lud/board/displace/leaping/Lasca.lud,Cameron Browne,20191211-021138
+M,Player/src/player/Referee.java,Matthew.Stephenson,20191211-090519
+D,Common/res/img/svg/animals/chicken-1.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/chicken-old-old.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/chicken-old.svg,Cameron Browne,20191211-095801
+M,Common/res/img/svg/animals/chicken.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/dove.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/duck.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/eagle.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/goose-old.svg,Cameron Browne,20191211-095801
+M,Common/res/img/svg/animals/goose.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/lamb-old.svg,Cameron Browne,20191211-095801
+M,Common/res/img/svg/animals/lamb.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/animals/sheep-old.svg,Cameron Browne,20191211-095801
+M,Common/res/img/svg/animals/sheep.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/bad/horse-2.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/bad/penguin-1.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/bad/sheep-2.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/bad/sheep-2a.svg,Cameron Browne,20191211-095801
+A,Common/res/img/svg/bad/sheep-3.svg,Cameron Browne,20191211-095801

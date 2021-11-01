@@ -1,0 +1,216 @@
+M,Library/src/game/equipment/component/Component.java,Matthew,20191124-122349
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191124-131117
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20191124-131117
+M,Library/src/util/action/ActionAdd.java,eric.piette,20191124-131117
+M,Library/src/game/Game.java,eric.piette,20191124-143308
+M,Library/src/game/equipment/component/Component.java,eric.piette,20191124-143308
+M,Library/src/game/rules/play/moves/ForDirn.java,eric.piette,20191124-143308
+M,Library/src/game/rules/play/moves/ForEachDie.java,eric.piette,20191124-143308
+M,Library/src/util/state/State.java,eric.piette,20191124-143308
+D,Player/thumb-Taikyoku Shogi-a.png,eric.piette,20191124-143308
+D,Player/thumb-Taikyoku Shogi-b.png,eric.piette,20191124-143308
+M,Library/src/game/Game.java,eric.piette,20191124-164736
+M,Library/src/game/functions/booleans/IsEnemy.java,eric.piette,20191124-164736
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20191124-164736
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20191124-164736
+M,Library/src/game/rules/play/moves/decision/Leap.java,eric.piette,20191124-164736
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20191124-164736
+M,Library/src/game/rules/play/moves/decision/Step.java,eric.piette,20191124-164736
+M,Library/src/util/Context.java,eric.piette,20191124-164736
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191124-185741
+M,Library/src/util/Context.java,eric.piette,20191124-185741
+M,Library/src/util/state/State.java,eric.piette,20191124-185741
+M,Player/src/player/Referee.java,eric.piette,20191124-185741
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191124-193251
+M,Library/src/util/Context.java,eric.piette,20191124-193251
+M,Player/src/player/PlayerApp.java,eric.piette,20191124-193251
+M,Player/src/player/Referee.java,eric.piette,20191124-193251
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191124-202432
+M,Library/src/util/state/State.java,eric.piette,20191124-202432
+M,Player/src/player/Referee.java,eric.piette,20191124-202432
+A,Library/src/game/functions/ints/NbMatch.java,eric.piette,20191124-203827
+A,Library/src/game/functions/ints/ScoreMatch.java,eric.piette,20191124-203827
+M,Library/src/util/state/State.java,eric.piette,20191124-203827
+M,Player/src/player/Referee.java,eric.piette,20191124-203827
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191124-222328
+M,Library/src/game/Game.java,eric.piette,20191124-222328
+M,Library/src/game/Instance.java,eric.piette,20191124-222328
+M,Library/src/game/rules/end/End.java,eric.piette,20191124-222328
+M,Library/src/util/Trial.java,eric.piette,20191124-222328
+M,Library/src/util/state/State.java,eric.piette,20191124-222328
+M,Player/src/player/Referee.java,eric.piette,20191124-222328
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191124-224646
+M,Library/src/game/Instance.java,eric.piette,20191124-224646
+M,Library/src/util/Context.java,eric.piette,20191124-224646
+M,Player/src/player/Referee.java,eric.piette,20191124-224646
+M,Library/src/game/Game.java,eric.piette,20191125-002030
+M,Common/res/lud/board/chase/hunt/Komikan.lud,eric.piette,20191125-002746
+M,Library/src/game/equipment/container/board/custom/PachisiBoard.java,Cameron Browne,20191125-013339
+M,Player/src/player/MainMenu.java,Cameron Browne,20191125-013339
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191125-090525
+M,Common/src/main/Global.java,Matthew.Stephenson,20191125-090525
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Matthew.Stephenson,20191125-090525
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20191125-090525
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191125-090525
+M,Library/src/game/equipment/component/Component.java,Coen,20191125-091226
+M,Player/src/mainView/GameView.java,Coen,20191125-091226
+M,Player/src/mainView/panel/PlayerPanel.java,Coen,20191125-091226
+M,Player/src/player/PieceGraphics.java,Coen,20191125-091226
+M,Player/src/player/PlayerApp.java,Coen,20191125-091226
+M,Player/src/player/PieceGraphics.java,Matthew.Stephenson,20191125-091239
+D,Common/res/lud/board/chase/hunt/Wolf And Sheep.lud,DennisSoemers,20191125-091908
+A,Common/res/lud/board/chase/hunt/Wolf and Sheep.lud,DennisSoemers,20191125-091908
+D,Common/res/lud/mathematical/Nim.lud,DennisSoemers,20191125-091908
+A,Common/res/lud/mathematical/nimlike/Nim.lud,DennisSoemers,20191125-091908
+M,Player/src/player/Referee.java,eric.piette,20191125-092357
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191125-093142
+M,Common/src/main/Global.java,Matthew.Stephenson,20191125-093142
+D,Common/res/lud/board/chase/hunt/Wolf and Sheep.lud,Matthew.Stephenson,20191125-093239
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191125-093239
+M,Player/src/mainView/MainView.java,Cameron Browne,20191125-093304
+M,Player/src/player/PlayerApp.java,Cameron Browne,20191125-093304
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191125-093315
+M,Player/src/mainView/MainView.java,Cameron Browne,20191125-093415
+M,Player/src/player/PlayerApp.java,Cameron Browne,20191125-093415
+M,Common/src/graphics/svg/SVGLoader.java,Matthew.Stephenson,20191125-093548
+D,Common/res/lud/board/chase/hunt/Wolf And Sheep.lud,Coen,20191125-095513
+D,Common/res/lud/mathematical/Nim.lud,Coen,20191125-095513
+A,Common/res/lud/mathematical/nimlike/Nim.lud,Coen,20191125-095513
+M,Common/src/graphics/ImageProcessing.java,Coen,20191125-095513
+M,Common/src/graphics/svg/SVGLoader.java,Coen,20191125-095513
+M,Common/src/main/Global.java,Coen,20191125-095513
+M,Library/src/game/equipment/component/Component.java,Coen,20191125-095513
+M,Player/src/mainView/GameView.java,Coen,20191125-095513
+M,Player/src/mainView/MainView.java,Coen,20191125-095513
+M,Player/src/mainView/dialog/PossibleMovesDialog.java,Coen,20191125-095513
+M,Player/src/mainView/dialog/PuzzleDialog.java,Coen,20191125-095513
+M,Player/src/mainView/dialog/SandboxDialog.java,Coen,20191125-095513
+M,Player/src/player/PieceGraphics.java,Coen,20191125-095513
+M,Player/src/player/PlayerApp.java,Coen,20191125-095513
+M,Player/src/player/Referee.java,Coen,20191125-095513
+M,Common/res/lud/board/space/blocking/Mu-Torere.lud,Cameron Browne,20191125-101611
+A,Common/res/lud/board/space/blocking/Mu Torere.lud,Cameron Browne,20191125-101757
+D,Common/res/lud/board/space/blocking/Mu-Torere.lud,Cameron Browne,20191125-101757
+M,Library/src/game/equipment/component/Component.java,Coen,20191125-103342
+M,Library/src/game/Game.java,eric.piette,20191125-141132
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191125-154620
+M,Player/src/player/MainMenu.java,eric.piette,20191125-155054
+M,Common/res/lud/board/displace/chesslike/Hasami Shogi.lud,eric.piette,20191125-155116
+M,Library/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20191125-155829
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20191125-161410
+M,Library/src/game/equipment/component/Component.java,DennisSoemers,20191125-162534
+M,Library/src/game/functions/booleans/Threatened.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/And.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/BaseMoves.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/ByPiece.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/BySite.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Checkmate.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Concatenate.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/CrossProduct.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Custodial.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/DirectionCapture.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Flip.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/ForDirn.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/ForEachDie.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/If.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/MaxMoves.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/MoveAgain.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Moves.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/NotSameState.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Observe.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Or.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Pending.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Priority.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Remove.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Roll.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/SetCount.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/SetCounter.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/SetOwner.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/SetScore.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/SetState.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Sow.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/StoreState.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/Surrounded.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/TakeControl.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/ChangeDirection.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Constraints.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Hop.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Pass.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Promotion.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Select.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Shoot.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Slide.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Step.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/To.java,DennisSoemers,20191125-162534
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20191125-162906
+M,Common/res/lud/board/displace/leaping/Tuknanavuhpi.lud,eric.piette,20191125-170236
+A,Library/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,eric.piette,20191125-170236
+M,Common/res/lud/board/space/line/Picaria.lud,eric.piette,20191125-171104
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20191125-171418
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20191125-171418
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191125-171418
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20191125-172003
+M,Common/res/lud/wip/Wheel test - 3.lud,Matthew Stephenson,20191125-173025
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew Stephenson,20191125-173025
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Dennis Soemers,20191125-173854
+M,Library/src/game/rules/play/moves/decision/Slide.java,Dennis Soemers,20191125-173854
+M,Library/src/game/rules/play/moves/decision/Step.java,Dennis Soemers,20191125-173854
+M,Library/src/game/rules/play/moves/ByPiece.java,Dennis Soemers,20191125-175734
+M,Library/src/game/rules/play/moves/ForDirn.java,Dennis Soemers,20191125-175734
+M,Library/src/game/equipment/container/board/WheelBoard.java,eric.piette,20191125-220030
+A,Common/res/lud/board/displace/leaping/Kharbaga.lud,eric.piette,20191125-232553
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20191125-232616
+M,Common/res/lud/board/space/blocking/French Military Game.lud,eric.piette,20191125-233957
+A,Common/res/lud/wip/Agon.lud,eric.piette,20191125-235841
+A,Common/res/lud/wip/Castello.lud,eric.piette,20191126-000849
+A,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-001631
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191126-084001
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191126-084001
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew Stephenson,20191126-084439
+M,Common/res/lud/wip/Agon.lud,Matthew Stephenson,20191126-090731
+A,Library/src/game/equipment/container/board/custom/AgonBoard.java,Matthew Stephenson,20191126-090731
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191126-090731
+M,Common/res/lud/board/displace/chesslike/Chess.lud,eric.piette,20191126-094216
+A,Common/res/img/svg/misc/castle.svg,Matthew Stephenson,20191126-095347
+M,Common/res/lud/wip/Castello.lud,Matthew Stephenson,20191126-095347
+A,Library/src/game/equipment/container/board/custom/CastelloBoard.java,Matthew Stephenson,20191126-095347
+M,Library/src/game/equipment/container/board/custom/TaflBoard.java,Matthew Stephenson,20191126-095347
+M,Common/res/lud/board/displace/chesslike/Chess.lud,eric.piette,20191126-095922
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-101024
+M,Library/src/game/equipment/container/board/custom/ChessBoard.java,eric.piette,20191126-101024
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-103100
+A,Common/res/img/svg/misc/star.svg,Matthew Stephenson,20191126-103818
+A,Common/res/img/svg/misc/starOutline.svg,Matthew Stephenson,20191126-103818
+M,Common/res/lud/wip/Camelot.lud,Matthew Stephenson,20191126-103818
+M,Library/src/game/equipment/component/Component.java,Matthew Stephenson,20191126-103818
+M,Library/src/game/equipment/container/board/Boardless.java,Matthew Stephenson,20191126-103818
+A,Library/src/game/equipment/container/board/custom/CamelotBoard.java,Matthew Stephenson,20191126-103818
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew Stephenson,20191126-103818
+M,Player/src/mainView/GameView.java,Matthew Stephenson,20191126-103818
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191126-103818
+M,Library/src/game/equipment/container/board/custom/AgonBoard.java,Matthew Stephenson,20191126-104204
+M,Library/src/game/equipment/container/board/custom/CamelotBoard.java,Matthew Stephenson,20191126-104204
+M,Library/src/game/equipment/container/board/custom/CamelotBoard.java,Matthew Stephenson,20191126-104320
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-104935
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-105109
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-105352
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20191126-105645
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20191126-110201
+A,Library/src/game/playout/CheckMovePlayout.java,DennisSoemers,20191126-110348
+M,Library/src/game/rules/play/moves/CheckMove.java,DennisSoemers,20191126-110348
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-110603
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20191126-111336
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191126-111834
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-113955
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-114344
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-114527
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191126-115320
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20191126-115320
+M,Common/res/lud/wip/Camelot.lud,eric.piette,20191126-115753
+M,Library/src/util/state/containerState/ContainerGraphState.java,DennisSoemers,20191126-121128
+M,Library/src/util/state/containerState/ContainerStateFactory.java,DennisSoemers,20191126-121128
+M,Library/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191126-121128
+M,Library/src/util/zhash/HashedChunkSet.java,DennisSoemers,20191126-121128

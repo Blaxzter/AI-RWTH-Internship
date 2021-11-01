@@ -1,0 +1,103 @@
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200104-113005
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200104-113314
+M,Core/src/game/equipment/container/board/custom/ShogiBoard.java,Matthew.Stephenson,20200104-115022
+D,Common/res/img/KnightQueen.png,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/bad/mannx.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/cards/card-joker-a.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/cards/card-joker-b.svg,Matthew.Stephenson,20200104-123321
+A,Common/res/img/svg/cards/card-joker.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/misc/pawn-nice.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/0B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/1B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/2B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/3B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/4B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/5B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/6B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/7B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/8B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/numbers/9B.svg,Matthew.Stephenson,20200104-123321
+D,Common/res/img/svg/animals/tocheck/coyote-3.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/animals/tocheck/ox-1.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/animals/tocheck/pig.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/animals/tocheck/rooster.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/animals/tocheck/tiger-1.svg,Matthew.Stephenson,20200104-124136
+A,Common/res/img/svg/bad/coyote-3.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/bad/mann-1.svg,Matthew.Stephenson,20200104-124136
+D,Common/res/img/svg/bad/mann-1a.svg,Matthew.Stephenson,20200104-124136
+A,Common/res/img/svg/bad/ox-1.svg,Matthew.Stephenson,20200104-124136
+A,Common/res/img/svg/bad/pig.svg,Matthew.Stephenson,20200104-124136
+A,Common/res/img/svg/bad/rooster.svg,Matthew.Stephenson,20200104-124136
+M,Common/res/img/svg/bad/tiger-1.svg,Matthew.Stephenson,20200104-124136
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,Matthew.Stephenson,20200104-124136
+M,Common/res/img/svg/misc/cross.svg,Cameron Browne,20200104-231109
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20200104-231109
+M,Common/res/img/svg/misc/star.svg,Cameron Browne,20200104-231835
+M,Common/res/img/svg/misc/paddle.svg,Cameron Browne,20200104-232305
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20200104-232305
+M,AI/src/heuristics/PlayerSiteMapCount.java,Dennis Soemers,20200105-121742
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20200105-121742
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200105-121742
+M,AI/src/utils/AIFactory.java,Dennis Soemers,20200105-121742
+M,Common/src/main/StringRoutines.java,Dennis Soemers,20200105-121742
+A,Common/src/main/UnixPrintWriter.java,Dennis Soemers,20200105-121742
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20200105-121742
+M,Player/src/player/experiments/eval/EvalAgents.java,Dennis Soemers,20200105-121742
+A,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200105-121742
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200105-135411
+M,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20200105-141033
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20200105-141033
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Matthew.Stephenson,20200105-141429
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200105-142023
+M,Core/src/game/rules/start/SetCount.java,Dennis Soemers,20200105-142023
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200105-163055
+M,Core/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20200105-164902
+M,Core/src/game/functions/booleans/IsConnect.java,Dennis Soemers,20200105-175935
+M,Core/src/util/UnionFind.java,Dennis Soemers,20200105-185807
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,eric.piette,20200105-200358
+M,Common/res/lud/puzzle/deduction/Takuzu.lud,eric.piette,20200105-202231
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew.Stephenson,20200106-090242
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200106-092823
+M,Common/res/lud/wip/TestMatch.lud,eric.piette,20200106-094731
+M,Core/src/game/rules/play/moves/decision/Hop.java,eric.piette,20200106-094731
+M,Common/res/lud/board/space/line/Connect 4.lud,eric.piette,20200106-101531
+M,Core/src/game/rules/play/moves/SurroundedGroup.java,eric.piette,20200106-101531
+M,Core/src/game/rules/play/moves/decision/To.java,eric.piette,20200106-101531
+M,Player/test/games/TestTrialsIntegrity.java,eric.piette,20200106-101531
+M,Common/res/lud/mathematical/nim/Nim.lud,eric.piette,20200106-101758
+M,AI/src/heuristics/PlayerSiteMapCount.java,eric.piette,20200106-104137
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,eric.piette,20200106-104137
+M,Core/src/game/equipment/other/Map.java,eric.piette,20200106-104137
+M,Core/src/game/functions/ints/Map.java,eric.piette,20200106-104137
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20200106-104524
+A,Player/src/player/experiments/debugging/FindCrashingTrial.java,DennisSoemers,20200106-104524
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200106-105828
+A,Core/src/game/equipment/component/Die.java,eric.piette,20200106-105828
+M,Core/src/game/equipment/component/Piece.java,eric.piette,20200106-105828
+M,Core/src/game/equipment/container/hand/Deck32.java,eric.piette,20200106-105828
+M,Core/src/game/equipment/container/hand/Deck52.java,eric.piette,20200106-105828
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,eric.piette,20200106-105828
+M,Player/src/player/PlayerApp.java,eric.piette,20200106-105828
+M,Player/src/player/PlayerApp.java,DennisSoemers,20200106-110704
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200106-110958
+M,Player/src/mainView/button/ButtonBack.java,Matthew.Stephenson,20200106-110958
+M,Player/src/mainView/button/ButtonEnd.java,Matthew.Stephenson,20200106-110958
+M,Player/src/mainView/button/ButtonForward.java,Matthew.Stephenson,20200106-110958
+M,Player/src/mainView/button/ButtonStart.java,Matthew.Stephenson,20200106-110958
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200106-110958
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200106-110958
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200106-111044
+A,Core/src/game/equipment/component/Card.java,eric.piette,20200106-111044
+M,Core/src/game/equipment/component/Die.java,eric.piette,20200106-111044
+M,Core/src/game/equipment/component/Piece.java,eric.piette,20200106-111044
+M,Core/src/game/equipment/container/hand/Deck32.java,eric.piette,20200106-111044
+M,Core/src/game/equipment/container/hand/Deck52.java,eric.piette,20200106-111044
+M,Player/src/mainView/dialog/SVGLoaderDialog.java,eric.piette,20200106-111044
+M,Player/src/player/PlayerApp.java,eric.piette,20200106-111044
+M,Player/src/player/PlayerApp.java,eric.piette,20200106-111258
+M,Common/res/lud/wip/TestMatch.lud,eric.piette,20200106-111959
+M,Core/src/game/Game.java,eric.piette,20200106-111959
+M,Player/src/player/PlayerApp.java,DennisSoemers,20200106-112447
+M,Common/res/lud/board/space/group/Omega.lud,eric.piette,20200106-112618
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200106-112641
+A,Common/res/lud/wip/Omega with Alias.lud,eric.piette,20200106-112749

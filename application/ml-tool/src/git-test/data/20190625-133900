@@ -1,0 +1,205 @@
+M,Library/src/game/Game.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/FutoshikiBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/NonogramBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/RegionPuzzleBoard.java,eric.piette,20190623-133613
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190623-133613
+A,Library/src/game/equipment/other/Regions.java,eric.piette,20190623-133613
+A,Library/src/game/equipment/other/Track.java,eric.piette,20190623-133613
+D,Library/src/game/equipment/others/Regions.java,eric.piette,20190623-133613
+D,Library/src/game/equipment/others/Track.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/Connect.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20190623-133613
+M,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,eric.piette,20190623-133613
+M,Library/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20190623-133613
+D,Library/src/game/functions/misc/Hint.java,eric.piette,20190623-133613
+D,Library/src/game/functions/misc/Values.java,eric.piette,20190623-133613
+A,Library/src/game/functions/other/Hint.java,eric.piette,20190623-133613
+A,Library/src/game/functions/other/Values.java,eric.piette,20190623-133613
+M,Library/src/game/rules/play/moves/Sow.java,eric.piette,20190623-133613
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190623-133613
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190623-133613
+M,Library/src/util/Context.java,eric.piette,20190623-133613
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190623-133613
+M,Player/src/player/MainMenu.java,eric.piette,20190623-133613
+M,Library/src/util/Move.java,Dennis Soemers,20190623-161419
+M,Common/lud/puzzle/deductive puzzle/Slitherlink.lud,Lianne.Hufkens,20190623-165335
+M,Common/lud/puzzle/deductive puzzle/Juosan.lud,Lianne.Hufkens,20190623-165358
+M,Library/src/util/Move.java,Dennis Soemers,20190623-170124
+D,Common/lib/args4j-2.33-sources.jar,Dennis Soemers,20190623-194342
+D,Common/lib/args4j-2.33.jar,Dennis Soemers,20190623-194342
+M,Common/src/main/ArgParse.java,Dennis Soemers,20190623-194342
+M,Player/.classpath,Dennis Soemers,20190623-194342
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190623-194342
+M,Common/lud/Reversi.lud,eric.piette,20190623-202154
+A,Library/src/game/rules/start/InitScore.java,eric.piette,20190623-202154
+M,Common/src/main/ArgParse.java,Dennis Soemers,20190623-203142
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190623-203142
+M,Library/src/util/state/State.java,Dennis Soemers,20190623-203518
+M,Common/src/main/ArgParse.java,Dennis Soemers,20190623-212153
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Cameron Browne,20190624-033225
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Cameron Browne,20190624-033417
+M,Library/src/util/state/State.java,Cameron Browne,20190624-070257
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190624-070257
+M,Common/src/main/Global.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/board/Boardless.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/board/MancalaBoard.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/puzzleBoard/NonogramBoard.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Cameron Browne,20190624-075424
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20190624-075424
+M,Library/src/ui/GameView.java,Cameron Browne,20190624-075424
+M,Library/src/util/state/State.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/MainView.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonBack.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonEnd.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonForward.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonInfo.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonPass.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonPlayPause.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonRestart.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonSettings.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonStart.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/button/ButtonUndo.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/dialog/SettingsDialog.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/TabPage.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/TabSet.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/ToolPanel.java,Cameron Browne,20190624-075424
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190624-075424
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190624-080231
+M,Library/src/ui/GameView.java,Cameron Browne,20190624-085024
+M,Player/src/mainView/MainView.java,Cameron Browne,20190624-085024
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190624-085024
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190624-085024
+M,Player/src/mainView/panel/ViewPanel.java,Cameron Browne,20190624-085024
+M,Library/src/ui/GameView.java,Cameron Browne,20190624-092509
+M,Player/src/mainView/MainView.java,Cameron Browne,20190624-092509
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190624-092509
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Matthew.Stephenson,20190624-095300
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190624-100318
+M,Common/src/main/Global.java,Matthew.Stephenson,20190624-100643
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190624-100643
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190624-100643
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190624-101535
+M,Common/lud/hidden/Sneakthrough.lud,eric.piette,20190624-103455
+M,Library/src/game/rules/play/moves/Moves.java,eric.piette,20190624-103455
+M,Library/src/util/Move.java,eric.piette,20190624-103455
+M,Library/src/game/Game.java,eric.piette,20190624-103508
+M,Common/src/main/ArgParse.java,DennisSoemers,20190624-104343
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190624-105411
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190624-105411
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190624-110330
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190624-110425
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190624-115527
+M,Common/src/main/ArgParse.java,DennisSoemers,20190624-120507
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190624-120507
+M,Common/lud/puzzle/deductive puzzle/Fill A Pix.lud,eric.piette,20190624-121225
+M,Common/lud/hidden/Sneakthrough.lud,eric.piette,20190624-121801
+M,Library/src/game/equipment/component/piece/Disc.java,eric.piette,20190624-121801
+A,Library/src/game/equipment/component/piece/PieceState.java,eric.piette,20190624-121801
+M,Library/src/game/rules/play/moves/Observe.java,eric.piette,20190624-121801
+A,Library/src/game/rules/start/FogOfWar.java,eric.piette,20190624-121801
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190624-121801
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190624-121801
+A,Library/src/util/action/ActionHidden.java,eric.piette,20190624-121801
+D,Library/src/util/action/ActionObserve.java,eric.piette,20190624-121801
+M,Library/src/util/action/ActionMove.java,eric.piette,20190624-123025
+M,Common/src/main/ArgParse.java,DennisSoemers,20190624-134950
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190624-134950
+D,Common/lud/cards/Test Card 2P.lud,Matthew.Stephenson,20190624-140330
+D,Common/lud/cards/Test Card 4P.lud,Matthew.Stephenson,20190624-140330
+A,Common/lud/cards/Test Card.lud,Matthew.Stephenson,20190624-140330
+A,Library/src/game/equipment/container/board/CardBoard.java,Matthew.Stephenson,20190624-140330
+M,Library/src/game/equipment/container/board/WheelBoard.java,Matthew.Stephenson,20190624-140330
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20190624-140330
+M,Library/src/game/equipment/component/piece/PieceState.java,eric.piette,20190624-141149
+M,Library/src/game/Game.java,eric.piette,20190624-141535
+M,Library/src/game/Game.java,eric.piette,20190624-142203
+M,Library/src/game/equipment/component/piece/PieceState.java,eric.piette,20190624-142203
+M,Library/src/util/state/State.java,eric.piette,20190624-142203
+M,Common/lud/Reversi.lud,eric.piette,20190624-145753
+M,Library/src/game/rules/start/Place.java,eric.piette,20190624-145753
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190624-145753
+M,Library/src/util/state/State.java,eric.piette,20190624-145753
+M,Library/src/util/state/containerState/ContainerStateState.java,eric.piette,20190624-145753
+M,Common/lud/Reversi.lud,eric.piette,20190624-151237
+M,Library/src/game/functions/region/EdgeVertex.java,eric.piette,20190624-151237
+M,Library/src/game/functions/region/Own.java,eric.piette,20190624-151237
+A,Library/src/game/functions/region/StateRegion.java,eric.piette,20190624-151237
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190624-151919
+M,Library/src/util/action/ActionMove.java,DennisSoemers,20190624-153953
+M,Library/src/game/functions/booleans/IsPiece.java,eric.piette,20190624-155654
+A,Library/src/game/functions/booleans/IsState.java,eric.piette,20190624-155654
+M,Common/lud/Reversi.lud,eric.piette,20190624-155927
+M,Common/lud/Reversi.lud,eric.piette,20190624-161748
+M,Library/src/game/Game.java,eric.piette,20190624-161748
+M,Library/src/game/functions/region/StateRegion.java,eric.piette,20190624-161748
+M,Library/src/game/rules/play/moves/decision/To.java,eric.piette,20190624-161748
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190624-161748
+M,Common/lud/Reversi.lud,matthew,20190624-161810
+M,Common/lud/Tic-Tac-Toe.lud,matthew,20190624-161810
+M,Library/.classpath,matthew,20190624-161810
+M,Library/src/game/Game.java,matthew,20190624-161810
+D,Library/src/game/equipment/component/piece/PieceState.java,matthew,20190624-161810
+A,Library/src/game/equipment/component/piece/state/FlipDisc.java,matthew,20190624-161810
+M,Library/src/game/equipment/component/piece/state/PieceState.java,matthew,20190624-161810
+D,Library/src/game/equipment/component/piece/state/PieceStateSide.java,matthew,20190624-161810
+M,Common/lud/Reversi.lud,matthew,20190624-164332
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,matthew,20190624-164332
+M,Library/src/game/equipment/component/piece/state/PieceState.java,matthew,20190624-164332
+M,Library/src/ui/GameView.java,matthew,20190624-164332
+M,Common/lud/Reversi.lud,eric.piette,20190624-165123
+M,Library/src/game/functions/ints/State.java,eric.piette,20190624-165308
+M,Common/lud/Reversi.lud,eric.piette,20190624-170559
+A,Library/src/game/rules/play/moves/Flip.java,eric.piette,20190624-170559
+A,Library/src/util/action/ActionState.java,eric.piette,20190624-170559
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,eric.piette,20190624-171934
+M,Library/src/game/equipment/component/piece/state/PieceState.java,eric.piette,20190624-171934
+M,AI/src/utils/ExperimentFileUtils.java,Dennis Soemers,20190624-214744
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20190624-214744
+M,Player/src/player/experiments/utils/InterruptableExperiment.java,Dennis Soemers,20190624-214744
+M,Player/src/mainView/MainView.java,Cameron Browne,20190625-084033
+M,Library/src/game/equipment/component/Component.java,matthew,20190625-084942
+M,Common/lud/puzzle/deductive puzzle/Slitherlink.lud,Cameron Browne,20190625-090031
+M,Player/src/mainView/MainView.java,matthew,20190625-090421
+M,Common/lud/Reversi.lud,eric.piette,20190625-091008
+M,Library/src/game/rules/start/Place.java,eric.piette,20190625-091008
+M,Common/lud/Reversi.lud,eric.piette,20190625-091335
+M,Library/src/game/rules/play/moves/Flip.java,eric.piette,20190625-091335
+M,Common/lud/cards/Test Card.lud,eric.piette,20190625-091914
+M,Player/src/mainView/panel/StatePanel.java,matthew,20190625-093138
+M,Player/src/player/MainMenu.java,matthew,20190625-093138
+M,Player/src/mainView/MainView.java,Lianne.Hufkens,20190625-095042
+M,Common/lud/cards/Test Card Solitaire.lud,matthew,20190625-100013
+M,Common/src/main/Global.java,matthew,20190625-100013
+M,Library/src/game/equipment/container/board/Board.java,matthew,20190625-100013
+M,Library/src/game/equipment/container/board/GraphBoard.java,matthew,20190625-100013
+A,Library/src/game/equipment/container/board/SolitaireBoard.java,matthew,20190625-100013
+M,Library/src/ui/GameView.java,matthew,20190625-100013
+M,Library/src/game/equipment/component/Component.java,matthew,20190625-100514
+M,Library/src/game/equipment/component/card/Card.java,matthew,20190625-100514
+D,Library/src/game/rules/play/moves/Promotion.java,eric.piette,20190625-103149
+A,Library/src/game/rules/play/moves/decision/Promotion.java,eric.piette,20190625-103149
+M,Common/lud/Chess (Skirmish).lud,eric.piette,20190625-105810
+M,Library/src/game/rules/play/moves/decision/Promotion.java,eric.piette,20190625-105810
+M,Library/src/game/rules/play/moves/decision/Promotion.java,eric.piette,20190625-113220
+A,Library/src/util/action/ActionPromote.java,eric.piette,20190625-113220
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190625-123241
+M,Features/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20190625-123241
+M,Player/src/player/experiments/old/TestExpertIteration.java,DennisSoemers,20190625-123241
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190625-123241
+M,Library/src/util/action/ActionPromote.java,matthew,20190625-133900
+M,Player/src/mainView/MainView.java,matthew,20190625-133900
+A,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190625-133900

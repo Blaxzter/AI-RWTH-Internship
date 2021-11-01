@@ -1,0 +1,46 @@
+M,Library/src/game/equipment/component/piece/state/LargePiece.java,Eric.Piette,20181220-095927
+M,Library/src/util/action/ActionAddN.java,Eric.Piette,20181220-095927
+M,Library/src/util/action/ActionMove.java,Eric.Piette,20181220-095927
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20181220-100302
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20181220-100302
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20181220-100302
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20181220-105118
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20181220-110207
+M,Library/src/game/Game.java,DennisSoemers,20181220-111348
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20181220-113202
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20181220-113202
+A,AI/src/utils/ExperimentFileUtils.java,DennisSoemers,20181220-113202
+M,Player/src/player/experiments/RunTournament.java,DennisSoemers,20181220-113202
+M,Player/src/player/experiments/TestExpertIteration.java,DennisSoemers,20181220-113202
+D,Player/src/player/experiments/utils/ExperimentFileUtils.java,DennisSoemers,20181220-113202
+M,Library/src/game/Game.java,Eric Piette,20181220-153459
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexCountState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerIndexState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainer/ItemStateContainerState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessIndexState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainerBoardless/ItemStateContainerBoardlessState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexCountState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenIndexState.java,Eric Piette,20181220-154016
+M,Library/src/util/state/ItemStateContainerHidden/ItemStateContainerHiddenState.java,Eric Piette,20181220-154016
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Eric Piette,20181220-154127
+M,Library/src/game/rules/moves/FromTo.java,Eric Piette,20181220-154127
+M,Library/src/ui/GameView.java,Eric Piette,20181220-154127
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181220-154127
+M,Library/src/util/action/ActionMove.java,Eric Piette,20181220-154127
+A,Library/src/util/action/ActionMoveState.java,Eric Piette,20181220-154127
+A,DiagnosticsPy/experiments/expert_iteration/plot_kl_divergences.py,DennisSoemers,20181220-160843
+A,DiagnosticsPy/experiments/expert_iteration/plot_kl_divergences_boxplots.py,DennisSoemers,20181220-160843
+A,DiagnosticsPy/experiments/plotting_utils.py,DennisSoemers,20181220-160843
+M,Player/src/player/PlayerApp.java,DennisSoemers,20181220-161750
+M,Player/src/player/Referee.java,DennisSoemers,20181220-161750
+M,Library/src/game/functions/region/OwnKind.java,Eric Piette,20181220-165917
+M,Library/src/game/rules/moves/FromTo.java,Eric Piette,20181220-165917
+M,Player/src/dbView/DBView.java,Eric Piette,20181220-165917
+M,Player/src/dbView/GamesList.java,Eric Piette,20181220-165917
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric Piette,20181220-165917
+M,Player/src/player/PlayerCli.java,Eric Piette,20181220-165917
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20181221-151715
+M,DiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts.py,Dennis Soemers,20181221-151715
+A,DiagnosticsPy/experiments/expert_iteration/plot_scores_per_variant.py,Dennis Soemers,20181221-151715
+M,Library/src/game/equipment/container/basis/Basis.java,Eric.Piette,20181222-101748
+M,Library/src/graph/Graph.java,Eric.Piette,20181222-101748

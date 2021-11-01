@@ -1,0 +1,117 @@
+M,Library/src/util/state/State.java,Eric.Piette,20181031-112140
+M,Library/src/game/equipment/Equipment.java,Eric.Piette,20181031-112204
+M,Library/src/game/equipment/container/Hand.java,Eric.Piette,20181031-112204
+M,Library/src/util/state/ItemStateContainerCount.java,Dennis Soemers,20181031-133454
+M,Library/src/util/state/ItemStateContainerIndex.java,Dennis Soemers,20181031-133454
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Dennis Soemers,20181031-133454
+M,Library/src/util/state/ItemStateContainerPlayer.java,Dennis Soemers,20181031-133454
+M,Library/src/game/equipment/Equipment.java,Eric.Piette,20181031-133859
+M,Library/src/game/equipment/Equipment.java,Dennis Soemers,20181031-135811
+M,Library/src/game/Game.java,Eric.Piette,20181031-141314
+M,Library/src/game/equipment/Equipment.java,Eric.Piette,20181031-141314
+M,Library/src/game/equipment/Equipment.java,Dennis Soemers,20181031-142048
+M,Library/src/features/RuleFeatures.java,Dennis Soemers,20181031-152342
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181031-152342
+M,Library/src/game/Game.java,Dennis Soemers,20181031-152342
+M,Library/src/util/state/ItemStateContainer.java,Dennis Soemers,20181031-152342
+M,Library/src/util/state/ItemStateContainerCount.java,Dennis Soemers,20181031-152342
+M,Library/src/util/state/ItemStateContainerIndex.java,Dennis Soemers,20181031-152342
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Dennis Soemers,20181031-152342
+M,Library/src/util/state/ItemStateContainerPlayer.java,Dennis Soemers,20181031-152342
+M,Player/src/dbView/button/LoadButton.java,Dennis Soemers,20181031-153150
+M,Player/src/player/PlayerCli.java,Dennis Soemers,20181031-153150
+M,Player/src/player/Referee.java,Dennis Soemers,20181031-153150
+M,Library/src/game/equipment/container/Hand.java,Eric.Piette,20181031-153715
+A,Library/src/game/equipment/container/basis/Store.java,Eric.Piette,20181031-153715
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181031-153715
+M,Library/src/ui/GameController.java,Eric.Piette,20181031-161323
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181031-205345
+D,Library/src/features/patterns/AtomicPattern.java,Dennis Soemers,20181031-205345
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181031-205345
+D,Library/src/features/patterns/PatternConjunction.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/BooleanConstant.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/Configuration.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/Line.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/Not.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/Occupied.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/booleans/Reached.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/Adjacent.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/Empty.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/EmptyTopColumn.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/LastKnightMove.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/Own.java,Dennis Soemers,20181031-205345
+M,Library/src/game/functions/region/Specific.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/Backwards.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/Forwards.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/FromTo.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/FromToAdjacent.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/Jump.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/LightOff.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/TurnOver.java,Dennis Soemers,20181031-205345
+M,Library/src/util/state/ItemStateContainerIndex.java,Dennis Soemers,20181031-205345
+M,Library/src/game/rules/moves/Backwards.java,Dennis Soemers,20181031-211807
+M,Library/src/game/rules/moves/Forwards.java,Dennis Soemers,20181031-211807
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-094842
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181101-094842
+M,Library/src/game/Game.java,Dennis Soemers,20181101-094842
+M,Library/src/game/functions/booleans/Not.java,Dennis Soemers,20181101-094842
+M,Library/src/game/equipment/container/Hand.java,Eric.Piette,20181101-122602
+M,Library/src/game/equipment/container/basis/HexHex.java,Eric.Piette,20181101-122602
+M,Library/src/game/equipment/container/basis/HexRhombus.java,Eric.Piette,20181101-122602
+M,Library/src/game/equipment/container/basis/Rect.java,Eric.Piette,20181101-122602
+M,Library/src/game/equipment/container/basis/Store.java,Eric.Piette,20181101-122602
+M,Library/src/game/equipment/container/basis/Wheel.java,Eric.Piette,20181101-122602
+M,Library/src/graph/Vertex.java,Eric.Piette,20181101-122602
+M,Library/src/ui/GameView.java,Eric.Piette,20181101-122602
+M,Library/src/util/state/ItemState.java,Eric.Piette,20181101-122602
+M,Library/src/util/state/ItemStateContainer.java,Eric.Piette,20181101-122602
+M,Library/src/util/state/State.java,Eric.Piette,20181101-122602
+M,Library/test/Misc.java,Eric.Piette,20181101-122602
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181101-122602
+M,Player/src/mainView/MainView.java,Eric.Piette,20181101-122602
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181101-122602
+M,Library/src/game/rules/Rules.java,Eric.Piette,20181101-124519
+M,Library/src/game/rules/start/Place.java,Eric.Piette,20181101-124519
+M,Library/test/Performance.java,Eric.Piette,20181101-124519
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181101-124519
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181101-124519
+M,Player/src/player/Referee.java,Eric.Piette,20181101-124519
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric.Piette,20181101-124910
+M,Library/test/Performance.java,Eric.Piette,20181101-124910
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181101-124910
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181101-124910
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181101-132309
+M,Library/src/features/elements/AbsoluteFeatureElement.java,Dennis Soemers,20181101-132309
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-132309
+M,Library/src/game/Game.java,Dennis Soemers,20181101-132309
+M,Library/src/game/functions/booleans/Configuration.java,Dennis Soemers,20181101-132309
+M,Library/src/game/functions/booleans/Occupied.java,Dennis Soemers,20181101-132309
+M,Library/src/game/functions/region/Specific.java,Dennis Soemers,20181101-132309
+M,Library/src/graph/Vertex.java,Dennis Soemers,20181101-132309
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181101-141855
+M,Library/src/features/elements/FeatureElement.java,Dennis Soemers,20181101-141855
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-141855
+M,Library/src/game/functions/booleans/Line.java,Dennis Soemers,20181101-141855
+M,Library/src/game/functions/region/Own.java,Dennis Soemers,20181101-141855
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-144238
+M,Library/src/game/equipment/container/Hand.java,Eric.Piette,20181101-154329
+M,Library/src/game/equipment/container/basis/Store.java,Eric.Piette,20181101-154329
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181101-154329
+M,Library/src/game/functions/region/Own.java,Eric.Piette,20181101-155446
+M,Player/src/mainView/MainView.java,Eric.Piette,20181101-160127
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181101-160411
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-160411
+M,Library/src/features/features/RelativeFeature.java,Dennis Soemers,20181101-160411
+A,Library/src/game/rules/moves/If.java,Eric.Piette,20181101-161113
+M,Library/src/game/functions/booleans/MaxTurn.java,Eric.Piette,20181101-161623
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181101-162416
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-162416
+M,Library/src/features/FeatureInstance.java,Dennis Soemers,20181101-180254
+M,Library/src/features/features/Feature.java,Dennis Soemers,20181101-180254
+M,Library/src/game/Game.java,Dennis Soemers,20181101-180254
+M,Library/src/game/equipment/container/basis/Basis.java,Eric.Piette,20181102-091938
+M,Library/src/game/equipment/container/board/Board.java,Eric.Piette,20181102-091938
+M,Library/src/graph/Vertex.java,Eric.Piette,20181102-091938
+M,Library/src/game/Game.java,Dennis Soemers,20181102-101146
+M,Library/src/game/functions/booleans/Line.java,Eric.Piette,20181102-105234

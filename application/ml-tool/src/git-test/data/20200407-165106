@@ -1,0 +1,822 @@
+A,Common/res/lud/board/space/connection/Trax.lud,eric.piette,20200405-165214
+D,Common/res/lud/wip/Trax.lud,eric.piette,20200405-165214
+M,Core/src/game/functions/booleans/space/IsLoop.java,eric.piette,20200405-165214
+M,Core/src/game/functions/ints/board/PhaseOf.java,eric.piette,20200405-172400
+M,Core/src/game/functions/ints/board/PhaseOf.java,eric.piette,20200405-172502
+M,Core/src/game/Game.java,TahminaBegum,20200405-175648
+M,Core/src/game/Game.java,Cameron Browne,20200405-183933
+M,Core/src/game/functions/ints/board/MapEntry.java,Cameron Browne,20200405-183933
+M,Core/src/game/functions/ints/state/GetValue.java,Cameron Browne,20200405-183933
+M,Core/src/util/BaseLudeme.java,Cameron Browne,20200405-183933
+A,Core/src/util/BaseLudemeWithGraphElement.java,Cameron Browne,20200405-183933
+M,Core/src/util/Ludeme.java,Cameron Browne,20200405-183933
+M,Core/src/util/state/State.java,Cameron Browne,20200405-183933
+M,Core/src/game/rules/end/End.java,eric.piette,20200405-205337
+M,Core/src/game/rules/end/ForEach.java,eric.piette,20200405-205337
+M,Core/src/game/rules/end/End.java,eric.piette,20200405-221825
+M,Core/src/game/rules/end/ForEach.java,eric.piette,20200405-221825
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200406-001633
+M,Common/res/lud/wip/Manalath.lud,TahminaBegum,20200406-001633
+M,Core/src/game/Game.java,TahminaBegum,20200406-001633
+M,Core/src/game/functions/ints/connection/GroupSize.java,TahminaBegum,20200406-001633
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200406-001850
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200406-012813
+M,Common/res/lud/wip/Manalath.lud,TahminaBegum,20200406-012813
+M,Core/src/game/functions/ints/connection/GroupSize.java,TahminaBegum,20200406-012813
+A,Common/res/lud/test/TestOptionsNewFormat.lud,Cameron Browne,20200406-015215
+M,Common/res/lud/test/TestOptionsNewFormat.lud,Cameron Browne,20200406-023132
+M,Core/src/game/functions/booleans/board/IsConnected.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/booleans/space/IsLine.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/booleans/state/IsThreatened.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/intArray/Directions.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/Ahead.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/CentrePoint.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/ColumnOf.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/Coord.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/PhaseOf.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/RowOf.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/board/Where.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/state/Count.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/state/PieceCount.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/state/State.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/state/What.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/ints/state/Who.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/board/Sites.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/board/SitesFromCoords.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/board/SitesInDirection.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/board/WalkToSites.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/math/Expand.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/state/Empty.java,Cameron Browne,20200406-023132
+M,Core/src/game/functions/region/state/OccupiedBy.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/ChangeDirection.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Hop.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Hop2.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Hop3.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Leap.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Promotion.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Select.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Select2.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Slide.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Slide2.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Step.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/decision/Step2.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/generator/ByPiece.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/generator/ForDirn.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/Custodial.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/DirectionCapture.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/Flip.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/Remove.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/Sow.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/SowOptimised.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/Surrounded.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/TakeControl.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/state/SetCount.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/play/moves/operators/state/SetState.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/start/Place.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/start/PlaceRandomly.java,Cameron Browne,20200406-023132
+M,Core/src/game/rules/start/SetCount.java,Cameron Browne,20200406-023132
+M,Core/src/game/types/GraphElementType.java,Cameron Browne,20200406-023132
+M,Core/src/util/BaseLudeme.java,Cameron Browne,20200406-023132
+M,Core/src/util/BaseLudemeWithGraphElement.java,Cameron Browne,20200406-023132
+M,Common/res/lud/test/TestOptionsNewFormat.lud,Cameron Browne,20200406-025707
+A,Common/res/lud/board/space/group/Manalath.lud,eric.piette,20200406-074742
+D,Common/res/lud/wip/Manalath.lud,eric.piette,20200406-074742
+M,Core/src/game/functions/booleans/space/IsGroup.java,eric.piette,20200406-083913
+M,Core/src/game/functions/booleans/space/IsLoop.java,eric.piette,20200406-083913
+M,Core/src/game/functions/ints/connection/GroupCount.java,eric.piette,20200406-083913
+M,Core/src/game/functions/ints/connection/GroupSize.java,eric.piette,20200406-083913
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20200406-085956
+M,Player/src/player/utils/MoveUtil.java,Matthew.Stephenson,20200406-085956
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Hawalis.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Mefuvha.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Muvalavala B.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Bosh.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Dabuda.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/French Wari.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Kalah.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Kara.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Mbangbi.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/space/group/Omega.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200406-094737
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200406-094737
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200406-094737
+M,Core/src/game/rules/end/ByScore.java,eric.piette,20200406-094737
+M,Core/src/game/rules/play/moves/operators/state/SetScore.java,eric.piette,20200406-094737
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-094737
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200406-101710
+M,Common/src/graphics/ColourRoutines.java,Matthew.Stephenson,20200406-101952
+D,Common/src/main/SettingsColour.java,Matthew.Stephenson,20200406-101952
+M,Common/src/main/SettingsGeneral.java,Matthew.Stephenson,20200406-101952
+A,Graphics/src/util/SettingsColour.java,Matthew.Stephenson,20200406-101952
+D,Graphics/src/util/SettingsNetwork.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/component/custom/DieStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/PuzzleStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/ChineseCheckersStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/Connect4Style.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/ConnectiveGoalStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/DotStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/HexStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200406-101952
+M,Graphics/src/view/container/custom/board/metadata/puzzle/SudokuStyle.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/CreateGameDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/FindGameDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/MessagePlayersDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/NetworkDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/PossibleConsequencesDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/SVGLoaderDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonRestart.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/views/PlayerViewUser.java,Matthew.Stephenson,20200406-101952
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200406-101952
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200406-101952
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20200406-101952
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20200406-101952
+A,Player/src/network/SettingsNetwork.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/utils/GraphicsCache.java,Matthew.Stephenson,20200406-101952
+M,Player/src/player/utils/UserPreferences.java,Matthew.Stephenson,20200406-101952
+M,Common/res/lud/board/space/connection/Trax.lud,eric.piette,20200406-104656
+M,LudiiDiagnosticsPy/ludii_utils/GameRulesets.csv,eric.piette,20200406-104707
+M,LudiiDiagnosticsPy/ludii_utils/Games.csv,eric.piette,20200406-104707
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,eric.piette,20200406-104735
+M,Common/src/main/Constants.java,Cameron Browne,20200406-105113
+M,Core/src/game/functions/ints/connection/GroupProduct.java,Dennis Soemers,20200406-105759
+M,Core/src/game/functions/booleans/space/IsBlocked.java,Dennis Soemers,20200406-112115
+M,Core/src/util/UnionInfo.java,Dennis Soemers,20200406-112115
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200406-112115
+A,Common/res/lud/dominoes/Block.lud,eric.piette,20200406-113933
+D,Common/res/lud/dominoes/Blocking Dominoes.lud,eric.piette,20200406-113933
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200406-113936
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200406-113936
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200406-113953
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200406-113953
+M,LudiiDiagnosticsPy/ludii_utils/GameRulesets.csv,eric.piette,20200406-113953
+M,LudiiDiagnosticsPy/ludii_utils/Games.csv,eric.piette,20200406-113953
+M,Common/res/lud/board/space/connection/Trax.lud,eric.piette,20200406-121905
+M,Core/src/game/Game.java,eric.piette,20200406-121905
+M,Core/src/game/rules/Rules.java,eric.piette,20200406-121905
+A,Core/src/game/rules/meta/Automove.java,eric.piette,20200406-121905
+M,Core/src/game/rules/meta/Meta.java,eric.piette,20200406-121905
+M,Core/src/game/rules/meta/MetaRule.java,eric.piette,20200406-121905
+M,Core/src/game/rules/play/Play.java,eric.piette,20200406-121905
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-121905
+M,Core/src/game/rules/meta/Automove.java,eric.piette,20200406-122030
+M,Common/res/lud/board/space/blocking/Quantum Leap.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/connection/Chameleon.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/connection/Gonnect.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/connection/Hex.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/line/Squava.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/line/Yavalanchor.lud,eric.piette,20200406-123048
+M,Common/res/lud/board/space/line/Yavalath.lud,eric.piette,20200406-123048
+M,Common/res/lud/test/Hex3 (iterator).lud,eric.piette,20200406-123048
+M,Common/res/lud/test/Hex3.lud,eric.piette,20200406-123048
+M,Common/res/lud/test/Hex3b.lud,eric.piette,20200406-123048
+M,Common/res/lud/test/NewChameleon.lud,eric.piette,20200406-123048
+M,Common/res/lud/test/TestLimping.lud,eric.piette,20200406-123048
+M,Common/res/lud/test/TestMetadataOptions.lud,eric.piette,20200406-123048
+M,Core/src/game/Game.java,eric.piette,20200406-123048
+M,Core/src/game/rules/Rules.java,eric.piette,20200406-123048
+A,Core/src/game/rules/meta/Swap.java,eric.piette,20200406-123048
+M,Core/src/game/rules/play/Play.java,eric.piette,20200406-123048
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-123048
+A,Common/res/lud/board/space/connection/Hex3.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Hex3 (iterator).lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Hex3.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Hex3b.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Hop.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/KonaneDefineTest.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Omega with Alias.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/OwareNestedDefines.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Tic-Tac-Toe Dual.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Tic-Tac-Toe Face.lud,eric.piette,20200406-123458
+D,Common/res/lud/test/Yavalath Dual.lud,eric.piette,20200406-123458
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-123458
+D,Common/res/lud/test/ChessWithoutChessBoard (TO REMOVE).lud,eric.piette,20200406-123707
+D,Common/res/lud/test/Go (bug).lud,eric.piette,20200406-123707
+D,Common/res/lud/test/TestImportPlex.lud,eric.piette,20200406-123707
+D,Common/res/lud/test/TestMancala4P.lud,eric.piette,20200406-123707
+D,Common/res/lud/test/Tic-Tac-Toe (metadata).lud,eric.piette,20200406-123707
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/CreateGameDialog.java,Matthew.Stephenson,20200406-123836
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/FindGameDialog.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/HintTextField.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/JComboCheckBox.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/LeaderboardDialog.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/MaxLengthTextDocument.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/MessagePlayersDialog.java,Matthew.Stephenson,20200406-123836
+D,Player/src/display/dialogs/NetworkDialog.java,Matthew.Stephenson,20200406-123836
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/util/JComboCheckBox.java,Matthew.Stephenson,20200406-123836
+A,Player/src/display/dialogs/util/MaxLengthTextDocument.java,Matthew.Stephenson,20200406-123836
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200406-123836
+M,Player/src/network/LudiiClientSocket.java,Matthew.Stephenson,20200406-123836
+M,Player/src/network/LudiiServerSocket.java,Matthew.Stephenson,20200406-123836
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200406-123836
+M,Common/res/lud/test/TestOptionsNewFormat.lud,Cameron Browne,20200406-124635
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200406-124635
+M,Graphics/src/view/container/custom/board/metadata/GoStyle.java,Cameron Browne,20200406-124635
+M,Core/src/game/Game.java,eric.piette,20200406-125754
+M,Core/src/game/rules/meta/NoRepeat.java,eric.piette,20200406-125754
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200406-133237
+M,Core/src/game/Game.java,Dennis Soemers,20200406-133237
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200406-133237
+M,Player/src/display/dialogs/GameLoaderDialog.java,Dennis Soemers,20200406-133237
+M,Player/src/player/utils/GameLoader.java,Dennis Soemers,20200406-133237
+M,Player/src/player/utils/GameLoader.java,Dennis Soemers,20200406-133411
+M,Common/res/lud/board/space/connection/Gonnect.lud,eric.piette,20200406-134118
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200406-134118
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,eric.piette,20200406-134118
+M,Common/res/lud/test/Go(VertexAndCell).lud,eric.piette,20200406-134118
+M,Core/src/game/Game.java,eric.piette,20200406-134118
+M,Core/src/game/playout/AddToEmpty.java,eric.piette,20200406-134118
+M,Core/src/game/playout/FilterPlayout.java,eric.piette,20200406-134118
+M,Core/src/game/playout/NoRepetitionPlayout.java,eric.piette,20200406-134118
+M,Core/src/game/rules/Rules.java,eric.piette,20200406-134118
+M,Core/src/game/rules/play/Play.java,eric.piette,20200406-134118
+M,Core/src/util/Trial.java,eric.piette,20200406-134118
+M,Player/src/player/MainMenu.java,eric.piette,20200406-134118
+M,Player/src/player/MainMenuFunctions.java,eric.piette,20200406-134118
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-134118
+M,Common/res/lud/board/space/connection/Hex3.lud,eric.piette,20200406-134445
+M,Common/res/lud/board/space/line/Yavalanchor.lud,eric.piette,20200406-134606
+D,Common/res/lud/board/space/connection/Hex3.lud,eric.piette,20200406-134854
+A,Common/res/lud/board/space/connection/Three-Player Hex.lud,eric.piette,20200406-134854
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200406-140332
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,eric.piette,20200406-140332
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-140332
+M,Common/src/main/FileHandling.java,Dennis Soemers,20200406-140436
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Dennis Soemers,20200406-140436
+M,Player/src/player/MainMenuFunctions.java,Dennis Soemers,20200406-140436
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/game_files/AddCurlyBracesMetadata.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/game_files/CountGames.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/game_files/UpdateAIMetadataFloats.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/ludemes/ListAllLudemesUsage.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/ludemes/ListGamesUsingLudeme.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Dennis Soemers,20200406-140436
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20200406-140436
+M,Player/src/player/utils/GameLoader.java,Dennis Soemers,20200406-140436
+M,Player/src/player/utils/LudiiGameWrapper.java,Dennis Soemers,20200406-140436
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20200406-140436
+M,Player/test/games/FlagUsed.java,Dennis Soemers,20200406-140436
+M,Player/test/games/GraphSize.java,Dennis Soemers,20200406-140436
+M,Player/test/games/ListGamesSorted.java,Dennis Soemers,20200406-140436
+M,Player/test/games/RulesOfGame.java,Dennis Soemers,20200406-140436
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,eric.piette,20200406-141358
+M,LudiiDiagnosticsPy/ludii_utils/GameRulesets.csv,eric.piette,20200406-141358
+M,LudiiDiagnosticsPy/ludii_utils/Games.csv,eric.piette,20200406-141358
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200406-141445
+M,Core/src/game/Game.java,TahminaBegum,20200406-141445
+M,Core/src/game/functions/booleans/space/IsBlocked.java,TahminaBegum,20200406-141445
+M,Core/src/game/functions/ints/connection/GroupCount.java,TahminaBegum,20200406-141445
+M,Core/src/game/functions/ints/connection/GroupSize.java,TahminaBegum,20200406-141445
+M,Core/src/game/rules/start/Place.java,TahminaBegum,20200406-141445
+M,Core/src/util/UnionFind.java,TahminaBegum,20200406-141445
+M,Core/src/util/UnionFindD.java,TahminaBegum,20200406-141445
+M,Core/src/util/action/move/ActionAdd.java,TahminaBegum,20200406-141445
+M,Core/src/util/action/move/ActionMove.java,TahminaBegum,20200406-141445
+M,Core/src/util/action/move/ActionRemove.java,TahminaBegum,20200406-141445
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-141828
+M,Common/res/lud/board/space/line/Andantino.lud,Cameron Browne,20200406-142308
+M,Common/res/lud/test/AndantinoMegaBig.lud,Cameron Browne,20200406-142308
+M,Common/res/lud/test/Triangle Tiling with Hex Shape Dual.lud,Cameron Browne,20200406-142308
+M,Common/res/lud/test/TriangleHex.lud,Cameron Browne,20200406-142308
+M,Core/.classpath,Cameron Browne,20200406-142308
+M,Core/src/game/equipment/container/board/shape/Triangle.java,Cameron Browne,20200406-142308
+D,Core/src/game/equipment/container/board/tiling/flat/Triangle.java,Cameron Browne,20200406-142308
+A,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200406-142308
+M,Core/src/game/util/Graph.java,Cameron Browne,20200406-142308
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-142315
+M,Common/res/lud/test/Example2.lud,TahminaBegum,20200406-142852
+M,Core/src/game/equipment/component/Component.java,eric.piette,20200406-143315
+M,Core/src/game/equipment/component/tile/Tile.java,eric.piette,20200406-143315
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-145039
+A,Common/res/lud/test/Block with Board.lud,eric.piette,20200406-145243
+M,Graphics/src/controllers/BaseController.java,Matthew.Stephenson,20200406-145427
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200406-145427
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-145427
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew.Stephenson,20200406-145427
+M,Player/src/display/dialogs/GameLoaderDialog.java,Matthew.Stephenson,20200406-145427
+M,Player/src/display/dialogs/PossibleConsequencesDialog.java,Matthew.Stephenson,20200406-145427
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200406-145427
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200406-145427
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200406-145427
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200406-145427
+M,Player/src/player/utils/GraphicsCache.java,Matthew.Stephenson,20200406-145427
+M,Player/src/player/utils/ImageUtil.java,Matthew.Stephenson,20200406-145427
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200406-150029
+M,Core/src/game/functions/graph/GraphConstant.java,Cameron Browne,20200406-150029
+M,Core/src/game/functions/graph/GraphFunction.java,Cameron Browne,20200406-150029
+M,Core/src/game/util/Graph.java,Cameron Browne,20200406-150029
+M,Grammar/src/generator/Clause.java,Cameron Browne,20200406-150029
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20200406-150029
+M,Player/src/display/dialogs/GameLoaderDialog.java,Dennis Soemers,20200406-150534
+M,Common/res/lud/board/space/line/Andantino.lud,eric.piette,20200406-151209
+M,Player/src/display/dialogs/GameLoaderDialog.java,Dennis Soemers,20200406-151502
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200406-152521
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-152521
+M,Graphics/src/view/container/ContainerStyle.java,Matthew.Stephenson,20200406-152521
+M,Graphics/src/view/container/custom/board/BoardlessStyle.java,Matthew.Stephenson,20200406-152521
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-160407
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200406-162557
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200406-162557
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200406-162628
+M,Graphics/src/view/component/custom/metadata/ExtendedShogiStyle.java,Matthew.Stephenson,20200406-162628
+M,Common/res/lud/board/race/reach/Arimaa.lud,eric.piette,20200406-164600
+M,Common/res/lud/board/space/pattern/Kensington.lud,eric.piette,20200406-164600
+M,Common/res/lud/board/space/territory/Ataxx.lud,eric.piette,20200406-164600
+M,Common/res/lud/board/space/territory/Dots and Boxes.lud,eric.piette,20200406-164600
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200406-164600
+M,Common/res/lud/board/war/other/Triad.lud,eric.piette,20200406-164600
+A,Core/src/game/functions/ints/context/Site.java,eric.piette,20200406-164600
+M,Core/src/game/functions/ints/context/Var.java,eric.piette,20200406-164600
+M,Core/src/game/rules/play/moves/generator/BySite.java,eric.piette,20200406-164600
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-164600
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-165411
+M,Player/res/help/.gitignore,Dennis Soemers,20200406-165452
+A,Player/src/player/experiments/game_files/EncodeLudsInUTF8.java,Dennis Soemers,20200406-165452
+M,Player/src/player/utils/GameLoader.java,Dennis Soemers,20200406-165452
+A,Player/src/player/utils/GenerateAliasesFile.java,Dennis Soemers,20200406-165452
+M,Player/src/player/experiments/game_files/EncodeLudsInUTF8.java,Dennis Soemers,20200406-165611
+M,Graphics/src/util/ContainerUtil.java,Matthew.Stephenson,20200406-165828
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200406-165828
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-165828
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200406-165828
+M,Graphics/src/view/container/custom/board/metadata/BackgammonStyle.java,Matthew.Stephenson,20200406-165828
+M,Graphics/src/view/container/custom/board/metadata/MancalaStyle.java,Matthew.Stephenson,20200406-165828
+M,Player/src/player/experiments/game_files/EncodeLudsInUTF8.java,Dennis Soemers,20200406-170015
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200406-171042
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200406-171129
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-171133
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-171942
+A,Common/res/lud/test/BugDefine.lud,eric.piette,20200406-172110
+M,Common/res/lud/test/BugDefine.lud,eric.piette,20200406-172311
+M,Core/src/game/Game.java,Matthew.Stephenson,20200406-173003
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200406-173003
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200406-173003
+M,Player/src/display/views/TabView.java,Matthew.Stephenson,20200406-173003
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200406-173147
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200406-173147
+M,Core/src/game/util/Graph.java,Cameron Browne,20200406-173147
+M,Grammar/src/generator/Clause.java,Cameron Browne,20200406-173147
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20200406-173147
+M,Grammar/src/generator/GrammarRule.java,Cameron Browne,20200406-173147
+M,Core/src/game/Game.java,eric.piette,20200406-173556
+M,Common/res/lud/test/LargePieceHand.lud,eric.piette,20200406-173837
+M,Common/res/lud/test/LargePieceHand.lud,eric.piette,20200406-174512
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200406-174628
+M,Core/src/game/functions/booleans/math/Equals.java,eric.piette,20200406-175259
+M,Core/src/game/functions/booleans/math/NotEqual.java,eric.piette,20200406-175259
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200406-175735
+M,Common/res/lud/mathematical/hand/Chopsticks.lud,Matthew.Stephenson,20200406-181041
+M,Common/res/lud/puzzle/planning/Insanity.lud,Matthew.Stephenson,20200406-181041
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200406-181041
+M,Player/src/player/utils/DesktopGraphics.java,Matthew.Stephenson,20200406-181041
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200406-181238
+D,Common/res/lud/board/space/group/Feed the Ducks.lud,eric.piette,20200406-181325
+A,Common/res/lud/wip/Feed the Ducks.lud,eric.piette,20200406-181325
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200406-181934
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200406-181934
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200406-182157
+M,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20200406-183340
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200406-184437
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,eric.piette,20200406-184709
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,eric.piette,20200406-185039
+M,Core/src/game/functions/ints/connection/GroupCount.java,TahminaBegum,20200406-185649
+M,Core/src/util/UnionFindD.java,TahminaBegum,20200406-185649
+M,Core/src/util/action/move/ActionRemove.java,TahminaBegum,20200406-185649
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200406-190449
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,eric.piette,20200406-191147
+M,Common/res/lud/board/space/blocking/NoGo.lud,eric.piette,20200406-191539
+M,Common/res/lud/board/space/connection/Gonnect.lud,eric.piette,20200406-191539
+M,Common/res/lud/board/space/line/Gomoku.lud,eric.piette,20200406-191539
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200406-191539
+M,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200406-191539
+M,Common/res/lud/board/war/other/Atari Go.lud,eric.piette,20200406-191539
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200406-191539
+A,Common/res/lud/board/space/group/Feed the Ducks.lud,eric.piette,20200406-191637
+D,Common/res/lud/wip/Feed the Ducks.lud,eric.piette,20200406-191637
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200406-191951
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200406-192154
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200406-192154
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200406-192154
+M,Grammar/src/parser/Define.java,Cameron Browne,20200406-192607
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200406-192607
+M,Core/src/game/equipment/component/tile/Path.java,GitHub,20200406-224254
+M,Core/src/game/equipment/component/tile/Tile.java,GitHub,20200406-224538
+M,Core/src/game/equipment/component/tile/Tile.java,GitHub,20200406-224617
+M,Core/src/game/equipment/component/Card.java,GitHub,20200406-225310
+M,Core/src/game/equipment/component/Die.java,GitHub,20200406-230454
+M,Core/src/game/equipment/component/Die.java,GitHub,20200406-230540
+M,Core/src/game/equipment/component/Domino.java,GitHub,20200406-231013
+M,Core/src/game/equipment/component/Piece.java,GitHub,20200406-231353
+M,LudiiDiagnosticsPy/ludii_utils/Evidence.csv,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/GetGameRegions.py,Matthew.Stephenson,20200406-232619
+M,LudiiDiagnosticsPy/ludii_utils/NEW RELEASE PROCESS.txt,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/Regions/GetGameRegions.py,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/15 c France.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Aceh.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Acholi.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Acre.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Afar.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Alfonso X.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Anatolia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ancient Egypt.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ancient Nubia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Arabia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Araucania.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ashanti.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Atonga.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ba-ila.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bagara.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Baltic Provinces.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Barbados.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bas-Congo.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bavenda.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bemba.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bende.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bengal.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Benguela.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Benin.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bihar.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Borneo.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Buganda.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Bundelkhand.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Cayman Islands.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Chokwe.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Darod Somaliland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Deccan.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Didinga.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Dogon.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Dra.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/East Cape.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/England.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Eritrean Highlands.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Fayyum Oasis.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Gabata (Tigray).kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ghana.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Grande Comore.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Gujarat.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Haiti.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Harsha Empire.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Hawaii.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Hoyito.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Hydra.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Iceland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Igboland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ijaw.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ikibuguzo.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Iloko.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ireland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Japan.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Jinga.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Kababish.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Kashmir.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Khasi.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Kikuyu.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Korea.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Kubuguza.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Kukuba.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Lango.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Lapland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Late Sasanian.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Late Tang China.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Lembata.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Luba.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Luristan.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Maasai Tanzania.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Macassar.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Madagascar.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Malawi.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Malaya.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Manchuria.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Marianas.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mato Grosso.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mba.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mesopotamia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mexico.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mizo.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Modern Egypt.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Mongolia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Moudjeria.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Moxico.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Nagaland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Namibia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Ndyuka.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Nepal.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Northern Iran.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Northern Zhou.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Nsumbi.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Nsungli.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Orissa.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Rajasthan.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/SW Africa.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sahara.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sakalava.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Samburu.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Saramacca.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Senegal Valley.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Seychelles.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Shoa, Gojam, Begemder.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sinai.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Somaliland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/South India.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Southeast Indiana.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Southern Levant.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sri Lanka.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/St Lucia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sudan.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Sukuma.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Tana River and Lamu.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Teesta Valley.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Tibet.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Tiriki.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Turkey.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Umon.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Vai.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Vietnam.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Viking Greenland.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Wales.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Western Chalukya.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Zanzibar.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/kml/Zuni.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Australia and New Zealand.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Caribbean.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Central America.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Melanesia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Micronesia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Northern America.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Northern Europe.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Polynesia.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/South America.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Southern Europe.kml,Matthew.Stephenson,20200406-232619
+A,LudiiDiagnosticsPy/ludii_utils/Regions/worldRegions/Western Europe.kml,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/Check game names for non ASCII.xlsx,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/GameRulesets (2).ods,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/GameRulesets.ods,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/Games (2).ods,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/Games table spreadsheet format for database import.ods,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/DatabaseSpreadsheetsExtra/Games.ods,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/GetDatabaseInformation.py,Matthew.Stephenson,20200406-232619
+D,LudiiDiagnosticsPy/ludii_utils/aOLD/GetGameNames.py,Matthew.Stephenson,20200406-232619
+M,Common/res/lud/test/TestOptionsNewFormat.lud,Cameron Browne,20200407-070639
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200407-070639
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200407-080547
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200407-091114
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200407-093557
+M,Common/res/def/rules/play/moves/StepDiagonalToEmpty.def,eric.piette,20200407-100121
+M,Common/res/def/rules/play/moves/StepForwardToEmpty.def,eric.piette,20200407-100121
+M,Common/res/def/rules/play/moves/StepForwardsToEmpty.def,eric.piette,20200407-100121
+M,Common/res/lud/board/race/fill/Salta.lud,eric.piette,20200407-100121
+M,Core/src/game/functions/intArray/Directions.java,eric.piette,20200407-100121
+M,Core/src/game/rules/play/moves/decision/Hop2.java,eric.piette,20200407-100121
+D,Core/src/game/rules/play/moves/decision/Hop3.java,eric.piette,20200407-100121
+M,Core/src/game/rules/play/moves/decision/Slide2.java,eric.piette,20200407-100121
+M,Core/src/game/rules/play/moves/decision/Step2.java,eric.piette,20200407-100121
+D,Core/src/game/util/Directions.java,eric.piette,20200407-100121
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-100121
+M,Common/res/lud/board/race/fill/Salta.lud,eric.piette,20200407-100638
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200407-101200
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200407-101200
+M,Common/res/lud/board/race/fill/Salta.lud,eric.piette,20200407-101424
+M,Core/src/game/equipment/container/board/WheelBoard.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200407-102229
+M,Core/src/game/equipment/container/board/tiling/pyramidal/SquarePyramidalTiling.java,Cameron Browne,20200407-102229
+M,Core/src/game/functions/graph/GraphConstant.java,Cameron Browne,20200407-102229
+M,Core/src/game/functions/graph/GraphFunction.java,Cameron Browne,20200407-102229
+D,Core/src/game/util/Graph.java,Cameron Browne,20200407-102229
+A,Core/src/game/util/graph/Edge.java,Cameron Browne,20200407-102229
+A,Core/src/game/util/graph/Face.java,Cameron Browne,20200407-102229
+A,Core/src/game/util/graph/Graph.java,Cameron Browne,20200407-102229
+A,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200407-102229
+M,Grammar/src/parser/Parser.java,Cameron Browne,20200407-102229
+D,Player/src/player/experiments/game_files/EncodeLudsInUTF8.java,Dennis Soemers,20200407-104047
+M,Player/src/player/utils/GenerateAliasesFile.java,Dennis Soemers,20200407-104047
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200407-105320
+M,Common/res/lud/board/war/other/L'attaque.lud,eric.piette,20200407-105320
+M,Common/res/lud/proprietary/Stratego.lud,eric.piette,20200407-105320
+M,Core/src/game/Game.java,eric.piette,20200407-105320
+M,Core/src/game/rules/start/Place.java,eric.piette,20200407-105320
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-105320
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200407-105622
+M,Graphics/src/util/Settings.java,Matthew.Stephenson,20200407-111815
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200407-111815
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200407-111815
+D,Common/res/lud/board/race/reach/BreakThrough.lud,eric.piette,20200407-112740
+A,Common/res/lud/board/race/reach/Breakthrough.lud,eric.piette,20200407-112740
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,eric.piette,20200407-112740
+D,Common/res/lud/board/race/reach/KnightThrough.lud,eric.piette,20200407-112740
+A,Common/res/lud/board/race/reach/Knightthrough.lud,eric.piette,20200407-112740
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200407-112740
+M,Common/res/lud/board/war/other/Fanorona.lud,eric.piette,20200407-112740
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-112740
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/leaping/other/Konane.lud,eric.piette,20200407-112801
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200407-112801
+M,LudiiDiagnosticsPy/ludii_utils/GameRulesets.csv,eric.piette,20200407-112801
+M,LudiiDiagnosticsPy/ludii_utils/Games.csv,eric.piette,20200407-112801
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,eric.piette,20200407-113043
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,GitHub,20200407-113409
+M,Common/res/lud/board/race/reach/Breakthrough.lud,eric.piette,20200407-113703
+M,Core/src/game/equipment/container/board/custom/CardBoard.java,GitHub,20200407-113709
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200407-113829
+M,Core/src/game/equipment/container/board/custom/ChineseCheckersBoard.java,GitHub,20200407-113956
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200407-114020
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200407-114210
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,GitHub,20200407-114509
+M,Common/res/lud/board/race/reach/Knightthrough.lud,eric.piette,20200407-115059
+A,Common/res/def/walk/KnightWalk.def,eric.piette,20200407-115901
+M,Common/res/lud/board/race/reach/Knightthrough.lud,eric.piette,20200407-115901
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200407-115926
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200407-115926
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200407-115926
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200407-115926
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200407-120032
+A,Common/res/def/walk/DominoWalk.def,eric.piette,20200407-120245
+A,Common/res/def/walk/LWalk.def,eric.piette,20200407-120245
+A,Common/res/def/walk/TWalk.def,eric.piette,20200407-120245
+M,Core/src/game/equipment/container/board/custom/ExtendedAlquerqueBoard.java,GitHub,20200407-120818
+M,Player/src/display/dialogs/GameLoaderDialog.java,Dennis Soemers,20200407-120849
+M,Player/src/display/dialogs/editor/EditorHelpData.java,Dennis Soemers,20200407-120849
+A,Player/src/player/utils/AliasesData.java,Dennis Soemers,20200407-120849
+M,Core/src/game/equipment/container/board/custom/LimpingBoard.java,GitHub,20200407-121220
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,GitHub,20200407-122036
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,GitHub,20200407-122317
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Matthew.Stephenson,20200407-122554
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200407-122554
+A,Core/src/metadata/graphics/container/DrawRelation.java,Matthew.Stephenson,20200407-122554
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200407-122554
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200407-122554
+M,Graphics/src/view/container/custom/board/metadata/GraphStyle.java,Matthew.Stephenson,20200407-122554
+M,Core/src/game/equipment/container/board/custom/SpiralBoard.java,GitHub,20200407-122642
+M,Common/res/lud/board/space/blocking/L Game.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Half Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200407-123012
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,eric.piette,20200407-123012
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200407-123012
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,eric.piette,20200407-123012
+M,Common/res/lud/test/ChexBoard.lud,eric.piette,20200407-123012
+M,Common/res/lud/wip/Safe Passage.lud,eric.piette,20200407-123012
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200407-123012
+M,Core/src/game/equipment/component/Domino.java,eric.piette,20200407-123012
+M,Core/src/game/equipment/component/Piece.java,eric.piette,20200407-123012
+M,Core/src/game/functions/region/board/WalkToSites.java,eric.piette,20200407-123012
+D,Core/src/game/types/WalkType.java,eric.piette,20200407-123012
+M,Player/src/display/dialogs/SVGLoaderDialog.java,eric.piette,20200407-123012
+M,Player/src/player/utils/LoadingUtil.java,eric.piette,20200407-123012
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-123012
+M,Core/src/game/rules/play/moves/decision/Leap.java,eric.piette,20200407-124157
+A,Core/src/game/rules/play/moves/decision/Leap2.java,eric.piette,20200407-124157
+M,Common/res/lud/board/race/reach/Knightthrough.lud,eric.piette,20200407-124318
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200407-125119
+M,Core/src/metadata/graphics/component/PieceReflect.java,Matthew.Stephenson,20200407-125119
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Matthew.Stephenson,20200407-125948
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200407-125948
+M,Core/src/metadata/graphics/container/DrawRelation.java,Matthew.Stephenson,20200407-125948
+A,Core/src/metadata/graphics/container/StraightRingLines.java,Matthew.Stephenson,20200407-125948
+M,Graphics/src/bridge/ViewControllerFactory.java,Matthew.Stephenson,20200407-125948
+M,Graphics/src/view/container/custom/board/WheelStyle.java,Matthew.Stephenson,20200407-125948
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,eric.piette,20200407-130112
+M,Core/src/game/rules/play/moves/decision/Leap2.java,eric.piette,20200407-130112
+M,Common/res/lud/board/race/reach/Game of the Goose.lud,eric.piette,20200407-132802
+A,Core/src/game/functions/ints/dice/EndOfTrack.java,eric.piette,20200407-132802
+M,Core/src/game/functions/region/board/Sites.java,eric.piette,20200407-132802
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-132802
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,eric.piette,20200407-133605
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200407-134956
+M,Graphics/src/view/component/BaseComponentStyle.java,Matthew.Stephenson,20200407-141722
+M,Graphics/src/view/component/custom/DieStyle.java,Matthew.Stephenson,20200407-141722
+M,Core/src/game/Game.java,Dennis Soemers,20200407-141842
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200407-141842
+M,Core/src/game/playout/FilterPlayout.java,Dennis Soemers,20200407-141842
+M,Core/src/game/playout/NoRepetitionPlayout.java,Dennis Soemers,20200407-141842
+M,Core/src/game/rules/meta/Swap.java,Dennis Soemers,20200407-141842
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200407-141842
+M,Player/src/player/MainMenuFunctions.java,Dennis Soemers,20200407-141842
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200407-142558
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200407-142558
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200407-142908
+M,Common/res/lud/board/hunt/Fox and Geese.lud,eric.piette,20200407-143104
+M,Common/res/lud/board/race/reach/Ashtapada.lud,eric.piette,20200407-143104
+M,Core/src/game/rules/play/moves/decision/FromTo2.java,eric.piette,20200407-143104
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-143104
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200407-143749
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200407-143749
+D,Core/src/game/equipment/component/tile/Path.java,Dennis Soemers,20200407-144043
+D,Core/src/game/equipment/component/tile/Tile.java,Dennis Soemers,20200407-144043
+D,Core/src/game/equipment/component/tile/package-info.java,Dennis Soemers,20200407-144043
+A,Core/src/game/equipment/component/tile_rename_part_1/Path.java,Dennis Soemers,20200407-144043
+A,Core/src/game/equipment/component/tile_rename_part_1/Tile.java,Dennis Soemers,20200407-144043
+A,Core/src/game/equipment/component/tile_rename_part_1/package-info.java,Dennis Soemers,20200407-144043
+A,Core/src/game/equipment/component/tile/Path.java,Dennis Soemers,20200407-144109
+A,Core/src/game/equipment/component/tile/Tile.java,Dennis Soemers,20200407-144109
+A,Core/src/game/equipment/component/tile/package-info.java,Dennis Soemers,20200407-144109
+D,Core/src/game/equipment/component/tile_rename_part_1/Path.java,Dennis Soemers,20200407-144109
+D,Core/src/game/equipment/component/tile_rename_part_1/Tile.java,Dennis Soemers,20200407-144109
+D,Core/src/game/equipment/component/tile_rename_part_1/package-info.java,Dennis Soemers,20200407-144109
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200407-144136
+M,Graphics/src/view/container/custom/board/metadata/SnakesAndLaddersStyle.java,Cameron Browne,20200407-145438
+M,Core/src/game/functions/ints/board/MapEntry.java,eric.piette,20200407-150723
+M,Common/res/lud/board/race/reach/Ashtapada.lud,eric.piette,20200407-150850
+M,Common/res/lud/board/race/reach/Ashtapada.lud,eric.piette,20200407-151154
+M,Graphics/src/view/component/custom/TileStyle.java,Matthew.Stephenson,20200407-151526
+A,Player/src/player/utils/AIDetails.java,Matthew.Stephenson,20200407-151526
+M,Common/res/lud/board/race/reach/Jungle.lud,eric.piette,20200407-155650
+M,Common/res/lud/board/race/reach/Arimaa.lud,eric.piette,20200407-165106
+M,Core/src/game/functions/booleans/math/Equals.java,eric.piette,20200407-165106
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200407-165106

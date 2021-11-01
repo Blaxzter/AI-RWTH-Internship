@@ -1,0 +1,100 @@
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20190927-095646
+A,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,eric.piette,20190927-095705
+D,Common/res/lud/board/chase/hunt/Seven Leopards.lud,eric.piette,20190927-095705
+M,Common/res/lud/board/chase/hunt/Hat Diviyan Keliya.lud,eric.piette,20190927-103121
+D,Common/res/lud/wip/CustomBoardTest.lud,eric.piette,20190927-121307
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190927-122523
+A,Common/res/lud/board/chase/hunt/Pulijudam.lud,eric.piette,20190927-123453
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,eric.piette,20190927-123947
+A,"Common/res/lud/board/chase/hunt/Meurim\303\274eng-rim\303\274eng-do.lud",eric.piette,20190927-124246
+M,"Common/res/lud/board/chase/hunt/Meurim\303\274eng-rim\303\274eng-do.lud",eric.piette,20190927-124604
+M,"Common/res/lud/board/chase/hunt/Meurim\303\274eng-rim\303\274eng-do.lud",eric.piette,20190927-132234
+M,Common/res/lud/board/chase/hunt/Pulijudam.lud,eric.piette,20190927-132234
+A,Common/res/lud/board/chase/hunt/Rafaya.lud,eric.piette,20190927-132234
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20190927-132234
+M,Library/src/game/equipment/container/board/gui/MancalaBoard.java,eric.piette,20190927-140652
+M,Library/src/util/state/containerState/FlatContainerState.java,Dennis Soemers,20190927-141103
+M,Library/src/util/zhash/HashedBitSet.java,Dennis Soemers,20190927-141103
+A,Player/src/player/utils/LudiiStateWrapper.java,Dennis Soemers,20190927-141103
+M,Library/src/util/state/containerState/FlatContainerState.java,eric.piette,20190927-141554
+M,AI/src/search/flat/FlatMonteCarlo.java,eric.piette,20190927-143342
+M,AI/src/search/flat/FlatMonteCarloRT.java,eric.piette,20190927-143342
+M,AI/src/search/mcts/MCTS.java,eric.piette,20190927-143342
+M,AI/src/utils/AIUtils.java,eric.piette,20190927-143342
+M,Library/src/game/Game.java,eric.piette,20190927-143342
+A,Library/src/game/GameType.java,eric.piette,20190927-143342
+M,Library/src/game/equipment/container/board/Boardless.java,eric.piette,20190927-143342
+M,Library/src/game/equipment/container/board/gui/SnakesAndLaddersBoard.java,eric.piette,20190927-143342
+M,Library/src/game/equipment/container/board/gui/StrategoBoard.java,eric.piette,20190927-143342
+M,Library/src/game/functions/bitset/BitSetFunction.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/BooleanFunction.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/Visited.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Count.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/EqualParities.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Mult.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Shape.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20190927-143342
+M,Library/src/game/functions/booleans/puzzleConstraints/Unique.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/Count.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/Hand.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/IntFunction.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/Level.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/Score.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/State.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/What.java,eric.piette,20190927-143342
+M,Library/src/game/functions/ints/Who.java,eric.piette,20190927-143342
+M,Library/src/game/functions/region/RegionFunction.java,eric.piette,20190927-143342
+M,Library/src/game/rules/Rule.java,eric.piette,20190927-143342
+M,Library/src/game/rules/end/ByScore.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/Flip.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/Moves.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/Roll.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/SetScore.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/SetState.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/Sow.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/decision/Constraints.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/decision/Step.java,eric.piette,20190927-143342
+M,Library/src/game/rules/play/moves/decision/To.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/Deal.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/FogOfWar.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/InitScore.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/Place.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/PlaceRandomly.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/Set.java,eric.piette,20190927-143342
+M,Library/src/game/rules/start/SetCount.java,eric.piette,20190927-143342
+M,Library/src/util/action/ActionMoveRemove.java,eric.piette,20190927-143342
+M,Library/src/util/action/ActionPromote.java,eric.piette,20190927-143342
+D,Library/src/util/state/StateType.java,eric.piette,20190927-143342
+M,Library/src/util/state/containerStackingState/ContainerStateStacks.java,eric.piette,20190927-143342
+M,Library/src/util/state/containerState/FlatContainerState.java,eric.piette,20190927-143342
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190927-143342
+M,Player/src/mainView/panel/StatePanel.java,eric.piette,20190927-143342
+M,Library/src/game/Game.java,eric.piette,20190927-150057
+M,Library/src/game/GameType.java,eric.piette,20190927-150057
+M,Library/src/game/Game.java,eric.piette,20190927-150619
+M,Player/src/player/utils/LudiiStateWrapper.java,Dennis Soemers,20190927-152003
+M,Library/src/game/functions/region/Empty.java,eric.piette,20190927-153319
+M,Library/src/game/equipment/container/board/gui/PeralikatumaBoard.java,eric.piette,20190927-155354
+M,Library/src/game/functions/region/Column.java,eric.piette,20190927-155354
+M,Library/src/game/functions/region/Row.java,eric.piette,20190927-155354
+M,Library/src/game/functions/region/Union.java,eric.piette,20190927-155354
+M,Library/src/util/action/ActionAddN.java,eric.piette,20190927-155354
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20190927-155354
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,eric.piette,20190927-163035
+M,Library/src/game/equipment/container/board/gui/StrategoBoard.java,eric.piette,20190927-163035
+A,Common/res/lud/wip/Lines of Action.lud,eric.piette,20190927-164526
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190927-164526
+M,Common/res/lud/wip/Lines of Action.lud,eric.piette,20190927-164912
+M,Common/res/lud/wip/Lines of Action.lud,eric.piette,20190927-170520
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190927-170520
+M,Common/res/lud/wip/Lines of Action.lud,eric.piette,20190927-170919
+M,Library/src/game/GameType.java,Dennis Soemers,20190927-184933
+M,Player/src/mainView/button/ButtonPlayPause.java,eric.piette,20190928-223809
+M,Library/src/game/functions/booleans/And.java,eric.piette,20190929-094208
+A,Library/src/game/functions/booleans/Group.java,eric.piette,20190929-094208

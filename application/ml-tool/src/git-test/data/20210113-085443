@@ -1,0 +1,1956 @@
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210111-085429
+M,Core/src/game/Game.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/component/Card.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/component/Component.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/component/Die.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/component/tile/Domino.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/component/tile/Tile.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/board/Board.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/board/Boardless.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/other/Deck.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/other/Dice.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/container/other/Hand.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/other/Dominoes.java,Eric.Piette,20210111-085429
+M,Core/src/game/equipment/other/Hints.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/all/simple/AllDiceEqual.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/all/simple/AllDiceUsed.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/can/CanMove.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/is/graph/IsUnique.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/deductionPuzzle/is/simple/IsSolved.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHidden.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenCount.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenRotation.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenState.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWhat.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/Hidden/IsHiddenWho.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/in/IsIn.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/integer/IsEven.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/integer/IsOdd.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/integer/IsVisited.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/player/IsEnemy.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/player/IsFriend.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/repeat/IsRepeat.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/is/site/IsEmpty.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/And.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Ge.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Gt.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/If.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Le.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Lt.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Not.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/NotEqual.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Or.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/math/Xor.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/booleans/no/NoMoves.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Abs.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Add.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Cos.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Div.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Exp.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Log.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Log10.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Max.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Min.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Mul.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Pow.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Sin.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Sqrt.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Sub.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/floats/math/Tan.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/brick/DiamondOrPrismOnBrick.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/brick/SpiralOnBrick.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/brick/SquareOrRectangleOnBrick.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/celtic/Celtic.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/CustomOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/DiamondOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/HexagonOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/RectangleOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/StarOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/hex/TriangleOnHex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/morris/Morris.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/quadhex/Quadhex.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/square/CustomOnSquare.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/square/DiamondOnSquare.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/square/RectangleOnSquare.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling31212/Tiling31212.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling333333_33434/Tiling333333_33434.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33336/Tiling33336.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/CustomOn33344.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33344/Tiling33344.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling33434/Tiling33434.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/CustomOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/DiamondOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/HexagonOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/ParallelogramOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/RectangleOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/StarOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3464/TriangleOn3464.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/CustomOn3636.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling3636/Tiling3636.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling4612/Tiling4612.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/CustomOn488.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tiling/tiling488/SquareOrRectangleOn488.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/CustomOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/DiamondOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/HexagonOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/RectangleOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/StarOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/basis/tri/TriangleOnTri.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/shape/Circle.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/graph/generators/shape/Spiral.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/intArray/values/ValuesRemembered.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/card/simple/CardTrumpSuit.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/card/site/CardRank.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/card/site/CardSuit.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/card/site/CardTrumpRank.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/card/site/CardTrumpValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/count/component/CountPips.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/count/stack/CountStack.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/dice/Face.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/iterator/Pips.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Abs.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Add.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Div.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/If.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Max.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Min.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Mod.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Mul.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Pow.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/math/Sub.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/size/connection/SizeTerritory.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/state/Counter.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/state/Score.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/state/State.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/state/Var.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/tile/PathExtent.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/value/piece/ValuePiece.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/ints/value/player/ValuePlayer.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/filter/ForEach.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/math/Difference.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/math/If.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/math/Intersection.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/math/Union.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHidden.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenCount.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenRotation.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenState.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenWhat.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/hidden/SitesHiddenWho.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/loop/SitesLoop.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/pattern/SitesPattern.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/player/SitesWinning.java,Eric.Piette,20210111-085429
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,Eric.Piette,20210111-085429
+M,Core/src/game/match/Match.java,Eric.Piette,20210111-085429
+M,Core/src/game/players/Player.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/end/ByScore.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/end/If.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/meta/Automove.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/meta/NoRepeat.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/meta/Swap.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Bet.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Flip.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Promote.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Push.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Then.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/Vote.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/AvoidStoredState.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Priority.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/While.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetScore.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetValuePlayer.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetState.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/suit/SetTrumpSuit.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetCounter.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/var/SetVar.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/AddScore.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/value/RememberValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/players/SwapPlayers.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/sites/SwapPieces.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/player/ForEachPlayer.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/site/ForEachSite.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/value/ForEachValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/If.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Or.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/deductionPuzzle/Set.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/forEach/value/ForEachValue.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/place/stack/PlaceMonotonousStack.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/player/SetAmount.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/player/SetScore.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/players/SetTeam.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/sites/SetCost.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/sites/SetCount.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/set/sites/SetSite.java,Eric.Piette,20210111-085429
+M,Core/src/game/rules/start/split/Split.java,Eric.Piette,20210111-085429
+M,Core/src/game/types/board/SiteType.java,Eric.Piette,20210111-085429
+D,Core/src/game/util/concept/Concept.java,Eric.Piette,20210111-085429
+D,Core/src/game/util/concept/ConceptDataType.java,Eric.Piette,20210111-085429
+D,Core/src/game/util/concept/ConceptKeyword.java,Eric.Piette,20210111-085429
+D,Core/src/game/util/concept/ConceptPurpose.java,Eric.Piette,20210111-085429
+D,Core/src/game/util/concept/ConceptType.java,Eric.Piette,20210111-085429
+M,Core/src/game/util/directions/AbsoluteDirection.java,Eric.Piette,20210111-085429
+M,Core/src/game/util/directions/RelativeDirection.java,Eric.Piette,20210111-085429
+M,Core/src/game/util/end/Score.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/board/style/BoardStyle.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/no/Boolean/NoBoard.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/others/StackType.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/piece/families/PieceFamilies.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/show/component/ShowPieceState.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/show/component/ShowPieceValue.java,Eric.Piette,20210111-085429
+M,Core/src/metadata/graphics/show/symbol/ShowSymbol.java,Eric.Piette,20210111-085429
+A,Core/src/util/concept/Concept.java,Eric.Piette,20210111-085429
+A,Core/src/util/concept/ConceptDataType.java,Eric.Piette,20210111-085429
+A,Core/src/util/concept/ConceptKeyword.java,Eric.Piette,20210111-085429
+A,Core/src/util/concept/ConceptPurpose.java,Eric.Piette,20210111-085429
+A,Core/src/util/concept/ConceptType.java,Eric.Piette,20210111-085429
+M,Manager/src/manager/ai/hyper/HyperAgent.java,Eric.Piette,20210111-085429
+M,Mining/src/supervised/utils/DataUtil.java,Eric.Piette,20210111-085429
+M,Mining/src/utils/concepts/ExportGameConcepts.java,Eric.Piette,20210111-085429
+M,Mining/src/utils/concepts/db/ExportDbCsvConcepts.java,Eric.Piette,20210111-085429
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20210111-085429
+M,PlayerDesktop/test/travis/quickTests/AllDifferentIdConceptEnum.java,Eric.Piette,20210111-085429
+M,Core/src/util/concept/Concept.java,Eric.Piette,20210111-085514
+M,Core/src/util/concept/ConceptDataType.java,Eric.Piette,20210111-085514
+M,Core/src/util/concept/ConceptKeyword.java,Eric.Piette,20210111-085514
+M,Core/src/util/concept/ConceptPurpose.java,Eric.Piette,20210111-085514
+M,Core/src/util/concept/ConceptType.java,Eric.Piette,20210111-085514
+M,Core/src/game/equipment/component/Component.java,Eric.Piette,20210111-090347
+M,Core/src/game/equipment/component/Piece.java,Eric.Piette,20210111-090347
+M,Core/src/game/equipment/component/tile/Domino.java,Eric.Piette,20210111-090347
+M,Core/src/game/equipment/component/tile/Path.java,Eric.Piette,20210111-090347
+M,Core/src/game/equipment/component/tile/Tile.java,Eric.Piette,20210111-090347
+M,Core/src/game/functions/graph/generators/basis/Basis.java,Eric.Piette,20210111-090347
+M,Core/src/game/functions/graph/generators/basis/tiling/Tiling.java,Eric.Piette,20210111-090347
+M,Core/src/game/match/Subgame.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/Rules.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/end/End.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/end/EndRule.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/meta/MetaRule.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/Play.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/BaseMoves.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/Moves.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Apply.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Bet.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Flip.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Note.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Roll.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Then.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/Trigger.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/AvoidStoredState.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/FirstMoveOnTrack.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Priority.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/hidden/SetHidden.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/nextPlayer/SetNextPlayer.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/pending/SetPending.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetScore.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetState.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetValue.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetCounter.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetPot.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/var/SetVar.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/AddScore.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/MoveAgain.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/players/SwapPlayers.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/sites/SwapPieces.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/site/ForEachSite.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/value/ForEachValue.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/If.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Or.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/start/StartRule.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/start/forEach/value/ForEachValue.java,Eric.Piette,20210111-090347
+M,Core/src/game/rules/start/set/hidden/SetHidden.java,Eric.Piette,20210111-090347
+M,Core/src/game/util/directions/CompassDirection.java,Eric.Piette,20210111-090347
+M,Core/src/game/util/directions/RotationalDirection.java,Eric.Piette,20210111-090347
+M,Core/src/game/util/directions/SpatialDirection.java,Eric.Piette,20210111-090347
+M,Core/src/util/BaseLudeme.java,Eric.Piette,20210111-090347
+M,Core/src/util/Ludeme.java,Eric.Piette,20210111-090347
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20210111-090347
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210111-091431
+A,Mining/ludemesFound.csv,Matthew Stephenson,20210111-091431
+M,Mining/res/ludemeplexDetection/output/results.csv,Matthew Stephenson,20210111-091431
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210111-091431
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20210111-091431
+M,PlayerDesktop/src/supplementary/experiments/ludemes/CountLudemes.java,Matthew Stephenson,20210111-091431
+M,Common/res/lud/WishlistDLP/war/chaturanga/Main Chator.lud,Eric.Piette,20210111-124839
+M,Common/res/lud/board/space/territory/Weiqi.lud,Eric.Piette,20210111-131151
+D,Common/res/lud/WishlistDLP/race/Trictrac.lud,Eric.Piette,20210111-131629
+A,Common/res/lud/wishlist/needReconstruction/Trictrac.lud,Eric.Piette,20210111-131629
+M,Common/res/lud/board/war/leaping/draughts/Maleys.lud,Eric.Piette,20210111-140414
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,Eric.Piette,20210111-151751
+M,Common/res/lud/WishlistDLP/math/Aksadyuta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/A K'aak'il.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Aj Sakakil.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Aj Sayil.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Aj Sina'anil.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Aj T'iwil.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Asi Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Bargese.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Barjis.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Boolik.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Chaupar.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Chonpa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Chukaray.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Contrare Puff.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Daldosa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Dubblets.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/El Mundo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Fallas.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Grand Trictrac.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Kawasukuts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Ketch-Dolt.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Kolica Atarakua.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Kotra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Lange Puff.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Li'b el-Merafib.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Nard.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Nebakuthana.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Pachesi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Pachih.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Pahada Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Pasit.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Patol.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Paumecary.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Petol.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Piprjall.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Puluc.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Romavoa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Saturankam.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Set Dilth'.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Seys Dos y As.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Shuanglu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Sig wa Duqqan (Houmt Taourit).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Sig wa Duqqan (Houmt al-Arbah).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Siga (Sri Lanka).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Sigue.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Siryu (Race).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Sokkattan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Ssang-Ryouk.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tables Rabbatuees.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tamman.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tasholiwe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tatsungin.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tayam Sonalu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Todas Tablas.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tokkadille.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tourne-Case.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Trictrac.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tsaydithl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Tsun K'i.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/race/Zohn Ahl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Chisolo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Choro (Acholi).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Choro (Lango).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Hus (Nama).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Ikibuguzo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Isolo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Katra Boaoaka.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Katra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Kisolo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Kubuguza.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Makonn.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mangola.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Muvalavala (Quioco).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mwambulula.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mweiso.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mwendo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mweso.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Namudilakunze.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Nchuwa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Nsumbi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Pereauni.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Quela.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Quiela.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Spreta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/four_rows/Tshuba.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/three_rows/Gabata (Tigray).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/three_rows/Rab'e.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/three_rows/Selus (Massawa).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/three_rows/Selus.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Adjiboto.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Andada.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Awagagae.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Azigo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Bay Khom.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Bechi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Ceelkoqyuqkoqiji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Chongka'.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Chonka.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Daramuti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Dongjintian.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Enindji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Foji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Fondji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Adegrat).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Ansaba).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Ghinda).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Oromo).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Shoa I).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Shoa and Adegrat).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Wuqro).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Galatjang.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gifia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Hoyito.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Hufesay.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Intotoi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Iyogh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/J'erin.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Jimafesosh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kanji Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kay.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Khrour.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Khutka Boia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kiuthi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Koro.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kotu Baendum.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kpo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/La'b Akila.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lahemay Waladat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lahemay Walida.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lam Waladach.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lamlameta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lamosh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Laomuzhu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla Gobale (Gabradarre).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla Gobale (Somaliland).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Li'b al-'Aqil.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Li'b al-Ghashim.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lontu-Holo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Main Chongkak.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mandoli.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mangala (Bedouin).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mangala (Suez).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mawkar Katiya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mewegae.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mewelad.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Motiq.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Obridje.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Okwe (Igbo).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Omangunta Peeta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Oure Ngat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Pallankuli.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Papan Dakon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Pic.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Puhulmutu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Qelat (Beni Amir-Mensa).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Qelat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Rio Kadalis.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Sonka.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Tapata.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Tuz.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Um el Banat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Wa'ache Waledat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Walak-Pussa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Whyo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Yucebao.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/sow/two_rows/Zigulzoqge.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/space/line/Shah.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Chatur.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Forcado.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Main Chator.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Ouk Chatrang.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Parsi Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Santaraj.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Kabir.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Mustatila.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/leaping/draughts/Frisian Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Bheri Bakhri.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Daldos.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Deleb.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Kioz.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Rithmomachia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Sahkku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Sig (Tidikelt).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Sig (Western Sahara).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Tab.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Tablan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/other/Tablas Astronomias.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/WishlistDLP/war/xiangqi/Sanyou Qi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Adugo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bagh Bandi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bagh Batti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bagh Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bagha Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Baghchal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bam Blang Beh Khla.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Bouge Shodra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Coyote.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Gasetavl (Gedved).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Gasetavl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Go with the Floe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Huli-Mane Ata.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Hund efter Hare (Thy).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Hund efter Hare (Vendsyssel).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Hyvn aetter Hare.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Jeu de Renard (Two Foxes).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Jeu de Renard.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Jeu du Renard et de la Poule.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Juroku Musashi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Kaooa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Komikan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Kulaochal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Len Cua Kin Ngoa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Main Tapak Empat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Manu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Mao Naga Tiger Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Merimueng-rimueng.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Musinaykahwhanmetowaywin.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Mysore Tiger Game (Three Tigers).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Mysore Tiger Game (Two Tigers).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Mysore Tiger Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Neg Tugal Tuux.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Orissa Tiger Game (Four Tigers).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Orissa Tiger Game (One Tiger).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Pon Chochotl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Pulijudamu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Renard et les Poules.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Rimau-Rimau (One Tiger).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Rimau-Rimau (Two Tigers).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Rimoe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Sher Bakar.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Sher Bakr.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Shi Liu Kan Tsiang Kun.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Shui Yen Ho-Shang.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Sumi Naga Game (Hunt).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Uxrijn Ever.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Wolf und Schaaf.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/hunt/Yeung Luk Sz' Kon Tseung Kwan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/20 Squares.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/58 Holes.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Backgammon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Baralie.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Cab e Quinal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Doblet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Emperador.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Fevga.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Frangieh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Garanguet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Ghingskoot.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Had.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Imperial.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Jacquet de Versailles.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Jacquet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Julbahar.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Kawade Kelia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Kints.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Kiz Tavlasi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Laquet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Len Doat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Los Doze Canes.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Ludus Anglicorum.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Ludus Lombardorum.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Mahbouseh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Medio Emperador.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Mughrabieh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Myles.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Ofanfelling.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Pancha Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Panchi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Pareia de Entrada.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Plakoto.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Portes.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Provincial.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Quinze Tablas.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Senet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Tavli.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Tawula.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Thaayam.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/XII Scripta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/escape/Yahoudieh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Aralzaa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Bajr.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Camelot.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Halma.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/fill/Salta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Arimaa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Ashtapada.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Bison.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Breakthrough.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Gauntlet.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Gavalata.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Jungle.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/King's Valley.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Knightthrough.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Main Pacheh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Pachisi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Pente Grammai.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Santorini.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/race/reach/Tugi-Epfe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Hawalis.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Mefuvha.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Alitev.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Awari.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Baqura.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Bosh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Chungcajon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Dabuda.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/French Wari.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/J'odu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Kalah.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Kapana Bona.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Kara.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Mankala.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Mbangbi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Oware.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Pachgarhwa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Um el Tuweisat.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Waurie.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Woli.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Wore.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/sow/two_rows/Yovodji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Amazons.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Cram.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Do Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Domineering.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Dorvon Cag.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Gala.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Gurvan Xudag.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Haretavl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Hex Amazons.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Janes Soppi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Koti Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/L Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Madelinette.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/NoGo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Oumoul Kono.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Pong Hau K'i.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Quantum Leap.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Spots.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Susan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/T'uk T'uk.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Temeen Tavag.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Tron.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/blocking/Tugul Shodra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Abak.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Chameleon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Cross.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Crossway.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Esa Hex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Gale.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Gonnect.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Havannah.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Hex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Trax.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Y (Hex).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/connection/Y.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Groups.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Lines of Action.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Manalath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Odd.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/group/Omega.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Achi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Akidada.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Alquerque de Tres.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Altan Xaraacaj.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Andantino.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Bolotudu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Bravalath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Connect Four.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Connect6.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Dala.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Dara.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Djara-Badakh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Dra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Driesticken.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Dris at-Talata.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Engijn Zirge.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Epelle.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Fanorona Telo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Gomoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Gurgaldaj.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Janes Soppi (Alignment).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Jeson Zam.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Les Pendus.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Liu Tsi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Marelle Triple.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Morabaraba.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Mylna.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Nao Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Nerenchi Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Nine Holes.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Niranchy.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Pentalath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Picaria.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Ringo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Round Merels.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Sam K'i.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/San-Noku-Narabe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Score Four.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Shisima.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Shiva.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Six-Penny Madell.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Spline.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Squava.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Sujjua.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Symbol S.2.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tant Fant.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tapatan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tauru.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tavan Tal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tic-Tac-Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tic-Tac-Die.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tic-Tac-Four.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Triodi (Diagonal).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Triodi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tuk Tak.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Tule Paid.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Ultimate Tic-Tac-Toe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Wure Dune.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Xanan Zirge.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Xonin Shatar (Complex).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Xonin Shatar (Simple).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Yavalade.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Yavalanchor.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Yavalath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/line/Zurgaan Tal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/pattern/Kensington.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/pattern/Upper Hand.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Ataxx.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Dorvolz.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Go.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Lotus.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/One-Eyed Go.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Patok.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Reversi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/space/territory/Weiqi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Game of the Pawns.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Hindustani Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Mak Ruk.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Rumi Shatranj.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Shatranj al-Husun.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Shatren.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chaturanga/Shodra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Acedrex de los Cuatros Tiempos.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Brusky Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Chex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Currierspiel.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/De Vasa Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Dice Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Double Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Glinski Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Grande Acedrex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Half Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/McCooey Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Mini Hexchess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Phase Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Saxun.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Shafran Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Starchess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Ultimate Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/chess/Wellisch Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Ahtarah Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Bara Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Bis Gutiya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Challis Ghutia (Titagarh).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Dam (Singapore).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Dam Hariman.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Ethiopian Capture Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Kharberg.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Lam Pusri.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Meurimueng-rimueng Peuet Ploh.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Mughal Pathan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Ratti-Chitti-Bakri.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Satoel.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Coc-Inbert.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Dam.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Dama (Italy).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Dama (Philippines).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Damas.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Diagonal Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Doov.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Guerrilla Checkers.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Jekab.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Main Dam.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Makvoer.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Maleys.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Moo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Pleasant Draughts.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Shashki.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/The Babylonian.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/draughts/Unnamed Dutch Draughts Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Awithlaknan Mosona.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Bara Guti (Bihar).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Buudal.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Challis Ghutia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Felli.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Kaua Dorki.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Kolowis Awithlaknannai.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Konane.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Koruboddo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Laram Wali.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Natt Klab ash-Shawk.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Padaivettu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Pam Pait.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Ram Tir.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/T'oki.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/leaping/other/Tre Guti.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/At-Tab wa-d-Dukk.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Atari Go.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Awangdu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Awithlaknakwe.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Bizingo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Boxijn Barildaan.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Castello.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Choko.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Clobber.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Fang.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Fanorona.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Gala (Buginese).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Gundru.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/L'attaque.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Maak Yek.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Mapuche Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Mehen.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Oust.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Ploy.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Press Ups.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Queah Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Seega.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Shantarad.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Sig (Mzab).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Sig (Tozeur).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Sijat El Taba.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Siryu (War).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Sumi Naga Game (War).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Surakarta.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Terhuchu (Small).lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Toono.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Triad.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Triple Tangle.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Vela.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Xarajlt.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/other/Yote.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Kyoto Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Minishogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/shogi/Tobi Shogi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/ArdRi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/Brandub.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/HeXentafl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/Tablut.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/xiangqi/Banqi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/xiangqi/Qi Guo Xiangxi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/dice/Pasa.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/dominoes/Block.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Abrobad.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Breakthrough Checkers.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Breakthrough Chess.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Broken Line.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Diagonal Hex.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Flowers.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Hops-a-Daisy Generalized.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Infuse.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Inkblots.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Refugia.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/RootZone.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Trike.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/Tumbleweed.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Ciri Amber.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/CrossGeo.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Ilpion.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/LastEdge.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Line and Cross.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Nedilmarth.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Nein Ari.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/OddEvenTree.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Onek Rong.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Oriath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Radran.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/SpanRups.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/experimental/graph_theory/Windir.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/Mastermind.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Contagion.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Crossline.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/DisPath.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Dots and Boxes.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Hackenbush.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Hamiltonian Maze.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Icosian.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/MaxMatch.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Sim.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Two-Colour.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/graph/Wagner.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/hand/Chopsticks.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/hand/Morra.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/hand/Rock-Paper-Scissors.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/nim/Chomp.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/nim/Fibonacci Nim.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/math/nim/Nim.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/proprietary/Stratego.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Anti-Knight Sudoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Futoshiki.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Hoshi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Kakuro.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Killer Sudoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/N Queens.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Samurai Sudoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Squaro.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Sudoku Mine.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Sudoku X.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Sujiken.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Takuzu.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/deduction/Tridoku.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/BoxOff.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Chase.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Insanity.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Lam Turki.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Mawryngkneng Solitaire Game.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Maze.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Monty Hall Problem.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/N Puzzles.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Nao Gutiya Baithaneka.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Pentalpha.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Matthew Stephenson,20210111-161517
+M,Common/res/lud/simulation/Game of Life.lud,Matthew Stephenson,20210111-161517
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210111-161517
+M,Core/src/language/grammar/Grammar.java,Matthew Stephenson,20210111-161517
+M,MetadataScripts/AddMetadata.py,Matthew Stephenson,20210111-161517
+M,MetadataScripts/InputCSV/GameRulesets.csv,Matthew Stephenson,20210111-161517
+M,MetadataScripts/InputCSV/Games.csv,Matthew Stephenson,20210111-161517
+M,Mining/ludemesFound.csv,Matthew Stephenson,20210111-161517
+D,Mining/res/ludemeplexDetection/input/ludemeCSV.csv,Matthew Stephenson,20210111-161517
+A,Mining/res/ludemeplexDetection/input/ludemeplexRulesetPairs.csv,Matthew Stephenson,20210111-161517
+A,Mining/res/ludemeplexDetection/input/rulesetIds.csv,Matthew Stephenson,20210111-161517
+A,Mining/res/ludemeplexDetection/output/ludemeplexRulesetPairs.csv,Matthew Stephenson,20210111-161517
+A,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210111-161517
+D,Mining/res/ludemeplexDetection/output/results.csv,Matthew Stephenson,20210111-161517
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210111-161517
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Eric.Piette,20210111-161843
+D,Common/res/lud/WishlistDLP/race/Trictrac.lud,Eric.Piette,20210111-161942
+M,Common/res/lud/WishlistDLP/math/Aksadyuta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/A K'aak'il.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Aj Sakakil.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Aj Sayil.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Aj Sina'anil.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Aj T'iwil.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Asi Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Bargese.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Barjis.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Boolik.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Chaupar.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Chonpa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Chukaray.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Contrare Puff.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Daldosa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Dubblets.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/El Mundo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Fallas.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Grand Trictrac.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Kawasukuts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Ketch-Dolt.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Kolica Atarakua.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Kotra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Lange Puff.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Li'b el-Merafib.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Nard.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Nebakuthana.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Pachesi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Pachih.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Pahada Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Pasit.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Patol.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Paumecary.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Petol.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Piprjall.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Puluc.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Romavoa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Saturankam.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Set Dilth'.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Seys Dos y As.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Shuanglu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Sig wa Duqqan (Houmt Taourit).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Sig wa Duqqan (Houmt al-Arbah).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Siga (Sri Lanka).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Sigue.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Siryu (Race).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Sokkattan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Ssang-Ryouk.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tables Rabbatuees.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tamman.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tasholiwe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tatsungin.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tayam Sonalu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Todas Tablas.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tokkadille.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tourne-Case.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tsaydithl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Tsun K'i.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/race/Zohn Ahl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Chisolo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Choro (Acholi).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Choro (Lango).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Hus (Nama).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Ikibuguzo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Isolo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Katra Boaoaka.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Katra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Kisolo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Kubuguza.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Makonn.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mangola.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Muvalavala (Quioco).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mwambulula.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mweiso.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mwendo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Mweso.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Namudilakunze.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Nchuwa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Nsumbi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Pereauni.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Quela.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Quiela.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Spreta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/four_rows/Tshuba.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/three_rows/Gabata (Tigray).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/three_rows/Rab'e.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/three_rows/Selus (Massawa).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/three_rows/Selus.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Adjiboto.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Andada.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Awagagae.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Azigo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Bay Khom.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Bechi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Ceelkoqyuqkoqiji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Chongka'.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Chonka.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Daramuti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Dongjintian.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Enindji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Foji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Fondji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Adegrat).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Ansaba).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Ghinda).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Oromo).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Shoa I).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Shoa and Adegrat).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gabata (Wuqro).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Galatjang.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Gifia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Hoyito.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Hufesay.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Intotoi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Iyogh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/J'erin.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Jimafesosh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kanji Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kay.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Khrour.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Khutka Boia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kiuthi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Koro.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kotu Baendum.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Kpo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/La'b Akila.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lahemay Waladat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lahemay Walida.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lam Waladach.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lamlameta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lamosh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Laomuzhu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla Gobale (Gabradarre).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla Gobale (Somaliland).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Leyla.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Li'b al-'Aqil.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Li'b al-Ghashim.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Lontu-Holo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Main Chongkak.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mandoli.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mangala (Bedouin).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mangala (Suez).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mawkar Katiya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mewegae.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Mewelad.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Motiq.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Obridje.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Okwe (Igbo).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Omangunta Peeta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Oure Ngat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Pallankuli.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Papan Dakon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Pic.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Puhulmutu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Qelat (Beni Amir-Mensa).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Qelat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Rio Kadalis.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Sonka.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Tapata.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Tuz.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Um el Banat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Wa'ache Waledat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Walak-Pussa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Whyo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Yucebao.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/sow/two_rows/Zigulzoqge.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/space/line/Shah.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Chatur.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Forcado.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Main Chator.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Ouk Chatrang.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Parsi Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Santaraj.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Kabir.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Mustatila.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/leaping/draughts/Frisian Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Bheri Bakhri.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Daldos.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Deleb.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Kioz.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Rithmomachia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Sahkku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Sig (Tidikelt).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Sig (Western Sahara).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Tab.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Tablan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/other/Tablas Astronomias.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/WishlistDLP/war/xiangqi/Sanyou Qi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Adugo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bagh Bandi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bagh Batti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bagh Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bagha Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Baghchal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bam Blang Beh Khla.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Bouge Shodra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Cercar La Liebre.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Coyote.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Demala Diviyan Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Diviyan Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Gasetavl (Gedved).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Gasetavl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Go with the Floe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Hat Diviyan Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Huli-Mane Ata.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Hund efter Hare (Thy).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Hund efter Hare (Vendsyssel).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Hyvn aetter Hare.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Jeu de Renard (Two Foxes).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Jeu de Renard.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Jeu du Renard et de la Poule.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Juroku Musashi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Kaooa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Ko-app-paw-na.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Komikan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Kulaochal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Len Cua Kin Ngoa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Main Tapak Empat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Manu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Mao Naga Tiger Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Merimueng-rimueng-do.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Merimueng-rimueng.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Musinaykahwhanmetowaywin.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Mysore Tiger Game (Three Tigers).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Mysore Tiger Game (Two Tigers).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Mysore Tiger Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Neg Tugal Tuux.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Orissa Tiger Game (Four Tigers).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Orissa Tiger Game (One Tiger).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Pon Chochotl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Pulijudamu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Renard et les Poules.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Rimau-Rimau (One Tiger).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Rimau-Rimau (Two Tigers).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Rimoe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Sher Bakar.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Sher Bakr.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Shi Liu Kan Tsiang Kun.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Shui Yen Ho-Shang.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Sumi Naga Game (Hunt).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Uxrijn Ever.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Wolf und Schaaf.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/hunt/Yeung Luk Sz' Kon Tseung Kwan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/20 Squares.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/58 Holes.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Backgammon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Baralie.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Cab e Quinal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Doblet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Emperador.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Fevga.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Frangieh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Garanguet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Ghingskoot.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Had.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Imperial.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Jacquet de Versailles.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Jacquet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Julbahar.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Kawade Kelia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Kints.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Kiz Tavlasi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Laquet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Len Doat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Los Doze Canes.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Ludus Anglicorum.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Ludus Lombardorum.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Mahbouseh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Medio Emperador.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Mughrabieh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Myles.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Ofanfelling.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Pancha Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Panchi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Pareia de Entrada.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Plakoto.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Portes.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Provincial.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Quinze Tablas.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Senet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Tavli.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Tawula.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Thaayam.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/XII Scripta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/escape/Yahoudieh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Aralzaa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Bajr.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Camelot.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Halma.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/fill/Salta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Arimaa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Ashtapada.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Bison.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Breakthrough.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Conspirateurs.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Gauntlet.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Gavalata.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Jungle.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/King's Valley.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Knightthrough.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Main Pacheh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Pachisi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Pente Grammai.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Santorini.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Sneakthrough.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/race/reach/Tugi-Epfe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 1).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Bao Ki Arabu (Zanzibar 2).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Hawalis.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Hus (Damara).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Mefuvha.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Muvalavala (Luena).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/four_rows/Owela (Benguela).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/three_rows/Abalala'e.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Ako Okwe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Alitev.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Aw-li On-nam Ot-tjin.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Awari.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Baqura.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Bosh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Chungcajon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Dabuda.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Das Bohnenspiel.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/En Gehe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/French Wari.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/J'odu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Kalah.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Kapana Bona.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Kara.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Mangala (Turkey).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Mankala.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Mbangbi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Meusueb.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Oware.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Pachgarhwa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Sungka.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Toguz Kumalak.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Um el Tuweisat.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Um el-Bagara.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Unnee Tugalluulax.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Vai Lung Thlan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Waurie.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Woli.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Wore.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/sow/two_rows/Yovodji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Amazons.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Blue Nile.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Cram.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Do Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Domineering.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Dorvon Cag.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/French Military Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Gala.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Gurvan Xudag.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Haretavl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Hex Amazons.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Ho-Bag Gonu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Janes Soppi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Koti Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/L Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Madelinette.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Mu Torere.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/NoGo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Oumoul Kono.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Pong Hau K'i.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Quantum Leap.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Snowpaque.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Spots.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Susan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/T'uk T'uk.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Temeen Tavag.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Tron.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/blocking/Tugul Shodra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Abak.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Chameleon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Cross.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Crossway.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Esa Hex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Gale.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Gonnect.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Havannah.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Hex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Three-Player Hex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Trax.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Y (Hex).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/connection/Y.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Feed the Ducks.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Groups.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Lines of Action.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Manalath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Odd.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/group/Omega.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Achi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Akidada.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/All Queens Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Alquerque de Tres.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Altan Xaraacaj.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Andantino.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Bolotudu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Bravalath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Connect Four.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Connect6.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Dai Hasami Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Dala.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Dara.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Djara-Badakh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Dra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Driesticken.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Dris at-Talata.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Engijn Zirge.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Epelle.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Fanorona Telo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Five Men's Morris.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Gomoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Gurgaldaj.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Janes Soppi (Alignment).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Jeson Zam.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Les Pendus.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Liu Tsi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Marelle Triple.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Morabaraba.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Mylna.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Nao Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Nerenchi Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Nine Holes.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Nine Men's Morris.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Niranchy.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Pentalath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Picaria.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Pushing Me XO.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Ringo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Round Merels.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Sam K'i.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/San-Noku-Narabe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Score Four.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Shisima.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Shiva.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Six Men's Morris.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Six-Penny Madell.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Spline.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Squava.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Sujjua.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Symbol S.2.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tant Fant.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tapatan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tauru.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tavan Tal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tic-Tac-Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tic-Tac-Die.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tic-Tac-Four.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Triodi (Diagonal).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Triodi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tuk Tak.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Tule Paid.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Twelve Men's Morris.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Ultimate Tic-Tac-Toe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Wure Dune.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Xanan Zirge.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Xonin Shatar (Complex).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Xonin Shatar (Simple).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Yavalade.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Yavalanchor.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Yavalath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/line/Zurgaan Tal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/pattern/Kensington.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/pattern/Upper Hand.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Ataxx.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Dorvolz.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Go.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Lotus.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/One-Eyed Go.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Patok.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Phantom Go.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Reversi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/space/territory/Weiqi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Game of the Pawns.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Hindustani Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Mak Ruk.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Rumi Shatranj.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Shatranj al-Husun.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Shatren.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chaturanga/Shodra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Acedrex de los Cuatros Tiempos.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Brusky Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Capture the Queen.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Chex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Currierspiel.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/De Vasa Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Dice Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Double Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Glinski Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Grande Acedrex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Half Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Horde Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Loop Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/McCooey Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Mini Hexchess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Phase Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Saxun.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Shafran Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Skirmish (GDL).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Starchess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Ultimate Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/chess/Wellisch Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Ahtarah Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Bara Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Bis Gutiya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Challis Ghutia (Titagarh).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Dam (Singapore).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Dam Hariman.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Ethiopian Capture Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Hewakam Keliya.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Kharbaga.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Kharberg.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Kotu Ellima.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Lam Pusri.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Meurimueng-rimueng Peuet Ploh.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Mogul Putt'han.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Mughal Pathan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Peralikatuma.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Ratti-Chitti-Bakri.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Satoel.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Terhuchu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Tuknanavuhpi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Brazilian Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Canadian Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Coc-Inbert.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Dam.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Dama (Italy).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Dama (Philippines).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Dama.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Damas.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Diagonal Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Doov.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/English Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Guerrilla Checkers.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/HexDame.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/International Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Jekab.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Lasca.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Main Dam.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Makvoer.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Maleys.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Moo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Pleasant Draughts.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Shashki.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/The Babylonian.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/draughts/Unnamed Dutch Draughts Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Awithlaknan Mosona.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Bara Guti (Bihar).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Buudal.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Challis Ghutia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Dash Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Egara Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Felli.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Gol Ekuish.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Kaua Dorki.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Kolowis Awithlaknannai.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Konane.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Koruboddo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Laram Wali.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Lau Kata Kati.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Natt Klab ash-Shawk.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Padaivettu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Pam Pait.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Pretwa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Ram Tir.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/T'oki.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/leaping/other/Tre Guti.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/At-Tab wa-d-Dukk.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Atari Go.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Awangdu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Awithlaknakwe.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Bizingo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Boseog Gonu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Boxijn Barildaan.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Castello.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Choko.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Clobber.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Fang.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Fanorona.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Gala (Buginese).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Gundru.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Ja-Jeon-Geo-Gonu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/L'attaque.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Ludus Latrunculorum.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Maak Yek.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Mapuche Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Mehen.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Oust.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Ploy.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Press Ups.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Queah Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Seega.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Shantarad.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Sig (Mzab).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Sig (Tozeur).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Sijat El Taba.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Siryu (War).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Sumi Naga Game (War).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Surakarta.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Terhuchu (Small).lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Toono.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Triad.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Triple Tangle.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Vela.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Xarajlt.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/other/Yote.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Hasami Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Kyoto Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Minishogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Taikyoku Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/shogi/Tobi Shogi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/Alea Evangelii.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/ArdRi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/Brandub.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/HeXentafl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/Hnefatafl.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/Tablut.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/tafl/Tawlbwrdd.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/xiangqi/Banqi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/xiangqi/Qi Guo Xiangxi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/dice/Pasa.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/dominoes/Block.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Abrobad.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Breakthrough Checkers.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Breakthrough Chess.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Broken Line.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Diagonal Hex.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Flowers.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Hops-a-Daisy Generalized.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Infuse.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Inkblots.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Refugia.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/RootZone.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Trike.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/Tumbleweed.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Ciri Amber.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/CrossGeo.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Ilpion.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/LastEdge.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Line and Cross.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Nedilmarth.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Nein Ari.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/OddEvenTree.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Onek Rong.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Oriath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Radran.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/SpanRups.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/experimental/graph_theory/Windir.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/Mastermind.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Contagion.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Crossline.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/DisPath.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Dots and Boxes.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Hackenbush.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Hamiltonian Maze.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Icosian.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/MaxMatch.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Sim.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Two-Colour.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/graph/Wagner.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/hand/Chopsticks.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/hand/Morra.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/hand/Rock-Paper-Scissors.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/nim/Chomp.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/nim/Fibonacci Nim.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/math/nim/Nim.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/proprietary/Stratego.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Anti-Knight Sudoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Fill A Pix.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Futoshiki.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Hoshi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Kakuro.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Killer Sudoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Magic Hexagon.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Magic Square.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/N Queens.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Samurai Sudoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Slitherlink.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Squaro.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Sudoku Mine.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Sudoku X.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Sudoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Sujiken.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Takuzu.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/deduction/Tridoku.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/BoxOff.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Chase.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Insanity.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Knight's Tour.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Lam Turki.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Mawryngkneng Solitaire Game.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Maze.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Monty Hall Problem.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/N Puzzles.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Nao Gutiya Baithaneka.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Pentalpha.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Safe Passage.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/simulation/Game of Life.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/wip/Order and Chaos.lud,Eric.Piette,20210111-162014
+M,Common/res/lud/wishlist/needReconstruction/Trictrac.lud,Eric.Piette,20210111-162014
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20210111-162014
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20210111-165940
+A,AI/src/search/mcts/finalmoveselection/ActRegPolOpt.java,Dennis Soemers,20210111-165940
+M,AI/src/search/mcts/finalmoveselection/FinalMoveSelectionStrategy.java,Dennis Soemers,20210111-165940
+M,AI/src/search/mcts/finalmoveselection/MaxAvgScore.java,Dennis Soemers,20210111-165940
+M,AI/src/search/mcts/finalmoveselection/ProportionalExpVisitCount.java,Dennis Soemers,20210111-165940
+M,AI/src/search/mcts/finalmoveselection/RobustChild.java,Dennis Soemers,20210111-165940
+A,AI/src/search/mcts/RegPolOptMCTS.java,Dennis Soemers,20210111-171217
+M,AI/src/search/mcts/finalmoveselection/ActRegPolOpt.java,Dennis Soemers,20210111-171217
+M,Common/res/lud/board/war/chess/Grande Acedrex.lud,Eric Piette,20210111-173656
+M,AI/src/search/mcts/RegPolOptMCTS.java,Dennis Soemers,20210111-175821
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20210111-175821
+D,Core/src/game/functions/region/sites/SitesTrackType.java,Eric Piette,20210111-180121
+M,Common/res/lud/board/war/chess/Chess.lud,Eric Piette,20210111-180249
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210111-181829
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,Matthew Stephenson,20210111-181829
+M,Mining/ludemesFound.csv,Matthew Stephenson,20210111-181836
+M,Mining/res/ludemeplexDetection/output/ludemeplexRulesetPairs.csv,Matthew Stephenson,20210111-181836
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210111-181836
+M,Core/src/game/functions/directions/Difference.java,Cameron Browne,20210111-182737
+M,AI/src/search/mcts/RegPolOptMCTS.java,Dennis Soemers,20210111-212336
+M,AI/src/search/mcts/finalmoveselection/ActRegPolOpt.java,Dennis Soemers,20210111-212336
+A,AI/src/search/mcts/selection/SearchRegPolOpt.java,Dennis Soemers,20210111-213001
+M,Core/src/game/functions/region/sites/Sites.java,Cameron Browne,20210112-083444
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210112-083444
+M,Common/src/main/grammar/Clause.java,Cameron Browne,20210112-091059
+M,Common/src/main/grammar/ClauseArg.java,Cameron Browne,20210112-091059
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20210112-091059
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20210112-091059
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210112-093504
+D,Mining/src/ludemeplexDetection/LudemeplexDetectionOld.java,Matthew Stephenson,20210112-093504
+D,Mining/src/ludemeplexDetection/ludemeplexMatching.java,Matthew Stephenson,20210112-093504
+D,Common/res/lud/WishlistDLP/sow/four_rows/Nchuwa.lud,Eric.Piette,20210112-105456
+A,Common/res/lud/board/sow/four_rows/Nchuwa.lud,Eric.Piette,20210112-105456
+M,Core/src/game/functions/directions/Difference.java,Eric.Piette,20210112-105456
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210112-110455
+M,Common/res/lud/WishlistDLP/race/Piprjall.lud,Eric.Piette,20210112-110757
+M,Common/src/main/FileHandling.java,Matthew Stephenson,20210112-112132
+D,Mining/ludemesFound.csv,Matthew Stephenson,20210112-112132
+D,Mining/res/ludemeplexDetection/input/ludemeplexRulesetPairs.csv,Matthew Stephenson,20210112-112132
+D,Mining/res/ludemeplexDetection/output/ludemeplexRulesetPairs.csv,Matthew Stephenson,20210112-112132
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210112-112132
+A,Mining/res/ludemeplexDetection/output/ludemes.csv,Matthew Stephenson,20210112-112132
+A,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210112-112132
+A,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210112-112132
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210112-112132
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20210112-112132
+A,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210112-112147
+A,Mining/res/ludemeplexDetection/output/rulesetLudemeplexPairs.csv,Matthew Stephenson,20210112-112147
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210112-112638
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210112-113744
+M,Mining/src/ludemeplexDetection/LudemeDetection.java,Matthew Stephenson,20210112-113744
+M,Mining/src/ludemeplexDetection/LudemeplexDetection.java,Matthew Stephenson,20210112-113744
+M,Common/src/main/grammar/Clause.java,Cameron Browne,20210112-114656
+M,Common/src/main/grammar/Call.java,Matthew Stephenson,20210112-115128
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210112-115128
+M,Mining/res/ludemeplexDetection/output/ludemeplexes.csv,Matthew Stephenson,20210112-115128
+M,Mining/res/ludemeplexDetection/output/rulesetLudemeplexPairs.csv,Matthew Stephenson,20210112-115128
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210112-115128
+M,Mining/res/ludemeplexDetection/output/ludemeplexLudemePairs.csv,Matthew Stephenson,20210112-120027
+M,Mining/src/ludemeplexDetection/DatabaseFunctions.java,Matthew Stephenson,20210112-120027
+D,Common/res/lud/WishlistDLP/sow/two_rows/Kanji Guti.lud,Eric.Piette,20210112-120057
+M,Common/res/lud/board/sow/two_rows/Awari.lud,Eric.Piette,20210112-120057
+A,Common/res/lud/board/sow/two_rows/Kanji Guti.lud,Eric.Piette,20210112-120057
+D,Common/res/lud/WishlistDLP/sow/two_rows/Oure Ngat.lud,Eric.Piette,20210112-125135
+A,Common/res/lud/board/sow/two_rows/Oure Ngat.lud,Eric.Piette,20210112-125135
+M,Common/res/lud/board/hunt/Renard et les Poules.lud,Eric.Piette,20210112-131146
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,Matthew Stephenson,20210112-132355
+M,MetadataScripts/AddMetadata.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/CreateFlatLudsDir.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/GenerateGOTW.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/GetCategories.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/GetGameCategories.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/GetGamePeriods.py,Matthew Stephenson,20210112-132404
+M,MetadataScripts/GetGameRegions.py,Matthew Stephenson,20210112-132404
+M,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-133025
+M,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-142234
+M,AI/src/expert_iteration/ExpertIteration.java,Dennis Soemers,20210112-143202
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20210112-143202
+D,AI/src/search/mcts/RegPolOptMCTS.java,Dennis Soemers,20210112-143202
+M,AI/src/search/mcts/finalmoveselection/ActRegPolOpt.java,Dennis Soemers,20210112-143202
+M,AI/src/search/mcts/selection/SearchRegPolOpt.java,Dennis Soemers,20210112-143202
+A,AI/src/search/mcts/utils/RegPolOptMCTS.java,Dennis Soemers,20210112-143202
+M,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-152755
+D,Common/res/lud/WishlistDLP/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-153517
+A,Common/res/lud/board/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-153517
+M,Common/res/lud/board/hunt/Renard et les Poules.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/board/sow/four_rows/Nchuwa.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/board/sow/two_rows/Kanji Guti.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/board/sow/two_rows/Oure Ngat.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/board/war/chaturanga/Sittuyin.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/board/war/chess/Chess.lud,Eric.Piette,20210112-154011
+M,Common/res/lud/test/eric/Test4.lud,Eric.Piette,20210112-154011
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20210112-154011
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Kabir.lud,Eric.Piette,20210112-154415
+M,Common/res/lud/board/sow/two_rows/Oure Ngat.lud,Eric.Piette,20210112-155943
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Kabir.lud,Eric.Piette,20210112-161342
+M,PlayerDesktop/src/app/display/views/tabs/pages/MovesPage.java,Matthew Stephenson,20210112-164903
+M,Common/res/lud/WishlistDLP/war/chaturanga/Shatranj al-Kabir.lud,Eric.Piette,20210112-175640
+A,Common/res/lud/board/space/line/Order and Chaos.lud,Eric.Piette,20210113-085443
+D,Common/res/lud/wip/Order and Chaos.lud,Eric.Piette,20210113-085443

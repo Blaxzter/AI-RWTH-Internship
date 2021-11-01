@@ -1,0 +1,257 @@
+A,Library/src/game/rules/start/PlaceRandomly.java,eric.piette,20190313-165357
+D,Library/src/oldLudeme/game/rules/start/PlaceRandomly.java,eric.piette,20190313-165357
+M,Library/src/game/equipment/component/Number.java,eric.piette,20190313-165455
+M,Library/.classpath,eric.piette,20190313-170004
+A,Library/src/game/functions/booleans/Configuration.java,eric.piette,20190313-170004
+D,Library/src/oldLudeme/functions/booleans/Configuration.java,eric.piette,20190313-170004
+M,Library/src/game/rules/start/Place.java,eric.piette,20190313-170033
+M,Library/src/util/state/State.java,eric.piette,20190313-170033
+M,Player/src/dbView/DBView.java,eric.piette,20190313-170033
+A,Player/src/dbView/games/NPuzzle.java,eric.piette,20190313-170033
+M,Player/src/player/Referee.java,eric.piette,20190313-170033
+M,Player/src/dbView/DBView.java,eric.piette,20190313-170411
+M,Player/src/dbView/GamesList.java,eric.piette,20190313-170411
+A,Player/test/experimental/playout/NPuzzleTest.java,eric.piette,20190313-173200
+A,Player/test/experimental/playout/WolfAndSheepTest.java,eric.piette,20190313-173325
+M,Library/src/util/Trial.java,Matthew Stephenson,20190313-173921
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190313-173921
+M,Player/src/player/Referee.java,Matthew Stephenson,20190313-173921
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20190313-215109
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190313-215109
+M,AI/src/utils/RandomAI.java,Matthew Stephenson,20190313-215647
+M,Player/src/player/Referee.java,Matthew Stephenson,20190313-215647
+M,AI/src/utils/RandomAI.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/Card.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/graphics/ImageProcessing.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190313-223751
+M,Library/src/game/equipment/component/Card.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/graphics/ImageProcessing.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190314-000700
+M,Library/src/game/equipment/component/Card.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190314-092447
+M,Library/src/game/Game.java,eric.piette,20190314-093902
+M,Library/src/game/functions/booleans/In.java,eric.piette,20190314-093902
+M,Library/src/game/functions/booleans/NoMove.java,eric.piette,20190314-093902
+M,Library/src/game/rules/moves/ByPiece.java,eric.piette,20190314-093902
+M,Library/src/util/Context.java,eric.piette,20190314-093902
+M,Player/src/dbView/games/WolfAndSheep.java,eric.piette,20190314-093902
+M,AI/src/function_approx/BoostedLinearFunction.java,DennisSoemers,20190314-094532
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190314-094532
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190314-094532
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_aac_boosted.py,DennisSoemers,20190314-094532
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190314-095342
+M,Library/src/game/equipment/container/board/modify/Modify.java,eric.piette,20190314-095342
+M,Player/test/experimental/playout/WolfAndSheepTest.java,eric.piette,20190314-095342
+M,AI/src/function_approx/BoostedLinearFunction.java,DennisSoemers,20190314-100410
+M,AI/src/function_approx/BoostedLinearFunction.java,DennisSoemers,20190314-102730
+M,Library/src/game/functions/booleans/Line.java,eric.piette,20190314-103012
+M,Player/src/dbView/games/Gomoku.java,eric.piette,20190314-103012
+M,Library/src/game/functions/booleans/And.java,eric.piette,20190314-110423
+M,Library/src/game/rules/move/Move.java,eric.piette,20190314-110423
+M,Library/src/game/rules/moves/If.java,eric.piette,20190314-110423
+M,Library/src/game/rules/moves/To.java,eric.piette,20190314-110423
+M,Library/src/game/rules/moves/consequences/Consequences.java,eric.piette,20190314-110423
+M,Player/src/dbView/DBView.java,eric.piette,20190314-110423
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-110423
+A,Player/src/dbView/games/Connect6.java,eric.piette,20190314-110423
+M,Player/src/dbView/games/Gomoku.java,eric.piette,20190314-110423
+M,Player/src/player/Referee.java,eric.piette,20190314-110423
+A,Player/test/experimental/playout/Connect6Test.java,eric.piette,20190314-110949
+M,Library/src/game/equipment/container/board/IntersectionBoard.java,eric.piette,20190314-115358
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,DennisSoemers,20190314-122828
+M,LudiiDiagnosticsPy/setup.py,DennisSoemers,20190314-122828
+M,Library/src/game/equipment/container/board/IntersectionBoard.java,eric.piette,20190314-130249
+D,Library/src/game/equipment/container/board/modify/Join.java,eric.piette,20190314-130849
+A,Library/src/game/equipment/container/board/modify/JoinDiago.java,eric.piette,20190314-130849
+A,Library/src/game/equipment/container/board/modify/JoinOrtho.java,eric.piette,20190314-130849
+M,Library/src/game/equipment/container/board/modify/Modify.java,eric.piette,20190314-130849
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190314-130903
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190314-132354
+A,Library/src/game/functions/ints/Next.java,eric.piette,20190314-133235
+A,Library/src/game/functions/ints/Previous.java,eric.piette,20190314-133235
+A,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190314-133840
+M,Player/src/dbView/DBView.java,eric.piette,20190314-133840
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-133840
+A,Player/src/dbView/games/MuTorere.java,eric.piette,20190314-133840
+M,Player/src/player/Referee.java,eric.piette,20190314-133840
+D,Library/src/game/equipment/container/basis/Rhombus.java,eric.piette,20190314-134632
+M,AI/src/utils/RandomAI.java,Matthew Stephenson,20190314-134904
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190314-134904
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190314-142214
+M,Library/src/game/equipment/container/basis/BaseBasis.java,eric.piette,20190314-143605
+M,Library/src/game/equipment/container/basis/Basis.java,eric.piette,20190314-143605
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190314-143605
+M,Library/src/game/rules/moves/ByPiece.java,eric.piette,20190314-143605
+M,Player/src/dbView/games/MuTorere.java,eric.piette,20190314-143605
+M,Library/src/game/rules/moves/ByPiece.java,eric.piette,20190314-143731
+M,AI/src/utils/RandomAI.java,Matthew Stephenson,20190314-151202
+M,Library/src/game/Game.java,Matthew Stephenson,20190314-151202
+M,Player/src/player/Referee.java,Matthew Stephenson,20190314-151202
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,DennisSoemers,20190314-152054
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac_it_limit_boosted.py,DennisSoemers,20190314-162906
+M,Library/src/game/Game.java,eric.piette,20190314-162939
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190314-162939
+A,Library/src/game/functions/booleans/Adjacent.java,eric.piette,20190314-162939
+M,Library/src/game/functions/booleans/NoMove.java,eric.piette,20190314-162939
+M,Library/src/game/functions/region/Around.java,eric.piette,20190314-162939
+M,Library/src/game/functions/region/Own.java,eric.piette,20190314-162939
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-162939
+M,Player/src/dbView/games/MuTorere.java,eric.piette,20190314-162939
+M,Player/test/experimental/playout/Connect4Test.java,eric.piette,20190314-162939
+A,Player/test/experimental/playout/MuTorereTest.java,eric.piette,20190314-163353
+M,Library/src/game/equipment/component/Letter.java,eric.piette,20190314-164301
+M,Library/src/game/mode/player/Player.java,eric.piette,20190314-164854
+M,Player/src/dbView/DBView.java,eric.piette,20190314-164854
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-164854
+A,Player/src/dbView/games/TicTacMo.java,eric.piette,20190314-164854
+M,Player/src/player/Referee.java,eric.piette,20190314-164854
+A,Player/test/experimental/playout/TicTacMoTest.java,eric.piette,20190314-165350
+M,Library/src/game/rules/moves/Sandwiched.java,eric.piette,20190314-172204
+M,Library/src/game/rules/moves/Surrounded.java,eric.piette,20190314-172204
+M,Player/src/dbView/DBView.java,eric.piette,20190314-172204
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-172204
+M,Player/src/dbView/games/Hnefatafl11.java,eric.piette,20190314-172204
+A,Player/src/dbView/games/Hnefatafl13.java,eric.piette,20190314-172204
+M,Player/src/player/Referee.java,eric.piette,20190314-172204
+A,Player/test/experimental/playout/Hnefatafl13Test.java,eric.piette,20190314-172426
+M,Library/src/game/rules/moves/Step.java,eric.piette,20190314-180557
+M,Player/src/dbView/DBView.java,eric.piette,20190314-180557
+M,Player/src/dbView/GamesList.java,eric.piette,20190314-180557
+A,Player/src/dbView/games/Papillon.java,eric.piette,20190314-180557
+M,Player/src/player/Referee.java,eric.piette,20190314-180557
+M,Player/test/experimental/playout/Hnefatafl13Test.java,eric.piette,20190314-180557
+M,Player/src/dbView/games/Papillon.java,eric.piette,20190314-181052
+A,Player/test/experimental/playout/PapillonTest.java,eric.piette,20190314-181052
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_aac_it_limit_boosted.py,Dennis Soemers,20190314-215109
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_aac_it_limit_boosted.py,Dennis Soemers,20190314-215109
+M,Player/src/player/experiments/RunTournament.java,Dennis Soemers,20190314-215109
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190314-215109
+M,Player/src/dbView/DBView.java,eric.piette,20190315-095503
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-095503
+D,Player/src/dbView/games/Hnefatafl11.java,eric.piette,20190315-095503
+D,Player/src/dbView/games/Hnefatafl13.java,eric.piette,20190315-095503
+A,Player/src/dbView/games/HnefataflFetlar.java,eric.piette,20190315-095503
+A,Player/src/dbView/games/SuperHnefataflCross37.java,eric.piette,20190315-095503
+D,Player/test/experimental/playout/Hnefatafl11Test.java,eric.piette,20190315-095503
+D,Player/test/experimental/playout/Hnefatafl13Test.java,eric.piette,20190315-095503
+A,Player/test/experimental/playout/HnefataflFetlarTest.java,eric.piette,20190315-095503
+A,Player/test/experimental/playout/SuperHnefataflCross37Test.java,eric.piette,20190315-095503
+M,Player/src/dbView/DBView.java,eric.piette,20190315-100417
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-100417
+A,Player/src/dbView/games/SuperHnefataflDiamond.java,eric.piette,20190315-100417
+M,Player/src/player/Referee.java,eric.piette,20190315-100417
+M,Common/src/database/ConnectionDB.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/DBTableModel.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/Game.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/button/LoadButton.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/renderer/DatabaseTableCellRenderer.java,Matthew Stephenson,20190315-101947
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190315-101947
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-102430
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-104141
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-105238
+M,Player/src/dbView/DBView.java,eric.piette,20190315-105246
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-105246
+D,Player/src/dbView/button/DeleteButton.java,eric.piette,20190315-105246
+D,Player/src/dbView/button/UpdateButton.java,eric.piette,20190315-105246
+A,Player/src/dbView/games/SuperHnefataflCross49.java,eric.piette,20190315-105246
+A,Player/src/dbView/games/SuperHnefataflVikingSiege.java,eric.piette,20190315-105246
+M,Player/src/player/PlayerCli.java,eric.piette,20190315-105246
+M,Player/test/experimental/playout/HnefataflFetlarTest.java,eric.piette,20190315-105246
+M,Player/test/experimental/playout/SuperHnefataflCross37Test.java,eric.piette,20190315-105246
+A,Player/test/experimental/playout/SuperHnefataflCross49Test.java,eric.piette,20190315-105246
+A,Player/test/experimental/playout/SuperHnefataflDiamondTest.java,eric.piette,20190315-105246
+M,Player/src/dbView/DBView.java,eric.piette,20190315-105554
+A,Player/.settings/org.eclipse.core.resources.prefs,eric.piette,20190315-110908
+M,Player/src/dbView/DBView.java,eric.piette,20190315-110908
+M,Player/src/dbView/DBView.java,eric.piette,20190315-111054
+M,Player/src/dbView/DBView.java,eric.piette,20190315-111405
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-111405
+M,Player/src/player/Referee.java,eric.piette,20190315-111405
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-112558
+M,Player/src/dbView/renderer/SizeCellEditor.java,Matthew Stephenson,20190315-112558
+M,Player/src/dbView/DBView.java,eric.piette,20190315-113524
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-113524
+A,Player/src/dbView/games/ArdRi.java,eric.piette,20190315-113524
+A,Player/src/dbView/games/Brandubh.java,eric.piette,20190315-113524
+A,Player/src/dbView/games/SuperHnefataflParlett.java,eric.piette,20190315-113524
+A,Player/src/dbView/games/Tablut.java,eric.piette,20190315-113524
+M,Player/src/player/Referee.java,eric.piette,20190315-113524
+A,Player/test/experimental/playout/SuperHnefataflVikingSiegeTest.java,eric.piette,20190315-113524
+M,Library/src/game/equipment/container/board/TaflBoard.java,eric.piette,20190315-120444
+M,Player/src/dbView/DBView.java,eric.piette,20190315-120444
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-120444
+M,Player/src/dbView/games/ArdRi.java,eric.piette,20190315-120444
+M,Player/src/player/Referee.java,eric.piette,20190315-120444
+M,Player/test/experimental/playout/SuperHnefataflDiamondTest.java,eric.piette,20190315-120444
+A,Player/test/experimental/playout/SuperHnefataflParlettTest.java,eric.piette,20190315-120444
+A,Player/test/experimental/playout/ArdRiTest.java,eric.piette,20190315-121100
+M,Player/src/dbView/DBView.java,eric.piette,20190315-125428
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-125428
+A,Player/src/dbView/games/TawlbwrddBellDiamond.java,eric.piette,20190315-125428
+A,Player/src/dbView/games/TawlbwrddLewisCross.java,eric.piette,20190315-125428
+A,Player/src/dbView/games/TawlbwrddLewisDiamond.java,eric.piette,20190315-125428
+A,Player/src/dbView/games/TawlbwrddTCross.java,eric.piette,20190315-125428
+A,Player/src/dbView/games/TawlbwrddTDiamond.java,eric.piette,20190315-125428
+M,Player/src/player/Referee.java,eric.piette,20190315-125428
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-130955
+A,Player/test/experimental/playout/TawlbwrddBellDiamondTest.java,eric.piette,20190315-130955
+A,Player/test/experimental/playout/TawlbwrddLewisCrossTest.java,eric.piette,20190315-130955
+A,Player/test/experimental/playout/TawlbwrddLewisDiamondTest.java,eric.piette,20190315-130955
+A,Player/test/experimental/playout/TawlbwrddTCrossTest.java,eric.piette,20190315-130955
+A,Player/test/experimental/playout/TawlbwrddTDiamondTest.java,eric.piette,20190315-130955
+M,Player/src/dbView/DBView.java,eric.piette,20190315-132437
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-132437
+A,Player/src/dbView/games/Brandub.java,eric.piette,20190315-132437
+M,Player/src/player/Referee.java,eric.piette,20190315-132437
+A,Player/test/experimental/playout/BrandubTest.java,eric.piette,20190315-132844
+M,Player/src/dbView/games/ArdRi.java,eric.piette,20190315-134843
+M,Player/src/dbView/games/Brandub.java,eric.piette,20190315-134843
+A,Player/src/dbView/games/Fidchell.java,eric.piette,20190315-134843
+M,Player/src/player/Referee.java,eric.piette,20190315-134843
+M,Player/src/dbView/games/TawlbwrddBellDiamond.java,eric.piette,20190315-142645
+M,Player/src/dbView/games/TawlbwrddLewisCross.java,eric.piette,20190315-142645
+M,Player/src/dbView/games/TawlbwrddLewisDiamond.java,eric.piette,20190315-142645
+M,Player/src/dbView/games/TawlbwrddTCross.java,eric.piette,20190315-142645
+M,Player/src/dbView/games/TawlbwrddTDiamond.java,eric.piette,20190315-142645
+M,Player/src/dbView/DBView.java,eric.piette,20190315-143201
+M,Player/src/dbView/GamesList.java,eric.piette,20190315-143201
+A,Player/src/dbView/games/AleaEvangelii.java,eric.piette,20190315-143201
+D,Player/src/dbView/games/Brandubh.java,eric.piette,20190315-143201
+D,Player/src/dbView/games/Tablut.java,eric.piette,20190315-143201
+M,Player/src/player/Referee.java,eric.piette,20190315-143201
+A,Player/test/experimental/playout/FidchellTest.java,eric.piette,20190315-143201
+M,Player/src/dbView/games/AleaEvangelii.java,eric.piette,20190315-143727
+A,Player/test/experimental/playout/AleaEvangeliiTest.java,eric.piette,20190315-143727
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190315-145311
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190315-145357
+M,Library/.classpath,eric.piette,20190315-150934
+A,Library/src/game/functions/booleans/AllDifferent.java,eric.piette,20190315-150934
+D,Library/src/oldLudeme/functions/booleans/AllDifferent.java,eric.piette,20190315-150934
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,Dennis Soemers,20190315-155229
+M,LudiiDiagnosticsPy/experiments/plotting_utils.py,Dennis Soemers,20190315-155229
+M,Player/src/dbView/DBView.java,Matthew Stephenson,20190315-161130
+M,Player/src/dbView/Game.java,Matthew Stephenson,20190315-161130
+M,Player/src/dbView/games/Connect4.java,Matthew Stephenson,20190315-161130
+M,Player/src/dbView/renderer/SizeCellEditor.java,Matthew Stephenson,20190315-161130
+A,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/__init__.py,Dennis Soemers,20190316-162834
+A,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/plot_effective_weights.py,Dennis Soemers,20190316-162834
+A,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/plot_playout_weight_changes.py,Dennis Soemers,20190316-162834

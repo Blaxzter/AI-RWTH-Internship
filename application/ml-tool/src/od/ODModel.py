@@ -25,3 +25,13 @@ class OutlierDetectionModel:
             model = serialized_model,
         )
 
+    @staticmethod
+    def load_file_server_model(db, file_server):
+        file_server_id = file_server['_id']
+        stored_model = db.get_file_server_model(file_server_id)
+        model = OutlierDetectionModel(
+            file_server = file_server,
+            db_con = db,
+            model = stored_model,
+        )
+        return model

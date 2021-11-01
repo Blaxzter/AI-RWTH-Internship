@@ -1,0 +1,245 @@
+A,Common/src/graphics/svg2/SVG.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/SVGParser.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/SVGRenderer.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/BaseElement.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/Element.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/ElementFactory.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/Style.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/Decorator.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/DecoratorFactory.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/DecoratorGraphics2D.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DCircle.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DEllipse.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DLine.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPath.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPolygon.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPolyline.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DRect.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Circle.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Ellipse.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Line.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Polygon.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Polyline.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Rect.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/Shape.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/ShapeFactory.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/Close.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/CubicTo.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/LineTo.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/MoveTo.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/Path.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/PathOp.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/PathOpFactory.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/shape/path/QuadTo.java,Cameron Browne,20190531-105911
+A,Common/src/graphics/svg2/element/text/Text.java,Cameron Browne,20190531-105911
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190531-105911
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190531-105911
+M,Common/src/graphics/svg2/SVGParser.java,Cameron Browne,20190531-123659
+M,Common/src/graphics/svg2/SVGRenderer.java,Cameron Browne,20190531-123659
+M,Common/src/graphics/svg2/element/Style.java,Cameron Browne,20190531-123659
+M,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPath.java,Cameron Browne,20190531-123659
+M,Common/src/graphics/svg2/element/shape/path/Path.java,Cameron Browne,20190531-123659
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190531-123659
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Cameron Browne,20190531-123659
+M,Common/src/graphics/svg2/SVGParser.java,Cameron Browne,20190531-131908
+M,Common/src/graphics/svg2/SVGRenderer.java,Cameron Browne,20190531-131908
+A,Common/img/svg/test/Hnefatafl_KING.svg,Matthew,20190531-145057
+A,Common/img/svg/test/Hnefatafl_MEN.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test1.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test2.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test3.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test4.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test5.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test6.svg,Matthew,20190531-145057
+A,Common/img/svg/test/test7.svg,Matthew,20190531-145057
+M,Library/src/game/equipment/component/piece/animal/Camel.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Cat.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Cow.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Dog.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Elephant.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Goat.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Horse.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Leopard.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Rabbit.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Tiger.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew,20190531-145728
+M,Library/src/game/equipment/component/Die.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/SenetPiece.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/StonePile.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/UrPiece.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/checkers/Dame.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/checkers/Man.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/checkers/ManStar.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/chess/King.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/chess/Mann.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/tafl/Jarl.java,Matthew,20190531-150246
+M,Library/src/game/equipment/component/piece/tafl/Thrall.java,Matthew,20190531-150246
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew,20190531-151915
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew,20190531-151915
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew,20190531-151915
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew,20190531-151915
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew,20190531-151915
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew,20190531-151915
+M,Common/img/svg/chess/plain/queen.svg,Cameron Browne,20190531-160634
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190531-160634
+M,Common/src/graphics/svg/SVGop.java,Cameron Browne,20190531-160634
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190531-160634
+M,Common/src/graphics/svg2/SVGParser.java,Cameron Browne,20190531-160634
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190531-160634
+M,Common/src/main/Global.java,Cameron Browne,20190531-172404
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190531-172404
+A,Grammar/src/compiler/Import.java,Cameron Browne,20190531-172404
+A,Grammar/src/compiler/PlexLoader.java,Cameron Browne,20190531-172404
+A,Library/lud/Chess (Skirmish) (with import).lud,Cameron Browne,20190531-172404
+A,Library/lud/plex/Chess Knight.lud,Cameron Browne,20190531-172404
+M,Player/src/player/GameLoader.java,Cameron Browne,20190531-172404
+M,Player/test/games/CompilationTest.java,Cameron Browne,20190531-172404
+M,Player/src/player/GameLoader.java,Cameron Browne,20190531-173709
+A,Library/lud/Amazons (crash).lud,Cameron Browne,20190601-085023
+A,Library/lud/Breakthrough (crash).lud,Cameron Browne,20190601-085023
+M,Library/lud/Hitori.lud,eric.piette,20190601-085936
+D,Library/lud/Juosan.lud,eric.piette,20190601-085936
+D,Library/lud/Kakkuru.lud,eric.piette,20190601-085936
+D,Library/lud/Mainarizumu.lud,eric.piette,20190601-085936
+D,Library/lud/Shikaku.lud,eric.piette,20190601-085936
+D,Library/lud/Shirokuro.lud,eric.piette,20190601-085936
+D,Library/lud/Slitherlink.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Juosan.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Kakkuru.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Mainarizumu.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Shikaku.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Shirokuro.lud,eric.piette,20190601-085936
+A,Library/lud/incompletePuzzleLianne/Slitherlink.lud,eric.piette,20190601-085936
+M,Library/src/game/rules/start/Place.java,eric.piette,20190601-085936
+D,Library/lud/Breakthrough (crash).lud,eric.piette,20190601-090338
+M,Library/.classpath,eric.piette,20190601-090432
+A,Library/incompletePuzzleLianne/Juosan.lud,eric.piette,20190601-090558
+A,Library/incompletePuzzleLianne/Kakkuru.lud,eric.piette,20190601-090558
+A,Library/incompletePuzzleLianne/Mainarizumu.lud,eric.piette,20190601-090558
+A,Library/incompletePuzzleLianne/Shikaku.lud,eric.piette,20190601-090558
+A,Library/incompletePuzzleLianne/Shirokuro.lud,eric.piette,20190601-090558
+A,Library/incompletePuzzleLianne/Slitherlink.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Juosan.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Kakkuru.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Mainarizumu.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Shikaku.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Shirokuro.lud,eric.piette,20190601-090558
+D,Library/lud/incompletePuzzleLianne/Slitherlink.lud,eric.piette,20190601-090558
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20190601-092351
+M,Library/lud/Sudoku.lud,Cameron Browne,20190601-092351
+A,Library/incompletePuzzleLianne/Hitori.lud,eric.piette,20190601-092442
+M,Library/lud/Binero.lud,eric.piette,20190601-092442
+M,Library/lud/Fill A Pix.lud,eric.piette,20190601-092442
+M,Library/lud/Futoshiki.lud,eric.piette,20190601-092442
+M,Library/lud/Hashi (real one).lud,eric.piette,20190601-092442
+M,Library/lud/Hashi (v2).lud,eric.piette,20190601-092442
+M,Library/lud/Hashi.lud,eric.piette,20190601-092442
+D,Library/lud/Hitori.lud,eric.piette,20190601-092442
+M,Library/lud/Kakuro Hard.lud,eric.piette,20190601-092442
+M,Library/lud/Kakuro.lud,eric.piette,20190601-092442
+M,Library/lud/Killer Sudoku.lud,eric.piette,20190601-092442
+M,Library/lud/Latin Square (5x5).lud,eric.piette,20190601-092442
+M,Library/lud/Magic Hexagon.lud,eric.piette,20190601-092442
+M,Library/lud/Magic Square.lud,eric.piette,20190601-092442
+M,Library/lud/Squaro.lud,eric.piette,20190601-092442
+M,Library/lud/Sudoku.lud,eric.piette,20190601-092442
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190601-092442
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190601-092442
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190601-092442
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190601-092442
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190601-092442
+M,Library/src/game/functions/booleans/puzzleConstraints/AllResolved.java,eric.piette,20190601-092442
+A,Library/src/game/rules/play/moves/decision/Constraints.java,eric.piette,20190601-092442
+D,Library/src/game/rules/play/moves/decision/Set.java,eric.piette,20190601-092442
+M,Library/src/util/Context.java,eric.piette,20190601-092442
+M,Player/test/games/CompilationTest.java,eric.piette,20190601-092442
+M,Grammar/src/compiler/Option.java,Cameron Browne,20190601-095927
+M,Library/lud/Hex (with options).lud,Cameron Browne,20190601-095927
+M,Library/lud/Sudoku.lud,Cameron Browne,20190601-095927
+M,Library/lud/Hashi.lud,eric.piette,20190601-100137
+A,Library/src/game/rules/start/Hint.java,eric.piette,20190601-100137
+M,Library/src/game/rules/start/Set.java,eric.piette,20190601-100137
+M,Library/src/game/rules/start/Hint.java,eric.piette,20190601-101402
+M,Library/src/util/Context.java,eric.piette,20190601-101402
+M,Library/lud/Hashi (real one).lud,eric.piette,20190601-101520
+M,Library/lud/Hashi (v2).lud,eric.piette,20190601-101520
+M,Library/lud/Hashi.lud,eric.piette,20190601-101520
+A,Library/src/game/functions/booleans/puzzleConstraints/Crossing.java,eric.piette,20190601-101520
+D,Library/src/game/functions/booleans/puzzleConstraints/Intersection.java,eric.piette,20190601-101520
+M,Library/lud/Hashi (real one).lud,eric.piette,20190601-101952
+M,Library/lud/Hashi (v2).lud,eric.piette,20190601-101952
+M,Library/lud/Hashi.lud,eric.piette,20190601-101952
+D,Library/src/game/functions/booleans/puzzleConstraints/AllConnected.java,eric.piette,20190601-101952
+A,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,eric.piette,20190601-101952
+M,Library/src/game/types/AreaType.java,eric.piette,20190601-101952
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190601-102233
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190601-102354
+M,Common/.classpath,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/SVG.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/BaseElement.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/Element.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/ElementFactory.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/Style.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Circle.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Ellipse.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Line.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Polygon.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Polyline.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Rect.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/Shape.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/ShapeFactory.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/Arc.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/Close.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/CubicTo.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/HorzLineTo.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/LineTo.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/MoveTo.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/PathOp.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/PathOpFactory.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/shape/path/QuadTo.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/ShortCubicTo.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/ShortQuadTo.java,Cameron Browne,20190601-232808
+A,Common/src/graphics/svg/element/shape/path/VertLineTo.java,Cameron Browne,20190601-232808
+M,Common/src/graphics/svg/element/text/Text.java,Cameron Browne,20190601-232808
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190601-232808
+M,Common/img/svg/chess/plain/queen.svg,Cameron Browne,20190601-234644
+M,Common/src/graphics/svg/element/shape/path/Arc.java,Cameron Browne,20190601-234644
+M,Common/src/graphics/svg/element/Style.java,Cameron Browne,20190602-001113
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/Arc.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/Close.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/CubicTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/HorzLineTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/LineTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/MoveTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/PathOp.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/PathOpFactory.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/QuadTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/ShortCubicTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/ShortQuadTo.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/element/shape/path/VertLineTo.java,Cameron Browne,20190602-010401
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190602-010401
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/Arc.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/Close.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/CubicTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/HorzLineTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/LineTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/MoveTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/PathOp.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/QuadTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/ShortCubicTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/ShortQuadTo.java,Cameron Browne,20190602-102120
+M,Common/src/graphics/svg/element/shape/path/VertLineTo.java,Cameron Browne,20190602-102120
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190602-102120

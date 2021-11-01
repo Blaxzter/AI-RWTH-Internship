@@ -1,0 +1,172 @@
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191027-104556
+M,Library/src/game/equipment/container/board/custom/ChessBoard.java,eric.piette,20191027-195451
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20191027-195451
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20191027-214132
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20191027-214132
+M,Common/src/main/FVector.java,Dennis Soemers,20191027-214132
+M,Features/src/features/FeatureSet.java,Dennis Soemers,20191027-214132
+M,Library/src/game/playout/AddToEmpty.java,Dennis Soemers,20191027-214132
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20191027-214132
+M,Library/src/util/FeatureSetInterface.java,Dennis Soemers,20191027-214132
+M,Library/src/util/model/AlternatingMove.java,Dennis Soemers,20191027-214132
+M,Library/src/util/model/RealTime.java,Dennis Soemers,20191027-214132
+M,Library/src/util/model/SimultaneousMove.java,Dennis Soemers,20191027-214132
+M,Player/src/player/MainMenu.java,Dennis Soemers,20191027-214132
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191027-214132
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191027-214132
+M,Player/test/features/TestAmazonsFeatures.java,Dennis Soemers,20191027-214132
+M,Player/test/features/TestHexFeatures.java,Dennis Soemers,20191027-214132
+A,Common/res/lud/board/chase/hunt/Go with the Floe.lud,eric.piette,20191027-220700
+M,Library/src/game/functions/booleans/AllPass.java,eric.piette,20191027-220700
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20191027-220700
+A,Common/res/lud/wip/Jungle Chess.lud,eric.piette,20191028-081401
+A,Common/res/img/svg/animals/rat.svg,Matthew.Stephenson,20191028-092801
+A,Common/res/img/svg/misc/waves.svg,Matthew.Stephenson,20191028-092801
+M,Common/res/lud/wip/Jungle Chess.lud,Matthew.Stephenson,20191028-092801
+M,Library/src/game/equipment/container/board/custom/GoBoard.java,Matthew.Stephenson,20191028-092801
+A,Library/src/game/equipment/container/board/custom/JungleBoard.java,Matthew.Stephenson,20191028-092801
+M,Library/src/game/equipment/container/board/custom/ShogiBoard.java,Matthew.Stephenson,20191028-092801
+M,Library/src/game/equipment/container/board/custom/UrBoard.java,Matthew.Stephenson,20191028-092801
+M,Library/src/game/equipment/container/board/custom/XiangqiBoard.java,Matthew.Stephenson,20191028-092801
+M,Common/res/lud/board/chase/hunt/Go with the Floe.lud,Matthew.Stephenson,20191028-093921
+M,Common/src/main/UserColour.java,Matthew.Stephenson,20191028-093921
+M,Library/src/game/equipment/container/board/custom/GoBoard.java,Matthew.Stephenson,20191028-093921
+M,Library/src/game/equipment/container/board/custom/SnakesAndLaddersBoard.java,Matthew.Stephenson,20191028-095538
+M,Library/src/graph/Face.java,Matthew.Stephenson,20191028-095538
+M,Common/res/lud/board/chase/hunt/Go with the Floe.lud,Matthew.Stephenson,20191028-101125
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20191028-101125
+M,Library/src/game/equipment/container/board/custom/JungleBoard.java,Matthew.Stephenson,20191028-101607
+M,Player/.classpath,Coen,20191028-104154
+A,Player/lib/batik-anim-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-awt-util-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-bridge-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-constants-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-css-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-dom-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-ext-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-gvt-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-i18n-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-parser-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-rasterizer-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-script-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-svg-dom-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-svggen-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-transcoder-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-util-1.11.jar,Coen,20191028-104154
+A,Player/lib/batik-xml-1.11.jar,Coen,20191028-104154
+A,Player/lib/xml-apis-ext-1.3.04.jar,Coen,20191028-104154
+A,Player/lib/xmlgraphics-commons-2.3.jar,Coen,20191028-104154
+M,Player/src/mainView/GameView.java,Coen,20191028-104154
+M,Player/src/mainView/panel/StatePanel.java,Coen,20191028-104154
+M,Player/src/player/PlayerApp.java,Coen,20191028-104154
+A,Player/src/player/utils/SVGUtil.java,Coen,20191028-104154
+M,Library/src/game/equipment/container/board/Board.java,Coen,20191028-105934
+M,Player/build.xml,DennisSoemers,20191028-110708
+M,Player/src/player/experiments/utils/ResultsSummary.java,DennisSoemers,20191028-132508
+A,Player/lib/Untitled.jar,Coen,20191028-133245
+A,Player/lib/activation-1.1.1.jar,Coen,20191028-133245
+A,Player/lib/jaxb-api-2.3.1.jar,Coen,20191028-133245
+A,Common/res/lud/board/chase/tafl/Tablut.lud,eric.piette,20191028-134401
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20191028-134401
+M,AI/.classpath,Coen,20191028-140923
+M,Common/.classpath,Coen,20191028-140923
+M,Grammar/.classpath,Coen,20191028-140923
+M,Player/.classpath,Coen,20191028-140923
+M,Player/.settings/org.eclipse.jdt.core.prefs,Coen,20191028-140923
+D,AI/.settings/org.eclipse.jdt.core.prefs,Coen,20191028-140946
+D,Player/lib/Untitled.jar,Coen,20191028-140946
+M,Evaluation/.classpath,Coen,20191028-142635
+A,Common/res/img/svg/Mahjong/BambooEight.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooFive.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooFour.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooNine.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooOne.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooSeven.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooSix.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooThree.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/BambooTwo.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterEight.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterFive.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterFour.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterNine.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterOne.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterSeven.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterSix.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterThree.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CharacterTwo.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleEight.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleFour.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleNine.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleOne.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleSeven.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleSix.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleThree.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CircleTwo.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/CricleFive.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/DragonGreen.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/DragonRed.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/DragonWhite.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/FlowerBamboo.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/FlowerChrysanthemum.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/FlowerOrchid.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/FlowerPlum.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/SeasonAutumn.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/SeasonSpring.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/SeasonSummer.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/SeasonWinter.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/TileBack.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/TileJoker.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/WindEast.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/WindNorth.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/WindSouth.svg,Matthew.Stephenson,20191028-150006
+A,Common/res/img/svg/Mahjong/WindWest.svg,Matthew.Stephenson,20191028-150006
+M,AI/.classpath,Coen,20191028-155502
+A,AI/.settings/org.eclipse.jdt.core.prefs,Coen,20191028-155502
+M,Common/.classpath,Coen,20191028-155502
+M,Evaluation/.classpath,Coen,20191028-155502
+M,Grammar/.classpath,Coen,20191028-155502
+M,Player/.classpath,Coen,20191028-155502
+M,Player/.settings/org.eclipse.jdt.core.prefs,Coen,20191028-155502
+M,Player/build.xml,Coen,20191028-155502
+M,Player/build.xml,Coen,20191028-160918
+D,AI/src/utils/ExperienceBuffer.java,DennisSoemers,20191028-161436
+A,AI/src/utils/data_structures/ExperienceBuffer.java,DennisSoemers,20191028-161436
+A,AI/src/utils/data_structures/SumTree.java,DennisSoemers,20191028-161436
+A,Common/src/main/IntMath.java,DennisSoemers,20191028-161436
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20191028-161436
+M,Library/src/game/functions/region/Corners.java,eric.piette,20191028-165723
+M,Common/res/lud/board/chase/tafl/Tablut.lud,eric.piette,20191028-173819
+A,Common/res/lud/board/chase/tafl/Alea Evangelli.lud,eric.piette,20191028-180034
+M,Library/src/game/functions/region/Corners.java,eric.piette,20191028-180034
+M,Common/res/lud/board/chase/tafl/Hnefatafl Fetlar.lud,eric.piette,20191028-181930
+A,Common/res/lud/board/chase/tafl/Brandub.lud,eric.piette,20191028-190324
+A,Common/res/lud/board/chase/tafl/Tawlbwrdd.lud,eric.piette,20191028-201055
+M,AI/src/utils/data_structures/SumTree.java,Dennis Soemers,20191028-202032
+M,Common/src/main/FVector.java,Dennis Soemers,20191028-202032
+D,Common/res/lud/puzzle/others/Insanity.lud,eric.piette,20191028-202522
+D,Common/res/lud/puzzle/others/Knight's Tour.lud,eric.piette,20191028-202522
+D,Common/res/lud/puzzle/others/N Puzzles.lud,eric.piette,20191028-202522
+D,Common/res/lud/puzzle/others/Peg Solitaire.lud,eric.piette,20191028-202522
+D,Common/res/lud/puzzle/others/Tower of Hanoi.lud,eric.piette,20191028-202522
+A,Common/res/lud/puzzle/planning/Insanity.lud,eric.piette,20191028-202522
+A,Common/res/lud/puzzle/planning/Knight's Tour.lud,eric.piette,20191028-202522
+A,Common/res/lud/puzzle/planning/N Puzzles.lud,eric.piette,20191028-202522
+A,Common/res/lud/puzzle/planning/Peg Solitaire.lud,eric.piette,20191028-202522
+A,Common/res/lud/puzzle/planning/Tower of Hanoi.lud,eric.piette,20191028-202522
+D,Common/res/lud/board/space/line/Dara.lud,eric.piette,20191028-213003
+A,Common/res/lud/board/space/line/Dra.lud,eric.piette,20191028-213003
+M,Library/src/game/equipment/container/board/custom/JungleBoard.java,eric.piette,20191028-220828
+A,Common/res/lud/board/race/fill/Five Field Kono.lud,eric.piette,20191028-221646
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20191028-221646
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20191028-224711
+A,Common/res/lud/wip/GrassHopper.lud,eric.piette,20191028-224711
+M,Common/res/lud/board/displace/leaping/Alquerque.lud,eric.piette,20191028-225049
+M,Common/res/lud/wip/Jungle Chess.lud,eric.piette,20191029-055658
+M,Common/res/lud/wip/Jungle Chess.lud,eric.piette,20191029-061521
+D,Common/res/lud/wip/Jungle Chess.lud,eric.piette,20191029-061605
+A,Common/res/lud/wip/Jungle.lud,eric.piette,20191029-061605
+M,Common/res/lud/wip/Jungle.lud,eric.piette,20191029-061804
+M,Common/res/lud/board/displace/leaping/Awithlaknannai.lud,eric.piette,20191029-095226
+M,Library/src/game/equipment/container/board/custom/GoBoard.java,eric.piette,20191029-095226
+M,Common/src/graphics/svg/SVGtoImage.java,Coen,20191029-104653
+M,Library/src/game/equipment/container/board/custom/TaflBoard.java,Coen,20191029-104653

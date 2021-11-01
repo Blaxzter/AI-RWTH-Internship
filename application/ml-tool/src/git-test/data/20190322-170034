@@ -1,0 +1,217 @@
+M,Player/src/dbView/DBView.java,eric.piette,20190320-170626
+M,Player/src/dbView/GamesList.java,eric.piette,20190320-170626
+A,Player/test/experimental/playout/InternationalDraughtsTest.java,eric.piette,20190320-170812
+M,Library/.classpath,eric.piette,20190320-175114
+M,Library/src/game/equipment/component/piece/state/LargePiece.java,eric.piette,20190320-175114
+M,Library/src/game/equipment/component/piece/state/PieceState.java,eric.piette,20190320-175114
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,eric.piette,20190320-175114
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,eric.piette,20190320-175114
+M,Library/src/game/rules/moves/Promotion.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/functions/ints/LastOverMove.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/CaptureSurrounded.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/FlyingJump.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/FlyingJumpFromLastMove.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/Forward.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/Jump.java,eric.piette,20190320-175114
+D,Library/src/oldLudeme/game/rules/moves/JumpFromLastMove.java,eric.piette,20190320-175114
+A,Player/src/dbView/games/EnglishDraughts.java,eric.piette,20190320-175114
+M,Player/src/dbView/games/InternationalDraughts.java,eric.piette,20190320-175114
+M,Player/src/dbView/games/EnglishDraughts.java,eric.piette,20190320-180200
+M,Player/src/player/Referee.java,eric.piette,20190320-180200
+M,Player/src/dbView/DBView.java,eric.piette,20190320-181331
+M,Player/src/dbView/GamesList.java,eric.piette,20190320-181331
+M,Player/src/dbView/games/EnglishDraughts.java,eric.piette,20190320-181331
+A,Player/test/experimental/playout/EnglishDraughtsTest.java,eric.piette,20190320-181331
+M,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/plot_effective_weights.py,Dennis Soemers,20190320-200104
+M,LudiiDiagnosticsPy/experiments/expert_iteration/mcts_behaviour_plots/plot_entropies.py,Dennis Soemers,20190320-200104
+M,LudiiDiagnosticsPy/experiments/expert_iteration/score_plots/plot_win_percentages_per_game_repetitions.py,Dennis Soemers,20190320-200104
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190321-095749
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190321-095749
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190321-095749
+A,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/plot_effective_weights_single_game.py,DennisSoemers,20190321-100003
+M,LudiiDiagnosticsPy/experiments/expert_iteration/feature_plots/plot_effective_weights_single_game.py,DennisSoemers,20190321-100439
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190321-110848
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190321-110848
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Ball.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Cross.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Disc.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Hex.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Piece.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/Square.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Amazon.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Chess.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/King.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Mann.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Cameron Browne,20190321-110848
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Cameron Browne,20190321-110848
+M,Player/src/dbView/GamesListHnefataflPost.java,Cameron Browne,20190321-110848
+M,Player/src/dbView/DBView.java,eric.piette,20190321-114028
+M,Player/src/dbView/GamesList.java,eric.piette,20190321-114028
+A,Player/src/dbView/games/BrazilianDraughts.java,eric.piette,20190321-114028
+M,Player/src/player/Referee.java,eric.piette,20190321-114028
+A,Player/test/experimental/playout/BrazilianDraughtsTest.java,eric.piette,20190321-114028
+M,Player/test/experimental/playout/BreakthroughTest.java,eric.piette,20190321-114028
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190321-115035
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190321-115035
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190321-115035
+M,Library/src/game/rules/moves/Moves.java,Cameron Browne,20190321-115035
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190321-115035
+M,Player/src/dbView/DBView.java,eric.piette,20190321-115335
+M,Player/src/dbView/GamesList.java,eric.piette,20190321-115335
+A,Player/src/dbView/games/CanadianDraughts.java,eric.piette,20190321-115335
+M,Player/src/player/Referee.java,eric.piette,20190321-115335
+A,Player/test/experimental/playout/CanadianDraughtsTest.java,eric.piette,20190321-115335
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190321-122013
+M,Player/src/dbView/DBView.java,eric.piette,20190321-122013
+M,Player/src/dbView/GamesList.java,eric.piette,20190321-122013
+A,Player/src/dbView/games/TurkishDraughts.java,eric.piette,20190321-122013
+M,Player/src/player/Referee.java,eric.piette,20190321-122013
+A,Player/test/experimental/playout/TurkishDraughtsTest.java,eric.piette,20190321-122013
+A,Library/src/game/functions/ints/HowMany.java,eric.piette,20190321-125937
+D,Library/src/oldLudeme/functions/ints/HowMany.java,eric.piette,20190321-130707
+M,Player/src/dbView/DBView.java,eric.piette,20190321-130707
+M,Player/src/dbView/GamesList.java,eric.piette,20190321-130707
+A,Player/src/dbView/games/PegSolitaireEnglish.java,eric.piette,20190321-130707
+M,Player/src/player/Referee.java,eric.piette,20190321-130707
+A,Player/test/experimental/playout/PegSolitaireEnglishTest.java,eric.piette,20190321-130707
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190321-143526
+M,Library/src/game/equipment/container/tiling/BaseTiling.java,eric.piette,20190321-143526
+M,Library/src/game/equipment/container/tiling/Square.java,eric.piette,20190321-143526
+M,Library/src/game/equipment/container/tiling/Tiling.java,eric.piette,20190321-143526
+A,Player/src/dbView/games/PegSolitaireEuropean.java,eric.piette,20190321-143526
+M,Player/src/player/Referee.java,eric.piette,20190321-143526
+M,Player/src/dbView/DBView.java,eric.piette,20190321-144125
+M,Player/src/dbView/GamesList.java,eric.piette,20190321-144125
+M,Player/test/experimental/playout/PegSolitaireEnglishTest.java,eric.piette,20190321-144125
+A,Player/test/experimental/playout/PegSolitaireEuropeanTest.java,eric.piette,20190321-144125
+M,Player/src/dbView/DBTableModel.java,eric.piette,20190321-144651
+M,Player/src/dbView/DBView.java,eric.piette,20190321-144651
+D,Player/src/dbView/Game.java,eric.piette,20190321-144651
+A,Player/src/dbView/GameRecord.java,eric.piette,20190321-144651
+M,Player/src/dbView/renderer/SizeCellEditor.java,eric.piette,20190321-144651
+M,Library/src/features/FeatureSet.java,DennisSoemers,20190321-152620
+M,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20190321-152620
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190321-161337
+M,Library/src/game/functions/region/Walk.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/BrazilianDraughts.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/Breakthrough.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/CanadianDraughts.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/EnglishDraughts.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/Insanity.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/InternationalDraughts.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/Skirmish.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/TurkishDraughts.java,eric.piette,20190321-161337
+M,Player/src/dbView/games/WolfAndSheep.java,eric.piette,20190321-161337
+M,AI/src/function_approx/LinearFunction.java,DennisSoemers,20190321-161405
+M,AI/src/policies/GreedyPolicy.java,DennisSoemers,20190321-161405
+M,AI/src/policies/SoftmaxPolicy.java,DennisSoemers,20190321-161405
+M,Library/src/features/FeatureSet.java,DennisSoemers,20190321-161405
+M,Library/src/game/API.java,DennisSoemers,20190321-161405
+M,Library/src/game/Game.java,DennisSoemers,20190321-161405
+M,Library/src/game/play/playout/AddToEmpty.java,DennisSoemers,20190321-161405
+M,Library/src/game/play/playout/Playout.java,DennisSoemers,20190321-161405
+M,Library/src/game/functions/ints/Count.java,eric.piette,20190321-162552
+D,Library/src/game/functions/ints/HowMany.java,eric.piette,20190321-162552
+A,Library/src/game/functions/ints/Size.java,eric.piette,20190321-162552
+M,Player/src/dbView/games/PegSolitaireEnglish.java,eric.piette,20190321-162552
+M,Player/src/dbView/games/PegSolitaireEuropean.java,eric.piette,20190321-162552
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190321-170254
+M,Library/src/game/equipment/container/tiling/hand/HandStore.java,eric.piette,20190321-170254
+A,Player/src/dbView/games/ThreeMenMorris.java,eric.piette,20190321-170254
+M,Player/src/player/Referee.java,eric.piette,20190321-170254
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190321-172451
+M,Library/src/game/equipment/container/tiling/hand/HandStore.java,eric.piette,20190321-172451
+M,Library/src/util/state/State.java,eric.piette,20190321-172451
+M,Library/src/util/state/containerState/ContainerStateCount.java,eric.piette,20190321-172451
+M,Library/src/util/state/containerState/ContainerStatePlayer.java,eric.piette,20190321-172451
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190321-172451
+M,Grammar/src/grammar/Symbol.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190322-085523
+M,Library/src/game/mode/Mode.java,Cameron Browne,20190322-085523
+M,Library/test/Performance.java,Cameron Browne,20190322-085523
+M,Library/test/game/play/PlayTest.java,Cameron Browne,20190322-085523
+M,Player/src/dbView/GamesListAmazons.java,Cameron Browne,20190322-085523
+M,Player/src/dbView/GamesListBreakthrough.java,Cameron Browne,20190322-085523
+M,Player/src/dbView/GamesListHnefataflChained.java,Cameron Browne,20190322-085523
+M,Player/src/dbView/GamesListHnefataflPost.java,Cameron Browne,20190322-085523
+M,Player/src/dbView/GamesListTicTacToe.java,Cameron Browne,20190322-085523
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-085523
+M,Player/src/player/Referee.java,Cameron Browne,20190322-085523
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190322-095820
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190322-095820
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-095820
+A,Grammar/src/parser/Instance.java,eric.piette,20190322-112819
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190322-145756
+M,Library/src/graph/Face.java,eric.piette,20190322-145756
+M,Player/src/dbView/games/ThreeMenMorris.java,eric.piette,20190322-145756
+M,Player/src/mainView/MainView.java,eric.piette,20190322-145756
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190322-145756
+M,Player/src/player/PlayerApp.java,eric.piette,20190322-145756
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190322-150517
+D,Library/src/game/equipment/container/tiling/hand/HandStore.java,eric.piette,20190322-150517
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190322-150903
+M,Evaluation/src/main/Evaluation.java,Cameron Browne,20190322-155505
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-155505
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-160024
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190322-160837
+A,Library/src/game/functions/region/Sites.java,eric.piette,20190322-160837
+D,Library/src/oldLudeme/function/region/Hand.java,eric.piette,20190322-160837
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190322-161209
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-161209
+M,AI/src/function_approx/BoostedLinearFunction.java,Dennis Soemers,20190322-161624
+M,AI/src/function_approx/LinearFunction.java,Dennis Soemers,20190322-161624
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20190322-161624
+M,AI/src/policies/SoftmaxPolicy.java,Dennis Soemers,20190322-161624
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190322-161624
+M,Library/src/game/API.java,Dennis Soemers,20190322-161624
+M,Library/src/game/Game.java,Dennis Soemers,20190322-161624
+M,Library/src/game/play/playout/AddToEmpty.java,Dennis Soemers,20190322-161624
+M,Library/src/game/play/playout/Playout.java,Dennis Soemers,20190322-161624
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190322-161624
+M,Player/src/player/experiments/PruneAtomicFeatureSet.java,Dennis Soemers,20190322-161624
+M,Player/src/player/experiments/PruneFeatureSet.java,Dennis Soemers,20190322-161624
+M,Player/src/player/experiments/TestExpertIteration.java,Dennis Soemers,20190322-161624
+M,Library/src/game/Game.java,Cameron Browne,20190322-161832
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20190322-161832
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-161832
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20190322-162242
+M,Library/src/game/functions/booleans/Line.java,Cameron Browne,20190322-163102
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190322-163102
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190322-165002
+M,Library/src/game/equipment/component/piece/Disc.java,eric.piette,20190322-165002
+M,Library/src/game/functions/region/Sites.java,eric.piette,20190322-165002
+M,Library/src/game/rules/moves/GoTo.java,eric.piette,20190322-165002
+M,Library/src/game/rules/moves/Hop.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/AleaEvangelii.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/AllQueensChess.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Connect4.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Connect6.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Gomoku.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Skirmish.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/ThreeMenMorris.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/TicTacMo.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/TicTacToe.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Yavalath2P.java,eric.piette,20190322-165002
+M,Player/src/dbView/games/Yavalath3P.java,eric.piette,20190322-165002
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190322-165002
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/Instance.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190322-165228
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190322-165404
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190322-165404
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190322-165600
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190322-170034

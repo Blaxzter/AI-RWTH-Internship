@@ -1,0 +1,907 @@
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-105305
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-105305
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-105305
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,eric.piette,20200602-105305
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,eric.piette,20200602-105305
+M,Core/src/game/equipment/other/Regions.java,eric.piette,20200602-105305
+M,Core/src/game/functions/region/sites/side/SitesSide.java,eric.piette,20200602-105305
+M,Core/src/topology/Topology.java,eric.piette,20200602-105305
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-105305
+M,Player/src/display/dialogs/DeveloperDialog.java,eric.piette,20200602-105305
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-105305
+M,Player/build.xml,Dennis Soemers,20200602-110335
+A,Player/test/other/TestJNIClasses.java,Dennis Soemers,20200602-110335
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/AboutDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/SVGViewerDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonOther.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonPass.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ButtonSwap.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/toolButtons/ToolButton.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/BoardView.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/ToolView.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/playerViews/PlayerView.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/playerViews/PlayerViewShared.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/playerViews/PlayerViewUser.java,Matthew.Stephenson,20200602-110851
+M,Player/src/display/views/tabViews/TabView.java,Matthew.Stephenson,20200602-110851
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/experiments/EvalAIsThread.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/ai/AIUtil.java,Matthew.Stephenson,20200602-110851
+D,Player/src/player/utils/gameplay/ContextHandler.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/gameplay/GameLoading.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/gameplay/GameRestart.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/gameplay/GameSetup.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/gameplay/MoveUtil.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/gameplay/TrialUtil.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/graphics/DesktopGraphics.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/graphics/GUIUtil.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/graphics/GraphicsCache.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/other/ContextHandler.java,Matthew.Stephenson,20200602-110851
+A,Player/src/player/utils/other/LoadingOther.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/other/LoadingUtil.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/utils/supplementary/EvalUtil.java,Matthew.Stephenson,20200602-110851
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200602-111122
+M,Player/src/player/utils/ai/AIUtil.java,Matthew.Stephenson,20200602-111202
+M,Player/src/player/utils/gameplay/GameSetup.java,Matthew.Stephenson,20200602-111202
+M,Player/src/display/dialogs/editor/EditorDialog.java,Matthew.Stephenson,20200602-111430
+M,Player/src/player/utils/graphics/ImageUtil.java,Matthew.Stephenson,20200602-111430
+M,Player/src/player/utils/supplementary/EvalUtil.java,Matthew.Stephenson,20200602-111430
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200602-111553
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-111553
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-111553
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,eric.piette,20200602-111553
+M,Core/src/game/equipment/container/board/tiling/flat/Square.java,eric.piette,20200602-111553
+M,Core/src/game/equipment/other/Regions.java,eric.piette,20200602-111553
+M,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsShape.java,eric.piette,20200602-111553
+M,Core/src/game/functions/ints/count/simple/CountColumns.java,eric.piette,20200602-111553
+M,Core/src/game/functions/ints/count/simple/CountRows.java,eric.piette,20200602-111553
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,eric.piette,20200602-111553
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,eric.piette,20200602-111553
+M,Core/src/game/functions/region/sites/index/SitesRow.java,eric.piette,20200602-111553
+M,Core/src/topology/Topology.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/custom/BoardStyle.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,eric.piette,20200602-111553
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,eric.piette,20200602-111553
+M,Player/src/display/dialogs/DeveloperDialog.java,eric.piette,20200602-111553
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-111553
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200602-111716
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200602-111716
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200602-111716
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200602-111716
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200602-112149
+M,Player/src/player/JFrameList.java,Matthew.Stephenson,20200602-112149
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200602-112149
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200602-112551
+M,Player/src/display/toolButtons/ButtonBack.java,Matthew.Stephenson,20200602-112551
+M,Player/src/display/toolButtons/ButtonEnd.java,Matthew.Stephenson,20200602-112551
+M,Player/src/display/toolButtons/ButtonForward.java,Matthew.Stephenson,20200602-112551
+M,Player/src/display/toolButtons/ButtonStart.java,Matthew.Stephenson,20200602-112551
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200602-112551
+M,Player/src/network/DatabaseFunctions.java,Matthew.Stephenson,20200602-112551
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200602-112551
+M,Player/src/player/experiments/EvalAIsThread.java,Matthew.Stephenson,20200602-112551
+M,Player/src/player/experiments/EvalGamesThread.java,Matthew.Stephenson,20200602-112551
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200602-112928
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-112928
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-112928
+M,Core/src/game/functions/region/sites/side/SitesSide.java,eric.piette,20200602-112928
+M,Core/src/topology/Topology.java,eric.piette,20200602-112928
+M,Graphics/src/view/container/BaseContainerStyle.java,eric.piette,20200602-112928
+M,Player/src/display/dialogs/DeveloperDialog.java,eric.piette,20200602-112928
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200602-112928
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200602-112956
+M,Player/src/display/views/playerViews/PlayerViewUser.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/Tournament.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/utils/ai/AIUtil.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/utils/gameplay/GameRestart.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/utils/gameplay/GameSetup.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/utils/gameplay/TrialUtil.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/utils/other/LoadingOther.java,Matthew.Stephenson,20200602-112956
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/Referee.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/SettingsPlayer.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/ai/AIUtil.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/gameplay/GameRestart.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/gameplay/GameSetup.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/gameplay/TrialUtil.java,Matthew.Stephenson,20200602-113424
+M,Player/src/player/utils/other/LoadingOther.java,Matthew.Stephenson,20200602-113424
+M,Core/src/topology/Topology.java,eric.piette,20200602-113456
+M,Core/src/game/Game.java,eric.piette,20200602-114628
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200602-114628
+M,Core/src/metadata/ai/heuristics/terms/LineCompletionHeuristic.java,eric.piette,20200602-114628
+M,Core/src/topology/Topology.java,eric.piette,20200602-114628
+M,Player/src/display/dialogs/DeveloperDialog.java,eric.piette,20200602-115337
+M,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,eric.piette,20200602-131605
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-131605
+M,Common/res/lud/board/space/line/Tic-Tac-Four.lud,eric.piette,20200602-132241
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200602-140034
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-140034
+M,Core/src/topology/GraphElement.java,eric.piette,20200602-140034
+M,Core/src/language/parser/Expander.java,Cameron Browne,20200602-140120
+M,Core/src/util/UnionInfo.java,Dennis Soemers,20200602-143828
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Dennis Soemers,20200602-171151
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Dennis Soemers,20200602-171151
+M,Core/src/game/functions/intArray/state/GroupSizes.java,Dennis Soemers,20200602-171151
+M,Core/src/game/functions/ints/connection/GroupProduct.java,Dennis Soemers,20200602-171151
+M,Core/src/game/functions/ints/size/connection/SizeGroup.java,Dennis Soemers,20200602-171151
+M,Core/src/util/IsLoopAux.java,Dennis Soemers,20200602-171151
+M,Core/src/util/UnionFind.java,Dennis Soemers,20200602-171151
+M,Core/src/util/UnionInfo.java,Dennis Soemers,20200602-171151
+M,Core/src/util/state/containerState/BaseContainerState.java,Dennis Soemers,20200602-171151
+M,Core/src/util/UnionInfo.java,Dennis Soemers,20200602-171553
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-171625
+M,Core/src/game/functions/directions/Directions.java,eric.piette,20200602-171625
+M,Core/src/topology/GraphElement.java,eric.piette,20200602-171625
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200602-171625
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Matthew.Stephenson,20200602-171931
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Matthew.Stephenson,20200602-171931
+M,Common/res/lud/mathematical/graph/puzzle/Icosian.lud,Matthew.Stephenson,20200602-171931
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Matthew.Stephenson,20200602-171931
+M,Core/src/game/types/board/RelationType.java,Matthew.Stephenson,20200602-171931
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200602-171931
+M,Core/src/metadata/graphics/container/DrawEdges.java,Matthew.Stephenson,20200602-171931
+D,Core/src/metadata/graphics/container/DrawRelation.java,Matthew.Stephenson,20200602-171931
+A,Core/src/metadata/graphics/util/EdgeInfoGUI.java,Matthew.Stephenson,20200602-171931
+M,Core/src/metadata/graphics/util/LineStyle.java,Matthew.Stephenson,20200602-171931
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200602-171931
+M,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Matthew.Stephenson,20200602-171931
+M,Common/res/lud/board/space/line/Tic-Tac-Chess.lud,eric.piette,20200602-172017
+M,Common/res/lud/board/race/fill/O-Pat-Kono.lud,Matthew.Stephenson,20200602-172717
+M,Common/res/lud/board/war/leaping/other/Nei-Pat-Kono.lud,Matthew.Stephenson,20200602-172717
+M,Common/res/lud/puzzle/planning/Peg Solitaire.lud,Matthew.Stephenson,20200602-172717
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200602-172717
+M,Core/src/metadata/graphics/container/DrawEdges.java,Matthew.Stephenson,20200602-172717
+M,Graphics/src/util/SettingsVC.java,Matthew.Stephenson,20200602-174504
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200602-174504
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew.Stephenson,20200602-174504
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Dennis Soemers,20200602-175902
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Dennis Soemers,20200602-175902
+M,Core/src/game/functions/ints/count/space/CountGroups.java,Dennis Soemers,20200602-175902
+M,Core/src/game/functions/ints/count/space/CountLiberties.java,Dennis Soemers,20200602-175902
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,Dennis Soemers,20200602-175902
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200602-175902
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200602-175902
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200602-181118
+M,Core/src/topology/GraphElement.java,eric.piette,20200602-181118
+M,Core/src/topology/Topology.java,eric.piette,20200602-181118
+M,Player/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200602-181118
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200602-182334
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200602-182334
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200602-182334
+A,Common/res/lud/test/graph/Graph Test - Split Crossings (Triangles).lud,Cameron Browne,20200602-185513
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200602-185513
+M,Core/src/game/functions/graph/operators/Add.java,Cameron Browne,20200602-185513
+M,Core/src/game/functions/graph/operators/Renumber.java,Cameron Browne,20200602-185513
+M,Core/src/game/functions/graph/operators/Rotate.java,Cameron Browne,20200602-185513
+M,Core/src/game/functions/graph/operators/Scale.java,Cameron Browne,20200602-185513
+M,Core/src/game/functions/graph/operators/Shift.java,Cameron Browne,20200602-185513
+A,Core/src/game/functions/graph/operators/SplitCrossings.java,Cameron Browne,20200602-185513
+M,Core/src/game/util/graph/Edge.java,Cameron Browne,20200602-185513
+M,Core/src/game/util/graph/Face.java,Cameron Browne,20200602-185513
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200602-185513
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200602-185513
+M,Core/src/metadata/graphics/util/colour/Colour.java,Cameron Browne,20200602-190325
+M,Player/src/display/MainWindow.java,Matthew.Stephenson,20200602-193234
+M,Player/src/display/views/OverlayView.java,Matthew.Stephenson,20200602-193234
+M,Player/src/player/MainMenuFunctions.java,Matthew.Stephenson,20200602-193234
+M,Core/src/game/util/graph/GraphElement.java,Cameron Browne,20200603-025102
+A,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200603-025102
+A,Core/src/game/util/graph/Properties.java,Cameron Browne,20200603-025102
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-084127
+M,Graphics/src/bridge/ViewControllerFactory.java,Matthew.Stephenson,20200603-090041
+A,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-090041
+A,Graphics/src/view/container/custom/board/graph/PenAndPaperStyle.java,Matthew.Stephenson,20200603-090041
+D,Graphics/src/view/container/custom/board/specific/GraphStyle.java,Matthew.Stephenson,20200603-090041
+D,Graphics/src/view/container/custom/board/specific/PenAndPaperStyle.java,Matthew.Stephenson,20200603-090041
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200603-090423
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-090423
+A,Graphics/src/util/StrokeUtil.java,Matthew.Stephenson,20200603-091007
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-091007
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200603-091028
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-091028
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200603-092152
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-092152
+A,Graphics/src/util/DeveloperGUI.java,Matthew.Stephenson,20200603-092509
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200603-092509
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-092509
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,eric.piette,20200603-092703
+A,Common/res/lud/test/eric/NoLegalMoves.lud,eric.piette,20200603-092703
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-092703
+M,Common/res/lud/board/hunt/Wolf and Sheep.lud,eric.piette,20200603-092958
+M,Common/res/lud/board/hunt/Fox and Geese.lud,Matthew.Stephenson,20200603-093724
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-093724
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-093724
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-094445
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-101523
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-101845
+M,Player/src/player/Referee.java,Dennis Soemers,20200603-102426
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200603-110717
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200603-110717
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-110717
+M,Core/src/game/equipment/container/board/custom/MancalaBoard.java,eric.piette,20200603-110717
+D,Core/src/game/types/board/EdgeType.java,Matthew.Stephenson,20200603-111303
+M,Core/src/game/types/board/RelationType.java,Matthew.Stephenson,20200603-111303
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200603-111303
+M,Core/src/metadata/graphics/util/EdgeType.java,Matthew.Stephenson,20200603-111303
+M,Core/src/topology/Edge.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/graph/PenAndPaperStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/GraphPuzzleStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/HashiStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200603-111303
+A,Graphics/src/view/container/custom/board/puzzle/PuzzleBoardStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,Matthew.Stephenson,20200603-111303
+M,Graphics/src/view/container/custom/board/specific/ChessStyle.java,Matthew.Stephenson,20200603-111303
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-111810
+M,Core/src/util/model/Model.java,Dennis Soemers,20200603-113228
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200603-113228
+M,Core/src/topology/Topology.java,Matthew.Stephenson,20200603-120534
+A,Graphics/src/util/GraphUtil.java,Matthew.Stephenson,20200603-120534
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-120534
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-120616
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200603-121156
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/Edge.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/Face.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/GraphElement.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200603-121156
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200603-123435
+M,Graphics/src/util/GraphUtil.java,Matthew.Stephenson,20200603-130439
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-130439
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-130439
+M,Graphics/src/view/container/custom/board/specific/HexYStyle.java,Matthew.Stephenson,20200603-130439
+M,Graphics/src/view/container/custom/board/specific/PloyStyle.java,Matthew.Stephenson,20200603-130439
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-132439
+M,Core/src/game/equipment/container/board/custom/AlquerqueBoard.java,eric.piette,20200603-134753
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-134753
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200603-135051
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/utils/gameplay/GameLoading.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/utils/gameplay/TrialUtil.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/utils/other/ContextHandler.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/utils/other/LoadingOther.java,Matthew.Stephenson,20200603-135051
+M,Player/src/player/utils/other/LoadingUtil.java,Matthew.Stephenson,20200603-135051
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200603-135846
+M,Core/src/game/functions/ints/count/Count.java,Dennis Soemers,20200603-140815
+M,Core/src/game/functions/ints/count/space/CountLiberties.java,Dennis Soemers,20200603-140815
+M,Common/src/main/math/Vector.java,Cameron Browne,20200603-144444
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200603-144444
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200603-144444
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/BoardlessStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/PyramidalStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/SpiralStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/WheelStyle.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/axis/BoardAxis.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/axis/SurakartaAxis.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/graph/BoardGraph.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/symbols/BoardSymbols.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/symbols/ScriptaSymbols.java,Matthew.Stephenson,20200603-145606
+A,Graphics/src/view/container/custom/board/ecs/symbols/XiangqiSymbols.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/HashiStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/PuzzleBoardStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/PuzzlePenAndPaperStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/BackgammonStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/ChessStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/GoStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/MancalaStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/PachisiStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/ScriptaStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/ShogiStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/SnakesAndLaddersStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/SurakartaStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/TaflStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/view/container/custom/board/specific/XiangqiStyle.java,Matthew.Stephenson,20200603-145606
+M,Graphics/src/util/GraphUtil.java,Matthew.Stephenson,20200603-151329
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200603-151329
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-151329
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200603-151329
+D,Graphics/src/view/container/custom/board/ecs/graph/BoardGraph.java,Matthew.Stephenson,20200603-151329
+M,Graphics/src/view/container/custom/board/specific/ScriptaStyle.java,Matthew.Stephenson,20200603-151329
+M,Core/src/game/functions/ints/count/space/CountLiberties.java,Dennis Soemers,20200603-155938
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200603-155938
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200603-155938
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200603-161202
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200603-162418
+M,Player/build.xml,Dennis Soemers,20200603-165003
+M,Core/src/game/equipment/container/board/puzzle/PuzzleBoard.java,Matthew.Stephenson,20200603-172504
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/bridge/ViewControllerFactory.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/component/custom/LargePieceStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/BaseContainerStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/BoardStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/HandStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/ecs/axis/BoardAxis.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/ecs/axis/SurakartaAxis.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/Connect4Components.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/ContainerComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/MancalaComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/PenAndPaperComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/puzzle/LineSegmentComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/puzzle/PuzzleComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/puzzle/PuzzlePenAndPaperComponents.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/components/puzzle/SudokuComponents.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/ecs/symbols/BoardSymbols.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/ecs/symbols/ScriptaSymbols.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/ecs/symbols/XiangqiSymbols.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/ecs/track/ContainerTrack.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/graph/GraphStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/graph/PenAndPaperStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/FutoshikiStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/GraphPuzzleStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/HashiStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/KakuroStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/LineSegmentStyle.java,Matthew.Stephenson,20200603-172504
+D,Graphics/src/view/container/custom/board/puzzle/PuzzleBoardStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/PuzzlePenAndPaperStyle.java,Matthew.Stephenson,20200603-172504
+A,Graphics/src/view/container/custom/board/puzzle/PuzzleStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/RegionPuzzleStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/puzzle/SudokuStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/ChessStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/Connect4Style.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/ConnectiveGoalStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/GoStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/HexStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/MancalaStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/ScriptaStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/ShogiStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/SurakartaStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/TaflStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/UltimateTicTacToeStyle.java,Matthew.Stephenson,20200603-172504
+M,Graphics/src/view/container/custom/board/specific/XiangqiStyle.java,Matthew.Stephenson,20200603-172504
+M,Player/src/player/utils/gameplay/GameSetup.java,Matthew.Stephenson,20200603-172504
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200603-214009
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200604-020832
+A,Common/res/lud/test/eric/ExampleCaseSlide.lud,eric.piette,20200604-075931
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200604-075931
+M,Core/src/game/equipment/container/board/custom/CustomBoard.java,eric.piette,20200604-082459
+M,Core/src/game/functions/ints/board/Id.java,eric.piette,20200604-082459
+M,Core/src/topology/GraphElement.java,eric.piette,20200604-082459
+M,Core/src/topology/Topology.java,eric.piette,20200604-082459
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200604-085250
+M,Core/src/topology/Topology.java,eric.piette,20200604-085250
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,Cameron Browne,20200604-085700
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200604-085700
+M,Core/src/game/util/graph/Properties.java,Cameron Browne,20200604-085700
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200604-090629
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200604-090629
+M,Player/src/player/MainMenu.java,Matthew Stephenson,20200604-090629
+M,Player/src/player/MainMenuFunctions.java,Matthew Stephenson,20200604-090629
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20200604-090629
+M,Player/src/player/Tournament.java,Matthew Stephenson,20200604-090629
+D,Player/src/player/utils/gameplay/GameLoading.java,Matthew Stephenson,20200604-090629
+M,Player/src/player/utils/gameplay/GameSetup.java,Matthew Stephenson,20200604-090629
+D,Player/src/player/utils/gameplay/TrialUtil.java,Matthew Stephenson,20200604-090629
+A,Player/src/player/utils/loading/GameLoading.java,Matthew Stephenson,20200604-090629
+A,Player/src/player/utils/loading/LoadingUtil.java,Matthew Stephenson,20200604-090629
+A,Player/src/player/utils/loading/MiscLoading.java,Matthew Stephenson,20200604-090629
+A,Player/src/player/utils/loading/TrialLoading.java,Matthew Stephenson,20200604-090629
+D,Player/src/player/utils/other/LoadingOther.java,Matthew Stephenson,20200604-090629
+D,Player/src/player/utils/other/LoadingUtil.java,Matthew Stephenson,20200604-090629
+A,Player/src/app/JFrameList.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/MainMenu.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/MainMenuFunctions.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/PlayerApp.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/PlayerCLI.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/Referee.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/StartApp.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/Tournament.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/ContextHandler.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/SettingsPlayer.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/TodoRulesets.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/UserPreferences.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/ai/AIDetails.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/ai/AIMenuName.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/ai/AIUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/aliases/AliasesData.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/aliases/GenerateAliasesFile.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/gameplay/GameRestart.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/gameplay/GameSetup.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/gameplay/MoveUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/AnimationUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/DesktopGraphics.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/DrawnImageInfo.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/GUIUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/GraphicsCache.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/ImageUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/SVGUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/SpinnerFunctions.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/graphics/Thumbnails.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/loading/GameLoading.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/loading/LoadingUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/loading/MiscLoading.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/loading/TrialLoading.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/puzzles/PuzzleSelectionType.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/sandbox/SandboxUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/sandbox/SandboxValueType.java,Matthew Stephenson,20200604-094202
+A,Player/src/app/utils/sound/Sound.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/MainWindow.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/AboutDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/DeveloperDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/GameLoaderDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/SVGViewerDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/SettingsDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/dialogs/util/SandboxValueType.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonBack.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonEnd.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonForward.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonInfo.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonOther.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonPass.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonPlayPause.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonSettings.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonStart.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ButtonSwap.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/toolButtons/ToolButton.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonBack.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonEnd.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonForward.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonInfo.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonOther.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonPass.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonPlayPause.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonSettings.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonStart.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ButtonSwap.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/tool_buttons/ToolButton.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/views/BoardView.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/views/ToolView.java,Matthew Stephenson,20200604-094202
+M,Player/src/display/views/View.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/views/playerViews/PlayerView.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/views/playerViews/PlayerViewShared.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/views/playerViews/PlayerViewUser.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/views/players/PlayerView.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/views/players/PlayerViewShared.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/views/players/PlayerViewUser.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/views/tabViews/TabView.java,Matthew Stephenson,20200604-094202
+D,Player/src/display/views/tabViews/TabViewPage.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/views/tabs/TabView.java,Matthew Stephenson,20200604-094202
+A,Player/src/display/views/tabs/TabViewPage.java,Matthew Stephenson,20200604-094202
+M,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20200604-094202
+M,Player/src/network/SettingsNetwork.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/JFrameList.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/MainMenu.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/MainMenuFunctions.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/PlayerApp.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/PlayerCLI.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/Referee.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/StartApp.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/Tournament.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/EvalAIsThread.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/EvalGamesSet.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/EvalGamesThread.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/debugging/FindCrashingTrial.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/debugging/FindSuperLongTrial.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/eval/EvalAgents.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/eval/EvalGate.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/game_files/AddCurlyBracesMetadata.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/game_files/CountGames.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/game_files/TestFormatLudFile.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/game_files/UpdateAIMetadata.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/ludemes/CountLudemes.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/ludemes/ListAllLudemesUsage.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/ludemes/ListGamesUsingLudeme.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/ludemes/ListUsedLudemes.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/ExItTrainingScriptsGen.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/FindCrashingTrialScriptsGen.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/GenerateGatingScripts.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/scripts/InitBestAgentsData.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/speed/PlayoutsPerSec.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/training/ExpertIteration.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/utils/InterruptableExperiment.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/experiments/utils/ResultsSummary.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/game_logs/GameLogs.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/game_logs/MatchRecord.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/game_logs/TestIntegrityOldGames.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/SettingsPlayer.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/ai/AIDetails.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/ai/AIMenuName.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/ai/AIUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/aliases/AliasesData.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/aliases/GenerateAliasesFile.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/gameplay/GameRestart.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/gameplay/GameSetup.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/gameplay/MoveUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/AnimationUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/DesktopGraphics.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/DrawnImageInfo.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/GUIUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/GraphicsCache.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/ImageUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/SVGUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/SpinnerFunctions.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/graphics/Thumbnails.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/loading/GameLoading.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/loading/LoadingUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/loading/MiscLoading.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/loading/TrialLoading.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/ContextHandler.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/PuzzleSelectionType.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/SandboxUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/Sound.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/TodoRulesets.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/other/UserPreferences.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/AutoIndenter.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/DefToTex.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/EvalUtil.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/LudiiGameWrapper.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/LudiiStateWrapper.java,Matthew Stephenson,20200604-094202
+D,Player/src/player/utils/supplementary/PrintLudiiLstDefineLanguage.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/AutoIndenter.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/DefToTex.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/EvalUtil.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/LudiiGameWrapper.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/LudiiStateWrapper.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/PrintLudiiLstDefineLanguage.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/EvalAIsThread.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/EvalGamesSet.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/debugging/FindCrashingTrial.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/debugging/FindSuperLongTrial.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/eval/EvalAgents.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/eval/EvalGate.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/eval/EvalPlayoutImplementations.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/game_files/AddCurlyBracesMetadata.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/game_files/CountGames.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/game_files/TestFormatLudFile.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/game_files/UpdateAIMetadata.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/ludemes/CountLudemes.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/ludemes/ListAllLudemesUsage.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/ludemes/ListGamesUsingLudeme.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/ludemes/ListUsedLudemes.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/ExItTrainingScriptsGen.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/FindBestBaseAgentScriptsGen.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/FindCrashingTrialScriptsGen.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/GenerateGatingScripts.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/scripts/InitBestAgentsData.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/speed/PlayoutsPerSec.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/training/ExpertIteration.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/utils/InterruptableExperiment.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/experiments/utils/ResultsSummary.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/game_logs/GameLogs.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/game_logs/MatchRecord.java,Matthew Stephenson,20200604-094202
+A,Player/src/supplementary/game_logs/TestIntegrityOldGames.java,Matthew Stephenson,20200604-094202
+M,Player/test/games/TestTrialSerialization.java,Matthew Stephenson,20200604-094202
+M,Player/test/games/TestTrialsIntegrity.java,Matthew Stephenson,20200604-094202
+M,Player/test/games/TestTrialsIntegrityERIC.java,Matthew Stephenson,20200604-094202
+M,Player/test/games/TestTrialsIntegrityPuzzle.java,Matthew Stephenson,20200604-094202
+M,Player/test/other/TestDemos.java,Matthew Stephenson,20200604-094202
+M,Player/test/tensors/TestStateMoveTensors.java,Matthew Stephenson,20200604-094202
+M,Player/src/app/JFrameList.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/MainMenu.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/MainMenuFunctions.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/PlayerApp.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/Referee.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/MainWindow.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/SVGWindow.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/AboutDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/DeveloperDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/GameLoaderDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/SVGViewerDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/SettingsDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/BracketColours.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/EditorActions.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/EditorHelpData.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/EditorTokenType.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/LudiiTokeniser.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/SuggestionList.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/editor/TextPaneUtils.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/network/LeaderboardDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/network/MessagePlayersDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/util/JComboCheckBox.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/dialogs/util/MaxLengthTextDocument.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonBack.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonEnd.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonForward.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonInfo.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonOther.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonPass.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonPlayPause.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonSettings.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonStart.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ButtonSwap.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/tool_buttons/ToolButton.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/BoardView.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/OverlayView.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/ToolView.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/View.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/players/PlayerView.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/players/PlayerViewShared.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/players/PlayerViewUser.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/tabs/TabView.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/display/views/tabs/TabViewPage.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/network/DatabaseFunctions.java,Matthew Stephenson,20200604-095618
+A,Player/src/app/network/SettingsNetwork.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/UserPreferences.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/ai/AIUtil.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/aliases/AliasesData.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/gameplay/GameRestart.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/gameplay/GameSetup.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/gameplay/MoveUtil.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/graphics/DesktopGraphics.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/graphics/GUIUtil.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/graphics/SpinnerFunctions.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/graphics/Thumbnails.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/loading/GameLoading.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/loading/LoadingUtil.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/loading/MiscLoading.java,Matthew Stephenson,20200604-095618
+M,Player/src/app/utils/loading/TrialLoading.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/MainWindow.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/SVGWindow.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/AboutDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/DeveloperDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/GameLoaderDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/SVGViewerDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/SettingsDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/BracketColours.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/EditorActions.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/EditorHelpData.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/EditorTokenType.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/LudiiTokeniser.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/SuggestionList.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/editor/TextPaneUtils.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/network/LeaderboardDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/network/MessagePlayersDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/util/DialogUtil.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/util/JComboCheckBox.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/dialogs/util/MaxLengthTextDocument.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonBack.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonEnd.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonForward.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonInfo.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonOther.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonPass.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonPlayPause.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonSettings.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonStart.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ButtonSwap.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/tool_buttons/ToolButton.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/BoardView.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/OverlayView.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/ToolView.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/View.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/players/PlayerView.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/players/PlayerViewShared.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/players/PlayerViewUser.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/tabs/TabView.java,Matthew Stephenson,20200604-095618
+D,Player/src/display/views/tabs/TabViewPage.java,Matthew Stephenson,20200604-095618
+D,Player/src/network/DatabaseFunctions.java,Matthew Stephenson,20200604-095618
+D,Player/src/network/SettingsNetwork.java,Matthew Stephenson,20200604-095618
+M,Player/src/supplementary/EvalUtil.java,Matthew Stephenson,20200604-095618
+M,Player/src/supplementary/experiments/EvalAIsThread.java,Matthew Stephenson,20200604-095618
+M,Player/src/supplementary/experiments/EvalGamesThread.java,Matthew Stephenson,20200604-095618
+D,Player/src/app/MainMenu.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/MainMenuFunctions.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/PlayerApp.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/Referee.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/Tournament.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/ai/AIDetails.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/ai/AIMenuName.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/ai/AIUtil.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/MainWindow.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/EvaluationDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/GameLoaderDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/PossibleMovesDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/SVGViewerDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/SandboxDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/SettingsDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/editor/EditorDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/network/CreateGameDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/network/FindGameDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/dialogs/network/NetworkDialog.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/tool_buttons/ButtonBack.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/tool_buttons/ButtonEnd.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/tool_buttons/ButtonForward.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/tool_buttons/ButtonPlayPause.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/tool_buttons/ButtonStart.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/AnimationUtil.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/DesktopGraphics.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/DrawnImageInfo.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/GUIUtil.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/GraphicsCache.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/ImageUtil.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/SVGUtil.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/SpinnerFunctions.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/display/util/Thumbnails.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/views/OverlayView.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/views/ToolView.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/views/players/PlayerViewUser.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/display/views/tabs/TabView.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/game/GameRestart.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/game/GameSetup.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/FileLoading.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/GameLoading.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/MiscLoading.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/TrialLoading.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/aliases/AliasesData.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/loading/aliases/GenerateAliasesFile.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/menu/MainMenu.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/network/SettingsNetwork.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/referee/MoveHandler.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/referee/Referee.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/sandbox/SandboxUtil.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/sandbox/SandboxValueType.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/utils/PuzzleSelectionType.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/utils/SettingsPlayer.java,Matthew Stephenson,20200604-102321
+A,Player/src/app/utils/Sound.java,Matthew Stephenson,20200604-102321
+M,Player/src/app/utils/UserPreferences.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/ai/AIDetails.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/ai/AIMenuName.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/ai/AIUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/aliases/AliasesData.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/aliases/GenerateAliasesFile.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/gameplay/GameRestart.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/gameplay/GameSetup.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/gameplay/MoveUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/AnimationUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/DesktopGraphics.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/DrawnImageInfo.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/GUIUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/GraphicsCache.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/ImageUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/SVGUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/SpinnerFunctions.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/graphics/Thumbnails.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/loading/GameLoading.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/loading/LoadingUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/loading/MiscLoading.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/loading/TrialLoading.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/puzzles/PuzzleSelectionType.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/sandbox/SandboxUtil.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/sandbox/SandboxValueType.java,Matthew Stephenson,20200604-102321
+D,Player/src/app/utils/sound/Sound.java,Matthew Stephenson,20200604-102321
+M,Player/src/supplementary/experiments/EvalAIsThread.java,Matthew Stephenson,20200604-102321
+M,Player/test/other/TestDemos.java,Matthew Stephenson,20200604-102321
+M,Common/.settings/org.eclipse.jdt.core.prefs,eric.piette,20200604-102548
+M,Common/src/graphics/svg/element/shape/path/Path.java,eric.piette,20200604-102548
+M,Core/src/game/equipment/container/board/custom/MorrisBoard.java,eric.piette,20200604-102548
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,eric.piette,20200604-102755
+M,Core/src/game/Game.java,Dennis Soemers,20200604-103509
+M,Core/src/game/match/Match.java,Dennis Soemers,20200604-103509
+M,Core/src/util/Context.java,Dennis Soemers,20200604-103509
+M,Core/src/util/GameLoader.java,Dennis Soemers,20200604-103509
+M,Core/src/util/Trial.java,Dennis Soemers,20200604-103509
+M,Core/src/util/state/State.java,Dennis Soemers,20200604-103509
+M,Player/src/app/game/GameSetup.java,Dennis Soemers,20200604-103509
+M,Player/src/app/referee/Referee.java,Dennis Soemers,20200604-103509
+M,Player/src/supplementary/experiments/scripts/ExItTrainingScriptsGen.java,Dennis Soemers,20200604-103509
+M,Player/src/supplementary/experiments/scripts/InitBestAgentsData.java,Dennis Soemers,20200604-103509
+M,Player/test/ai/TestDefaultAIs.java,Dennis Soemers,20200604-103509
+M,Player/test/ai/TestHeuristicStateValues.java,Dennis Soemers,20200604-103509
+M,Player/test/games/TestTrialSerialization.java,Dennis Soemers,20200604-103509
+M,Player/test/games/TestTrialsIntegrity.java,Dennis Soemers,20200604-103509
+M,Player/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200604-103509
+M,Player/test/games/TestTrialsIntegrityPuzzle.java,Dennis Soemers,20200604-103509
+M,Player/test/tensors/TestStateMoveTensors.java,Dennis Soemers,20200604-103509
+M,Core/src/game/equipment/container/board/tiling/flat/Hexagonal.java,Cameron Browne,20200604-104638
+M,Core/src/game/equipment/container/board/tiling/flat/Tiling3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/equipment/container/board/tiling/flat/Triangular.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/operators/Clip.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/operators/Hole.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/operators/Keep.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/shape/Shape.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/shape/rectangle/Rectangle.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/shape/rectangle/RectangleOnSquare.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/shape/wedge/Wedge.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/alquerque/Alquerque.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/CustomOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/DiamondOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/Hex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/HexagonOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/RectangleOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/StarOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/hex/TriangleOnHex.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/morris/Morris.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/spiral/Spiral.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/square/CustomOnSquare.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/square/DiamondOnSquare.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/square/Square.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/square/SquareOnSquare.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/CustomOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/DiamondOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/HexagonOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/RectangleOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/StarOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/Tiling3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tiling3464/TriangleOn3464.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/CustomOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/DiamondOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/HexagonOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/RectangleOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/StarOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/Tri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/graph/tiling/tri/TriangleOnTri.java,Cameron Browne,20200604-104638
+M,Core/src/game/functions/ints/board/Id.java,Cameron Browne,20200604-104638
+M,Core/src/game/util/graph/Graph.java,Cameron Browne,20200604-104638
+M,Core/src/game/util/graph/Vertex.java,Cameron Browne,20200604-104638
+M,Core/src/language/compiler/ArgClass.java,Cameron Browne,20200604-104638
+M,Core/src/language/compiler/ArgTerminal.java,Cameron Browne,20200604-104638
+M,Core/src/language/compiler/Compiler.java,Cameron Browne,20200604-104638
+M,Core/src/metadata/MetadataItem.java,Cameron Browne,20200604-104638
+M,Core/src/metadata/ai/AIItem.java,Cameron Browne,20200604-104638
+M,Core/src/metadata/graphics/GraphicsItem.java,Cameron Browne,20200604-104638
+M,Core/src/metadata/graphics/util/MetadataFunctions.java,Cameron Browne,20200604-104638
+M,Core/src/metadata/info/InfoItem.java,Cameron Browne,20200604-104638
+M,Evaluation/src/metrics/Metric.java,Cameron Browne,20200604-104638
+M,Features/src/features/visualisation/FeaturesFrame.java,Cameron Browne,20200604-104638
+M,Graphics/src/view/container/custom/board/specific/SurakartaStyle.java,Cameron Browne,20200604-104638
+M,Graphics/src/view/container/custom/board/specific/UltimateTicTacToeStyle.java,Cameron Browne,20200604-104638
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Cameron Browne,20200604-104846
+M,Common/src/graphics/svg/BallSVG.java,Cameron Browne,20200604-105118
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20200604-105118
+M,Common/src/main/CommandLineArgParse.java,Cameron Browne,20200604-105118
+M,Common/src/main/Constants.java,Cameron Browne,20200604-105118
+M,Common/src/main/collections/ChunkSet.java,Cameron Browne,20200604-105118
+M,Common/src/main/grammar/ParseItem.java,Cameron Browne,20200604-105118
+M,Common/src/main/math/Stats.java,Cameron Browne,20200604-105118
+M,Core/src/game/equipment/container/board/custom/SurakartaBoard.java,Cameron Browne,20200604-105118

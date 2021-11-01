@@ -1,0 +1,83 @@
+M,Core/src/game/functions/booleans/IsMover.java,eric.piette,20200118-173326
+M,Core/src/game/functions/booleans/IsNext.java,eric.piette,20200118-173326
+M,Core/src/game/functions/booleans/IsPrev.java,eric.piette,20200118-173326
+A,Common/res/lud/wip/TestDominoesBoardlessHand.lud,eric.piette,20200118-175506
+M,Core/src/game/functions/region/Empty.java,eric.piette,20200118-181546
+M,Core/src/game/functions/region/OccupiedBy.java,eric.piette,20200118-181546
+M,Core/src/game/functions/region/Playable.java,eric.piette,20200118-181546
+M,Core/src/util/model/Model.java,eric.piette,20200118-181845
+M,Core/src/util/state/State.java,eric.piette,20200118-184026
+M,Core/src/util/state/containerStackingState/ContainerStateStacks.java,eric.piette,20200118-184026
+M,Core/src/util/state/containerState/BaseContainerState.java,eric.piette,20200118-184026
+M,Core/src/util/state/containerState/ContainerState.java,eric.piette,20200118-184026
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200118-184026
+M,Core/src/util/state/puzzleState/PuzzleState.java,eric.piette,20200118-184026
+D,Common/res/lud/wip/Chex (with Board).lud,eric.piette,20200118-184859
+D,Common/res/lud/wip/Chex (with Boardless and a king in the middle but not draw.).lud,eric.piette,20200118-184859
+A,Common/res/lud/wip/Chex.lud,eric.piette,20200118-184859
+M,Common/res/lud/wip/TriangleHex.lud,eric.piette,20200119-105329
+M,Common/res/lud/wip/TriangleTilingtest.lud,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/SpiralBoard.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/WheelBoard.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/custom/GooseBoard.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Cross.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Hexagon.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Rect.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Rhombus.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Shape.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/shape/Triangle.java,eric.piette,20200119-105329
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200119-105329
+M,Core/src/graph/Vertex.java,eric.piette,20200119-105329
+M,Common/res/lud/wip/TriangleHex.lud,eric.piette,20200119-111030
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200119-111030
+M,Core/src/game/equipment/container/board/tiling/Triangle.java,eric.piette,20200119-111849
+M,Common/res/lud/wip/TriangleHex.lud,eric.piette,20200119-112343
+M,Grammar/src/compiler/Arg.java,Cameron Browne,20200119-194709
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20200119-194709
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200119-194709
+M,Grammar/src/compiler/ArgTerminal.java,Cameron Browne,20200119-194709
+M,Player/res/demos/Hnefatafl - Common.json,Cameron Browne,20200119-194709
+M,Player/res/demos/Hnefatafl - Latin.json,Cameron Browne,20200119-194709
+M,Core/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20200120-100115
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20200120-100356
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-113351
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200120-113351
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200120-113756
+M,Common/res/lud/wip/Example.lud,TahminaBegum,20200120-114129
+M,Core/src/game/functions/booleans/IsConnect.java,TahminaBegum,20200120-114129
+M,Core/src/game/functions/booleans/IsLoop.java,TahminaBegum,20200120-114129
+M,Core/src/game/functions/booleans/Ring.java,TahminaBegum,20200120-114129
+M,Player/src/player/PlayerApp.java,DennisSoemers,20200120-115501
+M,Player/src/player/PlayerApp.java,DennisSoemers,20200120-115922
+M,Core/src/game/functions/ints/GroupProduct.java,eric.piette,20200120-121928
+M,Core/src/game/rules/play/moves/MaxDistance.java,eric.piette,20200120-121928
+A,Common/res/lud/wip/HexSquareTiling.lud,eric.piette,20200120-125103
+M,Core/src/game/equipment/container/board/shape/Rect.java,eric.piette,20200120-125103
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200120-125103
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200120-125151
+M,Core/src/game/equipment/container/board/shape/Rect.java,eric.piette,20200120-125521
+M,Common/res/lud/wip/HexSquareTiling.lud,eric.piette,20200120-130053
+M,Core/src/game/equipment/container/board/tiling/Hexagonal.java,eric.piette,20200120-130053
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-131628
+M,Core/src/util/action/ActionMove.java,eric.piette,20200120-131629
+M,Player/src/player/PlayerApp.java,DennisSoemers,20200120-132831
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-133757
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-134431
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-142425
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-142536
+M,Common/res/lud/board/race/escape/Backgammon.lud,eric.piette,20200120-145938
+M,Core/src/game/functions/ints/Height.java,eric.piette,20200120-145938
+M,Player/src/mainView/dialog/EditorDialog.java,Matthew.Stephenson,20200120-153212
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20200120-153212
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20200120-153212
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200120-153212
+M,Player/src/player/Settings.java,Matthew.Stephenson,20200120-153212
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20200120-154211
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20200120-154211
+M,Common/res/lud/board/race/escape/Backgammon.lud,Matthew.Stephenson,20200120-154437
+M,Core/src/game/equipment/container/board/custom/BackgammonBoard.java,Matthew.Stephenson,20200120-154437
+M,Core/src/game/Instance.java,eric.piette,20200120-155230
+M,Common/res/lud/wip/Tavli.lud,eric.piette,20200120-155446
+M,Core/src/game/Instance.java,eric.piette,20200120-155446
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200120-155953
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20200120-160759

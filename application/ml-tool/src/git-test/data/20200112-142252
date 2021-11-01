@@ -1,0 +1,123 @@
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200110-135730
+M,AI/src/heuristics/CentreProximity.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/LineCompletionHeuristic.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/Material.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/PlayerRegionsProximity.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20200110-144952
+M,AI/src/heuristics/SidesProximity.java,Dennis Soemers,20200110-144952
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200110-144952
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200110-144952
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-145042
+A,Core/src/game/functions/booleans/TerminusMatch.java,eric.piette,20200110-145042
+M,Core/src/game/rules/play/moves/CheckMove.java,eric.piette,20200110-145042
+M,Core/src/game/rules/play/moves/decision/ChangeDirection.java,eric.piette,20200110-145042
+M,Core/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20200110-145042
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Cameron Browne,20200110-150147
+M,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,eric.piette,20200110-150818
+M,Core/src/game/equipment/container/board/SpiralBoard.java,eric.piette,20200110-151504
+M,Common/res/lud/wip/Example.lud,TahminaBegum,20200110-152308
+M,Core/src/game/functions/booleans/IsConnect.java,TahminaBegum,20200110-152308
+M,Core/src/game/functions/booleans/IsSingleGroup.java,TahminaBegum,20200110-152308
+M,Core/src/game/functions/ints/Freedom.java,TahminaBegum,20200110-152308
+M,Core/src/game/functions/ints/GroupProduct.java,TahminaBegum,20200110-152308
+M,Core/src/game/functions/ints/SizeTerritory.java,TahminaBegum,20200110-152308
+M,Core/src/game/rules/play/moves/SurroundedGroup.java,TahminaBegum,20200110-152308
+M,Core/src/util/UnionFindD.java,TahminaBegum,20200110-152308
+M,Core/src/util/UnionInfoD.java,TahminaBegum,20200110-152308
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200110-152837
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200110-153427
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-153549
+M,Core/src/game/equipment/component/Tile/Tile.java,Matthew.Stephenson,20200110-153933
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200110-155512
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20200110-155512
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-160540
+M,Core/src/game/equipment/component/Tile/Tile.java,Matthew.Stephenson,20200110-160952
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20200110-160952
+M,Player/src/mainView/dialog/RotationDialog.java,Matthew.Stephenson,20200110-160952
+M,Core/src/game/equipment/component/Tile/Tile.java,eric.piette,20200110-161541
+M,Core/src/game/equipment/component/Tile/Tile.java,Matthew.Stephenson,20200110-161939
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-163023
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-163317
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200110-164347
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-164911
+M,Core/src/game/functions/booleans/IsLoop.java,eric.piette,20200110-164911
+M,Core/src/util/UnionFind.java,eric.piette,20200110-164911
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200110-165302
+A,AI/src/utils/analysis/BestStartingHeuristics.java,Dennis Soemers,20200110-212649
+M,Common/src/main/StringRoutines.java,Dennis Soemers,20200110-212649
+A,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200110-212649
+D,Player/src/player/experiments/scripts/FindBestBaseAgentSctiptsGen.java,Dennis Soemers,20200110-212649
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200110-212649
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Cameron Browne,20200111-074725
+A,Common/res/lud/wip/Game of the Fucking Goose (test).lud,Cameron Browne,20200111-080040
+M,Core/src/game/equipment/container/board/SpiralBoard.java,Cameron Browne,20200111-080040
+A,Core/src/game/equipment/container/board/custom/GooseBoard.java,Cameron Browne,20200111-080040
+M,Common/src/main/MathRoutines.java,Cameron Browne,20200111-111423
+M,Core/src/game/equipment/container/board/custom/GooseBoard.java,Cameron Browne,20200111-111423
+M,AI/src/utils/analysis/BestStartingHeuristics.java,Dennis Soemers,20200111-200140
+M,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200111-200140
+M,Player/src/player/experiments/scripts/FindBestStartingHeuristicsScriptsGen.java,Dennis Soemers,20200111-200140
+M,Core/src/game/equipment/container/board/modify/JoinDiagonal.java,Cameron Browne,20200112-073936
+M,Core/src/game/equipment/container/board/modify/JoinOrthogonal.java,Cameron Browne,20200112-073936
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200112-073936
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20200112-073936
+M,Grammar/src/generator/Symbol.java,Cameron Browne,20200112-073936
+M,Common/src/gnu/trove/TLongCollection.java,Cameron Browne,20200112-081535
+M,Common/src/gnu/trove/iterator/TLongIterator.java,Cameron Browne,20200112-081535
+M,Common/src/gnu/trove/list/TLongList.java,Cameron Browne,20200112-081535
+M,Common/src/gnu/trove/list/array/TLongArrayList.java,Cameron Browne,20200112-081535
+M,Core/src/game/equipment/container/board/custom/GooseBoard.java,Cameron Browne,20200112-081535
+M,Core/src/game/functions/booleans/BoolSurround.java,Cameron Browne,20200112-081535
+M,Core/src/game/functions/booleans/Group.java,Cameron Browne,20200112-081535
+M,Core/src/game/functions/ints/Freedom.java,Cameron Browne,20200112-081535
+M,Core/src/game/functions/ints/GroupSize.java,Cameron Browne,20200112-081535
+M,Core/src/game/functions/ints/SizeTerritory.java,Cameron Browne,20200112-081535
+M,Core/src/game/rules/end/ByScore.java,Cameron Browne,20200112-081535
+M,Core/src/util/Context.java,Cameron Browne,20200112-081535
+M,Core/src/util/UnionFindD.java,Cameron Browne,20200112-081535
+M,Core/src/util/zhash/HashedChunkSet.java,Cameron Browne,20200112-081535
+M,Features/src/features/instances/FeatureInstance.java,Cameron Browne,20200112-081535
+M,Grammar/src/compiler/ArgClass.java,Cameron Browne,20200112-081535
+M,Grammar/src/compiler/Compiler.java,Cameron Browne,20200112-081535
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20200112-081535
+M,Grammar/src/generator/Symbol.java,Cameron Browne,20200112-081535
+M,Player/src/mainView/dialog/EditorDialog.java,Cameron Browne,20200112-081535
+M,Player/src/mainView/dialog/MaxLengthTextDocument.java,Cameron Browne,20200112-081535
+M,Core/src/game/equipment/container/board/custom/ShogiBoard.java,Matthew.Stephenson,20200112-114158
+M,Core/src/game/equipment/container/board/custom/ShogiBoard.java,Matthew.Stephenson,20200112-114744
+M,Core/src/game/equipment/container/board/custom/GoBoard.java,Matthew.Stephenson,20200112-115057
+M,Core/src/game/equipment/container/board/custom/ShogiBoard.java,Matthew.Stephenson,20200112-115057
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20200112-121836
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20200112-121836
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20200112-121836
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20200112-121836
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20200112-121836
+M,Core/src/game/API.java,Dennis Soemers,20200112-121836
+M,Core/src/game/Game.java,Dennis Soemers,20200112-121836
+M,Core/src/game/playout/AddToEmpty.java,Dennis Soemers,20200112-121836
+M,Core/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20200112-121836
+M,Core/src/game/playout/CheckMovePlayout.java,Dennis Soemers,20200112-121836
+M,Core/src/game/playout/Playout.java,Dennis Soemers,20200112-121836
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200112-121836
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20200112-121836
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200112-121836
+M,Evaluation/src/analysis/Complexity.java,Dennis Soemers,20200112-121836
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200112-121836
+M,Player/src/player/Referee.java,Dennis Soemers,20200112-121836
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20200112-121836
+M,Player/src/player/experiments/debugging/FindCrashingTrial.java,Dennis Soemers,20200112-121836
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20200112-121836
+M,Player/test/games/EfficiencyTest.java,Dennis Soemers,20200112-121836
+M,Player/test/games/ErrorHandlingTests.java,Dennis Soemers,20200112-121836
+M,Player/test/games/GenerateRandomTestTrials.java,Dennis Soemers,20200112-121836
+M,Player/test/games/OnePlayoutByGameTest.java,Dennis Soemers,20200112-121836
+M,Player/test/games/SanityChecks.java,Dennis Soemers,20200112-121836
+M,Player/test/games/TestParallelPlayouts.java,Dennis Soemers,20200112-121836
+M,Player/test/games/TestTrialSerialization.java,Dennis Soemers,20200112-121836
+M,Common/res/lud/wip/Trax.lud,eric.piette,20200112-125429
+M,Core/src/game/equipment/component/Tile/Path.java,eric.piette,20200112-125429
+M,Core/src/game/functions/booleans/IsLoop.java,eric.piette,20200112-125429
+M,Core/src/game/functions/booleans/TerminusMatch.java,eric.piette,20200112-125429
+A,Player/test/games/MancalaCountConsistency.java,Dennis Soemers,20200112-125813
+M,Player/src/player/GraphicsCache.java,Dennis Soemers,20200112-142252

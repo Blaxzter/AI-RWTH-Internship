@@ -1,0 +1,373 @@
+A,Common/res/img/svg/hands/paper-1.svg,Cameron Browne,20190724-000529
+A,Common/res/img/svg/hands/rock-1.svg,Cameron Browne,20190724-000529
+A,Common/res/img/svg/hands/scissors-1.svg,Cameron Browne,20190724-000529
+A,Common/res/lud/largePiece/L Game (explicit).lud,Cameron Browne,20190724-000529
+M,Library/src/game/equipment/component/piece/hands/Paper.java,Cameron Browne,20190724-000529
+M,Library/src/game/equipment/component/piece/hands/Rock.java,Cameron Browne,20190724-000529
+M,Library/src/game/equipment/component/piece/hands/Scissors.java,Cameron Browne,20190724-000529
+M,Library/src/game/equipment/component/piece/hands/Paper.java,Cameron Browne,20190724-011206
+M,Library/src/game/equipment/component/piece/hands/Rock.java,Cameron Browne,20190724-011206
+M,Library/src/game/equipment/component/piece/hands/Scissors.java,Cameron Browne,20190724-011206
+M,Common/res/lud/largePiece/L Game (explicit).lud,eric.piette,20190724-013426
+M,Common/res/lud/largePiece/L Game.lud,eric.piette,20190724-013426
+M,Library/src/game/rules/play/moves/decision/FromTo.java,eric.piette,20190724-013426
+M,Library/src/game/equipment/component/piece/large/LPiece.java,eric.piette,20190724-015030
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190724-015030
+M,Library/src/ui/GameView.java,eric.piette,20190724-015030
+M,Common/res/img/svg/shogi/bishop.svg,Matthew.Stephenson,20190724-095505
+M,Common/res/img/svg/shogi/gold_general.svg,Matthew.Stephenson,20190724-095505
+M,Common/res/img/svg/shogi/promoted_rook.svg,Matthew.Stephenson,20190724-095505
+M,Common/res/img/svg/shogi/promoted_silver.svg,Matthew.Stephenson,20190724-095505
+M,Common/res/img/svg/shogi/silver_general.svg,Matthew.Stephenson,20190724-095505
+M,Common/res/img/svg/hieroglyphs/2human.svg,Matthew.Stephenson,20190724-095906
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190724-101030
+D,Common/res/lud/Rock-Paper-Scissors.lud,eric.piette,20190724-101102
+A,Common/res/lud/simultaneous/Rock-Paper-Scissors.lud,eric.piette,20190724-101102
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-101843
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-102502
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190724-102502
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-102850
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190724-102850
+M,Library/src/game/Game.java,Matthew.Stephenson,20190724-102940
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190724-102940
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190724-102940
+A,Common/res/img/svg/hieroglyphs/2human_knee.svg,Matthew.Stephenson,20190724-104457
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew.Stephenson,20190724-104457
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190724-105403
+M,Player/src/player/Referee.java,Dennis Soemers,20190724-105847
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190724-111257
+D,Common/res/lud/Achi.lud,eric.piette,20190724-111844
+D,Common/res/lud/Adugo.lud,eric.piette,20190724-111844
+D,Common/res/lud/All Queens Chess.lud,eric.piette,20190724-111844
+D,Common/res/lud/Alquerque.lud,eric.piette,20190724-111844
+D,Common/res/lud/ArdRi.lud,eric.piette,20190724-111844
+D,Common/res/lud/Baqh Chal.lud,eric.piette,20190724-111844
+D,Common/res/lud/Brazilian Draughts.lud,eric.piette,20190724-111844
+D,Common/res/lud/Breakthrough.lud,eric.piette,20190724-111844
+D,Common/res/lud/Canadian Draughts.lud,eric.piette,20190724-111844
+D,Common/res/lud/Chess.lud,eric.piette,20190724-111844
+D,Common/res/lud/Chinese Checkers.lud,eric.piette,20190724-111844
+D,Common/res/lud/Connect-6.lud,eric.piette,20190724-111844
+D,Common/res/lud/Dama (Turkish Draughts).lud,eric.piette,20190724-111844
+D,Common/res/lud/Dara.lud,eric.piette,20190724-111844
+D,Common/res/lud/Double Chess (skirmish).lud,eric.piette,20190724-111844
+D,Common/res/lud/English Draughts.lud,eric.piette,20190724-111844
+D,Common/res/lud/Five Men's Morris.lud,eric.piette,20190724-111844
+D,Common/res/lud/Four Field Kono.lud,eric.piette,20190724-111844
+D,Common/res/lud/Gomoku.lud,eric.piette,20190724-111844
+D,Common/res/lud/Halma.lud,eric.piette,20190724-111844
+D,Common/res/lud/Hex.lud,eric.piette,20190724-111844
+D,Common/res/lud/Hnefatafl Fetlar.lud,eric.piette,20190724-111844
+D,Common/res/lud/International Draughts.lud,eric.piette,20190724-111844
+D,Common/res/lud/KnightThrough.lud,eric.piette,20190724-111844
+D,Common/res/lud/Konane.lud,eric.piette,20190724-111844
+D,Common/res/lud/Leopards and Cows.lud,eric.piette,20190724-111844
+D,Common/res/lud/Mogul putt'han.lud,eric.piette,20190724-111844
+D,Common/res/lud/Nine Holes.lud,eric.piette,20190724-111844
+D,Common/res/lud/Nine Men's Morris.lud,eric.piette,20190724-111844
+D,Common/res/lud/Peralikatuma.lud,eric.piette,20190724-111844
+D,Common/res/lud/Renju.lud,eric.piette,20190724-111844
+D,Common/res/lud/Reversi.lud,eric.piette,20190724-111844
+D,Common/res/lud/Round Merels.lud,eric.piette,20190724-111844
+D,Common/res/lud/Shisima.lud,eric.piette,20190724-111844
+D,Common/res/lud/Six Men's Morris.lud,eric.piette,20190724-111844
+D,Common/res/lud/Sixteen Soldiers.lud,eric.piette,20190724-111844
+D,Common/res/lud/Skirmish.lud,eric.piette,20190724-111844
+D,Common/res/lud/Tant Fant.lud,eric.piette,20190724-111844
+D,Common/res/lud/Three Men's Morris.lud,eric.piette,20190724-111844
+D,Common/res/lud/Tic-Tac-Mo.lud,eric.piette,20190724-111844
+D,Common/res/lud/Tic-Tac-Toe.lud,eric.piette,20190724-111844
+D,Common/res/lud/Twelve Men's Morris.lud,eric.piette,20190724-111844
+D,Common/res/lud/Wolf And Sheep.lud,eric.piette,20190724-111844
+D,Common/res/lud/Xiangqi.lud,eric.piette,20190724-111844
+D,Common/res/lud/Y (Hex).lud,eric.piette,20190724-111844
+D,Common/res/lud/Yavalath (2 players).lud,eric.piette,20190724-111844
+D,Common/res/lud/Yavalath (3 players).lud,eric.piette,20190724-111844
+D,Common/res/lud/Zamma.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/foxAndGeese/Adugo.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/foxAndGeese/Baqh Chal.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/foxAndGeese/Leopards and Cows.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/foxAndGeese/Wolf And Sheep.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/tafl/ArdRi.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/chase/tafl/Hnefatafl Fetlar.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/fillGoal/Backgammon.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/fillGoal/Royal Game of Ur.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/fillGoal/Senet.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/followTrack/Snakes and Ladders.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/mancala/Oware.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/reachGoal/Breakthrough.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/reachGoal/Chinese Checkers.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/reachGoal/Halma.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/reachGoal/KnightThrough.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/race/reachGoal/Sneakthrough.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/connection/Hex.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/connection/Y (Hex).lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Achi.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/All Queens Chess.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Connect-4.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Connect-6.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Dara.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Five Men's Morris.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Gomoku.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Nine Holes.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Nine Men's Morris.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Renju.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Round Merels.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Shisima.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Six Men's Morris.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Tant Fant.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Three Men's Morris.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Tic-Tac-Mo.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Tic-Tac-Toe.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Twelve Men's Morris.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Yavalath (2 players).lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/line/Yavalath (3 players).lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/territory/Dots and Boxes.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/space/territory/Reversi.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/chess/Double Chess (skirmish).lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/chess/Skirmish.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/chess/Xiangqi.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Alquerque.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Brazilian Draughts.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Canadian Draughts.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Dama (Turkish Draughts).lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/English Draughts.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Four Field Kono.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/International Draughts.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Konane.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Lasca.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Mogul putt'han.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Peralikatuma.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Sixteen Soldiers.lud,eric.piette,20190724-111844
+A,Common/res/lud/board/war/draughts/Zamma.lud,eric.piette,20190724-111844
+D,Common/res/lud/dice/Backgammon.lud,eric.piette,20190724-111844
+D,Common/res/lud/dice/Royal Game of Ur.lud,eric.piette,20190724-111844
+D,Common/res/lud/dice/Senet.lud,eric.piette,20190724-111844
+D,Common/res/lud/dice/Snakes and Ladders.lud,eric.piette,20190724-111844
+D,Common/res/lud/graph/Dots and Boxes.lud,eric.piette,20190724-111844
+D,Common/res/lud/hidden/Sneakthrough.lud,eric.piette,20190724-111844
+D,Common/res/lud/mancala/Oware.lud,eric.piette,20190724-111844
+A,Common/res/lud/path,eric.piette,20190724-111844
+D,Common/res/lud/stacking/Connect-4.lud,eric.piette,20190724-111844
+D,Common/res/lud/stacking/Lasca.lud,eric.piette,20190724-111844
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-111844
+M,Player/src/player/GameLoader.java,eric.piette,20190724-111844
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-113001
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-113223
+D,Common/res/lud/path,Dennis Soemers,20190724-113844
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190724-113844
+M,Player/test/games/CompilationTest.java,Dennis Soemers,20190724-114449
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190724-114457
+M,Library/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20190724-114457
+M,Player/test/games/OnePlayoutByGameTest.java,Dennis Soemers,20190724-114804
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190724-115006
+M,Library/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20190724-115006
+M,Player/test/games/SanityChecks.java,Dennis Soemers,20190724-115430
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190724-120326
+A,Player/src/player/experiments/game_files/CountGames.java,Dennis Soemers,20190724-125233
+D,Player/src/player/experiments/old/PruneFeatureSet.java,Dennis Soemers,20190724-125233
+A,Common/res/img/svg/xiangqi/symbol.svg,Matthew.Stephenson,20190724-125904
+A,Common/res/img/svg/xiangqi/symbol_left.svg,Matthew.Stephenson,20190724-125904
+A,Common/res/img/svg/xiangqi/symbol_right.svg,Matthew.Stephenson,20190724-125904
+D,Common/res/img/svg/xiangqi/xiangqi_symbol.svg,Matthew.Stephenson,20190724-125904
+M,Library/src/game/equipment/container/board/Board.java,Matthew.Stephenson,20190724-125904
+M,Library/src/game/equipment/container/board/XiangqiBoard.java,Matthew.Stephenson,20190724-125904
+M,Common/res/lud/board/war/chess/Xiangqi.lud,eric.piette,20190724-130804
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190724-130804
+M,Library/src/game/functions/ints/DirectionSite.java,eric.piette,20190724-130804
+A,Library/src/game/rules/play/moves/ForDirn.java,eric.piette,20190724-130804
+M,Library/src/game/rules/play/moves/decision/Slide.java,eric.piette,20190724-130804
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-131353
+M,Common/res/lud/cards/War (in progress).lud,Matthew.Stephenson,20190724-132409
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190724-132409
+M,Library/src/game/equipment/component/card/Card.java,Matthew.Stephenson,20190724-132606
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-133358
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-135628
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-135943
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-140959
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-150242
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-150413
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-150710
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-150819
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-152158
+M,Library/src/util/action/ActionMove.java,eric.piette,20190724-153145
+M,Library/src/util/Move.java,eric.piette,20190724-154024
+M,Library/src/util/MoveUtilities.java,eric.piette,20190724-154024
+M,Common/src/main/Global.java,Matthew.Stephenson,20190724-163706
+M,Library/src/game/rules/play/moves/decision/FromTo.java,Matthew.Stephenson,20190724-163706
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190724-163706
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190724-163706
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20190724-163706
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20190724-164334
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-164421
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-165712
+M,Common/src/gnu/trove/impl/hash/TIntIntHash.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/impl/hash/TObjectHash.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/map/TIntIntMap.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/map/hash/TIntIntHashMap.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/map/hash/TIntObjectHashMap.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/map/hash/TObjectDoubleHashMap.java,Matthew.Stephenson,20190724-170433
+M,Common/src/gnu/trove/map/hash/TObjectIntHashMap.java,Matthew.Stephenson,20190724-170433
+M,Grammar/src/compiler/ArgClass.java,Matthew.Stephenson,20190724-170433
+A,Library/.settings/org.eclipse.jdt.ui.prefs,Matthew.Stephenson,20190724-170433
+M,Library/src/game/Game.java,Matthew.Stephenson,20190724-170433
+M,Library/src/game/equipment/container/board/Boardless.java,Matthew.Stephenson,20190724-170433
+M,Library/src/game/equipment/container/board/XiangqiBoard.java,Matthew.Stephenson,20190724-170433
+M,Player/src/mainView/dialog/PromotionDialog.java,Matthew.Stephenson,20190724-170433
+M,Player/src/mainView/dialog/PuzzleDialog.java,Matthew.Stephenson,20190724-170433
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190724-170433
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190724-170433
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190724-170433
+M,Player/src/player/Settings.java,Matthew.Stephenson,20190724-170433
+M,Player/src/player/experiments/utils/InterruptableExperiment.java,Matthew.Stephenson,20190724-170433
+M,Player/test/games/CompilationTest.java,Matthew.Stephenson,20190724-170433
+M,Player/test/games/Node.java,Matthew.Stephenson,20190724-170433
+M,Player/test/games/UCBCacheTest.java,Matthew.Stephenson,20190724-170433
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190724-171252
+M,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-175354
+M,Features/src/features/generation/MoveFeatures.java,eric.piette,20190724-175354
+M,Library/src/game/functions/region/Column.java,eric.piette,20190724-175354
+M,Library/src/game/functions/region/Own.java,eric.piette,20190724-175354
+A,Common/res/lud/board/war/chess/Shogi.lud,eric.piette,20190724-180457
+D,Common/res/lud/wip/Shogi (in progress).lud,eric.piette,20190724-180457
+D,Common/res/lud/Amazons.lud,eric.piette,20190724-181502
+D,Common/res/lud/Arimaa.lud,eric.piette,20190724-181502
+D,Common/res/lud/Fanorona.lud,eric.piette,20190724-181502
+D,Common/res/lud/Ludus Latrunculorum.lud,eric.piette,20190724-181502
+D,Common/res/lud/Mu-Torere.lud,eric.piette,20190724-181502
+D,Common/res/lud/Surakarta.lud,eric.piette,20190724-181502
+D,Common/res/lud/board/race/fillGoal/Backgammon.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/race/fillGoal/Chinese Checkers.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/race/fillGoal/Halma.lud,eric.piette,20190724-181502
+D,Common/res/lud/board/race/fillGoal/Royal Game of Ur.lud,eric.piette,20190724-181502
+D,Common/res/lud/board/race/fillGoal/Senet.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/race/followTrack/Backgammon.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/race/followTrack/Royal Game of Ur.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/race/followTrack/Senet.lud,eric.piette,20190724-181502
+D,Common/res/lud/board/race/reachGoal/Chinese Checkers.lud,eric.piette,20190724-181502
+D,Common/res/lud/board/race/reachGoal/Halma.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/space/blocking/Amazons.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/space/blocking/L Game (explicit).lud,eric.piette,20190724-181502
+A,Common/res/lud/board/space/blocking/L Game.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/space/blocking/Mu-Torere.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/space/line/Andantino.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/war/chess/Arimaa.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/war/draughts/Ludus Latrunculorum.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/war/elimination/Fanorona.lud,eric.piette,20190724-181502
+A,Common/res/lud/board/war/elimination/Surakarta.lud,eric.piette,20190724-181502
+D,Common/res/lud/boardless/Andantino.lud,eric.piette,20190724-181502
+D,Common/res/lud/largePiece/L Game (explicit).lud,eric.piette,20190724-181502
+D,Common/res/lud/largePiece/L Game.lud,eric.piette,20190724-181502
+A,Common/res/lud/mathematical/Rock-Paper-Scissors.lud,eric.piette,20190724-181502
+D,Common/res/lud/simultaneous/Rock-Paper-Scissors.lud,eric.piette,20190724-181502
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190724-195946
+M,Common/res/lud/board/chase/foxAndGeese/Baqh Chal.lud,eric.piette,20190725-022546
+M,Library/src/util/state/State.java,eric.piette,20190725-022546
+M,Library/src/util/state/containerState/BaseContainerState.java,eric.piette,20190725-022546
+M,Library/src/game/rules/play/moves/decision/To.java,eric.piette,20190725-023347
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190725-023347
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-085635
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-085905
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-090948
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-091510
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-092234
+A,Common/res/lud/hand/Rock-Paper-Scissors.lud,Matthew.Stephenson,20190725-131222
+D,Common/res/lud/mathematical/Rock-Paper-Scissors.lud,Matthew.Stephenson,20190725-131222
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-131222
+M,AI/src/utils/AIFactory.java,DennisSoemers,20190725-132120
+M,AI/src/utils/AIUtils.java,DennisSoemers,20190725-132120
+M,AI/src/utils/RandomAI.java,DennisSoemers,20190725-132120
+M,Library/src/game/Game.java,DennisSoemers,20190725-132120
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190725-132120
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190725-132120
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190725-132120
+M,Library/src/util/ThinkingThread.java,DennisSoemers,20190725-132120
+M,Player/src/mainView/MainView.java,DennisSoemers,20190725-132120
+M,Player/src/mainView/dialog/PromotionDialog.java,DennisSoemers,20190725-132120
+M,Player/src/mainView/panel/StatePanel.java,DennisSoemers,20190725-132120
+M,Player/src/network/LudiiClientSocket.java,DennisSoemers,20190725-132120
+M,Player/src/network/LudiiServerSocket.java,DennisSoemers,20190725-132120
+D,Player/src/network/LudiiSocket.java,DennisSoemers,20190725-132120
+A,Player/src/network/NetworkMove.java,DennisSoemers,20190725-132120
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190725-132120
+M,Player/src/player/Referee.java,DennisSoemers,20190725-132120
+M,Player/src/player/experiments/EvalAIsThread.java,DennisSoemers,20190725-132120
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190725-134009
+M,Player/src/player/Referee.java,DennisSoemers,20190725-134009
+A,Library/src/util/ListStack.java,Eric Piette,20190725-140828
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190725-143517
+M,Player/src/player/Referee.java,DennisSoemers,20190725-143517
+A,Library/src/util/state/containerCardState/BaseContainerStateCard.java,Eric Piette,20190725-144840
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,Eric Piette,20190725-144840
+M,Player/test/features/TestAmazonsFeatures.java,Eric Piette,20190725-144840
+M,Player/test/features/TestHexFeatures.java,Eric Piette,20190725-144840
+A,Library/src/util/state/containerCardState/ContainerStateCardIndex.java,Eric Piette,20190725-145211
+A,Library/src/util/state/containerCardState/ContainerStateCardIndexState.java,Eric Piette,20190725-145211
+A,Library/src/util/state/containerCardState/ContainerStateCardPlayer.java,Eric Piette,20190725-145211
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190725-145836
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190725-145836
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190725-145836
+M,Player/src/player/Referee.java,DennisSoemers,20190725-145836
+M,Library/src/util/state/containerCardState/ContainerStateCardIndex.java,Eric Piette,20190725-145932
+M,Library/src/util/state/containerCardState/ContainerStateCardIndexState.java,Eric Piette,20190725-145932
+M,Library/src/util/state/containerCardState/ContainerStateCardPlayer.java,Eric Piette,20190725-145932
+M,Player/src/mainView/button/ButtonPlayPause.java,DennisSoemers,20190725-150802
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190725-150802
+M,Library/src/util/ListStack.java,Eric Piette,20190725-153013
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20190725-153013
+M,Library/src/util/state/State.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerCardState/BaseContainerStateCard.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerCardState/ContainerStateCardIndex.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerCardState/ContainerStateCardIndexState.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerCardState/ContainerStateCardPlayer.java,Eric Piette,20190725-153013
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/Card/ContainerStateCardIndex.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/Card/ContainerStateCardIndexState.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/Card/ContainerStateCardPlayer.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerStackingState/ContainerStateStackingIndex.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerStackingState/ContainerStateStackingIndexState.java,Eric Piette,20190725-153013
+D,Library/src/util/state/containerStackingState/ContainerStateStackingPlayer.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/NonCard/BaseContainerStateNonCard.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/NonCard/ContainerStateNonCardIndex.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/NonCard/ContainerStateNonCardIndexState.java,Eric Piette,20190725-153013
+A,Library/src/util/state/containerStackingState/NonCard/ContainerStateNonCardPlayer.java,Eric Piette,20190725-153013
+M,Library/src/util/state/State.java,Eric Piette,20190725-153029
+D,Common/res/lud/cards/War (in progress).lud,Eric Piette,20190725-153321
+A,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190725-153321
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190725-154942
+M,Library/src/game/rules/start/Place.java,Eric Piette,20190725-154942
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,Eric Piette,20190725-154942
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190725-155853
+M,Library/src/util/ListStack.java,Eric Piette,20190725-155853
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190725-155957
+M,Library/src/game/mode/model/Model.java,DennisSoemers,20190725-155957
+M,Library/src/game/mode/model/SimultaneousMove.java,DennisSoemers,20190725-155957
+M,Library/src/util/state/StateType.java,DennisSoemers,20190725-155957
+M,Player/src/player/Referee.java,DennisSoemers,20190725-155957
+M,Library/src/game/mode/model/AlternatingMove.java,DennisSoemers,20190725-161039
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190725-161603
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190725-161603
+M,Player/src/mainView/dialog/GameLoaderDialog.java,DennisSoemers,20190725-162217
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190725-165210
+M,Library/src/game/Game.java,Eric Piette,20190725-165210
+M,Library/src/game/rules/start/Deal.java,Eric Piette,20190725-165210
+M,Library/src/util/ListStack.java,Eric Piette,20190725-165210
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20190725-165210
+M,Library/src/util/state/containerStackingState/Card/BaseContainerStateCard.java,Eric Piette,20190725-165210
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20190725-165210
+M,Common/res/lud/wip/War (in progress).lud,Eric Piette,20190725-165406
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew.Stephenson,20190725-171909
+M,Library/src/game/mode/model/AlternatingMove.java,Dennis Soemers,20190725-184445
+M,Library/src/game/mode/model/Model.java,Dennis Soemers,20190725-184445
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190725-184445
+M,Player/src/player/Referee.java,Dennis Soemers,20190725-184445
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20190725-184445
+M,Library/src/game/mode/model/AlternatingMove.java,Dennis Soemers,20190725-202332
+M,Library/src/game/mode/model/Model.java,Dennis Soemers,20190725-202332
+M,Library/src/game/mode/model/SimultaneousMove.java,Dennis Soemers,20190725-202332
+M,Player/src/player/Referee.java,Dennis Soemers,20190725-202332
+M,Library/src/game/Game.java,Dennis Soemers,20190725-215600
+M,Library/src/util/state/StateType.java,Dennis Soemers,20190725-215600
+M,Library/src/game/equipment/container/board/BackgammonBoard.java,Cameron Browne,20190726-100342

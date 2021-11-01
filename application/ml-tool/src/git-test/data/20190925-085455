@@ -1,0 +1,105 @@
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190923-092808
+M,Library/src/util/state/containerState/FlatContainerState.java,Eric Piette,20190923-100901
+M,Player/test/features/TestHexFeatures.java,DennisSoemers,20190923-110237
+M,Player/src/mainView/MainView.java,matthew,20190923-110818
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190923-110818
+M,Player/src/network/DatabaseFunctions.java,matthew,20190923-110818
+M,Player/src/player/MainMenu.java,matthew,20190923-110818
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190923-111023
+M,Library/src/graph/Graph.java,Eric Piette,20190923-112749
+A,Player/test/games/TestSquareTiling.java,Eric Piette,20190923-112749
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190923-155103
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190923-155103
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190923-155103
+M,Player/test/games/TestSquareTiling.java,Eric Piette,20190923-155103
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190923-155402
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Eric Piette,20190923-155402
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20190923-155402
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190923-160441
+M,Library/src/game/functions/region/Exteriors.java,Eric Piette,20190923-160441
+M,Library/src/graph/Graph.java,Eric Piette,20190923-160441
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20190923-173833
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190923-173833
+M,Library/src/graph/Graph.java,Eric Piette,20190923-173833
+M,Library/src/game/rules/play/moves/decision/To.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/FindGameDialog.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/GameLoaderDialog.java,matthew,20190923-174848
+A,Player/src/mainView/dialog/JComboCheckBox.java,matthew,20190923-174848
+A,Player/src/mainView/dialog/LeaderboardDialog.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/MessagePlayersDialog.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/NetworkDialog.java,matthew,20190923-174848
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190923-174848
+M,Player/src/network/DatabaseFunctions.java,matthew,20190923-174848
+M,Player/src/player/PlayerApp.java,matthew,20190923-174848
+M,Player/src/player/Referee.java,matthew,20190923-174848
+M,Player/src/mainView/dialog/CreateGameDialog.java,matthew,20190923-175650
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190923-175803
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20190923-175936
+M,Player/src/mainView/MainView.java,matthew,20190924-092020
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190924-092020
+M,Library/src/game/equipment/container/hand/Hand.java,Eric Piette,20190924-093837
+M,Library/src/game/equipment/container/hand/HandDice.java,Eric Piette,20190924-093837
+M,Common/res/lud/puzzle/deduction/Latin Square.lud,Eric Piette,20190924-111713
+M,Library/src/game/equipment/container/board/UrBoard.java,Eric Piette,20190924-111713
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190924-111713
+M,Features/src/features/ActiveFeaturesCache.java,Cameron Browne,20190924-120931
+M,Features/src/features/FeatureSet.java,Cameron Browne,20190924-120931
+M,Features/src/features/instances/FeatureInstance.java,Cameron Browne,20190924-120931
+M,Features/src/features/instances/OneOfMustEmpty.java,Cameron Browne,20190924-120931
+M,Library/src/game/functions/booleans/Full.java,Cameron Browne,20190924-120931
+M,Library/src/game/functions/region/Empty.java,Cameron Browne,20190924-120931
+M,Library/src/game/playout/AddToEmpty.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionAdd.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionAddN.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionMove.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionMoveRemove.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionMoveState.java,Cameron Browne,20190924-120931
+M,Library/src/util/action/ActionPromote.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/containerStackingState/ContainerStateCards.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/containerStackingState/ContainerStateStacks.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/containerState/BaseContainerState.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/containerState/ContainerState.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/containerState/FlatContainerState.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/puzzleState/BaseContainerStatePuzzles.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/puzzleState/PuzzleState.java,Cameron Browne,20190924-120931
+M,Library/src/util/state/puzzleState/PuzzleStateLarge.java,Cameron Browne,20190924-120931
+D,Player/test/games/TestSquareTiling.java,Eric Piette,20190924-121655
+A,Player/test/games/pregeneration/TestSquareTiling.java,Eric Piette,20190924-121655
+M,Library/src/game/rules/play/moves/decision/Constraints.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Hop.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Leap.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Pass.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Promotion.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Select.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Shoot.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Slide.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/Step.java,Eric Piette,20190924-123808
+M,Library/src/game/rules/play/moves/decision/To.java,Eric Piette,20190924-123808
+M,Player/src/mainView/MainView.java,matthew,20190924-130517
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190924-130517
+M,Library/src/game/equipment/container/board/TaflBoard.java,Eric Piette,20190924-131308
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190924-131308
+M,Library/src/game/functions/region/Centre.java,Eric Piette,20190924-131308
+M,Library/src/graph/Graph.java,Eric Piette,20190924-131308
+M,Player/test/games/pregeneration/TestSquareTiling.java,Eric Piette,20190924-131308
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190924-131339
+A,Common/res/lud/wip/Test Lot of Hand for Matthew.lud,Eric Piette,20190924-132111
+M,Library/src/graph/Graph.java,Eric Piette,20190924-132730
+M,Player/test/games/pregeneration/TestSquareTiling.java,Eric Piette,20190924-132730
+M,Library/src/game/rules/play/moves/Moves.java,DennisSoemers,20190924-155124
+A,Library/src/util/MoveIntMapper.java,DennisSoemers,20190924-155124
+M,Library/src/util/MoveIntMapper.java,DennisSoemers,20190924-162250
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190924-163614
+M,Library/src/graph/Graph.java,Eric Piette,20190924-163614
+A,Player/test/games/pregeneration/TestHexTiling.java,Eric Piette,20190924-163614
+M,Player/test/games/pregeneration/TestSquareTiling.java,Eric Piette,20190924-163614
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Eric Piette,20190924-171545
+M,Player/test/games/pregeneration/TestHexTiling.java,Eric Piette,20190924-171545
+M,Library/src/game/equipment/component/Component.java,matthew,20190924-175651
+M,Library/src/game/equipment/component/Die.java,matthew,20190924-175651
+M,Library/src/game/equipment/container/board/Board.java,matthew,20190924-175651
+M,Player/src/mainView/MainView.java,matthew,20190924-175651
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190924-175651
+M,Library/src/game/equipment/container/board/Board.java,matthew,20190925-085455
+M,Library/src/graph/Vertex.java,matthew,20190925-085455

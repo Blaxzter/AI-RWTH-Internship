@@ -1,0 +1,274 @@
+M,Common/res/lud/board/space/group/Omega.lud,Eric Piette,20191204-135350
+M,Common/src/main/Global.java,Eric Piette,20191204-135350
+A,Library/src/game/functions/ints/GroupProduct.java,Eric Piette,20191204-135350
+D,Library/src/game/functions/ints/GroupSize.java,Eric Piette,20191204-135350
+M,Library/src/game/rules/end/ByScore.java,Eric Piette,20191204-135350
+M,Library/src/game/Game.java,Dennis Soemers,20191204-141227
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191204-141227
+M,Player/src/mainView/panel/PlayerPanel.java,Dennis Soemers,20191204-141227
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20191204-141255
+M,Library/src/game/functions/ints/Ahead.java,Dennis Soemers,20191204-142630
+M,Player/src/mainView/panel/PlayerPanel.java,Dennis Soemers,20191204-143853
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191204-145208
+M,Player/src/mainView/panel/StatePanel.java,Dennis Soemers,20191204-145208
+M,Library/src/game/functions/booleans/Group.java,Eric Piette,20191204-151700
+M,Library/src/game/functions/ints/GroupProduct.java,Eric Piette,20191204-151700
+A,Library/src/game/functions/ints/GroupSize.java,Eric Piette,20191204-151700
+A,Common/res/lud/wip/Manalath.lud,Eric Piette,20191204-153336
+M,Library/src/game/functions/ints/GroupSize.java,Eric Piette,20191204-153336
+M,Library/src/game/rules/start/Place.java,Eric Piette,20191204-153336
+A,Common/res/lud/board/space/group/Manalath.lud,Eric Piette,20191204-154305
+D,Common/res/lud/wip/Manalath.lud,Eric Piette,20191204-154305
+M,Common/res/lud/board/space/group/Manalath.lud,Eric Piette,20191204-161927
+A,Common/res/lud/board/space/group/Odd.lud,Eric Piette,20191204-161927
+A,Library/src/game/functions/ints/GroupCount.java,Eric Piette,20191204-161927
+M,Library/src/util/state/State.java,Dennis Soemers,20191204-163938
+A,Common/res/lud/wip/Feed the ducks.lud,Eric Piette,20191204-164340
+M,Library/src/util/state/containerStackingState/ContainerStateStacks.java,Dennis Soemers,20191204-171212
+A,Common/res/lud/board/space/group/Feed the ducks.lud,Eric Piette,20191204-171407
+D,Common/res/lud/wip/Feed the ducks.lud,Eric Piette,20191204-171407
+A,Library/src/game/rules/play/moves/Attract.java,Eric Piette,20191204-171407
+M,Library/src/game/rules/play/moves/decision/Slide.java,Eric Piette,20191204-171407
+A,Common/res/lud/wip/Quantum Leap.lud,Eric Piette,20191204-175041
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20191204-175041
+D,Common/res/img/svg/shogi/fuhyo.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/ginsho.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/hisha.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/kakugyo.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/keima.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/kinsho.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/kyosha.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/narigin.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/narikei.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/narikyo.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/osho.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/osho1.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/ryuma.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/ryuo.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/fuhyo_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/ginsho_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/hisha_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/kakugyo_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/keima_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/kinsho_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/kyosha_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/narigin_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/narikei_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/narikyo_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/osho1_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/osho_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/ryuma_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/ryuo_simple.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/simple/tokin_simple.svg,Matthew.Stephenson,20191204-175640
+D,Common/res/img/svg/shogi/tokin.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/fuhyo.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/ginsho.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/hisha.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/kakugyo.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/keima.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/kinsho.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/kyosha.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/narigin.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/narikei.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/narikyo.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/osho.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/osho1.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/ryuma.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/ryuo.svg,Matthew.Stephenson,20191204-175640
+A,Common/res/img/svg/shogi/traditional/tokin.svg,Matthew.Stephenson,20191204-175640
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,Matthew.Stephenson,20191204-175640
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191204-180349
+M,Common/res/lud/wip/Quantum Leap.lud,Eric Piette,20191204-180834
+M,Player/src/player/Referee.java,Dennis Soemers,20191204-210503
+D,Common/res/img/svg/xiangqi/jiang.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/jiang_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/ju.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/ju_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/ma.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/ma_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/pao.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/pao_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/shi.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/shi_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/jiang_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/jiang_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/ju_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/ju_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/ma_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/ma_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/pao_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/pao_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/shi_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/shi_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/xiang_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/xiang_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/zu_black_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/simple/zu_simple.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/jiang.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/jiang_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/ju.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/ju_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/ma.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/ma_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/pao.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/pao_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/shi.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/shi_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/xiang.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/xiang_black.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/zu.svg,Matthew.Stephenson,20191204-215310
+A,Common/res/img/svg/xiangqi/traditional/zu_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/xiang.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/xiang_black.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/zu.svg,Matthew.Stephenson,20191204-215310
+D,Common/res/img/svg/xiangqi/zu_black.svg,Matthew.Stephenson,20191204-215310
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Matthew.Stephenson,20191204-215310
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,Eric Piette,20191205-093947
+M,Common/res/lud/board/space/group/Groups.lud,Tahmina,20191205-094800
+A,Library/src/game/functions/booleans/IsSingleGroup.java,Tahmina,20191205-094800
+D,Common/res/lud/board/space/line/Nine Holes.lud,Eric Piette,20191205-095626
+M,Common/res/lud/board/space/line/Three Men's Morris.lud,Eric Piette,20191205-095626
+A,Player/res/demos/Picaria - Boards.json,Cameron Browne,20191205-104827
+M,Player/src/mainView/dialog/SettingsDialog.java,Cameron Browne,20191205-104827
+M,Player/src/player/Settings.java,Cameron Browne,20191205-104827
+M,Common/res/lud/board/space/line/Picaria.lud,Cameron Browne,20191205-104946
+M,Library/src/game/functions/region/Used.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerState/BaseContainerState.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerState/ContainerGraphState.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/containerState/FlatContainerState.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/puzzleState/BaseContainerStatePuzzles.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/puzzleState/PuzzleState.java,DennisSoemers,20191205-113857
+M,Library/src/util/state/puzzleState/PuzzleStateLarge.java,DennisSoemers,20191205-113857
+M,Library/src/util/zhash/HashedBitSet.java,DennisSoemers,20191205-113857
+M,Player/src/mainView/MainView.java,DennisSoemers,20191205-113857
+M,Player/src/mainView/panel/PlayerPanel.java,DennisSoemers,20191205-113857
+M,Library/src/game/equipment/container/Container.java,DennisSoemers,20191205-115549
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,DennisSoemers,20191205-115549
+M,Library/src/util/state/containerState/ContainerStateFactory.java,DennisSoemers,20191205-115549
+M,Common/src/main/ChunkStack.java,DennisSoemers,20191205-123857
+M,Library/src/util/state/containerStackingState/ContainerStateCards.java,DennisSoemers,20191205-123857
+M,Library/src/util/state/containerStackingState/ContainerStateStacks.java,DennisSoemers,20191205-123857
+M,Library/src/util/state/containerState/ContainerStateFactory.java,DennisSoemers,20191205-123857
+M,Library/src/util/zhash/ZobristHashUtilities.java,DennisSoemers,20191205-123857
+M,Common/res/lud/wip/Quantum Leap.lud,Eric Piette,20191205-124050
+M,Library/src/game/Game.java,DennisSoemers,20191205-125410
+A,Common/res/lud/wip/Susan.lud,Eric Piette,20191205-125503
+A,Common/res/lud/board/space/blocking/Quantum Leap.lud,Eric Piette,20191205-125717
+D,Common/res/lud/wip/Quantum Leap.lud,Eric Piette,20191205-125717
+A,Library/src/game/functions/ints/Surrounded1.java,Tahmina,20191205-131038
+A,Library/src/game/functions/ints/Surrounded1.java,DennisSoemers,20191205-131312
+M,Player/src/mainView/panel/StatePanel.java,Matthew.Stephenson,20191205-131637
+M,Library/src/game/functions/ints/Surrounded1.java,DennisSoemers,20191205-132454
+A,Common/res/lud/board/space/blocking/Susan.lud,Eric Piette,20191205-133200
+D,Common/res/lud/wip/Susan.lud,Eric Piette,20191205-133200
+A,Common/res/lud/board/space/line/Yavalanchor.lud,Eric Piette,20191205-135305
+D,Common/res/lud/wip/YavalanchorBugCount.lud,Eric Piette,20191205-135305
+D,Common/res/lud/wip/YavalanchorBugToDrawComponent.lud,Eric Piette,20191205-135305
+A,Common/res/lud/wip/YavalanchorCountSharedHandNotDraw.lud,Eric Piette,20191205-135305
+M,Library/src/game/functions/region/Around.java,Eric Piette,20191205-135305
+D,Common/res/lud/wip/YavalanchorCountSharedHandNotDraw.lud,Eric Piette,20191205-135609
+A,AI/src/heuristics/PlayerRegionsProximity.java,DennisSoemers,20191205-140646
+M,Library/src/game/Game.java,DennisSoemers,20191205-140646
+M,Library/src/game/rules/start/PlaceRandomly.java,DennisSoemers,20191205-140646
+M,Common/res/lud/board/space/line/Yavalanchor.lud,Eric Piette,20191205-141426
+A,Common/res/lud/wip/Pentalath.lud,Eric Piette,20191205-141749
+M,Common/res/lud/wip/Pentalath.lud,Eric Piette,20191205-144230
+A,Library/src/game/rules/play/moves/SurroundedGroup.java,Eric Piette,20191205-144230
+M,AI/src/heuristics/PlayerRegionsProximity.java,DennisSoemers,20191205-144907
+M,Library/src/game/rules/play/moves/SurroundedGroup.java,Eric Piette,20191205-145256
+M,Common/res/lud/wip/Example.lud,Tahmina,20191205-145553
+M,Library/src/game/Game.java,Tahmina,20191205-145553
+A,Library/src/game/functions/booleans/BoolSurround.java,Tahmina,20191205-145553
+M,Library/src/game/functions/booleans/Group.java,Tahmina,20191205-145553
+A,Library/src/game/functions/booleans/IsGroupOne.java,Tahmina,20191205-145553
+A,Library/src/game/functions/booleans/IsOneGroup.java,Tahmina,20191205-145553
+A,Library/src/game/functions/booleans/IsOneGroupD.java,Tahmina,20191205-145553
+M,Library/src/game/functions/ints/GroupSize.java,Tahmina,20191205-145553
+M,Library/src/game/rules/play/moves/decision/Hop.java,Tahmina,20191205-145553
+M,Library/src/game/rules/play/moves/decision/Slide.java,Tahmina,20191205-145553
+M,Library/src/game/rules/play/moves/decision/Step.java,Tahmina,20191205-145553
+M,Library/src/game/rules/start/Fill.java,Tahmina,20191205-145553
+M,Library/src/util/Trial.java,Tahmina,20191205-145553
+M,Library/src/util/UnionFindD.java,Tahmina,20191205-145553
+A,Library/src/util/UnionFindD2.java,Tahmina,20191205-145553
+M,Library/src/util/UnionInfo.java,Tahmina,20191205-145553
+M,Library/src/util/action/ActionAddN.java,Tahmina,20191205-145553
+M,Library/src/util/action/ActionMove.java,Tahmina,20191205-145553
+M,Library/src/util/action/Remove.java,Tahmina,20191205-145553
+M,Player/src/player/PlayerApp.java,Tahmina,20191205-145553
+A,Common/res/lud/wip/Go.lud,Eric Piette,20191205-150810
+A,Common/res/lud/wip/Hexdame.lud,Eric Piette,20191205-151851
+M,Library/src/game/functions/booleans/Group.java,DennisSoemers,20191205-152742
+M,Library/src/game/rules/start/Fill.java,DennisSoemers,20191205-152742
+D,Common/res/lud/board/space/blocking/Susan.lud,Eric Piette,20191205-161433
+A,Common/res/lud/wip/Susan.lud,Eric Piette,20191205-161433
+A,Common/res/lud/board/displace/leaping/Hexdame.lud,Eric Piette,20191205-162045
+D,Common/res/lud/wip/Hexdame.lud,Eric Piette,20191205-162045
+A,Common/res/lud/wip/Spline.lud,Eric Piette,20191205-173239
+A,Library/src/game/equipment/container/board/ShibumiBoard.java,Eric Piette,20191205-173239
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20191205-175314
+M,Common/res/lud/wip/Spline.lud,Eric Piette,20191206-100507
+M,Library/src/game/equipment/container/board/shape/Shape.java,Eric Piette,20191206-100507
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20191206-101314
+M,AI/src/heuristics/Material.java,Dennis Soemers,20191206-101314
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20191206-101314
+M,Common/res/lud/board/race/fill/Halma.lud,Dennis Soemers,20191206-101314
+M,Library/src/game/rules/play/moves/SurroundedGroup.java,Tahmina,20191206-101625
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Eric Piette,20191206-102957
+M,Common/res/lud/board/race/fill/Halma.lud,Eric Piette,20191206-102957
+M,Common/res/lud/wip/Example.lud,Tahmina,20191206-105421
+M,Library/src/game/functions/booleans/Group.java,Tahmina,20191206-105421
+M,Library/src/game/functions/ints/GroupCount.java,Tahmina,20191206-105421
+M,Library/src/game/functions/ints/GroupSize.java,Tahmina,20191206-105421
+M,Library/src/game/rules/play/moves/decision/Slide.java,Tahmina,20191206-105421
+M,Library/src/game/rules/start/Fill.java,Tahmina,20191206-105421
+M,Library/src/util/UnionFindD.java,Tahmina,20191206-105421
+M,Library/src/util/UnionInfo.java,Tahmina,20191206-105421
+M,Library/src/util/action/ActionAddN.java,Tahmina,20191206-105421
+M,Library/src/util/action/ActionMove.java,Tahmina,20191206-105421
+A,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20191206-111525
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20191206-111525
+M,Common/res/lud/board/race/fill/Halma.lud,Dennis Soemers,20191206-111525
+M,Common/res/lud/wip/Pentalath.lud,Eric Piette,20191206-112518
+M,Common/res/lud/wip/Pentalath.lud,Eric Piette,20191206-122739
+M,Library/src/game/rules/play/moves/SurroundedGroup.java,Eric Piette,20191206-122739
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20191206-123413
+A,AI/src/heuristics/CurrentMoverHeuristic.java,Dennis Soemers,20191206-123413
+A,Library/src/game/functions/ints/freedom.java,Tahmina,20191206-124826
+A,Library/src/game/functions/ints/freedom.java,Dennis Soemers,20191206-125308
+M,Common/res/lud/wip/Spline.lud,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/Boardless.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/GraphBoard.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/LimpingBoard.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/ShibumiBoard.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/SpiraleBoard.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/WheelBoard.java,Eric Piette,20191206-125818
+A,Library/src/game/equipment/container/board/tiling/FlatTiling.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/tiling/Hexagonal.java,Eric Piette,20191206-125818
+A,Library/src/game/equipment/container/board/tiling/ShibumiTiling.java,Eric Piette,20191206-125818
+M,Library/src/game/equipment/container/board/tiling/Square.java,Eric Piette,20191206-125818
+A,Library/src/game/functions/ints/Freedom.java,Eric Piette,20191206-125945
+D,Library/src/game/functions/ints/freedom.java,Eric Piette,20191206-125945
+M,Common/res/lud/wip/Pentalath.lud,Eric Piette,20191206-130631
+M,Library/src/game/functions/ints/Freedom.java,Eric Piette,20191206-130631
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/Boardless.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/ShibumiBoard.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/custom/CamelotBoard.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/custom/CastelloBoard.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/custom/ChessBoard.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Cross.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Hexagon.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Rect.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Rhombus.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Shape.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/board/shape/Square.java,Eric Piette,20191206-133056
+A,Library/src/game/equipment/container/board/tiling/ShibumiSquare.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/puzzleBoard/GraphPuzzleBoard.java,Eric Piette,20191206-133056
+M,Library/src/game/equipment/container/tiling/directions/CompassDirection.java,Eric Piette,20191206-135112
+M,Library/src/game/equipment/container/tiling/directions/DirectionUniqueName.java,Eric Piette,20191206-135112
+A,Library/src/game/equipment/container/tiling/directions/ShibumiDirection.java,Eric Piette,20191206-135112

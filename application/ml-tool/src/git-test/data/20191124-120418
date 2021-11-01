@@ -1,0 +1,94 @@
+M,Library/src/game/types/ShogiType.java,Matthew Stephenson,20191122-104019
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191122-104319
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191122-105928
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191122-113540
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191122-114726
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew.Stephenson,20191122-115607
+M,Player/src/player/MainMenu.java,Matthew.Stephenson,20191122-115607
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191122-115607
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20191122-115742
+A,Common/res/lud/wip/Default game test.lud,Cameron Browne,20191122-120415
+M,Library/src/game/Game.java,Cameron Browne,20191122-120415
+M,Library/src/game/equipment/Equipment.java,Cameron Browne,20191122-120415
+M,Library/src/game/equipment/container/board/shape/Square.java,Cameron Browne,20191122-120415
+M,Library/src/game/rules/Rules.java,Cameron Browne,20191122-120415
+M,Library/src/game/types/ShogiType.java,Matthew Stephenson,20191122-120435
+M,Common/res/lud/wip/Taikyoku Shogi.lud,Eric Piette,20191122-121522
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,Eric Piette,20191122-121522
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191122-123111
+M,Player/src/player/PieceGraphics.java,Matthew Stephenson,20191122-123112
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191122-125813
+M,AI/src/heuristics/LinearCombStateValue.java,DennisSoemers,20191122-142211
+M,AI/src/heuristics/Material.java,DennisSoemers,20191122-142211
+M,AI/src/search/minimax/AlphaBetaSearch.java,DennisSoemers,20191122-142211
+M,AI/src/utils/AIFactory.java,DennisSoemers,20191122-142211
+M,Player/src/mainView/dialog/SettingsDialog.java,DennisSoemers,20191122-142211
+M,Player/src/player/PlayerApp.java,Eric Piette,20191122-150546
+M,Library/src/game/functions/booleans/Threatened.java,Eric Piette,20191122-151326
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191122-151459
+A,Library/src/util/UnionFindD.java,Tahmina,20191122-154412
+M,Library/src/util/UnionInfo.java,Tahmina,20191122-154412
+A,Library/src/util/UnionFindD.java,DennisSoemers,20191122-155029
+M,Library/src/util/UnionInfo.java,DennisSoemers,20191122-155029
+A,AI/src/heuristics/HeuristicPolicy.java,Cameron Browne,20191123-110107
+D,AI/src/heuristics/LinearCombStateValue.java,Cameron Browne,20191123-110107
+M,AI/src/heuristics/HeuristicPolicy.java,Cameron Browne,20191123-110444
+M,AI/src/search/minimax/AlphaBetaSearch.java,Cameron Browne,20191123-110444
+M,Common/res/lud/board/space/blocking/Amazons.lud,Matthew.Stephenson,20191123-115015
+M,Common/res/lud/board/displace/chesslike/Chess.lud,eric.piette,20191123-125504
+M,Common/res/lud/wip/testMatch.lud,eric.piette,20191123-125504
+M,Library/src/game/functions/booleans/CanMove.java,eric.piette,20191123-125504
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20191123-125504
+M,Library/src/game/rules/play/moves/CheckMove.java,eric.piette,20191123-125504
+M,Library/src/util/Context.java,eric.piette,20191123-125504
+M,Common/res/lud/board/displace/chesslike/Chess.lud,eric.piette,20191123-125728
+A,Common/res/lud/wip/58 holes - custom.lud,Cameron Browne,20191123-134741
+A,Common/res/lud/wip/58 holes - improved.lud,Cameron Browne,20191123-134741
+A,Library/src/game/equipment/container/board/custom/HoundsAndJackalsBoard.java,Cameron Browne,20191123-134741
+M,Library/src/game/equipment/container/board/custom/HoundsAndJackalsBoard.java,Cameron Browne,20191123-141808
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20191123-153059
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191123-153059
+M,Library/src/util/AI.java,Dennis Soemers,20191123-153059
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191123-153059
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191123-153856
+M,.travis.yml,Dennis Soemers,20191123-161012
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20191123-161012
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191123-161012
+M,Library/src/util/AI.java,Dennis Soemers,20191123-161012
+M,Player/src/mainView/MainView.java,Dennis Soemers,20191123-161012
+M,Player/src/player/Referee.java,Dennis Soemers,20191123-161012
+A,Common/res/lud/wip/Wheel test - 1.lud,Cameron Browne,20191123-165127
+A,Common/res/lud/wip/Wheel test - 2.lud,Cameron Browne,20191123-165127
+A,Common/res/lud/wip/Wheel test - 3.lud,Cameron Browne,20191123-165127
+A,Common/res/lud/wip/Wheel test - 4.lud,Cameron Browne,20191123-165127
+M,Library/src/util/MetadataFunctions.java,Cameron Browne,20191123-165127
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20191123-173523
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20191123-173523
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191123-173523
+M,Library/src/util/AI.java,Dennis Soemers,20191123-173523
+M,Player/src/mainView/panel/StatePanel.java,Dennis Soemers,20191123-173523
+A,Common/res/lud/wip/Pachisi - 2.lud,Cameron Browne,20191123-181937
+D,Common/res/lud/wip/Wheel dual test.lud,Cameron Browne,20191123-181937
+A,Library/src/game/equipment/container/board/custom/PachisiBoard.java,Cameron Browne,20191123-181937
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20191123-211248
+M,Library/src/util/model/AlternatingMove.java,Dennis Soemers,20191123-211248
+M,Library/src/util/model/Model.java,Dennis Soemers,20191123-211248
+M,Library/src/util/model/SimultaneousMove.java,Dennis Soemers,20191123-211248
+M,Player/src/player/Referee.java,Dennis Soemers,20191123-211248
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20191123-211248
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20191123-211248
+M,Common/res/lud/board/displace/chesslike/Ploy.lud,eric.piette,20191123-221054
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191123-221054
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20191123-221054
+M,Library/src/game/functions/ints/Ahead.java,eric.piette,20191123-221054
+M,Library/src/game/types/ShogiType.java,eric.piette,20191123-221054
+A,Player/thumb-Taikyoku Shogi-a.png,eric.piette,20191123-221054
+A,Player/thumb-Taikyoku Shogi-b.png,eric.piette,20191123-221054
+M,Common/res/lud/wip/Taikyoku Shogi.lud,eric.piette,20191123-235311
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20191123-235311
+A,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20191124-120418
+D,AI/src/heuristics/HeuristicPolicy.java,Dennis Soemers,20191124-120418
+M,AI/src/heuristics/Material.java,Dennis Soemers,20191124-120418
+A,AI/src/heuristics/MobilitySimple.java,Dennis Soemers,20191124-120418
+M,AI/src/heuristics/StateHeuristicValue.java,Dennis Soemers,20191124-120418
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20191124-120418

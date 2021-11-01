@@ -1,0 +1,685 @@
+M,PlayerDesktop/src/app/display/views/tools/ToolView.java,Matthew.Stephenson,20200708-222046
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200708-223835
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/components/board/MancalaComponents.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/components/board/puzzle/LineSegmentComponents.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/components/board/puzzle/PuzzleComponents.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/components/board/puzzle/SudokuComponents.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/GooseDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/MancalaDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/SpiralDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/SurakartaDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/UltimateTicTacToeDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/puzzle/KakuroDesign.java,Matthew.Stephenson,20200708-223835
+M,ViewController/src/view/container/aspects/designs/board/puzzle/LineSegmentDesign.java,Matthew.Stephenson,20200708-223835
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/util/DesktopGraphics.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/views/View.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/views/players/PlayerViewUser.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/views/tabs/TabView.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/display/views/tabs/pages/StatusPage.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200708-231104
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200708-231104
+M,Common/res/lud/test/graph/Graph Test - Add (Mancala).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Alquerque (6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Big Cell (8x8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Big Cell (9x9).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Board.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Cells (Alquerque 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Default (Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Default (Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Double Spiral.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Dual (Alquerque 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Dual (x2, Alquerque 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Haretavl.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Phases (Terhuchu).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Quadhex (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Quadhex (4, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Quadhex (4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/Graph Test - Single Vertex.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Cells).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Curved Edges, Rotated).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Edge).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Edges by Index).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Add (Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Clip (Poly in Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Clip (Square Float).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Clip (Square Int).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Clip (Square Mixed Int Float).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Complete (Hex, 1).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle x 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Circle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Dual (Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Hole (Poly in Square Bad).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Hole (Poly in Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Intersect (3 Rectangles).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Intersect (Trapezium).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Keep (Poly in Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Layers (Square, 3x3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - MakeFaces A.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Merge (3 Rectangles).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Merge (Circle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Merge (Cross).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Merge (Rectangles).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Merge Tilings.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Edges).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Vertex Missing).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Vertices by Index A).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Remove (Vertices by Index B).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Renumber (Alquerque 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Renumber (Edges).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Renumber (Vertices and Cells).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Renumber.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Rotate (45, Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Rotate (45.0, Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Rotate (90, Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Scale (Pair).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Scale (Terhuchu).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Shift (Float).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Split Crossings (Triangles).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (Hex 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (Square 1).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464, 1, Checkered).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Subdivide (T3464, Checkered).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Trim (Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Union (Circle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Union (Many).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/operator/Graph Test - Union (Pair).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (0 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (1 6 12 24, Stagger).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (1 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (4 6 8 10, Stagger).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (4 6 8 10, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (4 8 10 12, Stagger, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (4 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (4 8, Stagger).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (5 7 10).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Circle (8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex A.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex B.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex B2 (Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex C (Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex C.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex D.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex E1.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex E2.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex E3.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex E4.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - ConHex E5.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Rectangle (1x2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Rectangle (3x4, Alternating).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Rectangle (3x4, Implied).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Rectangle (3x4, Solid).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Repeat A (1x1).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Repeat A (4x4, Ball).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Repeat A (4x4, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Repeat A (8x8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Repeat B.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Shape (6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/shape/Graph Test - Shape (8, Subdivide).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Alquerque (1 Arm).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Alquerque (2 Arms).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Alquerque (4 Arms).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Alquerque (5x5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Alquerque (Small Merels).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (3, 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (9, 6, Trim).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Diamond, 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Diamond, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Diamond, 9).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Prism, 3, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Prism, 3, 4, Trim).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Spiral, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Brick (Spiral, 7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (1).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (3, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (3, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (4, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (5, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Chinese Checkers).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom Diamond).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom Prism).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom Triangle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom, 4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Custom, 4,5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Diamond, 4, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Diamond, 5, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Diamond, 5, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Limping 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Prism, 4,2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Prism, 4,4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Prism, 4,7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Rectangle, 4,7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Square, 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Star, 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Star, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Triangle, 5, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Triangle, 6, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Hex (Truncated Star).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Mesh (20).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Mesh (20, Rectangle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Mesh (8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Mesh (Square).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Mesh (Square, Bad).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Morris (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Morris (3, Join Corners).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Spiral (5, 88).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Spiral (5, 88, CCW).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (1).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (4, Concentric).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (5, Concentric).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Custom A).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Custom B).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Custom Sides).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Custom Sides, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Diamond 4, Alternating).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Diamond 4, Cell).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Diamond 4, Solid).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Diamond 4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Diamond 5, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Limping).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Square (Pyramidal).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T31212.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T333333_33434.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T33336.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T33344.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T3464.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T3636 (3, Dual, Checkered).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T3636.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T4612.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - T488.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (19).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom Diamond).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom Diamond, Truncated).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom Prism).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom Triangle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom, 4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Custom, 4,5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Diamond, 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Diamond, 3, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Hexagon, 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Hexagon, 5, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Prism, 3, 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Prism, 4, 6, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Rectangle, 4,7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Rectangle, 4,7, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Square, 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Square, 5, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Star, 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/Graph Test - Tri (Star, 3, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - P4_442.lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual x 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual x 7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Subdivide (Tiling3464 2, Min 6, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling31212 (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling31212 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling31212 (3, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (2, Dual x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (3, Dual x 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (3, Dual x 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (3, Dual x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling333333_33434 (3, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33336 (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33336 (2, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33336 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33336 (3, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33344 (3x4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33344 (5x6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33344 (5x6, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33434 (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33434 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling33434 (4, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom Diamond).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom Prism).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom Triangle).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom, 4, Vertex).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Custom, 4,5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Diamond, 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 10).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 11).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 5).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 6).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 7).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 8).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual x 9).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Prism, 2,3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Rectangle, 3,4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Square, 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Star, 2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3464 (Triangle, 3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3636 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3636 (3, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3636 (3, Dual, Checkered).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3636 (Rhombus).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling3636 (Triangle, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling4612 (2).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling4612 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling4612 (3, Dual).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling488 (3).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling488 (3, 4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling488 (8, Rotated).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - Tiling488 (Custom).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - TilingP4_442 (3x4).lud,Cameron Browne,20200709-011547
+M,Common/res/lud/test/graph/tiling/old/Graph Test - TilingP4_442 (3x4, Dual).lud,Cameron Browne,20200709-011547
+D,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,eric.piette,20200709-083917
+A,Common/res/lud/wip/Game of Solomon.lud,eric.piette,20200709-083917
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-085546
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-093123
+M,Core/src/game/rules/play/moves/effect/FromTo.java,eric.piette,20200709-093123
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-094824
+M,Common/res/lud/wip/Game of Solomon.lud,Cameron Browne,20200709-095127
+M,Common/src/main/math/MathRoutines.java,Cameron Browne,20200709-095127
+M,Core/src/game/functions/graph/operators/SplitCrossings.java,Cameron Browne,20200709-095127
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-100416
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200709-100416
+A,Core/src/game/functions/graph/operators/Layers.java,Cameron Browne,20200709-100547
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-100631
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200709-100631
+M,Core/src/metadata/graphics/board/Board.java,eric.piette,20200709-101304
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-101514
+M,LudiiDocGen/src/tex/GenerateLudiiDocTex.java,Dennis Soemers,20200709-101514
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200709-101514
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-101550
+M,Core/src/game/equipment/container/board/Board.java,eric.piette,20200709-101550
+M,Core/src/game/functions/ints/board/Ahead.java,eric.piette,20200709-101550
+M,Core/src/game/functions/ints/board/Where.java,eric.piette,20200709-101550
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,eric.piette,20200709-101550
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-102854
+M,PlayerDesktop/src/app/display/util/BufferedImageUtil.java,Matthew.Stephenson,20200709-102854
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-102854
+M,PlayerDesktop/src/app/display/util/GraphicsCache.java,Matthew.Stephenson,20200709-102854
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-102854
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-103054
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-103543
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-103856
+M,Core/src/game/functions/ints/board/Where.java,eric.piette,20200709-103856
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,eric.piette,20200709-103856
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-110742
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-110852
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-110859
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-111445
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-111445
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-111906
+A,Common/res/img/svg/misc/door.svg,Matthew.Stephenson,20200709-112146
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200709-112146
+M,LudiiDocGen/src/help/GenerateLudiiEditorHelpFile.java,Dennis Soemers,20200709-112223
+M,PlayerDesktop/res/help/EditorHelp.txt,Dennis Soemers,20200709-112223
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,Dennis Soemers,20200709-112223
+M,ViewController/src/view/container/aspects/designs/board/graph/GraphDesign.java,Matthew.Stephenson,20200709-112347
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-113337
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-113337
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200709-113337
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-113717
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-113717
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-114640
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-114640
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-114832
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200709-114832
+M,Core/src/game/functions/ints/count/Count.java,eric.piette,20200709-114832
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,eric.piette,20200709-114832
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200709-114832
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,eric.piette,20200709-114832
+M,Core/src/game/rules/play/moves/effect/Pass.java,eric.piette,20200709-114832
+M,Core/src/game/types/state/GameType.java,eric.piette,20200709-114832
+M,Core/src/topology/Topology.java,eric.piette,20200709-114832
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200709-115658
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-115658
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-115803
+M,Core/src/game/util/graph/Trajectories.java,Dennis Soemers,20200709-120915
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20200709-122102
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-122102
+M,PlayerDesktop/src/app/display/util/GUIUtil.java,Matthew.Stephenson,20200709-122102
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200709-122102
+M,Core/src/game/functions/directions/Directions.java,Dennis Soemers,20200709-122805
+A,Common/res/lud/wip/Theseus and The minotaur2.lud,eric.piette,20200709-124407
+M,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-124407
+M,Core/src/game/functions/ints/count/Count.java,eric.piette,20200709-124407
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,eric.piette,20200709-124407
+M,Core/src/game/rules/play/moves/effect/Step.java,eric.piette,20200709-124407
+M,PlayerDesktop/src/app/display/dialogs/editor/BracketColours.java,mrraow,20200709-115642
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200709-130234
+A,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-130755
+D,Common/res/lud/wip/Theseus and The minotaur2.lud,eric.piette,20200709-130755
+D,Common/res/lud/wip/Theseus and the Minotaur.lud,eric.piette,20200709-130755
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200709-130755
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200709-130755
+M,Core/src/game/functions/directions/Directions.java,Dennis Soemers,20200709-132518
+M,Core/src/game/rules/play/moves/effect/Slide.java,Dennis Soemers,20200709-132518
+M,Core/src/game/util/graph/Trajectories.java,Dennis Soemers,20200709-132518
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-132428
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-133647
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-140022
+A,Common/res/lud/board/war/leaping/draughts/Game of Solomon.lud,eric.piette,20200709-141659
+D,Common/res/lud/wip/Game of Solomon.lud,eric.piette,20200709-141659
+A,Common/res/img/svg/misc/human.svg,Matthew.Stephenson,20200709-142425
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200709-142425
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-143408
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,Dennis Soemers,20200709-143620
+M,Common/res/lud/board/race/fill/Grasshopper.lud,Dennis Soemers,20200709-143620
+M,Common/res/lud/board/race/fill/Halma.lud,Dennis Soemers,20200709-143620
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-144235
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-145328
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-145959
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-145959
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-150242
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-151409
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200709-151745
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200709-151745
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200709-151745
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-151745
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-151745
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200709-151745
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-154241
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200709-154808
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-155021
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-161548
+A,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200709-161557
+M,PlayerDesktop/src/app/display/dialogs/network/NetworkDialog.java,Matthew.Stephenson,20200709-161557
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorActions.java,mrraow,20200709-152131
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200709-152131
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,mrraow,20200709-152131
+M,PlayerDesktop/src/app/display/dialogs/editor/TextPaneUtils.java,mrraow,20200709-152131
+M,AI/resources/Analysis/BestStartingHeuristics.csv,Dennis Soemers,20200709-162432
+A,Common/res/img/svg/misc/rubble.svg,Matthew.Stephenson,20200709-162440
+M,Core/src/game/equipment/component/Component.java,Matthew.Stephenson,20200709-162440
+M,PlayerDesktop/src/supplementary/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200709-163317
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-163427
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-163427
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-163434
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20200709-163923
+M,PlayerDesktop/src/supplementary/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200709-164759
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20200709-170220
+M,PlayerDesktop/src/app/display/dialogs/SandboxDialog.java,Matthew.Stephenson,20200709-170220
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20200709-170220
+M,PlayerDesktop/src/app/loading/TrialLoading.java,Matthew.Stephenson,20200709-170220
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200709-170220
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-170238
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200709-170238
+A,Core/src/game/functions/region/sites/SitesRandomType.java,eric.piette,20200709-170238
+A,Core/src/game/functions/region/sites/random/SitesRandom.java,eric.piette,20200709-170238
+M,PlayerDesktop/res/help/Aliases.txt,Dennis Soemers,20200709-170930
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-171250
+M,Core/src/game/functions/region/sites/Sites.java,eric.piette,20200709-171250
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,eric.piette,20200709-171250
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-171938
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-172606
+M,Common/res/lud/wip/Chase.lud,eric.piette,20200709-173522
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200709-173811
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200709-174125
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200709-174125
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200709-174725
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200709-174829
+A,Common/res/lud/puzzle/planning/Chase.lud,eric.piette,20200709-175821
+M,Common/res/lud/puzzle/planning/Theseus and the Minotaur.lud,eric.piette,20200709-175821
+D,Common/res/lud/wip/Chase.lud,eric.piette,20200709-175821
+M,MetadataScripts/InputCSV/GameRulesets.csv,eric.piette,20200709-175821
+M,MetadataScripts/InputCSV/Games.csv,eric.piette,20200709-175821
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200709-180441
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200709-181041
+M,PlayerDesktop/test/travis/TravisTest.java,eric.piette,20200709-181917
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200709-172626
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionList.java,mrraow,20200709-172626
+M,Core/src/util/UnionFindD.java,Dennis Soemers,20200709-213340
+M,Core/src/util/UnionInfoD.java,Dennis Soemers,20200709-213340
+M,Common/res/lud/board/race/escape/20 Squares.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/58 Holes.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Backgammon.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Fevga.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Plakoto.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Portes.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Royal Game of Ur.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/Senet.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/escape/XII Scripta.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/reach/Ashtapada.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/reach/EinStein Wurfelt Nicht.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/reach/Gyan Chaupar.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/reach/Pachisi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/race/reach/Pagade Kayi Ata (Sixteen-handed).lud,eric.piette,20200710-083325
+M,Common/res/lud/board/sow/two_rows/English Wari (St. Lucia).lud,eric.piette,20200710-083325
+M,Common/res/lud/board/sow/two_rows/Halusa.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/sow/two_rows/Oware.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/sow/two_rows/Woli.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/sow/two_rows/Wouri.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/blocking/NoGo.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/connection/Gonnect.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/connection/Trax.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/group/Manalath.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/line/Dala.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/line/Dra.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/line/Pentalath.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/line/Ringo.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/territory/Go.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/territory/Lotus.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chaturanga/Chaturaji.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chaturanga/Chaturanga.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chaturanga/Shatranj.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Amazon Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Chex.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Double Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Half Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Los Alamos Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Maharajah Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Saxun.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/chess/Social Distance Chess.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/leaping/alquerque/Alquerque.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/leaping/alquerque/Zamma.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/other/Ad elta stelpur.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/other/Atari Go.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/other/Mehen.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/shogi/Dice Shogi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/shogi/Minishogi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/shogi/Shogi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/xiangqi/Janggi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/xiangqi/Manzhouqi.lud,eric.piette,20200710-083325
+M,Common/res/lud/board/war/xiangqi/Xiangqi.lud,eric.piette,20200710-083325
+M,Common/res/lud/dominoes/Block.lud,eric.piette,20200710-083325
+M,Common/res/lud/math/graph/Crossline.lud,eric.piette,20200710-083325
+M,Common/res/lud/math/graph/solo/Icosian.lud,eric.piette,20200710-083325
+M,Common/res/lud/puzzle/planning/Chess Puzzle.lud,eric.piette,20200710-083325
+M,Common/res/lud/puzzle/planning/Shogi Puzzle.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/BackgammonHand.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/Chess (bad _ai).lud,eric.piette,20200710-083325
+M,Common/res/lud/test/TestBugGame.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/eric/HexTileTest.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/matthew/DominoBoard.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/old/Chess (load AI test).lud,eric.piette,20200710-083325
+M,Common/res/lud/test/old/MetadataShouldBreak.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/tahmina/NIMMatchR+B.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/tahmina/NIMMatchR-G-B.lud,eric.piette,20200710-083325
+M,Common/res/lud/test/tahmina/maxMatchCost.lud,eric.piette,20200710-083325
+A,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-083325
+M,Common/res/lud/wip/Game of the Goose.lud,eric.piette,20200710-083325
+M,Common/res/lud/wip/GtGames/MaxMatch(maxcost).lud,eric.piette,20200710-083325
+M,Common/res/lud/wip/GtGames/MaxMatch(mincost).lud,eric.piette,20200710-083325
+M,Common/res/lud/wip/GtGames/Nirdolir.lud,eric.piette,20200710-083325
+M,Common/res/lud/wip/Hexagonal Chess.lud,eric.piette,20200710-083325
+D,Common/res/lud/wishlist/00 - Sim.lud,eric.piette,20200710-083325
+D,Common/res/lud/wishlist/02 - GIPF.lud,eric.piette,20200710-083325
+M,Core/src/game/Game.java,eric.piette,20200710-083325
+A,Core/src/game/rules/play/moves/effect/requirement/Do.java,eric.piette,20200710-083325
+D,Core/src/game/rules/play/moves/effect/requirement/Sequence.java,eric.piette,20200710-083325
+M,Core/src/util/playout/FilterPlayout.java,eric.piette,20200710-083325
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200710-083325
+M,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-085047
+M,ViewController/src/view/container/aspects/designs/board/graph/GraphDesign.java,Matthew.Stephenson,20200710-092057
+M,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-092341
+M,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-093646
+M,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-094455
+M,Core/src/game/rules/play/moves/effect/operators/Push.java,eric.piette,20200710-094455
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20200710-100533
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200710-100533
+M,Core/src/game/util/graph/Properties.java,Cameron Browne,20200710-100533
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-100533
+M,Core/src/language/parser/Parser.java,Cameron Browne,20200710-100533
+M,PlayerDesktop/res/help/EditorHelp.txt,Cameron Browne,20200710-100533
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200710-100533
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionList.java,Cameron Browne,20200710-100533
+M,Core/src/game/functions/region/BaseRegionFunction.java,Dennis Soemers,20200710-102944
+M,Core/src/game/functions/region/RegionFunction.java,Dennis Soemers,20200710-102944
+M,Core/src/topology/Topology.java,Dennis Soemers,20200710-102944
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200710-102944
+M,Common/src/main/grammar/Symbol.java,Cameron Browne,20200710-103322
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200710-103834
+M,PlayerDesktop/test/travis/quickTests/TestPregenGraphFunction.java,eric.piette,20200710-104057
+D,Common/res/lud/board/war/other/Bizingo.lud,eric.piette,20200710-105942
+A,Common/res/lud/wip/Bizingo.lud,eric.piette,20200710-105942
+A,Common/res/lud/board/war/other/Bizingo.lud,eric.piette,20200710-110434
+D,Common/res/lud/wip/Bizingo.lud,eric.piette,20200710-110434
+M,Common/res/lud/wip/GIPF.lud,eric.piette,20200710-110434
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200710-110434
+M,Common/res/lud/puzzle/planning/Chase.lud,eric.piette,20200710-110445
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200710-111447
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,eric.piette,20200710-112719
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,eric.piette,20200710-112719
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200710-112719
+M,Common/res/lud/board/war/other/Surakarta.lud,Cameron Browne,20200710-115700
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200710-115700
+M,PlayerDesktop/src/app/display/dialogs/network/FindGameDialog.java,Matthew.Stephenson,20200710-120005
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200710-120005
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200710-120005
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200710-120138
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200710-124559
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/display/dialogs/SettingsDialog.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20200710-124559
+M,PlayerDesktop/src/app/display/views/tabs/TabPage.java,Matthew.Stephenson,20200710-124731
+M,PlayerDesktop/src/app/utils/SettingsDesktop.java,Matthew.Stephenson,20200710-124731
+M,Core/src/game/util/graph/MeasureGraph.java,Cameron Browne,20200710-131425
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-131425
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,Cameron Browne,20200710-131425
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200710-132318
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-132800
+M,Core/src/game/util/graph/Steps.java,Dennis Soemers,20200710-133623
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,Dennis Soemers,20200710-141038
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-142628
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200710-143626
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,Dennis Soemers,20200710-143626
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200710-142042
+M,PlayerDesktop/src/app/display/dialogs/editor/SuggestionList.java,mrraow,20200710-142042
+M,PlayerDesktop/src/app/display/dialogs/editor/TextPaneUtils.java,mrraow,20200710-142042
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200710-153139
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200710-164407
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200710-164644
+M,AI/src/utils/LudiiGameWrapper.java,eric.piette,20200710-164613
+M,Core/src/game/Game.java,eric.piette,20200710-164613
+M,Core/src/game/equipment/Equipment.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Add.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Claim.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/FromTo.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Leap.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Promote.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Select.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Shoot.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/Slide.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/Custodial.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/DirectionCapture.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/Enclosed.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/Sow.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/Surrounded.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/foreach/direction/ForEachDirection.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/foreach/piece/ForEachPiece.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/foreach/player/ForEachPlayer.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/foreach/site/ForEachSite.java,eric.piette,20200710-164613
+M,Core/src/util/state/State.java,eric.piette,20200710-164613
+M,Core/src/util/state/containerStackingState/ContainerStateCards.java,eric.piette,20200710-164613
+M,Core/src/util/state/containerState/ContainerStateFactory.java,eric.piette,20200710-164613
+M,Core/src/util/state/puzzleState/PuzzleState.java,eric.piette,20200710-164613
+M,PlayerDesktop/test/games/MancalaCountConsistency.java,eric.piette,20200710-164613
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200710-164613
+M,ViewController/src/view/container/aspects/tracks/ContainerTrack.java,eric.piette,20200710-164613
+M,Core/src/game/rules/play/moves/effect/operators/logical/Append.java,eric.piette,20200710-171620
+M,Core/src/util/Move.java,eric.piette,20200710-172304
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200710-172637
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200710-172637
+M,PlayerDesktop/src/app/display/dialogs/network/CreateTournamentDialog.java,Matthew.Stephenson,20200710-173418
+M,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200710-173632
+M,PlayerDesktop/src/app/display/dialogs/network/FindTournamentDialog.java,Matthew.Stephenson,20200710-173926
+A,Common/res/lud/test/matthew/Phantom Go No Decision.lud,eric.piette,20200710-173912
+M,AI/src/utils/LudiiGameWrapper.java,Dennis Soemers,20200710-174440
+M,Common/res/lud/wip/Renju.lud,Dennis Soemers,20200710-174440
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200710-180316
+M,Core/src/util/action/move/ActionMove.java,Matthew.Stephenson,20200710-180403
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200710-180828
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-180907
+M,Common/res/lud/board/space/territory/Phantom Go.lud,eric.piette,20200710-180954
+M,Common/res/lud/board/war/chess/Horde Chess.lud,eric.piette,20200710-180954
+M,Common/res/lud/board/war/chess/Loop Chess.lud,eric.piette,20200710-180954
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200710-171111
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorHelpData.java,mrraow,20200710-171111
+A,PlayerDesktop/src/app/display/dialogs/editor/SuggestionDialog.java,mrraow,20200710-171111
+A,PlayerDesktop/src/app/display/dialogs/editor/SuggestionInstance.java,mrraow,20200710-171111
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-182006
+M,Core/src/language/grammar/Grammar.java,Cameron Browne,20200710-182902
+M,Core/src/game/Game.java,eric.piette,20200710-183023
+M,Core/src/util/UnionFindD.java,eric.piette,20200710-183023
+M,Core/src/util/state/containerState/ContainerGraphState.java,eric.piette,20200710-183023
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200710-183023
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200710-183023
+M,Core/src/util/state/containerState/ContainerGraphState.java,eric.piette,20200710-183433
+M,Core/src/util/state/containerState/FlatContainerState.java,eric.piette,20200710-183433
+D,Common/res/lud/test/tahmina/ShortestPath_test1.lud,TahminaBegum,20200710-192755
+D,Common/res/lud/test/tahmina/ShortestPath_test2.lud,TahminaBegum,20200710-192755
+D,Common/res/lud/test/tahmina/ShortestPath_test3.lud,TahminaBegum,20200710-192755
+M,Common/res/lud/test/tahmina/WTICP_test1.lud,TahminaBegum,20200710-192755
+A,Common/res/lud/test/tahmina/Yathalmain2.lud,TahminaBegum,20200710-192755
+A,Common/res/lud/wip/GtGames/Yathalmain.lud,TahminaBegum,20200710-192755
+M,Common/res/lud/wip/tahmina/Nein Ari.lud,TahminaBegum,20200710-192755
+M,Common/res/lud/wip/tahmina/Oriath.lud,TahminaBegum,20200710-192755
+M,Common/res/lud/wip/tahmina/Radran.lud,TahminaBegum,20200710-192755
+M,Common/res/lud/wip/tahmina/Windir.lud,TahminaBegum,20200710-192755
+A,Core/src/game/functions/region/wip/SitesPath.java,TahminaBegum,20200710-192755
+M,Common/res/lud/wip/Renju.lud,Dennis Soemers,20200710-203703
+M,Core/src/game/functions/booleans/is/Is.java,Dennis Soemers,20200710-203703
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Dennis Soemers,20200710-203703
+A,Common/res/lud/test/tahmina/Spath-1.lud,TahminaBegum,20200710-231923
+M,Common/res/lud/wip/GtGames/Yathalmain.lud,TahminaBegum,20200710-231923
+M,Core/src/game/functions/region/wip/SitesPath.java,TahminaBegum,20200710-231923

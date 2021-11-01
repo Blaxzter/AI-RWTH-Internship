@@ -1,0 +1,296 @@
+M,Features/src/features/generation/FeatureGenerationUtils.java,Dennis Soemers,20190328-214823
+M,Library/src/util/Move.java,Matthew Stephenson,20190328-215214
+M,Library/src/game/Game.java,eric.piette,20190328-233712
+M,Library/src/game/rules/play/Play.java,eric.piette,20190328-233712
+M,Library/src/game/rules/play/moves/Roll.java,eric.piette,20190328-233712
+M,Library/src/util/Trial.java,eric.piette,20190328-233712
+M,Grammar/src/parser/Part.java,Cameron Browne,20190328-234852
+A,Library/src/game/functions/ints/TrackIndex.java,eric.piette,20190328-234949
+D,Grammar/src/parser/Part.java,eric.piette,20190329-001150
+A,Grammar/src/parser/part/Part.java,eric.piette,20190329-001150
+M,Grammar/src/parser/part/PartArray.java,eric.piette,20190329-001150
+M,Grammar/src/parser/part/PartClass.java,eric.piette,20190329-001150
+M,Grammar/src/parser/part/PartString.java,eric.piette,20190329-001150
+M,Grammar/src/parser/part/PartTerminal.java,eric.piette,20190329-001150
+D,Grammar/src/part/Part.java,eric.piette,20190329-001150
+M,Library/src/game/functions/ints/TrackIndex.java,eric.piette,20190329-001150
+M,Library/src/game/mode/player/Player.java,eric.piette,20190329-001150
+M,Player/src/player/PlayerApp.java,eric.piette,20190329-001150
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190329-003735
+A,Grammar/src/parser/Part.java,Cameron Browne,20190329-005932
+D,Grammar/src/parser/part/Part.java,Cameron Browne,20190329-005946
+D,Grammar/src/parser/part/PartArray.java,Cameron Browne,20190329-005946
+D,Grammar/src/parser/part/PartClass.java,Cameron Browne,20190329-005946
+D,Grammar/src/parser/part/PartString.java,Cameron Browne,20190329-005946
+D,Grammar/src/parser/part/PartTerminal.java,Cameron Browne,20190329-005946
+A,Library/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20190329-062937
+D,Library/src/game/functions/ints/TrackIndex.java,eric.piette,20190329-062937
+M,Library/lud/Royal Game of Ur.lud,eric.piette,20190329-070047
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190329-070047
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190329-070047
+M,Library/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20190329-070047
+A,Library/src/game/functions/region/Hand.java,eric.piette,20190329-070047
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190329-070047
+M,Library/src/game/Game.java,eric.piette,20190329-070407
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190329-070407
+M,Library/src/game/equipment/component/Die.java,eric.piette,20190329-070407
+M,Library/src/game/rules/play/moves/Roll.java,eric.piette,20190329-070407
+M,Library/src/game/rules/play/moves/decision/GoTo.java,eric.piette,20190329-071001
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-071211
+M,Library/src/game/functions/ints/ForwardOnTrack.java,eric.piette,20190329-072924
+M,Library/src/game/Game.java,eric.piette,20190329-081342
+M,Library/src/util/Trial.java,eric.piette,20190329-081342
+M,Library/src/util/Trial.java,eric.piette,20190329-081359
+M,Library/lud/Royal Game of Ur.lud,eric.piette,20190329-081546
+M,Library/lud/Mu-Torere.lud,eric.piette,20190329-104515
+M,Library/lud/Royal Game of Ur.lud,eric.piette,20190329-104515
+M,Library/lud/ThreeMensMorris.lud,eric.piette,20190329-104515
+M,Library/src/game/Game.java,eric.piette,20190329-104515
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190329-104515
+M,Library/src/game/equipment/container/Container.java,eric.piette,20190329-104515
+M,Library/src/game/equipment/container/Hand.java,eric.piette,20190329-104515
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190329-104515
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190329-104515
+M,Library/src/util/state/State.java,eric.piette,20190329-104515
+M,Library/src/util/state/containerState/ContainerStateIndexCount.java,eric.piette,20190329-104515
+M,Player/src/dbView/games/ThreeMenMorris.java,eric.piette,20190329-104515
+M,Library/src/game/rules/play/moves/decision/GoTo.java,eric.piette,20190329-111336
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-111508
+M,Player/src/mainView/panel/PlayerPanel.java,Matthew Stephenson,20190329-111508
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-111508
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190329-112309
+M,Library/src/game/equipment/container/board/MorrisBoard.java,eric.piette,20190329-112309
+M,Library/src/game/equipment/container/board/modify/Modify.java,eric.piette,20190329-112309
+A,Library/lud/Royal Game of Ur (not finish).lud,eric.piette,20190329-115936
+D,Library/lud/Royal Game of Ur.lud,eric.piette,20190329-115936
+M,Library/src/game/rules/start/Place.java,eric.piette,20190329-115936
+M,Library/src/game/rules/start/Place.java,eric.piette,20190329-120032
+M,Library/src/game/functions/ints/Count.java,eric.piette,20190329-120220
+M,Features/src/features/generation/FeatureGenerationUtils.java,Dennis Soemers,20190329-120327
+M,Library/src/util/state/State.java,eric.piette,20190329-120821
+A,Library/lud/Oware (not finish).lud,eric.piette,20190329-120845
+A,Library/src/game/rules/play/moves/decision/Select.java,eric.piette,20190329-121619
+M,Library/lud/Oware (not finish).lud,eric.piette,20190329-122057
+D,Library/src/oldLudeme/game/rules/moves/Choose.java,eric.piette,20190329-122321
+M,Library/src/util/action/ActionMove.java,eric.piette,20190329-130941
+M,Library/src/util/state/containerState/ContainerStateCount.java,eric.piette,20190329-130941
+M,Library/src/util/state/containerState/ContainerStatePlayer.java,eric.piette,20190329-130941
+M,Library/src/util/state/containerState/ContainerStateState.java,eric.piette,20190329-130941
+A,Library/src/game/rules/play/moves/Sowing.java,eric.piette,20190329-131314
+D,Library/src/oldLudeme/game/rules/moves/Sowing.java,eric.piette,20190329-131344
+M,Library/lud/Oware (not finish).lud,eric.piette,20190329-131939
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonBack.java,Matthew Stephenson,20190329-132021
+A,Player/src/mainView/button/ButtonBlank.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonEnd.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonForward.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonInfo.java,Matthew Stephenson,20190329-132021
+A,Player/src/mainView/button/ButtonPass.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonRestart.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonSettings.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonStart.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/button/ButtonUndo.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-132021
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20190329-132021
+M,Library/src/game/rules/play/moves/ByPiece.java,Matthew Stephenson,20190329-132708
+M,Library/src/game/equipment/container/board/modify/Cut.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/CutAll.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/CutDiago.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/CutOrtho.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/JoinDiago.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/JoinOrtho.java,eric.piette,20190329-132934
+M,Library/src/game/equipment/container/board/modify/Remove.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/BaseRegionFunction.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Bottom.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Centre.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Corners.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Customise.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/DirectionRegion.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Exteriors.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Own.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/RegionConstant.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Top.java,eric.piette,20190329-132934
+M,Library/src/game/functions/region/Union.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/And.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/ByPieceType.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Drop.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Flanked.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/If.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Or.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Priority.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Promotion.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Remove.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/Replay.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/decision/GoTo.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/decision/Leap.java,eric.piette,20190329-132934
+M,Library/src/game/rules/play/moves/decision/Pass.java,eric.piette,20190329-132934
+M,Library/lud/Oware (not finish).lud,eric.piette,20190329-133411
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-133708
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190329-135232
+M,Library/src/game/equipment/container/tiling/BaseTiling.java,eric.piette,20190329-135232
+M,Library/src/game/equipment/container/tiling/Tiling.java,eric.piette,20190329-135232
+M,Library/src/game/rules/play/moves/decision/Select.java,eric.piette,20190329-135312
+M,Features/src/features/Walk.java,Dennis Soemers,20190329-141211
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190329-141211
+M,Library/src/game/rules/play/moves/decision/Hop.java,Dennis Soemers,20190329-141211
+A,Library/src/game/equipment/container/board/HalmaBoard.java,eric.piette,20190329-143637
+M,Library/lud/Oware (not finish).lud,eric.piette,20190329-143904
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-144339
+M,Player/src/mainView/panel/ToolPanel.java,Matthew Stephenson,20190329-144339
+M,Features/src/features/elements/FeatureElement.java,Dennis Soemers,20190329-144951
+M,Features/src/features/elements/RelativeFeatureElement.java,Dennis Soemers,20190329-144951
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190329-144951
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190329-145131
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-145700
+M,Library/src/game/rules/play/moves/decision/Hop.java,eric.piette,20190329-150736
+A,Library/lud/Halma 2 players.lud,eric.piette,20190329-150949
+M,Library/src/game/equipment/container/board/HalmaBoard.java,eric.piette,20190329-150949
+A,Library/lud/Halma 4 players.lud,eric.piette,20190329-152649
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190329-153746
+M,Library/src/game/functions/booleans/IsEnemy.java,Dennis Soemers,20190329-153746
+M,Library/src/game/functions/ints/Who.java,Dennis Soemers,20190329-153746
+M,Library/src/game/rules/play/moves/decision/Step.java,Dennis Soemers,20190329-153746
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-153813
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-153852
+M,Library/src/game/functions/booleans/Configuration.java,eric.piette,20190329-154806
+A,Library/lud/Halma 2 players (need Integer[] to be finish).lud,eric.piette,20190329-160022
+D,Library/lud/Halma 2 players.lud,eric.piette,20190329-160022
+A,Library/lud/Halma 4 players (need Integer[] to be finish).lud,eric.piette,20190329-160022
+D,Library/lud/Halma 4 players.lud,eric.piette,20190329-160022
+M,Library/src/game/equipment/container/board/HalmaBoard.java,eric.piette,20190329-160022
+M,Library/src/game/Game.java,Matthew Stephenson,20190329-162840
+M,Player/src/mainView/button/ButtonPass.java,Matthew Stephenson,20190329-162840
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-162840
+M,Player/src/player/Referee.java,Matthew Stephenson,20190329-162840
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonBack.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonBlank.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonEnd.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonForward.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonInfo.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonPass.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonSettings.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonStart.java,Matthew Stephenson,20190329-164552
+M,Player/src/mainView/button/ButtonUndo.java,Matthew Stephenson,20190329-164552
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190329-164552
+M,Grammar/src/parser/Part.java,Cameron Browne,20190329-165437
+M,Features/src/features/generation/FeatureGenerationUtils.java,Dennis Soemers,20190329-171146
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190329-171146
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190329-171146
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190329-171910
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonBack.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonBlank.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonEnd.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonForward.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonInfo.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonPass.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonSettings.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonStart.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/button/ButtonUndo.java,Matthew Stephenson,20190329-171936
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190329-171936
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20190329-171936
+M,Player/src/player/Referee.java,Matthew Stephenson,20190329-171936
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190329-175012
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-175012
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20190329-175225
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190330-073841
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190330-075252
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Matthew Stephenson,20190330-090404
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190330-090404
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Matthew Stephenson,20190330-092505
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20190330-092505
+D,Library/src/game/equipment/container/tiling/AlquerqueRect.java,eric.piette,20190330-092612
+D,Library/src/game/equipment/container/tiling/AlquerqueSquare.java,eric.piette,20190330-092612
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Cameron Browne,20190330-092751
+M,Library/src/game/equipment/graphics/UnicodeGraphics.java,Cameron Browne,20190330-092829
+A,Library/src/game/equipment/container/board/AlquerqueBoard.java,eric.piette,20190330-101710
+M,Library/src/game/equipment/container/board/Board.java,eric.piette,20190330-101710
+M,Library/src/game/functions/booleans/Equal.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Even.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Full.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Ge.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Gt.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/If.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/In.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsCheckmate.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsEnemy.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsFriend.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsFriendAt.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsMover.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsNext.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsPiece.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/IsPrev.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Le.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Lt.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/MovesNonEmpty.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/NoMove.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Not.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Odd.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/Or.java,eric.piette,20190330-112124
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20190330-112124
+M,Library/src/game/functions/ints/BaseIntFunction.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Count.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/From.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/IndexOf.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/LastFromMove.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Next.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Previous.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Size.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Sub.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/To.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Turn.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/Value.java,eric.piette,20190330-112347
+M,Library/src/game/functions/ints/What.java,eric.piette,20190330-112347
+M,Library/src/game/functions/booleans/NoMove.java,eric.piette,20190330-112811
+A,Library/lud/Alquerque.lud,eric.piette,20190330-112932
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190330-121533
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190330-121533
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190330-121533
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190330-121533
+M,Grammar/src/parser/Parser.java,Cameron Browne,20190330-121533
+M,Grammar/src/parser/Part.java,Cameron Browne,20190330-121533
+M,Library/src/game/rules/play/moves/Shoot.java,Cameron Browne,20190330-121533
+M,Library/src/game/rules/play/moves/Shoot.java,Cameron Browne,20190330-122538
+M,Library/src/game/rules/play/moves/decision/Slide.java,Cameron Browne,20190330-122715
+M,Library/src/game/rules/play/moves/decision/Step.java,Cameron Browne,20190330-122910
+M,Library/src/game/rules/play/moves/decision/Leap.java,Cameron Browne,20190330-123344
+M,Library/src/game/rules/play/moves/decision/Hop.java,Cameron Browne,20190330-123819
+M,Library/src/game/rules/play/moves/Shoot.java,Cameron Browne,20190330-131640
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190330-134240
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190330-134240
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190330-134240
+M,Grammar/src/parser/ArgList.java,Cameron Browne,20190330-134240
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190330-134240
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20190330-134240
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20190330-134327
+M,Library/src/game/rules/start/Place.java,Cameron Browne,20190330-140127
+M,Grammar/src/parser/Arg.java,Cameron Browne,20190330-141906
+M,Grammar/src/parser/ArgArray.java,Cameron Browne,20190330-141906
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190330-141906
+M,Grammar/src/parser/Part.java,Cameron Browne,20190330-141906
+M,Grammar/src/parser/ArgTerminal.java,Cameron Browne,20190330-142158
+M,Grammar/src/parser/Part.java,Cameron Browne,20190330-142158
+M,Grammar/src/parser/ArgClass.java,Cameron Browne,20190330-142526
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190330-142526
+M,Features/src/features/generation/MoveFeatures.java,Dennis Soemers,20190330-163307
+M,Player/src/mainView/panel/StatePanel.java,Dennis Soemers,20190330-163307
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20190330-163307
+M,Library/src/util/state/State.java,Dennis Soemers,20190330-165303
+D,Library/lud/4 Puzzles (bug with Integer[] on Configuration).lud,eric.piette,20190330-194853
+A,Library/lud/4 Puzzles.lud,eric.piette,20190330-194853
+M,Library/src/util/Region.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/BaseContainerState.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateCount.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateIndex.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateIndexCount.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateIndexCountState.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateIndexState.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStatePlayer.java,Dennis Soemers,20190330-203055
+M,Library/src/util/state/containerState/ContainerStateState.java,Dennis Soemers,20190330-203055

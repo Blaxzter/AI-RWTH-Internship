@@ -1,0 +1,70 @@
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181109-115444
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181109-120117
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-120117
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-120117
+M,Library/src/game/rules/moves/Orthogonal.java,Eric.Piette,20181109-121427
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-121427
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-121427
+M,Library/src/game/rules/moves/Adjacent.java,Eric.Piette,20181109-121625
+M,Library/src/game/rules/moves/Diagonal.java,Eric.Piette,20181109-122242
+M,Library/src/game/types/Types.java,Eric.Piette,20181109-122242
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-122242
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-122242
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181109-122751
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-122751
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-123011
+M,Library/src/game/rules/moves/Adjacent.java,Dennis Soemers,20181109-123625
+M,Library/src/game/functions/booleans/Capture.java,Eric.Piette,20181109-132114
+M,Library/src/game/rules/moves/Jump.java,Eric.Piette,20181109-132114
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-132114
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-132114
+M,Library/src/game/functions/booleans/Capture.java,Dennis Soemers,20181109-135407
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181109-135407
+M,Library/src/game/rules/moves/Or.java,Dennis Soemers,20181109-135407
+M,Library/src/game/rules/moves/Orthogonal.java,Dennis Soemers,20181109-135407
+M,Player/src/player/Referee.java,Dennis Soemers,20181109-135407
+M,Player/src/mainView/panel/PlayerPanel.java,Eric.Piette,20181109-143712
+A,Library/src/game/functions/booleans/OneInALine.java,Eric.Piette,20181109-144222
+D,Library/src/game/functions/booleans/OneInAnyLine.java,Eric.Piette,20181109-144222
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-144222
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-144222
+M,Library/src/game/functions/booleans/OneInALine.java,Eric.Piette,20181109-145427
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-145427
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-145427
+A,Library/src/game/functions/booleans/OneInARow.java,Eric.Piette,20181109-145657
+A,Library/src/game/functions/booleans/OneInAColumn.java,Eric.Piette,20181109-145916
+M,Library/src/game/functions/booleans/Capture.java,Dennis Soemers,20181109-150034
+M,Library/src/game/rules/moves/Adjacent.java,Dennis Soemers,20181109-150034
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181109-150034
+M,Library/src/game/rules/moves/Orthogonal.java,Dennis Soemers,20181109-150034
+M,Library/src/game/functions/booleans/OneInAColumn.java,Eric.Piette,20181109-150105
+A,Library/src/game/functions/booleans/OneInAOrtho.java,Eric.Piette,20181109-150105
+A,Library/src/game/functions/booleans/OneInADiag.java,Eric.Piette,20181109-150325
+A,Library/src/game/functions/booleans/AndN.java,Eric.Piette,20181109-151651
+A,Library/src/game/functions/booleans/OrN.java,Eric.Piette,20181109-151754
+A,Library/src/game/rules/moves/OrN.java,Eric.Piette,20181109-152133
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-153427
+M,Player/src/player/PlayerCli.java,Eric.Piette,20181109-153427
+M,Player/src/dbView/button/LoadButton.java,Eric.Piette,20181109-153645
+M,Player/src/player/Referee.java,Eric.Piette,20181109-153645
+A,Library/src/game/functions/booleans/AllDifferentRow.java,Eric.Piette,20181109-155729
+A,Library/src/game/functions/booleans/AllDifferentColumn.java,Eric.Piette,20181109-155918
+M,Library/src/game/Game.java,Dennis Soemers,20181109-162045
+M,Library/src/game/functions/region/OwnKind.java,Dennis Soemers,20181109-162045
+M,Library/src/game/rules/moves/Diagonal.java,Dennis Soemers,20181109-162045
+M,Library/src/game/rules/moves/Jump.java,Dennis Soemers,20181109-162045
+M,Library/src/game/rules/moves/OrN.java,Dennis Soemers,20181109-162413
+A,Library/src/game/functions/booleans/AllDifferentOrtho.java,Eric.Piette,20181109-165923
+A,Library/src/game/functions/booleans/AllDifferentDiag.java,Eric.Piette,20181109-170041
+A,Library/src/game/functions/booleans/AllDifferentLine.java,Eric.Piette,20181109-170205
+M,Library/src/features/elements/AbsoluteFeatureElement.java,Dennis Soemers,20181109-171519
+M,Library/src/features/elements/FeatureElement.java,Dennis Soemers,20181109-171519
+M,Library/src/features/elements/RelativeFeatureElement.java,Dennis Soemers,20181109-171519
+M,Library/src/features/patterns/Pattern.java,Dennis Soemers,20181109-171519
+M,Library/src/game/Game.java,Dennis Soemers,20181109-171519
+M,Library/src/game/functions/booleans/AllDifferentColumn.java,Eric.Piette,20181110-151227
+M,Library/src/game/functions/booleans/AllDifferentDiag.java,Eric.Piette,20181110-151227
+M,Library/src/game/functions/booleans/AllDifferentLine.java,Eric.Piette,20181110-151227
+M,Library/src/game/functions/booleans/AllDifferentOrtho.java,Eric.Piette,20181110-151227
+M,Library/src/game/functions/booleans/AllDifferentRow.java,Eric.Piette,20181110-151227
+M,Library/src/game/equipment/container/basis/Square.java,Eric.Piette,20181111-185534

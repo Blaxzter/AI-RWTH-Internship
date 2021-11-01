@@ -1,0 +1,85 @@
+M,Library/src/features/FeatureInstance.java,Eric Piette,20181203-092407
+D,Library/src/util/BitSetS.java,Eric Piette,20181203-092407
+A,Library/src/util/ChunkSet.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainer.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerCount.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndex.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexCount.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerPlayer.java,Eric Piette,20181203-092407
+M,Library/src/util/state/ItemStateContainerState.java,Eric Piette,20181203-092407
+M,Library/src/game/equipment/component/Component.java,Eric Piette,20181203-093800
+M,Library/src/game/Game.java,Eric Piette,20181203-103215
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-103215
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181203-103215
+M,Library/src/ui/GameView.java,Eric Piette,20181203-103215
+M,Library/src/util/action/ActionAddN.java,Eric Piette,20181203-103215
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-103920
+M,Library/src/game/Game.java,Eric Piette,20181203-112408
+M,Library/src/ui/GameView.java,Eric Piette,20181203-112629
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20181203-112629
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-112941
+M,Library/src/ui/GameView.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionMove.java,Eric Piette,20181203-112941
+M,Library/src/util/action/ActionRemove.java,Eric Piette,20181203-112941
+M,Library/src/util/state/State.java,Eric Piette,20181203-112941
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-112941
+M,Player/src/mainView/panel/PlayerPanel.java,Eric Piette,20181203-112941
+M,Library/src/game/Game.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerIndexCountState.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerIndexState.java,Eric Piette,20181203-114546
+M,Library/src/util/state/ItemStateContainerState.java,Eric Piette,20181203-114546
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-114546
+M,Library/src/game/rules/Rules.java,Eric Piette,20181203-124059
+M,Library/src/game/rules/start/Place.java,Eric Piette,20181203-124059
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-124059
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20181203-124225
+M,Library/src/game/rules/start/PlaceRandomly.java,Eric Piette,20181203-124721
+M,Library/src/util/action/ActionAdd.java,Eric Piette,20181203-124721
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-124721
+M,Player/src/player/Referee.java,Eric Piette,20181203-125937
+A,Library/src/game/functions/region/RegionLocalState.java,Eric Piette,20181203-132827
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-132827
+A,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20181203-140103
+M,Library/src/features/generation/ExhaustiveFeatureGenerator.java,DennisSoemers,20181203-140103
+M,Library/src/game/Game.java,DennisSoemers,20181203-140103
+M,Library/src/game/Game.java,Eric Piette,20181203-142818
+M,Library/src/game/rules/moves/TurnOver.java,Eric Piette,20181203-142818
+A,Library/src/game/rules/moves/postMove/ApplyTurnOver.java,Eric Piette,20181203-142818
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-142818
+A,Library/src/game/functions/ints/CountSameState.java,Eric Piette,20181203-150837
+A,Library/src/game/functions/ints/MostState.java,Eric Piette,20181203-150837
+M,Player/src/dbView/GamesList.java,Eric Piette,20181203-150837
+M,Library/src/game/equipment/component/piece/state/PieceState.java,Eric Piette,20181203-160446
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Eric Piette,20181203-160446
+M,Library/src/game/equipment/component/piece/state/PieceStateSide.java,Eric Piette,20181203-160446
+M,Library/src/ui/GameView.java,Eric Piette,20181203-160446
+M,Library/src/features/generation/AtomicFeatureGenerator.java,DennisSoemers,20181203-161053
+M,Library/src/util/Context.java,Eric Piette,20181204-105813
+M,Library/src/util/action/ActionMove.java,Eric Piette,20181204-105901
+M,Library/src/util/action/ActionMoveRemove.java,Eric Piette,20181204-105901
+A,Library/src/game/rules/moves/SpecificDirectionDistance.java,Eric Piette,20181204-110203
+A,Library/src/util/action/ActionChangeState.java,Eric Piette,20181204-113620
+A,Library/src/game/rules/moves/ChangeState.java,Eric Piette,20181204-114042
+A,Library/src/game/functions/booleans/NoKindItem.java,Eric Piette,20181204-115215
+M,Library/src/game/rules/moves/ChangeState.java,Eric Piette,20181204-115215
+M,Library/src/game/equipment/component/piece/state/PieceStateDirection.java,Eric Piette,20181204-130113
+M,Player/src/dbView/DBView.java,Eric Piette,20181204-130248
+M,Player/src/dbView/GamesList.java,Eric Piette,20181204-130248
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric Piette,20181204-130248
+M,Player/src/player/PlayerCli.java,Eric Piette,20181204-130248
+M,Library/src/features/FeatureSet.java,DennisSoemers,20181204-155148
+M,Library/src/features/features/Feature.java,DennisSoemers,20181204-155148
+M,Library/src/features/patterns/Pattern.java,DennisSoemers,20181204-155148
+A,Library/src/game/functions/booleans/IsActive.java,Eric Piette,20181204-161350
+M,Library/src/game/equipment/component/Component.java,Eric Piette,20181204-173748
+M,Library/src/game/functions/region/OwnKind.java,Eric Piette,20181204-173748
+A,Library/src/game/rules/moves/postMove/ChangeOwner.java,Eric Piette,20181204-173748
+M,Player/src/dbView/DBView.java,Eric Piette,20181204-173748
+M,Player/src/dbView/GamesList.java,Eric Piette,20181204-173748
+M,Player/src/dbView/renderer/SizeCellEditor.java,Eric Piette,20181204-173748
+M,Player/src/player/PlayerCli.java,Eric Piette,20181204-173748
+M,Player/src/player/PlayerCli.java,DennisSoemers,20181205-103553
+A,Player/src/player/experiments/TestExpertIteration.java,DennisSoemers,20181205-103553

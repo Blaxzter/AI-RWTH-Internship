@@ -1,0 +1,115 @@
+M,Common/res/lud/wip/Seega.lud,eric.piette,20191109-161838
+A,Common/res/lud/board/displace/elimination/Seega.lud,eric.piette,20191109-185802
+D,Common/res/lud/wip/Seega.lud,eric.piette,20191109-185802
+M,Library/src/game/functions/ints/Ahead.java,eric.piette,20191109-185802
+M,Common/res/lud/board/displace/leaping/Alquerque.lud,eric.piette,20191109-195836
+M,Common/res/lud/board/displace/leaping/Awithlaknannai.lud,eric.piette,20191109-195836
+M,Common/res/lud/board/displace/leaping/Egara Guti.lud,eric.piette,20191109-195836
+M,Common/res/lud/board/displace/leaping/English Draughts.lud,eric.piette,20191109-195836
+M,Common/res/lud/board/displace/leaping/Perali kotuma.lud,eric.piette,20191109-195836
+M,Common/res/lud/board/displace/leaping/Felli.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Gol-skuish.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Kotu Ellima.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Kowwu dunki.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Lau Kata Kati.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Mogul Putt'han.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Pretwa.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Sixteen Soldiers.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Terhuchu.lud,eric.piette,20191109-203137
+M,Common/res/lud/board/displace/leaping/Tuknanavuhpi.lud,eric.piette,20191109-203137
+M,Player/test/games/pregeneration/TestWheelBoard.java,eric.piette,20191109-203137
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_training_scripts_ecai_wis.py,Dennis Soemers,20191109-211623
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20191109-211623
+M,Common/res/lud/board/displace/leaping/Lasca.lud,eric.piette,20191110-002423
+M,Library/src/game/Game.java,eric.piette,20191110-002423
+M,Library/src/game/functions/ints/Who.java,eric.piette,20191110-002423
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20191110-002423
+M,Library/src/util/Position.java,eric.piette,20191110-002423
+M,Library/src/util/action/ActionPromote.java,eric.piette,20191110-002423
+D,Common/res/lud/board/displace/leaping/Zamma.lud,eric.piette,20191110-002708
+A,Common/res/lud/wip/Zamma (without Max Capture).lud,eric.piette,20191110-002708
+M,Library/src/game/Game.java,eric.piette,20191110-002708
+M,Library/src/game/functions/ints/Who.java,eric.piette,20191110-002708
+A,Common/res/lud/wip/Brazilian Draughts (without Max Capture).lud,eric.piette,20191110-004944
+D,Common/res/lud/wip/Brazilian Draughts.lud,eric.piette,20191110-004944
+A,Common/res/lud/wip/Canadian Draughts (without Max Capture).lud,eric.piette,20191110-004944
+D,Common/res/lud/wip/Canadian Draughts.lud,eric.piette,20191110-004944
+M,Common/res/lud/wip/International Draughts (without Max Capture).lud,eric.piette,20191110-102126
+A,Library/src/game/functions/region/CaptureSequence.java,eric.piette,20191110-102126
+M,Library/src/util/Trial.java,eric.piette,20191110-102126
+A,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_ecai_wis.py,Dennis Soemers,20191110-113753
+M,AI/src/search/flat/FlatMonteCarloRT.java,eric.piette,20191110-141211
+M,Common/res/lud/wip/International Draughts (without Max Capture).lud,eric.piette,20191110-141211
+M,Library/src/game/Game.java,eric.piette,20191110-141211
+M,Library/src/game/functions/booleans/CanMove.java,eric.piette,20191110-141211
+M,Library/src/game/functions/booleans/Group.java,eric.piette,20191110-141211
+M,Library/src/game/functions/booleans/ReachedRegion.java,eric.piette,20191110-141211
+M,Library/src/game/functions/booleans/Visited.java,eric.piette,20191110-141211
+M,Library/src/game/functions/region/CaptureSequence.java,eric.piette,20191110-141211
+M,Library/src/game/functions/region/OccupiedBy.java,eric.piette,20191110-141211
+M,Library/src/game/playout/ByPiecePlayout.java,eric.piette,20191110-141211
+M,Library/src/game/rules/play/moves/ByPiece.java,eric.piette,20191110-141211
+A,Library/src/game/rules/play/moves/MaxMove.java,eric.piette,20191110-141211
+M,Library/src/util/Move.java,eric.piette,20191110-141211
+M,Library/src/util/Trial.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionAdd.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionAddN.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionMove.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionMoveN.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionMoveRemove.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionMoveState.java,eric.piette,20191110-141211
+M,Library/src/util/action/ActionPromote.java,eric.piette,20191110-141211
+M,Library/src/util/action/Remove.java,eric.piette,20191110-141211
+M,Library/src/util/model/RealTime.java,eric.piette,20191110-141211
+M,Library/src/util/state/State.java,eric.piette,20191110-141211
+M,Player/src/player/JFrameList.java,eric.piette,20191110-141211
+M,Common/res/lud/board/displace/leaping/English Draughts.lud,eric.piette,20191110-173135
+A,Common/res/lud/board/displace/leaping/International Draughts.lud,eric.piette,20191110-173135
+D,Common/res/lud/wip/International Draughts (without Max Capture).lud,eric.piette,20191110-173135
+M,Library/src/game/Game.java,eric.piette,20191110-173135
+M,Library/src/game/rules/play/moves/MaxMove.java,eric.piette,20191110-173135
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,eric.piette,20191110-173204
+A,Common/res/lud/board/displace/leaping/Brazilian Draughts.lud,eric.piette,20191110-185019
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,eric.piette,20191110-185019
+D,Common/res/lud/wip/Brazilian Draughts (without Max Capture).lud,eric.piette,20191110-185019
+M,Library/src/game/rules/play/moves/MaxMove.java,eric.piette,20191110-185019
+A,Common/res/lud/board/displace/leaping/Canadian Draughts.lud,eric.piette,20191110-185531
+M,Common/res/lud/board/displace/leaping/International Draughts.lud,eric.piette,20191110-185531
+D,Common/res/lud/wip/Canadian Draughts (without Max Capture).lud,eric.piette,20191110-185531
+M,Common/res/lud/board/displace/leaping/Lasca.lud,eric.piette,20191110-213205
+M,Library/src/game/equipment/container/board/custom/LascaBoard.java,eric.piette,20191110-213205
+M,Library/src/game/equipment/container/board/CustomBoard.java,eric.piette,20191110-213522
+M,LudiiDiagnosticsPy/experiments/expert_iteration/generate_evaluation_scripts_ecai_wis.py,Dennis Soemers,20191110-214620
+A,Common/res/lud/board/displace/leaping/Zamma.lud,eric.piette,20191110-215126
+D,Common/res/lud/wip/Zamma (without Max Capture).lud,eric.piette,20191110-215126
+M,Common/res/lud/board/displace/chesslike/Shogi.lud,eric.piette,20191110-230612
+M,Common/res/lud/board/displace/chesslike/Xiangqi.lud,eric.piette,20191111-000443
+M,Common/res/lud/board/space/group/Lines of Action.lud,eric.piette,20191111-000443
+M,Library/src/game/functions/ints/ColumnOf.java,eric.piette,20191111-000443
+M,Library/src/game/functions/ints/PieceAt.java,eric.piette,20191111-000443
+A,Library/src/game/functions/region/ConstraintRegion.java,eric.piette,20191111-000443
+M,Library/src/game/functions/region/InDirection.java,eric.piette,20191111-000443
+M,Library/src/game/functions/booleans/Threatened.java,eric.piette,20191111-004927
+A,Common/res/lud/board/displace/leaping/Dama.lud,Eric Piette,20191111-095525
+D,Common/res/lud/wip/Dama (without Max Capture).lud,Eric Piette,20191111-095525
+M,Common/res/lud/board/displace/leaping/Dama.lud,Eric Piette,20191111-095755
+A,Common/res/lud/puzzle/deduction/Juosan.lud,Eric Piette,20191111-100313
+D,Common/res/lud/wip/Juosan.lud,Eric Piette,20191111-100313
+A,Common/res/lud/puzzle/deduction/Nawabari.lud,Eric Piette,20191111-100825
+D,Common/res/lud/wip/Nawabari.lud,Eric Piette,20191111-100825
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191111-101014
+M,Library/src/game/equipment/container/Container.java,Eric Piette,20191111-101956
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191111-101956
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,Eric Piette,20191111-101956
+M,Common/res/lud/wip/TestDeck.lud,Eric Piette,20191111-102128
+M,Library/src/game/equipment/component/Component.java,Matthew.Stephenson,20191111-103406
+M,Library/src/game/equipment/component/Piece.java,Matthew.Stephenson,20191111-103406
+A,Library/src/game/equipment/component/piece/CardFunctions.java,Matthew.Stephenson,20191111-103406
+M,Library/src/game/equipment/container/board/Board.java,Eric Piette,20191111-103721
+A,Library/src/game/functions/ints/Step.java,Eric Piette,20191111-145703
+M,Library/src/util/Context.java,Eric Piette,20191111-145703
+M,Player/src/mainView/MainView.java,Matthew Stephenson,20191111-163924
+M,Player/src/mainView/button/ButtonPlayPause.java,Matthew Stephenson,20191111-163924
+M,Player/src/mainView/dialog/SandboxDialog.java,Matthew Stephenson,20191111-163924
+M,Player/src/mainView/panel/StatePanel.java,Matthew Stephenson,20191111-163924
+M,Player/src/player/PlayerApp.java,Matthew Stephenson,20191111-163924

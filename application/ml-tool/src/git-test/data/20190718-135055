@@ -1,0 +1,126 @@
+M,Library/src/util/ListUtils.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/Match.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/eval/EvalAgents.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/eval/EvalPlayoutImplementations.java,DennisSoemers,20190716-142413
+M,Player/src/player/experiments/training/ExpertIteration.java,DennisSoemers,20190716-142413
+A,Library/src/game/functions/region/Region.java,eric.piette,20190716-163940
+M,Library/src/game/rules/play/moves/decision/Pass.java,eric.piette,20190716-163940
+M,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-170124
+M,Library/src/game/Game.java,eric.piette,20190716-170124
+M,Library/src/util/action/Remove.java,eric.piette,20190716-170124
+D,Common/res/lud/dice/Backgammon (In Progress).lud,eric.piette,20190716-173536
+A,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190716-173536
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/eval/EvalAgents.java,Dennis Soemers,20190717-102345
+M,Player/src/player/experiments/utils/ResultsSummary.java,Dennis Soemers,20190717-102345
+M,Library/src/util/Status.java,Dennis Soemers,20190717-103016
+M,Library/src/util/state/State.java,Dennis Soemers,20190717-103301
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190717-104532
+M,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190717-110056
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20190717-112552
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20190717-112552
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/MCTS.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/backpropagation/Backpropagation.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/nodes/BaseNode.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/ByPiecePlayout.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/PlayoutStrategy.java,Dennis Soemers,20190717-112552
+M,AI/src/search/mcts/playout/RandomPlayout.java,Dennis Soemers,20190717-112552
+A,AI/src/utils/AIUtils.java,Dennis Soemers,20190717-112552
+M,Library/src/game/API.java,Dennis Soemers,20190717-112552
+M,Library/src/game/Game.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/AddToEmpty.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/ByPiecePlayout.java,Dennis Soemers,20190717-112552
+M,Library/src/game/playout/Playout.java,Dennis Soemers,20190717-112552
+M,Player/src/mainView/MainView.java,Dennis Soemers,20190717-113727
+D,Common/res/lud/dice/Backgammon (No double).lud,eric.piette,20190717-114123
+A,Common/res/lud/dice/Backgammon.lud,eric.piette,20190717-114123
+A,Library/src/game/functions/booleans/Double.java,eric.piette,20190717-114123
+A,Library/src/game/functions/ints/Double.java,eric.piette,20190717-114123
+A,Library/src/game/rules/play/moves/SetDouble.java,eric.piette,20190717-114123
+M,Library/src/util/Context.java,eric.piette,20190717-114123
+A,Library/src/util/action/ActionSetDouble.java,eric.piette,20190717-114123
+D,Common/res/lud/Connect-4.lud,eric.piette,20190717-115844
+A,Common/res/lud/stacking/Connect-4.lud,eric.piette,20190717-115844
+M,Library/src/game/equipment/container/board/AlquerqueBoard.java,eric.piette,20190717-121057
+A,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-121852
+M,Player/src/player/experiments/EvalAIsThread.java,Dennis Soemers,20190717-123513
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-123513
+M,Player/src/player/experiments/utils/ResultsSummary.java,Dennis Soemers,20190717-123513
+M,Player/src/player/GameLoader.java,Dennis Soemers,20190717-125511
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-125511
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-131845
+A,Library/src/game/rules/play/moves/CaptureByApproach.java,eric.piette,20190717-131845
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-133006
+M,Library/src/game/equipment/container/tiling/directions/DirectionChoice.java,eric.piette,20190717-133006
+A,Library/src/game/rules/play/moves/CaptureByWithdraw.java,eric.piette,20190717-133006
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-135903
+M,Library/src/game/functions/ints/DirectionSite.java,eric.piette,20190717-135903
+M,Library/src/game/rules/play/moves/CaptureByWithdraw.java,eric.piette,20190717-135903
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-140237
+M,Common/src/main/Global.java,mrrao,20190717-130311
+M,Library/src/util/ChunkStack.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionAdd.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionAddN.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMove.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMoveRemove.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionMoveState.java,mrrao,20190717-130311
+M,Library/src/util/action/ActionPromote.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndex.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingIndexState.java,mrrao,20190717-130311
+M,Library/src/util/state/containerStackingState/ContainerStateStackingPlayer.java,mrrao,20190717-130311
+A,Library/src/util/zhash/HashedChunkStack.java,mrrao,20190717-130311
+M,Library/src/util/zhash/ZobristHashUtilities.java,mrrao,20190717-130311
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-141041
+M,Library/src/game/rules/play/moves/Priority.java,eric.piette,20190717-141041
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-141214
+M,Common/res/lud/Hex.lud,Dennis Soemers,20190717-141327
+M,Player/src/player/experiments/Match.java,Dennis Soemers,20190717-141327
+M,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-142337
+M,Library/src/game/Game.java,eric.piette,20190717-151700
+A,Library/src/game/functions/booleans/Visited.java,eric.piette,20190717-151700
+M,Library/src/util/Context.java,eric.piette,20190717-151700
+M,Library/src/util/state/StateType.java,eric.piette,20190717-151700
+D,Common/res/lud/Fanorona (in progress).lud,eric.piette,20190717-152326
+A,Common/res/lud/Fanorona.lud,eric.piette,20190717-152326
+M,Common/res/lud/Fanorona.lud,eric.piette,20190717-154244
+D,Library/src/oldLudeme/game/rules/moves/AddCardToDeck.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/CaptureApproach.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/CaptureWithdrawal.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/MultiCaptureApproachWithdrawal.java,eric.piette,20190717-154413
+D,Library/src/oldLudeme/game/rules/moves/Sequence.java,eric.piette,20190717-154413
+D,Common/res/lud/cards/Test Card.lud,eric.piette,20190717-161838
+A,Common/res/lud/cards/War (in progress).lud,eric.piette,20190717-161838
+M,Library/src/game/equipment/container/board/CardBoard.java,eric.piette,20190717-161838
+M,Common/res/lud/cards/War (in progress).lud,eric.piette,20190717-172342
+M,Library/src/game/Game.java,eric.piette,20190717-172342
+A,Library/src/game/rules/start/Deal.java,eric.piette,20190717-172342
+M,Library/src/util/action/ActionAdd.java,eric.piette,20190717-172342
+M,Library/src/util/state/State.java,eric.piette,20190717-172342
+M,Library/src/game/rules/end/End.java,Dennis Soemers,20190717-172955
+M,Library/src/game/rules/end/If.java,Dennis Soemers,20190717-172955
+A,Player/src/player/experiments/speed/PlayoutsPerSec.java,Dennis Soemers,20190717-172955
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,DennisSoemers,20190718-101128
+M,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20190718-102637
+M,Library/src/game/Game.java,DennisSoemers,20190718-105327
+M,AI/src/search/mcts/MCTS.java,DennisSoemers,20190718-114406
+M,Library/src/game/Game.java,DennisSoemers,20190718-115852
+M,Player/src/mainView/button/ButtonBack.java,DennisSoemers,20190718-115852
+A,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-124110
+A,Library/src/game/equipment/component/piece/large/LPiece.java,eric.piette,20190718-124512
+A,Common/res/lud/largePiece/L Game (in progress).lud,eric.piette,20190718-131128
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/Component.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/hands/Hands.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/large/LPiece.java,eric.piette,20190718-131128
+M,Library/src/game/equipment/component/piece/large/LargePiece.java,eric.piette,20190718-131128
+M,Common/src/main/Global.java,mrrao,20190718-122609
+M,Library/src/util/ChunkSet.java,mrrao,20190718-122609
+M,Library/src/util/action/ActionMove.java,mrrao,20190718-122609
+M,Library/src/util/state/containerStackingState/BaseContainerStateStacking.java,mrrao,20190718-122609
+M,Library/src/util/zhash/HashedChunkStack.java,mrrao,20190718-122609
+M,Library/src/util/zhash/ZobristHashGenerator.java,mrrao,20190718-122609
+M,Library/src/game/playout/AddToEmpty.java,DennisSoemers,20190718-135055
+M,Player/src/player/experiments/speed/PlayoutsPerSec.java,DennisSoemers,20190718-135055

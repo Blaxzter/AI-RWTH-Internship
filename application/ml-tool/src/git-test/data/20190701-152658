@@ -1,0 +1,688 @@
+A,Common/img/svg/cards/card-jack.svg,Cameron Browne,20190630-061150
+A,Common/img/svg/cards/card-joker-a.svg,Cameron Browne,20190630-061150
+A,Common/img/svg/cards/card-joker-b.svg,Cameron Browne,20190630-061150
+A,Common/img/svg/cards/card-king.svg,Cameron Browne,20190630-061150
+A,Common/img/svg/cards/card-queen.svg,Cameron Browne,20190630-061150
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190630-061150
+D,Common/img/svg/cards/cards-stylised-jack.svg,Cameron Browne,20190630-061210
+D,Common/img/svg/cards/cards-stylised-joker.svg,Cameron Browne,20190630-061210
+D,Common/img/svg/cards/cards-stylised-king.svg,Cameron Browne,20190630-061210
+D,Common/img/svg/cards/cards-stylised-queen.svg,Cameron Browne,20190630-061210
+A,Common/img/svg/cards/card-suit-club.svg,Cameron Browne,20190630-134317
+A,Common/img/svg/cards/card-suit-diamond.svg,Cameron Browne,20190630-134317
+A,Common/img/svg/cards/card-suit-heart.svg,Cameron Browne,20190630-134317
+A,Common/img/svg/cards/card-suit-spade.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardAceClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardAceDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardAceHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardAceSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardEightClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardEightDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardEightHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardEightSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFiveClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFiveDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFiveHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFiveSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFourClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFourDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFourHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardFourSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJackClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJackDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJackHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJackSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJokerBlack.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJokerStripes.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardJokerWhite.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKingClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKingDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKingHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKingSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKnightClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKnightDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKnightHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardKnightSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardNineClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardNineDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardNineHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardNineSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardQueenClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardQueenDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardQueenHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardQueenSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSevenClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSevenDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSevenHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSevenSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSixClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSixDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSixHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardSixSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTenClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTenDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTenHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTenSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardThreeClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardThreeDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardThreeHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardThreeSpades.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTwoClubs.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTwoDiamonds.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTwoHearts.svg,Cameron Browne,20190630-134317
+D,Common/img/svg/cards/cardTwoSpades.svg,Cameron Browne,20190630-134317
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190630-134317
+M,Common/src/main/Global.java,Cameron Browne,20190630-134317
+M,Grammar/src/compiler/ArgArray.java,Cameron Browne,20190630-134317
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/Letter.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/Number.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/card/Card.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Arrow.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Ball.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Cross.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Disc.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Hex.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Pill.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Square.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/Triangle.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/container/board/GraphBoard.java,Cameron Browne,20190630-134317
+M,Library/src/game/equipment/container/board/SolitaireBoard.java,Cameron Browne,20190630-134317
+M,Library/src/game/types/CardType.java,Cameron Browne,20190630-134317
+M,Player/src/player/GameLoader.java,Cameron Browne,20190630-134317
+M,Library/src/game/functions/region/BorderRegion.java,Lianne.Hufkens,20190630-140948
+M,Library/src/game/equipment/component/card/Card.java,Cameron Browne,20190630-142006
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,Cameron Browne,20190630-142750
+M,Common/lud/Breakthrough.lud,eric.piette,20190630-153143
+D,Common/lud/puzzle/deductive puzzle/Bricks2.lud,eric.piette,20190630-153143
+M,Common/.classpath,eric.piette,20190630-161734
+D,Common/img/KnightQueen.png,eric.piette,20190630-161734
+D,Common/img/load.png,eric.piette,20190630-161734
+D,Common/img/logo.png,eric.piette,20190630-161734
+D,Common/img/ludii-logo-100x100.png,eric.piette,20190630-161734
+D,Common/img/ludii-logo-64x64.png,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/1.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/2.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/3bird_compress1.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/3bird_compress2.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/3bird_compress3.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/3bird_compress4.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/3bird_compress5.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/4.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/5.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/6.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/ankh.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/camel2hump_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/circle-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/cow_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/flower8.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/flower8_alt.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/horseHead_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/knot-2.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/leop.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/lionHead_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/shapes-polyline-01-t.svg,eric.piette,20190630-161734
+D,Common/img/svg/UNUSED/tiger_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/camel1hump_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/catHead_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/cowFace_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/dogHead_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/elephant_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/fox.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/goat_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/horse_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/leopard_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/rabbit_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/sheep_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/tigerHead_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/animals/wolf_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-jack.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-joker-a.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-joker-b.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-king.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-queen.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-suit-club.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-suit-diamond.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-suit-heart.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/card-suit-spade.svg,eric.piette,20190630-161734
+D,Common/img/svg/cards/cardBack.svg,eric.piette,20190630-161734
+D,Common/img/svg/checkers/dame_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/checkers/manStar_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/checkers/man_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/abstract/pawn_abstract.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/abstract/rook_abstract.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/bishop_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/king_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/knight_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/pawn_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/queen_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/ms/rook_ms.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/bishop.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/king.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/knight.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/pawn.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/queen.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/plain/rook.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/bishop_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/king_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/knight_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/pawn_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/queen_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/pragmata/rook_pragmata.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/bishop_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/king_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/knight_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/pawn_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/queen_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/chess/symbola/rook_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/misc/stickDiagonal.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/misc/stickDiagonal_dot.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/misc/triangle.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/misc/triangle_dot.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice0_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice1_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice2_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice3_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice4_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice5_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/mono/dice6_mono.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice0_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice1_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice2_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice3_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice4_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice5_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/dice/symbola/dice6_symbola.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_cool.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_happy.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_neutral.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_pleased.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_sad.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_scared.svg,eric.piette,20190630-161734
+D,Common/img/svg/faces/symbola_worried.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-0-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-0-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-1-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-1-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-2-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-2-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-3-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-3-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-4-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-4-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-5-0.svg,eric.piette,20190630-161734
+D,Common/img/svg/hands/hand-5-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/2human.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/3ankh.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/3ankh_side.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/3bird.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/senet1.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/senet2.svg,eric.piette,20190630-161734
+D,Common/img/svg/hieroglyphs/water.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/circle-2.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/cross-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/dot-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/flower8_alt2.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/knot-1.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/none.svg,eric.piette,20190630-161734
+D,Common/img/svg/misc/ur-piece.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-bomb.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-captain.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-colonel.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-flag.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-general.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-lieutenant.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-major.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-marshal.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-miner.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-scout.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-sergeant.svg,eric.piette,20190630-161734
+D,Common/img/svg/stratego/stratego-spy.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/Hnefatafl_KING.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/Hnefatafl_MEN.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test1.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test2.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test3.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test4.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test5.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test6.svg,eric.piette,20190630-161734
+D,Common/img/svg/test/test7.svg,eric.piette,20190630-161734
+D,Common/lud/Adugo.lud,eric.piette,20190630-161734
+D,Common/lud/All Queens Chess.lud,eric.piette,20190630-161734
+D,Common/lud/Alquerque.lud,eric.piette,20190630-161734
+D,Common/lud/Amazons.lud,eric.piette,20190630-161734
+D,Common/lud/ArdRi.lud,eric.piette,20190630-161734
+D,Common/lud/Arimaa.lud,eric.piette,20190630-161734
+D,Common/lud/Backgammon Test.lud,eric.piette,20190630-161734
+D,Common/lud/Baqh Chal.lud,eric.piette,20190630-161734
+D,Common/lud/Brazilian Draughts.lud,eric.piette,20190630-161734
+D,Common/lud/Breakthrough.lud,eric.piette,20190630-161734
+D,Common/lud/Canadian Draughts.lud,eric.piette,20190630-161734
+D,Common/lud/Chess.lud,eric.piette,20190630-161734
+D,Common/lud/Chinese Checkers.lud,eric.piette,20190630-161734
+D,Common/lud/Connect-4.lud,eric.piette,20190630-161734
+D,Common/lud/Connect-6.lud,eric.piette,20190630-161734
+D,Common/lud/Dama (Turkish Draughts).lud,eric.piette,20190630-161734
+D,Common/lud/Double Chess (skirmish).lud,eric.piette,20190630-161734
+D,Common/lud/English Draughts.lud,eric.piette,20190630-161734
+D,Common/lud/Five Men's Morris.lud,eric.piette,20190630-161734
+D,Common/lud/Gomoku.lud,eric.piette,20190630-161734
+D,Common/lud/Halma.lud,eric.piette,20190630-161734
+D,Common/lud/Hex.lud,eric.piette,20190630-161734
+D,Common/lud/Hnefatafl Fetlar.lud,eric.piette,20190630-161734
+D,Common/lud/International Draughts.lud,eric.piette,20190630-161734
+D,Common/lud/KnightThrough.lud,eric.piette,20190630-161734
+D,Common/lud/Konane.lud,eric.piette,20190630-161734
+D,Common/lud/Leopards and Cows.lud,eric.piette,20190630-161734
+D,Common/lud/Mogul putt'han.lud,eric.piette,20190630-161734
+D,Common/lud/Mu-Torere.lud,eric.piette,20190630-161734
+D,Common/lud/Nine Holes.lud,eric.piette,20190630-161734
+D,Common/lud/Nine Men's Morris.lud,eric.piette,20190630-161734
+D,Common/lud/Peralikatuma.lud,eric.piette,20190630-161734
+D,Common/lud/Renju.lud,eric.piette,20190630-161734
+D,Common/lud/Reversi.lud,eric.piette,20190630-161734
+D,Common/lud/Round Merels.lud,eric.piette,20190630-161734
+D,Common/lud/Six Men's Morris.lud,eric.piette,20190630-161734
+D,Common/lud/Sixteen Soldiers.lud,eric.piette,20190630-161734
+D,Common/lud/Skirmish.lud,eric.piette,20190630-161734
+D,Common/lud/Surakarta.lud,eric.piette,20190630-161734
+D,Common/lud/Three Men's Morris.lud,eric.piette,20190630-161734
+D,Common/lud/Tic-Tac-Mo.lud,eric.piette,20190630-161734
+D,Common/lud/Tic-Tac-Toe (bad board).lud,eric.piette,20190630-161734
+D,Common/lud/Tic-Tac-Toe (infinite define).lud,eric.piette,20190630-161734
+D,Common/lud/Tic-Tac-Toe.lud,eric.piette,20190630-161734
+D,Common/lud/Twelve Men's Morris.lud,eric.piette,20190630-161734
+D,Common/lud/Wolf And Sheep.lud,eric.piette,20190630-161734
+D,Common/lud/Y (Hex).lud,eric.piette,20190630-161734
+D,Common/lud/Yavalath (2 players).lud,eric.piette,20190630-161734
+D,Common/lud/Yavalath (3 players).lud,eric.piette,20190630-161734
+D,Common/lud/Zamma.lud,eric.piette,20190630-161734
+D,Common/lud/bad file 1.lud,eric.piette,20190630-161734
+D,Common/lud/boardless/Andantino.lud,eric.piette,20190630-161734
+D,Common/lud/cards/Test Card Solitaire.lud,eric.piette,20190630-161734
+D,Common/lud/cards/Test Card.lud,eric.piette,20190630-161734
+D,Common/lud/dice/Royal Game of Ur.lud,eric.piette,20190630-161734
+D,Common/lud/dice/Senet.lud,eric.piette,20190630-161734
+D,Common/lud/graph/Dots and Boxes.lud,eric.piette,20190630-161734
+D,Common/lud/hidden/Sneakthrough.lud,eric.piette,20190630-161734
+D,Common/lud/mancala/Oware.lud,eric.piette,20190630-161734
+D,Common/lud/plex/Chess Knight.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Binero.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Bricks.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Fill A Pix.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Futoshiki.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Hashi.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Inshi no Heya.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Juosan.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Kakuro.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Killer Sudoku.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Latin Square.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Magic Hexagon.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Magic Square.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Mainarizumu (incomplete).lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/N Queens.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Nawabari.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Nonogram (incomplete).lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Shikaku (in progress).lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Slitherlink.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Squaro.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Sudoku.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/deductive puzzle/Sukrokuro (incomplete).lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/others/Insanity.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/others/Knight's Tour.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/others/N Puzzles.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/others/Peg Solitaire.lud,eric.piette,20190630-161734
+D,Common/lud/puzzle/others/Towers of Hanoi.lud,eric.piette,20190630-161734
+D,Common/lud/stacking/Lasca.lud,eric.piette,20190630-161734
+A,Common/res/img/KnightQueen.png,eric.piette,20190630-161734
+A,Common/res/img/load.png,eric.piette,20190630-161734
+A,Common/res/img/logo.png,eric.piette,20190630-161734
+A,Common/res/img/ludii-logo-100x100.png,eric.piette,20190630-161734
+A,Common/res/img/ludii-logo-64x64.png,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/3bird_compress1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/3bird_compress2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/3bird_compress3.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/3bird_compress4.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/3bird_compress5.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/4.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/5.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/6.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/ankh.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/camel2hump_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/circle-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/cow_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/flower8.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/flower8_alt.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/horseHead_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/knot-2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/leop.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/lionHead_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/shapes-polyline-01-t.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/UNUSED/tiger_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/camel1hump_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/catHead_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/cowFace_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/dogHead_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/elephant_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/fox.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/goat_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/horse_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/leopard_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/rabbit_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/sheep_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/tigerHead_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/animals/wolf_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-jack.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-joker-a.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-joker-b.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-king.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-queen.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-suit-club.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-suit-diamond.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-suit-heart.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/card-suit-spade.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/cards/cardBack.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/checkers/dame_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/checkers/manStar_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/checkers/man_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/abstract/pawn_abstract.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/abstract/rook_abstract.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/bishop_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/king_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/knight_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/pawn_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/queen_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/ms/rook_ms.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/bishop.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/king.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/knight.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/pawn.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/queen.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/plain/rook.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/bishop_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/king_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/knight_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/pawn_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/queen_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/pragmata/rook_pragmata.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/bishop_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/king_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/knight_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/pawn_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/queen_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/chess/symbola/rook_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/misc/stickDiagonal.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/misc/stickDiagonal_dot.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/misc/triangle.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/misc/triangle_dot.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice0_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice1_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice2_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice3_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice4_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice5_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/mono/dice6_mono.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice0_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice1_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice2_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice3_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice4_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice5_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/dice/symbola/dice6_symbola.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_cool.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_happy.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_neutral.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_pleased.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_sad.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_scared.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/faces/symbola_worried.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-0-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-0-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-1-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-1-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-2-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-2-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-3-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-3-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-4-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-4-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-5-0.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hands/hand-5-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/2human.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/3ankh.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/3ankh_side.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/3bird.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/senet1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/senet2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/hieroglyphs/water.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/circle-2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/cross-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/dot-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/flower8_alt2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/knot-1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/none.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/misc/ur-piece.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-bomb.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-captain.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-colonel.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-flag.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-general.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-lieutenant.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-major.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-marshal.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-miner.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-scout.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-sergeant.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/stratego/stratego-spy.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/Hnefatafl_KING.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/Hnefatafl_MEN.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test1.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test2.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test3.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test4.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test5.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test6.svg,eric.piette,20190630-161734
+A,Common/res/img/svg/test/test7.svg,eric.piette,20190630-161734
+A,Common/res/lud/Adugo.lud,eric.piette,20190630-161734
+A,Common/res/lud/All Queens Chess.lud,eric.piette,20190630-161734
+A,Common/res/lud/Alquerque.lud,eric.piette,20190630-161734
+A,Common/res/lud/Amazons.lud,eric.piette,20190630-161734
+A,Common/res/lud/ArdRi.lud,eric.piette,20190630-161734
+A,Common/res/lud/Arimaa.lud,eric.piette,20190630-161734
+A,Common/res/lud/Backgammon Test.lud,eric.piette,20190630-161734
+A,Common/res/lud/Baqh Chal.lud,eric.piette,20190630-161734
+A,Common/res/lud/Brazilian Draughts.lud,eric.piette,20190630-161734
+M,Common/res/lud/Breakthrough.lud,eric.piette,20190630-161734
+A,Common/res/lud/Canadian Draughts.lud,eric.piette,20190630-161734
+A,Common/res/lud/Chess.lud,eric.piette,20190630-161734
+A,Common/res/lud/Chinese Checkers.lud,eric.piette,20190630-161734
+A,Common/res/lud/Connect-4.lud,eric.piette,20190630-161734
+A,Common/res/lud/Connect-6.lud,eric.piette,20190630-161734
+A,Common/res/lud/Dama (Turkish Draughts).lud,eric.piette,20190630-161734
+A,Common/res/lud/Double Chess (skirmish).lud,eric.piette,20190630-161734
+A,Common/res/lud/English Draughts.lud,eric.piette,20190630-161734
+A,Common/res/lud/Five Men's Morris.lud,eric.piette,20190630-161734
+A,Common/res/lud/Gomoku.lud,eric.piette,20190630-161734
+A,Common/res/lud/Halma.lud,eric.piette,20190630-161734
+A,Common/res/lud/Hex.lud,eric.piette,20190630-161734
+A,Common/res/lud/Hnefatafl Fetlar.lud,eric.piette,20190630-161734
+A,Common/res/lud/International Draughts.lud,eric.piette,20190630-161734
+A,Common/res/lud/KnightThrough.lud,eric.piette,20190630-161734
+A,Common/res/lud/Konane.lud,eric.piette,20190630-161734
+A,Common/res/lud/Leopards and Cows.lud,eric.piette,20190630-161734
+A,Common/res/lud/Mogul putt'han.lud,eric.piette,20190630-161734
+A,Common/res/lud/Mu-Torere.lud,eric.piette,20190630-161734
+A,Common/res/lud/Nine Holes.lud,eric.piette,20190630-161734
+A,Common/res/lud/Nine Men's Morris.lud,eric.piette,20190630-161734
+A,Common/res/lud/Peralikatuma.lud,eric.piette,20190630-161734
+A,Common/res/lud/Renju.lud,eric.piette,20190630-161734
+A,Common/res/lud/Reversi.lud,eric.piette,20190630-161734
+A,Common/res/lud/Round Merels.lud,eric.piette,20190630-161734
+A,Common/res/lud/Six Men's Morris.lud,eric.piette,20190630-161734
+A,Common/res/lud/Sixteen Soldiers.lud,eric.piette,20190630-161734
+A,Common/res/lud/Skirmish.lud,eric.piette,20190630-161734
+A,Common/res/lud/Surakarta.lud,eric.piette,20190630-161734
+A,Common/res/lud/Three Men's Morris.lud,eric.piette,20190630-161734
+A,Common/res/lud/Tic-Tac-Mo.lud,eric.piette,20190630-161734
+A,Common/res/lud/Tic-Tac-Toe (bad board).lud,eric.piette,20190630-161734
+A,Common/res/lud/Tic-Tac-Toe (infinite define).lud,eric.piette,20190630-161734
+A,Common/res/lud/Tic-Tac-Toe.lud,eric.piette,20190630-161734
+A,Common/res/lud/Twelve Men's Morris.lud,eric.piette,20190630-161734
+A,Common/res/lud/Wolf And Sheep.lud,eric.piette,20190630-161734
+A,Common/res/lud/Y (Hex).lud,eric.piette,20190630-161734
+A,Common/res/lud/Yavalath (2 players).lud,eric.piette,20190630-161734
+A,Common/res/lud/Yavalath (3 players).lud,eric.piette,20190630-161734
+A,Common/res/lud/Zamma.lud,eric.piette,20190630-161734
+A,Common/res/lud/bad file 1.lud,eric.piette,20190630-161734
+A,Common/res/lud/boardless/Andantino.lud,eric.piette,20190630-161734
+A,Common/res/lud/cards/Test Card Solitaire.lud,eric.piette,20190630-161734
+A,Common/res/lud/cards/Test Card.lud,eric.piette,20190630-161734
+A,Common/res/lud/dice/Royal Game of Ur.lud,eric.piette,20190630-161734
+A,Common/res/lud/dice/Senet.lud,eric.piette,20190630-161734
+A,Common/res/lud/graph/Dots and Boxes.lud,eric.piette,20190630-161734
+A,Common/res/lud/hidden/Sneakthrough.lud,eric.piette,20190630-161734
+A,Common/res/lud/mancala/Oware.lud,eric.piette,20190630-161734
+A,Common/res/lud/plex/Chess Knight.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Binero.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Bricks.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Fill A Pix.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Futoshiki.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Hashi.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Inshi no Heya.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Juosan.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Kakuro.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Killer Sudoku.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Latin Square.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Magic Hexagon.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Magic Square.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Mainarizumu (incomplete).lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/N Queens.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Nawabari.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Nonogram (incomplete).lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Shikaku (in progress).lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Slitherlink.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Squaro.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Sudoku.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/deductive puzzle/Sukrokuro (incomplete).lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/others/Insanity.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/others/Knight's Tour.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/others/N Puzzles.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/others/Peg Solitaire.lud,eric.piette,20190630-161734
+A,Common/res/lud/puzzle/others/Towers of Hanoi.lud,eric.piette,20190630-161734
+A,Common/res/lud/stacking/Lasca.lud,eric.piette,20190630-161734
+M,Player/src/player/PlayerApp.java,eric.piette,20190630-161734
+M,Common/src/database/SelectDB.java,eric.piette,20190630-163123
+M,Common/src/database/object/Cultural.java,eric.piette,20190630-163123
+M,Common/src/database/object/Information.java,eric.piette,20190630-163123
+M,Common/src/database/object/Metadata.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/TFloatCollection.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/impl/hash/THash.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/impl/hash/TIntHash.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/impl/hash/TPrimitiveHash.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/list/TFloatList.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/list/array/TDoubleArrayList.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/list/array/TFloatArrayList.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/list/array/TIntArrayList.java,eric.piette,20190630-163123
+M,Common/src/gnu/trove/set/hash/TIntHashSet.java,eric.piette,20190630-163123
+M,Common/src/main/FastArrayList.java,eric.piette,20190630-163123
+M,Library/src/game/equipment/component/card/Card.java,eric.piette,20190630-163123
+M,Library/src/game/functions/region/BorderRegion.java,eric.piette,20190630-163123
+M,Player/src/Network/LudiiSocket.java,eric.piette,20190630-163123
+M,Player/src/mainView/dialog/NetworkDialog.java,eric.piette,20190630-163123
+M,Player/src/mainView/panel/PlayerPanel.java,eric.piette,20190630-163123
+M,Player/src/player/Referee.java,eric.piette,20190630-163123
+M,Player/test/games/ErrorHandlingTests.java,eric.piette,20190630-163123
+M,Player/src/mainView/MainView.java,Cameron Browne,20190630-171610
+M,Player/src/mainView/panel/ErrorTabPage.java,Dennis Soemers,20190630-185150
+M,Player/src/mainView/panel/TabPage.java,Dennis Soemers,20190630-185150
+M,Library/src/game/Game.java,Cameron Browne,20190630-221147
+M,Library/src/game/equipment/Equipment.java,Cameron Browne,20190630-221147
+M,Library/src/game/equipment/component/card/Deck.java,Cameron Browne,20190630-221147
+M,Library/src/game/Game.java,Cameron Browne,20190630-221617
+M,Common/src/main/Global.java,Cameron Browne,20190630-234258
+M,Library/src/game/Game.java,Cameron Browne,20190630-234258
+M,Library/src/game/equipment/Equipment.java,Cameron Browne,20190630-234258
+A,Library/src/game/equipment/component/card/BaseCardImages.java,Cameron Browne,20190630-234258
+M,Library/src/game/equipment/component/card/Card.java,Cameron Browne,20190630-234258
+M,Library/src/game/types/CardType.java,Cameron Browne,20190630-234258
+M,Library/src/game/equipment/component/card/BaseCardImages.java,Cameron Browne,20190630-235611
+M,Library/src/game/equipment/component/card/Card.java,Cameron Browne,20190630-235611
+M,Library/src/game/Game.java,Cameron Browne,20190701-095308
+M,Player/src/mainView/MainView.java,matthew,20190701-095821
+M,Player/src/mainView/button/ButtonBack.java,matthew,20190701-095821
+M,Player/src/mainView/button/ButtonForward.java,matthew,20190701-095821
+M,Player/src/player/Referee.java,matthew,20190701-095821
+M,Player/src/mainView/button/ButtonBack.java,matthew,20190701-095909
+M,Player/src/mainView/button/ButtonForward.java,matthew,20190701-095909
+D,Common/res/img/svg/UNUSED/1.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/2.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/3bird_compress1.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/3bird_compress2.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/3bird_compress3.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/3bird_compress4.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/3bird_compress5.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/4.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/5.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/6.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/ankh.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/camel2hump_symbola.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/circle-1.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/cow_symbola.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/flower8.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/flower8_alt.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/horseHead_symbola.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/knot-2.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/leop.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/lionHead_symbola.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/shapes-polyline-01-t.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/UNUSED/tiger_symbola.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/Hnefatafl_KING.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/Hnefatafl_MEN.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test1.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test2.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test3.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test4.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test5.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test6.svg,Cameron Browne,20190701-114753
+D,Common/res/img/svg/test/test7.svg,Cameron Browne,20190701-114753
+M,Library/src/game/equipment/component/Component.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/Letter.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/Number.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/card/Card.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Arrow.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Ball.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Cross.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Disc.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Hex.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Pill.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Square.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/Triangle.java,matthew,20190701-115919
+M,Library/src/game/equipment/component/piece/state/FlipDisc.java,matthew,20190701-115919
+M,Player/src/mainView/dialog/PromotionDialog.java,matthew,20190701-115919
+M,Player/src/mainView/dialog/PuzzleDialog.java,matthew,20190701-115919
+M,Player/src/mainView/MainView.java,matthew,20190701-122930
+M,Player/src/mainView/button/ButtonBack.java,matthew,20190701-122930
+M,Player/src/mainView/button/ButtonEnd.java,matthew,20190701-122930
+M,Player/src/mainView/button/ButtonForward.java,matthew,20190701-122930
+M,Player/src/player/PlayerApp.java,matthew,20190701-122930
+M,Player/src/player/Referee.java,matthew,20190701-122930
+M,Player/src/mainView/MainView.java,matthew,20190701-124131
+M,Player/src/player/PlayerApp.java,matthew,20190701-124131
+M,Library/src/game/equipment/container/board/GraphBoard.java,matthew,20190701-135231
+M,Library/src/game/equipment/container/board/MancalaBoard.java,matthew,20190701-135231
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190701-135231
+M,Library/src/game/equipment/container/puzzleBoard/DotBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/LineSegmentBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/NonogramBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,matthew,20190701-141721
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,matthew,20190701-141721
+M,Player/src/mainView/MainView.java,matthew,20190701-151652
+M,Player/src/mainView/panel/PlayerPanel.java,matthew,20190701-151652
+M,Player/src/mainView/panel/StatePanel.java,matthew,20190701-151652
+M,Player/src/mainView/panel/TabPage.java,Dennis Soemers,20190701-152658

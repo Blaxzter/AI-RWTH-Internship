@@ -1,0 +1,1046 @@
+M,Core/src/game/Game.java,Eric.Piette,20201119-163426
+M,Core/src/game/rules/phase/Phase.java,Eric.Piette,20201119-163426
+M,Core/src/game/rules/play/moves/nonDecision/effect/Roll.java,Eric.Piette,20201119-163426
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Eric.Piette,20201119-163426
+M,Core/src/game/util/directions/CompassDirection.java,Eric.Piette,20201119-163426
+M,Core/src/game/util/directions/RotationalDirection.java,Eric.Piette,20201119-163426
+M,Core/src/game/util/directions/SpatialDirection.java,Eric.Piette,20201119-163426
+M,Core/src/util/BaseLudeme.java,Eric.Piette,20201119-163426
+M,Core/src/util/Ludeme.java,Eric.Piette,20201119-163426
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20201119-163616
+M,Core/src/game/Game.java,Eric.Piette,20201119-164448
+M,Core/src/game/rules/play/moves/nonDecision/effect/Roll.java,Eric.Piette,20201119-164448
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Eric.Piette,20201119-164448
+M,Manager/src/manager/ai/AIDetails.java,Matthew Stephenson,20201119-171915
+M,Manager/src/manager/ai/AIUtil.java,Matthew Stephenson,20201119-171915
+M,Manager/src/manager/referee/Referee.java,Matthew Stephenson,20201119-171915
+M,Manager/src/manager/utils/TrialUtil.java,Matthew Stephenson,20201119-171915
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew Stephenson,20201119-171915
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20201119-171915
+M,Manager/src/manager/ai/AIMenuName.java,Matthew Stephenson,20201119-173609
+M,Manager/src/manager/game/GameSetup.java,Matthew Stephenson,20201119-173609
+M,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20201119-173609
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201119-173609
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201119-173822
+D,Manager/src/manager/network/LocalFunctions.java,Matthew Stephenson,20201119-173822
+D,Manager/src/manager/network/RandomLocalAgent.java,Matthew Stephenson,20201119-173822
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew Stephenson,20201119-173822
+A,Manager/src/manager/network/local/LocalFunctions.java,Matthew Stephenson,20201119-173822
+A,Manager/src/manager/network/local/RandomLocalAgent.java,Matthew Stephenson,20201119-173822
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20201119-173822
+M,Manager/src/manager/referee/UserMoveHandler.java,Matthew Stephenson,20201119-174506
+M,Manager/src/manager/utils/AnimationUtil.java,Matthew Stephenson,20201119-174506
+M,Common/src/main/Constants.java,Matthew Stephenson,20201119-174834
+M,PlayerDesktop/src/app/display/dialogs/remote/CreateGameDialog.java,Matthew Stephenson,20201119-174834
+M,PlayerDesktop/src/app/display/util/DesktopGraphics.java,Matthew Stephenson,20201120-085807
+M,Manager/src/manager/network/local/RandomLocalAgent.java,Matthew Stephenson,20201120-091240
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20201120-091830
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20201120-092012
+M,Core/src/game/Game.java,Eric.Piette,20201120-093308
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Eric.Piette,20201120-093308
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201120-094429
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201120-094516
+A,Common/res/lud/test/eric/Test3.lud,Eric.Piette,20201120-094734
+M,Core/src/game/functions/booleans/BooleanFunction.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/booleans/all/simple/AllDiceEqual.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/booleans/all/simple/AllDiceUsed.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/booleans/all/sites/AllSites.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/ints/IntFunction.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/region/RegionFunction.java,Eric.Piette,20201120-094734
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Do.java,Eric.Piette,20201120-094734
+M,Core/src/game/functions/booleans/can/CanMove.java,Eric.Piette,20201120-094909
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20201120-095502
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Eric.Piette,20201120-095502
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Eric.Piette,20201120-095502
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Eric.Piette,20201120-095502
+D,Core/src/game/functions/booleans/deductionPuzzle/is/wip/AllConnected.java,Eric.Piette,20201120-095502
+D,Core/src/game/functions/booleans/deductionPuzzle/is/wip/IsProduct.java,Eric.Piette,20201120-095502
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/component/IsWithin.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/edge/IsCrossing.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/in/IsIn.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/indexPlayer/IsInvisible.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/indexPlayer/IsMasked.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/indexPlayer/IsVisible.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsEven.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsFlat.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsOdd.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/integer/IsVisited.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/line/IsLine.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/path/IsPath.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsActive.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsEnemy.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsFriend.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsMover.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsNext.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/player/IsPrev.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/regularGraph/IsRegularGraph.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/site/IsEmpty.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/site/IsOccupied.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/tree/IsCaterpillarTree.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/tree/IsSpanningTree.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/tree/IsTree.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/tree/IsTreeCentre.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/triggered/IsTriggered.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/wip/IsPlanarGraph.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/is/wip/IsPlanarGraph2.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/intArray/IntArrayFunction.java,Eric.Piette,20201120-104727
+M,Core/src/game/functions/booleans/math/And.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Equals.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Ge.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Gt.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/If.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Le.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Lt.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Not.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/NotEqual.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Or.java,Eric.Piette,20201120-105306
+M,Core/src/game/functions/booleans/math/Xor.java,Eric.Piette,20201120-105306
+A,ClusteringScripts/AIBenchmarks/BaseAlgScores.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Cluster Comparison/README.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Cluster Comparison/cluster1.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Cluster Comparison/cluster2.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Cluster Comparison/clusterIndex.py,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/ConceptOrigin/README.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/ConceptOrigin/conceptOrigin.py,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/ConceptOrigin/conceptOrigins.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/ConceptOrigin/concepts.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/ConceptOrigin/geoData.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Game Data.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Get Geo data/README.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Get Geo data/geoData.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/Get Geo data/getGeoData.php,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/OTHER/Routes/routes.xlsx,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/OTHER/Routes/routes.zip,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/OTHER/Timeline/Output.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/OTHER/Timeline/key,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/README.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/convertToDB/GameClusters.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/convertToDB/README.txt,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/convertToDB/cluster1.csv,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/convertToDB/convertToDB.py,Matthew Stephenson,20201120-105428
+A,ClusteringScripts/convertToDB/keepUpdated/Games.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/AIBenchmarks/BaseAlgScores.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Cluster Comparison/README.txt,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Cluster Comparison/cluster1.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Cluster Comparison/cluster2.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Cluster Comparison/clusterIndex.py,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/ConceptOrigin/README.txt,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/ConceptOrigin/conceptOrigin.py,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/ConceptOrigin/conceptOrigins.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/ConceptOrigin/concepts.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/ConceptOrigin/geoData.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Get Geo data/README.txt,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Get Geo data/geoData.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Get Geo data/getGeoData.php,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/README.txt,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Routes/routes.xlsx,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/Routes/routes.zip,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/convertToDB/GameClusters.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/convertToDB/README.txt,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/convertToDB/cluster1.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/convertToDB/convertToDB.py,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Clustering/convertToDB/keepUpdated/Games.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Timeline/Output.csv,Matthew Stephenson,20201120-105428
+D,MetadataScripts/Timeline/key,Matthew Stephenson,20201120-105428
+M,Core/src/game/functions/directions/Difference.java,Eric.Piette,20201120-110114
+M,Core/src/game/functions/directions/If.java,Eric.Piette,20201120-110114
+M,Core/src/game/functions/booleans/BooleanFunction.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/FloatFunction.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Abs.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Add.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Cos.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Div.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Exp.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Log.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Log10.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Max.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Min.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Mul.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Pow.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Sin.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Sqrt.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Sub.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/floats/math/Tan.java,Eric.Piette,20201120-110630
+M,Core/src/game/functions/intArray/math/Difference.java,Eric.Piette,20201120-111019
+M,Core/src/game/functions/intArray/math/Results.java,Eric.Piette,20201120-111019
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Eric.Piette,20201120-111019
+M,Core/src/game/functions/ints/board/Ahead.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Column.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Cost.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/HandSite.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Layer.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/MapEntry.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Phase.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Row.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/ints/board/Where.java,Eric.Piette,20201120-115249
+M,Core/src/game/functions/booleans/all/simple/AllDiceEqual.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/booleans/all/simple/AllDiceUsed.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/booleans/is/integer/IsAnyDie.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/booleans/is/integer/IsPipsMatch.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/booleans/is/integer/IsSidesMatch.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/ints/card/simple/CardTrumpSuit.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/ints/card/site/CardRank.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/ints/card/site/CardSuit.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/ints/card/site/CardTrumpRank.java,Eric.Piette,20201120-115845
+M,Core/src/game/functions/ints/card/site/CardTrumpValue.java,Eric.Piette,20201120-115845
+M,Core/src/game/rules/play/moves/nonDecision/effect/Roll.java,Eric.Piette,20201120-115845
+D,ClusteringScripts/AIBenchmarks/BaseAlgScores.csv,Matthew Stephenson,20201120-120828
+M,ClusteringScripts/ConceptOrigin/README.txt,Matthew Stephenson,20201120-120828
+M,ClusteringScripts/ConceptOrigin/conceptOrigin.py,Matthew Stephenson,20201120-120828
+M,ClusteringScripts/ConceptOrigin/geoData.csv,Matthew Stephenson,20201120-120828
+A,ClusteringScripts/DATA/AIBenchmarks/BaseAlgScores.csv,Matthew Stephenson,20201120-120828
+A,ClusteringScripts/DATA/Game Data.txt,Matthew Stephenson,20201120-120828
+A,ClusteringScripts/DATA/Routes/routes.xlsx,Matthew Stephenson,20201120-120828
+A,ClusteringScripts/DATA/Routes/routes.zip,Matthew Stephenson,20201120-120828
+D,ClusteringScripts/Game Data.txt,Matthew Stephenson,20201120-120828
+M,ClusteringScripts/Get Geo data/geoData.csv,Matthew Stephenson,20201120-120828
+M,ClusteringScripts/Get Geo data/getGeoData.php,Matthew Stephenson,20201120-120828
+D,ClusteringScripts/OTHER/Routes/routes.xlsx,Matthew Stephenson,20201120-120828
+D,ClusteringScripts/OTHER/Routes/routes.zip,Matthew Stephenson,20201120-120828
+D,ClusteringScripts/OTHER/Timeline/Output.csv,Matthew Stephenson,20201120-120828
+D,ClusteringScripts/OTHER/Timeline/key,Matthew Stephenson,20201120-120828
+M,Manager/src/manager/ai/AIDetails.java,Matthew Stephenson,20201120-123042
+M,Manager/src/manager/ai/AIUtil.java,Matthew Stephenson,20201120-123042
+D,Manager/src/manager/game/GameSetup.java,Matthew Stephenson,20201120-123042
+A,Manager/src/manager/mvc/MVCSetup.java,Matthew Stephenson,20201120-123042
+M,Manager/src/manager/referee/Referee.java,Matthew Stephenson,20201120-123042
+M,PlayerDesktop/src/app/BaseApp.java,Matthew Stephenson,20201120-123042
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew Stephenson,20201120-123042
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew Stephenson,20201120-123042
+M,Core/src/game/functions/ints/count/component/CountPieces.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/component/CountPips.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountOff.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/site/CountSites.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/count/stepsOnTrack/CountStepsOnTrack.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/dice/Face.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/iterator/Edge.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/iterator/Hint.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/iterator/Pips.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/iterator/Track.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/last/LastFrom.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/last/LastTo.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/match/MatchScore.java,Eric.Piette,20201120-124654
+M,Core/src/game/functions/ints/math/Abs.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Add.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Div.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/If.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Max.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Min.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Mod.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Mul.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Pow.java,Eric.Piette,20201120-124947
+M,Core/src/game/functions/ints/math/Sub.java,Eric.Piette,20201120-124947
+M,Core/src/game/Game.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/component/IsThreatened.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/component/IsWithin.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/connect/IsBlocked.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/connect/IsConnected.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/graph/IsLastFrom.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/graph/IsLastTo.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/loop/IsLoop.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/pattern/IsPattern.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/related/IsRelated.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/site/IsEmpty.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/booleans/is/site/IsOccupied.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/intArray/sizes/group/SizesGroup.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Ahead.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/CentrePoint.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Column.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Coord.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Cost.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Layer.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Phase.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Row.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/board/Where.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/component/CountPieces.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/groups/CountGroups.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/liberties/CountLiberties.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/simple/CountColumns.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/simple/CountRows.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountAdjacent.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountDiagonal.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountNeighbours.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountNumber.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountOff.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/site/CountOrthogonal.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/count/steps/CountSteps.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/iterator/Hint.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/array/SizeArray.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/connection/SizeGroup.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/connection/SizeTerritory.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/largePiece/SizeLargePiece.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/site/SizeStack.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/stacking/TopLevel.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/state/State.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/state/What.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/state/Who.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/wip/Tree.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/between/SitesBetween.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/coords/SitesCoords.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/crossing/SitesCrossing.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesEdge.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesEmpty.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesLayer.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesRow.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/index/SitesState.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/largePiece/SitesLargePiece.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/occupied/SitesOccupied.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/player/SitesInvisible.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/player/SitesMasked.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/player/SitesVisible.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/side/SitesSide.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesBoard.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesBottom.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesCentre.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesConcaveCorners.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesConvexCorners.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesCorners.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesInner.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesLeft.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesMajor.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesMinor.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesOuter.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesPerimeter.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesRight.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/simple/SitesTop.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/wip/SitesConnected.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/region/wip/SitesPath.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Attract.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Flip.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Promote.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Push.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetState.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetInvisible.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetMasked.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetVisible.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/player/ForEachPlayer.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/place/item/PlaceItem.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/place/random/PlaceRandom.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/place/stack/PlaceCustomStack.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/place/stack/PlaceMonotonousStack.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/set/simple/SetAllInvisible.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/set/sites/SetCost.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/set/sites/SetCount.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/set/sites/SetPhase.java,Eric.Piette,20201120-125250
+M,Core/src/game/rules/start/set/sites/SetSite.java,Eric.Piette,20201120-125250
+M,Core/src/game/types/board/SiteType.java,Eric.Piette,20201120-125250
+M,Core/src/game/functions/ints/size/largePiece/SizeLargePiece.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/size/site/SizeStack.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/stacking/TopLevel.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/state/Amount.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/state/Score.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/state/State.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/state/What.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/state/Who.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/tile/PathExtent.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/trackSite/move/TrackSiteMove.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/trackSite/position/TrackSiteEndTrack.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/value/piece/ValuePiece.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/ints/value/player/ValuePlayer.java,Eric.Piette,20201120-130313
+M,Core/src/game/functions/range/Range.java,Eric.Piette,20201120-130512
+M,Core/src/game/functions/range/RangeFunction.java,Eric.Piette,20201120-130512
+M,Core/src/game/functions/range/math/Exact.java,Eric.Piette,20201120-130512
+M,Core/src/game/functions/range/math/Max.java,Eric.Piette,20201120-130512
+M,Core/src/game/functions/range/math/Min.java,Eric.Piette,20201120-130512
+M,Manager/src/manager/network/DatabaseFunctionsAnalysis.java,Matthew Stephenson,20201120-130643
+M,Manager/src/manager/network/DatabaseFunctionsRemote.java,Matthew Stephenson,20201120-130643
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/RemoteDialog.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinedPanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameOtherPanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentHostPanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinablePanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/tournaments/TournamentJoinedPanel.java,Matthew Stephenson,20201120-130643
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew Stephenson,20201120-130643
+M,Core/src/game/functions/region/filter/ForEach.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/math/Difference.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/math/Expand.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/math/If.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/math/Intersection.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/math/Union.java,Eric.Piette,20201120-130815
+M,Core/src/game/functions/region/sites/around/SitesAround.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/between/SitesBetween.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/crossing/SitesCrossing.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/custom/SitesCustom.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/direction/SitesDirection.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/distance/SitesDistance.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/group/SitesGroup.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/incidents/SitesIncident.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesCell.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesColumn.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesEdge.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesEmpty.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesLayer.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesPhase.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesRow.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/index/SitesState.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/largePiece/SitesLargePiece.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/lineOfSight/SitesLineOfSight.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/moves/SitesFrom.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/moves/SitesTo.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/occupied/SitesOccupied.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/piece/SitesStart.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesEquipmentRegion.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesHand.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesInvisible.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesMasked.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesTrack.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesVisible.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/player/SitesWinning.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/random/SitesRandom.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/side/SitesSide.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/simple/SitesLineOfPlay.java,Eric.Piette,20201120-132520
+M,Core/src/game/functions/region/sites/walk/SitesWalk.java,Eric.Piette,20201120-132520
+M,Core/src/game/match/Subgame.java,Eric.Piette,20201120-132800
+M,Core/src/language/compiler/Arg.java,Cameron Browne,20201120-133151
+M,Core/src/language/compiler/ArgClass.java,Cameron Browne,20201120-133151
+M,Manager/src/manager/network/SettingsNetwork.java,Matthew Stephenson,20201120-133415
+M,Manager/src/manager/referee/MoveUtil.java,Matthew Stephenson,20201120-133415
+M,Manager/src/manager/referee/UserMoveHandler.java,Matthew Stephenson,20201120-133415
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew Stephenson,20201120-133415
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,Matthew Stephenson,20201120-133415
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonPass.java,Matthew Stephenson,20201120-133415
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonSwap.java,Matthew Stephenson,20201120-133415
+M,Manager/src/manager/referee/MoveUtil.java,Matthew Stephenson,20201120-135627
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew Stephenson,20201120-135627
+M,Core/src/game/players/Player.java,Eric.Piette,20201120-135800
+M,Core/src/game/players/Players.java,Eric.Piette,20201120-135800
+M,Manager/src/manager/referee/MoveUtil.java,Matthew Stephenson,20201120-140526
+D,Manager/src/manager/referee/UserMoveHandler.java,Matthew Stephenson,20201120-140526
+M,Core/src/game/rules/end/ByScore.java,Eric.Piette,20201120-141229
+M,Core/src/game/rules/end/End.java,Eric.Piette,20201120-141229
+M,Core/src/game/rules/end/ForEach.java,Eric.Piette,20201120-141229
+M,Core/src/game/rules/end/If.java,Eric.Piette,20201120-141229
+M,Core/src/game/rules/phase/NextPhase.java,Eric.Piette,20201120-141400
+M,Core/src/language/compiler/ArgClass.java,Cameron Browne,20201120-143739
+M,Core/src/game/rules/play/moves/nonDecision/effect/Add.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Apply.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Attract.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Bet.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Claim.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Custodial.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Deal.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/DirectionCapture.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Enclose.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Flip.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/FromTo.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Hop.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Intervene.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Leap.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Note.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Pass.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/PlayCard.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Promote.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Propose.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Push.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Remove.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Select.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Shoot.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Slide.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Sow.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Step.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Surround.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Then.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Trigger.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/Vote.java,Eric.Piette,20201120-150026
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/AvoidStoredState.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/FirstMoveOnTrack.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/Priority.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/While.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/distance/MaxDistance.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxCaptures.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/max/moves/MaxMoves.java,Eric.Piette,20201120-150631
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/direction/SetDirection.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/nextPlayer/SetNextPlayer.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/pending/SetPending.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetScore.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/player/SetValue.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetCount.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/site/SetState.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetInvisible.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetMasked.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/sitePlayer/SetVisible.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/suit/SetTrumpSuit.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetCounter.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/value/SetPot.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/set/var/SetVar.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/AddScore.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/MoveAgain.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/forget/value/ForgetValue.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/state/RememberState.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/remember/value/RememberValue.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/players/SwapPlayers.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/state/swap/sites/SwapPieces.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/control/TakeControl.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/effect/take/simple/TakeDomino.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/die/ForEachDie.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/direction/ForEachDirection.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/group/ForEachGroup.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/piece/ForEachPiece.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/player/ForEachPlayer.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/site/ForEachSite.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/foreach/value/ForEachValue.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/AllCombinations.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Append.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/If.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/play/moves/nonDecision/operators/logical/Or.java,Eric.Piette,20201120-153915
+M,Core/src/game/rules/start/split/Split.java,Eric.Piette,20201120-154115
+A,Common/res/lud/test/buggy/nonfunctional/Alanfal.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Andi.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Anevalargon.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Angrothorim.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Belos.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Dachargel.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Den Cirien.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Di Fauglacir.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Egnie.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Eruingrievrionuvan.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Fin Bel.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Loki.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Na Air.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Ninduivramdanaramancarnivrion.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Nonwe.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Sa Halrodrod.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Va Loeg.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Vathel.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Agorelomenerriauglinqualain.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Aisil.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Aldaethlun.lud,Eric.Piette,20201120-155108
+M,Common/res/lud/test/buggy/uncompilable/Anon.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Ardaindolivinya.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Aulin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Ava Fingrim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Bar Nar.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Barathil.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Brevarmordalagnoegoriendindor.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Brin.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Carendirevalmarri.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Carnolad.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Celos.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Cir Ar.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Cur Ol.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Curamar.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Duil.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Edhoredhor.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Egriondir.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Elianiel.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Eltaugluin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Fina.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Ginirdaguinya.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Girdi.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Glion.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Hel Falebringolwen.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Helu.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Lamlaras.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Lande.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Lastan.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Lemnamabilpiolosta.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Luinos.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Mantelen.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Mind.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Niphebredhelebri.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Obelleb.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Oimrant.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/uncompilable/Or Arnim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Re Mionascaleglan.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Thieringrimri.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Valadreth.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/uncompilable/Villos.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Aegol.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Aer Beldudhelind.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Aerathimrond.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Aiathodroth.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Ain Cardorn.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Aiquen.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Alcalath.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Aldar.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Amaras.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Amori.lud,Eric.Piette,20201120-155108
+M,Common/res/lud/test/buggy/unparsable/Anon.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Ar Camar.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Arfaegrinibunglindirechandoros.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Argel.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Bar Elithrielpelfalen.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Bel Oion.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Beleb.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Bornoegornorinion.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Caru.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Cir Ando.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Coriadhon.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Curunet.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Dar Dur.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Echalin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Eleg.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Eletholin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Eregniquennaetir.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Fron.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Galas.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Gel Luvaliantinya.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Gelmenoriquentir.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Gollost.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Gwil.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Helivrin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Isseranam.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Ivrauriatalim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Lin Lath.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Linarielendadim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Lond.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Lurinollon.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Maldagonnoron.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Moroth.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Na Mir.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Neglomin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Ni Ande.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Niendi.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Nion.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Nir Nelcaron.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Norog.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Ohalchil.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/On Ardauroth.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Rahalas.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Sheleras.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Sul Me.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Tan Naxar.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Thim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Thronnilor.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Tir Air.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Uil Bar.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Uingon.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unparsable/Uluinel.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Valaquen.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unparsable/Vang.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Aegion.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Amin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Cur En.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Drim.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Ecth.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Edhelcarelendenglon.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Ekkast.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/El Umin.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Fear.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Fellebrin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Fingrique.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Foron.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Glath.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Gungria.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Haeglin.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Heleromegil.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Hundagdun.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Il Gir.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Lir Barthierienduin.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Loth.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Mind.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Minghadolandir.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Narauglothor.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Nelet.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Rad Or.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Ru Nas.lud,Eric.Piette,20201120-155108
+D,Common/res/lud/test/buggy/unplayable/Seromar.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Sil Ta.lud,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/unplayable/Teiglandar.lud,Eric.Piette,20201120-155108
+M,Generation/src/approaches/random/Generator.java,Eric.Piette,20201120-155108
+M,Generation/test/RandomGameTester.java,Eric.Piette,20201120-155108
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Eric.Piette,20201120-155108
+A,Common/res/lud/test/buggy/nonfunctional/Auglad.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/nonfunctional/Dagduil.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/nonfunctional/Isinelin.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/nonfunctional/Oronata.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/nonfunctional/Vina.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Aianargun.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/An Halembarithlain.lud,Eric.Piette,20201120-155625
+M,Common/res/lud/test/buggy/uncompilable/Anon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Ar Cirechol.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Balin.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Brithurion.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Cellohtalas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Eith.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Elfin.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Elormairinarth.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Estel.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Gungwareldoront.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Inar.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Issilda.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Lethlorion.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Maguingron.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Maraglas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Na Calinnandolin.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Ruivil.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Saerisil.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Sir Ellas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/uncompilable/Vaingolvoronwe.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Aliach.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/An Amlador.lud,Eric.Piette,20201120-155625
+M,Common/res/lud/test/buggy/unparsable/Anon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Arithon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Astir.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Bar Tal.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Dalion.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Duin.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Enedhriquent.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Esgalman.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Falf.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Fingoroldar.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Gion.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Glamari.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Hil Adorianniquenyam.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Iandad.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Lurthandorisilorendon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Ma Olvas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Min Allaquent.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Nolmaisil.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Sheb.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Sil Brimor.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Tari.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Til Eresgalath.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Turentirielthelth.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unparsable/Ulkori.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Anon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Avas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Darthilgalmatharie.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Eglas.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Finilos.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Gunaer.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Holainquendagon.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Minaur.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Narauglothor.lud,Eric.Piette,20201120-155625
+A,Common/res/lud/test/buggy/unplayable/Rhorgelma.lud,Eric.Piette,20201120-155625
+M,Core/src/game/Game.java,Eric.Piette,20201120-155625
+M,Common/res/lud/test/eric/Test2.lud,Eric.Piette,20201120-163655
+M,Core/src/game/Game.java,Eric.Piette,20201120-163655
+M,Core/src/game/equipment/other/Hints.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/ForAll.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/all/AllDifferent.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/is/graph/IsUnique.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsCount.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/is/regionResult/IsSum.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/booleans/deductionPuzzle/is/simple/IsSolved.java,Eric.Piette,20201120-163655
+M,Core/src/game/functions/ints/iterator/Hint.java,Eric.Piette,20201120-163655
+M,Core/src/game/rules/play/moves/nonDecision/effect/Satisfy.java,Eric.Piette,20201120-163655
+M,Core/src/game/rules/start/deductionPuzzle/Set.java,Eric.Piette,20201120-163655
+M,Common/src/graphics/svg/element/shape/ShapeFactory.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/Metadata.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/util/ComponentStyleType.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/util/ContainerStyleType.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/util/ControllerType.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/util/EdgeInfoGUI.java,Matthew.Stephenson,20201120-164919
+M,Core/src/metadata/graphics/util/MetadataImageInfo.java,Matthew.Stephenson,20201120-164919
+M,Manager/src/manager/Manager.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/Referee.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/move/MoveAnimation.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/move/MoveHandler.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/move/MoveVisuals.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/move/PuzzleSelectionType.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/mvc/MVCSetup.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/referee/MoveUtil.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/utils/AnimationUtil.java,Matthew.Stephenson,20201120-164919
+A,Manager/src/manager/utils/MVCSetup.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/utils/MoveVisuals.java,Matthew.Stephenson,20201120-164919
+D,Manager/src/manager/utils/PuzzleSelectionType.java,Matthew.Stephenson,20201120-164919
+M,Manager/src/manager/utils/SettingsManager.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/BaseApp.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/JFrameList.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/display/MainWindow.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/display/dialogs/PuzzleDialog.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/display/views/OverlayView.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonPass.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/display/views/tools/buttons/ButtonSwap.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/game/GameRestart.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/game/GameSetupDesktop.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/loading/MiscLoading.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/loading/TrialLoading.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/menu/MainMenu.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/menu/MainMenuFunctions.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/app/utils/UserPreferences.java,Matthew.Stephenson,20201120-164919
+M,PlayerDesktop/src/supplementary/experiments/EvalAIsThread.java,Matthew.Stephenson,20201120-164919
+M,Manager/src/manager/Manager.java,Matthew.Stephenson,20201120-165635
+M,Manager/src/manager/PlayerInterface.java,Matthew.Stephenson,20201120-165635
+M,Manager/src/manager/utils/ContextSnapshot.java,Matthew.Stephenson,20201120-165635
+M,Manager/src/manager/utils/SettingsManager.java,Matthew.Stephenson,20201120-165635
+D,Common/res/lud/test/buggy/nonfunctional/Alanfal.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Andi.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Anevalargon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Angrothorim.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Auglad.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Belos.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Dachargel.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Dagduil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Den Cirien.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Di Fauglacir.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Egnie.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Eruingrievrionuvan.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Fin Bel.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Isinelin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Loki.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Na Air.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Ninduivramdanaramancarnivrion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Nonwe.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Oronata.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Sa Halrodrod.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Va Loeg.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Vathel.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/nonfunctional/Vina.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Aianargun.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Aldaethlun.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/An Halembarithlain.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Anon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Ar Cirechol.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Aulin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Ava Fingrim.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Balin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Barathil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Brin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Brithurion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Carnolad.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Cellohtalas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Duil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Edhoredhor.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Egriondir.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Eith.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Elfin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Elormairinarth.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Eltaugluin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Estel.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Fina.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Girdi.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Glion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Gungwareldoront.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Hel Falebringolwen.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Helu.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Inar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Issilda.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Lamlaras.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Lemnamabilpiolosta.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Lethlorion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Luinos.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Maguingron.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Maraglas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Mind.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Na Calinnandolin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Obelleb.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Or Arnim.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Ruivil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Saerisil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Sir Ellas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/uncompilable/Vaingolvoronwe.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Aer Beldudhelind.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Aerathimrond.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Ain Cardorn.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Aiquen.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Aldar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Aliach.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Amori.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/An Amlador.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Anon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Ar Camar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Arfaegrinibunglindirechandoros.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Argel.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Arithon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Astir.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Bar Tal.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Bornoegornorinion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Cir Ando.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Coriadhon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Curunet.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Dalion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Dar Dur.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Duin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Echalin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Eleg.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Eletholin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Enedhriquent.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Eregniquennaetir.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Esgalman.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Falf.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Fingoroldar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Fron.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Galas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Gion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Glamari.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Gollost.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Gwil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Hil Adorianniquenyam.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Iandad.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Isseranam.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Linarielendadim.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Lurinollon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Lurthandorisilorendon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Ma Olvas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Min Allaquent.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Na Mir.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Neglomin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Ni Ande.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Niendi.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Nolmaisil.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Norog.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/On Ardauroth.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Sheb.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Sheleras.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Sil Brimor.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Tan Naxar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Tari.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Til Eresgalath.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Turentirielthelth.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Uil Bar.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Uingon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Ulkori.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Valaquen.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unparsable/Vang.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Aegion.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Anon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Avas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Culmarm.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Cur En.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Darthilgalmatharie.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Drim.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Eglas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Ekkast.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Fellebrin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Fingrique.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Finilos.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Glath.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Gunaer.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Haeglin.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Holainquendagon.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Hundagdun.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Loth.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Minaur.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Narauglothor.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Rhorgelma.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Ru Nas.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Sil Ta.lud,Eric.Piette,20201120-170030
+D,Common/res/lud/test/buggy/unplayable/Teiglandar.lud,Eric.Piette,20201120-170030
+M,Common/src/main/Constants.java,Eric.Piette,20201120-170030
+M,Core/src/game/rules/play/moves/nonDecision/effect/requirement/While.java,Eric.Piette,20201120-170030
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Eric.Piette,20201120-170030
+A,Common/res/lud/test/buggy/nonfunctional/Anon.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/Cal Halin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/El Ezelfalinathrin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/Entathil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/Ephelimlaciryatandi.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/No Asa.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/nonfunctional/Vathel.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Agaereb.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Angrothorim.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Anon.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Areglin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Arthovalad.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Belth.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Daianar.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Dilin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Drent.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Ech Eor.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Eleith.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Esgairind.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Hiri.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Nonath.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Quennatarangrosgar.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Tholmablu.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/uncompilable/Tin Kelegilwe.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Agon.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Anon.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Auramdain.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Avalmiriollor.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Celmog.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Cuturthrenil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Dilmiri.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Dir Gon.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Dur Bere.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/El Romentalch.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Eldilithil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Ele Bar.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Elegot.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Eon Os.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Eorme.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Erie.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Fauglingron.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Fear.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Felormorfind.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Fin Don.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Fin Gwil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Fingilmen.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/For Rhuor.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Gin Uil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Golinion.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Haldun.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Haugliend.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Heruin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Hien.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Luino.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Nanta.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Ned Than.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Nil Falinuron.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Nilos.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Onelmeluin.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Rhuinde.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Rildil.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Te Dranaring.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Thol.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Tulkasa.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Tumurth.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unparsable/Utuliathorinur.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Adudel.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Celpeluvie.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Culmarm.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Edirinyamahithlomen.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Hil Leth.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Im Rion.lud,Eric.Piette,20201120-170231
+A,Common/res/lud/test/buggy/unplayable/Ras Aerrimbaldisinglinir.lud,Eric.Piette,20201120-170231
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20201120-220333
+M,ViewController/src/util/ImageUtil.java,Matthew Stephenson,20201120-220333
+M,Common/src/graphics/svg/SVGtoImage.java,Matthew Stephenson,20201121-104954
+M,ViewController/src/util/ImageUtil.java,Matthew Stephenson,20201121-104954
+M,ViewController/src/view/component/BaseComponentStyle.java,Matthew Stephenson,20201121-104954
+M,LudiiDiagnosticsPy/ai_analysis/generate_base_alg_scores_csv.py,Dennis Soemers,20201122-173842
+A,PlayerDesktop/src/supplementary/experiments/speed/BreadthFirstExpansion.java,Dennis Soemers,20201122-173842

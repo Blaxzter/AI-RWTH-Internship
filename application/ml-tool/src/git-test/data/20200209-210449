@@ -1,0 +1,166 @@
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-101730
+M,Core/src/game/Game.java,eric.piette,20200208-101859
+M,Core/src/game/Game.java,eric.piette,20200208-104621
+M,Core/src/util/Trial.java,eric.piette,20200208-104621
+M,Core/src/game/functions/region/Bottom.java,eric.piette,20200208-105512
+M,Core/src/game/functions/region/Centre.java,eric.piette,20200208-105512
+M,Core/src/game/functions/region/Left.java,eric.piette,20200208-105512
+M,Core/src/game/functions/region/Right.java,eric.piette,20200208-105512
+A,Core/src/game/functions/region/StartingSites.java,eric.piette,20200208-105512
+M,Core/src/game/functions/region/Top.java,eric.piette,20200208-105512
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-113217
+M,Core/src/game/Game.java,eric.piette,20200208-113217
+M,Core/src/game/functions/region/StartingSites.java,eric.piette,20200208-113217
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-113718
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-114238
+M,Core/src/util/MetadataFunctions.java,eric.piette,20200208-114238
+M,Core/src/util/action/ActionSetPending.java,eric.piette,20200208-121725
+M,Core/src/util/state/State.java,eric.piette,20200208-121725
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-132904
+A,Core/src/game/functions/ints/PendingValue.java,eric.piette,20200208-132904
+M,Core/src/game/rules/play/moves/Pending.java,eric.piette,20200208-132904
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-132946
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200208-160533
+M,AI/src/policies/softmax/SoftmaxFromMetadata.java,Dennis Soemers,20200208-160533
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200208-160533
+M,AI/src/utils/AIUtils.java,Dennis Soemers,20200208-160533
+M,Common/src/main/StringPair.java,Dennis Soemers,20200208-160533
+M,Player/src/player/experiments/game_files/InitBestAgentsMetadata.java,Dennis Soemers,20200208-160533
+M,Player/src/player/experiments/scripts/FindBestBaseAgentScriptsGen.java,Dennis Soemers,20200208-160533
+M,Player/build.xml,Dennis Soemers,20200208-160854
+A,Core/src/game/functions/ints/Coord.java,eric.piette,20200208-161029
+M,Player/test/games/FlagUsed.java,eric.piette,20200208-162145
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-170959
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-174643
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200208-181101
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200208-181101
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-195657
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-195753
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200208-195923
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,eric.piette,20200208-203329
+M,Common/res/lud/board/capture/chatauranga/Chatauranga.lud,eric.piette,20200208-204041
+M,Common/res/lud/board/capture/chatauranga/Chaturaji.lud,eric.piette,20200208-204041
+M,Common/res/lud/board/capture/chatauranga/Shatranj.lud,eric.piette,20200208-205338
+M,Common/res/lud/board/capture/chess/Amazon Chess.lud,eric.piette,20200208-210212
+M,Common/res/lud/board/capture/chess/Capture the Queen.lud,eric.piette,20200208-210418
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200208-210646
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200208-210733
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200208-210753
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200208-210806
+M,Common/res/lud/board/capture/chess/Chex.lud,eric.piette,20200208-220209
+M,Common/res/lud/board/capture/chess/Half Chess.lud,eric.piette,20200208-221732
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,eric.piette,20200208-223821
+M,Common/res/lud/board/capture/chess/Chess.lud,eric.piette,20200208-224701
+M,Common/res/lud/board/capture/chess/Skirmish (GDL).lud,eric.piette,20200208-224701
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,eric.piette,20200208-225531
+M,Common/res/lud/board/capture/chess/Maharajah Chess.lud,eric.piette,20200208-231603
+M,Common/res/lud/board/capture/chess/Los Alamos chess.lud,eric.piette,20200208-232502
+M,Core/src/game/functions/ints/Coord.java,eric.piette,20200208-234337
+A,Core/src/game/functions/region/Coords.java,eric.piette,20200208-234337
+M,Common/res/lud/board/capture/leaping/alquerque/Alquerque.lud,eric.piette,20200208-234545
+M,Common/res/lud/board/capture/chess/Horde Chess.lud,eric.piette,20200208-234952
+M,Common/res/lud/board/capture/leaping/alquerque/Kharbaga.lud,eric.piette,20200209-000456
+M,Player/src/player/experiments/ludemes/ListAllLudemesUsage.java,Cameron Browne,20200209-071732
+M,Core/src/game/functions/ints/BaseIntFunction.java,Cameron Browne,20200209-082029
+M,Core/src/game/functions/region/BaseRegionFunction.java,Cameron Browne,20200209-082029
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200209-082029
+A,Player/src/player/experiments/ludemes/CountLudemes.java,Cameron Browne,20200209-082047
+M,Player/src/player/experiments/ludemes/CountLudemes.java,Cameron Browne,20200209-083811
+M,Player/src/player/PlayerApp.java,Cameron Browne,20200209-084336
+M,Player/src/player/experiments/ludemes/CountLudemes.java,Cameron Browne,20200209-084336
+M,Player/src/player/experiments/ludemes/CountLudemes.java,Cameron Browne,20200209-090547
+M,Core/src/game/functions/region/AllSites.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Around.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/BorderRegion.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Bottom.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/CaptureSequence.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Centre.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Column.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/ConstraintRegion.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Coords.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Corners.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Difference.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Empty.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Expand.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Hand.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Has.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/HintRegion.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/If.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/InDirection.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Inner.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Intersection.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Left.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/OccupiedBy.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Outer.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/OwnedBy.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Phase.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Playable.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Region.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/RegionConstant.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/RegionLastToMove.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Right.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Row.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Set.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Side.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/SitesOfState.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/StartingSites.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Top.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Union.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Used.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/Walk.java,eric.piette,20200209-091212
+M,Core/src/game/functions/region/WinningSites.java,eric.piette,20200209-091212
+M,Common/res/lud/board/capture/leaping/alquerque/Tuknanavuhpi.lud,eric.piette,20200209-091847
+M,Common/res/lud/board/capture/leaping/alquerque/Zamma.lud,eric.piette,20200209-092126
+M,Core/src/game/equipment/container/board/CustomBoard.java,eric.piette,20200209-092938
+M,Core/src/game/equipment/container/board/tiling/Tiling.java,eric.piette,20200209-092938
+M,Core/src/game/functions/region/Side.java,eric.piette,20200209-092938
+M,Core/src/graph/Graph.java,eric.piette,20200209-092938
+M,Player/test/games/pregeneration/TestHexTiling.java,eric.piette,20200209-092938
+M,Player/test/games/pregeneration/TestSquareTiling.java,eric.piette,20200209-092938
+M,Player/test/games/pregeneration/TestTriangleTiling.java,eric.piette,20200209-092938
+M,Common/res/lud/board/capture/leaping/draughts/HexDame.lud,eric.piette,20200209-093545
+M,Common/res/lud/board/capture/leaping/draughts/Lasca.lud,eric.piette,20200209-093810
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew Stephenson,20200209-094839
+M,Common/res/lud/board/capture/other/Castello.lud,eric.piette,20200209-095107
+M,Common/res/lud/board/capture/other/Ludus Latrunculorum.lud,eric.piette,20200209-095703
+M,Common/res/lud/board/capture/shogi/Minishogi.lud,eric.piette,20200209-100458
+M,Common/res/lud/board/capture/shogi/Shogi.lud,eric.piette,20200209-100712
+M,Common/res/lud/board/capture/shogi/Taikyoku Shogi.lud,eric.piette,20200209-101203
+M,Common/res/lud/board/capture/xiangqi/Janggi.lud,eric.piette,20200209-101854
+M,Common/res/lud/board/capture/xiangqi/Janggi.lud,eric.piette,20200209-102242
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20200209-102432
+M,Common/res/lud/board/capture/xiangqi/Manzhouqi.lud,eric.piette,20200209-103014
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,eric.piette,20200209-103208
+M,Common/res/lud/board/capture/xiangqi/Xiangqi.lud,eric.piette,20200209-103532
+M,Common/res/lud/board/chase/hunt/Komikan.lud,eric.piette,20200209-104237
+M,Common/res/lud/board/chase/hunt/Wolf and Sheep.lud,eric.piette,20200209-104637
+M,Common/res/lud/board/race/fill/Camelot.lud,eric.piette,20200209-105043
+M,Common/res/lud/board/race/fill/Chinese Checkers.lud,eric.piette,20200209-105456
+M,Common/res/lud/board/race/fill/Five Field Kono.lud,eric.piette,20200209-105620
+M,Common/res/lud/board/race/fill/Grasshopper.lud,eric.piette,20200209-105803
+M,Common/res/lud/board/race/fill/Halma.lud,eric.piette,20200209-110004
+M,Common/res/lud/board/race/fill/Salta.lud,eric.piette,20200209-111337
+M,Player/src/player/MainMenu.java,Dennis Soemers,20200209-150838
+M,Player/src/player/PlayerApp.java,Dennis Soemers,20200209-150838
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200209-155215
+M,Player/src/player/MainMenu.java,Cameron Browne,20200209-164332
+M,AI/src/expert_iteration/ExItExperience.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/CentreProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/CornerProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/CurrentMoverHeuristic.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/HeuristicEnsemble.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/Intercept.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/LineCompletionHeuristic.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/Material.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/MobilitySimple.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/OpponentPieceProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/OwnRegionsCount.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/PlayerRegionsProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/PlayerSiteMapCount.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/RegionProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/Score.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/SidesProximity.java,Dennis Soemers,20200209-210449
+M,AI/src/heuristics/StateHeuristicValue.java,Dennis Soemers,20200209-210449
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200209-210449
+M,Common/src/main/FVector.java,Dennis Soemers,20200209-210449
+M,Player/src/player/experiments/training/ExpertIteration.java,Dennis Soemers,20200209-210449

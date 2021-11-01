@@ -1,0 +1,66 @@
+M,Core/src/game/Game.java,Dennis Soemers,20200826-204821
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200826-211437
+M,Manager/src/manager/referee/Referee.java,Matthew.Stephenson,20200827-094837
+M,AI/src/policies/GreedyPolicy.java,Dennis Soemers,20200827-102809
+M,AI/src/policies/softmax/SoftmaxPolicy.java,Dennis Soemers,20200827-102809
+M,AI/src/search/flat/FlatMonteCarlo.java,Dennis Soemers,20200827-102809
+M,AI/src/search/mcts/nodes/Node.java,Dennis Soemers,20200827-102809
+M,AI/src/search/mcts/nodes/OpenLoopNode.java,Dennis Soemers,20200827-102809
+M,AI/src/search/minimax/AlphaBetaSearch.java,Dennis Soemers,20200827-102809
+M,AI/src/search/pns/PNSNode.java,Dennis Soemers,20200827-102809
+M,AI/src/utils/LudiiStateWrapper.java,Dennis Soemers,20200827-102809
+M,AI/src/utils/RandomAI.java,Dennis Soemers,20200827-102809
+M,Core/src/util/model/AlternatingMove.java,Dennis Soemers,20200827-102809
+M,Core/src/util/model/MatchModel.java,Dennis Soemers,20200827-102809
+M,Core/src/util/model/Model.java,Dennis Soemers,20200827-102809
+M,Core/src/util/model/SimulationMove.java,Dennis Soemers,20200827-102809
+M,Core/src/util/model/SimultaneousMove.java,Dennis Soemers,20200827-102809
+M,Core/src/util/playout/FilterPlayout.java,Dennis Soemers,20200827-102809
+M,Core/src/util/playout/NoRepetitionPlayout.java,Dennis Soemers,20200827-102809
+M,Manager/src/manager/referee/Referee.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/src/supplementary/experiments/training/ExpertIteration.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/games/MancalaCountConsistency.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/games/TestParallelPlayouts.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/games/TestTrialSerialization.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/games/options/TestParallelPlayoutsWithOptions.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/travis/TravisTest.java,Dennis Soemers,20200827-102809
+M,PlayerDesktop/test/travis/integrity/TestTrialsIntegrity.java,Dennis Soemers,20200827-102809
+M,Core/src/game/Game.java,Dennis Soemers,20200827-105118
+D,Common/res/def_ai/Haretavl_ai.def,eric.piette,20200827-112841
+A,Common/res/def_ai/Hyvn_ai.def,eric.piette,20200827-112841
+D,Common/res/lud/board/hunt/Haretavl.lud,eric.piette,20200827-112841
+A,Common/res/lud/board/hunt/Hyvn.lud,eric.piette,20200827-112841
+M,Common/res/lud/wip/matthew/halfDone/Abak.lud,eric.piette,20200827-113011
+M,PlayerDesktop/.gitignore,eric.piette,20200827-113109
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200827-113109
+A,Common/res/def_ai/Hyvn aetter Hare_ai.def,eric.piette,20200827-113927
+D,Common/res/def_ai/Hyvn_ai.def,eric.piette,20200827-113927
+A,Common/res/lud/board/hunt/Hyvn aetter Hare.lud,eric.piette,20200827-113927
+D,Common/res/lud/board/hunt/Hyvn.lud,eric.piette,20200827-113927
+M,Common/src/main/Constants.java,Matthew.Stephenson,20200827-121403
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorActions.java,mrraow,20200827-132205
+M,PlayerDesktop/src/app/display/dialogs/editor/EditorDialog.java,mrraow,20200827-132205
+A,PlayerDesktop/src/app/display/dialogs/editor/UndoRecord.java,mrraow,20200827-143622
+M,Core/src/metadata/graphics/Graphics.java,Matthew.Stephenson,20200827-175742
+M,Manager/src/manager/network/DatabaseFunctions.java,Matthew.Stephenson,20200827-175742
+A,Common/res/lud/wip/eric/dlp/At-Tab wa-d-Dukk.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Bagh Batti.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Bheri Bakhri.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Bolotudu.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Daldosa.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Deleb.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Had.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Kharberg.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Sig (Mzab).lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Sig (Rehamna).lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Sig (Tozeur).lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Sig (Western Sahara).lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/T'oki.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/T'uk T'uk.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Tablan.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Tauru.lud,eric.piette,20200828-140559
+A,Common/res/lud/wip/eric/dlp/Weiqi.lud,eric.piette,20200828-140559
+M,PlayerDesktop/.gitignore,eric.piette,20200828-140559
+M,PlayerDesktop/test/games/TestTrialsIntegrityERIC.java,eric.piette,20200828-140559
+M,PlayerDesktop/src/app/display/dialogs/remote/panels/games/GameJoinablePanel.java,Matthew.Stephenson,20200828-170239

@@ -1,0 +1,533 @@
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190602-104222
+M,Library/src/game/equipment/component/Die.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/SenetPiece.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/StonePile.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/UrPiece.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Camel.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Cat.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Cow.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Dog.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Elephant.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Goat.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Horse.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Leopard.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Rabbit.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Sheep.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Tiger.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/animal/Wolf.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/checkers/Dame.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/checkers/Man.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/checkers/ManStar.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Bishop.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/King.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Knight.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Mann.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Pawn.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Queen.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/chess/Rook.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/tafl/Jarl.java,Cameron Browne,20190602-110051
+M,Library/src/game/equipment/component/piece/tafl/Thrall.java,Cameron Browne,20190602-110051
+M,Library/lud/Hashi.lud,eric.piette,20190602-155337
+M,Library/src/game/Game.java,eric.piette,20190602-155337
+A,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190602-155337
+A,Library/src/game/functions/ints/Edge.java,eric.piette,20190602-155337
+A,Library/src/game/functions/ints/Hint.java,eric.piette,20190602-155337
+M,Library/src/game/rules/start/Hint.java,eric.piette,20190602-155337
+M,Library/src/util/Context.java,eric.piette,20190602-155337
+M,Library/lud/Hashi (real one).lud,eric.piette,20190602-160120
+M,Library/lud/Hashi (v2).lud,eric.piette,20190602-160120
+M,Common/src/graphics/ShadowImage.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/UnicodeGraphics.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/SVG.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/SVGParser.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/BaseElement.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/Element.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/Style.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Circle.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Ellipse.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Line.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Polygon.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Polyline.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Rect.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/Shape.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/Arc.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/Close.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/CubicTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/HorzLineTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/LineTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/MoveTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/PathOp.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/PathOpFactory.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/QuadTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/ShortCubicTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/ShortQuadTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/shape/path/VertLineTo.java,Cameron Browne,20190602-160457
+M,Common/src/graphics/svg/element/text/Text.java,Cameron Browne,20190602-160457
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190602-160457
+M,Library/src/game/equipment/component/Die.java,Cameron Browne,20190602-160457
+M,Player/src/mainView/panel/PlayerPanel.java,Cameron Browne,20190602-160457
+D,Library/lud/Hashi (real one).lud,eric.piette,20190602-160740
+D,Library/lud/Hashi (v2).lud,eric.piette,20190602-160740
+M,Library/lud/Hashi.lud,eric.piette,20190602-160740
+M,Library/src/game/Game.java,eric.piette,20190602-161143
+D,Library/lud/Latin Square (5x5).lud,eric.piette,20190602-161208
+A,Library/lud/Latin Square.lud,eric.piette,20190602-161208
+M,Common/src/graphics/svg/element/shape/path/Path.java,Cameron Browne,20190602-161933
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190602-161933
+M,Library/lud/Latin Square.lud,eric.piette,20190602-163229
+D,Library/src/game/functions/booleans/puzzleConstraints/NumBridgeFrom.java,eric.piette,20190602-163608
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190602-170329
+M,Common/src/graphics/svg/element/shape/path/ShortCubicTo.java,Cameron Browne,20190602-171140
+M,Common/src/graphics/svg/element/shape/path/ShortQuadTo.java,Cameron Browne,20190602-171140
+M,Library/lud/Fill A Pix.lud,eric.piette,20190602-172524
+M,Library/src/game/Game.java,eric.piette,20190602-172524
+M,Library/src/game/functions/booleans/puzzleConstraints/Count.java,eric.piette,20190602-172524
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190602-172524
+M,Library/src/game/types/SetType.java,eric.piette,20190602-172524
+M,Library/lud/Fill A Pix.lud,eric.piette,20190602-173914
+M,Library/lud/Squaro.lud,eric.piette,20190602-173914
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190602-173914
+A,Library/src/game/functions/region/VerticeFace.java,eric.piette,20190602-173914
+M,Common/src/graphics/svg/element/shape/path/HorzLineTo.java,Cameron Browne,20190602-180106
+M,Common/src/graphics/svg/element/shape/path/VertLineTo.java,Cameron Browne,20190602-180106
+M,Common/src/graphics/svg/element/Element.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/Circle.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/Ellipse.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/Line.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/Polyline.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/Rect.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/shape/path/Path.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/Fill.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/FillOpacity.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/Stroke.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeDashArray.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeDashOffset.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeLineCap.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeLineJoin.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeOpacity.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/StrokeWidth.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/style/Style.java,eric.piette,20190602-201026
+M,Common/src/graphics/svg/element/text/Text.java,eric.piette,20190602-201026
+D,Library/lud/Amazons (crash).lud,eric.piette,20190602-214610
+A,Library/lud/Amazons (no dot defined, exception or not).lud,eric.piette,20190602-214610
+M,Library/lud/Fill A Pix.lud,eric.piette,20190602-214610
+M,Library/lud/Halma (2 players).lud,eric.piette,20190602-214610
+M,Library/lud/Kakuro.lud,eric.piette,20190602-214610
+M,Library/src/game/functions/booleans/puzzleConstraints/AllDifferent.java,eric.piette,20190602-214610
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20190602-214610
+M,Library/src/game/rules/start/Hint.java,eric.piette,20190602-214610
+M,Library/src/game/types/AreaType.java,eric.piette,20190602-214610
+M,Library/lud/Killer Sudoku.lud,eric.piette,20190602-221406
+M,Library/lud/Magic Hexagon.lud,eric.piette,20190602-225355
+M,Library/lud/Magic Square.lud,eric.piette,20190602-231353
+M,Library/lud/Mu-Torere.lud,eric.piette,20190602-231353
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,eric.piette,20190602-231353
+M,Library/src/game/functions/booleans/puzzleConstraints/Sum.java,eric.piette,20190602-231353
+M,Library/src/game/types/AreaType.java,eric.piette,20190602-231353
+M,Library/src/graph/Graph.java,eric.piette,20190602-231353
+M,Library/lud/Latin Square.lud,eric.piette,20190602-232618
+M,Library/lud/Magic Square.lud,eric.piette,20190602-232618
+D,Library/lud/Mu-Torere (Wheel) bad rules.lud,eric.piette,20190602-234846
+D,Library/lud/Mu-Torere (Wheel).lud,eric.piette,20190602-234846
+M,Library/lud/Mu-Torere.lud,eric.piette,20190602-234846
+M,Library/src/game/equipment/container/board/SenetBoard.java,Matthew.Stephenson,20190603-091733
+M,Library/src/game/equipment/container/board/GoBoard.java,Matthew.Stephenson,20190603-092047
+M,Library/src/game/equipment/container/board/ReversiBoard.java,Matthew.Stephenson,20190603-092047
+M,Library/src/game/equipment/container/board/TaflBoard.java,Matthew.Stephenson,20190603-092047
+M,Library/src/game/equipment/container/board/UrBoard.java,Matthew.Stephenson,20190603-092047
+M,Library/test/ModulusTest.java,Matthew.Stephenson,20190603-092047
+M,Player/test/games/UCBCacheTest.java,Matthew.Stephenson,20190603-092047
+M,Features/src/features/generation/MoveFeatures.java,DennisSoemers,20190603-111318
+M,Library/src/game/functions/booleans/Or.java,DennisSoemers,20190603-111318
+M,Library/lud/Binero.lud,eric.piette,20190603-112238
+M,Library/lud/Fill A Pix.lud,eric.piette,20190603-112238
+M,Library/lud/Futoshiki.lud,eric.piette,20190603-112238
+M,Library/lud/Hashi.lud,eric.piette,20190603-112238
+M,Library/lud/Kakuro Hard.lud,eric.piette,20190603-112238
+M,Library/lud/Kakuro.lud,eric.piette,20190603-112238
+M,Library/lud/Killer Sudoku.lud,eric.piette,20190603-112238
+M,Library/lud/Latin Square.lud,eric.piette,20190603-112238
+M,Library/lud/Magic Hexagon.lud,eric.piette,20190603-112238
+M,Library/lud/Magic Square.lud,eric.piette,20190603-112238
+M,Library/lud/Squaro.lud,eric.piette,20190603-112238
+M,Library/lud/Sudoku.lud,eric.piette,20190603-112238
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190603-112238
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-112238
+D,Library/src/game/functions/booleans/puzzleConstraints/AllResolved.java,eric.piette,20190603-112238
+A,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190603-112238
+M,Player/src/player/PlayerApp.java,DennisSoemers,20190603-113357
+M,Player/src/player/Referee.java,DennisSoemers,20190603-113357
+M,Library/src/game/equipment/container/board/MancalaBoard.java,Matthew.Stephenson,20190603-115349
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-115349
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20190603-115349
+M,Library/src/game/equipment/Drawable.java,Cameron Browne,20190603-120318
+M,Library/src/game/equipment/Equipment.java,Cameron Browne,20190603-120318
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190603-120318
+M,Library/src/game/equipment/component/piece/Dot.java,Cameron Browne,20190603-120318
+M,Library/src/game/equipment/container/Container.java,Cameron Browne,20190603-120318
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-120318
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190603-120552
+M,Library/src/game/equipment/Drawable.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/Item.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/board/Board.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/board/modify/Modify.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/board/shape/BaseShape.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/tiling/directions/CompassDirection.java,Cameron Browne,20190603-121554
+M,Library/src/game/equipment/container/tiling/directions/WheelDirection.java,Cameron Browne,20190603-121554
+M,Library/src/game/mode/Mode.java,Cameron Browne,20190603-121554
+M,Library/src/game/mode/player/Player.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/end/End.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/play/Play.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/play/moves/Moves.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/play/moves/Then.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/start/Set.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/start/Start.java,Cameron Browne,20190603-121554
+M,Library/src/game/rules/start/StartRule.java,Cameron Browne,20190603-121554
+M,Library/src/util/BaseLudeme.java,Cameron Browne,20190603-121554
+M,Library/src/util/Ludeme.java,Cameron Browne,20190603-121554
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-121554
+M,Library/lud/Killer Sudoku.lud,Matthew.Stephenson,20190603-122857
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-122857
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20190603-122857
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20190603-122857
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20190603-122857
+A,Library/src/util/HintRecord.java,eric.piette,20190603-124031
+M,Library/src/game/Game.java,eric.piette,20190603-125532
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-132227
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190603-132227
+M,Player/test/games/TokensTest.java,Matthew.Stephenson,20190603-132227
+M,Library/lud/Binero.lud,Cameron Browne,20190603-132554
+M,Library/src/game/rules/start/Set.java,Cameron Browne,20190603-132554
+M,Library/lud/Hashi.lud,Lianne.Hufkens,20190603-133019
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-134209
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20190603-134209
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20190603-134209
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20190603-134209
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-134624
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-135038
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-135735
+M,Library/lud/Hashi.lud,Lianne.Hufkens,20190603-140520
+M,Features/src/features/generation/MoveFeatures.java,DennisSoemers,20190603-142849
+M,Library/src/game/functions/region/Around.java,DennisSoemers,20190603-142849
+M,Library/src/game/functions/region/Difference.java,DennisSoemers,20190603-142849
+M,Library/src/game/functions/region/Own.java,DennisSoemers,20190603-142849
+M,Library/src/game/functions/region/Set.java,DennisSoemers,20190603-142849
+M,Library/src/game/functions/region/Union.java,DennisSoemers,20190603-142849
+M,Library/src/game/rules/play/moves/decision/FromTo.java,DennisSoemers,20190603-142849
+M,Library/src/game/equipment/container/board/ChessBoard.java,Matthew.Stephenson,20190603-143956
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-143956
+M,Features/src/features/generation/MoveFeatures.java,DennisSoemers,20190603-144221
+M,Library/lud/Fill A Pix.lud,eric.piette,20190603-150133
+M,Library/lud/Hashi.lud,eric.piette,20190603-150133
+M,Library/lud/Kakuro.lud,eric.piette,20190603-150133
+M,Library/lud/Killer Sudoku.lud,eric.piette,20190603-150133
+M,Library/lud/Magic Hexagon.lud,eric.piette,20190603-150133
+M,Library/lud/Squaro.lud,eric.piette,20190603-150133
+M,Library/src/game/Game.java,eric.piette,20190603-150133
+A,Library/src/game/functions/region/Hint.java,eric.piette,20190603-150133
+D,Library/src/game/rules/start/Hint.java,eric.piette,20190603-150133
+A,Library/src/game/rules/start/Hints.java,eric.piette,20190603-150133
+D,Library/src/util/HintRecord.java,eric.piette,20190603-150133
+M,Library/src/game/functions/region/Hint.java,eric.piette,20190603-150437
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190603-150437
+M,Common/src/main/Global.java,Matthew.Stephenson,20190603-150452
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-150452
+M,Player/src/mainView/MainView.java,Matthew.Stephenson,20190603-150452
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-151426
+M,Features/src/features/generation/MoveFeatures.java,DennisSoemers,20190603-151826
+M,Library/src/game/functions/booleans/IsFriend.java,DennisSoemers,20190603-151826
+M,Library/lud/Hashi.lud,eric.piette,20190603-152108
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-152108
+M,Common/src/graphics/svg/SVGtoImage.java,Cameron Browne,20190603-155725
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190603-155725
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-155725
+D,Library/lud/Kakuro Hard.lud,eric.piette,20190603-160358
+M,Library/lud/Kakuro.lud,eric.piette,20190603-160358
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190603-160640
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-160640
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190603-160640
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190603-160640
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190603-160640
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190603-160640
+D,Library/src/game/rules/play/moves/decision/Constraints.java,eric.piette,20190603-160640
+A,Library/src/game/rules/play/moves/decisionPuzzle/Constraints.java,eric.piette,20190603-160640
+M,Library/src/util/Context.java,eric.piette,20190603-160640
+M,Features/src/features/generation/MoveFeatures.java,DennisSoemers,20190603-161315
+M,Library/src/game/functions/region/Sites.java,DennisSoemers,20190603-161315
+M,Library/src/game/rules/play/moves/decision/Leap.java,DennisSoemers,20190603-161315
+M,Library/src/game/equipment/component/piece/Dot.java,Matthew.Stephenson,20190603-161718
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-161718
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190603-161718
+M,Library/src/game/Game.java,eric.piette,20190603-163938
+M,Library/src/game/rules/play/moves/decisionPuzzle/Constraints.java,eric.piette,20190603-163938
+M,Library/lud/Kakuro.lud,eric.piette,20190603-164553
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190603-164553
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190603-164655
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190603-164655
+D,Common/img/delete.png,Cameron Browne,20190603-165051
+A,Common/img/svg/UNUSED/shapes-polyline-01-t.svg,Cameron Browne,20190603-165051
+D,Common/img/update.png,Cameron Browne,20190603-165051
+A,Common/src/graphics/FormatReader.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg/element/style/StyleProperties.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/SVG.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/SVGParser.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/SVGRenderer.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/BaseElement.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/Element.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/ElementFactory.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/Style.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/Decorator.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/DecoratorFactory.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/DecoratorGraphics2D.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DCircle.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DEllipse.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DLine.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPath.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPolygon.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DPolyline.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/decorators/shapes/DecoratorGraphics2DRect.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Circle.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Ellipse.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Line.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Polygon.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Polyline.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Rect.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/Shape.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/ShapeFactory.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/Close.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/CubicTo.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/LineTo.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/MoveTo.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/Path.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/PathOp.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/PathOpFactory.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/shape/path/QuadTo.java,Cameron Browne,20190603-165051
+D,Common/src/graphics/svg2/element/text/Text.java,Cameron Browne,20190603-165051
+A,Library/Add.class,Cameron Browne,20190603-165051
+A,Library/HelloWorld.class,Cameron Browne,20190603-165051
+A,Library/src/test/Test.class,Cameron Browne,20190603-165051
+A,Library/src/test/Test.java,Cameron Browne,20190603-165051
+A,Library/lud/puzzle/AAA Test.lud,Cameron Browne,20190603-170333
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-170333
+D,Library/lud/4 Puzzles.lud,Cameron Browne,20190603-171528
+D,Library/lud/Binero.lud,Cameron Browne,20190603-171528
+D,Library/lud/Fill A Pix.lud,Cameron Browne,20190603-171528
+D,Library/lud/Futoshiki.lud,Cameron Browne,20190603-171528
+D,Library/lud/Hashi.lud,Cameron Browne,20190603-171528
+D,Library/lud/Kakuro.lud,Cameron Browne,20190603-171528
+D,Library/lud/Killer Sudoku.lud,Cameron Browne,20190603-171528
+D,Library/lud/Latin Square.lud,Cameron Browne,20190603-171528
+D,Library/lud/Magic Hexagon.lud,Cameron Browne,20190603-171528
+D,Library/lud/Magic Square.lud,Cameron Browne,20190603-171528
+D,Library/lud/Peg Solitaire (English).lud,Cameron Browne,20190603-171528
+D,Library/lud/Peg Solitaire (European).lud,Cameron Browne,20190603-171528
+D,Library/lud/Sudoku.lud,Cameron Browne,20190603-171528
+D,Library/lud/Tower of Hanoi (x3).lud,Cameron Browne,20190603-171528
+D,Library/lud/Tower of Hanoi (x8).lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/4 Puzzles.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Binero.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Fill A Pix.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Futoshiki.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Hashi.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Kakuro.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Killer Sudoku.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Latin Square.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Magic Hexagon.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Magic Square.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Peg Solitaire (English).lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Peg Solitaire (European).lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Sudoku.lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Tower of Hanoi (x3).lud,Cameron Browne,20190603-171528
+A,Library/lud/puzzle/Tower of Hanoi (x8).lud,Cameron Browne,20190603-171528
+M,Player/src/player/GameLoader.java,Cameron Browne,20190603-171528
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-171528
+D,Library/lud/puzzle/AAA Test.lud,Cameron Browne,20190603-171609
+M,Library/src/game/equipment/container/board/modify/Cut.java,eric.piette,20190603-172135
+D,Library/lud/Surakarta (middle line).lud,eric.piette,20190603-172636
+M,Library/lud/Surakarta.lud,eric.piette,20190603-172636
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190603-172715
+M,Player/src/player/PlayerApp.java,Matthew.Stephenson,20190603-172715
+M,Player/src/player/experiments/old/TestExpertIteration.java,Matthew.Stephenson,20190603-172715
+M,Player/src/mainView/dialog/SettingsDialog.java,Matthew.Stephenson,20190603-173136
+D,Library/lud/Halma (2 players).lud,eric.piette,20190603-173415
+D,Library/lud/Halma (4 players).lud,eric.piette,20190603-173415
+A,Library/lud/Halma.lud,eric.piette,20190603-173415
+D,Library/lud/Hex (with options).lud,eric.piette,20190603-173549
+M,Library/lud/Hex.lud,eric.piette,20190603-173549
+M,Library/.classpath,Cameron Browne,20190603-174018
+A,Library/lud/4 Puzzles.lud,Cameron Browne,20190603-174018
+A,Library/lud/Binero.lud,Cameron Browne,20190603-174018
+A,Library/lud/Fill A Pix.lud,Cameron Browne,20190603-174018
+A,Library/lud/Futoshiki.lud,Cameron Browne,20190603-174018
+A,Library/lud/Hashi.lud,Cameron Browne,20190603-174018
+A,Library/lud/Kakuro.lud,Cameron Browne,20190603-174018
+A,Library/lud/Killer Sudoku.lud,Cameron Browne,20190603-174018
+A,Library/lud/Latin Square.lud,Cameron Browne,20190603-174018
+A,Library/lud/Magic Hexagon.lud,Cameron Browne,20190603-174018
+A,Library/lud/Magic Square.lud,Cameron Browne,20190603-174018
+A,Library/lud/Peg Solitaire (English).lud,Cameron Browne,20190603-174018
+A,Library/lud/Peg Solitaire (European).lud,Cameron Browne,20190603-174018
+A,Library/lud/Sudoku.lud,Cameron Browne,20190603-174018
+A,Library/lud/Tower of Hanoi (x3).lud,Cameron Browne,20190603-174018
+A,Library/lud/Tower of Hanoi (x8).lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/4 Puzzles.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Binero.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Fill A Pix.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Futoshiki.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Hashi.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Kakuro.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Killer Sudoku.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Latin Square.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Magic Hexagon.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Magic Square.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Peg Solitaire (English).lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Peg Solitaire (European).lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Sudoku.lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Tower of Hanoi (x3).lud,Cameron Browne,20190603-174018
+D,Library/lud/puzzle/Tower of Hanoi (x8).lud,Cameron Browne,20190603-174018
+M,Library/.classpath,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/4 Puzzles.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Binero.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Fill A Pix.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Futoshiki.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Hashi.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Kakuro.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Killer Sudoku.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Knight's Tour.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Latin Square.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Magic Hexagon.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Magic Square.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Peg Solitaire (English).lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Peg Solitaire (European).lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Sudoku.lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Tower of Hanoi (x3).lud,Cameron Browne,20190603-175840
+A,Library/lud/puzzle/Tower of Hanoi (x8).lud,Cameron Browne,20190603-175840
+D,Library/lud/4 Puzzles.lud,Cameron Browne,20190603-175856
+D,Library/lud/Binero.lud,Cameron Browne,20190603-175856
+D,Library/lud/Fill A Pix.lud,Cameron Browne,20190603-175856
+D,Library/lud/Futoshiki.lud,Cameron Browne,20190603-175856
+D,Library/lud/Hashi.lud,Cameron Browne,20190603-175856
+D,Library/lud/Kakuro.lud,Cameron Browne,20190603-175856
+D,Library/lud/Killer Sudoku.lud,Cameron Browne,20190603-175856
+D,Library/lud/Knight's Tour.lud,Cameron Browne,20190603-175856
+D,Library/lud/Latin Square.lud,Cameron Browne,20190603-175856
+D,Library/lud/Magic Hexagon.lud,Cameron Browne,20190603-175856
+D,Library/lud/Magic Square.lud,Cameron Browne,20190603-175856
+D,Library/lud/Peg Solitaire (English).lud,Cameron Browne,20190603-175856
+D,Library/lud/Peg Solitaire (European).lud,Cameron Browne,20190603-175856
+D,Library/lud/Sudoku.lud,Cameron Browne,20190603-175856
+D,Library/lud/Tower of Hanoi (x3).lud,Cameron Browne,20190603-175856
+D,Library/lud/Tower of Hanoi (x8).lud,Cameron Browne,20190603-175856
+D,Library/test/DemonstrateDangerOfBoxing.java,Cameron Browne,20190603-175856
+D,Library/test/Misc.java,Cameron Browne,20190603-175856
+D,Library/test/ModulusTest.java,Cameron Browne,20190603-175856
+D,Library/test/Performance.java,Cameron Browne,20190603-175856
+D,Library/test/bitsets/GetRandomBitTests.java,Cameron Browne,20190603-175856
+D,Library/test/bitsets/TestChunkSetBitOperations.java,Cameron Browne,20190603-175856
+D,Library/test/game/play/PlayTest.java,Cameron Browne,20190603-175856
+D,Library/test/game/play/moves/decision/FromToTest.java,Cameron Browne,20190603-175856
+D,Library/test/game/play/player/PlayerTest.java,Cameron Browne,20190603-175856
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-180114
+M,Player/src/player/GameLoader.java,Cameron Browne,20190603-180251
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190603-180251
+M,Library/.classpath,Cameron Browne,20190603-182337
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20190603-183643
+M,Library/lud/puzzle/Kakuro.lud,Lianne.Hufkens,20190603-200318
+M,Library/src/game/equipment/Drawable.java,Cameron Browne,20190603-205548
+M,Library/src/game/equipment/component/Component.java,Cameron Browne,20190603-205548
+M,Library/src/game/equipment/container/Container.java,Cameron Browne,20190603-205548
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20190603-205548
+M,Library/src/ui/GameView.java,Cameron Browne,20190603-205548
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew,20190603-210236
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-210756
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190603-210756
+A,Library/src/game/functions/puzzle/Hint.java,eric.piette,20190603-210756
+A,Library/src/game/functions/puzzle/Values.java,eric.piette,20190603-210756
+D,Library/src/game/functions/region/Hint.java,eric.piette,20190603-210756
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190603-210756
+M,Library/src/util/state/puzzleState/PuzzleState.java,eric.piette,20190603-210756
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20190603-211259
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Kakuro.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Killer Sudoku.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Latin Square.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Magic Hexagon.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Magic Square.lud,eric.piette,20190603-221204
+M,Library/lud/puzzle/Sudoku.lud,eric.piette,20190603-221204
+M,Library/src/game/equipment/Equipment.java,eric.piette,20190603-221204
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190603-221204
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-221204
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,eric.piette,20190603-221204
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,eric.piette,20190603-221204
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,eric.piette,20190603-221204
+M,Library/src/game/functions/puzzle/Values.java,eric.piette,20190603-221204
+M,Library/src/game/rules/play/moves/decisionPuzzle/Constraints.java,eric.piette,20190603-221204
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190603-221204
+M,Library/src/game/rules/start/Set.java,eric.piette,20190603-221204
+M,Library/src/util/state/puzzleState/PuzzleState.java,eric.piette,20190603-221204
+M,Player/src/mainView/MainView.java,eric.piette,20190603-221204
+D,Library/lud/Squaro.lud,eric.piette,20190603-221806
+A,Library/lud/puzzle/Squaro.lud,eric.piette,20190603-221806
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190603-221806
+D,Library/lud/Insanity.lud,eric.piette,20190603-222102
+A,Library/lud/puzzle/Insanity.lud,eric.piette,20190603-222102
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190603-222837
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190603-222837
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-222837
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190603-222837
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190603-223630
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,eric.piette,20190603-223630
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,eric.piette,20190603-223630
+M,Library/src/game/rules/play/moves/decisionPuzzle/Constraints.java,eric.piette,20190603-223630
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190603-224233
+D,Library/Add.class,eric.piette,20190603-224625
+D,Library/HelloWorld.class,eric.piette,20190603-224625
+M,Library/src/game/Game.java,eric.piette,20190603-235907
+M,Library/src/game/rules/start/Hints.java,eric.piette,20190603-235907
+M,Library/src/util/Context.java,eric.piette,20190603-235907
+M,Library/src/util/state/puzzleState/PuzzleState.java,eric.piette,20190603-235907
+M,Player/src/mainView/MainView.java,eric.piette,20190603-235907
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190604-000003
+M,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,eric.piette,20190604-000003
+M,Library/src/game/types/AreaType.java,eric.piette,20190604-000003
+M,Library/src/game/Game.java,eric.piette,20190604-003736
+M,Library/src/game/functions/booleans/puzzleConstraints/Connected.java,eric.piette,20190604-003736
+M,Library/src/game/functions/booleans/puzzleConstraints/Crossing.java,eric.piette,20190604-003736
+M,Library/src/game/functions/booleans/puzzleConstraints/ForEach.java,eric.piette,20190604-003736
+M,Library/src/game/functions/booleans/puzzleConstraints/Solved.java,eric.piette,20190604-003736
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Cameron Browne,20190604-010039
+M,Library/lud/puzzle/Hashi.lud,eric.piette,20190604-011849
+M,Library/src/game/equipment/container/board/ChessBoard.java,Cameron Browne,20190604-012700
+M,Library/src/ui/GameView.java,Cameron Browne,20190604-015049
+M,Player/src/mainView/panel/StatePanel.java,Cameron Browne,20190604-015049
+M,Library/src/game/equipment/container/board/Boardless.java,Cameron Browne,20190604-015933
+M,Library/src/ui/GameView.java,Cameron Browne,20190604-015933
+M,Library/src/game/equipment/component/piece/Hex.java,Cameron Browne,20190604-030722
+M,Library/src/ui/GameView.java,Cameron Browne,20190604-030722
+M,Grammar/src/generator/Grammar.java,Cameron Browne,20190604-040336
+M,Library/src/game/equipment/container/board/Board.java,Cameron Browne,20190604-040336
+M,Library/src/game/equipment/container/board/Boardless.java,Cameron Browne,20190604-040336
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,Cameron Browne,20190604-040336
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Cameron Browne,20190604-040336
+M,Library/src/ui/GameView.java,Cameron Browne,20190604-040336
+M,Player/src/mainView/dialog/SettingsDialog.java,Cameron Browne,20190604-040336
+M,Player/src/player/MainMenu.java,Cameron Browne,20190604-040336
+M,Player/src/player/PlayerApp.java,Cameron Browne,20190604-040336
+A,Library/lud/puzzle/Hashi Hex.lud,Cameron Browne,20190604-080844
+M,Library/src/game/equipment/container/board/Boardless.java,Cameron Browne,20190604-080844
+M,Library/src/game/equipment/container/board/tiling/BaseTiling.java,Cameron Browne,20190604-080844
+M,Library/src/game/equipment/container/board/tiling/Hex.java,Cameron Browne,20190604-080844
+D,Library/lud/puzzle/Hashi Hex.lud,Cameron Browne,20190604-081655
+M,Library/src/game/equipment/component/piece/Square.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/puzzleBoard/GraphBoard.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/puzzleBoard/HashiBoard.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/puzzleBoard/KakuroBoard.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/puzzleBoard/PuzzleBoard.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/puzzleBoard/SudokuBoard.java,Matthew.Stephenson,20190604-101832
+M,Library/src/ui/GameView.java,Matthew.Stephenson,20190604-101832
+M,Library/src/game/equipment/container/board/Boardless.java,eric.piette,20190604-102255
+M,Library/src/ui/GameView.java,eric.piette,20190604-102255
