@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="card"
+      class="card file-server-card"
       style="width: 18rem"
       v-for="fileServer in fileServers"
       :key="fileServer._id"
@@ -50,8 +50,7 @@ export default defineComponent({
     },
   },
   mounted() {
-    console.log(this.fileServers.length);
-    if (this.fileServers.length === 0) {
+    if (this.fileServers) {
       this.fetchFileServers();
     }
   },
@@ -65,7 +64,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-.card {
+.file-server-card {
   &:hover {
     border-color: #2c3e50;
     cursor: pointer;

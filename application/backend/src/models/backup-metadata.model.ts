@@ -6,7 +6,7 @@ export interface IBackupMetadata extends Document {
     uniques: [String];
     counts: [Number];
   };
-  data_range: {
+  date_range: {
     earliest_date: Number;
     latest_date: Number;
   };
@@ -23,7 +23,7 @@ export const BackupMetadataSchema = new Schema<IBackupMetadata>({
     uniques: [String],
     counts: [Number],
   },
-  data_range: {
+  date_range: {
     earliest_date: Number,
     latest_date: Number,
   },
@@ -33,7 +33,7 @@ export const BackupMetadataSchema = new Schema<IBackupMetadata>({
   },
   file_server: {
     type: Schema.Types.ObjectId,
-    ref: 'FileServer'
+    ref: "FileServer",
   },
 });
 

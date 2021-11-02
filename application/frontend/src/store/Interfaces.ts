@@ -12,7 +12,7 @@ export interface IBackupMetadata {
     uniques: [string];
     counts: [number];
   };
-  data_range: {
+  date_range: {
     earliest_date: number;
     latest_date: number;
   };

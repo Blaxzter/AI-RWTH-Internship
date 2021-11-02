@@ -23,7 +23,9 @@ class BackupMetadataController implements Controller {
   }
 
   private getBackupMetadata = (req: express.Request, res: express.Response) => {
-    console.log(`Invoked: getBackupMetadata`);
+    console.log(
+      `Invoked: getBackupMetadata query ${JSON.stringify(req.query)}`
+    );
     BackupMetadataModel.find(req.query).then((file_server) => {
       res.send(file_server);
     });
