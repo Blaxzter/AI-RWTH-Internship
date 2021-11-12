@@ -1,3 +1,22 @@
+# [LogEvent2vec: LogEvent-to-Vector Based Anomaly Detection for Large-Scale Logs in Internet of Things](https://www.mdpi.com/1424-8220/20/9/2451)
+
+About vectorization of log data especially in the internet of things realm
+
+Some models - especially Deeplog[44] - require to build their knowledge base form "normal log data" coming from a "normal mode". 
+If such data is not available as one doesn't know if optained data is free from obnormalties then this kind of model is unusable.
+
+
+General approach for feature extraction is to have to original log event parsed into a vector representing the the event itself 
+followed by a transformation to the log sequence vector.
+Log sequence in a regualr sence describes the the region around a log event. 
+In a normal environment which produces log data the time of arival of log data plays an important role.
+
+In the environment of fileserver backup log data, the modification timestamps can be used in a similar way(?) as to order a specific pattern. 
+Depending on the amount of data one can also just use the whole log data. 
+
+## Quotes
+`At first, many statistical features of log event [29,30] are extracted, such as sequence, frequency, surge, seasonality, event ratio, mean inter-arrival time, mean inter-arrival distance, severity spread, and time-interval spread.`
+
 # [A Survey of Outlier Detection Methods in Network Anomaly Identification](https://www.researchgate.net/publication/220459044_A_Survey_of_Outlier_Detection_Methods_in_Network_Anomaly_Identification)
 
 ## Quotes
