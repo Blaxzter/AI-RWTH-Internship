@@ -11,7 +11,7 @@ class DataManager:
 
     def load_data_from_file(self, data_path = './git-test/data'):
         # Load data
-        for file in tqdm(os.listdir(data_path)):
+        for file in tqdm(os.listdir(data_path), desc = "Load files:"):
             with open(f'{data_path}/{file}', 'r') as f:
                 def preprocess(line):
                     line = line.replace('\n', '')

@@ -22,9 +22,9 @@ def create_path_lists(trim_data = -1, add_root = True):
     return training_data
 
 
-def create_path_sets(trim_data = -1, add_root = True):
+def create_path_sets(trim_data = -1, add_root = True, path="../src/git-test/data"):
     data_manager = DataManager(None)
-    data_manager.load_data_from_file("../src/git-test/data")
+    data_manager.load_data_from_file(path)
     # %%
     from src.utils.Constants import name_index
     from tqdm import tqdm
@@ -33,7 +33,7 @@ def create_path_sets(trim_data = -1, add_root = True):
         data = data_manager.getData()
     else:
         data = list(data_manager.getData())[:trim_data]
-    for backup_date, backed_up_files in tqdm(data):
+    for backup_date, backed_up_files in tqdm(data, desc = "Convert to Path-Set:"):
         n_set = []
         for file in backed_up_files:
             path = file[name_index].lower().split('/')

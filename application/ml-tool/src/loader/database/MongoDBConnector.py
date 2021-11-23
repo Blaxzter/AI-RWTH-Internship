@@ -1,5 +1,13 @@
+from dataclasses import asdict
+from typing import Optional
+
 import pymongo
 from pymongo.results import InsertOneResult
+
+from src.Exceptions import ODModelExists
+from src.loader.database.dbmodels.FileServer import FileServer
+from src.loader.database.dbmodels.FileServerModel import FileServerModel
+from src.utils.Utils import dict_factory
 
 
 class MongoDBConnector:
@@ -22,28 +30,32 @@ class MongoDBConnector:
             self.col_file_feature_history
         ]
 
-    def get_file_server_model(self, file_server_id):
-        search_query = dict(file_server_id = file_server_id)
+    def get_file_server_model(self, file_server_id) -> Optional[FileServerModel]:
+        search_query = dict(file_server = file_server_id)
         found_file_server_model = self.col_file_server_model.find_one(search_query)
-        return found_file_server_model
+        if found_file_server_model is None:
+            return None
 
-    def add_file_server_model(self, file_server_id, model):
+        return FileServerModel(**found_file_server_model)
+
+    def add_file_server_model(self, fileServerModel: FileServerModel):
         # Check if file server exists
-        if self.col_file_server.count_documents(dict(file_server_id = file_server_id)) != 0:
-            raise Warning(f"file sever with id {file_server_id} already got a model.")
+        if fileServerModel.id is not None and self.col_file_server.count_documents(
+                dict(file_server_id = fileServerModel.id)) != 0:
+            raise ODModelExists(f"file sever with id {fileServerModel.id} already got a model.")
 
-        insert_query = dict(file_server_id = file_server_id, model = model)
-        return self.col_file_server.insert_one(insert_query)
+        insert_query = asdict(fileServerModel, dict_factory = dict_factory)
+        return self.col_file_server_model.insert_one(insert_query)
 
-    def update_file_server_model(self, file_server_id, model):
-        search_query = dict(file_server_id = file_server_id)
-        update_query = {'$set': dict(model = model)}
+    def update_file_server_model(self, fileServerModel: FileServerModel):
+        search_query = dict(file_server_id = fileServerModel.id)
+        update_query = {'$set': asdict(fileServerModel, dict_factory = dict_factory)}
 
         return self.col_file_server_model.update_one(search_query, update_query)
 
-    def get_file_server_by_name(self, name):
+    def get_file_server_by_name(self, name) -> FileServer:
         found_file_server = self.col_file_server.find_one(dict(name = name))
-        return found_file_server
+        return FileServer(**found_file_server)
 
     def add_file_server(self, name, con, check_schedule):
         # Check if file server exists
@@ -108,7 +120,6 @@ def create_example_server(db_con):
             raise Exception('Some thing went wrong with the file server creation')
 
     return file_server
-
 
 
 if __name__ == '__main__':

@@ -1,15 +1,16 @@
 import itertools
 import string
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import accuracy_score
-from sklearn.svm import OneClassSVM
 from sklearn.preprocessing import StandardScaler
+from sklearn.svm import OneClassSVM
 
 x_group_one = []
 x_group_two = []
 
-data_split = (50, 20)
+data_split = (50, 30)
 
 for i in range(100):
     rand_vec = np.concatenate((
@@ -67,6 +68,7 @@ def count_occurrence(element, comp_vec):
 
 occurrence_vectorized = np.vectorize(count_occurrence, excluded = ['comp_vec'])
 
+
 def precompute(X: np.ndarray, Y: np.ndarray, fit = False):
     gram_matrix = np.ndarray((X.shape[0], Y.shape[0]))
 
@@ -87,7 +89,7 @@ def precompute(X: np.ndarray, Y: np.ndarray, fit = False):
 
 
 clf_name = 'OneClassSVM'
-clf = OneClassSVM(kernel='precomputed', gamma='scale')
+clf = OneClassSVM(kernel = 'precomputed', gamma = 'scale')
 
 scaler = StandardScaler()
 
@@ -99,9 +101,9 @@ clf.fit(gram_matrix)
 test_gram_mat = precompute(X_test, X_train)
 test_gram_mat = scaler.transform(test_gram_mat)
 y_pred = clf.predict(test_gram_mat)
-dec_boundary_mat = np.tile(np.linspace(np.min(gram_matrix), np.max(gram_matrix), 100).reshape(-1, 1), reps=len(X_train))
+dec_boundary_mat = np.tile(np.linspace(np.min(gram_matrix), np.max(gram_matrix), 100).reshape(-1, 1),
+                           reps = len(X_train))
 dec_boundary_pred = clf.predict(dec_boundary_mat)
-
 
 train_dec = clf.decision_function(gram_matrix)
 test_dec = clf.decision_function(test_gram_mat)
@@ -112,20 +114,16 @@ print('accuracy score: %0.3f' % accuracy_score(y_test, y_pred))
 
 fig = plt.figure()
 
-gs = fig.add_gridspec(2,2)
+gs = fig.add_gridspec(2, 2)
 ax1 = fig.add_subplot(gs[0, 0])
 ax2 = fig.add_subplot(gs[0, 1])
 ax3 = fig.add_subplot(gs[1, :])
 
-ax1.bar(range(len(train_dec)), train_dec, color=['blue' if sign == -1 else 'red' for sign in y_train])
-barchart = ax2.bar(range(len(test_dec)), test_dec, color=['blue' if sign == -1 else 'red' for sign in y_test])
+ax1.bar(range(len(train_dec)), train_dec, color = ['blue' if sign == -1 else 'red' for sign in y_train])
+barchart = ax2.bar(range(len(test_dec)), test_dec, color = ['blue' if sign == -1 else 'red' for sign in y_test])
 max_height = max(map(lambda x: x.get_height(), barchart))
 for rect, value in zip(barchart, y_pred):
     ax2.text(rect.get_x() + rect.get_width() / 2., 1.05 * max_height, '%d' % int(value), ha = 'center', va = 'bottom')
 
-ax3.bar(range(len(dec_boundary)), dec_boundary, color=['blue' if sign == -1 else 'red' for sign in dec_boundary_pred])
+ax3.bar(range(len(dec_boundary)), dec_boundary, color = ['blue' if sign == -1 else 'red' for sign in dec_boundary_pred])
 plt.show()
-
-
-
-
