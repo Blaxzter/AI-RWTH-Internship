@@ -53,6 +53,8 @@ class PathOCSVM:
 
         test_dec = self.svm.decision_function(transformed_test_gram_matrix)
 
+        test_dec[-1 < test_dec < 1] = 1
+
         return 1 - (1 / np.sqrt(np.abs(test_dec)))
 
     def preprocess(self, path_sets = None):

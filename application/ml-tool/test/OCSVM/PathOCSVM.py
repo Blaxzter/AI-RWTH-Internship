@@ -1,5 +1,3 @@
-import numpy as np
-import pandas as pd
 from matplotlib import pyplot as plt
 from tqdm.auto import tqdm
 
@@ -33,10 +31,9 @@ if __name__ == '__main__':
     else:
         path_ocsvm.load_stored_model(file_server_model)
 
-
     res = []
-    for test_set in tqdm(test_sets):
+    for i, test_set in tqdm(enumerate(test_sets), desc = "Test Path:", total = len(test_sets)):
         res.append(path_ocsvm.predict([test_set]))
 
-    _, bins = pd.cut(res, bins = len(res), retbins = True)
-    plt.hist(res, bins)
+    plt.bar(list(range(len(res))), list(map(lambda x: x.item(), res)))
+    plt.show()
