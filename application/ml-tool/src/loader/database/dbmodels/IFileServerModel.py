@@ -5,7 +5,7 @@ from bson import ObjectId
 
 
 @dataclass
-class FileServerModel:
+class IFileServerModel:
     """Mongo db file server model data model."""
     svm: Dict
     file_server: ObjectId

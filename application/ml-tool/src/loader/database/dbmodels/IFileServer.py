@@ -4,7 +4,7 @@ from bson import ObjectId
 
 
 @dataclass
-class FileServer:
+class IFileServer:
     """Mongo db file server data model."""
     _id: ObjectId
     con: str

@@ -3,7 +3,7 @@ from tqdm.auto import tqdm
 
 from src.Exceptions import ODModelExists
 from src.loader.database.MongoDBConnector import MongoDBConnector
-from src.loader.database.dbmodels.FileServerModel import FileServerModel
+from src.loader.database.dbmodels.IFileServerModel import IFileServerModel
 from src.od.PathOcsvm import PathOCSVM
 from src.utils.Constants import test_file_server_name
 from test.TestUtils import create_path_sets
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     path_ocsvm = PathOCSVM(path_sets = train_sets)
     if file_server_model is None:
         path_ocsvm.fit()
-        file_server_model = FileServerModel(file_server = file_server.id, svm = path_ocsvm.get_stored_model())
+        file_server_model = IFileServerModel(file_server = file_server.id, svm = path_ocsvm.get_stored_model())
         try:
             db.add_file_server_model(file_server_model)
         except ODModelExists:

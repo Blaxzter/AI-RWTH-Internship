@@ -6,7 +6,7 @@ from bson import ObjectId
 
 
 @dataclass
-class BackupMetaData:
+class IBackupMetaData:
     """Mongo db backup meta data, data model."""
     _id: ObjectId
     backed_up_amount: int

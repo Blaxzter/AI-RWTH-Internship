@@ -17,9 +17,6 @@ if __name__ == '__main__':
 
     for backup_date, backed_up_files in tqdm(data_manager.getData()):
 
-        current_file_server = db.get_file_server_by_name(test_file_server_name)
-
-        file_database = db.get_file_data_as_list(current_file_server['_id'])
 
         file_features, backup_meta_data = parse_feature_data(backed_up_files, file_database)
         vectorization = vectorize(file_features, backup_meta_data)

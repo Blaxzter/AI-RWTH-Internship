@@ -8,3 +8,7 @@ class OCSVMNotTrained(Exception):
 
 class ODModelExists(Exception):
     pass
+
+
+class FileServerDoesntExists(Exception):
+    pass

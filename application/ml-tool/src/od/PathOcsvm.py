@@ -11,7 +11,7 @@ import math
 from src.Exceptions import DataNotLoaded, OCSVMNotTrained
 import pickle
 
-from src.loader.database.dbmodels.FileServerModel import FileServerModel
+from src.loader.database.dbmodels.IFileServerModel import IFileServerModel
 
 
 class PathOCSVM:
@@ -112,7 +112,7 @@ class PathOCSVM:
             vocab = self.vocab
         )
 
-    def load_stored_model(self, fileServerModel: FileServerModel):
+    def load_stored_model(self, fileServerModel: IFileServerModel):
         stored_svm = fileServerModel.svm
 
         svm = stored_svm['svm']
