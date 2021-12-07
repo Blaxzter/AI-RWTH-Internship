@@ -41,7 +41,6 @@ def createFilePathGraph():
     # %%
     from src.utils.Constants import name_index
     from tqdm import tqdm
-    labeldict = {}
     file_graph = Graph()
     file_graph.add_node(node_for_adding = 'root')
     for backup_date, backed_up_files in tqdm(list(data_manager.getData())[:10]):
@@ -51,19 +50,21 @@ def createFilePathGraph():
             if len(path[0]) == 0:
                 path.pop(0)
 
-            file_graph.add_node(path[0])
-            file_graph.add_edge('root', path[0])
+            prev_node = path[0]
+            file_graph.add_node(prev_node)
+            file_graph.add_edge('root', prev_node)
 
-            for index in range(1, len(path)):
+            for index in range(2, len(path) + 1):
                 next_node_id = '/'.join(path[:index])
-                labeldict[next_node_id] = path[index]
                 file_graph.add_node(next_node_id)
-                file_graph.add_edge('/'.join(path[:index - 1]), next_node_id)
+                file_graph.add_edge(prev_node, next_node_id)
+                prev_node = next_node_id
     # %%
     app = Viewer(file_graph)
     app.mainloop()
 
 
+# Todo mention path embeddings from random walks using RNN or LSTM or Transformere
 def create_vectors_from_random_walks():
     skipgram_model = Word2Vec(window = 4, sg = 1, hs = 0, negative = 10, alpha = .03, min_alpha = .0007, seed = 14, min_count=1)
     training_data, grammer = create_path_lists(300)

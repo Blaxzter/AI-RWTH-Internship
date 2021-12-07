@@ -12,3 +12,6 @@ class ODModelExists(Exception):
 
 class FileServerDoesntExists(Exception):
     pass
+
+class FeatureNotCalculated(Exception):
+    pass
