@@ -1,6 +1,12 @@
 from src.loader.DataManager import DataManager
 
 
+def load_data(path = "../src/git-test/data", trim_data = -1):
+    data_manager = DataManager(None)
+    data_manager.load_data_from_file(path, trim_data)
+    return data_manager
+
+
 def create_path_lists(trim_data = -1, add_root = True):
     data_manager = DataManager(None)
     data_manager.load_data_from_file("../src/git-test/data")
@@ -9,9 +15,9 @@ def create_path_lists(trim_data = -1, add_root = True):
     from tqdm import tqdm
     training_data = []
     if trim_data == -1:
-        data = data_manager.getData()
+        data = data_manager.get_data()
     else:
-        data = list(data_manager.getData())[:trim_data]
+        data = list(data_manager.get_data())[:trim_data]
     for backup_date, backed_up_files in tqdm(data):
         for file in backed_up_files:
             path = file[name_index].lower().split('/')
@@ -22,7 +28,7 @@ def create_path_lists(trim_data = -1, add_root = True):
     return training_data
 
 
-def create_path_sets(trim_data = -1, add_root = True, path="../src/git-test/data"):
+def create_path_sets(trim_data = -1, add_root = True, path = "../src/git-test/data"):
     data_manager = DataManager(None)
     data_manager.load_data_from_file(path)
     # %%
@@ -30,9 +36,9 @@ def create_path_sets(trim_data = -1, add_root = True, path="../src/git-test/data
     from tqdm import tqdm
     training_data = []
     if trim_data == -1:
-        data = data_manager.getData()
+        data = data_manager.get_data()
     else:
-        data = list(data_manager.getData())[:trim_data]
+        data = list(data_manager.get_data())[:trim_data]
     for backup_date, backed_up_files in tqdm(data, desc = "Convert to Path-Set:"):
         n_set = []
         for file in backed_up_files:
@@ -43,6 +49,7 @@ def create_path_sets(trim_data = -1, add_root = True, path="../src/git-test/data
         training_data.append(n_set)
 
     return training_data
+
 
 def get_path_indexed_path_element(path_list, element_idx = -1):
     vocabulary = []

@@ -23,7 +23,7 @@ if __name__ == "__main__":
     contamination = 0.1  # percentage of outliers
     n_train = 20000  # number of training points
     n_test = 2000  # number of testing points
-    n_features = 300  # number of features
+    n_features = 300  # number of metadata_features
     use_ae = False # hyperparameter for use ae architecture instead of simple NN
     random_state = 10 # if C is set to None use random_state
     # Generate sample data

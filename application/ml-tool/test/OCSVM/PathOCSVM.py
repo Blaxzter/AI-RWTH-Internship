@@ -23,7 +23,7 @@ if __name__ == '__main__':
     path_ocsvm = PathOCSVM(path_sets = train_sets)
     if file_server_model is None:
         path_ocsvm.fit()
-        file_server_model = IFileServerModel(file_server = file_server.id, svm = path_ocsvm.get_stored_model())
+        file_server_model = IFileServerModel(file_server = file_server.id, path_ocsvm = path_ocsvm.get_stored_model())
         try:
             db.add_file_server_model(file_server_model)
         except ODModelExists:

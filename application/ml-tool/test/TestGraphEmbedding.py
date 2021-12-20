@@ -43,7 +43,7 @@ def createFilePathGraph():
     from tqdm import tqdm
     file_graph = Graph()
     file_graph.add_node(node_for_adding = 'root')
-    for backup_date, backed_up_files in tqdm(list(data_manager.getData())[:10]):
+    for backup_date, backed_up_files in tqdm(list(data_manager.get_data())[:10]):
         for file in backed_up_files:
             path = file[name_index].split('/')
 

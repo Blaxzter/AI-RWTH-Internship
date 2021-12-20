@@ -1,15 +1,8 @@
-import time
-
-import numpy as np
 from dateutil.parser import parse
 from pyod.models.copod import COPOD
 from pyod.models.iforest import IForest
 from pyod.models.lof import LOF
 from pyod.models.suod import SUOD
-from sklearn import preprocessing
-
-from src.loader.FileDatabase import FileDatabase
-from src.utils.Constants import action_index, date_index
 
 class FileFeatureModel:
 

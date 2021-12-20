@@ -9,6 +9,10 @@ min_feature_name = 'min_feature'
 max_feature_name = 'max_feature'
 avg_feature_name = 'avg_feature'
 
+action_rename = 'R'
+action_deleted = 'D'
+action_modified = 'M'
+action_added = 'A'
 
 def feature_dict_factory():
     return dict(

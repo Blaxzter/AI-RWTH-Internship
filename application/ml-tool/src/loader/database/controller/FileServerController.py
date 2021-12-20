@@ -7,7 +7,7 @@ class FileServerController:
 
     def __init__(self, db):
         self.db = db
-        self.col = db.col_file_server
+        self.col = db.collections['col_file_server']
 
     def get_file_server_by_name(self, name) -> Optional[IFileServer]:
         found_file_server = self.col.find_one(dict(name = name))

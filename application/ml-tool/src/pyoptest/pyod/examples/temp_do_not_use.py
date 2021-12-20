@@ -48,7 +48,7 @@ class PyODDataset(torch.utils.data.Dataset):
 contamination = 0.1  # percentage of outliers
 n_train = 20000  # number of training points
 n_test = 2000  # number of testing points
-n_features = 200  # number of features
+n_features = 200  # number of metadata_features
 
 # Generate sample data
 X_train, y_train, X_test, y_test = \

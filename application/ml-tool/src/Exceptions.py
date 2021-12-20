@@ -15,3 +15,6 @@ class FileServerDoesntExists(Exception):
 
 class FeatureNotCalculated(Exception):
     pass
+
+class NotInitializedException(Exception):
+    pass

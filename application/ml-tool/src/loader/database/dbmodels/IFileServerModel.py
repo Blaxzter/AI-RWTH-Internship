@@ -7,10 +7,10 @@ from bson import ObjectId
 @dataclass
 class IFileServerModel:
     """Mongo db file server model data model."""
-    svm: Dict
-    file_server: ObjectId
     _id: ObjectId = None
-    od_model: str = None
+    file_server: ObjectId = None
+    path_ocsvm: Dict = None
+    meta_data_model: Dict = None
 
     @property
     def id(self):
