@@ -28,10 +28,11 @@ class UserFeatures:
         self.max_file_per_user = counts.max()
         self.avg_file_per_user = np.average(counts)
 
-        if self.data_base is not None:
+        if self.data_base is not None and self.data_base.size != 0:
             for file_data in backup_data:
                 file_node = self.data_base[file_data[Constants.name_index]]
-                self.changed_user += 1 if file_node.user == file_data[Constants.user_index] else 0
+                if file_node is not None:
+                    self.changed_user += 1 if file_node.user != file_data[Constants.user_index] else 0
 
         self.features_calculated = True
 

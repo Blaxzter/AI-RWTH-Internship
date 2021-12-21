@@ -17,10 +17,10 @@ class FileTreeDatabase:
         self.root_node = Node('root')
 
         if backup_data is not None:
-            self.create_graph(backup_data)
+            self.add_backup_data(backup_data)
             return
 
-    def create_graph(self, backup_data):
+    def add_backup_data(self, backup_data):
         for backup_instance in backup_data:
             self.add_backup_instance(backup_instance)
 

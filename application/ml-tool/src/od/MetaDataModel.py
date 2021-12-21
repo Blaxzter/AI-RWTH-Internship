@@ -28,13 +28,13 @@ class MetaDataModel:
         self.path_separator = path_separator
 
         self.truncate_train_data = truncate_train_data
-        self.feature_amount = 10
+        self.feature_amount = -1
 
         self.initialized = False
 
         self.prev_action_data = None
         self.prev_file_tree = None
-        self.file_database = None
+        self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
 
         self.feature_extractors = None
         self.feature_list = None
@@ -50,22 +50,24 @@ class MetaDataModel:
             self.prev_action_data = stored_data['action_data']
 
             prev_file_tree_json = stored_data['file_tree']
-            self.prev_file_tree = FileTreeDatabase(self.path_separator)
+            self.prev_file_tree = FileTreeDatabase(path_separator = self.path_separator)
             self.prev_file_tree.load_from_string(prev_file_tree_json)
 
             file_database_json = stored_data['file_database']
-            self.file_database = FileTreeDatabase(self.path_separator)
+            self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
             self.file_database.load_from_string(file_database_json)
 
             self.feature_extractors = self.create_feature_extractors(
                 self.prev_file_tree, self.prev_action_data, self.file_database, self.path_separator
             )
             self.feature_list = self.get_feature_dict()
+            self.feature_scalers = pickle.loads(stored_data['feature_scalers'])
         else:
             self.feature_extractors = self.create_feature_extractors(
                 None, None, None, self.path_separator
             )
             self.feature_list = self.get_feature_dict()
+            self.feature_scalers = {feature_name: StandardScaler() for feature_name in self.feature_list.keys()}
             # initialized a group of outlier detectors for acceleration
             detector_list = [LOF(n_neighbors = 15), LOF(n_neighbors = 20),
                              HBOS(n_bins = 10), HBOS(n_bins = 20),
@@ -73,9 +75,9 @@ class MetaDataModel:
                              IForest(n_estimators = 100),
                              IForest(n_estimators = 150)]
             # https://www.andrew.cmu.edu/user/yuezhao2/papers/21-mlsys-suod.pdf
-            self.clf = SUOD(base_estimators = detector_list, n_jobs = 2, combination = 'average', verbose = False)
+            self.clf = SUOD(base_estimators = detector_list, n_jobs = 1, combination = 'average', verbose = False)
 
-        self.feature_scalers = {feature_name: StandardScaler() for feature_name in self.feature_list.keys()}
+        self.feature_amount = len(self.feature_list)
         self.initialized = True
 
     def fit(self, backup_data_list):
@@ -104,6 +106,8 @@ class MetaDataModel:
             train_matrix = self.vectorise(meta_data_feature_list = self.trained_features, train = True)
             self.clf.fit(train_matrix)
 
+            self.file_database.add_backup_data(backup_data)
+
         if ret_backup_features:
             return desc_boundary, backup_features
         else:
@@ -120,23 +124,25 @@ class MetaDataModel:
                 else:
                     # Assume that the scaler are fitted as they are previously scaled
                     feature_scaler = self.feature_scalers.get(name)
-                    scaled_feature = feature_scaler.transform(feature)
-                    data_array.append(scaled_feature)
+                    to_transform = np.asarray([[feature]])
+                    scaled_feature = feature_scaler.transform(to_transform)
+                    data_array.append(scaled_feature.item())
 
             data_matrix[idx] = np.asarray(data_array)
 
         if train:
             # Go over each feature type and use a different scaler to scale independently
-            for idx, scaler in enumerate(self.feature_scalers):
+            for idx, (scaler_name, scaler) in enumerate(self.feature_scalers.items()):
                 feature_data = data_matrix[:, idx]
+                feature_data = feature_data.reshape(-1, 1)
                 scaler.fit(feature_data)
-                data_matrix[:, idx] = scaler.transform(feature_data)
+                data_matrix[:, idx] = scaler.transform(feature_data).flatten()
 
         return data_matrix
 
     def parse_features_of_list(self, backup_data_list):
 
-        self.file_database = FileTreeDatabase()
+        self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
 
         self.feature_extractors = self.create_feature_extractors(None, None, self.file_database, self.path_separator)
         self.feature_list = self.get_feature_dict()
@@ -155,6 +161,7 @@ class MetaDataModel:
             }
 
             prev_file_tree = FileTreeDatabase(backup_data)
+            self.file_database.add_backup_data(backup_data)
 
             self.feature_extractors = self.create_feature_extractors(
                 prev_file_tree, prev_action_data, self.file_database, self.path_separator
@@ -200,7 +207,7 @@ class MetaDataModel:
             action_features = ActionFeatures(prev_action_data),
             date_features = DateFeatures(),
             path_features = PathFeatures(prev_file_tree, file_database, path_separator = path_separator),
-            user_features = UserFeatures(prev_file_tree)
+            user_features = UserFeatures(file_database)
         )
 
     def get_feature_dict(self) -> Dict[str, Callable]:
