@@ -24,5 +24,5 @@ if __name__ == '__main__':
         data_manager.get_value_by_index(1),
     ])
 
-    for backup_date, backed_up_files in tqdm(data_manager.iterate_from(2)):
+    for backup_date, backed_up_files in tqdm(data_manager.iterate_from(2), total = len(data_manager)):
             ret_data = file_server_model.predict(backed_up_files, continues_training = True, ret_backup_features = True)

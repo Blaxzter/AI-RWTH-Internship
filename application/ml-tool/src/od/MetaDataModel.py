@@ -18,6 +18,7 @@ from src.od.metadata_features.PathFeatures import PathFeatures
 from src.od.metadata_features.UserFeatures import UserFeatures
 from src.od.searchutils.FileTreeDatabase import FileTreeDatabase
 from src.utils import Constants
+from src.utils.Utils import suppressOutput
 
 
 class MetaDataModel:
@@ -75,7 +76,7 @@ class MetaDataModel:
                              IForest(n_estimators = 100),
                              IForest(n_estimators = 150)]
             # https://www.andrew.cmu.edu/user/yuezhao2/papers/21-mlsys-suod.pdf
-            self.clf = SUOD(base_estimators = detector_list, n_jobs = 1, combination = 'average', verbose = False)
+            self.clf = SUOD(base_estimators = detector_list, n_jobs = 1, combination = 'average', verbose = 0)
 
         self.feature_amount = len(self.feature_list)
         self.initialized = True

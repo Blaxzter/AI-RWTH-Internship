@@ -48,6 +48,9 @@ class DataManager:
             file_data_list = file_features
         )
 
+    def __len__(self):
+        return len(self.sorted_key_list)
+
     def __getitem__(self, index):
         """
         Get the data from the loaded data
