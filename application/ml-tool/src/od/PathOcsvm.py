@@ -1,4 +1,5 @@
 import itertools
+from typing import Optional, Dict
 
 import numpy as np
 import scipy
@@ -8,31 +9,54 @@ from tqdm.auto import tqdm
 
 import math
 
-from src.Exceptions import DataNotLoaded, OCSVMNotTrained
+from src.Exceptions import DataNotLoaded, OCSVMNotTrained, NotInitializedException
 import pickle
 
 from src.loader.database.dbmodels.IFileServerModel import IFileServerModel
+from src.utils import Constants
 
 
 class PathOCSVM:
-    def __init__(self, path_sets = None, data_index = -2):
+    def __init__(self, path_separator = "/", data_index = -2):
         self.occurrence_vectorized = np.vectorize(PathOCSVM.count_occurrence, excluded = ['comp_vec'])
-        self.path_sets = path_sets
         self.train_sets = []
 
         # Elements that are stored in the data base per file server basis
         self.vocab = []
-        self.svm = OneClassSVM(kernel = 'precomputed', gamma = 'scale', verbose= True)
-        self.scaler = MinMaxScaler()
+        self.svm = None
+        self.scaler = None
         self.train_matrix = None
 
         # The data index describes which element of the path to use in the classification
+        self.path_separator = path_separator
         self.data_index = data_index
-        pass
+        self.initialized = False
 
-    def fit(self):
+    def initialize_model(self, stored_data: Optional[Dict] = None):
+        if stored_data:
+            svm = stored_data['svm']
+            scaler = stored_data['scaler']
+            train_matrix = stored_data['train_matrix']
+            vocab = stored_data['vocab']
+
+            self.svm = pickle.loads(svm)
+            self.scaler = pickle.loads(scaler)
+            self.train_matrix = list(map(lambda x: np.asarray(x), train_matrix))
+            self.vocab = vocab
+        else:
+            self.svm = OneClassSVM(kernel = 'precomputed', gamma = 'scale', verbose = True)
+            self.scaler = MinMaxScaler()
+
+        self.initialized = True
+
+    def fit(self, backup_data_list):
+        if not self.initialized:
+            raise NotInitializedException('The meta data model is not initialized')
+
+        path_sets = list(list(map(lambda x: x[Constants.name_index], backup_data)) for backup_data in backup_data_list)
+
         # todo this step should not be necessary every time only on "retrain"
-        self.train_sets = self.preprocess()
+        self.train_sets = self.preprocess(path_sets)
         self.calculate_vocab()
 
         self.train_matrix = self.data_index_transformation()
@@ -41,11 +65,16 @@ class PathOCSVM:
         transformed_train_gram_matrix = self.scaler.transform(train_gram_matrix)
         self.svm.fit(transformed_train_gram_matrix)
 
-    def predict(self, test_data = None):
+    def predict(self, test_backup_data = None):
+        if not self.initialized:
+            raise NotInitializedException('The meta data model is not initialized')
+
         if self.train_matrix is None:
             raise OCSVMNotTrained("OCSVM is not trained. \nEither Load data or train.")
 
-        test_set = self.preprocess(test_data)
+        test_path_sets = list(map(lambda x: x[Constants.name_index], test_backup_data))
+
+        test_set = self.preprocess(test_path_sets)
         self.calculate_vocab(test_set)
         test_matrix = self.data_index_transformation(test_set)
         test_gram_matrix = self.precompute(test_matrix, self.train_matrix)
@@ -57,23 +86,24 @@ class PathOCSVM:
 
         return 1 - (1 / np.sqrt(np.abs(test_dec)))
 
-    def preprocess(self, path_sets = None):
-        # Check which parameter to use
-        if path_sets is None:
-            path_sets = self.path_sets
+    def preprocess(self, path_lists = None):
 
         # Check if there is data available
-        if path_sets is None:
+        if path_lists is None or len(path_lists) == 0:
             raise DataNotLoaded('Path sets are empty')
 
         data_sets = []
 
         # Get the specific path index given through data index
-        for path_set in path_sets:
+        for paths in path_lists:
             folder_set = []
-            for path in path_set:
+            for path in paths:
+                path_set = path.split(self.path_separator)
                 # todo think about what happens when the index is out of range
-                folder_set.append(path[self.data_index])
+                if len(path_set) < -self.data_index:
+                    folder_set.append('root')
+                else:
+                    folder_set.append(path_set[self.data_index])
 
             folder_set = np.asarray(folder_set)
             data_sets.append(folder_set)
@@ -111,19 +141,6 @@ class PathOCSVM:
             train_matrix = list(map(lambda x: x.tolist(), self.train_matrix)),
             vocab = self.vocab
         )
-
-    def load_stored_model(self, fileServerModel: IFileServerModel):
-        stored_svm = fileServerModel.svm
-
-        svm = stored_svm['svm']
-        scaler = stored_svm['scaler']
-        train_matrix = stored_svm['train_matrix']
-        vocab = stored_svm['vocab']
-
-        self.svm = pickle.loads(svm)
-        self.scaler = pickle.loads(scaler)
-        self.train_matrix = list(map(lambda x: np.asarray(x), train_matrix))
-        self.vocab = vocab
 
     @staticmethod
     def count_occurrence(element, comp_vec):

@@ -1,12 +1,14 @@
 import numpy as np
 
 from src.Exceptions import FeatureNotCalculated
+from src.od.metadata_features.IFeatureExtractor import IFeatureExtractor
 from src.utils import Constants
 
 
-class ActionFeatures:
+class ActionFeatures(IFeatureExtractor):
     def __init__(self, prev_backup_actions = None):
 
+        super().__init__()
         self.prev_backup_actions = prev_backup_actions
 
         self.rename_amount = 0
@@ -19,7 +21,18 @@ class ActionFeatures:
         self.modified_delta = 0
         self.added_delta = 0
 
-        self.features_calculated = False
+    def get_feature_list(self):
+        return dict(
+            # Action feature
+            rename_amount = self.get_rename_amount_feature,
+            rename_delta = self.get_rename_delta_feature,
+            delete_amount = self.get_deleted_amount_feature,
+            delete_delta = self.get_deleted_delta_feature,
+            added_amount = self.get_added_amount_feature,
+            added_delta = self.get_added_delta_feature,
+            modified_amount = self.get_modified_amount_feature,
+            modified_delta = self.get_modified_delta_feature,
+        )
 
     def calc_features(self, backup_data):
         # Get the paths from the feature list

@@ -21,6 +21,16 @@ class DateFeatures:
         self.unix_date_scaler = MinMaxScaler()
         self.features_calculated = False
 
+    def get_feature_list(self) -> dict:
+        return dict(
+            # Date Feature (Subtracted date day from days)
+            start_time = self.get_start_time_feature,
+            end_time = self.get_end_time_feature,
+            time_range = self.get_time_range_feature,
+            time_standard_deviation = self.get_time_standard_deviation_feature,
+            time_avg = self.get_time_avg_feature,
+        )
+
     def calc_features(self, backup_data):
         # Parse every date to an date object
         access_dates_list = list(

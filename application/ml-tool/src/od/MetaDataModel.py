@@ -1,4 +1,5 @@
 import pickle
+from functools import reduce
 from typing import Dict, List, Callable, Optional
 
 import numpy as np
@@ -10,7 +11,7 @@ from pyod.models.suod import SUOD
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
 
-from src.Exceptions import NotInitializedException
+from src.Exceptions import NotInitializedException, FeatureAlreadyDefined
 from src.od.metadata_features.ActionFeatures import ActionFeatures
 from src.od.metadata_features.DateFeatures import DateFeatures
 from src.od.metadata_features.GeneralFeatures import GeneralFeatures
@@ -81,19 +82,31 @@ class MetaDataModel:
         self.feature_amount = len(self.feature_list)
         self.initialized = True
 
-    def fit(self, backup_data_list):
+    def get_stored_model(self):
+        return dict(
+            model = pickle.dumps(self.clf),
+            trained_features = self.trained_features,
+            feature_scalers = pickle.dumps(self.feature_scalers)
+        )
+
+    def fit(self, backup_data_list, ret_features = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
-        backup_features = self.parse_features_of_list(backup_data_list)
-        self.trained_features = backup_features
-        train_matrix = self.vectorise(meta_data_feature_list = backup_features, train = True)
+        processed_backup_data = self.parse_features_of_list(backup_data_list, ret_features)
+        parsed_features = list(map(lambda x: x['feature'], processed_backup_data))
+        self.trained_features = parsed_features
+        train_matrix = self.vectorise(meta_data_feature_list = parsed_features, train = True)
         self.clf.fit(train_matrix)
 
-    def predict(self, backup_data, add_to_model = False, ret_backup_features = True):
+        if ret_features:
+            return processed_backup_data
+
+    def predict(self, backup_data, prev_backup_data, add_to_model = False, ret_backup_metadata = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
+        self.prepare_next_prediction(prev_backup_data)
         backup_features = self.parse_features(backup_data)
         test_matrix = self.vectorise([backup_features], train = False)
         desc_boundary = self.clf.decision_function(test_matrix)
@@ -106,13 +119,32 @@ class MetaDataModel:
                 pass
             train_matrix = self.vectorise(meta_data_feature_list = self.trained_features, train = True)
             self.clf.fit(train_matrix)
-
             self.file_database.add_backup_data(backup_data)
 
-        if ret_backup_features:
-            return desc_boundary, backup_features
+        if ret_backup_metadata:
+            backup_metadata = dict(
+                feature = backup_features,
+                prev_action_data = {
+                    Constants.action_rename: backup_features['rename_amount'],
+                    Constants.action_deleted: backup_features['delete_amount'],
+                    Constants.action_added: backup_features['added_amount'],
+                    Constants.action_modified: backup_features['modified_amount'],
+                },
+                prev_file_data = FileTreeDatabase(backup_data).get_storable_elements()
+            )
+            return desc_boundary, backup_metadata
         else:
             return desc_boundary
+
+    def prepare_next_prediction(self, prev_backup_metadata):
+        prev_action_data = prev_backup_metadata['prev_action_data']
+        prev_file_tree = FileTreeDatabase(path_separator = self.path_separator)
+        prev_file_tree.load_from_string(prev_backup_metadata['prev_file_data'])
+
+        self.feature_extractors = self.create_feature_extractors(
+            prev_file_tree, prev_action_data, self.file_database, self.path_separator
+        )
+        self.feature_list = self.get_feature_dict()
 
     def vectorise(self, meta_data_feature_list: List[Dict], train = False):
         data_matrix = np.zeros((len(meta_data_feature_list), self.feature_amount))
@@ -141,7 +173,7 @@ class MetaDataModel:
 
         return data_matrix
 
-    def parse_features_of_list(self, backup_data_list):
+    def parse_features_of_list(self, backup_data_list, keep_prev_file_tree = True):
 
         self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
 
@@ -150,8 +182,9 @@ class MetaDataModel:
 
         ret_feature_list = []
         for backup_data in backup_data_list:
+            ret_data = dict()
             current_feature_data = self.parse_features(backup_data)
-            ret_feature_list.append(current_feature_data)
+            ret_data['feature'] = current_feature_data
 
             # Do stuff for next cycle
             prev_action_data = {
@@ -161,13 +194,19 @@ class MetaDataModel:
                 Constants.action_modified: current_feature_data['modified_amount'],
             }
 
+            ret_data['prev_action_data'] = prev_action_data
+
             prev_file_tree = FileTreeDatabase(backup_data)
             self.file_database.add_backup_data(backup_data)
+            if keep_prev_file_tree:
+                ret_data['prev_file_data'] = prev_file_tree.get_storable_elements()
 
             self.feature_extractors = self.create_feature_extractors(
                 prev_file_tree, prev_action_data, self.file_database, self.path_separator
             )
             self.feature_list = self.get_feature_dict()
+
+            ret_feature_list.append(ret_data)
 
         return ret_feature_list
 
@@ -185,6 +224,12 @@ class MetaDataModel:
             feature_dict[feature] = getter_function()
 
         return feature_dict
+
+    def get_file_database(self):
+        return self.file_database
+
+    def get_file_database_as_string(self):
+        return self.file_database.get_storable_elements()
 
     def general_feature_extractor(self):
         return self.feature_extractors['general_features']
@@ -212,47 +257,11 @@ class MetaDataModel:
         )
 
     def get_feature_dict(self) -> Dict[str, Callable]:
-        return dict(
-            # General features
-            amount = self.general_feature_extractor().get_amount_feature,
-            amount_delta = self.general_feature_extractor().get_delta_amount_feature,
+        ret_dict = dict()
+        for feature_dict in list(map(lambda x: x.get_feature_list(), self.feature_extractors.values())):
+            for key, callback in feature_dict.items():
+                if key in ret_dict:
+                    raise FeatureAlreadyDefined(f'The feature {key} was already defined. ')
+                ret_dict[key] = callback
 
-            # Action feature
-            rename_amount = self.action_feature_extractor().get_rename_amount_feature,
-            rename_delta = self.action_feature_extractor().get_rename_delta_feature,
-            delete_amount = self.action_feature_extractor().get_deleted_amount_feature,
-            delete_delta = self.action_feature_extractor().get_deleted_delta_feature,
-            added_amount = self.action_feature_extractor().get_added_amount_feature,
-            added_delta = self.action_feature_extractor().get_added_delta_feature,
-            modified_amount = self.action_feature_extractor().get_modified_amount_feature,
-            modified_delta = self.action_feature_extractor().get_modified_delta_feature,
-
-            # Date Feature (Subtracted date day from days)
-            start_time = self.date_feature_extractor().get_start_time_feature,
-            end_time = self.date_feature_extractor().get_end_time_feature,
-            time_range = self.date_feature_extractor().get_time_range_feature,
-            time_standard_deviation = self.date_feature_extractor().get_time_standard_deviation_feature,
-            time_avg = self.date_feature_extractor().get_time_avg_feature,
-
-            # Path features
-            min_path_length = self.path_feature_extractor().get_min_path_length_feature,
-            max_path_length = self.path_feature_extractor().get_max_path_length_feature,
-            avg_path_length = self.path_feature_extractor().get_avg_path_length_feature,
-            min_branching_factor = self.path_feature_extractor().get_min_branching_factor_feature,
-            max_branching_factor = self.path_feature_extractor().get_max_branching_factor_feature,
-            avg_branching_factor = self.path_feature_extractor().get_avg_branching_factor_feature,
-
-            # Folder / Files
-            diff_folders_amount = self.path_feature_extractor().get_diff_folders_amount_feature,
-            amount_type_endings = self.path_feature_extractor().get_amount_type_endings_feature,
-            avg_file_ending_amounts = self.path_feature_extractor().get_avg_file_ending_amounts_feature,
-            amount_not_previously_stored = self.path_feature_extractor().get_amount_not_previously_stored_feature,
-            cross_section = self.path_feature_extractor().get_cross_section_feature,
-
-            # User
-            amount_users = self.user_feature_extractor().get_amount_users_feature,
-            changed_user = self.user_feature_extractor().get_changed_user_feature,
-            avg_file_per_user = self.user_feature_extractor().get_avg_file_per_user_feature,
-            min_file_per_user = self.user_feature_extractor().get_min_file_per_user_feature,
-            max_file_per_user = self.user_feature_extractor().get_max_file_per_user_feature,
-        )
+        return ret_dict

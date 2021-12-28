@@ -13,8 +13,14 @@ class ODModelExists(Exception):
 class FileServerDoesntExists(Exception):
     pass
 
+
 class FeatureNotCalculated(Exception):
     pass
 
+
 class NotInitializedException(Exception):
+    pass
+
+
+class FeatureAlreadyDefined(Exception):
     pass

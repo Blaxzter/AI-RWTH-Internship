@@ -2,16 +2,15 @@ import numpy as np
 from networkx import Graph
 
 from src.Exceptions import FeatureNotCalculated
+from src.od.metadata_features.IFeatureExtractor import IFeatureExtractor
 from src.od.searchutils.FileTreeDatabase import FileTreeDatabase
 from src.utils.Constants import name_index, min_feature_name, avg_feature_name, max_feature_name, feature_dict_factory
 
 
-class PathFeatures:
-    def __init__(self,
-                 prev_backup: FileTreeDatabase = None,
-                 data_base: FileTreeDatabase = None,
-                 path_separator = '/'):
+class PathFeatures(IFeatureExtractor):
+    def __init__(self, prev_backup: FileTreeDatabase = None, data_base: FileTreeDatabase = None, path_separator = '/'):
 
+        super().__init__()
         self.prev_backup = prev_backup
         self.path_separator = path_separator
         self.data_base = data_base
@@ -22,7 +21,6 @@ class PathFeatures:
         self.file_graph.add_node(node_for_adding = 'root')
 
         # Features
-        self.features_calculated = False
         self.branching_factor_feature = feature_dict_factory()
         self.path_length_feature = feature_dict_factory()
 
@@ -31,6 +29,24 @@ class PathFeatures:
         self.amount_not_previously_stored = 0
         self.cross_section = 0
         self.diff_folders_amount = 0
+
+    def get_feature_list(self) -> dict:
+        return dict(
+            # Path features
+            min_path_length = self.get_min_path_length_feature,
+            max_path_length = self.get_max_path_length_feature,
+            avg_path_length = self.get_avg_path_length_feature,
+            min_branching_factor = self.get_min_branching_factor_feature,
+            max_branching_factor = self.get_max_branching_factor_feature,
+            avg_branching_factor = self.get_avg_branching_factor_feature,
+
+            # Folder / Files
+            diff_folders_amount = self.get_diff_folders_amount_feature,
+            amount_type_endings = self.get_amount_type_endings_feature,
+            avg_file_ending_amounts = self.get_avg_file_ending_amounts_feature,
+            amount_not_previously_stored = self.get_amount_not_previously_stored_feature,
+            cross_section = self.get_cross_section_feature,
+        )
 
     def calc_features(self, backup_data):
         # Get the paths from the feature list

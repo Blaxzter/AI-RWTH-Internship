@@ -18,6 +18,16 @@ class UserFeatures:
 
         self.features_calculated = False
 
+    def get_feature_list(self) -> dict:
+        return dict(
+            # User
+            amount_users = self.get_amount_users_feature,
+            changed_user = self.get_changed_user_feature,
+            avg_file_per_user = self.get_avg_file_per_user_feature,
+            min_file_per_user = self.get_min_file_per_user_feature,
+            max_file_per_user = self.get_max_file_per_user_feature,
+        )
+
     def calc_features(self, backup_data):
         users = list(map(lambda file_data: file_data[Constants.user_index], backup_data))
 

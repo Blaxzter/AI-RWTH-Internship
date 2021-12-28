@@ -71,9 +71,16 @@ class DataManager:
         backup_data = self.sorted_key_list[idx]
         return self.data[backup_data]
 
-    def iterate_from(self, idx = 0):
-        for backup_date in self.sorted_key_list[idx:]:
+    def iterate_from(self, start = None, end = None):
+        idx = 0 if start is None else start
+        end_idx = len(self.sorted_key_list) if end is None else end
+        for backup_date in self.sorted_key_list[idx:end_idx]:
             yield backup_date, self.data[backup_date]
+
+    def get_iterator(self, start = None, end = None):
+        idx = 0 if start is None else start
+        end_idx = len(self.sorted_key_list) if end is None else end
+        return iter([(backup_date, self.data[backup_date]) for backup_date in self.sorted_key_list[idx:end_idx]]), end_idx - idx
 
     def report_result(self, result):
         pass
