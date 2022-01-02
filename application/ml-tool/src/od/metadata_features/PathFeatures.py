@@ -24,11 +24,11 @@ class PathFeatures(IFeatureExtractor):
         self.branching_factor_feature = feature_dict_factory()
         self.path_length_feature = feature_dict_factory()
 
-        self.amount_type_endings = 0
-        self.avg_file_ending_amounts = 0
+        self.amount_type_endings = None
+        self.avg_file_ending_amounts = None
         self.amount_not_previously_stored = 0
         self.cross_section = 0
-        self.diff_folders_amount = 0
+        self.diff_folders_amount = None
 
     def get_feature_list(self) -> dict:
         return dict(
@@ -115,35 +115,35 @@ class PathFeatures(IFeatureExtractor):
     def get_avg_path_length_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The avg path length feature is not calculated. Pls. call calc_features first')
-        return self.path_length_feature[avg_feature_name]
+        return self.path_length_feature[avg_feature_name].item()
 
     def get_min_path_length_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The min path length feature is not calculated. Pls. call calc_features first')
-        return self.path_length_feature[min_feature_name]
+        return self.path_length_feature[min_feature_name].item()
 
     def get_max_path_length_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The max path length feature is not calculated. Pls. call calc_features first')
-        return self.path_length_feature[max_feature_name]
+        return self.path_length_feature[max_feature_name].item()
 
     def get_avg_branching_factor_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated(
                 'The avg branching factor feature is not calculated. Pls. call calc_features first')
-        return self.branching_factor_feature[avg_feature_name]
+        return self.branching_factor_feature[avg_feature_name].item()
 
     def get_min_branching_factor_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated(
                 'The min branching factor feature is not calculated. Pls. call calc_features first')
-        return self.branching_factor_feature[min_feature_name]
+        return self.branching_factor_feature[min_feature_name].item()
 
     def get_max_branching_factor_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated(
                 'The max branching factor feature is not calculated. Pls. call calc_features first')
-        return self.branching_factor_feature[max_feature_name]
+        return self.branching_factor_feature[max_feature_name].item()
 
     def get_amount_type_endings_feature(self):
         if self.features_calculated is False:
@@ -157,7 +157,7 @@ class PathFeatures(IFeatureExtractor):
             raise FeatureNotCalculated(
                 'the avg_file_ending_amounts feature is not calculated. Pls. call calc_features first'
             )
-        return self.avg_file_ending_amounts
+        return self.avg_file_ending_amounts.item()
 
     def get_amount_not_previously_stored_feature(self):
         if self.features_calculated is False:

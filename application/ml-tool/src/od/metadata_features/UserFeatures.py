@@ -12,9 +12,9 @@ class UserFeatures:
 
         self.amount_users = 0
         self.changed_user = 0
-        self.min_file_per_user = 0
-        self.max_file_per_user = 0
-        self.avg_file_per_user = 0
+        self.min_file_per_user = None
+        self.max_file_per_user = None
+        self.avg_file_per_user = None
 
         self.features_calculated = False
 
@@ -59,14 +59,14 @@ class UserFeatures:
     def get_min_file_per_user_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The min file per users feature is not calculated. Pls. call calc_features first')
-        return self.min_file_per_user
+        return self.min_file_per_user.item()
 
     def get_max_file_per_user_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The max file per user feature is not calculated. Pls. call calc_features first')
-        return self.max_file_per_user
+        return self.max_file_per_user.item()
 
     def get_avg_file_per_user_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The avg file per user feature is not calculated. Pls. call calc_features first')
-        return self.avg_file_per_user
+        return self.avg_file_per_user.item()

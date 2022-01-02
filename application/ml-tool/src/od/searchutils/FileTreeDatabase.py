@@ -60,6 +60,7 @@ class FileTreeDatabase:
     def load_from_string(self, file_tree):
         importer = JsonImporter()
         self.root_node = importer.import_(file_tree)
+        self.size = len(self.root_node.leaves)
 
     def __getitem__(self, file_path: str) -> Optional[Node]:
         split_file_path = file_path.split(self.path_separator)

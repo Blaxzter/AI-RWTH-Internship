@@ -1,6 +1,8 @@
 import os
 
 from tqdm.auto import tqdm
+
+from src.utils import Utils
 from src.utils.Constants import data_amount_per_line
 
 
@@ -23,7 +25,7 @@ class DataManager:
                     line = line.replace('\n', '')
                     return line.split(',')
 
-                self.data[file] = list(
+                self.data[Utils.get_unix_time(file)] = list(
                     filter(
                         lambda split_line: len(split_line) == data_amount_per_line,
                         map(preprocess, f.readlines())
@@ -39,8 +41,6 @@ class DataManager:
             meta_data = backup_meta_data,
         )
         backup_data_id = added_meta_data.inserted_id
-
-        file_data = []
 
         self.db_con.add_file_data(
             file_server_id = current_file_server_id,
@@ -64,12 +64,12 @@ class DataManager:
             yield backup_date, self.data[backup_date]
 
     def get_by_index(self, idx):
-        backup_data = self.sorted_key_list[idx]
-        return backup_data, self.data[backup_data]
-
-    def get_value_by_index(self, idx):
-        backup_data = self.sorted_key_list[idx]
-        return self.data[backup_data]
+        backup_date = self.sorted_key_list[idx]
+        ret_dict = dict(
+            backup_date = backup_date,
+            backup_data = self.data[backup_date]
+        )
+        return ret_dict
 
     def iterate_from(self, start = None, end = None):
         idx = 0 if start is None else start

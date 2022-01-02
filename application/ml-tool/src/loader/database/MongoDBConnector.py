@@ -1,9 +1,13 @@
+from typing import List
+from bson import ObjectId
+
 import pymongo
 
 from src.loader.database.controller.BackupMetadataController import BackupMetadataController
 from src.loader.database.controller.FileDataController import FileDataController
 from src.loader.database.controller.FileServerController import FileServerController
 from src.loader.database.controller.FileServerModelController import FileServerModelController
+from src.utils import Constants
 
 
 class MongoDBConnector(FileServerController, BackupMetadataController, FileServerModelController, FileDataController):
@@ -16,10 +20,20 @@ class MongoDBConnector(FileServerController, BackupMetadataController, FileServe
             col_file_server = self.db_mltool["file_server"],
             col_file_server_model = self.db_mltool["file_server_model"],
             col_backup_metadata = self.db_mltool["backup_metadata"],
+            col_backup_metadata_filetree = self.db_mltool["backup_metadata_filetree"],
             col_file_feature_history = self.db_mltool["file_feature_history"],
             col_file_features = self.db_mltool["file_features"],
         )
-        super().__init__(db = self)
+        FileServerController.__init__(self, db = self)
+        BackupMetadataController.__init__(self, db = self)
+        FileServerModelController.__init__(self, db = self)
+        FileDataController.__init__(self, db = self)
+
+    def store_backup_data(self, file_server_id: ObjectId, backup_metadata_list: List):
+        for backup_metadata in backup_metadata_list:
+            added_col = self.add_backup_meta_data(file_server_id, backup_metadata)
+            self.add_backup_meta_data_file_tree(added_col.inserted_id,
+                                                backup_metadata['backup_metadata'][Constants.file_tree_dict_name])
 
     def get_collection(self, name: str):
         return self.collections[name]

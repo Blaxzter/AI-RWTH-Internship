@@ -15,3 +15,7 @@ class IFileServerModel:
     @property
     def id(self):
         return self._id
+
+    @id.setter
+    def id(self, v: ObjectId) -> None:
+        self._id = v

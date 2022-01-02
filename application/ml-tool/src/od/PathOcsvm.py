@@ -65,7 +65,7 @@ class PathOCSVM:
         transformed_train_gram_matrix = self.scaler.transform(train_gram_matrix)
         self.svm.fit(transformed_train_gram_matrix)
 
-    def predict(self, test_backup_data = None):
+    def predict(self, test_backup_data = None, continues_training = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
@@ -83,6 +83,10 @@ class PathOCSVM:
         test_dec = self.svm.decision_function(transformed_test_gram_matrix)
 
         test_dec[-1 < test_dec < 1] = 1
+
+        if continues_training:
+            # TODO write the continues training part
+            pass
 
         return 1 - (1 / np.sqrt(np.abs(test_dec)))
 

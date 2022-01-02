@@ -11,11 +11,11 @@ from src.utils import Constants
 class DateFeatures:
     def __init__(self):
         # Features
-        self.start_time = 0
-        self.end_time = 0
-        self.time_range = 0
-        self.time_standard_deviation = 0
-        self.time_avg = 0
+        self.start_time = None
+        self.end_time = None
+        self.time_range = None
+        self.time_standard_deviation = None
+        self.time_avg = None
 
         # Utils
         self.unix_date_scaler = MinMaxScaler()
@@ -60,24 +60,24 @@ class DateFeatures:
     def get_start_time_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The start time feature is not calculated. Pls. call calc_features first')
-        return self.start_time
+        return self.start_time.item()
 
     def get_end_time_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The end time feature is not calculated. Pls. call calc_features first')
-        return self.end_time
+        return self.end_time.item()
 
     def get_time_range_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The time range feature is not calculated. Pls. call calc_features first')
-        return self.time_range
+        return self.time_range.item()
 
     def get_time_standard_deviation_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The time standard deviation feature is not calculated. Pls. call calc_features first')
-        return self.time_standard_deviation
+        return self.time_standard_deviation.item()
 
     def get_time_avg_feature(self):
         if self.features_calculated is False:
             raise FeatureNotCalculated('The time average is not calculated. Pls. call calc_features first')
-        return self.time_avg
+        return self.time_avg.item()

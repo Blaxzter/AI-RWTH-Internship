@@ -48,14 +48,14 @@ class MetaDataModel:
     def initialize_model(self, stored_data: Optional[Dict] = None):
         if stored_data:
             self.clf = pickle.loads(stored_data['model'])
-            self.trained_features = stored_data['trained_features']
-            self.prev_action_data = stored_data['action_data']
+            self.trained_features = stored_data[Constants.trained_features_dict_name]
+            self.prev_action_data = stored_data[Constants.action_data_dict_name]
 
-            prev_file_tree_json = stored_data['file_tree']
+            prev_file_tree_json = stored_data[Constants.file_tree_dict_name]
             self.prev_file_tree = FileTreeDatabase(path_separator = self.path_separator)
             self.prev_file_tree.load_from_string(prev_file_tree_json)
 
-            file_database_json = stored_data['file_database']
+            file_database_json = stored_data[Constants.file_database_dict_name]
             self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
             self.file_database.load_from_string(file_database_json)
 
@@ -63,7 +63,7 @@ class MetaDataModel:
                 self.prev_file_tree, self.prev_action_data, self.file_database, self.path_separator
             )
             self.feature_list = self.get_feature_dict()
-            self.feature_scalers = pickle.loads(stored_data['feature_scalers'])
+            self.feature_scalers = pickle.loads(stored_data[Constants.trained_scalers_dict_name])
         else:
             self.feature_extractors = self.create_feature_extractors(
                 None, None, None, self.path_separator
@@ -83,10 +83,12 @@ class MetaDataModel:
         self.initialized = True
 
     def get_stored_model(self):
+
         return dict(
             model = pickle.dumps(self.clf),
             trained_features = self.trained_features,
-            feature_scalers = pickle.dumps(self.feature_scalers)
+            feature_scalers = pickle.dumps(self.feature_scalers),
+            file_database = self.file_database.get_storable_elements(),
         )
 
     def fit(self, backup_data_list, ret_features = True):
@@ -94,7 +96,7 @@ class MetaDataModel:
             raise NotInitializedException('The meta data model is not initialized')
 
         processed_backup_data = self.parse_features_of_list(backup_data_list, ret_features)
-        parsed_features = list(map(lambda x: x['feature'], processed_backup_data))
+        parsed_features = list(map(lambda x: x[Constants.backup_features_dict_name], processed_backup_data))
         self.trained_features = parsed_features
         train_matrix = self.vectorise(meta_data_feature_list = parsed_features, train = True)
         self.clf.fit(train_matrix)
@@ -110,6 +112,7 @@ class MetaDataModel:
         backup_features = self.parse_features(backup_data)
         test_matrix = self.vectorise([backup_features], train = False)
         desc_boundary = self.clf.decision_function(test_matrix)
+        desc_boundary = desc_boundary.item()
 
         if add_to_model:
             # Add the new backup data to the trained model
@@ -122,24 +125,24 @@ class MetaDataModel:
             self.file_database.add_backup_data(backup_data)
 
         if ret_backup_metadata:
-            backup_metadata = dict(
-                feature = backup_features,
-                prev_action_data = {
+            backup_metadata = {
+                Constants.backup_features_dict_name: backup_features,
+                Constants.action_data_dict_name: {
                     Constants.action_rename: backup_features['rename_amount'],
                     Constants.action_deleted: backup_features['delete_amount'],
                     Constants.action_added: backup_features['added_amount'],
                     Constants.action_modified: backup_features['modified_amount'],
                 },
-                prev_file_data = FileTreeDatabase(backup_data).get_storable_elements()
-            )
+                Constants.file_tree_dict_name: FileTreeDatabase(backup_data).get_storable_elements()
+            }
             return desc_boundary, backup_metadata
         else:
             return desc_boundary
 
     def prepare_next_prediction(self, prev_backup_metadata):
-        prev_action_data = prev_backup_metadata['prev_action_data']
+        prev_action_data = prev_backup_metadata[Constants.action_data_dict_name]
         prev_file_tree = FileTreeDatabase(path_separator = self.path_separator)
-        prev_file_tree.load_from_string(prev_backup_metadata['prev_file_data'])
+        prev_file_tree.load_from_string(prev_backup_metadata[Constants.file_tree_dict_name])
 
         self.feature_extractors = self.create_feature_extractors(
             prev_file_tree, prev_action_data, self.file_database, self.path_separator
@@ -184,25 +187,25 @@ class MetaDataModel:
         for backup_data in backup_data_list:
             ret_data = dict()
             current_feature_data = self.parse_features(backup_data)
-            ret_data['feature'] = current_feature_data
+            ret_data[Constants.backup_features_dict_name] = current_feature_data
 
             # Do stuff for next cycle
-            prev_action_data = {
+            action_data = {
                 Constants.action_rename: current_feature_data['rename_amount'],
                 Constants.action_deleted: current_feature_data['delete_amount'],
                 Constants.action_added: current_feature_data['added_amount'],
                 Constants.action_modified: current_feature_data['modified_amount'],
             }
 
-            ret_data['prev_action_data'] = prev_action_data
+            ret_data[Constants.action_data_dict_name] = action_data
 
             prev_file_tree = FileTreeDatabase(backup_data)
             self.file_database.add_backup_data(backup_data)
             if keep_prev_file_tree:
-                ret_data['prev_file_data'] = prev_file_tree.get_storable_elements()
+                ret_data[Constants.file_tree_dict_name] = prev_file_tree.get_storable_elements()
 
             self.feature_extractors = self.create_feature_extractors(
-                prev_file_tree, prev_action_data, self.file_database, self.path_separator
+                prev_file_tree, action_data, self.file_database, self.path_separator
             )
             self.feature_list = self.get_feature_dict()
 

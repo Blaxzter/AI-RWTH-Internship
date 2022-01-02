@@ -3,7 +3,7 @@ class FileDataController:
 
     def __init__(self, db):
         self.db = db
-        self.col = db.get_collection('col_file_features')
+        self.col_file_features = db.get_collection('col_file_features')
         self.col_history = db.get_collection('col_file_feature_history')
 
     def get_file_data(self, file_server_id):
@@ -17,7 +17,7 @@ class FileDataController:
         for file_data in file_data_list:
             file_data['file_server'] = file_server_id
             file_data['backup_data'] = backup_data_id
-            self.col.update_one(
+            self.col_file_features.update_one(
                 dict(file_server = file_server_id,
                      name = file_data['name']),
                 {'$set': file_data},
