@@ -17,7 +17,7 @@ if __name__ == '__main__':
         metadata_model_prediction = pickle.load(handle)
 
     for prediction, data_feature in zip(metadata_model_prediction, data_features):
-        data_feature['prediction'] = prediction.item() if prediction is not None else None
+        data_feature['prediction'] = prediction if prediction is not None else None
 
     features.append('prediction')
 

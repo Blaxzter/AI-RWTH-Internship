@@ -24,7 +24,7 @@ if __name__ == '__main__':
         data_manager.get_by_index(0),
         data_manager.get_by_index(1),
     ])
-    metadata_model_data = list(map(lambda x: dict(backup_metadata = x), received_data['meta_data_model']))
+    metadata_model_data = received_data['meta_data_model']
 
     data_iterator, data_amount = data_manager.get_iterator(start = 2)
     for backup_date, backed_up_files in tqdm(data_iterator, total = data_amount):

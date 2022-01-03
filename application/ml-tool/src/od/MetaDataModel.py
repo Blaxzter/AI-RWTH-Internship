@@ -121,6 +121,7 @@ class MetaDataModel:
                 # Todo throw away oldest stored stuff
                 pass
             train_matrix = self.vectorise(meta_data_feature_list = self.trained_features, train = True)
+            print(f'Train with: {train_matrix.shape}')
             self.clf.fit(train_matrix)
             self.file_database.add_backup_data(backup_data)
 
