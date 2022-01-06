@@ -10,8 +10,7 @@ from src.utils import Constants
 
 
 def create_initial_model_and_store(db, data_manager, file_server):
-    file_server_model = FileServerModel(file_server_id = file_server.id,
-                                        model_id = None, use_path_features = False)
+    file_server_model = FileServerModel(file_server_id = file_server.id)
     file_server_model.initialize_model()
     received_data = file_server_model.fit(backup_data_collection = [
         data_manager.get_by_index(0),
@@ -26,8 +25,7 @@ def continue_training_and_store(db, data_manager: DataManager, file_server, back
     stored_file_server_model = db.get_file_server_model(server_id)
     file_server_model_id = stored_file_server_model.id if stored_file_server_model is not None else None
 
-    file_server_model = FileServerModel(model_id = file_server_model_id, file_server_id = server_id,
-                                        use_path_features = False)
+    file_server_model = FileServerModel(model_id = file_server_model_id, file_server_id = server_id)
 
     prev_backup_data = db.get_last_backup_metadata_by_file_server_id(file_server.id)
     file_server_model.initialize_model(stored_file_server_model, prev_backup_data)
@@ -39,7 +37,6 @@ def continue_training_and_store(db, data_manager: DataManager, file_server, back
     db.store_backup_data(file_server.id, [model_predict['meta_data_model']])
 
 if __name__ == '__main__':
-
     _db = MongoDBConnector()
     if 'reset' in sys.argv:
         _db.reset_data()

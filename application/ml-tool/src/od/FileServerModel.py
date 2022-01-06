@@ -30,6 +30,16 @@ class FileServerModel:
         self.meta_data_model: Optional[MetaDataModel] = MetaDataModel(self.file_path_separator)
         self.path_ocsvm: Optional[PathOCSVM] = PathOCSVM(self.file_path_separator)
 
+    def get_used_models(self):
+        ret_list = []
+        if self.use_path_features:
+            ret_list.append('path_ocsvm')
+        if self.use_meta_data_features:
+            ret_list.append('meta_data_model')
+        if self.use_file_features:
+            ret_list.append('file_feature_model')
+        return ret_list
+
     def initialize_model(self, stored_data: Optional[IFileServerModel] = None, prev_backup_data = None):
 
         if self.use_meta_data_features:
@@ -75,40 +85,49 @@ class FileServerModel:
 
     def predict(self, backup_data_collection, continues_training = True, ret_backup_features = True):
 
-        backup_date = backup_data_collection[Constants.backup_date_dict_name]
-        backup_data = backup_data_collection[Constants.backup_data_dict_name]
-        prev_backup_data = backup_data_collection[Constants.prev_backup_data_dict_name]
+        # These two as lists
+        backup_dates = backup_data_collection[Constants.backup_date_dict_name]
+        backup_data_list = backup_data_collection[Constants.backup_data_dict_name]
 
-        ret_dict = {
-            Constants.backup_date_dict_name: backup_date,
-        }
+        prev_backup_data = backup_data_collection[Constants.prev_backup_data_dict_name]
+        ret_dict = dict()
 
         if self.use_meta_data_features:
+            if Constants.verbose_printing:
+                print('Predict Meta Data Model')
             if ret_backup_features:
                 desc_boundary, backup_metadata = self.meta_data_model.predict(
-                    backup_data, prev_backup_data, add_to_model = continues_training, ret_backup_metadata = True
+                    backup_data_list, prev_backup_data, add_to_model = continues_training, ret_backup_metadata = True
                 )
-                ret_dict['meta_data_model'] = {
-                    Constants.prediction_dict_name: desc_boundary,
-                    Constants.backup_metadata_dict_name: backup_metadata
-                }
+
+                data_list = []
+                for idx, backup_date in enumerate(backup_dates):
+                    data_list.append({
+                        Constants.backup_date_dict_name: backup_date,
+                        Constants.prediction_dict_name: desc_boundary[idx],
+                        Constants.backup_metadata_dict_name: backup_metadata[idx]
+                    })
+                ret_dict['meta_data_model'] = data_list
+
             else:
                 desc_boundary = self.meta_data_model.predict(
-                    backup_data, prev_backup_data, add_to_model = continues_training, ret_backup_metadata = False
+                    backup_data_list, prev_backup_data, add_to_model = continues_training, ret_backup_metadata = False
                 )
-                ret_dict['meta_data_model'] = {
+                ret_dict['meta_data_model'] = [{
+                    Constants.backup_date_dict_name: backup_date,
                     Constants.prediction_dict_name: desc_boundary
-                }
-            ret_dict['meta_data_model'][Constants.backup_date_dict_name] = backup_date
+                } for backup_date, desc_boundary in zip(backup_dates, desc_boundary)]
 
         if self.use_path_features:
+            if Constants.verbose_printing:
+                print('Predict path ocsvm model')
             desc_boundary = self.path_ocsvm.predict(
-                backup_data, continues_training = continues_training
+                backup_data_list, continues_training = continues_training
             )
-            ret_dict['meta_data_model'] = {
-                Constants.backup_date_dict_name: backup_date,
-                Constants.prediction_dict_name: desc_boundary
-            }
+            ret_dict['path_ocsvm'] = [{
+                    Constants.backup_date_dict_name: backup_date,
+                    Constants.prediction_dict_name: desc_boundary
+                } for backup_date, desc_boundary in zip(backup_dates, desc_boundary)]
 
         return ret_dict
 

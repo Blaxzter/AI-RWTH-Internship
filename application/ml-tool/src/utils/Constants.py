@@ -28,9 +28,13 @@ prev_backup_data_dict_name = 'prev_backup_data'
 prediction_dict_name = 'prediction'
 backup_metadata_dict_name = 'backup_metadata'
 
+
 def feature_dict_factory():
     return dict(
         min_feature_name = 0,
         max_feature_name = 0,
         avg_feature_name = 0,
     )
+
+
+verbose_printing = True

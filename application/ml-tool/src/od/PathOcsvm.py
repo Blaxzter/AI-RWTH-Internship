@@ -26,6 +26,8 @@ class PathOCSVM:
         self.svm = None
         self.scaler = None
         self.train_matrix = None
+        self.trained_gram_matrix = None
+        self.distances = None
 
         # The data index describes which element of the path to use in the classification
         self.path_separator = path_separator
@@ -38,14 +40,24 @@ class PathOCSVM:
             scaler = stored_data['scaler']
             train_matrix = stored_data['train_matrix']
             vocab = stored_data['vocab']
+            distances = stored_data['distances']
+            trained_gram_matrix = stored_data['trained_gram_matrix']
 
             self.svm = pickle.loads(svm)
             self.scaler = pickle.loads(scaler)
             self.train_matrix = list(map(lambda x: np.asarray(x), train_matrix))
+            self.trained_gram_matrix = pickle.loads(trained_gram_matrix)
             self.vocab = vocab
+            self.distances = distances
         else:
-            self.svm = OneClassSVM(kernel = 'precomputed', gamma = 'scale', verbose = True)
-            self.scaler = MinMaxScaler()
+            self.svm = OneClassSVM(
+                nu = 0.15,
+                kernel = 'precomputed',
+                gamma = 'scale',
+                verbose = Constants.verbose_printing,
+                max_iter = 2000
+            )
+            self.scaler = MinMaxScaler(feature_range=(-1, 1))
 
         self.initialized = True
 
@@ -53,53 +65,62 @@ class PathOCSVM:
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
-        path_sets = list(list(map(lambda x: x[Constants.name_index], backup_data)) for backup_data in backup_data_list)
-
-        # todo this step should not be necessary every time only on "retrain"
-        self.train_sets = self.preprocess(path_sets)
+        self.train_sets = self.preprocess(backup_data_list)
         self.calculate_vocab()
 
         self.train_matrix = self.data_index_transformation()
-        train_gram_matrix = self.precompute(self.train_matrix, self.train_matrix, fit = True)
-        self.scaler.fit(train_gram_matrix)
-        transformed_train_gram_matrix = self.scaler.transform(train_gram_matrix)
+        self.trained_gram_matrix = self.precompute(self.train_matrix, self.train_matrix, fit = True)
+        self.scaler.fit(self.trained_gram_matrix)
+        transformed_train_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
         self.svm.fit(transformed_train_gram_matrix)
+        self.distances = list(self.svm.decision_function(self.trained_gram_matrix))
 
-    def predict(self, test_backup_data = None, continues_training = True):
+    def predict(self, test_backup_data, continues_training = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
         if self.train_matrix is None:
             raise OCSVMNotTrained("OCSVM is not trained. \nEither Load data or train.")
 
-        test_path_sets = list(map(lambda x: x[Constants.name_index], test_backup_data))
-
-        test_set = self.preprocess(test_path_sets)
+        test_set = self.preprocess(test_backup_data)
         self.calculate_vocab(test_set)
         test_matrix = self.data_index_transformation(test_set)
         test_gram_matrix = self.precompute(test_matrix, self.train_matrix)
         transformed_test_gram_matrix = self.scaler.transform(test_gram_matrix)
-
         test_dec = self.svm.decision_function(transformed_test_gram_matrix)
 
-        test_dec[-1 < test_dec < 1] = 1
+        complete_distances = [element for element in self.distances]
+        complete_distances.append(test_dec.item())
+
+        max_value = np.max(complete_distances)
+        distance_to_max = np.abs(max_value - complete_distances)
 
         if continues_training:
-            # TODO write the continues training part
-            pass
+            if Constants.verbose_printing:
+                print('Path OCSVM continues training')
 
-        return 1 - (1 / np.sqrt(np.abs(test_dec)))
+            self.add_vec_to_gram(test_gram_matrix, test_matrix)
+            self.scaler.fit(self.trained_gram_matrix)
+            transformed_train_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
+            if Constants.verbose_printing:
+                print(transformed_train_gram_matrix.shape)
+            self.svm.fit(transformed_train_gram_matrix)
+            self.distances = list(self.svm.decision_function(self.trained_gram_matrix))
 
-    def preprocess(self, path_lists = None):
+        return list(np.nan_to_num(1 - 1 / np.sqrt(distance_to_max), neginf = 0))
+
+    def preprocess(self, backup_data_list):
 
         # Check if there is data available
-        if path_lists is None or len(path_lists) == 0:
+        if backup_data_list is None or len(backup_data_list) == 0:
             raise DataNotLoaded('Path sets are empty')
+
+        path_sets = list(list(map(lambda x: x[Constants.name_index], backup_data)) for backup_data in backup_data_list)
 
         data_sets = []
 
         # Get the specific path index given through data index
-        for paths in path_lists:
+        for paths in path_sets:
             folder_set = []
             for path in paths:
                 path_set = path.split(self.path_separator)
@@ -150,6 +171,15 @@ class PathOCSVM:
     def count_occurrence(element, comp_vec):
         return np.count_nonzero(comp_vec == element)
 
+    def add_vec_to_gram(self, test_gram_matrix, test_matrix):
+        gram_matrix = self.precompute(test_matrix, test_matrix, fit = True)
+        next_gram_matrix = np.row_stack([self.trained_gram_matrix, test_gram_matrix])
+        next_column = np.column_stack([test_gram_matrix, gram_matrix]).T
+        self.trained_gram_matrix = np.column_stack([next_gram_matrix, next_column])
+
+        for test_array in test_matrix:
+            self.train_matrix.append(test_array)
+
     def precompute(self, X, Y, fit = False):
         gram_dimensions = (len(X), len(Y))
         gram_matrix = np.zeros(gram_dimensions, dtype = np.float64)
@@ -157,8 +187,14 @@ class PathOCSVM:
         # print(f'X.shape {X.shape} Y.shape {Y.shape}')
         if fit:
             total = scipy.special.comb(len(X), 2, exact = True)
-            for i, j in tqdm(itertools.combinations_with_replacement(range(len(X)), 2), desc = "Precompute:",
-                             total = int(total)):
+
+            if Constants.verbose_printing:
+                next_iter = tqdm(itertools.combinations_with_replacement(range(len(X)), 2), desc = "Precompute:",
+                             total = int(total))
+            else:
+                next_iter = itertools.combinations_with_replacement(range(len(X)), 2)
+
+            for i, j in next_iter:
                 matching = self.occurrence_vectorized(X[i], comp_vec = Y[j]).sum()
 
                 gram_matrix[i, j] = matching
@@ -170,3 +206,5 @@ class PathOCSVM:
                 gram_matrix[i, j] = self.occurrence_vectorized(X[i], comp_vec = Y[j]).sum()
 
             return gram_matrix
+
+
