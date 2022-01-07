@@ -29,12 +29,6 @@ class MongoDBConnector(FileServerController, BackupMetadataController, FileServe
         FileServerModelController.__init__(self, db = self)
         FileDataController.__init__(self, db = self)
 
-    def store_backup_data(self, file_server_id: ObjectId, backup_metadata_list: List):
-        for backup_metadata in backup_metadata_list:
-            added_col = self.add_backup_meta_data(file_server_id, backup_metadata)
-            self.add_backup_meta_data_file_tree(added_col.inserted_id,
-                                                backup_metadata['backup_metadata'][Constants.file_tree_dict_name])
-
     def get_collection(self, name: str):
         return self.collections[name]
 

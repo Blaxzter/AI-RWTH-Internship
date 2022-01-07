@@ -1,9 +1,24 @@
 import os
+from collections import defaultdict
 
 from tqdm.auto import tqdm
 
-from src.utils import Utils
+from src.loader.database.dbmodels.IBackupMetaData import IBackupMetaData
+from src.utils import Utils, Constants
 from src.utils.Constants import data_amount_per_line
+
+
+def get_first_element_by_key(backup_data_list, key):
+    ret_value = None
+    for backup_data in backup_data_list:
+        if key in backup_data:
+            ret_value = backup_data[key]
+            break
+        elif Constants.backup_metadata_dict_name in backup_data and key in backup_data[Constants.backup_metadata_dict_name]:
+            ret_value = backup_data[Constants.backup_metadata_dict_name][key]
+            break
+
+    return ret_value
 
 
 class DataManager:
@@ -80,7 +95,8 @@ class DataManager:
     def get_iterator(self, start = None, end = None):
         idx = 0 if start is None else start
         end_idx = len(self.sorted_key_list) if end is None else end
-        return iter([(backup_date, self.data[backup_date]) for backup_date in self.sorted_key_list[idx:end_idx]]), end_idx - idx
+        return iter(
+            [(backup_date, self.data[backup_date]) for backup_date in self.sorted_key_list[idx:end_idx]]), end_idx - idx
 
     def report_result(self, result):
         pass
@@ -90,3 +106,29 @@ class DataManager:
 
     def get_data_values_as_list(self):
         return list(self.data.values())
+
+    def store_model_prediction(self, file_server_id, model_prediction):
+
+        grouped_by_backup_date = defaultdict(list)
+        for model_name, model_data_per_backup in model_prediction.items():
+            for data_of_date in model_data_per_backup:
+                add_data = data_of_date
+                add_data['model_name'] = model_name
+                grouped_by_backup_date[data_of_date[Constants.backup_date_dict_name]].append(add_data)
+
+        for backup_date, backup_data_list in grouped_by_backup_date.items():
+            store_data = IBackupMetaData(
+                backup_date = backup_date,
+                predictions = {model_name: value for model_name, value in
+                               map(lambda x: (x['model_name'], x[Constants.prediction_dict_name]),
+                                   filter(lambda x: Constants.prediction_dict_name in x, backup_data_list))
+                               },
+                features = get_first_element_by_key(backup_data_list, Constants.backup_features_dict_name),
+                action_data = get_first_element_by_key(backup_data_list, Constants.action_data_dict_name)
+            )
+
+            added_col = self.db_con.add_backup_meta_data(file_server_id, store_data)
+            self.db_con.add_backup_meta_data_file_tree(
+                added_col.inserted_id,
+                get_first_element_by_key(backup_data_list, Constants.file_tree_dict_name)
+            )

@@ -32,14 +32,20 @@ if __name__ == '__main__':
 
     data_iterator, data_amount = data_manager.get_iterator(start = 2)
     for backup_date, backed_up_files in tqdm(data_iterator, total = data_amount):
-        backup_data = dict(
-            backup_date = [backup_date],
-            backup_data = [backed_up_files],
-        )
+        backup_data = list(dict(
+            backup_date = backup_date,
+            backup_data = backed_up_files,
+        ))
+        prev_backup_data = None
         if file_server_model.use_meta_data_features:
-            backup_data['prev_backup_data'] = model_ret_data['meta_data_model'][-1]['backup_metadata']
+            prev_backup_data = model_ret_data['meta_data_model'][-1]['backup_metadata']
 
-        model_predict = file_server_model.predict(backup_data, continues_training = True, ret_backup_features = True)
+        model_predict = file_server_model.predict(
+            backup_data_collection = backup_data,
+            prev_backup_data = prev_backup_data,
+            continues_training = True,
+            ret_backup_features = True
+        )
 
         for model_name, model_data in model_predict.items():
             for model_rets in model_data:

@@ -33,15 +33,8 @@ class BackupMetadataController:
 
         return found_meta_data
 
-    def add_backup_meta_data(self, file_server_id: ObjectId, meta_data) -> InsertOneResult:
-        data = meta_data[Constants.backup_metadata_dict_name]
-        store_data = IBackupMetaData(
-            backup_date = meta_data[Constants.backup_date_dict_name],
-            predictions = meta_data[Constants.prediction_dict_name] if Constants.prediction_dict_name in meta_data else None,
-            features = data[Constants.backup_features_dict_name],
-            action_data = data[Constants.action_data_dict_name],
-            file_server_id = file_server_id
-        )
+    def add_backup_meta_data(self, file_server_id: ObjectId, store_data: IBackupMetaData) -> InsertOneResult:
+        store_data.file_server_id = file_server_id
         insert_query = asdict(store_data, dict_factory = Utils.dict_factory)
         return self.col_backup_metadata.insert_one(insert_query)
 

@@ -2,7 +2,7 @@ from typing import Optional, Dict, List
 
 from bson import ObjectId
 
-from src.Exceptions import NotInitializedException
+from src.Exceptions import NotInitializedException, PreviousBackupRequired
 from src.loader.database.dbmodels.IFileServerModel import IFileServerModel
 from src.od.MetaDataModel import MetaDataModel
 from src.od.PathOcsvm import PathOCSVM
@@ -83,25 +83,29 @@ class FileServerModel:
 
         return collected_data
 
-    def predict(self, backup_data_collection, continues_training = True, ret_backup_features = True):
+    def predict(self, backup_data_collection, prev_backup_data = None, continues_training = True, ret_backup_features = True):
 
         # These two as lists
-        backup_dates = backup_data_collection[Constants.backup_date_dict_name]
-        backup_data_list = backup_data_collection[Constants.backup_data_dict_name]
+        backup_data_list = list(map(lambda x: x['backup_data'], backup_data_collection))
+        backup_data_dates = list((map(lambda x: x['backup_date'], backup_data_collection)))
 
-        prev_backup_data = backup_data_collection[Constants.prev_backup_data_dict_name]
         ret_dict = dict()
 
         if self.use_meta_data_features:
+
+            if prev_backup_data is None:
+                raise PreviousBackupRequired("In order to use the Meta data model, the previous backup is required.")
+
             if Constants.verbose_printing:
                 print('Predict Meta Data Model')
+
             if ret_backup_features:
                 desc_boundary, backup_metadata = self.meta_data_model.predict(
                     backup_data_list, prev_backup_data, add_to_model = continues_training, ret_backup_metadata = True
                 )
 
                 data_list = []
-                for idx, backup_date in enumerate(backup_dates):
+                for idx, backup_date in enumerate(backup_data_dates):
                     data_list.append({
                         Constants.backup_date_dict_name: backup_date,
                         Constants.prediction_dict_name: desc_boundary[idx],
@@ -116,7 +120,7 @@ class FileServerModel:
                 ret_dict['meta_data_model'] = [{
                     Constants.backup_date_dict_name: backup_date,
                     Constants.prediction_dict_name: desc_boundary
-                } for backup_date, desc_boundary in zip(backup_dates, desc_boundary)]
+                } for backup_date, desc_boundary in zip(backup_data_dates, desc_boundary)]
 
         if self.use_path_features:
             if Constants.verbose_printing:
@@ -127,7 +131,7 @@ class FileServerModel:
             ret_dict['path_ocsvm'] = [{
                     Constants.backup_date_dict_name: backup_date,
                     Constants.prediction_dict_name: desc_boundary
-                } for backup_date, desc_boundary in zip(backup_dates, desc_boundary)]
+                } for backup_date, desc_boundary in zip(backup_data_dates, desc_boundary)]
 
         return ret_dict
 

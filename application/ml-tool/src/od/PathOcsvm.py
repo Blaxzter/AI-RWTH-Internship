@@ -51,7 +51,7 @@ class PathOCSVM:
             self.distances = distances
         else:
             self.svm = OneClassSVM(
-                nu = 0.15,
+                # nu = 0.15,
                 kernel = 'precomputed',
                 gamma = 'scale',
                 verbose = Constants.verbose_printing,
@@ -164,7 +164,9 @@ class PathOCSVM:
             svm = pickle.dumps(self.svm),
             scaler = pickle.dumps(self.scaler),
             train_matrix = list(map(lambda x: x.tolist(), self.train_matrix)),
-            vocab = self.vocab
+            vocab = self.vocab,
+            distances = self.distances,
+            trained_gram_matrix = pickle.dumps(self.trained_gram_matrix)
         )
 
     @staticmethod

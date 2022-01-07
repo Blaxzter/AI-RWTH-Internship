@@ -24,3 +24,6 @@ class NotInitializedException(Exception):
 
 class FeatureAlreadyDefined(Exception):
     pass
+
+class PreviousBackupRequired(Exception):
+    pass

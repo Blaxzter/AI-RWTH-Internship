@@ -14,7 +14,7 @@ class IBackupMetaData:
 
     backup_date: int
     # ID's
-    file_server_id: ObjectId
+    file_server_id: ObjectId = None
     _id: ObjectId = None
 
     @property
