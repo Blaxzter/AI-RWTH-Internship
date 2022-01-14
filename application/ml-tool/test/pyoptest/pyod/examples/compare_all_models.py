@@ -99,7 +99,7 @@ classifiers = {
     #     LOCI(contamination=outliers_fraction),
     'Minimum Covariance Determinant (MCD)': MCD(
         contamination=outliers_fraction, random_state=random_state),
-    'One-class SVM (OCSVM)': OCSVM(contamination=outliers_fraction),
+    'One-class SVM (OCSVMTesting)': OCSVM(contamination=outliers_fraction),
     'Principal Component Analysis (PCA)': PCA(
         contamination=outliers_fraction, random_state=random_state),
     # 'Stochastic Outlier Selection (SOS)': SOS(
@@ -144,16 +144,11 @@ for i, offset in enumerate(clusters_separation):
         Z = clf.decision_function(np.c_[xx.ravel(), yy.ravel()]) * -1
         Z = Z.reshape(xx.shape)
         subplot = plt.subplot(3, 4, i + 1)
-        subplot.contourf(xx, yy, Z, levels=np.linspace(Z.min(), threshold, 7),
-                         cmap=plt.cm.Blues_r)
-        a = subplot.contour(xx, yy, Z, levels=[threshold],
-                            linewidths=2, colors='red')
-        subplot.contourf(xx, yy, Z, levels=[threshold, Z.max()],
-                         colors='orange')
-        b = subplot.scatter(X[:-n_outliers, 0], X[:-n_outliers, 1], c='white',
-                            s=20, edgecolor='k')
-        c = subplot.scatter(X[-n_outliers:, 0], X[-n_outliers:, 1], c='black',
-                            s=20, edgecolor='k')
+        subplot.contourf(xx, yy, Z, levels=np.linspace(Z.min(), threshold, 7), cmap=plt.cm.Blues_r)
+        a = subplot.contour(xx, yy, Z, levels=[threshold], linewidths=2, colors='red')
+        subplot.contourf(xx, yy, Z, levels=[threshold, Z.max()], colors='orange')
+        b = subplot.scatter(X[:-n_outliers, 0], X[:-n_outliers, 1], c='white', s=20, edgecolor='k')
+        c = subplot.scatter(X[-n_outliers:, 0], X[-n_outliers:, 1], c='black', s=20, edgecolor='k')
         subplot.axis('tight')
         subplot.legend(
             [a.collections[0], b, c],

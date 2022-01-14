@@ -1,26 +1,17 @@
 export interface IFileServer {
   _id: string;
   con: string;
-  check_schedule: number;
+  check_schedule: string;
   name: string;
 }
 
 export interface IBackupMetadata {
   _id: string;
-  backed_up_amount: number;
-  uniques_counts: {
-    uniques: [string];
-    counts: [number];
-  };
-  date_range: {
-    earliest_date: number;
-    latest_date: number;
-  };
-  date_mean_std: {
-    unix_dates_mean: number;
-    unix_dates_std: number;
-  };
-  file_server: string;
+  backup_date: number;
+  predictions: unknown;
+  features: unknown;
+  action_data: unknown;
+  file_server_id: string;
 }
 
 export interface IFileFeatures {

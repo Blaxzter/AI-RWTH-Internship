@@ -5,7 +5,6 @@ import numpy as np
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-import plotly.express as px
 import plotly.graph_objects as go
 
 if __name__ == '__main__':
@@ -13,11 +12,11 @@ if __name__ == '__main__':
         data_features = pickle.load(handle)
     with open('features.pickle', 'rb') as handle:
         features = pickle.load(handle)
-    with open('metadata_model_prediction.pickle', 'rb') as handle:
-        metadata_model_prediction = pickle.load(handle)
+    # with open('metadata_model_prediction.pickle', 'rb') as handle:
+    #     metadata_model_prediction = pickle.load(handle)
 
-    for prediction, data_feature in zip(metadata_model_prediction, data_features):
-        data_feature['prediction'] = prediction if prediction is not None else None
+    # for prediction, data_feature in zip(metadata_model_prediction, data_features):
+    #     data_feature['prediction'] = prediction if prediction is not None else None
 
     features.append('prediction')
 
@@ -48,4 +47,4 @@ if __name__ == '__main__':
 
         return fig
 
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=5052)

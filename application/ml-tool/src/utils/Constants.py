@@ -26,6 +26,8 @@ backup_data_dict_name = 'backup_data'
 prev_backup_data_dict_name = 'prev_backup_data'
 
 prediction_dict_name = 'prediction'
+dist_to_disc_dict_name = 'distance_to_decision'
+pred_confidence_dict_name = 'pred_confidence'
 backup_metadata_dict_name = 'backup_metadata'
 
 

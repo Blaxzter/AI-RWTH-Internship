@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     server_id = file_server.id
 
-    file_server_model = FileServerModel(server_id)
+    file_server_model = FileServerModel(server_id, use_meta_data_features = False)
     file_server_model.initialize_model(None)
     received_data = file_server_model.fit(backup_data_collection = [
         data_manager.get_by_index(0),
@@ -32,10 +32,10 @@ if __name__ == '__main__':
 
     data_iterator, data_amount = data_manager.get_iterator(start = 2)
     for backup_date, backed_up_files in tqdm(data_iterator, total = data_amount):
-        backup_data = list(dict(
+        backup_data = [dict(
             backup_date = backup_date,
             backup_data = backed_up_files,
-        ))
+        )]
         prev_backup_data = None
         if file_server_model.use_meta_data_features:
             prev_backup_data = model_ret_data['meta_data_model'][-1]['backup_metadata']

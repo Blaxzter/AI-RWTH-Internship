@@ -42,7 +42,7 @@ export default createStore({
       ({ backupMetadata }) =>
       (id: string) => {
         const filter = backupMetadata.filter(
-          (backupMetadata) => backupMetadata.file_server == id
+          (backupMetadata) => backupMetadata.file_server_id == id
         );
         if (filter.length == 0) return null;
         return filter;

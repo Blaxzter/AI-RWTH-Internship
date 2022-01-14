@@ -4,7 +4,7 @@ from typing import Optional, Dict
 import numpy as np
 import scipy
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.svm import OneClassSVM
+from pyod.models.ocsvm import OCSVM
 from tqdm.auto import tqdm
 
 import math
@@ -50,7 +50,7 @@ class PathOCSVM:
             self.vocab = vocab
             self.distances = distances
         else:
-            self.svm = OneClassSVM(
+            self.svm = OCSVM(
                 # nu = 0.15,
                 kernel = 'precomputed',
                 gamma = 'scale',
@@ -73,14 +73,20 @@ class PathOCSVM:
         self.scaler.fit(self.trained_gram_matrix)
         transformed_train_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
         self.svm.fit(transformed_train_gram_matrix)
-        self.distances = list(self.svm.decision_function(self.trained_gram_matrix))
+        self.distances = list(self.svm.decision_function(transformed_train_gram_matrix))
+
+    def re_predict(self):
+        transformed_test_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
+        desc_boundary = self.svm.decision_function(transformed_test_gram_matrix)
+        prediction, confidence = self.svm.predict(transformed_test_gram_matrix, return_confidence = True)
+        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
 
     def predict(self, test_backup_data, continues_training = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
         if self.train_matrix is None:
-            raise OCSVMNotTrained("OCSVM is not trained. \nEither Load data or train.")
+            raise OCSVMNotTrained("OCSVMTesting is not trained. \nEither Load data or train.")
 
         test_set = self.preprocess(test_backup_data)
         self.calculate_vocab(test_set)
@@ -88,16 +94,17 @@ class PathOCSVM:
         test_gram_matrix = self.precompute(test_matrix, self.train_matrix)
         transformed_test_gram_matrix = self.scaler.transform(test_gram_matrix)
         test_dec = self.svm.decision_function(transformed_test_gram_matrix)
+        prediction, confidence = self.svm.predict(transformed_test_gram_matrix, return_confidence = True)
 
         complete_distances = [element for element in self.distances]
         complete_distances.append(test_dec.item())
 
         max_value = np.max(complete_distances)
-        distance_to_max = np.abs(max_value - complete_distances)
+        distance_to_max = np.abs(max_value - test_dec)
 
         if continues_training:
             if Constants.verbose_printing:
-                print('Path OCSVM continues training')
+                print('Path OCSVMTesting continues training')
 
             self.add_vec_to_gram(test_gram_matrix, test_matrix)
             self.scaler.fit(self.trained_gram_matrix)
@@ -105,9 +112,9 @@ class PathOCSVM:
             if Constants.verbose_printing:
                 print(transformed_train_gram_matrix.shape)
             self.svm.fit(transformed_train_gram_matrix)
-            self.distances = list(self.svm.decision_function(self.trained_gram_matrix))
+            self.distances = list(self.svm.decision_function(transformed_train_gram_matrix))
 
-        return list(np.nan_to_num(1 - 1 / np.sqrt(distance_to_max), neginf = 0))
+        return prediction.tolist(), confidence.tolist(), np.nan_to_num(1 - 1 / np.sqrt(distance_to_max), neginf = 0).tolist()
 
     def preprocess(self, backup_data_list):
 

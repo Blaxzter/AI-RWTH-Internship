@@ -106,6 +106,12 @@ class MetaDataModel:
         if ret_features:
             return processed_backup_data
 
+    def re_predict(self):
+        test_matrix = self.vectorise(self.trained_features, train = False)
+        desc_boundary = self.clf.decision_function(test_matrix)
+        prediction, confidence = self.clf.predict(test_matrix, return_confidence=True)
+        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
+
     def predict(self, backup_data_list, prev_backup_data, add_to_model = False, ret_backup_metadata = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
@@ -116,7 +122,7 @@ class MetaDataModel:
         parsed_features = list(map(lambda x: x[Constants.backup_features_dict_name], processed_backup_data))
         test_matrix = self.vectorise(parsed_features, train = False)
         desc_boundary = self.clf.decision_function(test_matrix)
-        desc_boundary = list(desc_boundary)
+        prediction, confidence = self.clf.predict(test_matrix, return_confidence=True)
 
         if add_to_model:
             if Constants.verbose_printing:
@@ -137,9 +143,9 @@ class MetaDataModel:
                 self.file_database.add_backup_data(backup_data)
 
         if ret_backup_metadata:
-            return desc_boundary, processed_backup_data
+            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), processed_backup_data
         else:
-            return desc_boundary
+            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
 
     def vectorise(self, meta_data_feature_list: List[Dict], train = False):
         data_matrix = np.zeros((len(meta_data_feature_list), self.feature_amount))

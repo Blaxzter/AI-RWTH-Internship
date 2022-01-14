@@ -26,7 +26,7 @@ export function fetchBackupMetadataByFileServer(
   return axios
     .get(`${server_url}/backup-metadata`, {
       params: {
-        file_server: file_server_id,
+        file_server_id: file_server_id,
       },
     })
     .then((res: AxiosResponse<Array<IBackupMetadata>>) => {

@@ -1,3 +1,4 @@
+import random
 from typing import List
 from bson import ObjectId
 
@@ -37,14 +38,14 @@ class MongoDBConnector(FileServerController, BackupMetadataController, FileServe
             collection.drop()
 
 
-def create_example_server(db_con):
+def create_example_server(db_con, name = None):
     example_server_data = dict(
-        con = "example connection",
-        check_schedule = 2,
-        name = 'test_file_server'
+        con = ".".join(map(str, (random.randint(0, 255) for _ in range(4)))),
+        check_schedule = f"Every {random.randint(10, 10000)} minute",
+        name = f'test_file_server{ "_" + str(name) if name is not None else ""}'
     )
 
-    file_server = db_con.get_file_server_by_name('test_file_server')
+    file_server = db_con.get_file_server_by_name(example_server_data['name'])
 
     if file_server is None:
         file_server_res = db_con.add_file_server(

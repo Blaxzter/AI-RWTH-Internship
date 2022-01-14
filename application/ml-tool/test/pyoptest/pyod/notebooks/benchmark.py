@@ -69,7 +69,7 @@ n_classifiers = 10
 
 df_columns = ['Data', '#Samples', '# Dimensions', 'Outlier Perc',
               'ABOD', 'CBLOF', 'FB', 'HBOS', 'IForest', 'KNN', 'LOF',
-              'MCD', 'OCSVM', 'PCA']
+              'MCD', 'OCSVMTesting', 'PCA']
 
 # initialize the container for saving the results
 roc_df = pd.DataFrame(columns=df_columns)
@@ -124,7 +124,7 @@ for j in range(len(mat_file_list)):
                 contamination=outliers_fraction),
             'Minimum Covariance Determinant (MCD)': MCD(
                 contamination=outliers_fraction, random_state=random_state),
-            'One-class SVM (OCSVM)': OCSVM(contamination=outliers_fraction),
+            'One-class SVM (OCSVMTesting)': OCSVM(contamination=outliers_fraction),
             'Principal Component Analysis (PCA)': PCA(
                 contamination=outliers_fraction, random_state=random_state),
         }
@@ -137,7 +137,7 @@ for j in range(len(mat_file_list)):
             'K Nearest Neighbors (KNN)': 5,
             'Local Outlier Factor (LOF)': 6,
             'Minimum Covariance Determinant (MCD)': 7,
-            'One-class SVM (OCSVM)': 8,
+            'One-class SVM (OCSVMTesting)': 8,
             'Principal Component Analysis (PCA)': 9,
         }
 

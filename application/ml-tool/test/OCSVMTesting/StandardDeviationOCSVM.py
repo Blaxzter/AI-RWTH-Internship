@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.svm import OneClassSVM
+from pyod.models.ocsvm import OCSVM
 
 if __name__ == '__main__':
     n_datapoints = 1000
@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     test_data = np.concatenate([test_data, outliers])
 
-    svm = OneClassSVM(nu = 0.15, kernel = 'rbf', gamma='scale')
+    svm = OCSVM(nu = 0.15, kernel = 'rbf', gamma='scale')
     svm.fit(test_data)
 
     data_prediction = svm.decision_function(test_data)
@@ -57,5 +57,5 @@ if __name__ == '__main__':
     axd['C'].contourf(xx, yy, Z, levels = np.linspace(Z.min(), 0, 10), cmap = plt.cm.PuBu)
     axd['C'].contour(xx, yy, Z, levels = [0], linewidths = 2, colors = "darkred")
     axd['C'].contourf(xx, yy, Z, levels = np.linspace(0, Z.max(), 7), cmap = plt.cm.Reds_r)
-    axd['C'].scatter(test_data[:, 0], test_data[:, 1], c=['red' if data_class == -1 else 'blue' for data_class in data_classes])
+    axd['C'].scatter(test_data[:, 0], test_data[:, 1], c=['red' if data_class == 1 else 'blue' for data_class in data_classes])
     plt.show()

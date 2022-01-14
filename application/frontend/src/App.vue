@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column vh-100">
     <page-header />
-    <div class="d-flex container-xxl pt-4 flex-grow-1">
+    <div class="d-flex pt-4 flex-grow-1">
       <navigation class="navigation" />
       <main class="container">
         <router-view />
@@ -25,7 +25,6 @@ export default defineComponent({
   },
 });
 </script>
-
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

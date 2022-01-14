@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # train LOF detector
     clf_name = 'LOF'
     # clf = IForest(random_state=42)
-    # clf = OCSVM()
+    # clf = OCSVMTesting()
     clf = KNN(n_neighbors=50)
     # clf.fit(X)
 

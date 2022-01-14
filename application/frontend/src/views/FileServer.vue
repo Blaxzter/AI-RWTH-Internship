@@ -1,7 +1,7 @@
 <template>
   <div v-if="fileServer">
     <h2 class="text-start">File Server: {{ fileServer.name }}</h2>
-    <div class="file-server--data text-start">
+    <div class="file-server--data text-start mb-5">
       <div>File Server ID: {{ fileServer._id }}</div>
       <div>File Server Connection: {{ fileServer.con }}</div>
       <div>Check Schedule: {{ fileServer.check_schedule }}</div>

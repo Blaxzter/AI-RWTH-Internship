@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <div class="home text-start">
+    <h1 class="mb-5">File Servers:</h1>
     <file-server-list />
   </div>
 </template>

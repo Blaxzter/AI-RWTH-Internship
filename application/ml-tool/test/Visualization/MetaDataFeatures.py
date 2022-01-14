@@ -11,13 +11,17 @@ if __name__ == '__main__':
         data_features = pickle.load(handle)
     with open('features.pickle', 'rb') as handle:
         features = pickle.load(handle)
-    with open('metadata_model_prediction.pickle', 'rb') as handle:
-        metadata_model_prediction = pickle.load(handle)
 
-    for prediction, data_feature in zip(metadata_model_prediction, data_features):
-        data_feature['prediction'] = prediction
+    # with open('metadata_model_prediction.pickle', 'rb') as handle:
+    #     re_predict_data = pickle.load(handle)
 
-    features.append('prediction')
+    # with open('metadata_model_prediction.pickle', 'rb') as handle:
+    #     metadata_model_prediction = pickle.load(handle)
+
+    # for prediction, data_feature in zip(metadata_model_prediction, data_features):
+    #     data_feature['prediction'] = prediction
+
+    # features.append('prediction')
 
     rows = int(math.ceil(len(features) / 2))
     fig = make_subplots(rows = rows, cols = 2, subplot_titles = features)

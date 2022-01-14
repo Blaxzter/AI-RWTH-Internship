@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="d-flex flex-wrap">
     <div
-      class="card file-server-card"
+      class="card file-server-card m-2"
       style="width: 18rem"
-      v-for="fileServer in fileServers"
+      v-for="(fileServer, index) in fileServers"
       :key="fileServer._id"
       @click="$router.push(`/file-server/${fileServer._id}`)"
     >
@@ -17,7 +17,7 @@
             mb-4
           "
         >
-          <h5>File Server</h5>
+          <h5>File Server {{ index }}</h5>
           <font-awesome-icon class="me-2" icon="server" />
         </div>
         <h6 class="card-subtitle mb-2 text-muted text-start">

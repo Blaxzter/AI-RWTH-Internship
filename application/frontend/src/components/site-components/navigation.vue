@@ -46,12 +46,6 @@ export default defineComponent({
             element: "font-awesome-icon",
             attributes: { icon: "user" },
           },
-          child: [
-            {
-              href: "/charts/sublink",
-              title: "Sub Link",
-            },
-          ],
         },
       ],
     };

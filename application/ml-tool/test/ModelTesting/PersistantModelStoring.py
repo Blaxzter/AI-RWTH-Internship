@@ -42,7 +42,7 @@ def continue_training_and_store(db, data_manager: DataManager, file_server, back
         ret_backup_features = True
     )
     data_manager.store_model_prediction(file_server.id, model_prediction)
-    db.add_file_server_model(file_server_model.get_storable_components())
+    db.update_file_server_model(file_server_model.get_storable_components())
 
 
 if __name__ == '__main__':
@@ -63,5 +63,5 @@ if __name__ == '__main__':
             db = _db,
             data_manager = _data_manager,
             file_server = _file_server,
-            backup_index = 2
+            backup_index = idx
         )

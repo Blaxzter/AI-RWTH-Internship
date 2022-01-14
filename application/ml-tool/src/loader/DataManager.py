@@ -119,8 +119,13 @@ class DataManager:
         for backup_date, backup_data_list in grouped_by_backup_date.items():
             store_data = IBackupMetaData(
                 backup_date = backup_date,
-                predictions = {model_name: value for model_name, value in
-                               map(lambda x: (x['model_name'], x[Constants.prediction_dict_name]),
+                predictions = {model_name: {
+                    Constants.prediction_dict_name: prediction,
+                    Constants.pred_confidence_dict_name: confidence,
+                    Constants.dist_to_disc_dict_name: dist_to_disc,
+
+                } for model_name, prediction, confidence, dist_to_disc in
+                               map(lambda x: (x['model_name'], x[Constants.prediction_dict_name], x[Constants.pred_confidence_dict_name], x[Constants.dist_to_disc_dict_name]),
                                    filter(lambda x: Constants.prediction_dict_name in x, backup_data_list))
                                },
                 features = get_first_element_by_key(backup_data_list, Constants.backup_features_dict_name),
