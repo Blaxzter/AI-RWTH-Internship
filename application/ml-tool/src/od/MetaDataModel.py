@@ -1,5 +1,4 @@
 import pickle
-from functools import reduce
 from typing import Dict, List, Callable, Optional
 
 import numpy as np
@@ -19,7 +18,7 @@ from src.od.metadata_features.PathFeatures import PathFeatures
 from src.od.metadata_features.UserFeatures import UserFeatures
 from src.od.searchutils.FileTreeDatabase import FileTreeDatabase
 from src.utils import Constants
-from src.utils.Utils import suppressOutput
+from src.utils.Utils import weiben, get_outlier_probabilities
 
 
 class MetaDataModel:
@@ -41,6 +40,7 @@ class MetaDataModel:
         self.feature_extractors = None
         self.feature_list = None
         self.feature_scalers = None
+        self.decision_values = None
 
         self.trained_features = []
         self.clf = None
@@ -77,17 +77,18 @@ class MetaDataModel:
                              IForest(n_estimators = 100),
                              IForest(n_estimators = 150)]
             # https://www.andrew.cmu.edu/user/yuezhao2/papers/21-mlsys-suod.pdf
-            self.clf = SUOD(base_estimators = detector_list, n_jobs = 1, combination = 'average', verbose = Constants.verbose_printing)
+            self.clf = SUOD(base_estimators = detector_list, n_jobs = 1, combination = 'average',
+                            verbose = Constants.verbose_printing)
 
         self.feature_amount = len(self.feature_list)
         self.initialized = True
 
     def get_stored_model(self):
-
         return dict(
             model = pickle.dumps(self.clf),
             trained_features = self.trained_features,
             feature_scalers = pickle.dumps(self.feature_scalers),
+            decision_values = self.decision_values,
             file_database = self.file_database.get_storable_elements(),
         )
 
@@ -103,26 +104,39 @@ class MetaDataModel:
         train_matrix = self.vectorise(meta_data_feature_list = parsed_features, train = True)
         self.clf.fit(train_matrix)
 
+        smallest_score = np.min(self.clf.decision_scores_).item()
+        dec_threshold = self.clf.threshold_.item()
+        biggest_score = np.max(self.clf.decision_scores_).item()
+        self.decision_values = dict(
+            smallest_score = smallest_score,
+            dec_threshold = dec_threshold,
+            biggest_score = biggest_score,
+        )
+
         if ret_features:
             return processed_backup_data
 
     def re_predict(self):
         test_matrix = self.vectorise(self.trained_features, train = False)
         desc_boundary = self.clf.decision_function(test_matrix)
-        prediction, confidence = self.clf.predict(test_matrix, return_confidence=True)
-        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
+        prediction, confidence = self.clf.predict(test_matrix, return_confidence = True)
+        outlier_probabilities = get_outlier_probabilities(desc_boundary, self.decision_values)
+        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), outlier_probabilities.tolist()
 
     def predict(self, backup_data_list, prev_backup_data, add_to_model = False, ret_backup_metadata = True):
         if not self.initialized:
             raise NotInitializedException('The meta data model is not initialized')
 
         processed_backup_data = self.parse_features_of_list(
-            backup_data_list = backup_data_list, prev_backup_metadata = prev_backup_data, keep_prev_file_tree = ret_backup_metadata,
+            backup_data_list = backup_data_list, prev_backup_metadata = prev_backup_data,
+            keep_prev_file_tree = ret_backup_metadata,
         )
         parsed_features = list(map(lambda x: x[Constants.backup_features_dict_name], processed_backup_data))
         test_matrix = self.vectorise(parsed_features, train = False)
         desc_boundary = self.clf.decision_function(test_matrix)
-        prediction, confidence = self.clf.predict(test_matrix, return_confidence=True)
+        prediction, confidence = self.clf.predict(test_matrix, return_confidence = True)
+
+        outlier_probabilities = get_outlier_probabilities(desc_boundary, self.decision_values)
 
         if add_to_model:
             if Constants.verbose_printing:
@@ -138,14 +152,23 @@ class MetaDataModel:
             train_matrix = self.vectorise(meta_data_feature_list = self.trained_features, train = True)
             self.clf.fit(train_matrix)
 
+            smallest_score = np.min(self.clf.decision_scores_).item()
+            biggest_score = np.max(self.clf.decision_scores_).item()
+            dec_threshold = self.clf.threshold_.item()
+            self.decision_values = dict(
+                smallest_score = smallest_score,
+                dec_threshold = dec_threshold,
+                biggest_score = biggest_score,
+            )
+
             # Add the paths to the backup data
             for backup_data in backup_data_list:
                 self.file_database.add_backup_data(backup_data)
 
         if ret_backup_metadata:
-            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), processed_backup_data
+            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), outlier_probabilities.tolist(), processed_backup_data
         else:
-            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
+            return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), outlier_probabilities.tolist()
 
     def vectorise(self, meta_data_feature_list: List[Dict], train = False):
         data_matrix = np.zeros((len(meta_data_feature_list), self.feature_amount))
@@ -179,7 +202,8 @@ class MetaDataModel:
         # Load data for initial run
         if prev_backup_metadata is None:
             self.file_database = FileTreeDatabase(path_separator = self.path_separator, add_user = True)
-            self.feature_extractors = self.create_feature_extractors(None, None, self.file_database, self.path_separator)
+            self.feature_extractors = self.create_feature_extractors(None, None, self.file_database,
+                                                                     self.path_separator)
         else:
             prev_action_data = prev_backup_metadata[Constants.action_data_dict_name]
             prev_file_tree = FileTreeDatabase(path_separator = self.path_separator)

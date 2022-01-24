@@ -7,19 +7,16 @@ import plotly.graph_objects as go
 
 if __name__ == '__main__':
 
-    with open('data_features.pickle', 'rb') as handle:
+    with open('data/data_features.pickle', 'rb') as handle:
         data_features = pickle.load(handle)
-    with open('features.pickle', 'rb') as handle:
+    with open('data/features.pickle', 'rb') as handle:
         features = pickle.load(handle)
 
-    # with open('metadata_model_prediction.pickle', 'rb') as handle:
-    #     re_predict_data = pickle.load(handle)
+    with open('data/prediction.pickle', 'rb') as handle:
+        predictions = pickle.load(handle)
 
-    # with open('metadata_model_prediction.pickle', 'rb') as handle:
-    #     metadata_model_prediction = pickle.load(handle)
-
-    # for prediction, data_feature in zip(metadata_model_prediction, data_features):
-    #     data_feature['prediction'] = prediction
+    for prediction, data_feature in zip(predictions, data_features):
+         data_feature['prediction'] = prediction
 
     # features.append('prediction')
 

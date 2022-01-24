@@ -29,7 +29,7 @@ prediction_dict_name = 'prediction'
 dist_to_disc_dict_name = 'distance_to_decision'
 pred_confidence_dict_name = 'pred_confidence'
 backup_metadata_dict_name = 'backup_metadata'
-
+outlier_probability_dict_name = 'outlier_probability'
 
 def feature_dict_factory():
     return dict(
@@ -40,3 +40,6 @@ def feature_dict_factory():
 
 
 verbose_printing = True
+
+
+

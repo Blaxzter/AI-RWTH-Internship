@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     xx, yy = np.meshgrid(np.linspace(-1, 1, 10), np.linspace(-1, 1, 10))
     test_data2 = np.c_[xx.ravel(), yy.ravel()]
-    test_data2_circle = test_data2[np.where(np.linalg.norm(test_data2, axis = 1) < 1)]
+    test_data2_circle = test_data2[np.where(np.linalg.norm(test_data2, axis = 1) < 0.8)]
     test_data2_circle_rotate = np.tensordot(test_data2_circle, R, axes=([1], [0])) * 3 + 3
 
     test_data = np.concatenate([test_data1_circle_rotate, test_data2_circle_rotate, np.asarray([[-1.9, -1.9]])])
@@ -39,11 +39,11 @@ if __name__ == '__main__':
     data_classes2 = knn.predict(test_data)
 
     fig = plt.figure()
-    ax1 = fig.add_subplot(1, 2, 1)
-    ax2 = fig.add_subplot(1, 2, 2)
+    ax1 = fig.add_subplot(1, 2, 2)
+    ax2 = fig.add_subplot(1, 2, 1)
 
-    ax1.set_title('LOF')
-    ax2.set_title('KNN')
+    ax1.set_title('LOF', fontsize=20)
+    ax2.set_title('KNN', fontsize=20)
 
     xx, yy = np.meshgrid(np.linspace(-5, 5, 500), np.linspace(-5, 5, 500))
     inliers = data_prediction[np.where(data_classes == 0)]
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     Z = knn.decision_function(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     ax2.contourf(xx, yy, Z, levels = np.linspace(Z.min(), outliers.min(), 10), cmap = plt.cm.Reds_r)
-    ax2.contour(xx, yy, Z, levels = [outliers.min()], linewidths = 2, colors = "darkred")
+    ax2.contour(xx, yy, Z, levels = [outliers.min()], linewidths = 2, colors = "darkred", label = "Decision boundary")
     ax2.contourf(xx, yy, Z, levels = np.linspace(outliers.min(), Z.max(), 7), cmap = plt.cm.PuBu)
 
     ax1.scatter(test_data[:, 0],
@@ -80,4 +80,9 @@ if __name__ == '__main__':
 
     ax1.legend(handles=legend_elements, loc = 'upper left')
     ax2.legend(handles=legend_elements, loc = 'upper left')
+    ax1.set_xlim(left = -5, right = 5)
+    ax2.set_xlim(left = -5, right = 5)
+    ax1.set_ylim(bottom = -5, top = 5)
+    ax2.set_ylim(bottom = -5, top = 5)
+
     plt.show()

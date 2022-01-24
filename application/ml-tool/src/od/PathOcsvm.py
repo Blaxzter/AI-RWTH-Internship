@@ -3,17 +3,16 @@ from typing import Optional, Dict
 
 import numpy as np
 import scipy
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler
 from pyod.models.ocsvm import OCSVM
 from tqdm.auto import tqdm
 
-import math
 
 from src.Exceptions import DataNotLoaded, OCSVMNotTrained, NotInitializedException
 import pickle
 
-from src.loader.database.dbmodels.IFileServerModel import IFileServerModel
 from src.utils import Constants
+from src.utils.Utils import get_outlier_probabilities
 
 
 class PathOCSVM:
@@ -28,6 +27,7 @@ class PathOCSVM:
         self.train_matrix = None
         self.trained_gram_matrix = None
         self.distances = None
+        self.decision_values = None
 
         # The data index describes which element of the path to use in the classification
         self.path_separator = path_separator
@@ -42,9 +42,11 @@ class PathOCSVM:
             vocab = stored_data['vocab']
             distances = stored_data['distances']
             trained_gram_matrix = stored_data['trained_gram_matrix']
+            decision_values = stored_data['decision_values']
 
             self.svm = pickle.loads(svm)
             self.scaler = pickle.loads(scaler)
+            self.decision_values = decision_values
             self.train_matrix = list(map(lambda x: np.asarray(x), train_matrix))
             self.trained_gram_matrix = pickle.loads(trained_gram_matrix)
             self.vocab = vocab
@@ -73,13 +75,22 @@ class PathOCSVM:
         self.scaler.fit(self.trained_gram_matrix)
         transformed_train_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
         self.svm.fit(transformed_train_gram_matrix)
-        self.distances = list(self.svm.decision_function(transformed_train_gram_matrix))
+
+        smallest_score = np.min(self.svm.decision_scores_).item()
+        dec_threshold = self.svm.threshold_.item()
+        biggest_score = np.max(self.svm.decision_scores_).item()
+        self.decision_values = dict(
+            smallest_score = smallest_score,
+            dec_threshold = dec_threshold,
+            biggest_score = biggest_score,
+        )
 
     def re_predict(self):
         transformed_test_gram_matrix = self.scaler.transform(self.trained_gram_matrix)
         desc_boundary = self.svm.decision_function(transformed_test_gram_matrix)
         prediction, confidence = self.svm.predict(transformed_test_gram_matrix, return_confidence = True)
-        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist()
+        outlier_probabilities = get_outlier_probabilities(desc_boundary, self.decision_values)
+        return prediction.tolist(), confidence.tolist(), desc_boundary.tolist(), outlier_probabilities.tolist()
 
     def predict(self, test_backup_data, continues_training = True):
         if not self.initialized:
@@ -96,11 +107,7 @@ class PathOCSVM:
         test_dec = self.svm.decision_function(transformed_test_gram_matrix)
         prediction, confidence = self.svm.predict(transformed_test_gram_matrix, return_confidence = True)
 
-        complete_distances = [element for element in self.distances]
-        complete_distances.append(test_dec.item())
-
-        max_value = np.max(complete_distances)
-        distance_to_max = np.abs(max_value - test_dec)
+        outlier_probabilities = get_outlier_probabilities(test_dec, self.decision_values)
 
         if continues_training:
             if Constants.verbose_printing:
@@ -112,9 +119,17 @@ class PathOCSVM:
             if Constants.verbose_printing:
                 print(transformed_train_gram_matrix.shape)
             self.svm.fit(transformed_train_gram_matrix)
-            self.distances = list(self.svm.decision_function(transformed_train_gram_matrix))
 
-        return prediction.tolist(), confidence.tolist(), np.nan_to_num(1 - 1 / np.sqrt(distance_to_max), neginf = 0).tolist()
+            smallest_score = np.min(self.svm.decision_scores_).item()
+            dec_threshold = self.svm.threshold_.item()
+            biggest_score = np.max(self.svm.decision_scores_).item()
+            self.decision_values = dict(
+                smallest_score = smallest_score,
+                dec_threshold = dec_threshold,
+                biggest_score = biggest_score,
+            )
+
+        return prediction.tolist(), confidence.tolist(), test_dec.tolist(), outlier_probabilities.tolist()
 
     def preprocess(self, backup_data_list):
 
@@ -173,6 +188,7 @@ class PathOCSVM:
             train_matrix = list(map(lambda x: x.tolist(), self.train_matrix)),
             vocab = self.vocab,
             distances = self.distances,
+            decision_values = self.decision_values,
             trained_gram_matrix = pickle.dumps(self.trained_gram_matrix)
         )
 
@@ -215,5 +231,6 @@ class PathOCSVM:
                 gram_matrix[i, j] = self.occurrence_vectorized(X[i], comp_vec = Y[j]).sum()
 
             return gram_matrix
+
 
 

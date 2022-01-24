@@ -8,9 +8,10 @@ from src.od.FileServerModel import FileServerModel
 from src.utils import Constants
 
 if __name__ == '__main__':
+    Constants.verbose_printing = False
     db = MongoDBConnector()
-    db.reset_data()
-    create_example_server(db)
+    # db.reset_data()
+    # create_example_server(db)
     file_server = db.get_file_server_by_name(name = Constants.test_file_server_name)
 
     data_manager = DataManager(db)
@@ -18,7 +19,7 @@ if __name__ == '__main__':
 
     server_id = file_server.id
 
-    file_server_model = FileServerModel(server_id, use_meta_data_features = False)
+    file_server_model = FileServerModel(server_id, use_meta_data_features = True)
     file_server_model.initialize_model(None)
     received_data = file_server_model.fit(backup_data_collection = [
         data_manager.get_by_index(0),
@@ -26,9 +27,15 @@ if __name__ == '__main__':
     ])
 
     model_ret_data = {model_name: [] for model_name in file_server_model.get_used_models()}
+
     for model_name, model_data in received_data.items():
         for model_rets in model_data:
             model_ret_data[model_name].append(model_rets)
+
+    amount_to_append_to_empty = max(list(map(len, received_data.values())))
+    for model_name, model_data in model_ret_data.items():
+        if len(model_ret_data[model_name]) == 0:
+            model_ret_data[model_name] = [{} for _ in range(amount_to_append_to_empty)]
 
     data_iterator, data_amount = data_manager.get_iterator(start = 2)
     for backup_date, backed_up_files in tqdm(data_iterator, total = data_amount):
@@ -53,9 +60,16 @@ if __name__ == '__main__':
 
     model_predictions = {
         model_name: list(
-            map(lambda x: None if 'prediction' not in x else x['prediction'], model_data)
+            map(lambda x:
+                dict(
+                    prediction = None if 'prediction' not in x else x['prediction'],
+                    distance_to_decision = None if 'distance_to_decision' not in x else x['distance_to_decision'],
+                    pred_confidence = None if 'pred_confidence' not in x else x['pred_confidence'],
+                    outlier_probability = None if 'outlier_probability' not in x else x['outlier_probability'],
+                ), model_data)
         ) for model_name, model_data in model_ret_data.items()
     }
+
     with open('../Visualization/prediction.pickle', 'wb') as handle:
         pickle.dump(model_predictions, handle, protocol = pickle.HIGHEST_PROTOCOL)
 

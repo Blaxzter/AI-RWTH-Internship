@@ -56,9 +56,13 @@ class PathFeatures(IFeatureExtractor):
         self.create_graph_representation(path_lists)
         self.count_file_endings(path_lists)
         self.not_previously_stored(path_list)
+        self.calc_cross_section(path_list)
         self.features_calculated = True
 
-    def cross_section(self, path_list):
+    def calc_cross_section(self, path_list):
+        if self.prev_backup is None:
+            return
+
         for path in path_list:
             if path in self.prev_backup:
                 self.cross_section += 1
@@ -96,10 +100,10 @@ class PathFeatures(IFeatureExtractor):
                 # Set next prev node
                 prev_node = next_node_id
 
-        # TODO Currently it counts the folder amount
         # Count diff folders by going over each note and counting if it has children (beeing a folder)
         self.diff_folders_amount = sum(
-            map(lambda node: 0 if len(self.file_graph[node]) == 0 else 1, self.file_graph.nodes()))
+            map(lambda node: 0 if len(self.file_graph[node]) == 0 else 1, self.file_graph.nodes())
+        )
 
         # Calc the graph metadata_features
         branching_list = np.asarray(list(map(lambda node: len(self.file_graph[node]) - 1, self.file_graph.nodes())))

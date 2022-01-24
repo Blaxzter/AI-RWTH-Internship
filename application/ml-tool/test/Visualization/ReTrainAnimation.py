@@ -3,7 +3,7 @@ import pickle
 import plotly.graph_objects as go
 
 if __name__ == '__main__':
-    with open('re_predict_data.pickle', 'rb') as handle:
+    with open('data/re_predict_data.pickle', 'rb') as handle:
         re_predict_data = pickle.load(handle)
 
     fig = go.Figure(
