@@ -16,3 +16,8 @@ This internship further addressed a design concept for deploying the components 
 
 The evaluation of is these approaches on commit data of a large git project parsed into backup formats showed how the two methods classified the backups by their respective features and isolated different characteristics as outliers. 
 The models further provide an outlier probability coupled with the model’s certainty for the prediction.
+
+## Overview
+
+![Application_Schematic](https://github.com/Blaxzter/AI-RWTH-Internship/blob/main/diagrams/svg/Deploymentplan.svg?raw=true)
+
